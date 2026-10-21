@@ -1,0 +1,47 @@
+{
+  "frozen": 1791611957.669559,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-structx-development-a-v2",
+      "folder": "hutter-r14-structx-development-a-v2",
+      "main_sha256": "e9c287e2ed18ef7d04826ff2489576496163ea10a4e91f6e75cd6ba76e52483f",
+      "workers": 4,
+      "modes": [
+        1,
+        2
+      ],
+      "region_ids": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "role": "development"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-structx-development-b-v2",
+      "folder": "hutter-r14-structx-development-b-v2",
+      "main_sha256": "8e08133304834cb70d0b25a07f5fc6ca2f31b0a17de3d9c90f07f71da4d06d0f",
+      "workers": 4,
+      "modes": [
+        3,
+        0
+      ],
+      "region_ids": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "role": "development"
+    }
+  ],
+  "source_sha256": "be27afb60c71d19ee6f25094b7a59cb881741bcd87fafe2b11d419a113e9a7c7",
+  "asset_manifest_sha256": "0ec19431b1c58e0f79d5826f451a3b3f9e87e4fd2b6717840568e4a0b5018747",
+  "protocol_sha256": "716496f0f017609d3623a1b1400f12b2e2ff58976bafe99124d8a20e0bcbe8b3",
+  "addendum_sha256": "1e19af59846b09d421635b6b424f52538565c1b10b3c69006d69822e3faeb908",
+  "kernels_zip_sha256": "30f6a14acbc4beabeff760ef8fa8502467cdf46845bc62074f6ccae9c2ffbf2f",
+  "gpu": false,
+  "workers_per_job": 4,
+  "deadline_hours": 10.3
+}

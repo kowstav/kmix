@@ -1,0 +1,39 @@
+{
+  "scope": "closed 32-word dictionary control; dictionary/common framing excluded equally; no article compression claim",
+  "results": [
+    {
+      "policy": "direct_rank",
+      "archive_bytes": 20,
+      "ideal_bits": 155.90914074850684,
+      "words": 32,
+      "roundtrip": true
+    },
+    {
+      "policy": "modal",
+      "archive_bytes": 20,
+      "ideal_bits": 155.9091407485068,
+      "queries": 47,
+      "words": 32,
+      "roundtrip": true,
+      "seconds": 0.03540349006652832
+    },
+    {
+      "policy": "random",
+      "archive_bytes": 20,
+      "ideal_bits": 155.90914074850681,
+      "queries": 75,
+      "words": 32,
+      "roundtrip": true,
+      "seconds": 0.0907444953918457
+    },
+    {
+      "policy": "information_gain",
+      "archive_bytes": 20,
+      "ideal_bits": 155.90914074850687,
+      "queries": 42,
+      "words": 32,
+      "roundtrip": true,
+      "seconds": 0.9121232032775879
+    }
+  ]
+}

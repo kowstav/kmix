@@ -1,0 +1,29 @@
+{
+  "status": "FAIL",
+  "utc_started": "2026-10-05T13:07:24.226262+00:00",
+  "stage": "failed; source/models/logs preserved; no automatic relaunch",
+  "controls": [],
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "scope": "Laboratory identity trace/decode gates; not qualifying package or compression gain",
+  "sources": {
+    "archive_sha256": "1bec8a5ade1a76c65a7db0ee1619fbde0a1fd2ccf4d8245dfcf83b8f383ef058",
+    "original_instrumented_interfaces_sha256": {
+      "src/coder/encoder.cpp": "99b45b0258056438035c82cb202e0d525268b146a7fe3f3647a56f7ab30d2d09",
+      "src/runner.cpp": "cb3197677ec7f897273aa53b10e94680f7accc9c7fb2462e3fe3b5f3f153cb76"
+    },
+    "patched_interfaces_sha256": {
+      "src/coder/encoder.cpp": "f613f3d10c531d2d2f233a71042436b3cf1365b31c98eca7e9347dbe30080601",
+      "src/runner.cpp": "081de3983054c5dc53b561b037180a4f636bc8aae67171954afeb54cad38dc53"
+    },
+    "makefile_sha256": "3d267ee844cebb53ecd1965a4b814fc7bc8f6391c47c50fb11efb3ddd244615b"
+  },
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "classical_flags": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "transformer_flags": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "binary_sha256": "d906d0f2e98c1f5d0d3c1f3ca893b2190750b4bd708b9e001382c7330381c76e",
+  "binary_bytes": 496320,
+  "weights_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+  "error": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py\", line 168, in main\n    runs[mode] = timed([str(program), '-n', '--transformer', str(weights), str(inp), 'out.cmx'], d, e, n + '_' + mode)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py\", line 113, in timed\n    subprocess.run(['/usr/bin/time', '-v', '-o', str(tf), *cmd], cwd=cwd, env=env,\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/time'\n"
+}

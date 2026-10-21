@@ -1,0 +1,12 @@
+{
+  "status": "FAIL",
+  "pid": 2863,
+  "started": 1791315412.629856,
+  "spending_usd": 0,
+  "deletions": [],
+  "scratch": "/root/hp_round9/model_order_v1",
+  "models": [],
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round9/research_round9_model_order_worker.py\", line 17, in <module>\n    base=pathlib.Path('/kaggle/working/hp_round7/lex_audit/lex_h1_run11.tfwc2');ordered_original=read_tensor_file_v2(str(base));order=list(ordered_original);m['original_order']=order;m['original_model_bytes']=base.stat().st_size;m['original_model_sha256']=sha(base)\n                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/weights_compress.py\", line 564, in read_tensor_file_v2\n    assert f.read(8) == MAGIC_V2\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "stage": "failure preserved"
+}

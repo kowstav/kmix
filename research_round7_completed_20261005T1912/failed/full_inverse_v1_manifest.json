@@ -1,0 +1,9 @@
+{
+  "status": "FAIL",
+  "pid": 1157,
+  "utc": "2026-10-05T18:45:40.398726+00:00",
+  "scope": "original FX2 WRT/PHDA/article-order inverse, not entropy-coded full archive",
+  "paid_rental_usd": 0,
+  "error": "CalledProcessError(1, ['g++', '-O2', '-std=c++17', '-ffunction-sections', '-fdata-sections', '-Wl,--gc-sections', '-I.', '/root/hp/full_inverse_v1/source/inverse.cpp', '/root/hp/full_inverse_v1/source/src/preprocess/preprocessor.cpp', '/root/hp/full_inverse_v1/source/src/preprocess/dictionary.cpp', '-o', '/kaggle/working/hp_round7/full_inverse_v1/inverse'])",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_full_inverse_worker.py\", line 32, in <module>\n    with (D/'build.log').open('x') as log:subprocess.run(cmd,cwd=src,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=300)\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['g++', '-O2', '-std=c++17', '-ffunction-sections', '-fdata-sections', '-Wl,--gc-sections', '-I.', '/root/hp/full_inverse_v1/source/inverse.cpp', '/root/hp/full_inverse_v1/source/src/preprocess/preprocessor.cpp', '/root/hp/full_inverse_v1/source/src/preprocess/dictionary.cpp', '-o', '/kaggle/working/hp_round7/full_inverse_v1/inverse']' returned non-zero exit status 1.\n"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_PINNED_COMPILER_AVAILABLE",
+  "pid": 128,
+  "started": 1791546230.3728023,
+  "deletions": [],
+  "source": "https://apt.llvm.org/",
+  "changes": [
+    "/usr/share/keyrings/hp-round14-llvm17.asc",
+    "/etc/apt/sources.list.d/hp-round14-llvm17.list"
+  ],
+  "key_sha256": "8b2a587ffd672c4687e7581dad4b2f6c1bb2ad6b480cd9771ba2ff48e0b8c75d",
+  "key_fingerprint": "6084F3CF814B57C1CF12EFD515CF4D18AF4F7421",
+  "action": "INSTALLED_SIGNED_CLANG17_AND_LLD17",
+  "finished": 1791546250.283125,
+  "clang_version": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "lld_version": "Ubuntu LLD 17.0.6 (compatible with GNU linkers)"
+}

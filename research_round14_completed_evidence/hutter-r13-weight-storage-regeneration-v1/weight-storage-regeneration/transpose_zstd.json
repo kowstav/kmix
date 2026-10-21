@@ -1,0 +1,16 @@
+{
+  "layout": "transpose",
+  "codec": "zstd",
+  "model_bytes": 3291941,
+  "sha256": "e82c2502028824c8c22c58abc19cc6a2283bec1582b043f7da4b618ddf2da86a",
+  "CPU_lane": 3,
+  "worker_pid": 26,
+  "wall_seconds": 25.625509475000058,
+  "worker_CPU_seconds": 22.271555999999993,
+  "peak_RSS_KiB": 721924,
+  "native_all_435_tensor_identity": true,
+  "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+  "saving_per_copy_before_decoder_code": -313902,
+  "regeneration_verified_before_omission": true,
+  "production_decoder_not_qualified": true
+}

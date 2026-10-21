@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.6.attention.output_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.6.attention.output_gate_projection.up.weight.scale"
+  ],
+  "label": "178a2a9e22f8a494543e59e3",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 267
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 315
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 258
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 246
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 292
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 242
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 267
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 315
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 258
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 267
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 315
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 258
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 267
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 315
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 258
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 282
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 277
+    }
+  ],
+  "selected": [
+    242,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "3ea49feac5d775404bd37d66c497d624ba346fa89c140bd6ffecc900267f3375",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.007821000000000383,
+  "wall_seconds": 0.013301093999984914
+}

@@ -1,0 +1,554 @@
+{
+  "time": 1791608758.6577075,
+  "scope": "same-host counterbalanced timing of unchanged confirmation binaries on regions 8 and 9; four pairs per arm; descriptive only; regional RSS does not qualify the full stream",
+  "arms": {
+    "prune_word": {
+      "manifest": "research_round14_confirmation_compact_timing-20261010-0504_evidence\\hutter-r14-prune-word-timing-abba-v1\\timing-abba-prune_word\\manifest.json",
+      "manifest_sha256": "0a6c95e14f90221460941a1185734a8cb56e1b5af25d9e22bac68dcd52c4b954",
+      "wall_hours": 5.149860822227266,
+      "effective_cores": 3.9061907485836973,
+      "pairs": [
+        {
+          "region": 8,
+          "order": "AB",
+          "CPU_lane": 0,
+          "encode_neutral_CPU_s": 4399.375675,
+          "encode_arm_CPU_s": 4468.01216,
+          "encode_CPU_saved_s": -68.636485,
+          "decode_neutral_CPU_s": 4213.05587,
+          "decode_arm_CPU_s": 4792.941485,
+          "decode_CPU_saved_s": -579.8856150000001,
+          "encode_RSS_saved_KiB": 42752,
+          "decode_RSS_saved_KiB": 42684,
+          "reference_match": {
+            "neutral": true,
+            "prune_word": true
+          }
+        },
+        {
+          "region": 8,
+          "order": "BA",
+          "CPU_lane": 1,
+          "encode_neutral_CPU_s": 4799.548802,
+          "encode_arm_CPU_s": 4154.075508,
+          "encode_CPU_saved_s": 645.4732940000004,
+          "decode_neutral_CPU_s": 4708.960787,
+          "decode_arm_CPU_s": 4570.3839849999995,
+          "decode_CPU_saved_s": 138.5768020000005,
+          "encode_RSS_saved_KiB": 42792,
+          "decode_RSS_saved_KiB": 42732,
+          "reference_match": {
+            "neutral": true,
+            "prune_word": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "AB",
+          "CPU_lane": 2,
+          "encode_neutral_CPU_s": 4463.671287,
+          "encode_arm_CPU_s": 4457.230171,
+          "encode_CPU_saved_s": 6.441115999999965,
+          "decode_neutral_CPU_s": 4273.497310999999,
+          "decode_arm_CPU_s": 4763.452044,
+          "decode_CPU_saved_s": -489.9547330000005,
+          "encode_RSS_saved_KiB": 42700,
+          "decode_RSS_saved_KiB": 42644,
+          "reference_match": {
+            "neutral": true,
+            "prune_word": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "BA",
+          "CPU_lane": 3,
+          "encode_neutral_CPU_s": 4830.4610139999995,
+          "encode_arm_CPU_s": 4244.863429,
+          "encode_CPU_saved_s": 585.5975849999995,
+          "decode_neutral_CPU_s": 4748.855095,
+          "decode_arm_CPU_s": 4446.843313,
+          "decode_CPU_saved_s": 302.0117819999996,
+          "encode_RSS_saved_KiB": 42968,
+          "decode_RSS_saved_KiB": 42712,
+          "reference_match": {
+            "neutral": true,
+            "prune_word": true
+          }
+        }
+      ],
+      "encode": {
+        "per_pair_CPU_saved_s": [
+          -68.636485,
+          645.4732940000004,
+          6.441115999999965,
+          585.5975849999995
+        ],
+        "order_balanced_mean_CPU_saved_s": 292.21887749999996,
+        "per_region_mean_CPU_saved_s": {
+          "8": 288.4184045000002,
+          "9": 296.01935049999975
+        },
+        "CPU_reduction_percent": 6.320618186770161,
+        "position_effect_second_minus_first_s": 323.316562,
+        "per_pair_reduction_percent": [
+          -1.5601414853029116,
+          13.448624456762015,
+          0.1443008587742354,
+          12.123016484405468
+        ],
+        "signs": {
+          "positive": 3,
+          "negative": 1
+        },
+        "min_max_CPU_saved_s": [
+          -68.636485,
+          645.4732940000004
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "decode": {
+        "per_pair_CPU_saved_s": [
+          -579.8856150000001,
+          138.5768020000005,
+          -489.9547330000005,
+          302.0117819999996
+        ],
+        "order_balanced_mean_CPU_saved_s": -157.31294100000014,
+        "per_region_mean_CPU_saved_s": {
+          "8": -220.65440649999982,
+          "9": -93.97147550000045
+        },
+        "CPU_reduction_percent": -3.5066809080374552,
+        "position_effect_second_minus_first_s": 377.6072330000002,
+        "per_pair_reduction_percent": [
+          -13.764014361385625,
+          2.942831938260532,
+          -11.464959431210008,
+          6.359675668309681
+        ],
+        "signs": {
+          "positive": 2,
+          "negative": 2
+        },
+        "min_max_CPU_saved_s": [
+          -579.8856150000001,
+          302.0117819999996
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "RSS_saved_KiB_mean": 42803
+    },
+    "prune_match": {
+      "manifest": "research_round14_confirmation_compact_timing-20261010-0504_evidence\\hutter-r14-prune-match-timing-abba-v1\\timing-abba-prune_match\\manifest.json",
+      "manifest_sha256": "3313bc1e3567ae2469f0077cb83b37800a76daa7cd8fd02a9e8ce26c254d6143",
+      "wall_hours": 4.495887683166398,
+      "effective_cores": 3.9370924171679778,
+      "pairs": [
+        {
+          "region": 8,
+          "order": "AB",
+          "CPU_lane": 0,
+          "encode_neutral_CPU_s": 3985.726025,
+          "encode_arm_CPU_s": 3991.3770029999996,
+          "encode_CPU_saved_s": -5.650977999999668,
+          "decode_neutral_CPU_s": 3945.545215,
+          "decode_arm_CPU_s": 3958.222403,
+          "decode_CPU_saved_s": -12.677188000000115,
+          "encode_RSS_saved_KiB": 24264,
+          "decode_RSS_saved_KiB": 24188,
+          "reference_match": {
+            "neutral": true,
+            "prune_match": true
+          }
+        },
+        {
+          "region": 8,
+          "order": "BA",
+          "CPU_lane": 1,
+          "encode_neutral_CPU_s": 3952.938607,
+          "encode_arm_CPU_s": 3847.6056989999997,
+          "encode_CPU_saved_s": 105.33290800000032,
+          "decode_neutral_CPU_s": 4157.379484,
+          "decode_arm_CPU_s": 3883.262409,
+          "decode_CPU_saved_s": 274.1170750000001,
+          "encode_RSS_saved_KiB": 24484,
+          "decode_RSS_saved_KiB": 24440,
+          "reference_match": {
+            "neutral": true,
+            "prune_match": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "AB",
+          "CPU_lane": 2,
+          "encode_neutral_CPU_s": 4051.1274949999997,
+          "encode_arm_CPU_s": 3932.129062,
+          "encode_CPU_saved_s": 118.99843299999975,
+          "decode_neutral_CPU_s": 3968.9346210000003,
+          "decode_arm_CPU_s": 3949.377488,
+          "decode_CPU_saved_s": 19.55713300000025,
+          "encode_RSS_saved_KiB": 24576,
+          "decode_RSS_saved_KiB": 24328,
+          "reference_match": {
+            "neutral": true,
+            "prune_match": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "BA",
+          "CPU_lane": 3,
+          "encode_neutral_CPU_s": 4137.2045339999995,
+          "encode_arm_CPU_s": 3876.830703,
+          "encode_CPU_saved_s": 260.3738309999994,
+          "decode_neutral_CPU_s": 4158.871758,
+          "decode_arm_CPU_s": 3845.177292,
+          "decode_CPU_saved_s": 313.6944660000004,
+          "encode_RSS_saved_KiB": 24568,
+          "decode_RSS_saved_KiB": 24284,
+          "reference_match": {
+            "neutral": true,
+            "prune_match": true
+          }
+        }
+      ],
+      "encode": {
+        "per_pair_CPU_saved_s": [
+          -5.650977999999668,
+          105.33290800000032,
+          118.99843299999975,
+          260.3738309999994
+        ],
+        "order_balanced_mean_CPU_saved_s": 119.76354849999996,
+        "per_region_mean_CPU_saved_s": {
+          "8": 49.840965000000324,
+          "9": 189.6861319999996
+        },
+        "CPU_reduction_percent": 2.9705109021228924,
+        "position_effect_second_minus_first_s": 63.089820999999915,
+        "per_pair_reduction_percent": [
+          -0.14178039244430174,
+          2.6646735118393483,
+          2.9374151553331886,
+          6.293472533451483
+        ],
+        "signs": {
+          "positive": 3,
+          "negative": 1
+        },
+        "min_max_CPU_saved_s": [
+          -5.650977999999668,
+          260.3738309999994
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "decode": {
+        "per_pair_CPU_saved_s": [
+          -12.677188000000115,
+          274.1170750000001,
+          19.55713300000025,
+          313.6944660000004
+        ],
+        "order_balanced_mean_CPU_saved_s": 148.67287150000016,
+        "per_region_mean_CPU_saved_s": {
+          "8": 130.7199435,
+          "9": 166.6257995000003
+        },
+        "CPU_reduction_percent": 3.6639845928202037,
+        "position_effect_second_minus_first_s": 145.2328990000001,
+        "per_pair_reduction_percent": [
+          -0.3213038327834779,
+          6.593506223210104,
+          0.4927552320091555,
+          7.542778047834203
+        ],
+        "signs": {
+          "positive": 3,
+          "negative": 1
+        },
+        "min_max_CPU_saved_s": [
+          -12.677188000000115,
+          313.6944660000004
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "RSS_saved_KiB_mean": 24473
+    },
+    "prune_indirect": {
+      "manifest": "research_round14_confirmation_compact_timing-20261010-0504_evidence\\hutter-r14-prune-indirect-timing-abba-v1\\timing-abba-prune_indirect\\manifest.json",
+      "manifest_sha256": "41e6af5791c26273f6564f5aada686f304f4fbbc6e6599032094d4db42e50a75",
+      "wall_hours": 2.2506918713119295,
+      "effective_cores": 3.949990748763797,
+      "pairs": [
+        {
+          "region": 8,
+          "order": "AB",
+          "CPU_lane": 0,
+          "encode_neutral_CPU_s": 1981.1681800000001,
+          "encode_arm_CPU_s": 1962.527632,
+          "encode_CPU_saved_s": 18.64054800000008,
+          "decode_neutral_CPU_s": 1944.718285,
+          "decode_arm_CPU_s": 2070.098434,
+          "decode_CPU_saved_s": -125.38014900000007,
+          "encode_RSS_saved_KiB": 632,
+          "decode_RSS_saved_KiB": 948,
+          "reference_match": {
+            "neutral": true,
+            "prune_indirect": true
+          }
+        },
+        {
+          "region": 8,
+          "order": "BA",
+          "CPU_lane": 1,
+          "encode_neutral_CPU_s": 2029.279291,
+          "encode_arm_CPU_s": 1921.723389,
+          "encode_CPU_saved_s": 107.55590200000006,
+          "decode_neutral_CPU_s": 2157.433014,
+          "decode_arm_CPU_s": 1860.959623,
+          "decode_CPU_saved_s": 296.4733910000002,
+          "encode_RSS_saved_KiB": 872,
+          "decode_RSS_saved_KiB": 912,
+          "reference_match": {
+            "neutral": true,
+            "prune_indirect": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "AB",
+          "CPU_lane": 3,
+          "encode_neutral_CPU_s": 1987.025693,
+          "encode_arm_CPU_s": 1976.8214249999999,
+          "encode_CPU_saved_s": 10.204268000000184,
+          "decode_neutral_CPU_s": 1926.2971559999999,
+          "decode_arm_CPU_s": 2110.2781680000003,
+          "decode_CPU_saved_s": -183.98101200000042,
+          "encode_RSS_saved_KiB": 732,
+          "decode_RSS_saved_KiB": 1088,
+          "reference_match": {
+            "neutral": true,
+            "prune_indirect": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "BA",
+          "CPU_lane": 2,
+          "encode_neutral_CPU_s": 2023.2923329999999,
+          "encode_arm_CPU_s": 1977.397359,
+          "encode_CPU_saved_s": 45.89497399999982,
+          "decode_neutral_CPU_s": 2103.497732,
+          "decode_arm_CPU_s": 1926.752608,
+          "decode_CPU_saved_s": 176.7451239999998,
+          "encode_RSS_saved_KiB": 1100,
+          "decode_RSS_saved_KiB": 464,
+          "reference_match": {
+            "neutral": true,
+            "prune_indirect": true
+          }
+        }
+      ],
+      "encode": {
+        "per_pair_CPU_saved_s": [
+          18.64054800000008,
+          107.55590200000006,
+          10.204268000000184,
+          45.89497399999982
+        ],
+        "order_balanced_mean_CPU_saved_s": 45.573923000000036,
+        "per_region_mean_CPU_saved_s": {
+          "8": 63.09822500000007,
+          "9": 28.049621000000002
+        },
+        "CPU_reduction_percent": 2.272796680917601,
+        "position_effect_second_minus_first_s": 31.151514999999904,
+        "per_pair_reduction_percent": [
+          0.9408867045300556,
+          5.3002020213293575,
+          0.5135448442336867,
+          2.2683313355885595
+        ],
+        "signs": {
+          "positive": 4,
+          "negative": 0
+        },
+        "min_max_CPU_saved_s": [
+          10.204268000000184,
+          107.55590200000006
+        ],
+        "all_four_pairs_same_sign": true
+      },
+      "decode": {
+        "per_pair_CPU_saved_s": [
+          -125.38014900000007,
+          296.4733910000002,
+          -183.98101200000042,
+          176.7451239999998
+        ],
+        "order_balanced_mean_CPU_saved_s": 40.96433849999988,
+        "per_region_mean_CPU_saved_s": {
+          "8": 85.54662100000007,
+          "9": -3.617944000000307
+        },
+        "CPU_reduction_percent": 2.01498325532389,
+        "position_effect_second_minus_first_s": 195.64491900000013,
+        "per_pair_reduction_percent": [
+          -6.447213972691169,
+          13.741951155661708,
+          -9.551019240564171,
+          8.402439485016751
+        ],
+        "signs": {
+          "positive": 2,
+          "negative": 2
+        },
+        "min_max_CPU_saved_s": [
+          -183.98101200000042,
+          296.4733910000002
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "RSS_saved_KiB_mean": 834
+    },
+    "output_fp32": {
+      "manifest": "research_round14_confirmation_compact_timing-20261010-0504_evidence\\hutter-r14-output-fp32-timing-abba-v1\\timing-abba-output_fp32\\manifest.json",
+      "manifest_sha256": "e79d275f7058fbe430d329b9d6f11ca1b0c37f1e78763c6616f6a1834a5a0f51",
+      "wall_hours": 4.633694066339069,
+      "effective_cores": 3.9374069792832143,
+      "pairs": [
+        {
+          "region": 8,
+          "order": "AB",
+          "CPU_lane": 0,
+          "encode_neutral_CPU_s": 4180.727466,
+          "encode_arm_CPU_s": 3926.651729,
+          "encode_CPU_saved_s": 254.07573700000012,
+          "decode_neutral_CPU_s": 3866.462718,
+          "decode_arm_CPU_s": 4344.742532,
+          "decode_CPU_saved_s": -478.279814,
+          "encode_RSS_saved_KiB": -260,
+          "decode_RSS_saved_KiB": -228,
+          "reference_match": {
+            "neutral": true,
+            "output_fp32": true
+          }
+        },
+        {
+          "region": 8,
+          "order": "BA",
+          "CPU_lane": 1,
+          "encode_neutral_CPU_s": 3959.4771499999997,
+          "encode_arm_CPU_s": 4143.664714,
+          "encode_CPU_saved_s": -184.18756399999984,
+          "decode_neutral_CPU_s": 4482.634862,
+          "decode_arm_CPU_s": 3789.058101,
+          "decode_CPU_saved_s": 693.5767609999998,
+          "encode_RSS_saved_KiB": -148,
+          "decode_RSS_saved_KiB": -4,
+          "reference_match": {
+            "neutral": true,
+            "output_fp32": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "AB",
+          "CPU_lane": 2,
+          "encode_neutral_CPU_s": 4217.7810899999995,
+          "encode_arm_CPU_s": 4059.0899210000002,
+          "encode_CPU_saved_s": 158.69116899999926,
+          "decode_neutral_CPU_s": 3906.203032,
+          "decode_arm_CPU_s": 4269.92418,
+          "decode_CPU_saved_s": -363.7211480000001,
+          "encode_RSS_saved_KiB": 12,
+          "decode_RSS_saved_KiB": -104,
+          "reference_match": {
+            "neutral": true,
+            "output_fp32": true
+          }
+        },
+        {
+          "region": 9,
+          "order": "BA",
+          "CPU_lane": 3,
+          "encode_neutral_CPU_s": 4134.0460889999995,
+          "encode_arm_CPU_s": 4120.792227,
+          "encode_CPU_saved_s": 13.253861999999572,
+          "decode_neutral_CPU_s": 4361.830978999999,
+          "decode_arm_CPU_s": 3837.7127990000004,
+          "decode_CPU_saved_s": 524.118179999999,
+          "encode_RSS_saved_KiB": 8,
+          "decode_RSS_saved_KiB": 0,
+          "reference_match": {
+            "neutral": true,
+            "output_fp32": true
+          }
+        }
+      ],
+      "encode": {
+        "per_pair_CPU_saved_s": [
+          254.07573700000012,
+          -184.18756399999984,
+          158.69116899999926,
+          13.253861999999572
+        ],
+        "order_balanced_mean_CPU_saved_s": 60.45830099999978,
+        "per_region_mean_CPU_saved_s": {
+          "8": 34.94408650000014,
+          "9": 85.97251549999942
+        },
+        "CPU_reduction_percent": 1.4663639205044299,
+        "position_effect_second_minus_first_s": -145.9251519999999,
+        "per_pair_reduction_percent": [
+          6.077309249796483,
+          -4.6518153034422705,
+          3.762432559059135,
+          0.320602666604658
+        ],
+        "signs": {
+          "positive": 3,
+          "negative": 1
+        },
+        "min_max_CPU_saved_s": [
+          -184.18756399999984,
+          254.07573700000012
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "decode": {
+        "per_pair_CPU_saved_s": [
+          -478.279814,
+          693.5767609999998,
+          -363.7211480000001,
+          524.118179999999
+        ],
+        "order_balanced_mean_CPU_saved_s": 93.92349474999969,
+        "per_region_mean_CPU_saved_s": {
+          "8": 107.64847349999991,
+          "9": 80.19851599999947
+        },
+        "CPU_reduction_percent": 2.260883455983934,
+        "position_effect_second_minus_first_s": 514.9239757499997,
+        "per_pair_reduction_percent": [
+          -12.369957992182558,
+          15.472524137077482,
+          -9.311373346965343,
+          12.016013057896142
+        ],
+        "signs": {
+          "positive": 2,
+          "negative": 2
+        },
+        "min_max_CPU_saved_s": [
+          -478.279814,
+          693.5767609999998
+        ],
+        "all_four_pairs_same_sign": false
+      },
+      "RSS_saved_KiB_mean": -97
+    }
+  }
+}

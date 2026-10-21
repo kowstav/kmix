@@ -1,0 +1,208 @@
+{
+  "id": "R10-CPU-article-order-proxy",
+  "status": "COMPLETE_PAID_ARTICLE_ORDER_GZIP_PROXY",
+  "started": 1791358242.695396,
+  "regime": "predeclared early sequential prefix or article-order proxy",
+  "paid_usd": 0,
+  "GPU": false,
+  "deletions": [],
+  "cases": [],
+  "production_package_qualified": false,
+  "accounting": {},
+  "asset_manifest_sha256": "b17bb3041cfa242e8bab660c5553cdbc69551ce9ecde8828e5bd17d1d8d107c7",
+  "asset_delivery": "platform-extracted files; every entry hash verified",
+  "assets": {
+    "canonical_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+    "files": {
+      "code/hutter_research/__init__.py": {
+        "bytes": 55,
+        "sha256": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3"
+      },
+      "code/hutter_research/article_order.py": {
+        "bytes": 5781,
+        "sha256": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d"
+      },
+      "code/hutter_research/contracts.py": {
+        "bytes": 5553,
+        "sha256": "c661a2077bb58561a9b4a497f5fae4ba22614e01a2017d3cf7aa4096c291213b"
+      },
+      "code/hutter_research/dispatch_contracts.py": {
+        "bytes": 1845,
+        "sha256": "434659aa0e61a1ce51b4ff2ef3b6c22c74ba670638145ffb59b9d34b84c060cb"
+      },
+      "code/hutter_research/integer_mixer.h": {
+        "bytes": 4507,
+        "sha256": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc"
+      },
+      "code/hutter_research/integer_mixer_replay.cpp": {
+        "bytes": 4118,
+        "sha256": "3556da2ad3ba4c88e4c2649b7dfc664cc67a637412eb22d8eb94fce0215e46d3"
+      },
+      "code/hutter_research/integer_mixer_selftest.cpp": {
+        "bytes": 1792,
+        "sha256": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860"
+      },
+      "code/hutter_research/legacy_weights.py": {
+        "bytes": 27253,
+        "sha256": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e"
+      },
+      "code/hutter_research/long_memory.h": {
+        "bytes": 1352,
+        "sha256": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d"
+      },
+      "code/hutter_research/native_weights.py": {
+        "bytes": 29402,
+        "sha256": "fdcd777c662516cd4a425bb975569c3b3008e17f867223cfeebfe0334c8b83cc"
+      },
+      "code/hutter_research/probability_tables.bin": {
+        "bytes": 163846,
+        "sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc"
+      },
+      "code/hutter_research/probability_tables.inc": {
+        "bytes": 357747,
+        "sha256": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc"
+      },
+      "code/hutter_research/tensor_io.py": {
+        "bytes": 1846,
+        "sha256": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+      },
+      "code/kernel_job.py": {
+        "bytes": 11757,
+        "sha256": "a9f7f1346b3714aa9b95bedb61374d7187fc6f7aa51b70ecd2f9a58d51568de0"
+      },
+      "data/canonical_prefix.bin": {
+        "bytes": 3145728,
+        "sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969"
+      },
+      "data/pages.bin": {
+        "bytes": 4225310,
+        "sha256": "f21282dac8f18561f16050ca9c6945fe95e09ce782e541bf449d1ab688d471a1"
+      },
+      "data/vocab.bm": {
+        "bytes": 32,
+        "sha256": "3e7f8c043939ccba8675b3a260f65a665bc34acac883a7316cc50fecfd7d36b5"
+      },
+      "models/cut107_half.tfwc3": {
+        "bytes": 2978081,
+        "sha256": "8b41a4af2bfa26e201fb231a1e9cae8567866d5b9979d002a58cd14bc0deac96"
+      },
+      "models/cut1392_zero.tfwc3": {
+        "bytes": 2978099,
+        "sha256": "2c7fee5ebe2f294c23fa8c4401ece0c7464a54b1da2cb6beca2ad7c48f1590fe"
+      },
+      "models/original.tfwc3": {
+        "bytes": 2978039,
+        "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+      },
+      "models/unweighted.tfwc3": {
+        "bytes": 2978077,
+        "sha256": "5248e3759a6292ca43f6a4a90121ae86dfb7a4780885822597c690b03aeef3b4"
+      },
+      "native/cmix": {
+        "bytes": 497104,
+        "sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa"
+      },
+      "native/english.dic": {
+        "bytes": 411996,
+        "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+      }
+    },
+    "original_raw_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+    "protocol_version": 2,
+    "selection": "canonical first 3 MiB; first 512 complete raw page elements for separate gzip proxy"
+  },
+  "affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "CPU_count": 4,
+  "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "numpy_version": "2.1.3",
+  "stage": "finite CPU experiment complete; qualification scope recorded",
+  "article_count": 512,
+  "selected_without_gzip_peeking": "directed_swap_proxy",
+  "actual_proxy_archive_gain_bytes": 5314,
+  "article_order_cases": [
+    {
+      "name": "original",
+      "proxy_bits": 5567118.540129865,
+      "archive_bytes": 1542475,
+      "archive_sha256": "0e340d118475e13cd8fb3bfe4d29e63b3731346b41f19310de5cc77bdd47b847",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_0",
+      "proxy_bits": 5701666.883724569,
+      "archive_bytes": 1564126,
+      "archive_sha256": "02efa7fb23c63a0fd32ecda019ec880b6eacdc7ccf3fbdff4a9f55da08cda1e8",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_1",
+      "proxy_bits": 5708718.261606243,
+      "archive_bytes": 1562607,
+      "archive_sha256": "17d91dc972ad82e29a03061e1e8461467f58e9a72de69212e73ea14dddf5b84a",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_2",
+      "proxy_bits": 5671745.101390905,
+      "archive_bytes": 1563704,
+      "archive_sha256": "b583b0a4bbda44a2fd1d0b2453381fc5bbf32082e238b44eb0cc3244697f2750",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_3",
+      "proxy_bits": 5702693.566073988,
+      "archive_bytes": 1562816,
+      "archive_sha256": "ca7f4939129038bd59e8a8176d2b17c1911221b62b6bc5272cba2a1ad5105a32",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_4",
+      "proxy_bits": 5723705.435875322,
+      "archive_bytes": 1564716,
+      "archive_sha256": "fd634215451ca5985f8f840c0992c910397b1561604e5b03ff6a97264ad903e1",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_5",
+      "proxy_bits": 5721855.42465508,
+      "archive_bytes": 1563566,
+      "archive_sha256": "e22803d6cf8ca5ffe368fec8e7bfdf54a6377ee594dd7a6d09637b8500f97f3a",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_6",
+      "proxy_bits": 5686898.8232147815,
+      "archive_bytes": 1564316,
+      "archive_sha256": "0c03e9e05459b99c478ee84c76c720332fae4409aeb2446b3f51670116b72309",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "random_7",
+      "proxy_bits": 5713424.659217851,
+      "archive_bytes": 1564188,
+      "archive_sha256": "cae712e9a6b04ddc17ab55d99a780b1d4c1e2f432c8be0070f665bb6ae7499b7",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "greedy_proxy",
+      "proxy_bits": 5302819.944831675,
+      "archive_bytes": 1541059,
+      "archive_sha256": "4a76bbfc472e23c83d21102405962ce568957f068c4099b5ed344fe4dfdd078b",
+      "independent_reconstruction_exact": true
+    },
+    {
+      "name": "directed_swap_proxy",
+      "proxy_bits": 5275577.779552234,
+      "archive_bytes": 1537161,
+      "archive_sha256": "4cd08a827bda334debdd2982e48635a61cb6dfe0567963493ea0d5e85f0d335d",
+      "independent_reconstruction_exact": true
+    }
+  ],
+  "limits": "early raw pages, gzip proxy, all control results exploratory; not canonical WRT/native model or eligible executable price",
+  "finished": 1791358249.626508
+}

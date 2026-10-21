@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/kaggle/working/hp_round9/research_round9_core_layer_gpu_worker_v2.py", line 5, in <module>
+    R=pathlib.Path('/kaggle/working/hp_round9');M=R/'core_layer_gpu_v2';M.mkdir(exist_ok=False)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/kaggle/working/hp_round9/core_layer_gpu_v2'

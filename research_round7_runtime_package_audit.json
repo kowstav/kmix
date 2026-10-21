@@ -1,0 +1,37 @@
+{
+  "returncode": 0,
+  "wall_seconds": 2.4334218609999425,
+  "files": [
+    {
+      "filename": "flash_linear_attention-0.5.1-py3-none-any.whl",
+      "bytes": 403096,
+      "sha256": "9022862f0a238752372c81290694b8b2ed1cb2d13fc40d340ffeeb554d6bee5c",
+      "requires": [
+        "Requires-Python: >=3.10",
+        "Requires-Dist: fla-core==0.5.1",
+        "Requires-Dist: transformers>=4.45.0",
+        "Requires-Dist: fla-core[cuda]==0.5.1; extra == \"cuda\"",
+        "Requires-Dist: fla-core[rocm]==0.5.1; extra == \"rocm\"",
+        "Requires-Dist: fla-core[xpu]==0.5.1; extra == \"xpu\"",
+        "Requires-Dist: fla-core[npu]==0.5.1; extra == \"npu\"",
+        "Requires-Dist: fla-core[cpu]==0.5.1; extra == \"cpu\"",
+        "Requires-Dist: tilelang>=0.1.9; extra == \"tilelang\"",
+        "Requires-Dist: causal-conv1d>=1.4.0; extra == \"conv1d\"",
+        "Requires-Dist: matplotlib; extra == \"benchmark\"",
+        "Requires-Dist: datasets>=3.3.0; extra == \"benchmark\"",
+        "Requires-Dist: pytest; extra == \"test\""
+      ]
+    },
+    {
+      "filename": "jaxtyping-0.3.11-py3-none-any.whl",
+      "bytes": 56593,
+      "sha256": "8a4bedc4e3f963fa82df41bd13c7ebc2bad925601eb48614c65798f21329d4e3",
+      "requires": [
+        "Requires-Python: >=3.11",
+        "Requires-Dist: wadler-lindig>=0.1.3"
+      ]
+    }
+  ],
+  "source_pin": "Preserved project pyproject.toml minimum versions selected exactly",
+  "scope": "Dependency readiness only; no installations, GPU model inference, training, deletions or rental"
+}

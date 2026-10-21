@@ -1,0 +1,14 @@
+{
+  "layout": "xor",
+  "codec": "zstd",
+  "model_bytes": 36966663,
+  "model_sha256": "198d23cc578eea25199f032a0e92bf70dd69a2af08029d984a211893b4e97ae0",
+  "cpu": 1,
+  "saving_per_copy_before_decoder_code": -33988624,
+  "all_435_native_tensors_equal": true,
+  "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+  "wall_seconds": 0.6029826419999722,
+  "CPU_seconds": 0.5000850000000074,
+  "peak_RSS_KiB": 664588,
+  "deployment_decoder_not_qualified": true
+}

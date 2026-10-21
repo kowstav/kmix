@@ -1,0 +1,87 @@
+{
+  "status": "FAIL",
+  "pid": 1173,
+  "session": 355735431,
+  "started": "2026-10-06T13:04:58.842528+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "results": [],
+  "advance_gate_bytes": 64,
+  "confirmation_evaluated": false,
+  "full_native_candidate": false,
+  "stage": "failure preserved; do not duplicate",
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "parent_stage_manifest_sha256": "98f9f04f3abac7ad094bbbe471f0e22ca5aba232e5d3a183cf08dc17f10d67f3",
+  "parent_observer_controls": [
+    {
+      "slice": "a",
+      "size": 32768,
+      "archive_sha256": "7936c453115c6ceb308e0ddc11bdf5d6682c3d8cc04f7859d7e2d1be3a082001",
+      "final_p_sha256": "3fd7ec0439f489dba3c9f7bd70f31ca7a900c43749e06968a8f1105ca8e73863",
+      "stage_sha256": "9cfd725a43f91e80d43fc1aaac2813ee7d1c4fcf95df6e35950a8aaa4f359633",
+      "stage_bytes": 19922956,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 63.90658661599991,
+        "user_seconds": 58.159517,
+        "system_seconds": 5.732065,
+        "max_rss_kbytes": 5650840,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 65.11788319800053,
+        "user_seconds": 59.329686,
+        "system_seconds": 5.771899,
+        "max_rss_kbytes": 5650620,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "independent_decode_exact": true
+    },
+    {
+      "slice": "b",
+      "size": 32768,
+      "archive_sha256": "87343f487d2baf853d72d9bddcc4583411fbb1f952c6f344b4197907bb30187f",
+      "final_p_sha256": "08d7806581651eb3e8997ee8b2fc068b9b5f4efb7d1e4dbbf631583bc2166f79",
+      "stage_sha256": "fa026425d5c69775ed1da899eac05b78fce9056cf18e6147c9213edb04f2fb75",
+      "stage_bytes": 19922956,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 66.672601622,
+        "user_seconds": 60.711238,
+        "system_seconds": 5.9469449999999995,
+        "max_rss_kbytes": 5800632,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 65.10130627299986,
+        "user_seconds": 59.365788,
+        "system_seconds": 5.723111,
+        "max_rss_kbytes": 5800120,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "independent_decode_exact": true
+    }
+  ],
+  "source_hashes": [
+    {
+      "file": "research_round8_native_stage_fit_worker.py",
+      "sha256": "9ef9f61fdcb4e657d5faa4905a7521641ea7ac08d29fad1a330543d601c0ffcc"
+    },
+    {
+      "file": "research_round8_native_stage_fit_protocol.md",
+      "sha256": "6998e213ded9017ef6fa34c0ed11748eaa41eb9d4317d12bdd51fbaebadf0c46"
+    }
+  ],
+  "feature_exports": [],
+  "all_44515_wordcodes_inverse": "PASS",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py\", line 118, in <module>\n    for s in 'ab':export(s)\n                  ^^^^^^^^^\n  File \"/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py\", line 117, in export\n    sig[:128,23:37]=0;sig[128:,23:37]=sig[:-128,:14];sig[:,37:43]=roles(raw,words);sig[:128,43:49]=0;sig[128:,43:49]=sig[:-128,37:43];assert np.isfinite(sig).all();data[s]=Records(p,y,sig);row={'slice':s,'stage_sha256':v['stage_sha256'],'native_p_sha256':n['final_p_sha256'],'input_sha256':n['input_sha256'],'feature_sha256':hashlib.sha256(sig.tobytes()).hexdigest(),'feature_dimensions':49,'feature_bytes':sig.nbytes};m['feature_exports'].append(row);save('prefix-known source/role features '+s+' assembled')\n                                                                  ^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py\", line 58, in roles\n    assert 208<=pending[1]<240 and 128<=pending[2]<208;j=3920+((pending[0]-240)*32+pending[1]-208)*80+pending[2]-128\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

@@ -1,0 +1,2709 @@
+{
+  "version": 1,
+  "purpose": "exact no-retraining survey",
+  "files": [
+    {
+      "path": "research_round7_reference.fx2tfwc2",
+      "input_bytes": 2930652,
+      "sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+      "magic_hex": "4658325446574332b2010000",
+      "rows": [
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3388972,
+          "wrapper_metadata_bytes": 84,
+          "total_blob_bytes": 3389056,
+          "saving_per_copy_before_decoder_code": -458404,
+          "saving_two_copies_before_decoder_code": -916808,
+          "transform_seconds": 1.00000761449337e-06,
+          "inverse_seconds": 1.1999800335615873e-06,
+          "compression_seconds": 0.31858560000546277,
+          "decompression_seconds": 0.02665719998185523,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3140644,
+          "wrapper_metadata_bytes": 84,
+          "total_blob_bytes": 3140728,
+          "saving_per_copy_before_decoder_code": -210076,
+          "saving_two_copies_before_decoder_code": -420152,
+          "transform_seconds": 1.00000761449337e-06,
+          "inverse_seconds": 1.1999800335615873e-06,
+          "compression_seconds": 3.9596055999863893,
+          "decompression_seconds": 0.11653729999670759,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3570244,
+          "wrapper_metadata_bytes": 84,
+          "total_blob_bytes": 3570328,
+          "saving_per_copy_before_decoder_code": -639676,
+          "saving_two_copies_before_decoder_code": -1279352,
+          "transform_seconds": 1.00000761449337e-06,
+          "inverse_seconds": 1.1999800335615873e-06,
+          "compression_seconds": 3.6390834000194445,
+          "decompression_seconds": 0.16900719999102876,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": false,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3373569,
+          "wrapper_metadata_bytes": 111,
+          "total_blob_bytes": 3373680,
+          "saving_per_copy_before_decoder_code": -443028,
+          "saving_two_copies_before_decoder_code": -886056,
+          "transform_seconds": 0.016572099993936718,
+          "inverse_seconds": 0.017098399985115975,
+          "compression_seconds": 0.31130460000713356,
+          "decompression_seconds": 0.02643940001144074,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": false,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3133876,
+          "wrapper_metadata_bytes": 111,
+          "total_blob_bytes": 3133987,
+          "saving_per_copy_before_decoder_code": -203335,
+          "saving_two_copies_before_decoder_code": -406670,
+          "transform_seconds": 0.016572099993936718,
+          "inverse_seconds": 0.017098399985115975,
+          "compression_seconds": 4.351100200001383,
+          "decompression_seconds": 0.1132289000088349,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": false,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3562220,
+          "wrapper_metadata_bytes": 111,
+          "total_blob_bytes": 3562331,
+          "saving_per_copy_before_decoder_code": -631679,
+          "saving_two_copies_before_decoder_code": -1263358,
+          "transform_seconds": 0.016572099993936718,
+          "inverse_seconds": 0.017098399985115975,
+          "compression_seconds": 3.5390116999915335,
+          "decompression_seconds": 0.15443039999809116,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 2955323,
+          "wrapper_metadata_bytes": 110,
+          "total_blob_bytes": 2955433,
+          "saving_per_copy_before_decoder_code": -24781,
+          "saving_two_copies_before_decoder_code": -49562,
+          "transform_seconds": 1.2055369000008795,
+          "inverse_seconds": 1.0456362999975681,
+          "compression_seconds": 0.11363150001852773,
+          "decompression_seconds": 0.01826070001698099,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 2951752,
+          "wrapper_metadata_bytes": 110,
+          "total_blob_bytes": 2951862,
+          "saving_per_copy_before_decoder_code": -21210,
+          "saving_two_copies_before_decoder_code": -42420,
+          "transform_seconds": 1.2055369000008795,
+          "inverse_seconds": 1.0456362999975681,
+          "compression_seconds": 0.6722674999909941,
+          "decompression_seconds": 0.13792280000052415,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": false
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 3094280,
+          "wrapper_metadata_bytes": 110,
+          "total_blob_bytes": 3094390,
+          "saving_per_copy_before_decoder_code": -163738,
+          "saving_two_copies_before_decoder_code": -327476,
+          "transform_seconds": 1.2055369000008795,
+          "inverse_seconds": 1.0456362999975681,
+          "compression_seconds": 0.7030991000065114,
+          "decompression_seconds": 0.13710650001303293,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": true
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 2957548,
+          "wrapper_metadata_bytes": 109,
+          "total_blob_bytes": 2957657,
+          "saving_per_copy_before_decoder_code": -27005,
+          "saving_two_copies_before_decoder_code": -54010,
+          "transform_seconds": 1.0807892000011634,
+          "inverse_seconds": 1.0580908000119962,
+          "compression_seconds": 0.115536900004372,
+          "decompression_seconds": 0.01423819997580722,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": true
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 2955432,
+          "wrapper_metadata_bytes": 109,
+          "total_blob_bytes": 2955541,
+          "saving_per_copy_before_decoder_code": -24889,
+          "saving_two_copies_before_decoder_code": -49778,
+          "transform_seconds": 1.0807892000011634,
+          "inverse_seconds": 1.0580908000119962,
+          "compression_seconds": 0.6594439999898896,
+          "decompression_seconds": 0.14052270000684075,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "tensor",
+            "nibble": true,
+            "delta": true
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 3127103,
+          "codec_bytes": 3101244,
+          "wrapper_metadata_bytes": 109,
+          "total_blob_bytes": 3101353,
+          "saving_per_copy_before_decoder_code": -170701,
+          "saving_two_copies_before_decoder_code": -341402,
+          "transform_seconds": 1.0807892000011634,
+          "inverse_seconds": 1.0580908000119962,
+          "compression_seconds": 0.6645798000099603,
+          "decompression_seconds": 0.12285669997800142,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3384935,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3385027,
+          "saving_per_copy_before_decoder_code": -454375,
+          "saving_two_copies_before_decoder_code": -908750,
+          "transform_seconds": 0.004156800016062334,
+          "inverse_seconds": 0.007014699978753924,
+          "compression_seconds": 0.3155286000110209,
+          "decompression_seconds": 0.024457399995299056,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3139076,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3139168,
+          "saving_per_copy_before_decoder_code": -208516,
+          "saving_two_copies_before_decoder_code": -417032,
+          "transform_seconds": 0.004156800016062334,
+          "inverse_seconds": 0.007014699978753924,
+          "compression_seconds": 3.8563812999927904,
+          "decompression_seconds": 0.10995170002570376,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3572440,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3572532,
+          "saving_per_copy_before_decoder_code": -641880,
+          "saving_two_copies_before_decoder_code": -1283760,
+          "transform_seconds": 0.004156800016062334,
+          "inverse_seconds": 0.007014699978753924,
+          "compression_seconds": 3.5061810999759473,
+          "decompression_seconds": 0.15853829999105074,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3392981,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3393073,
+          "saving_per_copy_before_decoder_code": -462421,
+          "saving_two_copies_before_decoder_code": -924842,
+          "transform_seconds": 0.004595700011122972,
+          "inverse_seconds": 0.008530799997970462,
+          "compression_seconds": 0.3160325000062585,
+          "decompression_seconds": 0.026082600001245737,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3141588,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3141680,
+          "saving_per_copy_before_decoder_code": -211028,
+          "saving_two_copies_before_decoder_code": -422056,
+          "transform_seconds": 0.004595700011122972,
+          "inverse_seconds": 0.008530799997970462,
+          "compression_seconds": 4.144365599990124,
+          "decompression_seconds": 0.12639069999568164,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3576556,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3576648,
+          "saving_per_copy_before_decoder_code": -645996,
+          "saving_two_copies_before_decoder_code": -1291992,
+          "transform_seconds": 0.004595700011122972,
+          "inverse_seconds": 0.008530799997970462,
+          "compression_seconds": 3.83488410001155,
+          "decompression_seconds": 0.16237000000546686,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3414194,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3414286,
+          "saving_per_copy_before_decoder_code": -483634,
+          "saving_two_copies_before_decoder_code": -967268,
+          "transform_seconds": 0.005334700021194294,
+          "inverse_seconds": 0.01028970000334084,
+          "compression_seconds": 0.3294641000102274,
+          "decompression_seconds": 0.025951399991754442,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3147132,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3147224,
+          "saving_per_copy_before_decoder_code": -216572,
+          "saving_two_copies_before_decoder_code": -433144,
+          "transform_seconds": 0.005334700021194294,
+          "inverse_seconds": 0.01028970000334084,
+          "compression_seconds": 4.0658606000069994,
+          "decompression_seconds": 0.1302815999952145,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3587260,
+          "wrapper_metadata_bytes": 92,
+          "total_blob_bytes": 3587352,
+          "saving_per_copy_before_decoder_code": -656700,
+          "saving_two_copies_before_decoder_code": -1313400,
+          "transform_seconds": 0.005334700021194294,
+          "inverse_seconds": 0.01028970000334084,
+          "compression_seconds": 3.5473622000135947,
+          "decompression_seconds": 0.16149379999842495,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3424611,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 3424704,
+          "saving_per_copy_before_decoder_code": -494052,
+          "saving_two_copies_before_decoder_code": -988104,
+          "transform_seconds": 0.00563010000041686,
+          "inverse_seconds": 0.006538399989949539,
+          "compression_seconds": 0.32211419998202473,
+          "decompression_seconds": 0.02559479998308234,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3152344,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 3152437,
+          "saving_per_copy_before_decoder_code": -221785,
+          "saving_two_copies_before_decoder_code": -443570,
+          "transform_seconds": 0.00563010000041686,
+          "inverse_seconds": 0.006538399989949539,
+          "compression_seconds": 4.1229157999914605,
+          "decompression_seconds": 0.11987890000455081,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3595924,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 3596017,
+          "saving_per_copy_before_decoder_code": -665365,
+          "saving_two_copies_before_decoder_code": -1330730,
+          "transform_seconds": 0.00563010000041686,
+          "inverse_seconds": 0.006538399989949539,
+          "compression_seconds": 3.953019200009294,
+          "decompression_seconds": 0.17696750001050532,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3550396,
+          "wrapper_metadata_bytes": 87,
+          "total_blob_bytes": 3550483,
+          "saving_per_copy_before_decoder_code": -619831,
+          "saving_two_copies_before_decoder_code": -1239662,
+          "transform_seconds": 0.6928168000013102,
+          "inverse_seconds": 0.6706465000170283,
+          "compression_seconds": 0.32199060000129975,
+          "decompression_seconds": 0.03479509998578578,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3267712,
+          "wrapper_metadata_bytes": 87,
+          "total_blob_bytes": 3267799,
+          "saving_per_copy_before_decoder_code": -337147,
+          "saving_two_copies_before_decoder_code": -674294,
+          "transform_seconds": 0.6928168000013102,
+          "inverse_seconds": 0.6706465000170283,
+          "compression_seconds": 4.484879200026626,
+          "decompression_seconds": 0.14322469997568987,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3757552,
+          "wrapper_metadata_bytes": 87,
+          "total_blob_bytes": 3757639,
+          "saving_per_copy_before_decoder_code": -826987,
+          "saving_two_copies_before_decoder_code": -1653974,
+          "transform_seconds": 0.6928168000013102,
+          "inverse_seconds": 0.6706465000170283,
+          "compression_seconds": 4.0284821999957785,
+          "decompression_seconds": 0.2037187999812886,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3530577,
+          "wrapper_metadata_bytes": 96,
+          "total_blob_bytes": 3530673,
+          "saving_per_copy_before_decoder_code": -600021,
+          "saving_two_copies_before_decoder_code": -1200042,
+          "transform_seconds": 0.5880972000013571,
+          "inverse_seconds": 0.5965517000004184,
+          "compression_seconds": 0.28136069999891333,
+          "decompression_seconds": 0.029331900004763156,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3250148,
+          "wrapper_metadata_bytes": 96,
+          "total_blob_bytes": 3250244,
+          "saving_per_copy_before_decoder_code": -319592,
+          "saving_two_copies_before_decoder_code": -639184,
+          "transform_seconds": 0.5880972000013571,
+          "inverse_seconds": 0.5965517000004184,
+          "compression_seconds": 4.221961400005966,
+          "decompression_seconds": 0.16517539997585118,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3754124,
+          "wrapper_metadata_bytes": 96,
+          "total_blob_bytes": 3754220,
+          "saving_per_copy_before_decoder_code": -823568,
+          "saving_two_copies_before_decoder_code": -1647136,
+          "transform_seconds": 0.5880972000013571,
+          "inverse_seconds": 0.5965517000004184,
+          "compression_seconds": 3.840152799995849,
+          "decompression_seconds": 0.18006729998160154,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3389248,
+          "wrapper_metadata_bytes": 80,
+          "total_blob_bytes": 3389328,
+          "saving_per_copy_before_decoder_code": -458676,
+          "saving_two_copies_before_decoder_code": -917352,
+          "transform_seconds": 0.01752870000200346,
+          "inverse_seconds": 0.016430199990281835,
+          "compression_seconds": 1.3109740000218153,
+          "decompression_seconds": 0.02741840001544915,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3141556,
+          "wrapper_metadata_bytes": 80,
+          "total_blob_bytes": 3141636,
+          "saving_per_copy_before_decoder_code": -210984,
+          "saving_two_copies_before_decoder_code": -421968,
+          "transform_seconds": 0.01752870000200346,
+          "inverse_seconds": 0.016430199990281835,
+          "compression_seconds": 4.792704499996034,
+          "decompression_seconds": 0.14181729999836534,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 6061535,
+          "codec_bytes": 3768936,
+          "wrapper_metadata_bytes": 80,
+          "total_blob_bytes": 3769016,
+          "saving_per_copy_before_decoder_code": -838364,
+          "saving_two_copies_before_decoder_code": -1676728,
+          "transform_seconds": 0.01752870000200346,
+          "inverse_seconds": 0.016430199990281835,
+          "compression_seconds": 4.898386400018353,
+          "decompression_seconds": 0.2626561000070069,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": true,
+          "codec": "zlib9",
+          "error": "TimeoutError: codec exceeded 30.0s cap"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": true,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 12123070,
+          "codec_bytes": 3935536,
+          "wrapper_metadata_bytes": 89,
+          "total_blob_bytes": 3935625,
+          "saving_per_copy_before_decoder_code": -1004973,
+          "saving_two_copies_before_decoder_code": -2009946,
+          "transform_seconds": 0.8972523999982513,
+          "inverse_seconds": 1.2875673999951687,
+          "compression_seconds": 12.658468300011009,
+          "decompression_seconds": 0.26135479999356903,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": true,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 12123070,
+          "codec_bytes": 4826204,
+          "wrapper_metadata_bytes": 89,
+          "total_blob_bytes": 4826293,
+          "saving_per_copy_before_decoder_code": -1895641,
+          "saving_two_copies_before_decoder_code": -3791282,
+          "transform_seconds": 0.8972523999982513,
+          "inverse_seconds": 1.2875673999951687,
+          "compression_seconds": 10.136386500002118,
+          "decompression_seconds": 0.4948541000194382,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "3f75a7cf616924af7bc6d295b17934444069682d290438254a414373f03e6c01",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + certified exact entropy-stream rebuild"
+        },
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 85,
+          "total_blob_bytes": 2931638,
+          "saving_per_copy_before_decoder_code": -986,
+          "saving_two_copies_before_decoder_code": -1972,
+          "transform_seconds": 0.0008072000055108219,
+          "inverse_seconds": 0.0004154000198468566,
+          "compression_seconds": 0.12706369999796152,
+          "decompression_seconds": 0.003090899990638718,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 85,
+          "total_blob_bytes": 2930945,
+          "saving_per_copy_before_decoder_code": -293,
+          "saving_two_copies_before_decoder_code": -586,
+          "transform_seconds": 0.0008072000055108219,
+          "inverse_seconds": 0.0004154000198468566,
+          "compression_seconds": 0.869591800001217,
+          "decompression_seconds": 0.002448599989293143,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "identity"
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 85,
+          "total_blob_bytes": 2930945,
+          "saving_per_copy_before_decoder_code": -293,
+          "saving_two_copies_before_decoder_code": -586,
+          "transform_seconds": 0.0008072000055108219,
+          "inverse_seconds": 0.0004154000198468566,
+          "compression_seconds": 0.9290679999976419,
+          "decompression_seconds": 0.014163199986796826,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2931646,
+          "saving_per_copy_before_decoder_code": -994,
+          "saving_two_copies_before_decoder_code": -1988,
+          "transform_seconds": 0.004402100021252409,
+          "inverse_seconds": 0.0066340000194031745,
+          "compression_seconds": 0.14602099999319762,
+          "decompression_seconds": 0.004093399998964742,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.004402100021252409,
+          "inverse_seconds": 0.0066340000194031745,
+          "compression_seconds": 0.8806028999970295,
+          "decompression_seconds": 0.002648499998031184,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 2
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.004402100021252409,
+          "inverse_seconds": 0.0066340000194031745,
+          "compression_seconds": 0.8982436000078451,
+          "decompression_seconds": 0.016042299976106733,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2931646,
+          "saving_per_copy_before_decoder_code": -994,
+          "saving_two_copies_before_decoder_code": -1988,
+          "transform_seconds": 0.003555400006007403,
+          "inverse_seconds": 0.00583750000805594,
+          "compression_seconds": 0.1397861000150442,
+          "decompression_seconds": 0.003990700002759695,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.003555400006007403,
+          "inverse_seconds": 0.00583750000805594,
+          "compression_seconds": 0.8827369000064209,
+          "decompression_seconds": 0.0038263000024016947,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.003555400006007403,
+          "inverse_seconds": 0.00583750000805594,
+          "compression_seconds": 1.0309701999940444,
+          "decompression_seconds": 0.014857900008792058,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2931646,
+          "saving_per_copy_before_decoder_code": -994,
+          "saving_two_copies_before_decoder_code": -1988,
+          "transform_seconds": 0.004360000020824373,
+          "inverse_seconds": 0.005526799999643117,
+          "compression_seconds": 0.1467011999920942,
+          "decompression_seconds": 0.003914600005373359,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.004360000020824373,
+          "inverse_seconds": 0.005526799999643117,
+          "compression_seconds": 0.8357466000015847,
+          "decompression_seconds": 0.003389100020285696,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 8
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 93,
+          "total_blob_bytes": 2930953,
+          "saving_per_copy_before_decoder_code": -301,
+          "saving_two_copies_before_decoder_code": -602,
+          "transform_seconds": 0.004360000020824373,
+          "inverse_seconds": 0.005526799999643117,
+          "compression_seconds": 0.8478108000126667,
+          "decompression_seconds": 0.01438800001051277,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 94,
+          "total_blob_bytes": 2931647,
+          "saving_per_copy_before_decoder_code": -995,
+          "saving_two_copies_before_decoder_code": -1990,
+          "transform_seconds": 0.0058296000061091036,
+          "inverse_seconds": 0.006297199986875057,
+          "compression_seconds": 0.12471589999040589,
+          "decompression_seconds": 0.003188100003171712,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 94,
+          "total_blob_bytes": 2930954,
+          "saving_per_copy_before_decoder_code": -302,
+          "saving_two_copies_before_decoder_code": -604,
+          "transform_seconds": 0.0058296000061091036,
+          "inverse_seconds": 0.006297199986875057,
+          "compression_seconds": 0.7470997999771498,
+          "decompression_seconds": 0.0038001000066287816,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes",
+            "width": 16
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 94,
+          "total_blob_bytes": 2930954,
+          "saving_per_copy_before_decoder_code": -302,
+          "saving_two_copies_before_decoder_code": -604,
+          "transform_seconds": 0.0058296000061091036,
+          "inverse_seconds": 0.006297199986875057,
+          "compression_seconds": 0.7626963999937288,
+          "decompression_seconds": 0.012105200003134087,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 88,
+          "total_blob_bytes": 2931641,
+          "saving_per_copy_before_decoder_code": -989,
+          "saving_two_copies_before_decoder_code": -1978,
+          "transform_seconds": 0.35620579999522306,
+          "inverse_seconds": 0.3907230000186246,
+          "compression_seconds": 0.11786130000837147,
+          "decompression_seconds": 0.0029408000118564814,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 88,
+          "total_blob_bytes": 2930948,
+          "saving_per_copy_before_decoder_code": -296,
+          "saving_two_copies_before_decoder_code": -592,
+          "transform_seconds": 0.35620579999522306,
+          "inverse_seconds": 0.3907230000186246,
+          "compression_seconds": 0.7423644000082277,
+          "decompression_seconds": 0.003278199990745634,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "xor",
+            "lag": 1
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 88,
+          "total_blob_bytes": 2930948,
+          "saving_per_copy_before_decoder_code": -296,
+          "saving_two_copies_before_decoder_code": -592,
+          "transform_seconds": 0.35620579999522306,
+          "inverse_seconds": 0.3907230000186246,
+          "compression_seconds": 0.8836981999920681,
+          "decompression_seconds": 0.014840100018773228,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 97,
+          "total_blob_bytes": 2931650,
+          "saving_per_copy_before_decoder_code": -998,
+          "saving_two_copies_before_decoder_code": -1996,
+          "transform_seconds": 0.3851944000052754,
+          "inverse_seconds": 0.41806649998761714,
+          "compression_seconds": 0.13473570000496693,
+          "decompression_seconds": 0.0033774000185076147,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 97,
+          "total_blob_bytes": 2930957,
+          "saving_per_copy_before_decoder_code": -305,
+          "saving_two_copies_before_decoder_code": -610,
+          "transform_seconds": 0.3851944000052754,
+          "inverse_seconds": 0.41806649998761714,
+          "compression_seconds": 0.8809964999963995,
+          "decompression_seconds": 0.0033793000038713217,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "planes_xor",
+            "width": 4
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 97,
+          "total_blob_bytes": 2930957,
+          "saving_per_copy_before_decoder_code": -305,
+          "saving_two_copies_before_decoder_code": -610,
+          "transform_seconds": 0.3851944000052754,
+          "inverse_seconds": 0.41806649998761714,
+          "compression_seconds": 0.865791199990781,
+          "decompression_seconds": 0.011363199999323115,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2931553,
+          "wrapper_metadata_bytes": 81,
+          "total_blob_bytes": 2931634,
+          "saving_per_copy_before_decoder_code": -982,
+          "saving_two_copies_before_decoder_code": -1964,
+          "transform_seconds": 0.003088400000706315,
+          "inverse_seconds": 0.003947699995478615,
+          "compression_seconds": 0.11682339999242686,
+          "decompression_seconds": 0.002946599997812882,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 81,
+          "total_blob_bytes": 2930941,
+          "saving_per_copy_before_decoder_code": -289,
+          "saving_two_copies_before_decoder_code": -578,
+          "transform_seconds": 0.003088400000706315,
+          "inverse_seconds": 0.003947699995478615,
+          "compression_seconds": 0.7522370000078809,
+          "decompression_seconds": 0.0021752000029664487,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality",
+          "finalist_full_original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "finalist_full_roundtrip_exact": true
+        },
+        {
+          "transform": {
+            "kind": "gray"
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 2930652,
+          "codec_bytes": 2930860,
+          "wrapper_metadata_bytes": 81,
+          "total_blob_bytes": 2930941,
+          "saving_per_copy_before_decoder_code": -289,
+          "saving_two_copies_before_decoder_code": -578,
+          "transform_seconds": 0.003088400000706315,
+          "inverse_seconds": 0.003947699995478615,
+          "compression_seconds": 0.8160677000123542,
+          "decompression_seconds": 0.012570599996251985,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": false,
+          "codec": "zlib9",
+          "codec_id": 1,
+          "transformed_bytes": 5861304,
+          "codec_bytes": 3338097,
+          "wrapper_metadata_bytes": 90,
+          "total_blob_bytes": 3338187,
+          "saving_per_copy_before_decoder_code": -407535,
+          "saving_two_copies_before_decoder_code": -815070,
+          "transform_seconds": 0.343929599999683,
+          "inverse_seconds": 0.5420519000035711,
+          "compression_seconds": 0.3223520999890752,
+          "decompression_seconds": 0.0344889999832958,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": false,
+          "codec": "lzma6",
+          "codec_id": 2,
+          "transformed_bytes": 5861304,
+          "codec_bytes": 3059868,
+          "wrapper_metadata_bytes": 90,
+          "total_blob_bytes": 3059958,
+          "saving_per_copy_before_decoder_code": -129306,
+          "saving_two_copies_before_decoder_code": -258612,
+          "transform_seconds": 0.343929599999683,
+          "inverse_seconds": 0.5420519000035711,
+          "compression_seconds": 4.382836500008125,
+          "decompression_seconds": 0.24853029998485,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        },
+        {
+          "transform": {
+            "kind": "nibble_planes"
+          },
+          "semantic_v2": false,
+          "codec": "lzma_delta4",
+          "codec_id": 3,
+          "transformed_bytes": 5861304,
+          "codec_bytes": 3611220,
+          "wrapper_metadata_bytes": 90,
+          "total_blob_bytes": 3611310,
+          "saving_per_copy_before_decoder_code": -680658,
+          "saving_two_copies_before_decoder_code": -1361316,
+          "transform_seconds": 0.343929599999683,
+          "inverse_seconds": 0.5420519000035711,
+          "compression_seconds": 3.5605974000063725,
+          "decompression_seconds": 0.30014310000115074,
+          "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+          "roundtrip_exact": true,
+          "verification": "exact codec inverse + exact transform inverse + original byte equality"
+        }
+      ],
+      "semantic_status": "exact_original_container_rebuild_verified",
+      "decoder_code_bytes": null,
+      "status": "complete",
+      "canonical_bytes": 6061535,
+      "semantic_decode_seconds": 11.28015319997212,
+      "semantic_encode_seconds": 13.211384399997769,
+      "rebuilt_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+      "integer_entropy_diagnostics": {
+        "exact_stored_int4_count": 5868864,
+        "global_entropy_bytes": 2777439.8026417936,
+        "per_tensor_entropy_bytes": 2773770.6488891933,
+        "per_row_entropy_bytes": 2734465.820622348,
+        "row_count": 25946,
+        "tensors": [
+          {
+            "name": "embedding.weight.q",
+            "shape": [
+              205,
+              192
+            ],
+            "count": 39360,
+            "entropy_bits": 147657.11947888514,
+            "row_entropy_bits": 145035.8231172448,
+            "stored_int_sha256": "96cbc7522045cb951469d206c3ee4221978c99d571ca14ade3c447ed8eb5bf3b"
+          },
+          {
+            "name": "prior_embedding.weight.q",
+            "shape": [
+              192,
+              205
+            ],
+            "count": 39360,
+            "entropy_bits": 146791.8226210196,
+            "row_entropy_bits": 142326.8257993061,
+            "stored_int_sha256": "889d4137c10d9cb05eb65dae47f3c48c8c1a89ecd9451854a27a02333b243b14"
+          },
+          {
+            "name": "blocks.0.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138389.8172648174,
+            "row_entropy_bits": 136220.70671077396,
+            "stored_int_sha256": "dfc178978f175bc21dfc6cad9a7072d6f88b689fc76090b1f9a93b365e29e1a8"
+          },
+          {
+            "name": "blocks.0.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138448.44454627275,
+            "row_entropy_bits": 136276.06239255038,
+            "stored_int_sha256": "671db9d4a412c25142ea17460ea5e2d17686a08b92a646341585f408781e6405"
+          },
+          {
+            "name": "blocks.0.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139123.30879659776,
+            "row_entropy_bits": 136858.6390634766,
+            "stored_int_sha256": "fb2acbb37a18b318f41b42155bd46f1cc5eb7c588051df7809531d05313598c0"
+          },
+          {
+            "name": "blocks.0.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 43937.67413205072,
+            "row_entropy_bits": 43216.212730579486,
+            "stored_int_sha256": "e4d63194e96161b93e34b6af2dd2546b2be83c65718a0c6f4b231dec587d8fc9"
+          },
+          {
+            "name": "blocks.0.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45396.24775812105,
+            "row_entropy_bits": 43142.950079626185,
+            "stored_int_sha256": "2e844120f78175d058fc03041292b4abd58185333f8036fe4eb6f3753d1bd8e4"
+          },
+          {
+            "name": "blocks.0.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44917.47626592313,
+            "row_entropy_bits": 44237.37836762497,
+            "stored_int_sha256": "35bfcc8ae0836adebb8441d0ecaf6bab3d4e83f3ba430f02ee9b5cbd2172f241"
+          },
+          {
+            "name": "blocks.0.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46123.41871533763,
+            "row_entropy_bits": 43838.62103087483,
+            "stored_int_sha256": "3c54aa1617754fda5cf9b063c4588bb63fa3e6ea5496231cacae45a357a95af2"
+          },
+          {
+            "name": "blocks.0.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140965.426398163,
+            "row_entropy_bits": 138433.7778588793,
+            "stored_int_sha256": "d71a292ee8f0a8f7fda7d519799892d91b04e6c277539b504ef7e0ac2e7315b4"
+          },
+          {
+            "name": "blocks.0.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 562719.6990232522,
+            "row_entropy_bits": 553899.2183356732,
+            "stored_int_sha256": "1e80a6ebf20b08db07b2227baab9aa38045178a8ab59dc54947206227b75c259"
+          },
+          {
+            "name": "blocks.0.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 555222.2944535775,
+            "row_entropy_bits": 552913.0816178286,
+            "stored_int_sha256": "d2564ee62ce190eec9ac0a16ebb7089c41261d5da53c440c798f675e2ac299fa"
+          },
+          {
+            "name": "blocks.1.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138288.42726575467,
+            "row_entropy_bits": 136083.00156410472,
+            "stored_int_sha256": "272aa6f4192e92beb64bd23426a020cb856999c2327658523b7b352ca5be6a67"
+          },
+          {
+            "name": "blocks.1.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 137698.80447369223,
+            "row_entropy_bits": 135373.7178300377,
+            "stored_int_sha256": "afc54bc20d0841f2c3b34aea62fe60d1557133f954bbd7cb26e3fce3d8fb595d"
+          },
+          {
+            "name": "blocks.1.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139614.28074117054,
+            "row_entropy_bits": 137419.4541656273,
+            "stored_int_sha256": "57e5ed49df287e005e46ad666ab57892ade8b46aaa2e43ff9d7528bfff6b214f"
+          },
+          {
+            "name": "blocks.1.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 43830.63102498956,
+            "row_entropy_bits": 42982.859214037235,
+            "stored_int_sha256": "b4e9a2f918131652822e01725be686aa0c839fea5a89dc289d22762a9d103ec8"
+          },
+          {
+            "name": "blocks.1.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46058.38048858597,
+            "row_entropy_bits": 43768.58386312424,
+            "stored_int_sha256": "57a6d45a9042c99705684021af5b33527863d4f0c45de32629649d64c1a1f031"
+          },
+          {
+            "name": "blocks.1.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45429.041122964896,
+            "row_entropy_bits": 44756.92879702322,
+            "stored_int_sha256": "0f9e1b01ab1447d9d61497963dc91569abdd2ef70f94fa10062557bf3f0e247a"
+          },
+          {
+            "name": "blocks.1.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46397.833389644904,
+            "row_entropy_bits": 44099.38441095771,
+            "stored_int_sha256": "8a73e134733d1e61d794bbee4f83dd10c57aa5150df6955746f323eb311fb11c"
+          },
+          {
+            "name": "blocks.1.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141936.28670091313,
+            "row_entropy_bits": 139906.29796769272,
+            "stored_int_sha256": "4e48896d4b819f036a4013fb91864eb129f5f6b28fefa03fe3c3550f9f960d44"
+          },
+          {
+            "name": "blocks.1.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560941.2657137299,
+            "row_entropy_bits": 552481.407834396,
+            "stored_int_sha256": "d4b9ea9117c4d68399f8e294eb7654e0043d4dceb0a2c6915604b26c955e12fc"
+          },
+          {
+            "name": "blocks.1.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 557364.5066737693,
+            "row_entropy_bits": 554723.8346182219,
+            "stored_int_sha256": "4696b797b229a4c7a47374a2d9b25953d4b5e19a98c5b5741c7630fd338b4946"
+          },
+          {
+            "name": "blocks.2.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139103.0183606575,
+            "row_entropy_bits": 136896.73593427762,
+            "stored_int_sha256": "9ccea7ec8d6eb1a3655eeb0d41ad9e5b2b90d0c63a47ad801a30c782b0cdad52"
+          },
+          {
+            "name": "blocks.2.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138350.8308988106,
+            "row_entropy_bits": 136157.34310551023,
+            "stored_int_sha256": "af51dfb35d5a0f5c3a091a7698cad4815032961cc2125fb4fae10e017aa0b8d4"
+          },
+          {
+            "name": "blocks.2.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140641.3995725566,
+            "row_entropy_bits": 138475.0117821156,
+            "stored_int_sha256": "21103bf0c7cc7125b0024f3f4027f392f9c709f1625b39346d76a8eae5af07c1"
+          },
+          {
+            "name": "blocks.2.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44147.09694682418,
+            "row_entropy_bits": 43423.97061911262,
+            "stored_int_sha256": "0ab3906d9d4f947dba80ff0c8a6615439e752c7b4969cd8cccf37ba3720906b0"
+          },
+          {
+            "name": "blocks.2.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45947.88510374126,
+            "row_entropy_bits": 43668.0339203089,
+            "stored_int_sha256": "2456911fc08a8e6b2d1feae0d73d73930eeea3f548425d5507728428bcfacaea"
+          },
+          {
+            "name": "blocks.2.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45430.243937869294,
+            "row_entropy_bits": 44770.880736875486,
+            "stored_int_sha256": "640a46b67a3125287a0d3f3c46bb7fe851cbe7b47765401af6ca4fb9042e6f18"
+          },
+          {
+            "name": "blocks.2.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46416.202306977626,
+            "row_entropy_bits": 44207.02449365084,
+            "stored_int_sha256": "2f40854bb82d82ff252364cc1917a7c4e40a6567cbdcbff4e103ffefd175afbe"
+          },
+          {
+            "name": "blocks.2.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141731.59444858943,
+            "row_entropy_bits": 139726.73849337982,
+            "stored_int_sha256": "1474e4d205f16e96a47780b2c5cfa95852c4a4f671d6c2011979468434346f9d"
+          },
+          {
+            "name": "blocks.2.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 561081.2199048244,
+            "row_entropy_bits": 552385.3870513184,
+            "stored_int_sha256": "56d8dd222c955557de77b9030cba67e519f33500735909aed8e5754d8753a9e2"
+          },
+          {
+            "name": "blocks.2.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 556363.8052473877,
+            "row_entropy_bits": 553825.9881001195,
+            "stored_int_sha256": "de84d9f744d6c9f9f64a5e5ec4e39c23e1c7ed2ff7811a689299660d97b88212"
+          },
+          {
+            "name": "blocks.3.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140250.73244272644,
+            "row_entropy_bits": 132723.30905068034,
+            "stored_int_sha256": "f9233067283918d1922d053fa7cb5be7b0a087a5460081e98c01c7035e55ff53"
+          },
+          {
+            "name": "blocks.3.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140625.98392956817,
+            "row_entropy_bits": 133665.2902104466,
+            "stored_int_sha256": "fd748869697ca495db2d1964fcb657418534c5fed6e9b903fca8e79374174320"
+          },
+          {
+            "name": "blocks.3.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 142154.89343008713,
+            "row_entropy_bits": 140127.04526882278,
+            "stored_int_sha256": "dd951c13e7f36ace4b30892b2d9a401f5b34fd8dcc6a73f4c6beadcc0d9457fe"
+          },
+          {
+            "name": "blocks.3.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141844.6285082247,
+            "row_entropy_bits": 139762.31431284192,
+            "stored_int_sha256": "975ab79bb5d6a8002274043141ab770c2294fae3c14b942861628d87192e2745"
+          },
+          {
+            "name": "blocks.3.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 559250.9360986586,
+            "row_entropy_bits": 550464.1585479315,
+            "stored_int_sha256": "bc6179247a0f9ed7ff3b92abc799f30d20add6a6706b942ef45396f9c9e98bef"
+          },
+          {
+            "name": "blocks.3.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 557279.3096453086,
+            "row_entropy_bits": 554567.5145673496,
+            "stored_int_sha256": "65e290bc0d04b23ae9fff6175c75ac0c3dac8a0007c087dadfcac8919b02bca4"
+          },
+          {
+            "name": "blocks.4.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138582.17101847776,
+            "row_entropy_bits": 136406.2670315098,
+            "stored_int_sha256": "5df0584fbad7bad939c49130daf91af2fffb5e1d57e11bf11ae617dd152cc4af"
+          },
+          {
+            "name": "blocks.4.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138119.08892981478,
+            "row_entropy_bits": 135811.73346607728,
+            "stored_int_sha256": "5ef61a3779a2a1bbc6ebbdf31c2e60379480c67134987b8943ccf05d03374737"
+          },
+          {
+            "name": "blocks.4.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139100.65611377067,
+            "row_entropy_bits": 136776.5475795514,
+            "stored_int_sha256": "1bddcd55d2baebb1fbd956bf65e588b0e56957132325400f137fdcc0eb303c8f"
+          },
+          {
+            "name": "blocks.4.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44410.49348376639,
+            "row_entropy_bits": 43686.42218854359,
+            "stored_int_sha256": "13a8a2b39634ecd6da7eae29be123d0d969524a57a98ccda16218d5c07fe02f5"
+          },
+          {
+            "name": "blocks.4.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46097.10550651114,
+            "row_entropy_bits": 43791.112704894695,
+            "stored_int_sha256": "5eec8e5d8b1ffee7b1f9ce9190ec33fcf61a2c216fb6f84a629c19d8e0dfbd80"
+          },
+          {
+            "name": "blocks.4.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45631.923222565754,
+            "row_entropy_bits": 44924.41929219742,
+            "stored_int_sha256": "11200398394e649c3c73b285c7c8bdb09a436604b9139928dcb84a458875088c"
+          },
+          {
+            "name": "blocks.4.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46509.56071252028,
+            "row_entropy_bits": 44235.62526219211,
+            "stored_int_sha256": "df439b3308cdb65e60995f8817f14100c7d2dc05a40a4e4e92483946e86dc368"
+          },
+          {
+            "name": "blocks.4.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141663.6658368924,
+            "row_entropy_bits": 139693.53318458743,
+            "stored_int_sha256": "8387123cd2fa68912f748cc7e9fc295eefb111e49abc8ba2287d2a629c7e7faf"
+          },
+          {
+            "name": "blocks.4.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 559685.7820351244,
+            "row_entropy_bits": 551112.4615849876,
+            "stored_int_sha256": "10bb9a30c85de31dcfd1a2d447497e8f9f35e849c8d54a1b268b3329f498e354"
+          },
+          {
+            "name": "blocks.4.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 559145.3877380211,
+            "row_entropy_bits": 556626.3679797039,
+            "stored_int_sha256": "c5dc9d71afdeec7c52b5d416c12bd5c6f73d7da6ea9dd4ccb1b8c40b2dae5d39"
+          },
+          {
+            "name": "blocks.5.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139176.6537850899,
+            "row_entropy_bits": 137030.6544842303,
+            "stored_int_sha256": "ae418308d9cfcd9a17c0b682a4cb40ec5ca5801e6a4917920ec4ab39e631757e"
+          },
+          {
+            "name": "blocks.5.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138023.1300615387,
+            "row_entropy_bits": 135733.73791343288,
+            "stored_int_sha256": "65273f99c6cd56d826192d2eaad17f696669953af88e26467ab74e3fbfe7b50f"
+          },
+          {
+            "name": "blocks.5.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138909.60852142505,
+            "row_entropy_bits": 136678.11357488626,
+            "stored_int_sha256": "0d62012b8ba5cc60fbc469dfe60d0f59956090213b400a4c3d41371cfe316e7f"
+          },
+          {
+            "name": "blocks.5.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44725.47619617949,
+            "row_entropy_bits": 44003.93938916285,
+            "stored_int_sha256": "0db36093ae952cf911adfc914ab62a2e62197f3aac5326fcda42de3f24e5332c"
+          },
+          {
+            "name": "blocks.5.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45782.73500938605,
+            "row_entropy_bits": 43596.96286894922,
+            "stored_int_sha256": "a102bf2cf766493f747ea0282c50bc2ffd65747f3dfb8626be4fe494343f7e67"
+          },
+          {
+            "name": "blocks.5.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45389.383476137074,
+            "row_entropy_bits": 44737.66285070034,
+            "stored_int_sha256": "0fc83baed1b5acd89463a2f6539c181b4e6741fa84fce260ed5036dd71fcc58a"
+          },
+          {
+            "name": "blocks.5.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46402.95858754742,
+            "row_entropy_bits": 44224.90597953339,
+            "stored_int_sha256": "16b0215f07da50dcab3084a91a78d35525da2a484e9b8395b5500a8a93dede55"
+          },
+          {
+            "name": "blocks.5.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141592.468464251,
+            "row_entropy_bits": 139601.00587654512,
+            "stored_int_sha256": "853982789dac5ea4739fe0f512b1f4115d935639f57aec974368a8df527f19cf"
+          },
+          {
+            "name": "blocks.5.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560187.7483213216,
+            "row_entropy_bits": 551645.0105522195,
+            "stored_int_sha256": "afeb75872de3250a84634899b45cc178013a578471bde945ab2eca546141016b"
+          },
+          {
+            "name": "blocks.5.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 559119.7864116414,
+            "row_entropy_bits": 556742.5180218477,
+            "stored_int_sha256": "fadad062780df25229a82057228810f5438b21deb013eb311d65001923ad3a46"
+          },
+          {
+            "name": "blocks.6.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138624.90788241194,
+            "row_entropy_bits": 136381.4538528508,
+            "stored_int_sha256": "1d5b9a48094ec0e093c59a8bd7722c239d292226e772cd09eef56f9c9e370278"
+          },
+          {
+            "name": "blocks.6.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138476.48801630226,
+            "row_entropy_bits": 135972.86506703476,
+            "stored_int_sha256": "8aa468fae2f86826666bf622a9bff50a60d736e97d160d7c1a983ea51d5ab5e3"
+          },
+          {
+            "name": "blocks.6.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139452.49314912606,
+            "row_entropy_bits": 137274.774402583,
+            "stored_int_sha256": "410a390f5608998047ecff6152a942433b51723ef3a88837c78a84eba6b25c5b"
+          },
+          {
+            "name": "blocks.6.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44423.7612903348,
+            "row_entropy_bits": 43729.26266234182,
+            "stored_int_sha256": "8b73725158bc0f0e345c3e83bae00991946271ceb862048061745d8044d4e42d"
+          },
+          {
+            "name": "blocks.6.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46081.5278763897,
+            "row_entropy_bits": 43883.57596622377,
+            "stored_int_sha256": "bf2673f1539d053a09734c02535d6498adae700bb1bd8a65f65c8c9fce35a81a"
+          },
+          {
+            "name": "blocks.6.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45498.19261948394,
+            "row_entropy_bits": 44806.5506660787,
+            "stored_int_sha256": "6e5d1054721c6bf22e14c4a55e53bb0b701c159a2df5a54e46c73077f7f8eaee"
+          },
+          {
+            "name": "blocks.6.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46434.277785667626,
+            "row_entropy_bits": 44318.79229633785,
+            "stored_int_sha256": "fff0e054251143a3e3a3f2ce277778a70162fde0092d3e5079c6e338f3a1b981"
+          },
+          {
+            "name": "blocks.6.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141446.28365176864,
+            "row_entropy_bits": 139239.443348287,
+            "stored_int_sha256": "a2ddde2d336728c821551d06f1e931443b6c801aad5c18825589844d45c944df"
+          },
+          {
+            "name": "blocks.6.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560099.4055057863,
+            "row_entropy_bits": 551622.5115200634,
+            "stored_int_sha256": "a14391ec1997b092d7aead604c68097402d35d21470405374474010e232c1477"
+          },
+          {
+            "name": "blocks.6.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 556901.1116825311,
+            "row_entropy_bits": 554502.8265668822,
+            "stored_int_sha256": "2d70098309f529916b086550cf62456b226cbe3f8518bb3f119f4c31b5e267bd"
+          },
+          {
+            "name": "blocks.7.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138646.87096114224,
+            "row_entropy_bits": 136270.29095682758,
+            "stored_int_sha256": "684ed01170f4031134d392f2e59db08843db2cb1c31e1afad4edf5e6135bc786"
+          },
+          {
+            "name": "blocks.7.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138892.15938276684,
+            "row_entropy_bits": 136314.99684699447,
+            "stored_int_sha256": "e5257e0ac9d782f978456d4bb9e34fc280de7fb03963299d944c3175c7952654"
+          },
+          {
+            "name": "blocks.7.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 142171.74740960603,
+            "row_entropy_bits": 140272.6937336672,
+            "stored_int_sha256": "805dd8f39bbcc692c7ef69e21110b737f614a1e021fdd84c01a43abd10f0c203"
+          },
+          {
+            "name": "blocks.7.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141950.27039652545,
+            "row_entropy_bits": 139898.72623540618,
+            "stored_int_sha256": "a8be36647d865d5ad5123ca4efa9c93e1b489e097b2492ed8996ca545281c7d5"
+          },
+          {
+            "name": "blocks.7.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560277.7846278984,
+            "row_entropy_bits": 551695.9767676841,
+            "stored_int_sha256": "d9464bfc802c7722ac672442c5392b28986e7c8b1254291c6ca12dabccf31f5a"
+          },
+          {
+            "name": "blocks.7.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 557088.296182049,
+            "row_entropy_bits": 554511.1480438786,
+            "stored_int_sha256": "b0153522b92e70755caba828deb4a17fb80507305830fbeda3998a4863b5ee74"
+          },
+          {
+            "name": "blocks.8.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138377.57301610056,
+            "row_entropy_bits": 136033.63614866888,
+            "stored_int_sha256": "bb7c9334d07bb667f764b9c87163ae152fbd25c4415b86db1b7f9e12564ca6c3"
+          },
+          {
+            "name": "blocks.8.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 137686.8753793112,
+            "row_entropy_bits": 135430.1865831591,
+            "stored_int_sha256": "85935f7bdc64924fda1fd36acf204d8c7c0f74754a3141f49db11eec9fb55fb5"
+          },
+          {
+            "name": "blocks.8.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138258.65417860274,
+            "row_entropy_bits": 135906.303398977,
+            "stored_int_sha256": "ea70a331ebf7652d7d3f33f57f491b7dc9b05cfa642330679422e9062ca78503"
+          },
+          {
+            "name": "blocks.8.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44361.850465976095,
+            "row_entropy_bits": 43671.89231383052,
+            "stored_int_sha256": "6caf49eec586517eade13a9759120d2e8c1b04bc618419184493cd20b757eee3"
+          },
+          {
+            "name": "blocks.8.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45858.99063752436,
+            "row_entropy_bits": 43584.903523953384,
+            "stored_int_sha256": "41fea4ddd9df2eeb703cb321630bc763361670214341e49771d67b2fd8abb23b"
+          },
+          {
+            "name": "blocks.8.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45256.103172749026,
+            "row_entropy_bits": 44472.13446653633,
+            "stored_int_sha256": "7162a9fcb6d0db6cfdc06b8b70558ec4ce5ef3617491744852c4757975c68387"
+          },
+          {
+            "name": "blocks.8.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46435.53656815679,
+            "row_entropy_bits": 44245.49899538312,
+            "stored_int_sha256": "092a74f6a29dbc93a1082953878fc9a58d44ff81ed2f233fbb4dd0517e0d2fb4"
+          },
+          {
+            "name": "blocks.8.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140459.90495746824,
+            "row_entropy_bits": 138211.85032965918,
+            "stored_int_sha256": "306e175c8248256d993507555c38a950e0513c1da9a11f0d0157ebe3bc1f0ef4"
+          },
+          {
+            "name": "blocks.8.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560945.0730226545,
+            "row_entropy_bits": 552372.3578410533,
+            "stored_int_sha256": "47d62f6537603a989a6d8b4d7cb572764cb5f65f07e1dd1242452bb7200d50e6"
+          },
+          {
+            "name": "blocks.8.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 557873.7170786576,
+            "row_entropy_bits": 555316.691295292,
+            "stored_int_sha256": "03ca4837ef467fcdca8815a642b090252e7ae57651b0c07767f8d9a8bd8c90e6"
+          },
+          {
+            "name": "blocks.9.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138254.43621650414,
+            "row_entropy_bits": 135923.75970888193,
+            "stored_int_sha256": "6071b13993e2024e9fad59d62799a7c278b1326a85d70831e3ebc637e89c0ce1"
+          },
+          {
+            "name": "blocks.9.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 137806.06332494848,
+            "row_entropy_bits": 135519.46356385245,
+            "stored_int_sha256": "b4cb9b1e0711e4f3eb0053eacdc93689c5f015fae496edf1afc1dcfb0149f25c"
+          },
+          {
+            "name": "blocks.9.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 137523.40383535862,
+            "row_entropy_bits": 135146.9645611419,
+            "stored_int_sha256": "65b93dbe79ab349296488512441195985f3f7c2d7c470dc121fc79daee4a03f3"
+          },
+          {
+            "name": "blocks.9.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 43943.981508654,
+            "row_entropy_bits": 43192.482813995935,
+            "stored_int_sha256": "59a76484492e772a38e9eac7e5bed1cfa87b261ec6b0985bb491884baaa7535c"
+          },
+          {
+            "name": "blocks.9.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45858.150986000925,
+            "row_entropy_bits": 43442.5155401258,
+            "stored_int_sha256": "466b86c5d0814f89743d434cb3409c66ed53645218769432199345b5bb013406"
+          },
+          {
+            "name": "blocks.9.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45111.27765524242,
+            "row_entropy_bits": 44361.13067630877,
+            "stored_int_sha256": "aa42b82284ccaca5c961d57d8d794303009df7848edbc611ba78f21f96584c56"
+          },
+          {
+            "name": "blocks.9.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46642.021180703865,
+            "row_entropy_bits": 44485.98920131769,
+            "stored_int_sha256": "03179b5745cf9450612d48380488ff6832ef253af339219b51011c0679b4880a"
+          },
+          {
+            "name": "blocks.9.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140581.90771793254,
+            "row_entropy_bits": 138432.70455410297,
+            "stored_int_sha256": "c9a86d8b4e410413621b386d8da90f419204f4358fb1032042b7f149b2666c8b"
+          },
+          {
+            "name": "blocks.9.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 560333.7752233898,
+            "row_entropy_bits": 551417.712163886,
+            "stored_int_sha256": "99397c7e6d1c6b5060af3333c60b93c0329b6511395722fe18f2a234263d2660"
+          },
+          {
+            "name": "blocks.9.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 556928.8980869699,
+            "row_entropy_bits": 554362.4450629007,
+            "stored_int_sha256": "6c215b0de84b4b14d26f6db27aca178ae8dfe42f1e22ef0f6747cd9b16c6cc05"
+          },
+          {
+            "name": "blocks.10.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138522.5600874378,
+            "row_entropy_bits": 136315.79872562352,
+            "stored_int_sha256": "7d85123eb08a7113002f2188ad650f7a2c167b88b6841d96f201ff91c1a775d1"
+          },
+          {
+            "name": "blocks.10.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 138257.32191025943,
+            "row_entropy_bits": 135918.7543135882,
+            "stored_int_sha256": "25c715ed9b9f0f9c62938800f084aa36a41e0a3528b4ec7091ee504c34bd3871"
+          },
+          {
+            "name": "blocks.10.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139310.01815543126,
+            "row_entropy_bits": 137080.49349531747,
+            "stored_int_sha256": "160d0475a14372d65e732ecf682e02cf95c415931740d4446027a63c240e6377"
+          },
+          {
+            "name": "blocks.10.attention.forget_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 44084.244800698616,
+            "row_entropy_bits": 43338.99461735662,
+            "stored_int_sha256": "cd3b2c29fb39655c2b466a748cd787f0cf1a919390d9cafbc22c032e9187e9d9"
+          },
+          {
+            "name": "blocks.10.attention.forget_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 45640.798590426806,
+            "row_entropy_bits": 43308.036493387255,
+            "stored_int_sha256": "b0838825b763dda0edf39021ac78c9bd6ed626d7270cb5b565d059b6ef24a89f"
+          },
+          {
+            "name": "blocks.10.attention.output_gate_projection.up.weight.q",
+            "shape": [
+              64,
+              192
+            ],
+            "count": 12288,
+            "entropy_bits": 45234.047296389756,
+            "row_entropy_bits": 44471.26904105171,
+            "stored_int_sha256": "e9950d469b1b87ab755ee420dd7d4510f245373deadbc7d1ddcd18a744cbd6aa"
+          },
+          {
+            "name": "blocks.10.attention.output_gate_projection.down.weight.q",
+            "shape": [
+              192,
+              64
+            ],
+            "count": 12288,
+            "entropy_bits": 46310.52045368683,
+            "row_entropy_bits": 44051.67428014801,
+            "stored_int_sha256": "68011e0ed29f7a4c5843e9278475ed22fe93dd14adbb1a54437293eb6cf6bdcc"
+          },
+          {
+            "name": "blocks.10.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140328.46664669324,
+            "row_entropy_bits": 138136.20368481538,
+            "stored_int_sha256": "21ad2ade50ec78298e6d640eee86fde69e705635a1ca08c73379ec7bfcd8b9ad"
+          },
+          {
+            "name": "blocks.10.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 559846.7246441926,
+            "row_entropy_bits": 551282.6106932778,
+            "stored_int_sha256": "6d3782d773f47371c08e91673add43c696a0ee975724d2f64eadc93361d4ae6e"
+          },
+          {
+            "name": "blocks.10.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 555398.904278463,
+            "row_entropy_bits": 552927.0366178327,
+            "stored_int_sha256": "aa9b0af4bd879c5fb1c9d337050786393e93628a73aa989f6f3b635a568be0e0"
+          },
+          {
+            "name": "blocks.11.attention.query_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139983.84886834247,
+            "row_entropy_bits": 137204.6243710794,
+            "stored_int_sha256": "43b5ce018d4df0a70acd67b1298ce1ebec7d1811ee127e77089fea90da1be82a"
+          },
+          {
+            "name": "blocks.11.attention.key_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 139654.23215088082,
+            "row_entropy_bits": 136697.961040778,
+            "stored_int_sha256": "e54c1435d48fc09959e63404bfadbc5b2868adfa557eb285047c78630803e0fe"
+          },
+          {
+            "name": "blocks.11.attention.value_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 141981.57579900365,
+            "row_entropy_bits": 139951.93328517026,
+            "stored_int_sha256": "4aadac6e066a42f8787d456d0ede910203b124fb4f8b6e62bc2541c894cfa5b6"
+          },
+          {
+            "name": "blocks.11.attention.output_projection.weight.q",
+            "shape": [
+              192,
+              192
+            ],
+            "count": 36864,
+            "entropy_bits": 140774.49479758614,
+            "row_entropy_bits": 138711.54425624706,
+            "stored_int_sha256": "9548790513bb72ddb3c34354508cc058bd495902050352970b65d96c52c7a7be"
+          },
+          {
+            "name": "blocks.11.mlp.up.weight.q",
+            "shape": [
+              768,
+              192
+            ],
+            "count": 147456,
+            "entropy_bits": 557331.1661189042,
+            "row_entropy_bits": 548640.2817303034,
+            "stored_int_sha256": "4fc0e3f67ee73fa06309d14865bbbba82207932941d377b20154b49722803de4"
+          },
+          {
+            "name": "blocks.11.mlp.down.weight.q",
+            "shape": [
+              192,
+              768
+            ],
+            "count": 147456,
+            "entropy_bits": 557776.5791145859,
+            "row_entropy_bits": 555442.2612372986,
+            "stored_int_sha256": "e7c3e8abfc641207b362fcf6bfc537203f36010ab1715b715519f7e6e3adf306"
+          },
+          {
+            "name": "unembedding.weight.q",
+            "shape": [
+              205,
+              192
+            ],
+            "count": 39360,
+            "entropy_bits": 148638.14350384526,
+            "row_entropy_bits": 146120.06006919025,
+            "stored_int_sha256": "03dfbf8064296c8ef84eab2472b3322c2b71888865d1167f93c92a542be4dfef"
+          }
+        ],
+        "warning": "Empirical entropy excludes required model/table costs and is not an achieved size. Per-row estimates are biased downward by small samples; no production saving is claimed."
+      },
+      "zstd_status": "not installed; no installation attempted",
+      "best": {
+        "transform": {
+          "kind": "gray"
+        },
+        "semantic_v2": false,
+        "codec": "lzma6",
+        "codec_id": 2,
+        "transformed_bytes": 2930652,
+        "codec_bytes": 2930860,
+        "wrapper_metadata_bytes": 81,
+        "total_blob_bytes": 2930941,
+        "saving_per_copy_before_decoder_code": -289,
+        "saving_two_copies_before_decoder_code": -578,
+        "transform_seconds": 0.003088400000706315,
+        "inverse_seconds": 0.003947699995478615,
+        "compression_seconds": 0.7522370000078809,
+        "decompression_seconds": 0.0021752000029664487,
+        "original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+        "inverse_base_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+        "roundtrip_exact": true,
+        "verification": "exact codec inverse + exact transform inverse + original byte equality",
+        "finalist_full_original_sha256": "7f4db6c8c843a7e6264b6a48ed4805e9e431f543df7a9a0ecb37a35a5e4b8860",
+        "finalist_full_roundtrip_exact": true
+      },
+      "interpretation": "Existing loader can be kept only behind a new wrapper inverse that restores the identical original blob. Gross savings exclude C++ inverse/library code, build packing and peak RSS. Semantic inverse reencodes the adaptive stream at startup; measure that CPU cost before integration. No numeric weight change or retraining occurred."
+    }
+  ],
+  "time_cap_seconds": 540.0,
+  "decoder_code_accounting": "not measured",
+  "elapsed_seconds": 211.89000000001397
+}

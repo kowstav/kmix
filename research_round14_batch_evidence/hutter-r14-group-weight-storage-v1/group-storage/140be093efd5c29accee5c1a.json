@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.output_gate_projection.up.weight.codebook",
+  "names": [
+    "blocks.8.attention.output_gate_projection.up.weight.codebook"
+  ],
+  "label": "140be093efd5c29accee5c1a",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 172
+    }
+  ],
+  "selected": [
+    172,
+    "plain",
+    "zstd"
+  ],
+  "archive_sha256": "817a435dc2e2182fcd2a10b0510fe26cea60f52d5fcc5828ffb5aa1ea3ca4e42",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.007120000000001903,
+  "wall_seconds": 0.007159331999986307
+}

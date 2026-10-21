@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.forget_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.2.attention.forget_gate_projection.down.weight.scale"
+  ],
+  "label": "4381d04bf81c81017b272138",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 495
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 463
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 403
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 451
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 405
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 495
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 463
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 495
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 463
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 495
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 463
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 557
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 558
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    403,
+    "planes",
+    "gzip"
+  ],
+  "archive_sha256": "79f5a4034bb292a9e8d36b753efc18b23144a1214f04466f929680f445654c53",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.010260999999999298,
+  "wall_seconds": 0.010517354000000978
+}

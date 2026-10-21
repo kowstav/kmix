@@ -1,0 +1,52 @@
+{
+  "status": "FAIL",
+  "pid": 2839,
+  "started": 1791315314.3858094,
+  "spending_usd": 0,
+  "deletions": [],
+  "scratch": "/root/hp_round9/word_cache_v1",
+  "development": [],
+  "confirmation": [],
+  "contract": {
+    "laws": [
+      "count",
+      "recency8",
+      "recency64",
+      "recency256",
+      "constructor_context",
+      "letter_bag_cosine4",
+      "first_letter",
+      "constructor_letter_bag_last_letter"
+    ],
+    "state": "last256 completed encoded word spans,length1..64bytes; longest matching proper encoded-word prefix among last8alreadydecodedbytes; donors available only after delimiter completion",
+    "placement": "donor preceding completed-word constructor class vs current previous-word class; heuristic constructor lexicon,not POS truth",
+    "structural": "past-word letter bags/first-last letters; no claim that diamond implies almond or that anagrams share meaning",
+    "TTL": "donor age in completed words; recency8/64/256,rolling256word eviction; much longer than earlier128byte reset in many contexts",
+    "fit": "one scalar alpha per law MLE on A/B,0<=alpha<=.5; C/D selection including identity; freeze before E/F",
+    "support": "counted next encoded donor byte+.001Dirichlet over256bytes,conditional on alreadyknown bit prefix; expert Q16 first,then integer mixture",
+    "price": "8B coefficient per selected law per counted copy plus rule/parser/code/memory; executable unmeasured",
+    "native": "read-only replay; actual decoder must reproduce full semantic framing and events before promotion"
+  },
+  "build": {
+    "wall_seconds": 3.4283601690003707,
+    "stdout": ""
+  },
+  "binary_sha256": "e9ec90da739373a8d5215c26f721a94b29b17ec989ec54a7ce0d83c307fd46ae",
+  "source_sha256": "1ff351dbd1c76e8898eec4bb9ad7cf755a3d868399600076c791f50721383774",
+  "stage": "failure preserved",
+  "nonzero_future_prefix": "PASS",
+  "features": [
+    {
+      "slice": "a",
+      "raw_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "events_sha256": "888893f2eba72506498ee105c5144649fb20cc97dd4cb4f5219942aede90d412",
+      "Q16_sha256": "77c5a3acc3a9d80b20098e98722d8a6ebd55f2055023c326989cab7ed7575ea1",
+      "accounting": {
+        "wall_seconds": 26.4487888879994,
+        "stdout": "{\"bytes\":524288,\"events\":83713,\"active_bytes\":524254,\"cache_capacity\":256,\"prefix_cap\":8}"
+      }
+    }
+  ],
+  "error": "OverflowError('Python integer 65536 out of bounds for uint16')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round9/research_round9_word_cache_worker.py\", line 33, in <module>\n    raw,base,y=load(s);q,active=features(s,raw);bp=np.where(y,base,65536-base).astype(np.float64)[active]\n                                                                   ~~~~~^~~~~\nOverflowError: Python integer 65536 out of bounds for uint16\n"
+}

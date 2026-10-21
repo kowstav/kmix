@@ -1,0 +1,1256 @@
+{
+  "status": "COMPLETE_PARTIAL_DICTIONARY_MASK_RESIDUAL_TRAINING",
+  "session": 355735431,
+  "pid": 1400,
+  "started": "2026-10-06T14:41:39.545950+00:00",
+  "scope": "partial A96 dictionary-atom mask training of a tiny residual; original transformer unchanged",
+  "core_retraining": false,
+  "production_training": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "rungs": [
+    {
+      "arm": "unweighted",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.3553949819997797,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "a4b059dacafba899107fd003394ebf2a153e6f3aa3e82b58be37f8318e5db3ac",
+      "optimizer_resume_file": "unweighted_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "c5bc33ceffab4bf9b605eda10aad0340d51106882c4530d380208ac04f01dd48",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.153153864129024,
+        "Q16_gain_vs_wide_bytes": -0.8019563293584707,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -19.153153864129024,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "baa9c1e6b1b1e111b8f7f7050eafa1d6c5e7cdf3029e033f4268cad534884649"
+      }
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.2350951520002127,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "250067817c7fe7d737106e31d541488c241390e24ab51c78b2d8cc476d192b00",
+      "optimizer_resume_file": "unweighted_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "99aa1097d791e8cc9251d348929cee73b02d1e3acb83f6daed306af0905c248c",
+      "development": {
+        "Q16_gain_vs_original_bytes": -18.694646866103785,
+        "Q16_gain_vs_wide_bytes": -0.34344933133320876,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -18.694646866103785,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "cbe5a6a6bec466170393260dc15f47a592a9655393bdd5a920457485df030eea"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.22776606300067215,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "6f091353e8e01a4444eaa1d831001597309316b72ca799697c113ba3545b62d8",
+      "optimizer_resume_file": "cut107_weight0.0_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "d607da509dbf7942feeef49f9e985a29ea7f30c427ce6f4cc922eebed7f019c3",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.709437828130177,
+        "Q16_gain_vs_wide_bytes": -1.3582402933596713,
+        "masked_dictionary_gain_vs_original_bytes": -1.2735257423489172,
+        "other_gain_vs_original_bytes": -18.435912085781272,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "27604a752d6f7245aab8ba71fce64a984974443dbd8adee12cbfd4215198c8a9"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.21593335600118735,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "91d61b4c973f4af579ca191de1b80de0a611f4dec20316ea829bb96352ec3592",
+      "optimizer_resume_file": "cut107_weight0.0_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "120e34a1077fdb2f355308afd337591b0e6fe90e7b706e491a85e033ef7191c0",
+      "development": {
+        "Q16_gain_vs_original_bytes": -18.474101653026345,
+        "Q16_gain_vs_wide_bytes": -0.12290411825568798,
+        "masked_dictionary_gain_vs_original_bytes": 0.08722351407616413,
+        "other_gain_vs_original_bytes": -18.561325167102513,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "d17b5c9145379c66619b8bea26fcc7894230a8b6f1ddf628e43cedf6f636e0e6"
+      }
+    },
+    {
+      "arm": "cut107_weight0.25",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.2201539630004845,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.25_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "f6b482158bdf7e9a806af4e852bfa12b700909fddafcfff83785e9b5f7cfe516",
+      "optimizer_resume_file": "cut107_weight0.25_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "e9d9b945a655490eedea9df2522b4a78748659b740073b838aa6a5a824e29912",
+      "development": {
+        "Q16_gain_vs_original_bytes": -20.054126700073276,
+        "Q16_gain_vs_wide_bytes": -1.7029291653027332,
+        "masked_dictionary_gain_vs_original_bytes": -1.43126897181101,
+        "other_gain_vs_original_bytes": -18.62285772826226,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "a42ade1c4aaec56fe6584335fa9240c8e2a09e90ea55c2a272daba61ec9f7acf"
+      }
+    },
+    {
+      "arm": "cut107_weight0.25",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.21360893000019132,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.25_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "455ee21f01477bd95bf9564a1aaab01e29b28ffa910e71009986f65735b413b2",
+      "optimizer_resume_file": "cut107_weight0.25_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "daa394ea06bc30f081ab6b6d2b7af43b1e52f7716187fb5c99ceb05a8432d469",
+      "development": {
+        "Q16_gain_vs_original_bytes": -18.95313674201591,
+        "Q16_gain_vs_wide_bytes": -0.6019392072453789,
+        "masked_dictionary_gain_vs_original_bytes": -0.9774941990442665,
+        "other_gain_vs_original_bytes": -17.97564254297165,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "695c4dfc0cc07d1d8c3278e84b2806b8d1e4e755d29198b71edca3fa7d46c3c6"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.21653896700081532,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "ce6f0d86046a8f7c16b2f888a8e0c9c9bc352194b4229f7e1b533340b25f0329",
+      "optimizer_resume_file": "cut107_weight0.5_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "3641cde87a7263665a493f899b96c0d00e6ed71db23438de236f7e9ec01307f9",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.68609973819344,
+        "Q16_gain_vs_wide_bytes": -1.334902203422944,
+        "masked_dictionary_gain_vs_original_bytes": -1.2798014557602706,
+        "other_gain_vs_original_bytes": -18.406298282433173,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "f6528d2b6c1f0be0e4b05c8063fb55b3631f7bd04b9d5c2c97f2da877ed3fd01"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.21111972400103696,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "c43edc8d8aba718fb38181a626e7aa0e94f79d758ec108279f9406e91bf8b981",
+      "optimizer_resume_file": "cut107_weight0.5_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "6eed1171418d6d57190eda67c2ecfd7eb273f52bbc2865b1a0739a8551f497d1",
+      "development": {
+        "Q16_gain_vs_original_bytes": -18.879012076121693,
+        "Q16_gain_vs_wide_bytes": -0.5278145413511627,
+        "masked_dictionary_gain_vs_original_bytes": -0.8966947229752464,
+        "other_gain_vs_original_bytes": -17.982317353146442,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "86293a760041f53f2e39f874a8f4ba6f14b70ff95a97bdc52cd84cb91e4a9c96"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.0",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.21290441099881718,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.9477564493815104,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.0_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "cc14dc3088a77e7c7ded83851b5b857ed25d93daf33791f213efea4a31a69e24",
+      "optimizer_resume_file": "cut1392_weight0.0_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "3bde855c5b5900b3ef5837245839cf4fc4e60c46d11fb8a94055266021e759ed",
+      "development": {
+        "Q16_gain_vs_original_bytes": -44.66769136884373,
+        "Q16_gain_vs_wide_bytes": -26.316493834073285,
+        "masked_dictionary_gain_vs_original_bytes": -66.55166436586795,
+        "other_gain_vs_original_bytes": 21.883972997024223,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "0843dcdbdb5281d9de99e48570e911f87bbd810f06318786b207c912f55a1a75"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.0",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.21141311199971824,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.9477564493815104,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.0_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "46053813907886e6e745fc17ec6734ca0d66b00825d8d5bc8c90edcbcde6f40b",
+      "optimizer_resume_file": "cut1392_weight0.0_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "ec94b6968512a18743b273e5cda7bbecd2b7a9b32f36d0b42a3ad50fc71045c3",
+      "development": {
+        "Q16_gain_vs_original_bytes": -70.56641097272954,
+        "Q16_gain_vs_wide_bytes": -52.21521343795945,
+        "masked_dictionary_gain_vs_original_bytes": -87.39988994000444,
+        "other_gain_vs_original_bytes": 16.833478967274903,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "721de911f809abb8f210b90185ce91451f921cdf6b6d9b6a5fc4b94578c73b6a"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.25",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.21364631100004772,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.25_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "0ce22cc79a6c44da028a66b662401dd169ae873ab3e0aa4bf305ff2aa0a636bc",
+      "optimizer_resume_file": "cut1392_weight0.25_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "2463dbef39e9b36f49a1a2530166d844bc48fb5ca3aeabc9d167291e5d394b9a",
+      "development": {
+        "Q16_gain_vs_original_bytes": -46.295944994045534,
+        "Q16_gain_vs_wide_bytes": -27.944747459275046,
+        "masked_dictionary_gain_vs_original_bytes": -66.5530059747972,
+        "other_gain_vs_original_bytes": 20.257060980751664,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "704cd642683f1e40b9b6b2aa6673082ffe0a963f658fe4d7387c98a0d8811bd3"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.25",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.205065038999237,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.25_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "f69f79b1f6cbe21820ac96d74e02044304913f83b0e87844cdc2ead216c8398c",
+      "optimizer_resume_file": "cut1392_weight0.25_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "d9cab73a34fd53a54c57dcda61b72553a6a353dffbea455e4e203286f3764514",
+      "development": {
+        "Q16_gain_vs_original_bytes": -38.98169069546058,
+        "Q16_gain_vs_wide_bytes": -20.630493160690534,
+        "masked_dictionary_gain_vs_original_bytes": -56.58048899456933,
+        "other_gain_vs_original_bytes": 17.598798299108754,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "d8ce4384f44c5e1ed95642e219c8288784ff68d1df612390276445c539b2c462"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.5",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.20830635300080758,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.5_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "d3d99dd08dd783404ae57f6b6d98858a24dfd05f903d6ca58fc3338f43ef1977",
+      "optimizer_resume_file": "cut1392_weight0.5_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "67fb85597f6f3057b2ae45c55163ea4f859b8c82e6b274c50948dda4826377f2",
+      "development": {
+        "Q16_gain_vs_original_bytes": -32.50245777521114,
+        "Q16_gain_vs_wide_bytes": -14.151260240440493,
+        "masked_dictionary_gain_vs_original_bytes": -48.02259232558363,
+        "other_gain_vs_original_bytes": 15.520134550372488,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "d017d04297961b9c177d11c3855d0b0b5dbd2b9da606f0b52cc4526405d0836a"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.5",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.20210501499968814,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.5_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "02ee906d5569d2457e8403878a056218fbf768828f8d5b64cdc3234c133b5304",
+      "optimizer_resume_file": "cut1392_weight0.5_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "6ea9b6042f24cadcd37e373e0941cbcd664fcc9ef2023ad4e043ce6c0cd4e07c",
+      "development": {
+        "Q16_gain_vs_original_bytes": -27.803556825682787,
+        "Q16_gain_vs_wide_bytes": -9.45235929091237,
+        "masked_dictionary_gain_vs_original_bytes": -39.189620617552194,
+        "other_gain_vs_original_bytes": 11.386063791869407,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "e6b568f53c61b634b42ba69b43d3816230d62fc716099283a188d7a7638d5a23"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.0",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.2141155270001036,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.8689715067545573,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.0_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "f20645f51eecdd163fd4c05cb8f5b2257f644b1bff137cbb306212ef50cb4530",
+      "optimizer_resume_file": "cut8372_weight0.0_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "255aef73e27410ba2f4b51b5873c18192308fe8bbc6d41658774fd19f6243fe8",
+      "development": {
+        "Q16_gain_vs_original_bytes": -145.0814223852272,
+        "Q16_gain_vs_wide_bytes": -126.7302248504576,
+        "masked_dictionary_gain_vs_original_bytes": -252.27909798974363,
+        "other_gain_vs_original_bytes": 107.19767560451648,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "c66430a889852a93ed5beb2ec4536d046415651a5e76ba12a37b10657dd24456"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.0",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.20006648800153926,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 0.8689715067545573,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.0_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "dbee461b48f90ac55745e26264acb98ce3c908dd6cff9d37a11f28b104e7683d",
+      "optimizer_resume_file": "cut8372_weight0.0_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "1612831c098604336feb7698b2a4dafa1a636f8774ae1676deb6960c5e1541f8",
+      "development": {
+        "Q16_gain_vs_original_bytes": -172.6564784036325,
+        "Q16_gain_vs_wide_bytes": -154.3052808688632,
+        "masked_dictionary_gain_vs_original_bytes": -273.2697975214397,
+        "other_gain_vs_original_bytes": 100.6133191178073,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "4517b87029fcbbd7d98dff6ad375a21cf38f6e01b4da59e441fdca41bd730084"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.25",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.20176743500087468,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.25_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "15efcd53f6d7e0b80407570fa11e48cb4eec368fe802aa8d7984a8379fc3dc05",
+      "optimizer_resume_file": "cut8372_weight0.25_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "93f667e5e1eef076382f7c5a15c28d1494913871dc6b45c367697cb74664a61f",
+      "development": {
+        "Q16_gain_vs_original_bytes": -99.12558050043737,
+        "Q16_gain_vs_wide_bytes": -80.7743829656677,
+        "masked_dictionary_gain_vs_original_bytes": -200.7261328164526,
+        "other_gain_vs_original_bytes": 101.60055231601525,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "012b4adfddd2c9365e8d0934768f4c04d560c2a5f6b339dcdf49af7b56576be9"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.25",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.20102992200008885,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.25_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "1358a49fa952fe213a732ae92a8283d9c174722cde6c623b9545715f3606dd3e",
+      "optimizer_resume_file": "cut8372_weight0.25_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "884105a7b4f10653fc60ca35e7bb7e5a67243197967994494422e10814d8f2f7",
+      "development": {
+        "Q16_gain_vs_original_bytes": -82.8372335947499,
+        "Q16_gain_vs_wide_bytes": -64.48603605998075,
+        "masked_dictionary_gain_vs_original_bytes": -175.45277114370788,
+        "other_gain_vs_original_bytes": 92.61553754895796,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "6c2e36b22d7837903901e058edf74995e84cec04298ab14ce97e0b2f5ae7b4ad"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.5",
+      "seed": 6106,
+      "step": 128,
+      "training_seconds": 0.21364214300047024,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.5_seed6106_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "4d07b163edc8000f36642a3b5727d05902f8be473923af7c7657651adde9c513",
+      "optimizer_resume_file": "cut8372_weight0.5_seed6106_step128.resume.pt",
+      "optimizer_resume_sha256": "013da9c9bb25aedb943f234930bd218d851d13e1b7e120346e8f8a3be48e15ee",
+      "development": {
+        "Q16_gain_vs_original_bytes": -55.57890157540942,
+        "Q16_gain_vs_wide_bytes": -37.22770404063941,
+        "masked_dictionary_gain_vs_original_bytes": -133.0621423189861,
+        "other_gain_vs_original_bytes": 77.4832407435767,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "9c2b5a6ec9dc1999fe79b34c5a3a02a28f948c9bad3af5cea58896440c0b633f"
+      }
+    },
+    {
+      "arm": "cut8372_weight0.5",
+      "seed": 6107,
+      "step": 128,
+      "training_seconds": 0.2081526940000913,
+      "sampled_nonzero_loss_bit_targets": 4194304,
+      "inspected_sampled_bit_targets": 4194304,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut8372_weight0.5_seed6107_step128.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "7399db16caffc63692ba488a9989743d20488bde53346a3362aa4d6a4414e296",
+      "optimizer_resume_file": "cut8372_weight0.5_seed6107_step128.resume.pt",
+      "optimizer_resume_sha256": "6f2b4e0b7c86a6a2e96262930a9817d94454bb7defb1e768616b897aba3380ff",
+      "development": {
+        "Q16_gain_vs_original_bytes": -43.32681335132481,
+        "Q16_gain_vs_wide_bytes": -24.97561581655502,
+        "masked_dictionary_gain_vs_original_bytes": -107.93529176941088,
+        "other_gain_vs_original_bytes": 64.60847841808608,
+        "masked_dictionary_bit_targets": 269120,
+        "reference_Q16_sha256": "025f0e620e88bd25619599255512346a9d5f70938ec0633576d0cb55cd8124c4"
+      }
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6106,
+      "step": 384,
+      "training_seconds": 0.7866376599995419,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6106_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "6180bb0e0901777e3c71ab703c9e38a650bcaf7ca0df6edde3c1d6b8a8f9123e",
+      "optimizer_resume_file": "unweighted_seed6106_step384.resume.pt",
+      "optimizer_resume_sha256": "8a39a15bdf0000ec45dbef2d233dc1a792b1adde6932fd8c7b3bb3890134a6df",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.483174054762177,
+        "Q16_gain_vs_wide_bytes": -1.1319765199914322,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -19.483174054762177,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "94027a7157b38e207698b6563cb657f25611086dcf05198933e5975d5c34defe"
+      }
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6107,
+      "step": 384,
+      "training_seconds": 0.6362387030003447,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6107_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "a7b661488106c39a4d105810b776ef0a9d139222a5e9920c09655fb1f9d82cb7",
+      "optimizer_resume_file": "unweighted_seed6107_step384.resume.pt",
+      "optimizer_resume_sha256": "6cf7f4fe02a4b75ccfd2dd1d2a54c24e373c5285f3469b2bbf0e16b2eb345148",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.173677134524837,
+        "Q16_gain_vs_wide_bytes": -0.8224795997542328,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -19.173677134524837,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "fdc8c1f6da6acdd43b6eb9fe7d8143b34578773fdc3eb954ba58d1498d94c612"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "step": 384,
+      "training_seconds": 0.6662409480013594,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6106_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "7d6b1795c830dae81eacba2b44f50a329d90a821821746039c34c1a26fe6ed97",
+      "optimizer_resume_file": "cut107_weight0.0_seed6106_step384.resume.pt",
+      "optimizer_resume_sha256": "a9d014da49e3c48e039f3fd9b651b15a4876c4b9c86ceb495fe98aaa69d02f69",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.063277441335853,
+        "Q16_gain_vs_wide_bytes": -0.7120799065653622,
+        "masked_dictionary_gain_vs_original_bytes": -0.7888599258093594,
+        "other_gain_vs_original_bytes": -18.274417515526498,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "cdb00f7944cf759ac9d8b7028d99ae0826ec6adaaeb194dd527e372b513e6c4a"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "step": 384,
+      "training_seconds": 0.646520293001231,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6107_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "44fec436f7f00ee7a512c660d3d172da26cabffc55b6fbf956c44397bac0ebe3",
+      "optimizer_resume_file": "cut107_weight0.0_seed6107_step384.resume.pt",
+      "optimizer_resume_sha256": "8a0da2bbbfac0945065343db2c190d2fd37d96579b388bf0fc44f88cea7f2e9a",
+      "development": {
+        "Q16_gain_vs_original_bytes": -20.116359899427803,
+        "Q16_gain_vs_wide_bytes": -1.765162364657277,
+        "masked_dictionary_gain_vs_original_bytes": -1.418410959782683,
+        "other_gain_vs_original_bytes": -18.69794893964512,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "ac5544a2638a30cd796aeaedd77c9ca63567cfbd82d444b93fd2680e682ffc34"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "step": 384,
+      "training_seconds": 0.7220760970012634,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6106_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "ae7c1393c78735426278d2ae9056dfc0b884f018daffd6622397268b988815c6",
+      "optimizer_resume_file": "cut107_weight0.5_seed6106_step384.resume.pt",
+      "optimizer_resume_sha256": "0d199c539dcf18ff0eda99e0f09996769a388d61ade14252b18a2048580bfaca",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.621342844175036,
+        "Q16_gain_vs_wide_bytes": -1.2701453094044708,
+        "masked_dictionary_gain_vs_original_bytes": -0.7301814970773902,
+        "other_gain_vs_original_bytes": -18.891161347097633,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "99456082ac1e23bab9beb15eaf4cd6c9982583cee791a4377bc2d05dea6a802b"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "step": 384,
+      "training_seconds": 0.6803065020012582,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6107_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "dbd9300044e7d06967f49d1a33b4c5402032b2e5838154f611934da04f48c723",
+      "optimizer_resume_file": "cut107_weight0.5_seed6107_step384.resume.pt",
+      "optimizer_resume_sha256": "1eb4a0ebae5912f33762569f978ade320dda74b57f084bbda3832ed0db415f73",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.39458799939665,
+        "Q16_gain_vs_wide_bytes": -1.0433904646261507,
+        "masked_dictionary_gain_vs_original_bytes": -0.8231901477240313,
+        "other_gain_vs_original_bytes": -18.57139785167262,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "0ace78fe0592a7d031556ad89357bef23ea71662fc7d3c52e686aa9bbb5aa38e"
+      }
+    },
+    {
+      "arm": "cut107_weight0.25",
+      "seed": 6106,
+      "step": 384,
+      "training_seconds": 0.7057912140007829,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.25_seed6106_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "13b7dad9584403d931d84054f724b1646945fe9f14e62ff83262824b8a02af7b",
+      "optimizer_resume_file": "cut107_weight0.25_seed6106_step384.resume.pt",
+      "optimizer_resume_sha256": "e7cb02eab7ee9b930a69dc4549ed8225b15ef8e2e373e2052a930749c6e1fdd4",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.78295529989329,
+        "Q16_gain_vs_wide_bytes": -1.4317577651228324,
+        "masked_dictionary_gain_vs_original_bytes": -0.9010213966504186,
+        "other_gain_vs_original_bytes": -18.881933903242874,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "d9c30127d664dd08209ebcfd339e3dc9cd71cf504f20fa58eb7916f295648d34"
+      }
+    },
+    {
+      "arm": "cut107_weight0.25",
+      "seed": 6107,
+      "step": 384,
+      "training_seconds": 0.6398561770001834,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.25_seed6107_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "0a2e1e05151df1968273b2a219887140884c53f09297a5772cf754d636bbc6bf",
+      "optimizer_resume_file": "cut107_weight0.25_seed6107_step384.resume.pt",
+      "optimizer_resume_sha256": "f809b19f26843e722ba377df961f6acb049af2a66b976e954f27c67bda481c17",
+      "development": {
+        "Q16_gain_vs_original_bytes": -19.588006239233554,
+        "Q16_gain_vs_wide_bytes": -1.2368087044630758,
+        "masked_dictionary_gain_vs_original_bytes": -0.9652578986394293,
+        "other_gain_vs_original_bytes": -18.62274834059413,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "67d16d42566456a418414b78c23314104f10f4b81d3f7b4090eb2afcc64e3ef9"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.5",
+      "seed": 6106,
+      "step": 384,
+      "training_seconds": 0.6365064649999113,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.5_seed6106_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "5386ec8b058b421e813afac790a3baf2cdd8f0d19b281ad2b1fe49c749af62af",
+      "optimizer_resume_file": "cut1392_weight0.5_seed6106_step384.resume.pt",
+      "optimizer_resume_sha256": "a5cd29e79f151862bb3c700b96e05f61b759b5e3ec41e226cce1f57cd68501bc",
+      "development": {
+        "Q16_gain_vs_original_bytes": -29.79613983071323,
+        "Q16_gain_vs_wide_bytes": -11.444942295942484,
+        "masked_dictionary_gain_vs_original_bytes": -43.51247486962212,
+        "other_gain_vs_original_bytes": 13.716335038908884,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "896a5e4a615bee265969874f75ca92b8138477389aa36cba5aed13d560a7a77c"
+      }
+    },
+    {
+      "arm": "cut1392_weight0.5",
+      "seed": 6107,
+      "step": 384,
+      "training_seconds": 0.6703841210000974,
+      "sampled_nonzero_loss_bit_targets": 12582912,
+      "inspected_sampled_bit_targets": 12582912,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut1392_weight0.5_seed6107_step384.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "d5cf0c3700a979134d0608e211105e3ebc3a95cf1803b6c5f02358a64dbd9658",
+      "optimizer_resume_file": "cut1392_weight0.5_seed6107_step384.resume.pt",
+      "optimizer_resume_sha256": "fbc2f1a89e56108d3a6bb6f56b69a726948d291de2853db1ede4be43920952a0",
+      "development": {
+        "Q16_gain_vs_original_bytes": -29.779952769286762,
+        "Q16_gain_vs_wide_bytes": -11.428755234516341,
+        "masked_dictionary_gain_vs_original_bytes": -43.40655384421159,
+        "other_gain_vs_original_bytes": 13.626601074924821,
+        "masked_dictionary_bit_targets": 114408,
+        "reference_Q16_sha256": "b38c47b2a45ffe9f6003532cec5690a7b6a052389400650d2cf0c2e096aa8837"
+      }
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6106,
+      "step": 1152,
+      "training_seconds": 2.1190147649995197,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6106_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "62df5fdc3f40cda52f6dc26f30a5e8ed6ea08b021cd957066356679bb2114c88",
+      "optimizer_resume_file": "unweighted_seed6106_step1152.resume.pt",
+      "optimizer_resume_sha256": "8f08e9fde0045706414a4a98216c2a3c5ad4d74cff83ea5f4467ed5ca117e356",
+      "development": {
+        "Q16_gain_vs_original_bytes": -22.02721158603952,
+        "Q16_gain_vs_wide_bytes": -3.6760140512690977,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -22.02721158603952,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "4e530f122429e60d5501bdfc3d26719be59be57239f0f75fd0917e6fa5473dd8"
+      }
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6107,
+      "step": 1152,
+      "training_seconds": 1.9507402990020637,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "unweighted_seed6107_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "fa11e418c9093d4e6378723a65e67ce7c79927eea1a90fd4c5ba41f96e508143",
+      "optimizer_resume_file": "unweighted_seed6107_step1152.resume.pt",
+      "optimizer_resume_sha256": "56bf5c9a42cbe488458388a9b674f04c0080d8bb379ab22c15977436337c3cb3",
+      "development": {
+        "Q16_gain_vs_original_bytes": -22.107273795844314,
+        "Q16_gain_vs_wide_bytes": -3.756076261073804,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": -22.107273795844314,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "a18ae5930d42dd12eb3f9a8a07a1bc74556e6a6aa3557a787143e098f7b07683"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "step": 1152,
+      "training_seconds": 2.087771309001255,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6106_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "408ea078a4a76399c75c74c727f259fc6f54b88ac9e43f0511eefbf27b1a5864",
+      "optimizer_resume_file": "cut107_weight0.5_seed6106_step1152.resume.pt",
+      "optimizer_resume_sha256": "1f298412ffaf7815c7a7539580469fdaa74ab42453de1e514e011f462d610d09",
+      "development": {
+        "Q16_gain_vs_original_bytes": -22.525507723826873,
+        "Q16_gain_vs_wide_bytes": -4.1743101890569,
+        "masked_dictionary_gain_vs_original_bytes": -0.958489598601544,
+        "other_gain_vs_original_bytes": -21.56701812522532,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "9a01386160bbcb54a00e5ed7ea3df670917fb3655b785839bbb9765d8e392e2a"
+      }
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "step": 1152,
+      "training_seconds": 1.9346377370002301,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 1.0,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.5_seed6107_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "a12ffd7e7ac67bcd19de16eaac27322080366a81c8b5f56b9ba7fb11b3eec769",
+      "optimizer_resume_file": "cut107_weight0.5_seed6107_step1152.resume.pt",
+      "optimizer_resume_sha256": "819df1a43581b3dd54403d38007339d775ca6a0ca9559462d91e42acb6705df4",
+      "development": {
+        "Q16_gain_vs_original_bytes": -22.04898655772415,
+        "Q16_gain_vs_wide_bytes": -3.6977890229538053,
+        "masked_dictionary_gain_vs_original_bytes": -0.4731086484516218,
+        "other_gain_vs_original_bytes": -21.57587790927253,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "4fffa9c4c14a10c1a777d598ce8e75bbd96e374dc9680c008e5d4311225e7987"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "step": 1152,
+      "training_seconds": 1.978170112000953,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6106_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "2556e2c900c91efe341e4b75a0b28edc5442178f26b70177e7c8d8f21de181c2",
+      "optimizer_resume_file": "cut107_weight0.0_seed6106_step1152.resume.pt",
+      "optimizer_resume_sha256": "3660fa61c733daf7ec092e5036a294a32dd11f3ce330d14ed3a813d7797befcd",
+      "development": {
+        "Q16_gain_vs_original_bytes": -23.77423053739537,
+        "Q16_gain_vs_wide_bytes": -5.423033002625902,
+        "masked_dictionary_gain_vs_original_bytes": -1.4776105800632102,
+        "other_gain_vs_original_bytes": -22.296619957332158,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "d41e98e757d85ad21d0d459d9e3b0849b7e1d890e9d2c4d744c8eecb4971f234"
+      }
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "step": 1152,
+      "training_seconds": 1.9089083779999783,
+      "sampled_nonzero_loss_bit_targets": 37748736,
+      "inspected_sampled_bit_targets": 37748736,
+      "pool_nonzero_fraction": 0.9955978393554688,
+      "active_pool_sampling_not_same_common_exposure": true,
+      "parameter_file": "cut107_weight0.0_seed6107_step1152.f32",
+      "parameter_bytes": 644,
+      "parameter_sha256": "f27438831aa77213f0dc011bd73fa49b6df5b36ab2e9e71488b1d2ea0fc39b1a",
+      "optimizer_resume_file": "cut107_weight0.0_seed6107_step1152.resume.pt",
+      "optimizer_resume_sha256": "162dfbb4479186df8d18360dfb6d8a78bbc92f04be31540ba4347939d4d3efeb",
+      "development": {
+        "Q16_gain_vs_original_bytes": -22.466183566301417,
+        "Q16_gain_vs_wide_bytes": -4.1149860315313855,
+        "masked_dictionary_gain_vs_original_bytes": -0.46323177732676235,
+        "other_gain_vs_original_bytes": -22.002951788974656,
+        "masked_dictionary_bit_targets": 9768,
+        "reference_Q16_sha256": "681ace70a725a966f92795aa06909ef605af010d1d81150e209ad38cbc55e3d2"
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "c",
+      "arm": "unweighted",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 110.57269781527098,
+        "Q16_gain_vs_wide_bytes": 2.384368734604688,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": 110.57269781527098,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "d9e3e5dcbf4bf4c37f55d524ae30925ddbc0244b6a25b28d7068a184bad311f8"
+      }
+    },
+    {
+      "slice": "c",
+      "arm": "unweighted",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 112.51040467467492,
+        "Q16_gain_vs_wide_bytes": 4.322075594008966,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": 112.51040467467492,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "1fa1db87dde510e333cfca8f0998005a3042e77c20fa0f79c826828aa3946b64"
+      }
+    },
+    {
+      "slice": "c",
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 109.64294432602256,
+        "Q16_gain_vs_wide_bytes": 1.4546152453550716,
+        "masked_dictionary_gain_vs_original_bytes": 0.7931536477277286,
+        "other_gain_vs_original_bytes": 108.84979067829482,
+        "masked_dictionary_bit_targets": 18024,
+        "reference_Q16_sha256": "2c3717e1e7b91d2bc9f1e761e833f8c32a9888dd985e6aa4fdfb853588fd9f1a"
+      }
+    },
+    {
+      "slice": "c",
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 111.63953239117777,
+        "Q16_gain_vs_wide_bytes": 3.451203310511317,
+        "masked_dictionary_gain_vs_original_bytes": 1.8192354164481144,
+        "other_gain_vs_original_bytes": 109.82029697472966,
+        "masked_dictionary_bit_targets": 18024,
+        "reference_Q16_sha256": "2c13173f9c808c2a99ef0ebe214782574e71997edb5a6be8274529327215dd23"
+      }
+    },
+    {
+      "slice": "c",
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 106.86237853268966,
+        "Q16_gain_vs_wide_bytes": -1.3259505479795728,
+        "masked_dictionary_gain_vs_original_bytes": -0.23459144246668942,
+        "other_gain_vs_original_bytes": 107.09696997515636,
+        "masked_dictionary_bit_targets": 18024,
+        "reference_Q16_sha256": "fa6282af16a8fe775cf69f66437afa84530933d5346da05f4dcdc910f6052668"
+      }
+    },
+    {
+      "slice": "c",
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 110.3629768297141,
+        "Q16_gain_vs_wide_bytes": 2.174647749046889,
+        "masked_dictionary_gain_vs_original_bytes": 1.7204397099173554,
+        "other_gain_vs_original_bytes": 108.6425371197968,
+        "masked_dictionary_bit_targets": 18024,
+        "reference_Q16_sha256": "a2cd21973bf8ed952dd978c95053cd8a66785235005376c1861edc4e96d18bda"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "unweighted",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 133.63152892949682,
+        "Q16_gain_vs_wide_bytes": 6.742561334509415,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": 133.63152892949682,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "53f663be809f92632480cade29114787e3edd768a600e8c7010e46ac4deec3bd"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "unweighted",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 134.3798828244715,
+        "Q16_gain_vs_wide_bytes": 7.490915229484437,
+        "masked_dictionary_gain_vs_original_bytes": 0.0,
+        "other_gain_vs_original_bytes": 134.3798828244715,
+        "masked_dictionary_bit_targets": 0,
+        "reference_Q16_sha256": "efb61204551df01d2d114c0c918a9895528386301b7e1cdb6d10611a9dc963a0"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 134.65217855592797,
+        "Q16_gain_vs_wide_bytes": 7.763210960940004,
+        "masked_dictionary_gain_vs_original_bytes": 0.02076189354305034,
+        "other_gain_vs_original_bytes": 134.63141666238494,
+        "masked_dictionary_bit_targets": 192,
+        "reference_Q16_sha256": "95fdd2d3494b4aa6845380cbcd2d10dddb278104b2ec564ebb36146805ac10d9"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 134.50492439761342,
+        "Q16_gain_vs_wide_bytes": 7.615956802625948,
+        "masked_dictionary_gain_vs_original_bytes": 0.027233715832536996,
+        "other_gain_vs_original_bytes": 134.47769068178084,
+        "masked_dictionary_bit_targets": 192,
+        "reference_Q16_sha256": "d5d55b40b802e788d5a9ba480078fba2fd0943e88c58a4ba895d46d4bddaeba6"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 134.9041300727587,
+        "Q16_gain_vs_wide_bytes": 8.01516247777011,
+        "masked_dictionary_gain_vs_original_bytes": 0.017823456109720158,
+        "other_gain_vs_original_bytes": 134.886306616649,
+        "masked_dictionary_bit_targets": 192,
+        "reference_Q16_sha256": "4d09b4770d3e2459c7ec3249f46a778cb823f40ac6c0f1b35c1292fd4c7568dd"
+      }
+    },
+    {
+      "slice": "d",
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "step": 1152,
+      "result": {
+        "Q16_gain_vs_original_bytes": 135.58579665322105,
+        "Q16_gain_vs_wide_bytes": 8.69682905823315,
+        "masked_dictionary_gain_vs_original_bytes": 0.025094998809815732,
+        "other_gain_vs_original_bytes": 135.56070165441125,
+        "masked_dictionary_bit_targets": 192,
+        "reference_Q16_sha256": "2fb77439078e25a427df38a7b809d26de2cef3db73b424545ea31b87c8dedfbd"
+      }
+    }
+  ],
+  "gpu": "Tesla T4",
+  "torch_version": "2.10.0+cu128",
+  "source_hashes": [
+    {
+      "file": "research_round8_rarity_residual_pilot_worker.py",
+      "sha256": "f9e2b8881bdeb55c827f2bc1571540e96370a7e4f2f3dab67a2dc2d1b29a370a"
+    },
+    {
+      "file": "research_round8_rarity_residual_pilot_protocol.md",
+      "sha256": "4736a0e06366ccf2d10f442c6ea95c6dd22e302ad214a4c928e56ed7506158ef"
+    }
+  ],
+  "frozen_offset_coefficients": [
+    0.0016181118716570748,
+    -0.007454085408717222,
+    2.3818512619982752
+  ],
+  "parser_source_sha256": "d12e16d63939fa5601ee97aaf89010f3756d80ad5947199d816c574ec588cf5e",
+  "all_dictionary_code_and_prefix_tests": "PASS",
+  "dictionary_types_with_census_count": 44507,
+  "count_zero_policy": "dictionary entries absent from census treated as below every cutoff; target policy only",
+  "stage": "partial free-T4 mask pilot complete; core/OOV/native qualification open",
+  "slice_alignment": [
+    {
+      "recognized_page_byte": 28,
+      "unaligned_prefix_bytes": 43,
+      "dictionary_spans": 75653,
+      "dictionary_code_bytes": 138736,
+      "incomplete_terminal_code_bytes": 0,
+      "slice": "a",
+      "input_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "stage_sha256": "88f311c7dd843854b984bc645050c5ba306a8fc6abd1bcc6251df3df8b86980c",
+      "mask_fractions": {
+        "107": 0.00350189208984375,
+        "1392": 0.03731346130371094,
+        "8372": 0.08515167236328125
+      }
+    },
+    {
+      "recognized_page_byte": 2463,
+      "unaligned_prefix_bytes": 2478,
+      "dictionary_spans": 122600,
+      "dictionary_code_bytes": 217072,
+      "incomplete_terminal_code_bytes": 0,
+      "slice": "b",
+      "input_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e",
+      "stage_sha256": "cbfd805f961009352900da50fc7d6a42ccd670b207cee749b429d923b23815d9",
+      "mask_fractions": {
+        "107": 0.0054302215576171875,
+        "1392": 0.068328857421875,
+        "8372": 0.1755542755126953
+      }
+    },
+    {
+      "recognized_page_byte": 14738,
+      "unaligned_prefix_bytes": 14753,
+      "dictionary_spans": 122045,
+      "dictionary_code_bytes": 213328,
+      "incomplete_terminal_code_bytes": 0,
+      "slice": "c",
+      "input_sha256": "36466e2514082e359e4d5beee43d7fa5da37e9a19bc97713a3c03172238b76bc",
+      "stage_sha256": "a3db08021299af80dfcbc0fb6240de2a71f363f15d02f4809de84c0566ebf847",
+      "mask_fractions": {
+        "107": 0.0042972564697265625,
+        "1392": 0.06359672546386719,
+        "8372": 0.1590576171875
+      }
+    },
+    {
+      "recognized_page_byte": 801,
+      "unaligned_prefix_bytes": 816,
+      "dictionary_spans": 113209,
+      "dictionary_code_bytes": 187855,
+      "incomplete_terminal_code_bytes": 1,
+      "slice": "d",
+      "input_sha256": "ddf4bd678c17c48a7346658c4e4fa62ec8628956f977a54b44f1efb1e02dc149",
+      "stage_sha256": "9bd203fd381ffa7ae45d3f1b5cb2d24949fefcc012c896b296c6d2e763868ee1",
+      "mask_fractions": {
+        "107": 4.57763671875e-05,
+        "1392": 0.0045528411865234375,
+        "8372": 0.019306182861328125
+      }
+    }
+  ],
+  "all_native_Q16_identity_roundtrips": "PASS",
+  "parameter_count": 161,
+  "serialized_parameter_bytes_per_copy": 644,
+  "batch_nonzero_bit_targets": 32768,
+  "training_bit_targets": 6291456,
+  "development_bit_targets": 2097152,
+  "dtype": "FP32",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "training_pool_policy": "zero-mask samples active pool; other arms sample all bits; not equal common-target exposure",
+  "zero_residual_reference_identity": "PASS",
+  "future_feature_target_integer_prefix_identity": "PASS",
+  "initial_gradient_geometry": {
+    "cutoff": 1392,
+    "common_targets": 32232,
+    "rare_targets": 536,
+    "common_norm": 0.006227469491505154,
+    "rare_norm": 0.07164212843526657,
+    "dot_product": -0.00030489171776675343,
+    "cosine": -0.6833851520029394,
+    "scope": "tiny residual parameters only, not original transformer"
+  },
+  "locked_rung_selections": [
+    {
+      "after_step": 128,
+      "next_arms": [
+        "unweighted",
+        "cut107_weight0.0",
+        "cut107_weight0.5",
+        "cut107_weight0.25",
+        "cut1392_weight0.5"
+      ]
+    },
+    {
+      "after_step": 384,
+      "next_arms": [
+        "unweighted",
+        "cut107_weight0.5",
+        "cut107_weight0.0"
+      ]
+    }
+  ],
+  "finalists_frozen_before_confirmation": [
+    "unweighted",
+    "cut107_weight0.5",
+    "cut107_weight0.0"
+  ],
+  "final_gradient_geometry": [
+    {
+      "arm": "unweighted",
+      "cutoff": 1392,
+      "common_targets": 32232,
+      "rare_targets": 536,
+      "common_norm": 0.008670846311980777,
+      "rare_norm": 0.04472889474778171,
+      "dot_product": -6.777186144362547e-05,
+      "cosine": -0.17474298849326778,
+      "scope": "tiny residual parameters only, not original transformer"
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "cutoff": 107,
+      "common_targets": 32760,
+      "rare_targets": 8,
+      "common_norm": 0.008747518623684267,
+      "rare_norm": 0.2523238559084239,
+      "dot_product": -0.0002834810739893864,
+      "cosine": -0.12843425797182645,
+      "scope": "tiny residual parameters only, not original transformer"
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "cutoff": 107,
+      "common_targets": 32760,
+      "rare_targets": 8,
+      "common_norm": 0.008977368407767193,
+      "rare_norm": 0.27457669069767887,
+      "dot_product": -0.000404487817786723,
+      "cosine": -0.16409401145066885,
+      "scope": "tiny residual parameters only, not original transformer"
+    }
+  ],
+  "priced_confirmation": [
+    {
+      "arm": "unweighted",
+      "seed": 6106,
+      "CD_gain_vs_original_bytes": 244.20422674476782,
+      "CD_gain_vs_wide_bytes": 9.126930069114103,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1044.4207732552322,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": true
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6107,
+      "CD_gain_vs_original_bytes": 246.89028749914644,
+      "CD_gain_vs_wide_bytes": 11.812990823493404,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1041.7347125008537,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": true
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6106,
+      "CD_gain_vs_original_bytes": 244.29512288195053,
+      "CD_gain_vs_wide_bytes": 9.217826206295076,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1044.3298771180494,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": true
+    },
+    {
+      "arm": "cut107_weight0.5",
+      "seed": 6107,
+      "CD_gain_vs_original_bytes": 246.1444567887912,
+      "CD_gain_vs_wide_bytes": 11.067160113137264,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1042.480543211209,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": true
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6106,
+      "CD_gain_vs_original_bytes": 241.76650860544837,
+      "CD_gain_vs_wide_bytes": 6.689211929790537,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1046.8584913945517,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": false
+    },
+    {
+      "arm": "cut107_weight0.0",
+      "seed": 6107,
+      "CD_gain_vs_original_bytes": 245.94877348293517,
+      "CD_gain_vs_wide_bytes": 10.871476807280038,
+      "two_parameter_copy_bytes": 1288,
+      "selector_bytes": 0.625,
+      "CD_after_parameters_selector_bytes": -1042.6762265170648,
+      "both_slices_improve_vs_original": true,
+      "both_slices_improve_vs_wide": true
+    }
+  ],
+  "GPU_reference_comparison": {
+    "targets": 32768,
+    "max_abs_logit_difference": 9.446282938085915e-07,
+    "Q16_unequal_events": 2,
+    "native_reference_implementation": "saved FP32 parameters, FP64 inference; native integration unexecuted"
+  },
+  "finished": "2026-10-06T14:42:36.333529+00:00",
+  "actual_candidate_archive_evaluated": false,
+  "original_transformer_gradient_interference_measured": false,
+  "all_word_mask_training_completed": false,
+  "peak_device_allocated_bytes": 533495808
+}

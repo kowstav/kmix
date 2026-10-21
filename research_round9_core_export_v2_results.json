@@ -1,0 +1,181 @@
+{
+  "status": "COMPLETE_EXACT_CORE_EXPORT_AND_NATIVE_NEURAL_CODEC_COMPARISON",
+  "pid": 2314,
+  "started": 1791309639.4918008,
+  "scope": "same selected/trained tensors with ordered compact packing, isolated native neural-only decoder repair and actual codec comparison",
+  "spending_usd": 0,
+  "deletions": [],
+  "exports": [
+    {
+      "name": "zero_update",
+      "raw_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+      "packed_sha256": "8bee086982279d267dd1ce80da959f88fc428a11974dfe01c18ef6ad58b0e313",
+      "packed_bytes": 3008071,
+      "packing_seconds": 34.35250487900339,
+      "native_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 0.4886321899975883,
+        "CPU_seconds": 0.4879629999999999,
+        "peak_RSS_KiB": 1367760,
+        "returncode": 0
+      }
+    },
+    {
+      "name": "unweighted",
+      "raw_sha256": "e2c2e90a6489897a25539f96cba119b2bf90fba57c89540fc53777028aac3258",
+      "packed_sha256": "b9c1e7fd671333aa5e7f4ccd227edc506276460383d2b64ddaad6e7a3c8bb4ff",
+      "packed_bytes": 3063961,
+      "packing_seconds": 35.56707195499985,
+      "native_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 0.4844390050020593,
+        "CPU_seconds": 0.483739,
+        "peak_RSS_KiB": 1409612,
+        "returncode": 0
+      }
+    },
+    {
+      "name": "cut107_half",
+      "raw_sha256": "23beef9a0bf16307e7d249054b0f95c4afc6d178add687a72c1d72ffeb39877d",
+      "packed_sha256": "0c812e2cbe8ddacb185168417232d2e07ec4648c902068feb1d11a351b3b47a3",
+      "packed_bytes": 3063979,
+      "packing_seconds": 37.560813538999355,
+      "native_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 0.5523319610001636,
+        "CPU_seconds": 0.5512969999999999,
+        "peak_RSS_KiB": 1452812,
+        "returncode": 0
+      }
+    },
+    {
+      "name": "cut1392_zero",
+      "raw_sha256": "738c95ad3d3130a4c413711d9a2b5dc01510c462af0bba04629e4bec582d0eb8",
+      "packed_sha256": "81ba275a13e01000e57bb11a19bc2a7f4ed9fb78329a8cf5c6fc3208cc07824d",
+      "packed_bytes": 3063966,
+      "packing_seconds": 33.50098116800291,
+      "native_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 0.4785576310023316,
+        "CPU_seconds": 0.477978,
+        "peak_RSS_KiB": 1452952,
+        "returncode": 0
+      }
+    }
+  ],
+  "native_candidates": [
+    {
+      "name": "unweighted",
+      "archive_bytes": 39756,
+      "baseline_archive_bytes": 39756,
+      "archive_gain_bytes": 0,
+      "development": {
+        "all_bits_per_symbol": 0.5922059060399023,
+        "common_or_unlabelled_bits_per_symbol": 0.42938870509068006,
+        "rare_bits_per_symbol": 2.1455991184033163,
+        "targets": 50996
+      },
+      "independent_decode_exact": true,
+      "encode_decode_neural_probability_identity": true,
+      "encode_accounting": {
+        "reused_successful_V1_native_encode": true,
+        "log": "core_export_v1/unweighted_encode.log"
+      },
+      "decode_accounting": {
+        "wall_seconds": 74.2473698419999,
+        "CPU_seconds": 74.18564799999999,
+        "peak_RSS_KiB": 1409612,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063961,
+      "final_combined_CM_qualified": false
+    },
+    {
+      "name": "cut107_half",
+      "archive_bytes": 39756,
+      "baseline_archive_bytes": 39756,
+      "archive_gain_bytes": 0,
+      "development": {
+        "all_bits_per_symbol": 0.5930896480172226,
+        "common_or_unlabelled_bits_per_symbol": 0.42530946013083515,
+        "rare_bits_per_symbol": 2.1938333256649845,
+        "targets": 50996
+      },
+      "independent_decode_exact": true,
+      "encode_decode_neural_probability_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 72.80852519299879,
+        "CPU_seconds": 72.71079,
+        "peak_RSS_KiB": 1452812,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 71.3078438900011,
+        "CPU_seconds": 71.24117799999999,
+        "peak_RSS_KiB": 1452812,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063979,
+      "final_combined_CM_qualified": false
+    },
+    {
+      "name": "cut1392_zero",
+      "archive_bytes": 39756,
+      "baseline_archive_bytes": 39756,
+      "archive_gain_bytes": 0,
+      "development": {
+        "all_bits_per_symbol": 0.6443580758744438,
+        "common_or_unlabelled_bits_per_symbol": 0.41625596004170123,
+        "rare_bits_per_symbol": 2.820616336024864,
+        "targets": 50996
+      },
+      "independent_decode_exact": true,
+      "encode_decode_neural_probability_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 69.41028140799972,
+        "CPU_seconds": 69.39158499999999,
+        "peak_RSS_KiB": 1452952,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 67.95316078600081,
+        "CPU_seconds": 67.937392,
+        "peak_RSS_KiB": 1452952,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063966,
+      "final_combined_CM_qualified": false
+    }
+  ],
+  "scratch": "/root/hp_round9/core_export_v2",
+  "original_reference_failure": "AssertionError(('unweighted_decode', {'wall_seconds': 0.004451820001122542, 'CPU_seconds': 0.0039499999999999995, 'peak_RSS_KiB': 1451480, 'returncode': 1}))",
+  "models_unchanged_from_V1": true,
+  "runner_patch_sha256": "4b7d354727e9acdd7c45626ded8060c8b52aa754c8a70a2fa21c20af42f73cbe",
+  "stage": "selected-core exports actually compress/decompress; final CM and independent corpus remain open",
+  "build_accounting": {
+    "wall_seconds": 24.91431723399728,
+    "CPU_seconds": 32.23525,
+    "peak_RSS_KiB": 171160,
+    "returncode": 0
+  },
+  "binary_sha256": "b70bfc8591bfb42ec46c87340b8f36831f46ea713630969536b3ed2a814268e5",
+  "control": {
+    "zero_update_original_tensors_bit_identical": true,
+    "independent_decode_exact": true,
+    "neural_probability_identity": true,
+    "decode_accounting": {
+      "wall_seconds": 78.79855299800329,
+      "CPU_seconds": 78.705419,
+      "peak_RSS_KiB": 1367760,
+      "returncode": 0
+    }
+  },
+  "native_development_baseline": {
+    "all_bits_per_symbol": 0.5936542564382776,
+    "common_or_unlabelled_bits_per_symbol": 0.4300166097240751,
+    "rare_bits_per_symbol": 2.1548751115507554,
+    "targets": 50996
+  },
+  "finished": 1791310251.099293,
+  "full_package_qualified": false
+}

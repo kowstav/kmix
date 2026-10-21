@@ -1,0 +1,78 @@
+{
+ "id": "R12-component-timing",
+ "status": "COMPLETE",
+ "runs": [
+  {
+   "mode": "combined",
+   "bytes": 1048576,
+   "exit": 0,
+   "wall_s": 891.726772209,
+   "user_s": 849.69846,
+   "sys_s": 12.859398,
+   "peak_RSS_KiB": 6001388,
+   "archive_bytes": 81912
+  },
+  {
+   "mode": "transformer_only",
+   "bytes": 1048576,
+   "exit": 0,
+   "wall_s": 308.8598603110004,
+   "user_s": 306.612771,
+   "sys_s": 1.55155,
+   "peak_RSS_KiB": 1211936,
+   "archive_bytes": 154424
+  },
+  {
+   "mode": "ppmd_only",
+   "bytes": 1048576,
+   "exit": 0,
+   "wall_s": 10.506262561999392,
+   "user_s": 9.545909,
+   "sys_s": 0.9435659999999999,
+   "peak_RSS_KiB": 1145220,
+   "archive_bytes": 154424
+  },
+  {
+   "mode": "combined",
+   "bytes": 3145728,
+   "exit": 0,
+   "wall_s": 2360.416774331001,
+   "user_s": 2325.465452,
+   "sys_s": 10.787032,
+   "peak_RSS_KiB": 6079312,
+   "archive_bytes": 310050
+  },
+  {
+   "mode": "transformer_only",
+   "bytes": 3145728,
+   "exit": 0,
+   "wall_s": 1057.6980889389997,
+   "user_s": 1034.293462,
+   "sys_s": 1.8607559999999999,
+   "peak_RSS_KiB": 1261572,
+   "archive_bytes": 562531
+  },
+  {
+   "mode": "ppmd_only",
+   "bytes": 3145728,
+   "exit": 0,
+   "wall_s": 32.61660762200154,
+   "user_s": 30.356771,
+   "sys_s": 2.226064,
+   "peak_RSS_KiB": 1207152,
+   "archive_bytes": 562531
+  }
+ ],
+ "deletions": [],
+ "paid_usd": 0,
+ "marginal_us_per_byte": {
+  "combined": 702.7123575210571,
+  "transformer_only": 347.13263368606573,
+  "ppmd_only": 10.534934997558592
+ },
+ "marginal_share": {
+  "ppmd_of_combined": 0.014991816900335223,
+  "transformer_only_of_combined": 0.4939896530504143,
+  "classical_bank_and_mixing_of_combined": 0.5060103469495857
+ }
+}

@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "validated_sources": [
+    {
+      "file": "research_round8_rarity_census_worker.py",
+      "sha256": "36d11fdb22bc2484e7eae35899ab33af881a02a442a53dc27f1f8982890cb3c3"
+    },
+    {
+      "file": "research_round8_rarity_mask_protocol.md",
+      "sha256": "544e5fcf7122f6b16c9fd1ddc7d9fd7c7794ab177e5a511e8744a047d29088b2"
+    },
+    {
+      "file": "research_round8_native_stage_worker.py",
+      "sha256": "03ceb5270c710e55946a9e5ec9b885716576dbe0b7a751b7d775203cc27cd808"
+    },
+    {
+      "file": "research_round8_native_stage_protocol.md",
+      "sha256": "f6f943ba151fa6ed2fa392d0c22ab6358abb279d17496072f6032ea7d3569bd8"
+    },
+    {
+      "file": "research_round8_native_hidden_trace_worker.py",
+      "sha256": "60a71e55606925f16b24cc17340352a3d72d6fda0dc5bdf0d84bbc0243c6a258"
+    },
+    {
+      "file": "research_round8_native_stage_fit_worker_v2.py",
+      "sha256": "d12e16d63939fa5601ee97aaf89010f3756d80ad5947199d816c574ec588cf5e"
+    },
+    {
+      "file": "research_round8_native_stage_fit_protocol_v2.md",
+      "sha256": "cb1f7af9d533a54b58671fc6d1291b52e1d431ca8aaf7773749b3b5d18db1eb8"
+    },
+    {
+      "file": "research_round8_source_wide_box_worker.py",
+      "sha256": "3ef16fe29926504c56e3de17818f0b259520fbe56392b143a168095bb1550171"
+    },
+    {
+      "file": "research_round8_source_wide_box_protocol.md",
+      "sha256": "269df8f215d01c10c0a63adfc62a0c7db67111b4208e18222a685b7c43266816"
+    },
+    {
+      "file": "research_round8_source_wide_confirmation_worker.py",
+      "sha256": "f0d15b1d4bd57ec6d79f0a9d5b5073f6ca40567cce8ae71c59831d93ea808b95"
+    },
+    {
+      "file": "research_round8_source_wide_confirmation_protocol.md",
+      "sha256": "8d666e5f62bf83e3fc2ec688af468f90d45ac99d456a1eb9b799bc63ec974f0e"
+    },
+    {
+      "file": "research_round8_native_inline_residual_worker.py",
+      "sha256": "890e4ea16ca486f37991174b74168527b2a555c0494eec60e7a2adf6f3d4419d"
+    },
+    {
+      "file": "research_round8_native_inline_residual_protocol.md",
+      "sha256": "22b95a1ecab6696fede2bfdc4712558087aa91f8e656ca7e357bbe1ba4735d06"
+    },
+    {
+      "file": "research_round8_rarity_residual_pilot_worker.py",
+      "sha256": "f9e2b8881bdeb55c827f2bc1571540e96370a7e4f2f3dab67a2dc2d1b29a370a"
+    },
+    {
+      "file": "research_round8_rarity_residual_pilot_protocol.md",
+      "sha256": "4736a0e06366ccf2d10f442c6ea95c6dd22e302ad214a4c928e56ed7506158ef"
+    },
+    {
+      "file": "research_round8_native_inline_wide_worker.py",
+      "sha256": "04f6b23d3100384cc0c1cf0185f46b4dbff04c4afd74097ac0fc925f446a858f"
+    },
+    {
+      "file": "research_round8_native_inline_wide_protocol.md",
+      "sha256": "37aa5f2aa74d9079f10f008ba1486829ccf749dd98b279526292f8433f34aced"
+    }
+  ],
+  "all_96_open": true,
+  "finite_new_fit_heads": 67,
+  "prior_fitted_heads": 51,
+  "total_fitted_heads": 118,
+  "role_online_policies": 27,
+  "max_new_finite_box_gap_bytes": 0.005111580952578164,
+  "frequency_rows": 1208329,
+  "frequency_token_total": 127049170,
+  "frequency_word_article_pairs": 48465260,
+  "known_word_examples": {
+    "a": {
+      "count": 2359090,
+      "corpus_fraction": 0.0185683227997,
+      "containing_articles": 152206,
+      "maximum_article_fraction": 0.5,
+      "mean_fraction_in_containing_articles": 0.0213744848516
+    },
+    "camel": {
+      "count": 732,
+      "corpus_fraction": 5.76154885545e-06,
+      "containing_articles": 353,
+      "maximum_article_fraction": 0.045871559633,
+      "mean_fraction_in_containing_articles": 0.00234331928545
+    },
+    "diamond": {
+      "count": 3528,
+      "corpus_fraction": 2.77687764509e-05,
+      "containing_articles": 1619,
+      "maximum_article_fraction": 0.333333333333,
+      "mean_fraction_in_containing_articles": 0.0035984613619
+    },
+    "is": {
+      "count": 1635579,
+      "corpus_fraction": 0.0128735905949,
+      "containing_articles": 140943,
+      "maximum_article_fraction": 0.5,
+      "mean_fraction_in_containing_articles": 0.0195121486534
+    },
+    "know": {
+      "count": 11657,
+      "corpus_fraction": 9.17518784263e-05,
+      "containing_articles": 7286,
+      "maximum_article_fraction": 0.25,
+      "mean_fraction_in_containing_articles": 0.00152151642268
+    },
+    "now": {
+      "count": 56756,
+      "corpus_fraction": 0.000446724681476,
+      "containing_articles": 30684,
+      "maximum_article_fraction": 0.25,
+      "mean_fraction_in_containing_articles": 0.00202806813459
+    },
+    "the": {
+      "count": 7777382,
+      "corpus_fraction": 0.0612155278149,
+      "containing_articles": 165208,
+      "maximum_article_fraction": 0.4,
+      "mean_fraction_in_containing_articles": 0.0634791967572
+    }
+  },
+  "observer_binary_and_patched_predictor_hashes": "PASS",
+  "weights_and_dictionary_hashes": "PASS",
+  "exact_32K_archive_integer_trace_controls": "PASS",
+  "full_AB_observer_identity": "PASS",
+  "actual_CD_narrow_archive_and_independent_decode": "PASS",
+  "actual_EF_wider_archive_and_independent_decode": "PASS",
+  "partial_dictionary_mask_residual_rungs": 36,
+  "all_mask_model_optimizer_hashes": "PASS",
+  "qualifying_archive_or_twenty_percent": false,
+  "full_word_or_original_transformer_mask_evaluated": false,
+  "paid_spending_usd": 0,
+  "deletions": []
+}

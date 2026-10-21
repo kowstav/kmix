@@ -1,0 +1,7 @@
+{
+  "time": 1791547576.0960279,
+  "pid": 587,
+  "reason": "archive_case preflight=True truncates to 16384; v1 storage manifest incorrectly claimed 64K. Hold orchestrator before private submission until actual 64K parity.",
+  "pipeline_status_before": "FOUR_LANE_COMBINED_NATIVE_PREFLIGHT",
+  "action": "SIGSTOP_OWN_PIPELINE_PARENT_CHILD_PREFLIGHT_CAN_FINISH"
+}

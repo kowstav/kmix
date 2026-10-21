@@ -1,0 +1,15 @@
+{
+  "binary_bytes": 496160,
+  "binary_sha256": "bedd480e36fc3a2ff3bf2150f0eded74f6d4eb4014fb3e35c6be3b5aeeda20c1",
+  "classical_defines": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "actual_inference_macros": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "published_option_translation": "TF_CODEBOOK -> QMAT_CODEBOOK/QMAT_WMAX; TF_SMALL_W8 -> QMAT_SMALL_W8; TF_ACTQ_DYN and TF_AVX512 unchanged",
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "forced_all_objects_recompiled": true,
+  "build_seconds": 20.73727445700024,
+  "pgo": false,
+  "lto": false,
+  "native_validation": "pending",
+  "initial_builds_rejected": "wrapper option names were mistakenly used as inference macros; native quantization range check rejected before coding; old binaries/results not competitive baseline evidence",
+  "weight_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+}

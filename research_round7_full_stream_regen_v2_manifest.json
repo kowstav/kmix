@@ -1,0 +1,51 @@
+{
+  "status": "COMPLETE_PREPARATION_ONLY",
+  "utc": "2026-10-05T18:23:05.824679+00:00",
+  "pid": 163,
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "repair": "v1 inspected compressed executable strings; absence did not establish absence of flags. v2 uses explicit --bytes-only; unknown flags fail before model execution.",
+  "scratch": "/root/hp/full_stream_regen_v2",
+  "child_pid": 168,
+  "full_ready": {
+    "bytes": 586459020,
+    "sha256": "a5cef5dfb651f7a12d3c6fec27dbe1e6290bde05ef1b893b24989081857fbead"
+  },
+  "cpu_user_seconds": 568.392895,
+  "max_rss_kbytes": 7120448,
+  "old_slice_offsets": {
+    "a": {
+      "offset": 0,
+      "full2m_identical": true
+    },
+    "b": {
+      "offset": 102635191,
+      "full2m_identical": true
+    },
+    "c": {
+      "offset": 100000000,
+      "full2m_identical": true
+    },
+    "d": {
+      "offset": 180000000,
+      "full2m_identical": true
+    }
+  },
+  "dictionary_sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a",
+  "reference_dictionary_match": true,
+  "fresh_regions": {
+    "e": {
+      "offset": 220000000,
+      "bytes": 2000000,
+      "sha256": "1afed1b0d2a27cc3e326919bebc54f40bee44fb0c38bb4c1de1026bf9b773852"
+    },
+    "f": {
+      "offset": 480000000,
+      "bytes": 2000000,
+      "sha256": "8f6aa72fe05236e1b087966ea9287aaee6ba2245ff1e106de19c832e54069398"
+    }
+  },
+  "finished": "2026-10-05T18:33:32.065974+00:00",
+  "training_priors": "NOT_REGENERATED",
+  "raw_full_decode": "NOT_VERIFIED"
+}

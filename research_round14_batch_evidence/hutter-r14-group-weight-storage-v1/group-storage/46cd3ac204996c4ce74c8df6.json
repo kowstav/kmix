@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.5.attention.forget_gate_projection.up.weight.codebook",
+  "names": [
+    "blocks.5.attention.forget_gate_projection.up.weight.codebook"
+  ],
+  "label": "46cd3ac204996c4ce74c8df6",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 181
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 171
+    }
+  ],
+  "selected": [
+    171,
+    "xor",
+    "zstd"
+  ],
+  "archive_sha256": "07e7f654d3d1e41fd9eec04939fa61ea1d1051f25b6bbbba4311622ebc526f02",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.009932999999998582,
+  "wall_seconds": 0.010137452999998686
+}

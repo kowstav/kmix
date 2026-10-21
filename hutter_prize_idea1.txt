@@ -1,0 +1,718 @@
+Yes. There is a potentially serious compression architecture in this idea, but I would change one important part: **don't think of it as a model guessing until it gets the article right. Think of it as encoding the article through progressively stronger constraints.**
+
+That distinction makes it compatible with lossless compression.
+
+The current Hutter record is 100,424,672 bytes, and the winning system is already approximately at the contest's ~50-hour, ~10-GB limits, so a multi-pass architecture probably has to **replace** substantial parts of the existing transformer rather than simply run alongside it. [Hutter1](https://www.hutter1.net/prize/) The current submission itself replaces fx2-cmix's LSTM with a transformer and uses PPMD outputs as transformer inputs. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1)
+
+### What a "Wordle compressor" would actually encode
+
+Suppose the real word is:
+
+`compression`
+
+and both compressor and decompressor deterministically predict:
+
+`expression`
+
+The compressor knows the answer and could calculate something like:
+
+```text
+prediction: e x p r e s s i o n
+target:     c o m p r e s s i o n
+
+feedback:   ...
+```
+
+The decompressor can produce exactly the same initial prediction.
+
+What it **cannot** produce by itself is the Wordle feedback, because the feedback depends on the unknown true word.
+
+So the archive has to contain the feedback.
+
+That gives us a codec:
+
+\[
+\text{model guess}
+\rightarrow
+\text{encoded feedback}
+\rightarrow
+\text{new guess}
+\rightarrow
+\text{encoded feedback}
+\rightarrow \cdots
+\]
+
+Eventually the target is uniquely determined.
+
+That's completely valid lossless compression.
+
+Mathematically, you could represent an article \(X\) as:
+
+\[
+X \leftrightarrow
+(S,F_1,F_2,\ldots,F_k,R)
+\]
+
+where:
+
+- \(S\) = structural information such as word lengths,
+- \(F_i\) = refinement feedback for round \(i\),
+- \(R\) = unresolved residual characters.
+
+Then compress those streams with arithmetic coding:
+
+\[
+L =
+-\log P(S)
+-\sum_i \log P(F_i\mid S,F_{<i})
+-\log P(R\mid S,F_{1:k})
+\]
+
+If the right side is smaller than ordinary next-byte coding, we've won.
+
+## But random first guesses are probably a bad idea
+
+Your first guess should not be random.
+
+Suppose the true word is:
+
+`electromagnetic`
+
+and we randomly propose:
+
+`qjwarpmzlxkfghi`
+
+Nearly every feedback symbol will mean "wrong."
+
+We've learned almost nothing efficiently.
+
+Instead, the first proposal should be the model's **best deterministic reconstruction given the information already available**.
+
+For example:
+
+```text
+Known:
+
+Article topic: Maxwell equations
+Sentence:
+"The _____ field is generated..."
+
+Word length: 14
+
+Model guess:
+electrostatic
+
+Target:
+electromagnetic
+```
+
+Now the difference between prediction and truth potentially contains far less information than the original word.
+
+This becomes **learned predictive coding**.
+
+And that is much more interesting.
+
+---
+
+# Your word-length model is especially useful
+
+I would actually keep this part.
+
+Instead of representing Wikipedia as a raw byte sequence:
+
+```text
+The electromagnetic field ...
+```
+
+first represent it approximately as:
+
+```text
+WORD(3)
+SPACE
+WORD(15)
+SPACE
+WORD(5)
+SPACE
+...
+```
+
+plus punctuation, XML structure, capitalization, digits, etc.
+
+So Model A predicts/compresses:
+
+\[
+\text{structure}
+\]
+
+and Model B predicts:
+
+\[
+P(\text{letters}\mid \text{structure})
+\]
+
+Knowing that the next token is:
+
+```text
+lowercase word
+length = 15
+```
+
+is valuable information.
+
+A bidirectional model now knows there are exactly 15 positions it must fill.
+
+This is fundamentally different from ordinary next-byte prediction.
+
+### You don't necessarily need two complete models
+
+I'd probably use one small shared network with different heads:
+
+```text
+                 shared representation
+                         │
+              ┌──────────┴──────────┐
+              │                     │
+        structure head         character head
+              │                     │
+       word lengths etc.       masked characters
+```
+
+That avoids paying for two independent sets of weights.
+
+---
+
+# Here's where your architecture could beat autoregression
+
+A normal next-token compressor factorizes text like:
+
+\[
+P(X)=
+P(x_1)
+P(x_2|x_1)
+P(x_3|x_1,x_2)
+\cdots
+\]
+
+The fundamental weakness is obvious.
+
+When predicting character 500, the model cannot use character 501.
+
+Your approach could.
+
+Imagine:
+
+```text
+The scientist was born in ____ and died in London.
+```
+
+An autoregressive model predicting the blank can't use:
+
+`died in London`
+
+if that occurs later.
+
+But an iterative masked model can see the entire **structure of the article**, including information encoded in later regions.
+
+After some positions are resolved:
+
+```text
+The scientist was born in _e__i_ and died in London.
+```
+
+the remaining prediction becomes much easier.
+
+That's the genuinely interesting part of your proposal.
+
+Not Wordle specifically.
+
+It's **bidirectional progressive decoding**.
+
+---
+
+## A better feedback alphabet than literal Wordle
+
+I don't think this:
+
+\[
+0,\;0.5,\;1
+\]
+
+is necessarily optimal.
+
+Wordle's yellow state—
+
+> character exists somewhere else
+
+—is useful for humans because we're good at solving words.
+
+A neural compressor may benefit from something more information-efficient.
+
+For example:
+
+```text
+0 = prediction wrong
+1 = prediction correct
+```
+
+Then lock every correct position.
+
+After one pass:
+
+```text
+Prediction:
+electrostatic
+
+Truth:
+electromagnet
+
+State:
+ele_tro_____t_
+```
+
+Run the model again conditioned on the confirmed characters.
+
+Or use richer feedback only when profitable:
+
+```text
+00 = correct
+01 = wrong character, correct character class
+10 = character occurs elsewhere
+11 = unrestricted correction
+```
+
+But every additional feedback state has a bit cost.
+
+We would discover the best representation empirically.
+
+---
+
+# There may be an even better approach: reveal characters by confidence
+
+Instead of predicting every position each pass, let the model calculate:
+
+\[
+P(x_i\mid\text{currently known information})
+\]
+
+for every unresolved position.
+
+Suppose a word is:
+
+```text
+_ l e c t r o m a g n e t i _
+```
+
+and its confidence is:
+
+```text
+position     predicted    probability
+1            e            .41
+2            l            .999
+3            e            .998
+4            c            .997
+...
+15           c            .55
+```
+
+The codec can reveal the **easiest positions first**.
+
+Critically, compressor and decompressor calculate the same confidence scores, so you don't have to encode which position comes next.
+
+They deterministically choose:
+
+\[
+i^*=\arg\max_i \max_c P(c_i=c)
+\]
+
+Then arithmetic-code that character.
+
+Now another position becomes easier.
+
+Repeat.
+
+This gives us:
+
+### Confidence-ordered bidirectional coding
+
+Instead of:
+
+```text
+left → right → left → right
+```
+
+we encode:
+
+```text
+easiest unknown symbol
+↓
+update context
+↓
+next easiest
+↓
+update context
+...
+```
+
+That is, in my view, considerably cleaner than literal Wordle feedback.
+
+And it captures exactly the property you're after.
+
+---
+
+# We can still retain Wordle-style whole-word proposals
+
+Consider:
+
+```text
+Structure:
+WORD(length=12)
+
+Context:
+"The process of ______ converts..."
+
+Model candidate list:
+
+photosynthesis    0.72
+fermentation      0.09
+transcription     0.06
+...
+```
+
+Instead of predicting individual characters, we can initially predict:
+
+`photosynthesis`
+
+If correct, that's enormously cheap.
+
+If it's wrong, don't transmit the entire correct word immediately.
+
+Encode some constraint.
+
+For example:
+
+```text
+length = 12
+candidate rejected
+prefix = "trans"
+```
+
+Then recompute:
+
+```text
+transcription    .71
+transformation   .19
+transportation   .04
+...
+```
+
+And repeat.
+
+That's conceptually your Wordle algorithm.
+
+---
+
+# Another version might work even better: candidate rank coding
+
+Suppose the model predicts:
+
+```text
+1  photosynthesis
+2  respiration
+3  fermentation
+4  transcription
+5  oxidation
+...
+```
+
+If the true word is number 4, encode simply:
+
+\[
+\text{rank}=4
+\]
+
+using a probability distribution over ranks.
+
+For weird names:
+
+```text
+Schwarzschild
+Chandrasekhar
+Huygens
+Riemann
+```
+
+the model might use morphology or retrieval to propose a candidate list.
+
+If the word isn't present:
+
+```text
+ESCAPE
+```
+
+and fall back to character refinement.
+
+That might be substantially more computationally efficient than several Wordle rounds.
+
+So I'd envision:
+
+```text
+              word structure
+                    ↓
+         whole-word prediction
+                    ↓
+        ┌───────────┴────────────┐
+        │                        │
+ candidate found             candidate absent
+        │                        │
+     code rank           iterative character model
+                                 │
+                          residual byte coder
+```
+
+---
+
+# The article-level aspect is possible too
+
+I wouldn't ask the model to generate an entire article character-by-character on every round. That would almost certainly destroy the runtime budget.
+
+Instead divide each article into blocks, perhaps:
+
+\[
+128-1024 \text{ bytes}
+\]
+
+or word blocks.
+
+The hierarchy might be:
+
+```text
+ARTICLE
+│
+├── structural skeleton
+│    ├── paragraphs
+│    ├── sentences
+│    ├── word lengths
+│    ├── punctuation
+│    └── markup
+│
+├── semantic/article state
+│
+├── block 1 proposal
+│
+├── block 1 refinement
+│
+├── block 2 proposal
+│
+├── block 2 refinement
+│
+└── exact residual stream
+```
+
+Now the model can maintain an article-level recurrent state without performing full quadratic attention over the whole article.
+
+---
+
+# A knowledge base could help, but there's a Hutter catch
+
+Suppose an article contains:
+
+```text
+Albert Einstein
+general relativity
+Ulm
+1879
+Princeton
+```
+
+A knowledge model could realize those values belong together.
+
+That's exactly the sort of thing that should improve compression.
+
+But if we ship a 500 MB vector database with the compressor, we've lost immediately.
+
+Everything necessary to reconstruct enwik9 has to be contained in the submission; the official rules require the self-extracting archive to reproduce enwik9 without external input. [Hutter1](https://www.hutter1.net/prize/)
+
+So the interesting options are:
+
+**Tiny learned knowledge representations**, where facts are compressed into model weights.
+
+Or even better:
+
+**dynamic retrieval from already decoded Wikipedia**.
+
+Imagine we're decoding article number 50,000.
+
+Articles 1–49,999 have already been reconstructed exactly.
+
+We can build a tiny search/index structure in RAM from them.
+
+Then the current article can retrieve:
+
+```text
+similar article
+related name
+previous phrase
+matching infobox
+```
+
+This knowledge costs **zero archive bytes**, because both encoder and decoder construct it deterministically from text they already possess.
+
+It costs RAM and computation, though.
+
+This is a very attractive Hutter-specific idea.
+
+---
+
+# Vector retrieval becomes especially interesting with your architecture
+
+Imagine the current article starts:
+
+```text
+<title>James Clerk Maxwell</title>
+```
+
+The decoder already knows that because we encoded it first.
+
+A small embedding system searches previously decoded text and finds:
+
+```text
+electromagnetism
+Michael Faraday
+Maxwell equations
+physics
+Scotland
+```
+
+Then the iterative model gets these as context before reconstructing the rest.
+
+So we get something resembling an LLM's:
+
+- retrieval,
+- long-term memory,
+- article context,
+- attention,
+
+without shipping an enormous database.
+
+---
+
+# One fundamental limit still applies
+
+There is no information-theoretic free lunch from changing the communication format.
+
+If the Wordle feedback uniquely determines the article, then ultimately:
+
+\[
+H(\text{article})
+=
+H(\text{complete feedback sequence})
+\]
+
+under an ideal representation.
+
+So merely replacing characters with green/yellow/gray signals doesn't inherently compress anything.
+
+The opportunity comes because a **finite 6M-parameter model may model the feedback/refinement process much better than it models left-to-right bytes**.
+
+That is the actual research hypothesis.
+
+We aren't trying to defeat information theory.
+
+We're trying to find a better factorization that a tiny CPU-friendly model can approximate.
+
+---
+
+## Where I'd modify your original idea
+
+Your version:
+
+```text
+predict word lengths
+      ↓
+generate arbitrary article
+      ↓
+Wordle feedback
+      ↓
+generate again
+      ↓
+feedback
+      ↓
+...
+```
+
+I'd make it:
+
+```text
+reversible Wikipedia parser
+          ↓
+encode structural skeleton
+(word lengths / markup / punctuation)
+          ↓
+small bidirectional model
+          ↓
+deterministic best proposal
+          ↓
+lock very-high-confidence positions
+          ↓
+arithmetic-code constraints/corrections
+          ↓
+rerun only unresolved positions
+          ↓
+2–4 refinement rounds
+          ↓
+current cmix/PPMD system handles residual
+```
+
+And potentially:
+
+```text
+retrieval from previously decoded articles
+                    ↓
+             model context
+```
+
+This would be **lossless, deterministic and actually benchmarkable**.
+
+### One more potentially important change
+
+I would train the model specifically for:
+
+\[
+\boxed{\text{minimum final compressed size}}
+\]
+
+rather than merely next-token cross entropy.
+
+For example, during training randomly mask portions of a word/article:
+
+```text
+el__tro_agnetism
+```
+
+and train the network to minimize the entropy of the remaining unknown characters.
+
+Then:
+
+```text
+e___tro_agnet_sm
+```
+
+then:
+
+```text
+electro____tism
+```
+
+etc.
+
+So training mimics decompression.
+
+The network learns:
+
+> Given an arbitrary partially decoded article, what missing information should become easiest next?
+
+That's substantially different from ordinary language-model training.
+
+I'd call the architecture something like a **Progressive Constraint Coder** rather than a Wordle model.
+
+And I think **this is a more promising direction than the OCR idea**. The OCR approach added a new representation but little new information; this approach changes the *conditioning structure itself* and gives a small model access to right-context and globally revealed constraints—something the current bytewise next-token transformer cannot naturally exploit in the same way.

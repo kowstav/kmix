@@ -1,0 +1,129 @@
+{
+  "frozen": 1791588958.904817,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+      "folder": "hutter-r14-prune-word-timing-abba-v1",
+      "main_sha256": "78037d61809f81b618aa6aa66e4166536fb0fa3de4c4b7a2e2df91fc425b8ee0",
+      "workers": 4,
+      "arm": "prune_word",
+      "region_ids": [
+        8,
+        9
+      ],
+      "lane_tasks": [
+        [
+          8,
+          "AB"
+        ],
+        [
+          8,
+          "BA"
+        ],
+        [
+          9,
+          "AB"
+        ],
+        [
+          9,
+          "BA"
+        ]
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+      "folder": "hutter-r14-prune-match-timing-abba-v1",
+      "main_sha256": "8109df7ae6e1d5e2df0da726cb9f31704b9e2e16d6cbd5c48dc790db5cfb1409",
+      "workers": 4,
+      "arm": "prune_match",
+      "region_ids": [
+        8,
+        9
+      ],
+      "lane_tasks": [
+        [
+          8,
+          "AB"
+        ],
+        [
+          8,
+          "BA"
+        ],
+        [
+          9,
+          "AB"
+        ],
+        [
+          9,
+          "BA"
+        ]
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-indirect-timing-abba-v1",
+      "folder": "hutter-r14-prune-indirect-timing-abba-v1",
+      "main_sha256": "d0f153bf252561e41b45f2b39eba46b25dcbaa41380f412a081368db7d3f8d2f",
+      "workers": 4,
+      "arm": "prune_indirect",
+      "region_ids": [
+        8,
+        9
+      ],
+      "lane_tasks": [
+        [
+          8,
+          "AB"
+        ],
+        [
+          8,
+          "BA"
+        ],
+        [
+          9,
+          "AB"
+        ],
+        [
+          9,
+          "BA"
+        ]
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-output-fp32-timing-abba-v1",
+      "folder": "hutter-r14-output-fp32-timing-abba-v1",
+      "main_sha256": "e3fdbec6c4993287da2075f76ff4f03d107fd0088abaeaf81e7a251ba9e07d09",
+      "workers": 4,
+      "arm": "output_fp32",
+      "region_ids": [
+        8,
+        9
+      ],
+      "lane_tasks": [
+        [
+          8,
+          "AB"
+        ],
+        [
+          8,
+          "BA"
+        ],
+        [
+          9,
+          "AB"
+        ],
+        [
+          9,
+          "BA"
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "c792a9fbb6151b0b7c9366517a21413c038188620ca65b6b4155e41b58cbba2c",
+  "protocol_sha256": "8102775d1329f6ba4cb18376ef99dfffbf259816d1ed768ec53a415620c28483",
+  "references_sha256": "e980e29c2bc34c8ac68b29a3bd046606085ce6d9d18fc69c420cdae8a96a4555",
+  "kernels_zip_sha256": "dae6a0777d0f48709d06f6d5289c3d129645ce25cb1b4480793073008b02e45a",
+  "binary_unchanged": true,
+  "gpu": false,
+  "workers_per_job": 4,
+  "deadline_hours": 10.3
+}

@@ -1,0 +1,128 @@
+{
+  "status": "COMPLETE_FRESH_WIDER_SOURCE_EF_Q16_CONFIRMATION",
+  "session": 355735431,
+  "pid": 1316,
+  "started": "2026-10-06T14:15:12.580611+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "exports": [
+    {
+      "slice": "e",
+      "canonical_offset": 190000000,
+      "input_sha256": "891954b722e0af0a027ff32e057b511ab47a60550f27af87d523ceeb16a7cd55",
+      "native_archive_bytes": 107613,
+      "native_archive_sha256": "2dbbe4bdc9ee6a6d961f164d6b9b068aea9ae78ab8dcfe0276cedd7f5b858195",
+      "native_p_sha256": "08a21d2a695b26b9b3107fb8c062d911db478335fdaa421205857a17f4b39bef",
+      "stage_bytes": 318767116,
+      "stage_sha256": "64714eb2c84830cd834e352985bd34d23a0c6bc6c0acc2de84c8182de3b08d61",
+      "hidden_bytes": 101187584,
+      "hidden_sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "accounting": {
+        "wall_seconds": 316.7545230960004,
+        "user_seconds": 308.568375,
+        "system_seconds": 8.124693,
+        "max_rss_kbytes": 6002244,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "f",
+      "canonical_offset": 430000000,
+      "input_sha256": "2bfce9258f2950c3e9edfa1d4a60974a5eae565e7159e477bf5ef2376796a454",
+      "native_archive_bytes": 77735,
+      "native_archive_sha256": "52ededbd05af6293a7fed4d6c1ebfae43026afe6f338085e816942c62bf77d4a",
+      "native_p_sha256": "044b286a4f1671c6f157a36197408f36ab16f8676ff2b7707e88f355bfa01495",
+      "stage_bytes": 318767116,
+      "stage_sha256": "34b5efac866b2d07938e607243c9d3bb7034ad1dedcbc539a086232946de08bd",
+      "hidden_bytes": 101187584,
+      "hidden_sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "accounting": {
+        "wall_seconds": 313.09532270699856,
+        "user_seconds": 305.024839,
+        "system_seconds": 8.00763,
+        "max_rss_kbytes": 5999932,
+        "returncode": 0
+      }
+    }
+  ],
+  "evaluations": [
+    {
+      "slice": "e",
+      "bytes": 524288,
+      "results": [
+        {
+          "head": "wide",
+          "Q16_saving_bytes": 109.92671277106274,
+          "ideal_saving_bytes": 109.36633600591965,
+          "prediction_sha256": "ff4d85dce60ca5e4f9ebd15789efb6b0a740fe3276a6ca2b97d9c9ecf0745ef7"
+        },
+        {
+          "head": "narrow",
+          "Q16_saving_bytes": 64.10808396600531,
+          "ideal_saving_bytes": 64.0089355839676,
+          "prediction_sha256": "f25bab9772cccc7b1a80b6247369f98d8a6ffcd3fd48c825858bf16adae0c0e9"
+        },
+        {
+          "head": "generic",
+          "Q16_saving_bytes": 7.623292828999449,
+          "ideal_saving_bytes": 7.624862899857393,
+          "prediction_sha256": "e53ab1646dc710c379e9b8bdbd28c862ea2427624881b6ad8d7dab870acc57a7"
+        }
+      ],
+      "source_feature_sha256": "7f340f2046bce915f21d50429ea08b9a0bb0540c89a58b70f38d0d6b2d3dd41a"
+    },
+    {
+      "slice": "f",
+      "bytes": 524288,
+      "results": [
+        {
+          "head": "wide",
+          "Q16_saving_bytes": 43.910941531581166,
+          "ideal_saving_bytes": 43.4128328402612,
+          "prediction_sha256": "7c9ba2763d9ad9e86d68f30d91e5fa9bc93c623fecb526b11a69cdd87d35b449"
+        },
+        {
+          "head": "narrow",
+          "Q16_saving_bytes": 39.280878318829075,
+          "ideal_saving_bytes": 39.078363854718745,
+          "prediction_sha256": "080d922c9bb2e58658293e127a673b808ab115353de238f155e597879bf32ab9"
+        },
+        {
+          "head": "generic",
+          "Q16_saving_bytes": 5.081857129670943,
+          "ideal_saving_bytes": 5.101799492863285,
+          "prediction_sha256": "4864e5fa58b6c2561ceaef1646d3a85704c11b58f5c3baacac10e70fe65e7b12"
+        }
+      ],
+      "source_feature_sha256": "9c3667a9ee0b448a409f8eb0cecca2b081e4d55d0c729055cc192f988b6e5c81"
+    }
+  ],
+  "actual_candidate_archive_evaluated": false,
+  "scope": "fresh frozen wider source E/F cold-Q16 confirmation; teacher archive only",
+  "frozen_wider_coefficients": [
+    0.0016181118716570748,
+    -0.007454085408717222,
+    2.3818512619982752
+  ],
+  "frozen_wider_manifest_sha256": "02cf43bd58418e1c5ca6ea621ff26b007bd799d4ab231395aae43f4bc391e5a5",
+  "source_hashes": [
+    {
+      "file": "research_round8_source_wide_confirmation_worker.py",
+      "sha256": "f0d15b1d4bd57ec6d79f0a9d5b5073f6ca40567cce8ae71c59831d93ea808b95"
+    },
+    {
+      "file": "research_round8_source_wide_confirmation_protocol.md",
+      "sha256": "8d666e5f62bf83e3fc2ec688af468f90d45ac99d456a1eb9b799bc63ec974f0e"
+    }
+  ],
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "stage": "fresh confirmation complete; actual wider candidate archive still open",
+  "wider_both_slices_improve": true,
+  "wider_both_slices_beat_generic": true,
+  "wider_confirmation_Q16_gain_bytes": 153.8376543026439,
+  "finished": "2026-10-06T14:25:48.528847+00:00"
+}

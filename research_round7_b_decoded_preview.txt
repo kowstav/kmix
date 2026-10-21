@@ -1,0 +1,152 @@
+Most significant bit</title>
+      <text xml:space="preserve">[Image:Msb.JPG|right|framed|The [binary numeral system|binary] representation of decimal 149, with the msb highlighted.  The msb in an 8-bit binary number represents a value of 128 decimal.  The lsb represents a value of 1.]
+
+In [computing], the '''most significant bit''' ('''msb''') is the [bit] position in a [Binary numeral system|binary number] having the greatest value.  The msb is sometimes referred to as the '''left-most bit''', due to the convention in [positional notation] of writing more significant digits further to the left.
+
+In referencing specific bits within a binary number, each bit is assigned a bit number, ranging from zero to ''n'' (depending on the number of bits in the number.)  The phrase '''bit zero''' may refer to either the [least significant bit] (lsb) or the msb, depending on the [endianness].
+
+By extension, the '''most significant bits''' (plural) are the bits of the number closest to, and including, the msb.
+
+'''MSB''', in all capitals, can also stand for "'''most significant ''byte'''''".  The meaning is parallel to the above: it is the byte in that position of a multi-byte number which has the greatest potential value.  
+
+==See also==
+*[Least significant bit]
+*[Binary numeral system]
+*[Signed number representations]
+*[Two's complement]
+
+[Category:Computer arithmetic]
+
+    </revision>
+  </page>
+  <page>
+    <title>Node-to-node data transfer</title>
+      <minor />
+      <comment>sp</comment>
+      <text xml:space="preserve">In [telecommunication]s, '''node-to-node data transfer''' is the movement of data from one [node (networking)|node] of the [Telecommunications network|network] to the next. In the [OSI model] it is handled by the lowest two layers, the [data link layer] and the [physical layer].
+
+In most communication systems, the transmitting point applies [source coding], followed by [channel coding], and lastly, [line coding]. This produces the [baseband] signal.
+Some systems then use [modulation] to multiplex many baseband signals into a [broadband] signal.
+(The receiver un-does these transformations in reverse order: demodulation, trellis decoding, error detection and correction, decompression).
+
+Some communication systems omit one or more of these steps,
+or use techniques that combine several of these steps together.
+For example, a [Morse code] transmitter combines source coding, channel coding, and line coding into one step, typically followed by an [amplitude modulation] step.
+[Barcode]s, on the other hand, add a checksum digit during channel coding, then translate each digit into a barcode symbol during line coding, omitting modulation.
+
+==Source coding==
+:''See main article [Data compression]''
+
+'''Source coding''' is the elimination of redundancy in order to make efficient use of storage space and/or transmission channels. 
+
+Examples of '''source coding''' are: 
+*[Huffman coding]
+*[morse code]
+*[Binary coding]
+
+==Channel coding==
+:''See main article [Error correction and detection].''
+
+In [digital] [telecommunication]s, '''channel coding''' is a pre-transmission mapping applied to a [digital signal] or data file, usually designed to make error-correction (or at least [Error-detecting code|error detection]) possible.
+
+Error correction is implemented by using more [numerical digit|digit]s ([bit]s in case of a binary channel) than the number strictly necessary for the samples, and having the receiver compute the most likely valid message that could have resulted in the received one. 
+
+Types of '''channel coding''' include:
+*[Parity check]s
+*[Hamming code]
+*[Reed-Muller code] 
+*[Reed-Solomon code] 
+*[Turbo coding]
+
+==Line coding==
+:''See main article [Line code]''
+
+'''Line coding''' consists of representing the [digital signal] to be transported, by an amplitude- and time-discrete signal, that is optimally tuned for the specific properties of the physical channel (and of the receiving equipment). The [waveform] pattern of voltage or current used to represent the 1s and 0s of a digital signal on a transmission link is called '''''line encoding'''''. 
+After line coding, the signal can directly be put on a transmission line, in the form of variations of the current. The common types of line encoding are [Unipolar encoding|unipolar], [Polar encoding|polar], [Bipolar encoding|bipolar] and [Manchester encoding].
+
+Line coding should make it possible for the receiver to synchronise itself to the [phase] of the received signal. It is also preferred for the line code to have a structure that will enable error detection. 
+
+Examples of '''line coding''' include:
+''(see main article [line code])''
+*[B8ZS]
+*[HDB3]
+*[2B1Q]
+*[AMI]
+*[Gray coding]
+
+==Modulation==
+:''See main article [Modulation]''
+
+'''Modulation''' is the process of varying a ''[carrier wave|carrier signal]'', typically a [sine-wave|sinusoidal] signal, in order to use that signal to convey [information]. One of the three key characteristics of a signal are usually modulated: its [phase (waves)|phase], [frequency] or [amplitude].
+
+In [digital] modulation, the changes in the signal are chosen from a fixed list (the '''modulation alphabet''') each entry of which conveys a different possible piece of information (a symbol). In [analog signal|analogue] modulation, the change is applied continuously in response to the data signal.
+
+Modulation is generally performed to overcome signal transmission issues such as to allow
+* Easy (low loss, low dispersion) [propagation] as [electromagnetic wave|electromagnetic] [wave]s
+* [Multiplexing] &&^ the transmission of multiple data signals in one frequency band, on different [carrier wave|carrier frequencies].
+* Smaller, more [directional antenna]s
+
+[carrier wave|Carrier signals] are usually high frequency [wave|electromagentic waves].
+
+Examples of '''modulation''' include:
+*[amplitude modulation]
+*[frequency modulation]
+*[Phase-shift keying]
+
+[Category:Telecommunications]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Error control</title>
+      <text xml:space="preserve">In [information theory] and [coding] error control is divided in two main categories:
+
+''[Error-detecting_code|Error Detection]'' Redundancy allows a receiver to check whether received data has been corrupted during transmission. It can, for example, request a [Retransmission (data networks)|retransmission].
+
+''[Error-correcting_code|Error Correction]'' This type of error control allows a receiver to reconstruct the original information when it has been corrupted during transmission. This is especially useful when there is only one-way communication.
+
+==Examples==
+One of the roles of the [Data Link Layer] Protocol is to detect errors on a receiving side. [Parity], [checksum], [Cyclic redundancy check] (CRC), [Vertical redundancy check], [Horizontal redundancy check] and [Rectangular redundancy check] are examples of varieties of error-checking mechanisms. 
+
+There are 2 ways to correct found errors: [Forward error correction] and [ARQ|Automatic repeat request] (ARQ). The first one is practical in cases where the communication channel is subject to long delays or is one-way. In these cases, it is not practical to send retransmission requests. Instead, sets of redundant information are sent with the data, so that correction can be done on the fly. ARQ is an interactive way of correcting errors; the sender re-sends the data until the receiver acknowledges that the data has been received accurately.
+
+==See also== 
+*[Reed-Solomon error correction]
+*[Hamming code]</text>
+    </revision>
+  </page>
+  <page>
+    <title>Inverter (logic gate)</title>
+      <text xml:space="preserve">In digital logic, an '''inverter''' is a [logic gate] which inverts the digital [signal processing|signal] driven on its input. It is also called NOT gate. The [truth table] of the gate is as follows:
+
+<table border="1">
+<caption>The truth table for inverter</caption>
+<tr>
+<th>input</th>
+<th>output</th>
+</tr>
+<tr align="center">
+<td>0</td>
+<td>1</td>
+</tr>
+<tr align="center">
+<td>1</td>
+<td>0</td>
+</tr>
+</table>
+
+This represents ''perfect'' switching behavior, which is the defining assumption in [Digital electronics].  In practice, actual devices have electrical characteristics that must be carefully considered when designing inverters.
+
+
+==Electronic implementation==
+[Image:DigitalInverter.png|thumb|300px|Scheme of a ''Saturated-Load'' Digital Inverter]
+
+An inverter circuit outputs a voltage representing the opposite logic-level as its input.  [Digital] electronics are circuits that operate at fixed voltage levels corresponding to a logical 0 or 1 (see [Binary numeral system|Binary]).  An inverter circuit serves as the basic logic gate to swap between those two voltage levels.  Implementation determines the actual voltage, but common levels include (0, +5V) for [TTL] circuits.
+
+Common types include resistive-drain, using one transistor and one resistor; and [CMOS], which uses two (opposite type) transistors per inverter circuit.
+
+Digital inverter quality is often measured using the Voltage Transfer Curve, which is a plot of input vs. output voltage.  From such a graph, device parameters including noise tolerance, gain, and operating logic-levels can be obtained.
+[Image:DigitalInverterVTC.png|thumb|300px|Voltage Transfer Curve for a 20 μm Inverter constructed at [University North Carolina State University] ]
+
+Ideally, the voltage transfer curve (VTC) appears as an inverted step-function - this would indicate precise switching between ''on'' and ''off'' - but in real devices, a gradual transition region exists.  The VTC indicates that for low input voltage, the circuit outputs high voltage; for high input, the output tapers off towards 0 volts.  The slope of this transition region is a measure of quality - steep (close to -Infinity) slopes yield precise switching.
+
+The tolerance to noise can be measured by comparing the minimum input to the maximum output for each region of operation (on

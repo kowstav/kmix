@@ -1,0 +1,25 @@
+{
+  "input_bytes": 8192,
+  "input_sha256": "eb0f7f53ef189dea9a50cb7922b3019d9848819fe3ef6150e3ceb5e66bb28330",
+  "measurement": "native C++ neural inference, cold WRT prefix, candidate BF16 weights; no replayed GPU probabilities",
+  "neural_distributions_identical": true,
+  "native_archives_identical": true,
+  "rows": [
+    {
+      "name": "old",
+      "archive_bytes": 956,
+      "archive_sha256": "430532514457e3c50a458262c5a9fe5ea864d76dba2f7951e9595c96ce0a5310",
+      "neural_distribution_bytes": 3358720,
+      "neural_distribution_sha256": "fc5a5d16828d0d6266da80555eff9c2c1682945c2a337e599c537b0bdf169a6b",
+      "wall_seconds": 61.567491631999474
+    },
+    {
+      "name": "v5",
+      "archive_bytes": 956,
+      "archive_sha256": "430532514457e3c50a458262c5a9fe5ea864d76dba2f7951e9595c96ce0a5310",
+      "neural_distribution_bytes": 3358720,
+      "neural_distribution_sha256": "fc5a5d16828d0d6266da80555eff9c2c1682945c2a337e599c537b0bdf169a6b",
+      "wall_seconds": 63.497435401000075
+    }
+  ]
+}

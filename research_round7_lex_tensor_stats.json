@@ -1,0 +1,2522 @@
+[
+  {
+    "name": "blocks.0.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47528.4962529647
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47291.583485504
+  },
+  {
+    "name": "blocks.0.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143515.18302913534
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47695.638553426375
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47646.925123624125
+  },
+  {
+    "name": "blocks.0.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142300.81259206348
+  },
+  {
+    "name": "blocks.0.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143766.02508218487
+  },
+  {
+    "name": "blocks.0.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143503.2994908212
+  },
+  {
+    "name": "blocks.0.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 573775.1568900135
+  },
+  {
+    "name": "blocks.0.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.0.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 571312.634823986
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47542.448474948214
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47402.42627581235
+  },
+  {
+    "name": "blocks.1.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143471.72051009387
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47697.67423372365
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47656.6903051684
+  },
+  {
+    "name": "blocks.1.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 140783.64640398754
+  },
+  {
+    "name": "blocks.1.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143473.1345208551
+  },
+  {
+    "name": "blocks.1.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142944.54727548038
+  },
+  {
+    "name": "blocks.1.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574110.4420267482
+  },
+  {
+    "name": "blocks.1.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.1.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 572651.0451210061
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47468.819656471074
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 46748.245160476654
+  },
+  {
+    "name": "blocks.10.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142799.03149164468
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47660.85749973881
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47495.65739699348
+  },
+  {
+    "name": "blocks.10.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143604.93468500255
+  },
+  {
+    "name": "blocks.10.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142951.5861190755
+  },
+  {
+    "name": "blocks.10.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142959.7204033436
+  },
+  {
+    "name": "blocks.10.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575091.9470564531
+  },
+  {
+    "name": "blocks.10.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.10.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574283.2261443308
+  },
+  {
+    "name": "blocks.11.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143500.5405240255
+  },
+  {
+    "name": "blocks.11.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142837.65015463083
+  },
+  {
+    "name": "blocks.11.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143306.40512317957
+  },
+  {
+    "name": "blocks.11.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 139403.49704484112
+  },
+  {
+    "name": "blocks.11.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 573652.3409884193
+  },
+  {
+    "name": "blocks.11.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.11.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 573657.8975976177
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47553.483208646576
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47432.40165787237
+  },
+  {
+    "name": "blocks.2.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143488.60851741213
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47695.30653089549
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47577.208485404546
+  },
+  {
+    "name": "blocks.2.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142243.06177970156
+  },
+  {
+    "name": "blocks.2.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143491.9630092254
+  },
+  {
+    "name": "blocks.2.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143454.22035253223
+  },
+  {
+    "name": "blocks.2.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575284.2929697015
+  },
+  {
+    "name": "blocks.2.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.2.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574002.4384515308
+  },
+  {
+    "name": "blocks.3.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142760.3118948355
+  },
+  {
+    "name": "blocks.3.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 140662.91811115143
+  },
+  {
+    "name": "blocks.3.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143014.4125958244
+  },
+  {
+    "name": "blocks.3.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 139105.26933477912
+  },
+  {
+    "name": "blocks.3.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574877.3072295303
+  },
+  {
+    "name": "blocks.3.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.3.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574453.2042066026
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47680.51720360708
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 46949.31402190433
+  },
+  {
+    "name": "blocks.4.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142923.1034156802
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47720.41189216859
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47482.40359240813
+  },
+  {
+    "name": "blocks.4.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142916.7312496325
+  },
+  {
+    "name": "blocks.4.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143472.65041546506
+  },
+  {
+    "name": "blocks.4.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143532.49090977505
+  },
+  {
+    "name": "blocks.4.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 573254.82582829
+  },
+  {
+    "name": "blocks.4.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.4.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574292.394885643
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47711.52517919225
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 46986.38225798071
+  },
+  {
+    "name": "blocks.5.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142867.23329623265
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47784.556740363616
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47713.238634466004
+  },
+  {
+    "name": "blocks.5.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 142222.87064943736
+  },
+  {
+    "name": "blocks.5.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143684.15348916673
+  },
+  {
+    "name": "blocks.5.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143390.4009382495
+  },
+  {
+    "name": "blocks.5.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 17,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574559.679251739
+  },
+  {
+    "name": "blocks.5.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.5.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574307.6879007964
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47687.83777762226
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47267.85842130554
+  },
+  {
+    "name": "blocks.6.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143389.11791457943
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47768.875337080295
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47716.24572492272
+  },
+  {
+    "name": "blocks.6.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143242.5359869227
+  },
+  {
+    "name": "blocks.6.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143568.27243803287
+  },
+  {
+    "name": "blocks.6.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143424.24437004933
+  },
+  {
+    "name": "blocks.6.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575218.2731091471
+  },
+  {
+    "name": "blocks.6.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.6.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574815.7985426969
+  },
+  {
+    "name": "blocks.7.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143263.09184927394
+  },
+  {
+    "name": "blocks.7.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 140861.79178121476
+  },
+  {
+    "name": "blocks.7.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143329.47957006912
+  },
+  {
+    "name": "blocks.7.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 138711.3698490575
+  },
+  {
+    "name": "blocks.7.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575232.6099364912
+  },
+  {
+    "name": "blocks.7.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.7.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574288.3683384953
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47618.32859490232
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 46878.14566460481
+  },
+  {
+    "name": "blocks.8.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143082.16430204452
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47676.489876434316
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47268.64380305781
+  },
+  {
+    "name": "blocks.8.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143580.533925451
+  },
+  {
+    "name": "blocks.8.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143247.7185774511
+  },
+  {
+    "name": "blocks.8.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143221.2161075145
+  },
+  {
+    "name": "blocks.8.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575235.5496932579
+  },
+  {
+    "name": "blocks.8.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.8.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574232.8647007623
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47514.51206212685
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 46955.2738149191
+  },
+  {
+    "name": "blocks.9.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143202.965948251
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -20,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47717.055211816485
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 12288,
+    "entropy_bits": 47382.67336995667
+  },
+  {
+    "name": "blocks.9.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 20,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143348.98079608628
+  },
+  {
+    "name": "blocks.9.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143576.68624482045
+  },
+  {
+    "name": "blocks.9.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 36864,
+    "entropy_bits": 143253.3778360085
+  },
+  {
+    "name": "blocks.9.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -18,
+    "max": 18,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 575124.606308084
+  },
+  {
+    "name": "blocks.9.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "min": -19,
+    "max": 19,
+    "distinct": 15,
+    "numel": 15,
+    "entropy_bits": 58.60335893412777
+  },
+  {
+    "name": "blocks.9.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "min": -7,
+    "max": 7,
+    "distinct": 15,
+    "numel": 147456,
+    "entropy_bits": 574282.868644454
+  },
+  {
+    "name": "embedding.weight.q",
+    "shape": [
+      205,
+      192
+    ],
+    "min": -127,
+    "max": 127,
+    "distinct": 255,
+    "numel": 39360,
+    "entropy_bits": 296572.4567572976
+  },
+  {
+    "name": "prior_embedding.weight.q",
+    "shape": [
+      192,
+      205
+    ],
+    "min": -127,
+    "max": 127,
+    "distinct": 255,
+    "numel": 39360,
+    "entropy_bits": 297571.00773932313
+  },
+  {
+    "name": "unembedding.weight.q",
+    "shape": [
+      205,
+      192
+    ],
+    "min": -127,
+    "max": 127,
+    "distinct": 255,
+    "numel": 39360,
+    "entropy_bits": 295930.09353183367
+  }
+]

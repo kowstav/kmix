@@ -1,0 +1,46 @@
+{
+  "status": "FAIL_H_BACKEND_PRESERVED",
+  "time": 1791524448.3330097,
+  "cases": [
+    {
+      "case": "region_0_8_False",
+      "input_bytes": 954811,
+      "decoded_bytes": 954811,
+      "exact": false,
+      "initial": {
+        "bytes": 954811,
+        "prefix_matches": false,
+        "needs_input": false
+      },
+      "calls": 1,
+      "first_mismatch": 104808
+    },
+    {
+      "case": "region_2_16_True",
+      "input_bytes": 790847,
+      "decoded_bytes": 790847,
+      "exact": true,
+      "initial": {
+        "bytes": 790847,
+        "prefix_matches": true,
+        "needs_input": false
+      },
+      "calls": 1,
+      "first_mismatch": null
+    },
+    {
+      "case": "region_3_8_False",
+      "input_bytes": 683615,
+      "decoded_bytes": 683615,
+      "exact": true,
+      "initial": {
+        "bytes": 683615,
+        "prefix_matches": true,
+        "needs_input": false
+      },
+      "calls": 1,
+      "first_mismatch": null
+    }
+  ],
+  "method": "Ppmd7Decoder.decode with length and draining unconsumed input"
+}

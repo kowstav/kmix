@@ -1,0 +1,74 @@
+{
+  "status": "COMPLETE_BUILDS_AWAITING_NATIVE_PARITY",
+  "started": 1791546636.3011842,
+  "builds": [
+    {
+      "name": "neutral_raw",
+      "raw_bytes": 559120,
+      "raw_sha256": "30b539b3ec2cd0a2adf51d3103f2643d113022cce2c7fb17b9828b6f61e10fda",
+      "upx_bytes": 209568,
+      "upx_sha256": "21546f55acc73121d22342dac950f8819f8d9293fb6e03af07e2180c14e07539",
+      "source_sha256": "308ab005753ee61ff25dfd2e543b583247a80c62cff76812e4e73ca0e5607d56",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "wall_seconds": 32.79998803138733
+    },
+    {
+      "name": "guard_raw",
+      "raw_bytes": 732320,
+      "raw_sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+      "upx_bytes": 232008,
+      "upx_sha256": "6b9683eab963616db32daf83a825034dedb05f08c6cf68de4b20ebbb40430311",
+      "source_sha256": "308ab005753ee61ff25dfd2e543b583247a80c62cff76812e4e73ca0e5607d56",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=2 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "wall_seconds": 33.20546293258667
+    },
+    {
+      "name": "guard_packed",
+      "raw_bytes": 595968,
+      "raw_sha256": "c2e2ba9572c7d43adb20d49338d1a9f47c13c65b97c732aa801180681bd3d95a",
+      "upx_bytes": 218752,
+      "upx_sha256": "ce28d7ac4b6a86a9c8e750527ad0ebe9a70262c950b3707855da5595e51715d8",
+      "source_sha256": "f31ca4be77f51e35a5ba20849ef74a2ef8db27da274827fca6e1275ff0a73f07",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=2 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "wall_seconds": 34.35908532142639
+    },
+    {
+      "name": "guard_packed16",
+      "raw_bytes": 595456,
+      "raw_sha256": "5f6e0c7b8be11894e979033a94206b7523796656be590794d78d81e9739cb657",
+      "upx_bytes": 218608,
+      "upx_sha256": "8e562a69774ec852671cb3176095336a692d0514f1ecaed561483ba2a3f64e53",
+      "source_sha256": "ad09b2cda1280a40a3e7cadd28635e23a989e71b029fcd988aad6e92c548029f",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=2 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "wall_seconds": 32.64410185813904
+    }
+  ],
+  "deletions": [],
+  "upx_sha256": "b97d182d9718fd7fd608fa2ce3375a15f479c73415b51999dcb5fea72646f53c",
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "finished": 1791546769.4743667
+}

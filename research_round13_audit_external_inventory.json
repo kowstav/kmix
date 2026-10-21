@@ -1,0 +1,1976 @@
+{
+  "observed": 1791377634.256137,
+  "records": {
+    "/kaggle/working/hp_round12_claude/validation/manifest.json": {
+      "id": "R12-validation",
+      "status": "COMPLETE",
+      "started": 1791365890.2665381,
+      "deletions": [],
+      "paid_usd": 0,
+      "consumer_build": {
+        "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+        "flags": "-O2 -std=c++17 -fno-fast-math -ffp-contract=off",
+        "exe_sha256": "925acc057285197b8b79efc249fa75368f70477e488679b43b1674d79f74aa3e"
+      },
+      "cases": [
+        {
+          "label": "V2_cold_G_65000000",
+          "abs_offset": 65000000,
+          "bytes_requested": 524288,
+          "input_sha256": "54869732009648a219a1d2dcc654d735842e0cce01bbf648a56e0b557931f227",
+          "window_bytes": 524288,
+          "cpu_encoder": 2,
+          "cpu_consumer": 3,
+          "status": "COMPLETE",
+          "encoder_pid": 185,
+          "consumer_pid": 184,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 720,
+            "bytes_encoded_approx": 522240,
+            "free_gb": 1148.3
+          },
+          "encode": {
+            "wall_seconds": 750.0401410449999,
+            "exit_code": 0,
+            "CPU_user_seconds": 685.698828,
+            "CPU_system_seconds": 35.885321,
+            "peak_RSS_KiB": 6002168
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 803482.276528,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 608.8,
+            "totals": {
+              "mixer_identity": 803482.276528,
+              "mixer_full_250": 803230.9671,
+              "mixer_full_1000": 804139.433929,
+              "mixer_full_4000": 808815.640267,
+              "mixer_full_1000_decodedclass": 804141.659817,
+              "mixer_no_explicit_nn_1000": 803580.6225,
+              "mixer_global_1000": 802792.14516,
+              "mixer_memory_zero_1000": 803421.761891,
+              "mixer_long_memory_1000": 803429.351266,
+              "adaptive_law_r9": 802139.285935,
+              "wider_frozen_a1": 803082.708397
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 803482.2765265212,
+          "baseline_minus_cost_bits": 1.478823833167553e-06,
+          "archive_bytes": 100473,
+          "archive_sha256": "98eb2970dacd23a938f82f49ac33e8966eff2950a4f26d1eaae35d1d98377254"
+        },
+        {
+          "label": "V1_warm_0_2MiB",
+          "abs_offset": 0,
+          "bytes_requested": 2097152,
+          "input_sha256": "2422cdd8404e361a5629057aec9cc2f87677964d62e402aa96aefeec7ded7dbd",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 187,
+          "consumer_pid": 186,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 1830,
+            "bytes_encoded_approx": 2076672,
+            "free_gb": 1147.7
+          },
+          "encode": {
+            "wall_seconds": 1860.0796330109997,
+            "exit_code": 0,
+            "CPU_user_seconds": 1788.807771,
+            "CPU_system_seconds": 51.149737,
+            "peak_RSS_KiB": 6045040
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 2097152,
+            "input_bytes": 2097152,
+            "baseline_bits": 1587010.80806,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 1732.2,
+            "totals": {
+              "mixer_identity": 1587010.80806,
+              "mixer_full_250": 1586009.995052,
+              "mixer_full_1000": 1587511.11908,
+              "mixer_full_4000": 1595993.57445,
+              "mixer_full_1000_decodedclass": 1587510.038271,
+              "mixer_no_explicit_nn_1000": 1586919.130196,
+              "mixer_global_1000": 1586632.911593,
+              "mixer_memory_zero_1000": 1586355.587568,
+              "mixer_long_memory_1000": 1586367.995567,
+              "adaptive_law_r9": 1585793.099149,
+              "wider_frozen_a1": 1588293.036286
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 1587010.807974291,
+          "baseline_minus_cost_bits": 8.570891804993153e-05,
+          "archive_bytes": 198414,
+          "archive_sha256": "4ae49d4957cca3a3a61e1e5cbaeb289f57cee44d6046cea2c43b9a3d9775d803"
+        }
+      ],
+      "finished": 1791367753.0002403
+    },
+    "/kaggle/working/hp_round12_claude/cold/manifest.json": {
+      "id": "R12-cold-controls",
+      "status": "COMPLETE",
+      "started": 1791366889.537473,
+      "windows": [
+        [
+          "A",
+          4194304
+        ],
+        [
+          "A",
+          12582912
+        ],
+        [
+          "A",
+          25165824
+        ],
+        [
+          "A",
+          37748736
+        ],
+        [
+          "A",
+          50331648
+        ],
+        [
+          "A",
+          62914560
+        ],
+        [
+          "B",
+          312582912
+        ],
+        [
+          "B",
+          325165824
+        ],
+        [
+          "B",
+          337748736
+        ],
+        [
+          "B",
+          350331648
+        ],
+        [
+          "B",
+          362914560
+        ],
+        [
+          "H",
+          375000000
+        ]
+      ],
+      "deletions": [],
+      "paid_usd": 0,
+      "cases": [
+        {
+          "label": "cold_A_4194304",
+          "abs_offset": 4194304,
+          "bytes_requested": 524288,
+          "input_sha256": "e325188251e5bb338e1b5b92a368c9e7b1ac01d0e81f142693fd44e0ab889d82",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 245,
+          "consumer_pid": 244,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 510,
+            "bytes_encoded_approx": 512000,
+            "free_gb": 1148.0
+          },
+          "encode": {
+            "wall_seconds": 540.0371291250003,
+            "exit_code": 0,
+            "CPU_user_seconds": 500.597607,
+            "CPU_system_seconds": 16.46969,
+            "peak_RSS_KiB": 5997556
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 749023.857328,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 434.5,
+            "totals": {
+              "mixer_identity": 749023.857328,
+              "mixer_full_250": 748610.89379,
+              "mixer_full_1000": 749328.479824,
+              "mixer_full_4000": 753486.751546,
+              "mixer_full_1000_decodedclass": 749321.714331,
+              "mixer_no_explicit_nn_1000": 748748.399535,
+              "mixer_global_1000": 748321.134452,
+              "mixer_memory_zero_1000": 748732.980991,
+              "mixer_long_memory_1000": 748731.480993,
+              "adaptive_law_r9": 747731.126441,
+              "wider_frozen_a1": 748751.977142
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 749023.8572793661,
+          "baseline_minus_cost_bits": 4.863389767706394e-05,
+          "archive_bytes": 93665,
+          "archive_sha256": "7d0fe081b0553ede6646f0fe7bd42d191eb4db7607967a38306e96de919589ea"
+        },
+        {
+          "label": "cold_A_12582912",
+          "abs_offset": 12582912,
+          "bytes_requested": 524288,
+          "input_sha256": "60bbfae8b79d188f832e0d33d8cc736621e20de36ddf19fd8ae821dcd2e1e087",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 261,
+          "consumer_pid": 260,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 480,
+            "bytes_encoded_approx": 515072,
+            "free_gb": 1147.7
+          },
+          "encode": {
+            "wall_seconds": 510.0254606899998,
+            "exit_code": 0,
+            "CPU_user_seconds": 470.652902,
+            "CPU_system_seconds": 15.858266,
+            "peak_RSS_KiB": 6000860
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 854023.675013,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 410.8,
+            "totals": {
+              "mixer_identity": 854023.675013,
+              "mixer_full_250": 853790.055837,
+              "mixer_full_1000": 854691.047647,
+              "mixer_full_4000": 859330.172932,
+              "mixer_full_1000_decodedclass": 854696.676014,
+              "mixer_no_explicit_nn_1000": 854235.295704,
+              "mixer_global_1000": 853133.604216,
+              "mixer_memory_zero_1000": 853991.566079,
+              "mixer_long_memory_1000": 853998.008898,
+              "adaptive_law_r9": 852739.940505,
+              "wider_frozen_a1": 853278.547836
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 854023.6750010531,
+          "baseline_minus_cost_bits": 1.1946889571845531e-05,
+          "archive_bytes": 106790,
+          "archive_sha256": "b1aeb40f93023c6b05935a468bf6bc155ae16f50aa4d846420bafa5165e393ff"
+        },
+        {
+          "label": "cold_A_25165824",
+          "abs_offset": 25165824,
+          "bytes_requested": 524288,
+          "input_sha256": "d7197e6af7b8fbcb83e321879623834635c3659d683f1cdb876349fcf2c6877b",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 263,
+          "consumer_pid": 262,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 570,
+            "bytes_encoded_approx": 519168,
+            "free_gb": 1147.3
+          },
+          "encode": {
+            "wall_seconds": 600.0446869299994,
+            "exit_code": 0,
+            "CPU_user_seconds": 552.607587,
+            "CPU_system_seconds": 18.882717,
+            "peak_RSS_KiB": 6001192
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 831398.652042,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 491.0,
+            "totals": {
+              "mixer_identity": 831398.652042,
+              "mixer_full_250": 831196.330041,
+              "mixer_full_1000": 832109.722955,
+              "mixer_full_4000": 836862.299258,
+              "mixer_full_1000_decodedclass": 832099.512914,
+              "mixer_no_explicit_nn_1000": 831476.375591,
+              "mixer_global_1000": 830578.416506,
+              "mixer_memory_zero_1000": 831376.120143,
+              "mixer_long_memory_1000": 831378.423766,
+              "adaptive_law_r9": 830121.434696,
+              "wider_frozen_a1": 830804.210793
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 831398.6520858648,
+          "baseline_minus_cost_bits": -4.386482760310173e-05,
+          "archive_bytes": 103962,
+          "archive_sha256": "a718267ee0a315175ca3c732a709b20058589e7c804cfcb015613164df65d1eb"
+        },
+        {
+          "label": "cold_A_37748736",
+          "abs_offset": 37748736,
+          "bytes_requested": 524288,
+          "input_sha256": "0e244c0691a95052cae24dded0ff8bb6320db7667655aab1063fdbd4bfa67216",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 265,
+          "consumer_pid": 264,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 630,
+            "bytes_encoded_approx": 510976,
+            "free_gb": 1147.2
+          },
+          "encode": {
+            "wall_seconds": 660.0481794380003,
+            "exit_code": 0,
+            "CPU_user_seconds": 617.2844,
+            "CPU_system_seconds": 16.549362,
+            "peak_RSS_KiB": 6000660
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 881433.355258,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 561.4,
+            "totals": {
+              "mixer_identity": 881433.355258,
+              "mixer_full_250": 881189.409017,
+              "mixer_full_1000": 882086.474619,
+              "mixer_full_4000": 886757.704529,
+              "mixer_full_1000_decodedclass": 882102.796915,
+              "mixer_no_explicit_nn_1000": 881507.723289,
+              "mixer_global_1000": 880593.583872,
+              "mixer_memory_zero_1000": 881368.115924,
+              "mixer_long_memory_1000": 881377.529136,
+              "adaptive_law_r9": 880140.311053,
+              "wider_frozen_a1": 880851.861696
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 881433.3552071527,
+          "baseline_minus_cost_bits": 5.0847302190959454e-05,
+          "archive_bytes": 110217,
+          "archive_sha256": "bf9fd0547b79834b540a7f214e6d27836f410dd6d9072858b7b8ada6aa23a17b"
+        },
+        {
+          "label": "cold_A_50331648",
+          "abs_offset": 50331648,
+          "bytes_requested": 524288,
+          "input_sha256": "0378896a36b362f23ec925e3d1d6152f869b449c120e677bf7ff1e5be1f35861",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 279,
+          "consumer_pid": 278,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 540,
+            "bytes_encoded_approx": 521216,
+            "free_gb": 1146.9
+          },
+          "encode": {
+            "wall_seconds": 570.0358026140002,
+            "exit_code": 0,
+            "CPU_user_seconds": 526.416228,
+            "CPU_system_seconds": 14.927396,
+            "peak_RSS_KiB": 6002976
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 944473.466909,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 459.8,
+            "totals": {
+              "mixer_identity": 944473.466909,
+              "mixer_full_250": 944290.618053,
+              "mixer_full_1000": 945288.425266,
+              "mixer_full_4000": 950379.04429,
+              "mixer_full_1000_decodedclass": 945293.059014,
+              "mixer_no_explicit_nn_1000": 944598.282527,
+              "mixer_global_1000": 943716.828187,
+              "mixer_memory_zero_1000": 944499.16703,
+              "mixer_long_memory_1000": 944497.729904,
+              "adaptive_law_r9": 943144.440322,
+              "wider_frozen_a1": 943814.809634
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 944473.4668937933,
+          "baseline_minus_cost_bits": 1.5206634998321533e-05,
+          "archive_bytes": 118096,
+          "archive_sha256": "854de670f6234312a534c509d6592aa22c6155154d190e39f573936e7901d3c7"
+        },
+        {
+          "label": "cold_A_62914560",
+          "abs_offset": 62914560,
+          "bytes_requested": 524288,
+          "input_sha256": "c03ccf766d9001be95f6b3b45993db3ad6ec9b418fbe8ecf6d6b124b1a4d1329",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 293,
+          "consumer_pid": 292,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 510,
+            "bytes_encoded_approx": 522240,
+            "free_gb": 1146.9
+          },
+          "encode": {
+            "wall_seconds": 540.0354367079999,
+            "exit_code": 0,
+            "CPU_user_seconds": 496.059638,
+            "CPU_system_seconds": 14.617237,
+            "peak_RSS_KiB": 6002320
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 880860.832072,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 435.6,
+            "totals": {
+              "mixer_identity": 880860.832072,
+              "mixer_full_250": 880560.808125,
+              "mixer_full_1000": 881472.458993,
+              "mixer_full_4000": 886390.189831,
+              "mixer_full_1000_decodedclass": 881500.078654,
+              "mixer_no_explicit_nn_1000": 880804.791771,
+              "mixer_global_1000": 880141.788854,
+              "mixer_memory_zero_1000": 880716.405689,
+              "mixer_long_memory_1000": 880723.540025,
+              "adaptive_law_r9": 879616.258386,
+              "wider_frozen_a1": 880475.922655
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 880860.832126841,
+          "baseline_minus_cost_bits": -5.484092980623245e-05,
+          "archive_bytes": 110145,
+          "archive_sha256": "3b9b28ebe53361224e39cb370a29ffa7f49dd0a9d48ccefb0e22dd73299c22da"
+        },
+        {
+          "label": "cold_B_312582912",
+          "abs_offset": 312582912,
+          "bytes_requested": 524288,
+          "input_sha256": "ba9414770b84c0788b36bef20865a11236f202d12e9aaa25549222c4c1c047c0",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 296,
+          "consumer_pid": 295,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 510,
+            "bytes_encoded_approx": 502784,
+            "free_gb": 1146.6
+          },
+          "encode": {
+            "wall_seconds": 540.040960065,
+            "exit_code": 0,
+            "CPU_user_seconds": 511.936115,
+            "CPU_system_seconds": 14.684386,
+            "peak_RSS_KiB": 5996152
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 603146.170178,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 448.0,
+            "totals": {
+              "mixer_identity": 603146.170178,
+              "mixer_full_250": 602847.425918,
+              "mixer_full_1000": 603527.352808,
+              "mixer_full_4000": 607295.876237,
+              "mixer_full_1000_decodedclass": 603527.175887,
+              "mixer_no_explicit_nn_1000": 603240.506075,
+              "mixer_global_1000": 602436.040462,
+              "mixer_memory_zero_1000": 602975.92562,
+              "mixer_long_memory_1000": 602968.9456,
+              "adaptive_law_r9": 601861.416405,
+              "wider_frozen_a1": 602768.385322
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 603146.1701929993,
+          "baseline_minus_cost_bits": -1.4999299310147762e-05,
+          "archive_bytes": 75431,
+          "archive_sha256": "ce1c57165de0e122e77be4619502bc1eae180466d21cb6371f9a8482f43f7e1c"
+        },
+        {
+          "label": "cold_B_325165824",
+          "abs_offset": 325165824,
+          "bytes_requested": 524288,
+          "input_sha256": "b87605b9d4aa2dce4c1a2b409cf725177ab9cbf2d49340ebd4978d0a82cc64ac",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 298,
+          "consumer_pid": 297,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 540,
+            "bytes_encoded_approx": 523264,
+            "free_gb": 1146.5
+          },
+          "encode": {
+            "wall_seconds": 570.0537991350002,
+            "exit_code": 0,
+            "CPU_user_seconds": 523.74408,
+            "CPU_system_seconds": 15.411849,
+            "peak_RSS_KiB": 5996344
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 870701.721825,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 456.0,
+            "totals": {
+              "mixer_identity": 870701.721825,
+              "mixer_full_250": 870533.383652,
+              "mixer_full_1000": 871536.945549,
+              "mixer_full_4000": 876437.944249,
+              "mixer_full_1000_decodedclass": 871529.49794,
+              "mixer_no_explicit_nn_1000": 870871.776007,
+              "mixer_global_1000": 869805.528516,
+              "mixer_memory_zero_1000": 870777.556348,
+              "mixer_long_memory_1000": 870789.505705,
+              "adaptive_law_r9": 869346.200176,
+              "wider_frozen_a1": 869965.068027
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 870701.7218884584,
+          "baseline_minus_cost_bits": -6.345834117382765e-05,
+          "archive_bytes": 108875,
+          "archive_sha256": "d54a6a82ed54101c5d9941110b1d6612278b96feabb7b2738b7e4bd80bf9ead0"
+        },
+        {
+          "label": "cold_B_337748736",
+          "abs_offset": 337748736,
+          "bytes_requested": 524288,
+          "input_sha256": "83175d02c2472644b664d4d0c4336a2b629ba260cfa85398d4e6a3d1e0eb140c",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 300,
+          "consumer_pid": 299,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 510,
+            "bytes_encoded_approx": 504832,
+            "free_gb": 1146.3
+          },
+          "encode": {
+            "wall_seconds": 540.0476702380001,
+            "exit_code": 0,
+            "CPU_user_seconds": 506.467893,
+            "CPU_system_seconds": 17.397681,
+            "peak_RSS_KiB": 6000140
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 887875.394724,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 439.5,
+            "totals": {
+              "mixer_identity": 887875.394724,
+              "mixer_full_250": 887658.609296,
+              "mixer_full_1000": 888576.242937,
+              "mixer_full_4000": 893480.185566,
+              "mixer_full_1000_decodedclass": 888586.601798,
+              "mixer_no_explicit_nn_1000": 887954.069292,
+              "mixer_global_1000": 887045.871604,
+              "mixer_memory_zero_1000": 887846.928653,
+              "mixer_long_memory_1000": 887852.378487,
+              "adaptive_law_r9": 886551.395261,
+              "wider_frozen_a1": 887257.719423
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 887875.394754026,
+          "baseline_minus_cost_bits": -3.0025956220924854e-05,
+          "archive_bytes": 111022,
+          "archive_sha256": "4672fe32b3c2aabdcb52387b8fbe64d8e220f52e0c1780714598825f4688ed4d"
+        },
+        {
+          "label": "cold_B_350331648",
+          "abs_offset": 350331648,
+          "bytes_requested": 524288,
+          "input_sha256": "03517959446a428845b25a77b12465f82edd246ae437528052b9dec850b8030c",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 302,
+          "consumer_pid": 301,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 540,
+            "bytes_encoded_approx": 504832,
+            "free_gb": 1146.2
+          },
+          "encode": {
+            "wall_seconds": 570.0498288620001,
+            "exit_code": 0,
+            "CPU_user_seconds": 537.728293,
+            "CPU_system_seconds": 14.975815,
+            "peak_RSS_KiB": 6003076
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 904065.906716,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 479.0,
+            "totals": {
+              "mixer_identity": 904065.906716,
+              "mixer_full_250": 903828.055409,
+              "mixer_full_1000": 904784.152941,
+              "mixer_full_4000": 909769.908217,
+              "mixer_full_1000_decodedclass": 904782.681401,
+              "mixer_no_explicit_nn_1000": 904051.769572,
+              "mixer_global_1000": 903061.663261,
+              "mixer_memory_zero_1000": 904023.298016,
+              "mixer_long_memory_1000": 904027.564354,
+              "adaptive_law_r9": 902723.235402,
+              "wider_frozen_a1": 903258.217986
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 904065.9067933357,
+          "baseline_minus_cost_bits": -7.733562961220741e-05,
+          "archive_bytes": 113046,
+          "archive_sha256": "61fba1372abfc00b8a9ffb58116fce13b8ae20c9e7411a413c5b48c6d5234715"
+        },
+        {
+          "label": "cold_B_362914560",
+          "abs_offset": 362914560,
+          "bytes_requested": 524288,
+          "input_sha256": "34c366b8fa66896b2c3c8c4eaf48fb985f09b04db00462f01465710b71da2977",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "COMPLETE",
+          "encoder_pid": 304,
+          "consumer_pid": 303,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 570,
+            "bytes_encoded_approx": 512000,
+            "free_gb": 1146.0
+          },
+          "encode": {
+            "wall_seconds": 600.0651540099998,
+            "exit_code": 0,
+            "CPU_user_seconds": 558.090808,
+            "CPU_system_seconds": 16.379587,
+            "peak_RSS_KiB": 6002272
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 844475.289986,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 497.2,
+            "totals": {
+              "mixer_identity": 844475.289986,
+              "mixer_full_250": 844276.289025,
+              "mixer_full_1000": 845154.756097,
+              "mixer_full_4000": 849920.18745,
+              "mixer_full_1000_decodedclass": 845169.306845,
+              "mixer_no_explicit_nn_1000": 844522.578054,
+              "mixer_global_1000": 843569.480536,
+              "mixer_memory_zero_1000": 844444.523949,
+              "mixer_long_memory_1000": 844448.529424,
+              "adaptive_law_r9": 843126.174059,
+              "wider_frozen_a1": 843638.741758
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 844475.2899554607,
+          "baseline_minus_cost_bits": 3.053934779018164e-05,
+          "archive_bytes": 105597,
+          "archive_sha256": "0ebc3e41b86ce57abbe0a319534c5fe20813ec5dd9b25f7f407419a1d6e0fbdf"
+        },
+        {
+          "label": "cold_H_375000000",
+          "abs_offset": 375000000,
+          "bytes_requested": 524288,
+          "input_sha256": "431c7330c59b40506be52b5319cb101831258b1d0982f6b89d6cc7e9197fa9d6",
+          "window_bytes": 524288,
+          "cpu_encoder": 3,
+          "cpu_consumer": 2,
+          "status": "COMPLETE",
+          "encoder_pid": 312,
+          "consumer_pid": 311,
+          "stage": "case finished",
+          "progress": {
+            "elapsed_s": 540,
+            "bytes_encoded_approx": 523264,
+            "free_gb": 1146.0
+          },
+          "encode": {
+            "wall_seconds": 570.0680122679996,
+            "exit_code": 0,
+            "CPU_user_seconds": 507.75998,
+            "CPU_system_seconds": 29.022336,
+            "peak_RSS_KiB": 5999400
+          },
+          "consumer_exit": 0,
+          "consumer_output": "",
+          "summary": {
+            "type": "summary",
+            "bytes": 524288,
+            "input_bytes": 524288,
+            "baseline_bits": 897828.64133,
+            "identity_mismatch_bits": 0,
+            "punch_failed": false,
+            "consumer_wall_seconds": 447.0,
+            "totals": {
+              "mixer_identity": 897828.64133,
+              "mixer_full_250": 897636.55883,
+              "mixer_full_1000": 898602.283148,
+              "mixer_full_4000": 903392.745819,
+              "mixer_full_1000_decodedclass": 898604.741745,
+              "mixer_no_explicit_nn_1000": 897936.858661,
+              "mixer_global_1000": 896847.339107,
+              "mixer_memory_zero_1000": 897838.36638,
+              "mixer_long_memory_1000": 897846.082069,
+              "adaptive_law_r9": 896450.68002,
+              "wider_frozen_a1": 896892.99141
+            }
+          },
+          "errors": [],
+          "cost_trace_bits_processed_bytes": 897828.6413420944,
+          "baseline_minus_cost_bits": -1.2094387784600258e-05,
+          "archive_bytes": 112266,
+          "archive_sha256": "cdb81592660461a084aa56d61596b773dac5d039159a0425879c68642d089024"
+        }
+      ],
+      "finished": 1791370850.2360606
+    },
+    "/kaggle/working/hp_round12_claude/component/manifest.json": {
+      "id": "R12-component-timing",
+      "status": "COMPLETE",
+      "runs": [
+        {
+          "mode": "combined",
+          "bytes": 1048576,
+          "exit": 0,
+          "wall_s": 891.726772209,
+          "user_s": 849.69846,
+          "sys_s": 12.859398,
+          "peak_RSS_KiB": 6001388,
+          "archive_bytes": 81912
+        },
+        {
+          "mode": "transformer_only",
+          "bytes": 1048576,
+          "exit": 0,
+          "wall_s": 308.8598603110004,
+          "user_s": 306.612771,
+          "sys_s": 1.55155,
+          "peak_RSS_KiB": 1211936,
+          "archive_bytes": 154424
+        },
+        {
+          "mode": "ppmd_only",
+          "bytes": 1048576,
+          "exit": 0,
+          "wall_s": 10.506262561999392,
+          "user_s": 9.545909,
+          "sys_s": 0.9435659999999999,
+          "peak_RSS_KiB": 1145220,
+          "archive_bytes": 154424
+        },
+        {
+          "mode": "combined",
+          "bytes": 3145728,
+          "exit": 0,
+          "wall_s": 2360.416774331001,
+          "user_s": 2325.465452,
+          "sys_s": 10.787032,
+          "peak_RSS_KiB": 6079312,
+          "archive_bytes": 310050
+        },
+        {
+          "mode": "transformer_only",
+          "bytes": 3145728,
+          "exit": 0,
+          "wall_s": 1057.6980889389997,
+          "user_s": 1034.293462,
+          "sys_s": 1.8607559999999999,
+          "peak_RSS_KiB": 1261572,
+          "archive_bytes": 562531
+        },
+        {
+          "mode": "ppmd_only",
+          "bytes": 3145728,
+          "exit": 0,
+          "wall_s": 32.61660762200154,
+          "user_s": 30.356771,
+          "sys_s": 2.226064,
+          "peak_RSS_KiB": 1207152,
+          "archive_bytes": 562531
+        }
+      ],
+      "deletions": [],
+      "paid_usd": 0,
+      "marginal_us_per_byte": {
+        "combined": 702.7123575210571,
+        "transformer_only": 347.13263368606573,
+        "ppmd_only": 10.534934997558592
+      },
+      "marginal_share": {
+        "ppmd_of_combined": 0.014991816900335223,
+        "transformer_only_of_combined": 0.4939896530504143,
+        "classical_bank_and_mixing_of_combined": 0.5060103469495857
+      }
+    },
+    "/kaggle/working/hp_round12_claude/warm_fallback/manifest.json": {
+      "id": "R12-warm-fallback",
+      "status": "RUNNING",
+      "started": 1791375756.4034147,
+      "deletions": [],
+      "paid_usd": 0,
+      "consumer_v2_sha256": "ed02359ed2e2fe8ed2a5566af8d0c370931de44f4a66266bf1c333c2dd44b5ee",
+      "cases": [
+        {
+          "label": "fallback_A_0",
+          "abs_offset": 0,
+          "bytes_requested": 25165824,
+          "input_sha256": "c007d2c5e3d733c7244a7cb1f48d3ecec0b050d993a663b3514fdcca6ae5e8d5",
+          "window_bytes": 524288,
+          "cpu_encoder": 1,
+          "cpu_consumer": 3,
+          "status": "RUNNING",
+          "encoder_pid": 368,
+          "consumer_pid": 366,
+          "stage": "encode running",
+          "progress": {
+            "elapsed_s": 1860,
+            "bytes_encoded_approx": 1914880,
+            "free_gb": 1145.3
+          }
+        },
+        {
+          "label": "fallback_C_450000000",
+          "abs_offset": 450000000,
+          "bytes_requested": 25165824,
+          "input_sha256": "d8ca7b7efcd77dd9b0c30f33d885f5f72893d954daa79ee002755e3a3e4a34b2",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 2,
+          "status": "RUNNING",
+          "encoder_pid": 369,
+          "consumer_pid": 367,
+          "stage": "encode running",
+          "progress": {
+            "elapsed_s": 1860,
+            "bytes_encoded_approx": 2101248,
+            "free_gb": 1145.3
+          }
+        }
+      ]
+    },
+    "/root/hp_round13_pulls/r12-warm-stream-a/r12/manifest.json": {
+      "id": "R12-warm-stream-A",
+      "status": "RUNNING",
+      "started_unix": 1791366841.5592785,
+      "paid_usd": 0,
+      "GPU": false,
+      "deletions": [],
+      "replay_only": true,
+      "asset_manifest_sha256": "3c29c7ddc17e633773d139329dfe91d4188c6ff3a1f51addfe35330c52a505c9",
+      "assets_verified": true,
+      "affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_count": 4,
+      "topology": [
+        "0,2",
+        "1,3",
+        "0,2",
+        "1,3"
+      ],
+      "consumer_build": {
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "flags": "-O2 -std=c++17 -fno-fast-math -ffp-contract=off",
+        "exe_sha256": "c23becd9d760fcd256a06d414839a2de3ae6fc401ee9cbb1713ff39063cb9f91"
+      },
+      "budget_seconds": 38156.669397076,
+      "cases": [
+        {
+          "label": "R12_warm_A",
+          "abs_offset": 0,
+          "bytes_requested": 67108864,
+          "input_sha256": "ae78bc469aebfd4d2ee3cbec074b3de4a4e1b03dea058aaa52c6fca002a94363",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "RUNNING",
+          "encoder_pid": 16,
+          "consumer_pid": 15,
+          "stage": "encode running",
+          "progress": {
+            "elapsed_s": 10620,
+            "bytes_encoded_approx": 23961600,
+            "free_gb": 1148.3
+          }
+        }
+      ]
+    },
+    "/root/hp_round13_pulls/r12-warm-stream-b/r12/manifest.json": {
+      "id": "R12-warm-stream-B",
+      "status": "RUNNING",
+      "started_unix": 1791366827.8976083,
+      "paid_usd": 0,
+      "GPU": false,
+      "deletions": [],
+      "replay_only": true,
+      "asset_manifest_sha256": "3c29c7ddc17e633773d139329dfe91d4188c6ff3a1f51addfe35330c52a505c9",
+      "assets_verified": true,
+      "affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_count": 4,
+      "topology": [
+        "0,2",
+        "1,3",
+        "0,2",
+        "1,3"
+      ],
+      "consumer_build": {
+        "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+        "flags": "-O2 -std=c++17 -fno-fast-math -ffp-contract=off",
+        "exe_sha256": "c23becd9d760fcd256a06d414839a2de3ae6fc401ee9cbb1713ff39063cb9f91"
+      },
+      "budget_seconds": 38155.77610212,
+      "cases": [
+        {
+          "label": "R12_warm_B",
+          "abs_offset": 300000000,
+          "bytes_requested": 67108864,
+          "input_sha256": "d202e456b79b2c4d8a47caac220ab24876d452562a0663a843c7baa2f9568c15",
+          "window_bytes": 524288,
+          "cpu_encoder": 0,
+          "cpu_consumer": 1,
+          "status": "RUNNING",
+          "encoder_pid": 16,
+          "consumer_pid": 15,
+          "stage": "encode running",
+          "progress": {
+            "elapsed_s": 10620,
+            "bytes_encoded_approx": 28634112,
+            "free_gb": 1148.0
+          }
+        }
+      ]
+    },
+    "/root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/manifest.json": {
+      "id": "R10-CPU-bf16-unweighted",
+      "status": "COMPLETE_EARLY_WARM_NATIVE_MODEL_PAIR",
+      "started": 1791358260.9845145,
+      "regime": "predeclared early sequential prefix or article-order proxy",
+      "paid_usd": 0,
+      "GPU": false,
+      "deletions": [],
+      "cases": [
+        {
+          "label": "baseline",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 310050,
+          "archive_sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 437113.84968625393
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 494902.6167571454
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 510460.8053046807
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 382625.00232047215
+            }
+          ]
+        },
+        {
+          "label": "candidate",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 311047,
+          "archive_sha256": "43d2b3354b4d0f7afc4df7dffe55950553646133bb1fa31fc551d149da1e135a",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 439273.2169247224
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 496943.14258489315
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 512490.2453854857
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 384392.7140268609
+            }
+          ]
+        }
+      ],
+      "production_package_qualified": false,
+      "accounting": {
+        "baseline_encode": {
+          "wall_seconds": 994.998167704,
+          "CPU_user_seconds": 986.621823,
+          "CPU_system_seconds": 8.156995,
+          "peak_RSS_KiB": 6079152,
+          "return_code": 0
+        },
+        "baseline_decode": {
+          "wall_seconds": 979.0068273550003,
+          "CPU_user_seconds": 970.654006,
+          "CPU_system_seconds": 8.145323,
+          "peak_RSS_KiB": 6077724,
+          "return_code": 0
+        },
+        "candidate_encode": {
+          "wall_seconds": 1005.5384071980002,
+          "CPU_user_seconds": 997.145164,
+          "CPU_system_seconds": 8.177465,
+          "peak_RSS_KiB": 6079080,
+          "return_code": 0
+        },
+        "candidate_decode": {
+          "wall_seconds": 997.4642457249997,
+          "CPU_user_seconds": 989.130752,
+          "CPU_system_seconds": 8.124563,
+          "peak_RSS_KiB": 6077792,
+          "return_code": 0
+        }
+      },
+      "asset_manifest_sha256": "b17bb3041cfa242e8bab660c5553cdbc69551ce9ecde8828e5bd17d1d8d107c7",
+      "asset_delivery": "platform-extracted files; every entry hash verified",
+      "assets": {
+        "canonical_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+        "files": {
+          "code/hutter_research/__init__.py": {
+            "bytes": 55,
+            "sha256": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3"
+          },
+          "code/hutter_research/article_order.py": {
+            "bytes": 5781,
+            "sha256": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d"
+          },
+          "code/hutter_research/contracts.py": {
+            "bytes": 5553,
+            "sha256": "c661a2077bb58561a9b4a497f5fae4ba22614e01a2017d3cf7aa4096c291213b"
+          },
+          "code/hutter_research/dispatch_contracts.py": {
+            "bytes": 1845,
+            "sha256": "434659aa0e61a1ce51b4ff2ef3b6c22c74ba670638145ffb59b9d34b84c060cb"
+          },
+          "code/hutter_research/integer_mixer.h": {
+            "bytes": 4507,
+            "sha256": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc"
+          },
+          "code/hutter_research/integer_mixer_replay.cpp": {
+            "bytes": 4118,
+            "sha256": "3556da2ad3ba4c88e4c2649b7dfc664cc67a637412eb22d8eb94fce0215e46d3"
+          },
+          "code/hutter_research/integer_mixer_selftest.cpp": {
+            "bytes": 1792,
+            "sha256": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860"
+          },
+          "code/hutter_research/legacy_weights.py": {
+            "bytes": 27253,
+            "sha256": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e"
+          },
+          "code/hutter_research/long_memory.h": {
+            "bytes": 1352,
+            "sha256": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d"
+          },
+          "code/hutter_research/native_weights.py": {
+            "bytes": 29402,
+            "sha256": "fdcd777c662516cd4a425bb975569c3b3008e17f867223cfeebfe0334c8b83cc"
+          },
+          "code/hutter_research/probability_tables.bin": {
+            "bytes": 163846,
+            "sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc"
+          },
+          "code/hutter_research/probability_tables.inc": {
+            "bytes": 357747,
+            "sha256": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc"
+          },
+          "code/hutter_research/tensor_io.py": {
+            "bytes": 1846,
+            "sha256": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+          },
+          "code/kernel_job.py": {
+            "bytes": 11757,
+            "sha256": "a9f7f1346b3714aa9b95bedb61374d7187fc6f7aa51b70ecd2f9a58d51568de0"
+          },
+          "data/canonical_prefix.bin": {
+            "bytes": 3145728,
+            "sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969"
+          },
+          "data/pages.bin": {
+            "bytes": 4225310,
+            "sha256": "f21282dac8f18561f16050ca9c6945fe95e09ce782e541bf449d1ab688d471a1"
+          },
+          "data/vocab.bm": {
+            "bytes": 32,
+            "sha256": "3e7f8c043939ccba8675b3a260f65a665bc34acac883a7316cc50fecfd7d36b5"
+          },
+          "models/cut107_half.tfwc3": {
+            "bytes": 2978081,
+            "sha256": "8b41a4af2bfa26e201fb231a1e9cae8567866d5b9979d002a58cd14bc0deac96"
+          },
+          "models/cut1392_zero.tfwc3": {
+            "bytes": 2978099,
+            "sha256": "2c7fee5ebe2f294c23fa8c4401ece0c7464a54b1da2cb6beca2ad7c48f1590fe"
+          },
+          "models/original.tfwc3": {
+            "bytes": 2978039,
+            "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+          },
+          "models/unweighted.tfwc3": {
+            "bytes": 2978077,
+            "sha256": "5248e3759a6292ca43f6a4a90121ae86dfb7a4780885822597c690b03aeef3b4"
+          },
+          "native/cmix": {
+            "bytes": 497104,
+            "sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa"
+          },
+          "native/english.dic": {
+            "bytes": 411996,
+            "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+          }
+        },
+        "original_raw_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+        "protocol_version": 2,
+        "selection": "canonical first 3 MiB; first 512 complete raw page elements for separate gzip proxy"
+      },
+      "affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "CPU_count": 4,
+      "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+      "numpy_version": "2.1.3",
+      "stage": "finite CPU experiment complete; qualification scope recorded",
+      "protocol": {
+        "canonical_start": 0,
+        "bytes": 3145728,
+        "warmup_bytes": 1048576,
+        "warm_windows": 4,
+        "selection": "arm fixed before observation",
+        "limits": "one early-region cluster; no whole-file extrapolation"
+      },
+      "comparison": {
+        "actual_prefix_archive_gain_bytes": -997,
+        "model_growth_bytes_per_copy": 38,
+        "counted_weight_copies": 2,
+        "conditional_full_file_projection": null
+      },
+      "finished": 1791362240.3439655
+    },
+    "/root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/manifest.json": {
+      "id": "R10-CPU-bf16-cut107_half",
+      "status": "COMPLETE_EARLY_WARM_NATIVE_MODEL_PAIR",
+      "started": 1791358252.5617282,
+      "regime": "predeclared early sequential prefix or article-order proxy",
+      "paid_usd": 0,
+      "GPU": false,
+      "deletions": [],
+      "cases": [
+        {
+          "label": "baseline",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 310050,
+          "archive_sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 437113.84968625393
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 494902.6167571454
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 510460.8053046807
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 382625.00232047215
+            }
+          ]
+        },
+        {
+          "label": "candidate",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 311081,
+          "archive_sha256": "7e92e74fb86aa1bded2b464fe5e99b8e0ca166667cf6b7eb9a8efd72fd32bca9",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 439270.5282479937
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 497056.56745769083
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 512498.9908117149
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 384431.0879189605
+            }
+          ]
+        }
+      ],
+      "production_package_qualified": false,
+      "accounting": {
+        "baseline_encode": {
+          "wall_seconds": 1628.620097759,
+          "CPU_user_seconds": 1616.883493,
+          "CPU_system_seconds": 11.308655,
+          "peak_RSS_KiB": 6079132,
+          "return_code": 0
+        },
+        "baseline_decode": {
+          "wall_seconds": 1617.538564183,
+          "CPU_user_seconds": 1606.047795,
+          "CPU_system_seconds": 11.091822,
+          "peak_RSS_KiB": 6077524,
+          "return_code": 0
+        },
+        "candidate_encode": {
+          "wall_seconds": 1689.6001621930004,
+          "CPU_user_seconds": 1676.597556,
+          "CPU_system_seconds": 12.614488,
+          "peak_RSS_KiB": 6079000,
+          "return_code": 0
+        },
+        "candidate_decode": {
+          "wall_seconds": 1698.5846006040001,
+          "CPU_user_seconds": 1685.32186,
+          "CPU_system_seconds": 12.869467,
+          "peak_RSS_KiB": 6077716,
+          "return_code": 0
+        }
+      },
+      "asset_manifest_sha256": "b17bb3041cfa242e8bab660c5553cdbc69551ce9ecde8828e5bd17d1d8d107c7",
+      "asset_delivery": "platform-extracted files; every entry hash verified",
+      "assets": {
+        "canonical_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+        "files": {
+          "code/hutter_research/__init__.py": {
+            "bytes": 55,
+            "sha256": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3"
+          },
+          "code/hutter_research/article_order.py": {
+            "bytes": 5781,
+            "sha256": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d"
+          },
+          "code/hutter_research/contracts.py": {
+            "bytes": 5553,
+            "sha256": "c661a2077bb58561a9b4a497f5fae4ba22614e01a2017d3cf7aa4096c291213b"
+          },
+          "code/hutter_research/dispatch_contracts.py": {
+            "bytes": 1845,
+            "sha256": "434659aa0e61a1ce51b4ff2ef3b6c22c74ba670638145ffb59b9d34b84c060cb"
+          },
+          "code/hutter_research/integer_mixer.h": {
+            "bytes": 4507,
+            "sha256": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc"
+          },
+          "code/hutter_research/integer_mixer_replay.cpp": {
+            "bytes": 4118,
+            "sha256": "3556da2ad3ba4c88e4c2649b7dfc664cc67a637412eb22d8eb94fce0215e46d3"
+          },
+          "code/hutter_research/integer_mixer_selftest.cpp": {
+            "bytes": 1792,
+            "sha256": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860"
+          },
+          "code/hutter_research/legacy_weights.py": {
+            "bytes": 27253,
+            "sha256": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e"
+          },
+          "code/hutter_research/long_memory.h": {
+            "bytes": 1352,
+            "sha256": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d"
+          },
+          "code/hutter_research/native_weights.py": {
+            "bytes": 29402,
+            "sha256": "fdcd777c662516cd4a425bb975569c3b3008e17f867223cfeebfe0334c8b83cc"
+          },
+          "code/hutter_research/probability_tables.bin": {
+            "bytes": 163846,
+            "sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc"
+          },
+          "code/hutter_research/probability_tables.inc": {
+            "bytes": 357747,
+            "sha256": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc"
+          },
+          "code/hutter_research/tensor_io.py": {
+            "bytes": 1846,
+            "sha256": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+          },
+          "code/kernel_job.py": {
+            "bytes": 11757,
+            "sha256": "a9f7f1346b3714aa9b95bedb61374d7187fc6f7aa51b70ecd2f9a58d51568de0"
+          },
+          "data/canonical_prefix.bin": {
+            "bytes": 3145728,
+            "sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969"
+          },
+          "data/pages.bin": {
+            "bytes": 4225310,
+            "sha256": "f21282dac8f18561f16050ca9c6945fe95e09ce782e541bf449d1ab688d471a1"
+          },
+          "data/vocab.bm": {
+            "bytes": 32,
+            "sha256": "3e7f8c043939ccba8675b3a260f65a665bc34acac883a7316cc50fecfd7d36b5"
+          },
+          "models/cut107_half.tfwc3": {
+            "bytes": 2978081,
+            "sha256": "8b41a4af2bfa26e201fb231a1e9cae8567866d5b9979d002a58cd14bc0deac96"
+          },
+          "models/cut1392_zero.tfwc3": {
+            "bytes": 2978099,
+            "sha256": "2c7fee5ebe2f294c23fa8c4401ece0c7464a54b1da2cb6beca2ad7c48f1590fe"
+          },
+          "models/original.tfwc3": {
+            "bytes": 2978039,
+            "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+          },
+          "models/unweighted.tfwc3": {
+            "bytes": 2978077,
+            "sha256": "5248e3759a6292ca43f6a4a90121ae86dfb7a4780885822597c690b03aeef3b4"
+          },
+          "native/cmix": {
+            "bytes": 497104,
+            "sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa"
+          },
+          "native/english.dic": {
+            "bytes": 411996,
+            "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+          }
+        },
+        "original_raw_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+        "protocol_version": 2,
+        "selection": "canonical first 3 MiB; first 512 complete raw page elements for separate gzip proxy"
+      },
+      "affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "CPU_count": 4,
+      "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+      "numpy_version": "2.1.3",
+      "stage": "finite CPU experiment complete; qualification scope recorded",
+      "protocol": {
+        "canonical_start": 0,
+        "bytes": 3145728,
+        "warmup_bytes": 1048576,
+        "warm_windows": 4,
+        "selection": "arm fixed before observation",
+        "limits": "one early-region cluster; no whole-file extrapolation"
+      },
+      "comparison": {
+        "actual_prefix_archive_gain_bytes": -1031,
+        "model_growth_bytes_per_copy": 42,
+        "counted_weight_copies": 2,
+        "conditional_full_file_projection": null
+      },
+      "finished": 1791364898.1973736
+    },
+    "/root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/manifest.json": {
+      "id": "R10-CPU-bf16-cut1392_zero",
+      "status": "COMPLETE_EARLY_WARM_NATIVE_MODEL_PAIR",
+      "started": 1791358254.717484,
+      "regime": "predeclared early sequential prefix or article-order proxy",
+      "paid_usd": 0,
+      "GPU": false,
+      "deletions": [],
+      "cases": [
+        {
+          "label": "baseline",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 310050,
+          "archive_sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 437113.84968625393
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 494902.6167571454
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 510460.8053046807
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 382625.00232047215
+            }
+          ]
+        },
+        {
+          "label": "candidate",
+          "input_bytes": 3145728,
+          "input_sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969",
+          "archive_bytes": 314261,
+          "archive_sha256": "b8ee96686b5e6b2d4b5126e4966eb5b56e0805cb9c3c638bc7cd5d7a94f5d244",
+          "independent_decode_exact": true,
+          "trace_identity_checked": {
+            "Q16": false,
+            "hidden": true
+          },
+          "Q16_decoder_trace_limit": "Unavailable when retained observer lacks LAB_DECODE_BITTRACE; do not claim measured Q16 trajectory identity in that case.",
+          "windows": [
+            {
+              "offset": 1048576,
+              "bytes": 524288,
+              "native_bits": 443446.50067895406
+            },
+            {
+              "offset": 1572864,
+              "bytes": 524288,
+              "native_bits": 501389.65930261835
+            },
+            {
+              "offset": 2097152,
+              "bytes": 524288,
+              "native_bits": 516591.1725165646
+            },
+            {
+              "offset": 2621440,
+              "bytes": 524288,
+              "native_bits": 387057.0817411537
+            }
+          ]
+        }
+      ],
+      "production_package_qualified": false,
+      "accounting": {
+        "baseline_encode": {
+          "wall_seconds": 1823.679454133,
+          "CPU_user_seconds": 1806.480797,
+          "CPU_system_seconds": 16.027057,
+          "peak_RSS_KiB": 6079096,
+          "return_code": 0
+        },
+        "baseline_decode": {
+          "wall_seconds": 1816.0191311570002,
+          "CPU_user_seconds": 1800.244724,
+          "CPU_system_seconds": 14.515773,
+          "peak_RSS_KiB": 6077696,
+          "return_code": 0
+        },
+        "candidate_encode": {
+          "wall_seconds": 1800.955953494,
+          "CPU_user_seconds": 1784.756823,
+          "CPU_system_seconds": 15.087596,
+          "peak_RSS_KiB": 6079236,
+          "return_code": 0
+        },
+        "candidate_decode": {
+          "wall_seconds": 1745.9668510689999,
+          "CPU_user_seconds": 1729.610222,
+          "CPU_system_seconds": 14.693939,
+          "peak_RSS_KiB": 6077604,
+          "return_code": 0
+        }
+      },
+      "asset_manifest_sha256": "b17bb3041cfa242e8bab660c5553cdbc69551ce9ecde8828e5bd17d1d8d107c7",
+      "asset_delivery": "platform-extracted files; every entry hash verified",
+      "assets": {
+        "canonical_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+        "files": {
+          "code/hutter_research/__init__.py": {
+            "bytes": 55,
+            "sha256": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3"
+          },
+          "code/hutter_research/article_order.py": {
+            "bytes": 5781,
+            "sha256": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d"
+          },
+          "code/hutter_research/contracts.py": {
+            "bytes": 5553,
+            "sha256": "c661a2077bb58561a9b4a497f5fae4ba22614e01a2017d3cf7aa4096c291213b"
+          },
+          "code/hutter_research/dispatch_contracts.py": {
+            "bytes": 1845,
+            "sha256": "434659aa0e61a1ce51b4ff2ef3b6c22c74ba670638145ffb59b9d34b84c060cb"
+          },
+          "code/hutter_research/integer_mixer.h": {
+            "bytes": 4507,
+            "sha256": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc"
+          },
+          "code/hutter_research/integer_mixer_replay.cpp": {
+            "bytes": 4118,
+            "sha256": "3556da2ad3ba4c88e4c2649b7dfc664cc67a637412eb22d8eb94fce0215e46d3"
+          },
+          "code/hutter_research/integer_mixer_selftest.cpp": {
+            "bytes": 1792,
+            "sha256": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860"
+          },
+          "code/hutter_research/legacy_weights.py": {
+            "bytes": 27253,
+            "sha256": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e"
+          },
+          "code/hutter_research/long_memory.h": {
+            "bytes": 1352,
+            "sha256": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d"
+          },
+          "code/hutter_research/native_weights.py": {
+            "bytes": 29402,
+            "sha256": "fdcd777c662516cd4a425bb975569c3b3008e17f867223cfeebfe0334c8b83cc"
+          },
+          "code/hutter_research/probability_tables.bin": {
+            "bytes": 163846,
+            "sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc"
+          },
+          "code/hutter_research/probability_tables.inc": {
+            "bytes": 357747,
+            "sha256": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc"
+          },
+          "code/hutter_research/tensor_io.py": {
+            "bytes": 1846,
+            "sha256": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+          },
+          "code/kernel_job.py": {
+            "bytes": 11757,
+            "sha256": "a9f7f1346b3714aa9b95bedb61374d7187fc6f7aa51b70ecd2f9a58d51568de0"
+          },
+          "data/canonical_prefix.bin": {
+            "bytes": 3145728,
+            "sha256": "fcd976d8c167d764f51784dc676924e9f8751c1a3c27172ac29da98002a80969"
+          },
+          "data/pages.bin": {
+            "bytes": 4225310,
+            "sha256": "f21282dac8f18561f16050ca9c6945fe95e09ce782e541bf449d1ab688d471a1"
+          },
+          "data/vocab.bm": {
+            "bytes": 32,
+            "sha256": "3e7f8c043939ccba8675b3a260f65a665bc34acac883a7316cc50fecfd7d36b5"
+          },
+          "models/cut107_half.tfwc3": {
+            "bytes": 2978081,
+            "sha256": "8b41a4af2bfa26e201fb231a1e9cae8567866d5b9979d002a58cd14bc0deac96"
+          },
+          "models/cut1392_zero.tfwc3": {
+            "bytes": 2978099,
+            "sha256": "2c7fee5ebe2f294c23fa8c4401ece0c7464a54b1da2cb6beca2ad7c48f1590fe"
+          },
+          "models/original.tfwc3": {
+            "bytes": 2978039,
+            "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+          },
+          "models/unweighted.tfwc3": {
+            "bytes": 2978077,
+            "sha256": "5248e3759a6292ca43f6a4a90121ae86dfb7a4780885822597c690b03aeef3b4"
+          },
+          "native/cmix": {
+            "bytes": 497104,
+            "sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa"
+          },
+          "native/english.dic": {
+            "bytes": 411996,
+            "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+          }
+        },
+        "original_raw_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+        "protocol_version": 2,
+        "selection": "canonical first 3 MiB; first 512 complete raw page elements for separate gzip proxy"
+      },
+      "affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "CPU_count": 4,
+      "python_version": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+      "numpy_version": "2.1.3",
+      "stage": "finite CPU experiment complete; qualification scope recorded",
+      "protocol": {
+        "canonical_start": 0,
+        "bytes": 3145728,
+        "warmup_bytes": 1048576,
+        "warm_windows": 4,
+        "selection": "arm fixed before observation",
+        "limits": "one early-region cluster; no whole-file extrapolation"
+      },
+      "comparison": {
+        "actual_prefix_archive_gain_bytes": -4211,
+        "model_growth_bytes_per_copy": 60,
+        "counted_weight_copies": 2,
+        "conditional_full_file_projection": null
+      },
+      "finished": 1791365449.4377825
+    }
+  },
+  "sources": {
+    "/kaggle/working/hp_round12_claude/code/warm_fallback.py": "\"\"\"R12 interactive fallback: two 24 MiB warm streams (C at 450,000,000 and A at 0) with consumer v2\n(all v1 arms + reduced_250, minimal_250, guarded_fixedshare).  Registered after notebook C v2 died\nwithout output; parameters fixed before any warm-C result exists.\"\"\"\nimport json, subprocess, sys, threading, time, traceback\nfrom pathlib import Path\nsys.path.insert(0, '/root/r12/code'); import r12_driver as d\nW = Path('/kaggle/working'); OUT = W / 'hp_round12_claude/warm_fallback'; OUT.mkdir(parents=True, exist_ok=True)\nM = {'id': 'R12-warm-fallback', 'status': 'RUNNING', 'started': time.time(), 'deletions': [], 'paid_usd': 0}\nlock = threading.Lock()\ndef save():\n    with lock: (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\ntry:\n    exe = Path('/root/r12/stream_replay_v2')\n    r = subprocess.run(['g++', '-O2', '-std=c++17', '-fno-fast-math', '-ffp-contract=off', '-I', '/root/r12/code',\n                        str(W / 'hp_round12_claude/code/stream_replay_v2.cpp'), '-o', str(exe)], capture_output=True, text=True)\n    assert r.returncode == 0, r.stderr[-1500:]\n    M['consumer_v2_sha256'] = d.sha(exe); save()\n    stream = W / 'hp_round8/lexical_full_prepare_v1/lexical_full_ready.wrt'\n    common = dict(binary=W / 'hp_round8/native_stage_trace_v1/tree/cmix', weights=W / 'hp_round7/lex_audit/lex_h1_run11.tfwc2',\n                  dictionary=W / 'hp_round8/native_stage_trace_v1/tree/dictionary/english.dic', vocab=W / 'hp_round7/preserved/data/vocab.bm',\n                  consumer=exe, out_dir=OUT, manifest=M, save=save, budget_seconds=7 * 3600, keep_cost=True)\n    def case(label, off, ce, cc):\n        with open(stream, 'rb') as f: f.seek(off); data = f.read(24 * 1048576)\n        d.run_case(label=label, slice_bytes=data, abs_offset=off, work=Path('/root/r12/' + label), cpu_encoder=ce, cpu_consumer=cc, **common)\n    th = [threading.Thread(target=case, args=('fallback_C_450000000', 450000000, 0, 2)),\n          threading.Thread(target=case, args=('fallback_A_0', 0, 1, 3))]\n    for t in th: t.start()\n    for t in th: t.join()\n    M['status'] = 'COMPLETE'\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished'] = time.time(); save()\n",
+    "/kaggle/working/hp_round12_claude/code/analyze.py": "\"\"\"R12 analysis: warm clusters vs cold controls.  Gains are byte equivalents (bits/8),\npositive = candidate smaller.  Blocks of 8 consecutive 512 KiB windows (4 MiB) are\ntreated as dependence clusters within a stream; streams A/B/C are independent regions.\"\"\"\nimport json, math, os, subprocess, glob\nfrom pathlib import Path\nimport numpy as np\nW = Path('/kaggle/working/hp_round12_claude'); P = Path('/root/r12_pull')\nfrom kaggle_secrets import UserSecretsClient\nenv = dict(os.environ); env['KAGGLE_API_TOKEN'] = UserSecretsClient().get_secret('kaggle_api_token')\nout = {'streams': {}, 'cold': {}, 'paired': []}\nfor c in 'abc':\n    dest = P / f'warm_{c}'; dest.mkdir(parents=True, exist_ok=True)\n    if not list(dest.rglob('*.jsonl')):\n        r = subprocess.run(['kaggle', 'kernels', 'output', f'chaoscpp/hutter-r12-warm-stream-{c}', '-p', str(dest)], capture_output=True, text=True, env=env, timeout=1800)\n        out.setdefault('pull', {})[c] = r.returncode\n    files = list(dest.rglob('R12_warm_*.jsonl'))\n    man = list(dest.rglob('manifest.json'))\n    if not files:\n        out['streams'][c.upper()] = {'status': 'NO_OUTPUT', 'manifest': json.loads(man[0].read_text()).get('status') if man else None}\n        continue\n    m = json.loads(man[0].read_text()) if man else {}\n    rows = [json.loads(l) for l in files[0].read_text().splitlines() if l.strip()]\n    win = [r for r in rows if r.get('type') == 'window' and not r['partial']]\n    summ = next((r for r in rows if r.get('type') == 'summary'), None)\n    arms = list(win[0]['arms'].keys())\n    G = {a: np.array([(r['baseline_bits'] - r['arms'][a]) / 8 for r in win]) for a in arms}\n    hist = np.array([r['history_bytes'] for r in win]); base = np.array([r['baseline_bits'] / 8 for r in win])\n    case = (m.get('cases') or [{}])[0]\n    st = {'status': m.get('status'), 'windows': len(win), 'bytes': summ['bytes'] if summ else None,\n          'abs_offset': win[0]['abs_offset'], 'identity_mismatch': summ['identity_mismatch_bits'] if summ else None,\n          'punch_failed': summ['punch_failed'] if summ else None, 'encode': case.get('encode'), 'stopped_early': case.get('stopped_early'),\n          'baseline_minus_cost_bits': case.get('baseline_minus_cost_bits'), 'archive_bytes': case.get('archive_bytes'),\n          'baseline_bits_per_byte_by_bucket': {}, 'gain_by_bucket': {}, 'warm_ge_8MiB': {}}\n    buckets = [(0, 524288), (524288, 2 << 20), (2 << 20, 8 << 20), (8 << 20, 32 << 20), (32 << 20, 64 << 20)]\n    for lo, hi in buckets:\n        sel = (hist >= lo) & (hist < hi)\n        if not sel.any(): continue\n        key = f'{lo >> 10}K-{hi >> 10}K'\n        st['baseline_bits_per_byte_by_bucket'][key] = float(base[sel].sum() * 8 / (sel.sum() * 524288))\n        st['gain_by_bucket'][key] = {a: round(float(G[a][sel].mean()), 2) for a in arms}\n    sel = hist >= (8 << 20)\n    nb = int(sel.sum()) // 8\n    for a in arms:\n        g = G[a][sel][:nb * 8].reshape(nb, 8).sum(1) if nb else np.array([])  # bytes per 4 MiB block\n        if nb >= 2:\n            mean = g.mean(); se = g.std(ddof=1) / math.sqrt(nb)\n            tcrit = {2: 12.71, 3: 4.30, 4: 3.18, 5: 2.78, 6: 2.57, 7: 2.45, 8: 2.36, 9: 2.31, 10: 2.26, 11: 2.23, 12: 2.20, 13: 2.18, 14: 2.16}.get(nb, 2.1)\n            st['warm_ge_8MiB'][a] = {'blocks': nb, 'mean_bytes_per_4MiB': round(float(mean), 2), 'ci95': [round(float(mean - tcrit * se), 2), round(float(mean + tcrit * se), 2)],\n                                     'rate_bytes_per_input_byte': float(mean / 4194304), 'full_file_projection_bytes_if_stationary': float(mean / 4194304 * 587138826)}\n    st['per_window'] = [{'h': int(h), 'base': round(float(b), 1), **{a: round(float(G[a][i]), 2) for a in arms if a != 'mixer_identity'}} for i, (h, b) in enumerate(zip(hist, base))]\n    out['streams'][c.upper()] = st\n# cold controls\ncm = json.loads((W / 'cold/manifest.json').read_text())\nfor case in cm.get('cases', []):\n    s = case.get('summary')\n    if not s: continue\n    b = s['baseline_bits']\n    out['cold'][case['abs_offset']] = {'baseline_B': b / 8, **{a: (b - v) / 8 for a, v in s['totals'].items()}}\n# paired comparison on matched windows\nfor st_name, st in out['streams'].items():\n    if 'per_window' not in st: continue\n    for w in st['per_window']:\n        absoff = st['abs_offset'] + w['h']\n        if absoff in out['cold']:\n            cold = out['cold'][absoff]\n            out['paired'].append({'stream': st_name, 'abs_offset': absoff, 'history_bytes': w['h'],\n                                  'baseline_cold_B': round(cold['baseline_B'], 1), 'baseline_warm_B': w['base'],\n                                  'cold_penalty_pct': round(100 * (cold['baseline_B'] / w['base'] - 1), 2),\n                                  **{f'{a}_cold': round(cold[a], 1) for a in ('adaptive_law_r9', 'wider_frozen_a1', 'mixer_full_250', 'mixer_global_1000', 'mixer_memory_zero_1000')},\n                                  **{f'{a}_warm': w.get(a) for a in ('adaptive_law_r9', 'wider_frozen_a1', 'mixer_full_250', 'mixer_global_1000', 'mixer_memory_zero_1000')}})\n(W / 'analysis.json').write_text(json.dumps(out, indent=1))\nlite = {k: v for k, v in out.items() if k != 'streams'}\nlite['streams'] = {k: {kk: vv for kk, vv in v.items() if kk != 'per_window'} for k, v in out['streams'].items()}\nprint(json.dumps(lite, indent=1)[:20000])\n",
+    "/kaggle/working/hp_round12_claude/code/validate.py": "import json, os, sys, time, traceback\nfrom pathlib import Path\nsys.path.insert(0, '/root/r12/code')\nimport r12_driver as d\nW = Path('/kaggle/working')\nOUT = W / 'hp_round12_claude/validation'; OUT.mkdir(parents=True, exist_ok=True)\nM = {'id': 'R12-validation', 'status': 'RUNNING', 'started': time.time(), 'deletions': [], 'paid_usd': 0}\ndef save(): (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\ntry:\n    code = Path('/root/r12/code'); exe = Path('/root/r12/stream_replay')\n    M['consumer_build'] = d.compile_consumer(code, exe); save()\n    stream = W / 'hp_round8/lexical_full_prepare_v1/lexical_full_ready.wrt'\n    common = dict(binary=W/'hp_round8/native_stage_trace_v1/tree/cmix', weights=W/'hp_round7/lex_audit/lex_h1_run11.tfwc2',\n                  dictionary=W/'hp_round8/native_stage_trace_v1/tree/dictionary/english.dic', vocab=W/'hp_round7/preserved/data/vocab.bm',\n                  consumer=exe, out_dir=OUT, manifest=M, save=save, budget_seconds=6*3600)\n    import threading\n    def case(label, off, n, ce, cc):\n        with open(stream, 'rb') as f: f.seek(off); data = f.read(n)\n        d.run_case(label=label, slice_bytes=data, abs_offset=off, work=Path('/root/r12/work_' + label), cpu_encoder=ce, cpu_consumer=cc, **common)\n    th = [threading.Thread(target=case, args=('V1_warm_0_2MiB', 0, 2097152, 0, 1)),\n          threading.Thread(target=case, args=('V2_cold_G_65000000', 65000000, 524288, 2, 3))]\n    for t in th: t.start()\n    for t in th: t.join()\n    M['status'] = 'COMPLETE' if all(c['status'].startswith('COMPLETE') for c in M['cases']) else 'CHECK'\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished'] = time.time(); save()\n",
+    "/kaggle/working/hp_round12_claude/code/long_memory.h": "#pragma once\n#include \"integer_mixer.h\"\n\nnamespace hp {\n// Four exact, causal horizons of two orthogonal hidden-state projections.\n// Q8 observations are retained in Q28 accumulators so a 131072-byte horizon\n// does not freeze because its integer update is below a Q8 unit.\nclass LongMemory {\n public:\n  static constexpr unsigned kShifts[4]={0,10,15,17};\n  void Reset() {means_={};last_={};}\n  void UpdateHidden(const unsigned char* row) {\n    if(row[0]==0) {last_={};return;}\n    for(unsigned projection=0;projection<2;projection++) {\n      int64_t sum=0;\n      for(unsigned i=0;i<192;i++) {\n        int sign=((i>>(projection?3:0))&1)?-1:1;\n        sum+=sign*(2*int(row[i+1])-255);\n      }\n      int64_t value=std::clamp<int64_t>(round_signed(sum*16,192),-4096,4096);\n      last_[projection]=int32_t(value);\n      for(unsigned j=0;j<4;j++) {\n        int64_t target=value*(1LL<<20);\n        means_[projection][j]+=round_signed(target-means_[projection][j],1LL<<kShifts[j]);\n      }\n    }\n  }\n  std::array<uint16_t,8> Features() const {\n    std::array<uint16_t,8> result{};\n    for(unsigned i=0;i<2;i++)for(unsigned j=0;j<4;j++)\n      result[i*4+j]=squash(std::clamp<int64_t>(round_signed(means_[i][j],1LL<<20)-last_[i],-4096,4096));\n    return result;\n  }\n private:\n  std::array<std::array<int64_t,4>,2> means_{};\n  std::array<int32_t,2> last_{};\n};\n}\n",
+    "/kaggle/working/hp_round12_claude/code/stream_replay_v2.cpp": "// R12 streaming warm replay.  Follows the native observer's trace files while\n// they grow (regular files: the observer opens them O_EXCL, so FIFOs are not\n// possible), runs every arm online over the SAME unchanged native trajectory,\n// and punches holes behind the read position so disk use stays bounded.\n// Probabilities of all candidate arms are computed strictly before the bit is\n// read; arms never feed back into the native coder (replay, not a codec).\n//\n// usage: stream_replay input.bin final_p.u16 stage.f32 hidden.q8 done_flag out.jsonl\n//                      window_bytes abs_offset punch(0/1)\n#include \"integer_mixer.h\"\n#include \"long_memory.h\"\n#include <cerrno>\n#include <cmath>\n#include <cstdio>\n#include <cstring>\n#include <string>\n#include <vector>\n#include <array>\n#include <memory>\n#include <chrono>\n#include <thread>\n#include <fcntl.h>\n#include <unistd.h>\n#include <sys/stat.h>\n#include <linux/falloc.h>\n\nstatic bool exists(const char* p) { struct stat s; return ::stat(p, &s) == 0; }\n\nclass TailReader {\n public:\n  TailReader(const char* path, const char* done, bool punch) : path_(path), done_(done), punch_(punch) {\n    while (!exists(path)) { if (exists(done) && !exists(path)) throw std::runtime_error(std::string(\"trace never created: \") + path);\n                            std::this_thread::sleep_for(std::chrono::milliseconds(50)); }\n    fd_ = ::open(path, O_RDWR);\n    if (fd_ < 0) fd_ = ::open(path, O_RDONLY), punch_ = false;\n    if (fd_ < 0) throw std::runtime_error(std::string(\"cannot open \") + path);\n    buf_.resize(1 << 20);\n  }\n  ~TailReader() { if (fd_ >= 0) ::close(fd_); }\n  // Returns false only at true end of stream (writer finished and nothing left).\n  bool read_exact(void* dst, size_t n) {\n    char* out = static_cast<char*>(dst);\n    while (n) {\n      if (pos_ == len_) { if (!refill()) return false; continue; }\n      size_t k = std::min(n, len_ - pos_);\n      std::memcpy(out, buf_.data() + pos_, k); pos_ += k; out += k; n -= k; consumed_ += k;\n    }\n    if (punch_ && consumed_ - punched_ >= (256ull << 20)) {\n      uint64_t upto = (consumed_ / 4096) * 4096;\n      if (fallocate(fd_, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, punched_, upto - punched_) == 0) punched_ = upto;\n      else { punch_failed_ = true; punch_ = false; }\n    }\n    return true;\n  }\n  bool punch_failed() const { return punch_failed_; }\n  uint64_t consumed() const { return consumed_; }\n private:\n  bool refill() {\n    for (;;) {\n      ssize_t r = ::read(fd_, buf_.data(), buf_.size());\n      if (r > 0) { pos_ = 0; len_ = size_t(r); return true; }\n      if (r < 0 && errno == EINTR) continue;\n      if (r < 0) throw std::runtime_error(\"read error\");\n      if (exists(done_.c_str())) {   // writer has exited: one last read closes the race\n        r = ::read(fd_, buf_.data(), buf_.size());\n        if (r > 0) { pos_ = 0; len_ = size_t(r); return true; }\n        return false;\n      }\n      std::this_thread::sleep_for(std::chrono::milliseconds(5));\n    }\n  }\n  std::string path_, done_;\n  bool punch_, punch_failed_ = false;\n  int fd_ = -1;\n  std::vector<char> buf_;\n  size_t pos_ = 0, len_ = 0;\n  uint64_t consumed_ = 0, punched_ = 0;\n};\n\n// ---- verbatim round-9 causal adaptive law (research_round9_adaptive_law.cpp) ----\nclass HPCausalAdaptive {\n public:\n  uint32_t Predict(uint32_t native_p, float neural_p, bool previous_valid) {\n    const double ell = std::log(double(native_p) / (65536.0 - double(native_p)));\n    float feature = 0.0f;\n    if (previous_valid) {\n      const double nn = std::max(1.0 / 65536.0, std::min(65535.0 / 65536.0, double(neural_p)));\n      feature = float(std::max(-12.0, std::min(12.0, std::log(nn / (1.0 - nn)) - ell)) / 12.0);\n    }\n    const double dot = (0.0016181118716570748 + (-0.007454085408717222) * ell) + 2.3818512619982752 * double(feature);\n    const double multipliers[4] = {0.5, 1.0, 1.5, 2.0};\n    experts_[0] = native_p;\n    for (int k = 1; k < 5; k++) {\n      const double z = ell + multipliers[k - 1] * dot;\n      const double prob = z >= 0 ? 1.0 / (1.0 + std::exp(-z)) : std::exp(z) / (1.0 + std::exp(z));\n      experts_[k] = uint32_t(std::max(1.0, std::min(65535.0, std::floor(65536.0 * prob + 0.5))));\n    }\n    double mixture = 0.0;\n    for (int k = 0; k < 5; k++) mixture += weights_[k] * double(experts_[k]) / 65536.0;\n    pending_ = true;\n    return uint32_t(std::max(1.0, std::min(65535.0, std::floor(65536.0 * mixture + 0.5))));\n  }\n  void Observe(int bit) {\n    if (!pending_) return;\n    constexpr double epsilon = 2.6441431586476938e-06;\n    double total = 0.0;\n    for (int k = 0; k < 5; k++) {\n      const double pk = bit ? double(experts_[k]) / 65536.0 : 1.0 - double(experts_[k]) / 65536.0;\n      weights_[k] *= pk; total += weights_[k];\n    }\n    for (int k = 0; k < 5; k++) weights_[k] = (1.0 - epsilon) * weights_[k] / total + epsilon / 5.0;\n    pending_ = false;\n  }\n  uint32_t expert(int k) const { return experts_[k]; }\n private:\n  double weights_[5] = {0.2, 0.2, 0.2, 0.2, 0.2};\n  uint32_t experts_[5] = {};\n  bool pending_ = false;\n};\n\nstatic uint16_t q16(float p) {\n  if (!std::isfinite(p)) throw std::invalid_argument(\"nonfinite stage probability\");\n  if (p <= 0) return 1; if (p >= 1) return 65535;\n  return uint16_t(std::clamp(uint32_t(double(p) * 65536.0 + 0.5), 1u, 65535u));\n}\nstatic uint16_t from_logit(float z) {\n  if (!std::isfinite(z)) throw std::invalid_argument(\"nonfinite stage logit\");\n  double value = std::clamp(double(z) * 256.0, -4096.0, 4096.0);\n  int64_t quantized = value >= 0 ? int64_t(value + 0.5) : -int64_t(-value + 0.5);\n  return hp::squash(quantized);\n}\n// Project's raw-byte classifier (integer_mixer_replay.cpp), kept verbatim.\nstatic unsigned class_raw(unsigned byte) {\n  if (byte == ' ') return 0; if (byte == '\\n') return 1; if (byte >= 128) return 2;\n  if (byte >= 'a' && byte <= 'z') return 3; if (byte >= 'A' && byte <= 'Z') return 4;\n  if (byte >= '0' && byte <= '9') return 5; if (byte < 32) return 6;\n  if (byte == '<' || byte == '>' || byte == '[' || byte == ']') return 7;\n  if (byte == '.' || byte == ',' || byte == ';' || byte == ':') return 8;\n  return 9;\n}\n// Same classes evaluated on the DECODED character (research_round7_wrt.py inverse map).\nstatic unsigned inverse_byte(unsigned c) {\n  if (123 <= c && c < 127) c += 80 - 123; else if (80 <= c && c < 84) c -= 80 - 123;\n  else if ((58 <= c && c <= 63) || (74 <= c && c <= 79)) c ^= 0x70;\n  if (c == 88 || c == 96) c ^= 88 ^ 96;\n  return c;\n}\nstatic unsigned class_decoded(unsigned byte) { return class_raw(byte >= 128 ? byte : inverse_byte(byte)); }\n\nstruct MixerArm { std::string name; hp::OnlineMixer m; bool memory; bool memory_zero; bool decoded_class; };\n\nint main(int argc, char** argv) {\n  if (argc != 10) { std::fprintf(stderr, \"usage: input final_p stage hidden done out.jsonl window abs_offset punch\\n\"); return 2; }\n  const char* done = argv[5];\n  const uint64_t window = std::stoull(argv[7]), abs_offset = std::stoull(argv[8]);\n  const bool punch = std::string(argv[9]) == \"1\";\n  std::vector<unsigned char> input;\n  { FILE* f = std::fopen(argv[1], \"rb\"); if (!f) return 3; unsigned char b[1 << 16]; size_t r;\n    while ((r = std::fread(b, 1, sizeof b, f)) > 0) input.insert(input.end(), b, b + r); std::fclose(f); }\n  FILE* out = std::fopen(argv[6], \"w\"); if (!out) return 4;\n  std::vector<double> nlog(65536);\n  for (int i = 1; i < 65536; i++) nlog[i] = -std::log2(double(i) / 65536.0);\n  try {\n    TailReader fp(argv[2], done, punch), st(argv[3], done, punch), hd(argv[4], done, punch);\n    char magic[8]; uint32_t width = 0;\n    if (!st.read_exact(magic, 8) || std::memcmp(magic, \"HPSTG001\", 8) || !st.read_exact(&width, 4) || width != 19)\n      throw std::runtime_error(\"bad stage header\");\n    std::vector<MixerArm> mixers;\n    auto add = [&](const std::string& n, bool neural, bool identity, uint32_t rate, bool mem, bool memzero, bool dec, bool global) {\n      mixers.push_back({n, hp::OnlineMixer(neural, false, identity, rate), mem, memzero, dec});\n      mixers.back().m.SetGlobalContext(global);\n    };\n    add(\"mixer_identity\", true, true, 1000, false, false, false, false);\n    add(\"mixer_full_250\", true, false, 250, false, false, false, false);\n    add(\"mixer_full_1000\", true, false, 1000, false, false, false, false);\n    add(\"mixer_full_4000\", true, false, 4000, false, false, false, false);\n    add(\"mixer_full_1000_decodedclass\", true, false, 1000, false, false, true, false);\n    add(\"mixer_no_explicit_nn_1000\", false, false, 1000, false, false, false, false);\n    add(\"mixer_global_1000\", true, false, 1000, false, false, false, true);\n    add(\"mixer_memory_zero_1000\", true, false, 1000, false, true, false, false);\n    add(\"mixer_long_memory_1000\", true, false, 1000, true, false, false, false);\n    // R12 v2 exploratory arms (cluster C only): fewer features, slower rate, and a regret guard.\n    add(\"mixer_reduced_250\", true, false, 250, false, true, false, false);\n    add(\"mixer_minimal_250\", true, false, 250, false, false, false, false);\n    HPCausalAdaptive adaptive;\n    const size_t NA = mixers.size() + 3;  // + adaptive_law + wider_frozen_a1 + guarded_fixedshare\n    auto index_of = [&](const char* n) { for (size_t i = 0; i < mixers.size(); i++) if (mixers[i].name == n) return i; throw std::runtime_error(n); };\n    const size_t g_full = index_of(\"mixer_full_250\"), g_red = index_of(\"mixer_reduced_250\"), g_glob = index_of(\"mixer_global_1000\");\n    double gw[4] = {0.25, 0.25, 0.25, 0.25};  // identity, full_250, reduced_250, global_1000\n    std::vector<uint16_t> qv(mixers.size(), 32768);\n    std::vector<std::string> names; for (auto& m : mixers) names.push_back(m.name);\n    names.push_back(\"adaptive_law_r9\"); names.push_back(\"wider_frozen_a1\"); names.push_back(\"guarded_fixedshare\");\n    hp::LongMemory memory;\n    bool valid = false; unsigned cls_raw = 9, cls_dec = 9;\n    double wbase = 0; std::vector<double> warm(NA, 0.0), tot(NA, 0.0); double tbase = 0;\n    uint64_t t = 0, wstart = 0; uint64_t identity_mismatch = 0;\n    auto flush = [&](bool partial) {\n      std::fprintf(out, \"{\\\"type\\\":\\\"window\\\",\\\"abs_offset\\\":%llu,\\\"history_bytes\\\":%llu,\\\"bytes\\\":%llu,\\\"partial\\\":%s,\\\"baseline_bits\\\":%.6f,\\\"arms\\\":{\",\n                   (unsigned long long)(abs_offset + wstart), (unsigned long long)wstart, (unsigned long long)(t - wstart),\n                   partial ? \"true\" : \"false\", wbase);\n      for (size_t a = 0; a < NA; a++) std::fprintf(out, \"%s\\\"%s\\\":%.6f\", a ? \",\" : \"\", names[a].c_str(), warm[a]);\n      std::fprintf(out, \"}}\\n\"); std::fflush(out);\n      wbase = 0; std::fill(warm.begin(), warm.end(), 0.0); wstart = t;\n    };\n    auto t0 = std::chrono::steady_clock::now();\n    for (; t < input.size(); t++) {\n      const unsigned ch = input[t];\n      bool ok = true; uint16_t p[8]; float rows[8][19];\n      for (int b = 0; b < 8 && ok; b++) ok = fp.read_exact(&p[b], 2) && st.read_exact(rows[b], 76);\n      if (!ok) break;  // stream ended mid-byte (encoder stopped); discard incomplete byte\n      double bbase = 0; std::vector<double> barm(NA, 0.0);\n      for (unsigned bit = 0; bit < 8; bit++) {\n        const float* row = rows[bit]; const uint16_t pn = p[bit];\n        if (pn == 0) throw std::runtime_error(\"zero native probability\");\n        const unsigned y = (ch >> (7 - bit)) & 1;\n        std::array<uint16_t, 14> base_sources; base_sources.fill(32768);\n        base_sources[0] = q16(row[14]);\n        for (unsigned i = 0; i < 12; i++) base_sources[i + 1] = from_logit(row[i]);\n        const uint16_t nnq = q16(row[17]);\n        auto memf = memory.Features();\n        bbase += nlog[y ? pn : 65536 - pn];\n        for (size_t a = 0; a < mixers.size(); a++) {\n          auto src = base_sources;\n          if (mixers[a].memory) for (unsigned i = 0; i < 8; i++) src[i + 5] = memf[i];\n          if (mixers[a].memory_zero) for (unsigned i = 0; i < 8; i++) src[i + 5] = 32768;\n          if (mixers[a].name == \"mixer_minimal_250\") { src.fill(32768); src[0] = base_sources[0]; }\n          const unsigned cls = mixers[a].decoded_class ? cls_dec : cls_raw;\n          const uint16_t q = mixers[a].m.Predict(pn, nnq, src, bit, cls, valid);\n          if (a == 0 && q != pn) identity_mismatch++;\n          qv[a] = q;\n          barm[a] += nlog[y ? q : 65536 - q];\n          mixers[a].m.Observe(y);\n        }\n        const uint32_t qa = adaptive.Predict(pn, row[17], valid);\n        barm[mixers.size()] += nlog[y ? qa : 65536 - qa];\n        const uint32_t qw = adaptive.expert(2);  // multiplier 1.0 = frozen wider law\n        barm[mixers.size() + 1] += nlog[y ? qw : 65536 - qw];\n        adaptive.Observe(y);\n        {  // Fixed-share Bayesian guard over arm outputs computed BEFORE this bit (regret-bounded vs identity).\n          const uint32_t ex[4] = {pn, qv[g_full], qv[g_red], qv[g_glob]};\n          double mix = 0; for (int k = 0; k < 4; k++) mix += gw[k] * double(ex[k]) / 65536.0;\n          const uint32_t qg = uint32_t(std::max(1.0, std::min(65535.0, std::floor(65536.0 * mix + 0.5))));\n          barm[mixers.size() + 2] += nlog[y ? qg : 65536 - qg];\n          constexpr double eps = 2.6441431586476938e-06; double tot = 0;\n          for (int k = 0; k < 4; k++) { gw[k] *= y ? double(ex[k]) / 65536.0 : 1.0 - double(ex[k]) / 65536.0; tot += gw[k]; }\n          for (int k = 0; k < 4; k++) gw[k] = (1.0 - eps) * gw[k] / tot + eps / 4.0;\n        }\n      }\n      unsigned char h[193];\n      if (!hd.read_exact(h, 193)) { break; }\n      valid = h[0] != 0; cls_raw = class_raw(ch); cls_dec = class_decoded(ch);\n      memory.UpdateHidden(h);\n      wbase += bbase; tbase += bbase;\n      for (size_t a = 0; a < NA; a++) { warm[a] += barm[a]; tot[a] += barm[a]; }\n      if (t + 1 - wstart == window) { t++; flush(false); t--; }\n    }\n    if (t > wstart) flush(true);\n    const double secs = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();\n    std::fprintf(out, \"{\\\"type\\\":\\\"summary\\\",\\\"bytes\\\":%llu,\\\"input_bytes\\\":%zu,\\\"baseline_bits\\\":%.6f,\\\"identity_mismatch_bits\\\":%llu,\\\"punch_failed\\\":%s,\\\"consumer_wall_seconds\\\":%.1f,\\\"totals\\\":{\",\n                 (unsigned long long)t, input.size(), tbase, (unsigned long long)identity_mismatch,\n                 (fp.punch_failed() || st.punch_failed() || hd.punch_failed()) ? \"true\" : \"false\", secs);\n    for (size_t a = 0; a < NA; a++) std::fprintf(out, \"%s\\\"%s\\\":%.6f\", a ? \",\" : \"\", names[a].c_str(), tot[a]);\n    std::fprintf(out, \"}}\\n\"); std::fclose(out);\n  } catch (const std::exception& e) {\n    std::fprintf(out, \"{\\\"type\\\":\\\"error\\\",\\\"what\\\":\\\"%s\\\"}\\n\", e.what()); std::fclose(out); return 11;\n  }\n  return 0;\n}\n",
+    "/kaggle/working/hp_round12_claude/code/component.py": "\"\"\"R12 clean component timing (repairs the round-10 component job, which demanded\n-d decodes for --ppmd-only/--transformer-only; cmix rejects those flags in -d).\nEncode-only timing, one process at a time, pinned to cpu0 with its SMT sibling idle.\nMarginal per-byte cost = (T(3 MiB) - T(1 MiB)) / 2 MiB removes startup cost.\"\"\"\nimport json, os, subprocess, time\nfrom pathlib import Path\nW = Path('/kaggle/working'); OUT = W / 'hp_round12_claude/component'; OUT.mkdir(parents=True, exist_ok=True)\nB = W / 'hp_round8/native_stage_trace_v1/tree/cmix'; WT = W / 'hp_round7/lex_audit/lex_h1_run11.tfwc2'\nDICT = W / 'hp_round8/native_stage_trace_v1/tree/dictionary/english.dic'; VOCAB = W / 'hp_round7/preserved/data/vocab.bm'\nSTREAM = W / 'hp_round8/lexical_full_prepare_v1/lexical_full_ready.wrt'\nM = {'id': 'R12-component-timing', 'status': 'WAITING_FOR_COLD', 'runs': [], 'deletions': [], 'paid_usd': 0}\ndef save(): (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\nsave()\nwhile True:   # never contend with the cold-control encoders\n    try:\n        if json.loads((W / 'hp_round12_claude/cold/manifest.json').read_text()).get('status') != 'RUNNING': break\n    except Exception: pass\n    time.sleep(60)\nM['status'] = 'RUNNING'; save()\nmodes = {'combined': ['--transformer', str(WT)], 'transformer_only': ['--transformer', str(WT), '--transformer-only'], 'ppmd_only': ['--ppmd-only']}\nenv = {k: v for k, v in os.environ.items() if not k.startswith(('LAB_', 'FX_PREPARE', 'HP_LEX_'))}\nenv.update(LAB_RAW='1', LAB_VOCAB=str(VOCAB), LAB_DICT=str(DICT), OMP_NUM_THREADS='1')\nfor size in (1048576, 3145728):\n    for mode, flags in modes.items():\n        work = Path(f'/root/r12/comp_{mode}_{size}'); work.mkdir(parents=True, exist_ok=False)\n        with open(STREAM, 'rb') as f: (work / 'input.bin').write_bytes(f.read(size))\n        (work / '.dict').symlink_to(DICT)\n        t = time.monotonic()\n        p = subprocess.Popen([str(B), '-n', *flags, 'input.bin', 'out.cmx'], cwd=work, env=env, stdout=subprocess.DEVNULL,\n                             stderr=open(work / 'stderr.log', 'wb'), preexec_fn=lambda: os.sched_setaffinity(0, {0}))\n        _, status, ru = os.wait4(p.pid, 0)\n        M['runs'].append({'mode': mode, 'bytes': size, 'exit': os.waitstatus_to_exitcode(status), 'wall_s': time.monotonic() - t,\n                          'user_s': ru.ru_utime, 'sys_s': ru.ru_stime, 'peak_RSS_KiB': ru.ru_maxrss,\n                          'archive_bytes': (work / 'out.cmx').stat().st_size if (work / 'out.cmx').exists() else None})\n        save()\nby = {(r['mode'], r['bytes']): r for r in M['runs']}\nM['marginal_us_per_byte'] = {m: 1e6 * ((by[(m, 3145728)]['user_s'] + by[(m, 3145728)]['sys_s']) - (by[(m, 1048576)]['user_s'] + by[(m, 1048576)]['sys_s'])) / 2097152 for m in modes}\nmc = M['marginal_us_per_byte']\nM['marginal_share'] = {'ppmd_of_combined': mc['ppmd_only'] / mc['combined'],\n                       'transformer_only_of_combined': mc['transformer_only'] / mc['combined'],\n                       'classical_bank_and_mixing_of_combined': (mc['combined'] - mc['transformer_only']) / mc['combined']}\nM['status'] = 'COMPLETE'; save()\n",
+    "/kaggle/working/hp_round12_claude/code/stream_replay.cpp": "// R12 streaming warm replay.  Follows the native observer's trace files while\n// they grow (regular files: the observer opens them O_EXCL, so FIFOs are not\n// possible), runs every arm online over the SAME unchanged native trajectory,\n// and punches holes behind the read position so disk use stays bounded.\n// Probabilities of all candidate arms are computed strictly before the bit is\n// read; arms never feed back into the native coder (replay, not a codec).\n//\n// usage: stream_replay input.bin final_p.u16 stage.f32 hidden.q8 done_flag out.jsonl\n//                      window_bytes abs_offset punch(0/1)\n#include \"integer_mixer.h\"\n#include \"long_memory.h\"\n#include <cerrno>\n#include <cmath>\n#include <cstdio>\n#include <cstring>\n#include <string>\n#include <vector>\n#include <array>\n#include <memory>\n#include <chrono>\n#include <thread>\n#include <fcntl.h>\n#include <unistd.h>\n#include <sys/stat.h>\n#include <linux/falloc.h>\n\nstatic bool exists(const char* p) { struct stat s; return ::stat(p, &s) == 0; }\n\nclass TailReader {\n public:\n  TailReader(const char* path, const char* done, bool punch) : path_(path), done_(done), punch_(punch) {\n    while (!exists(path)) { if (exists(done) && !exists(path)) throw std::runtime_error(std::string(\"trace never created: \") + path);\n                            std::this_thread::sleep_for(std::chrono::milliseconds(50)); }\n    fd_ = ::open(path, O_RDWR);\n    if (fd_ < 0) fd_ = ::open(path, O_RDONLY), punch_ = false;\n    if (fd_ < 0) throw std::runtime_error(std::string(\"cannot open \") + path);\n    buf_.resize(1 << 20);\n  }\n  ~TailReader() { if (fd_ >= 0) ::close(fd_); }\n  // Returns false only at true end of stream (writer finished and nothing left).\n  bool read_exact(void* dst, size_t n) {\n    char* out = static_cast<char*>(dst);\n    while (n) {\n      if (pos_ == len_) { if (!refill()) return false; continue; }\n      size_t k = std::min(n, len_ - pos_);\n      std::memcpy(out, buf_.data() + pos_, k); pos_ += k; out += k; n -= k; consumed_ += k;\n    }\n    if (punch_ && consumed_ - punched_ >= (256ull << 20)) {\n      uint64_t upto = (consumed_ / 4096) * 4096;\n      if (fallocate(fd_, FALLOC_FL_PUNCH_HOLE | FALLOC_FL_KEEP_SIZE, punched_, upto - punched_) == 0) punched_ = upto;\n      else { punch_failed_ = true; punch_ = false; }\n    }\n    return true;\n  }\n  bool punch_failed() const { return punch_failed_; }\n  uint64_t consumed() const { return consumed_; }\n private:\n  bool refill() {\n    for (;;) {\n      ssize_t r = ::read(fd_, buf_.data(), buf_.size());\n      if (r > 0) { pos_ = 0; len_ = size_t(r); return true; }\n      if (r < 0 && errno == EINTR) continue;\n      if (r < 0) throw std::runtime_error(\"read error\");\n      if (exists(done_.c_str())) {   // writer has exited: one last read closes the race\n        r = ::read(fd_, buf_.data(), buf_.size());\n        if (r > 0) { pos_ = 0; len_ = size_t(r); return true; }\n        return false;\n      }\n      std::this_thread::sleep_for(std::chrono::milliseconds(5));\n    }\n  }\n  std::string path_, done_;\n  bool punch_, punch_failed_ = false;\n  int fd_ = -1;\n  std::vector<char> buf_;\n  size_t pos_ = 0, len_ = 0;\n  uint64_t consumed_ = 0, punched_ = 0;\n};\n\n// ---- verbatim round-9 causal adaptive law (research_round9_adaptive_law.cpp) ----\nclass HPCausalAdaptive {\n public:\n  uint32_t Predict(uint32_t native_p, float neural_p, bool previous_valid) {\n    const double ell = std::log(double(native_p) / (65536.0 - double(native_p)));\n    float feature = 0.0f;\n    if (previous_valid) {\n      const double nn = std::max(1.0 / 65536.0, std::min(65535.0 / 65536.0, double(neural_p)));\n      feature = float(std::max(-12.0, std::min(12.0, std::log(nn / (1.0 - nn)) - ell)) / 12.0);\n    }\n    const double dot = (0.0016181118716570748 + (-0.007454085408717222) * ell) + 2.3818512619982752 * double(feature);\n    const double multipliers[4] = {0.5, 1.0, 1.5, 2.0};\n    experts_[0] = native_p;\n    for (int k = 1; k < 5; k++) {\n      const double z = ell + multipliers[k - 1] * dot;\n      const double prob = z >= 0 ? 1.0 / (1.0 + std::exp(-z)) : std::exp(z) / (1.0 + std::exp(z));\n      experts_[k] = uint32_t(std::max(1.0, std::min(65535.0, std::floor(65536.0 * prob + 0.5))));\n    }\n    double mixture = 0.0;\n    for (int k = 0; k < 5; k++) mixture += weights_[k] * double(experts_[k]) / 65536.0;\n    pending_ = true;\n    return uint32_t(std::max(1.0, std::min(65535.0, std::floor(65536.0 * mixture + 0.5))));\n  }\n  void Observe(int bit) {\n    if (!pending_) return;\n    constexpr double epsilon = 2.6441431586476938e-06;\n    double total = 0.0;\n    for (int k = 0; k < 5; k++) {\n      const double pk = bit ? double(experts_[k]) / 65536.0 : 1.0 - double(experts_[k]) / 65536.0;\n      weights_[k] *= pk; total += weights_[k];\n    }\n    for (int k = 0; k < 5; k++) weights_[k] = (1.0 - epsilon) * weights_[k] / total + epsilon / 5.0;\n    pending_ = false;\n  }\n  uint32_t expert(int k) const { return experts_[k]; }\n private:\n  double weights_[5] = {0.2, 0.2, 0.2, 0.2, 0.2};\n  uint32_t experts_[5] = {};\n  bool pending_ = false;\n};\n\nstatic uint16_t q16(float p) {\n  if (!std::isfinite(p)) throw std::invalid_argument(\"nonfinite stage probability\");\n  if (p <= 0) return 1; if (p >= 1) return 65535;\n  return uint16_t(std::clamp(uint32_t(double(p) * 65536.0 + 0.5), 1u, 65535u));\n}\nstatic uint16_t from_logit(float z) {\n  if (!std::isfinite(z)) throw std::invalid_argument(\"nonfinite stage logit\");\n  double value = std::clamp(double(z) * 256.0, -4096.0, 4096.0);\n  int64_t quantized = value >= 0 ? int64_t(value + 0.5) : -int64_t(-value + 0.5);\n  return hp::squash(quantized);\n}\n// Project's raw-byte classifier (integer_mixer_replay.cpp), kept verbatim.\nstatic unsigned class_raw(unsigned byte) {\n  if (byte == ' ') return 0; if (byte == '\\n') return 1; if (byte >= 128) return 2;\n  if (byte >= 'a' && byte <= 'z') return 3; if (byte >= 'A' && byte <= 'Z') return 4;\n  if (byte >= '0' && byte <= '9') return 5; if (byte < 32) return 6;\n  if (byte == '<' || byte == '>' || byte == '[' || byte == ']') return 7;\n  if (byte == '.' || byte == ',' || byte == ';' || byte == ':') return 8;\n  return 9;\n}\n// Same classes evaluated on the DECODED character (research_round7_wrt.py inverse map).\nstatic unsigned inverse_byte(unsigned c) {\n  if (123 <= c && c < 127) c += 80 - 123; else if (80 <= c && c < 84) c -= 80 - 123;\n  else if ((58 <= c && c <= 63) || (74 <= c && c <= 79)) c ^= 0x70;\n  if (c == 88 || c == 96) c ^= 88 ^ 96;\n  return c;\n}\nstatic unsigned class_decoded(unsigned byte) { return class_raw(byte >= 128 ? byte : inverse_byte(byte)); }\n\nstruct MixerArm { std::string name; hp::OnlineMixer m; bool memory; bool memory_zero; bool decoded_class; };\n\nint main(int argc, char** argv) {\n  if (argc != 10) { std::fprintf(stderr, \"usage: input final_p stage hidden done out.jsonl window abs_offset punch\\n\"); return 2; }\n  const char* done = argv[5];\n  const uint64_t window = std::stoull(argv[7]), abs_offset = std::stoull(argv[8]);\n  const bool punch = std::string(argv[9]) == \"1\";\n  std::vector<unsigned char> input;\n  { FILE* f = std::fopen(argv[1], \"rb\"); if (!f) return 3; unsigned char b[1 << 16]; size_t r;\n    while ((r = std::fread(b, 1, sizeof b, f)) > 0) input.insert(input.end(), b, b + r); std::fclose(f); }\n  FILE* out = std::fopen(argv[6], \"w\"); if (!out) return 4;\n  std::vector<double> nlog(65536);\n  for (int i = 1; i < 65536; i++) nlog[i] = -std::log2(double(i) / 65536.0);\n  try {\n    TailReader fp(argv[2], done, punch), st(argv[3], done, punch), hd(argv[4], done, punch);\n    char magic[8]; uint32_t width = 0;\n    if (!st.read_exact(magic, 8) || std::memcmp(magic, \"HPSTG001\", 8) || !st.read_exact(&width, 4) || width != 19)\n      throw std::runtime_error(\"bad stage header\");\n    std::vector<MixerArm> mixers;\n    auto add = [&](const std::string& n, bool neural, bool identity, uint32_t rate, bool mem, bool memzero, bool dec, bool global) {\n      mixers.push_back({n, hp::OnlineMixer(neural, false, identity, rate), mem, memzero, dec});\n      mixers.back().m.SetGlobalContext(global);\n    };\n    add(\"mixer_identity\", true, true, 1000, false, false, false, false);\n    add(\"mixer_full_250\", true, false, 250, false, false, false, false);\n    add(\"mixer_full_1000\", true, false, 1000, false, false, false, false);\n    add(\"mixer_full_4000\", true, false, 4000, false, false, false, false);\n    add(\"mixer_full_1000_decodedclass\", true, false, 1000, false, false, true, false);\n    add(\"mixer_no_explicit_nn_1000\", false, false, 1000, false, false, false, false);\n    add(\"mixer_global_1000\", true, false, 1000, false, false, false, true);\n    add(\"mixer_memory_zero_1000\", true, false, 1000, false, true, false, false);\n    add(\"mixer_long_memory_1000\", true, false, 1000, true, false, false, false);\n    HPCausalAdaptive adaptive;\n    const size_t NA = mixers.size() + 2;  // + adaptive_law + wider_frozen_a1\n    std::vector<std::string> names; for (auto& m : mixers) names.push_back(m.name);\n    names.push_back(\"adaptive_law_r9\"); names.push_back(\"wider_frozen_a1\");\n    hp::LongMemory memory;\n    bool valid = false; unsigned cls_raw = 9, cls_dec = 9;\n    double wbase = 0; std::vector<double> warm(NA, 0.0), tot(NA, 0.0); double tbase = 0;\n    uint64_t t = 0, wstart = 0; uint64_t identity_mismatch = 0;\n    auto flush = [&](bool partial) {\n      std::fprintf(out, \"{\\\"type\\\":\\\"window\\\",\\\"abs_offset\\\":%llu,\\\"history_bytes\\\":%llu,\\\"bytes\\\":%llu,\\\"partial\\\":%s,\\\"baseline_bits\\\":%.6f,\\\"arms\\\":{\",\n                   (unsigned long long)(abs_offset + wstart), (unsigned long long)wstart, (unsigned long long)(t - wstart),\n                   partial ? \"true\" : \"false\", wbase);\n      for (size_t a = 0; a < NA; a++) std::fprintf(out, \"%s\\\"%s\\\":%.6f\", a ? \",\" : \"\", names[a].c_str(), warm[a]);\n      std::fprintf(out, \"}}\\n\"); std::fflush(out);\n      wbase = 0; std::fill(warm.begin(), warm.end(), 0.0); wstart = t;\n    };\n    auto t0 = std::chrono::steady_clock::now();\n    for (; t < input.size(); t++) {\n      const unsigned ch = input[t];\n      bool ok = true; uint16_t p[8]; float rows[8][19];\n      for (int b = 0; b < 8 && ok; b++) ok = fp.read_exact(&p[b], 2) && st.read_exact(rows[b], 76);\n      if (!ok) break;  // stream ended mid-byte (encoder stopped); discard incomplete byte\n      double bbase = 0; std::vector<double> barm(NA, 0.0);\n      for (unsigned bit = 0; bit < 8; bit++) {\n        const float* row = rows[bit]; const uint16_t pn = p[bit];\n        if (pn == 0) throw std::runtime_error(\"zero native probability\");\n        const unsigned y = (ch >> (7 - bit)) & 1;\n        std::array<uint16_t, 14> base_sources; base_sources.fill(32768);\n        base_sources[0] = q16(row[14]);\n        for (unsigned i = 0; i < 12; i++) base_sources[i + 1] = from_logit(row[i]);\n        const uint16_t nnq = q16(row[17]);\n        auto memf = memory.Features();\n        bbase += nlog[y ? pn : 65536 - pn];\n        for (size_t a = 0; a < mixers.size(); a++) {\n          auto src = base_sources;\n          if (mixers[a].memory) for (unsigned i = 0; i < 8; i++) src[i + 5] = memf[i];\n          if (mixers[a].memory_zero) for (unsigned i = 0; i < 8; i++) src[i + 5] = 32768;\n          const unsigned cls = mixers[a].decoded_class ? cls_dec : cls_raw;\n          const uint16_t q = mixers[a].m.Predict(pn, nnq, src, bit, cls, valid);\n          if (a == 0 && q != pn) identity_mismatch++;\n          barm[a] += nlog[y ? q : 65536 - q];\n          mixers[a].m.Observe(y);\n        }\n        const uint32_t qa = adaptive.Predict(pn, row[17], valid);\n        barm[mixers.size()] += nlog[y ? qa : 65536 - qa];\n        const uint32_t qw = adaptive.expert(2);  // multiplier 1.0 = frozen wider law\n        barm[mixers.size() + 1] += nlog[y ? qw : 65536 - qw];\n        adaptive.Observe(y);\n      }\n      unsigned char h[193];\n      if (!hd.read_exact(h, 193)) { break; }\n      valid = h[0] != 0; cls_raw = class_raw(ch); cls_dec = class_decoded(ch);\n      memory.UpdateHidden(h);\n      wbase += bbase; tbase += bbase;\n      for (size_t a = 0; a < NA; a++) { warm[a] += barm[a]; tot[a] += barm[a]; }\n      if (t + 1 - wstart == window) { t++; flush(false); t--; }\n    }\n    if (t > wstart) flush(true);\n    const double secs = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();\n    std::fprintf(out, \"{\\\"type\\\":\\\"summary\\\",\\\"bytes\\\":%llu,\\\"input_bytes\\\":%zu,\\\"baseline_bits\\\":%.6f,\\\"identity_mismatch_bits\\\":%llu,\\\"punch_failed\\\":%s,\\\"consumer_wall_seconds\\\":%.1f,\\\"totals\\\":{\",\n                 (unsigned long long)t, input.size(), tbase, (unsigned long long)identity_mismatch,\n                 (fp.punch_failed() || st.punch_failed() || hd.punch_failed()) ? \"true\" : \"false\", secs);\n    for (size_t a = 0; a < NA; a++) std::fprintf(out, \"%s\\\"%s\\\":%.6f\", a ? \",\" : \"\", names[a].c_str(), tot[a]);\n    std::fprintf(out, \"}}\\n\"); std::fclose(out);\n  } catch (const std::exception& e) {\n    std::fprintf(out, \"{\\\"type\\\":\\\"error\\\",\\\"what\\\":\\\"%s\\\"}\\n\", e.what()); std::fclose(out); return 11;\n  }\n  return 0;\n}\n",
+    "/kaggle/working/hp_round12_claude/code/integer_mixer.h": "#pragma once\n#include <array>\n#include <algorithm>\n#include <cstdint>\n#include <stdexcept>\n#include \"probability_tables.inc\"\n\nnamespace hp {\n// Tables are frozen integer assets. No libm operation occurs in coding.\ninline int32_t stretch(uint32_t p) { return kStretch[std::clamp(p,1u,65535u)]; }\ninline uint16_t squash(int64_t z) { return kSquash[std::clamp<int64_t>(z,-4096,4096)+4096]; }\ninline uint16_t apply_odds(uint16_t native,int64_t correction) {\n  uint64_t ratio=kOdds[std::clamp<int64_t>(correction,-2048,2048)+2048];\n  uint64_t numerator=uint64_t(native)*ratio;\n  uint64_t denominator=numerator+uint64_t(65536u-native)*(1ULL<<20);\n  // The frozen +/-8 log-odds limit makes the rounded Q16 numerator fit uint64.\n  uint64_t q=(numerator*65536+denominator/2)/denominator;\n  return uint16_t(std::clamp<uint64_t>(q,1,65535));\n}\ninline int64_t round_signed(int64_t n,int64_t d) {\n  if(d<=0)throw std::invalid_argument(\"nonpositive denominator\");\n  return n>=0 ? (n+d/2)/d : -((-n+d/2)/d);\n}\ninline uint64_t isqrt(uint64_t n) {\n  uint64_t root=0,bit=1ULL<<62;\n  while(bit>n)bit>>=2;\n  while(bit) { if(n>=root+bit) { n-=root+bit;root=(root>>1)+bit; } else root>>=1;bit>>=2; }\n  return root;\n}\nclass OnlineMixer {\n public:\n  static constexpr int kContexts=640,kFeatures=16;\n  using Count=uint64_t; // The full canonical stream has more than 2^32 bits.\n  explicit OnlineMixer(bool neural=true,bool shuffled=false,bool identity=false,uint32_t rate=1000)\n      : neural_(neural),shuffled_(shuffled),identity_(identity),rate_(rate) {\n    if(rate>1000000)throw std::invalid_argument(\"rate exceeds fixed-point safety contract\");\n    for(auto &row:weights_) { row.fill(0); row[0]=1<<24; }\n  }\n  uint16_t Predict(uint16_t native,uint16_t nn,const std::array<uint16_t,14>& other,\n                   unsigned bitpos,unsigned previous_class,bool nn_valid) {\n    if(pending_)throw std::logic_error(\"Predict without Observe\");\n    if(bitpos>=8||previous_class>=10||native==0||nn==0)throw std::invalid_argument(\"invalid inputs\");\n    unsigned confidence=std::max(unsigned(nn),65536u-unsigned(nn));\n    unsigned bucket=0;constexpr unsigned thresholds[7]={49152,57344,61440,63488,64512,65024,65280};\n    if(neural_&&nn_valid)for(auto threshold:thresholds)bucket+=confidence>=threshold;\n    context_=global_context_?0:(bitpos*8+bucket)*10+previous_class;\n    if(shuffled_)context_=(context_*173+37)%kContexts; // relabeling only; not a semantic null\n    features_[0]=stretch(native); features_[1]=neural_&&nn_valid?stretch(nn):0;\n    for(int i=0;i<13;i++)features_[i+2]=stretch(other[i]);\n    features_[15]=256; // constant; other[13] deliberately unused\n    const auto &w=weights_[context_];bool unchanged=w[0]==1<<24;\n    for(int i=1;i<kFeatures;i++)unchanged=unchanged&&w[i]==0;\n    int64_t sum=0;for(int i=0;i<kFeatures;i++)sum+=int64_t(w[i])*features_[i];\n    int64_t correction=round_signed(sum-int64_t(1<<24)*features_[0],1<<24);\n    probability_=identity_||unchanged?native:apply_odds(native,correction);\n    pending_=true;return probability_;\n  }\n  // This merges contexts rather than just renaming identical context states.\n  void SetGlobalContext(bool enabled) {\n    if(pending_)throw std::logic_error(\"context mode change during pending bit\");\n    global_context_=enabled;\n  }\n  void Observe(unsigned bit) {\n    if(!pending_||bit>1)throw std::logic_error(\"invalid observation\");\n    if(!identity_&&rate_) {\n      auto &w=weights_[context_];Count n=++counts_[context_];\n      // eta0=rate/1e6, slowed once per 4096 observations of this context.\n      // Error Q16 * features Q8 is Q24. Q24 master coefficients preserve\n      // small updates after long histories; rounding each update to Q12 would\n      // artificially freeze late learning. This is a straight-through update\n      // for the discretized/clipped law, not an exact discrete-loss gradient.\n      int64_t denom=1000000LL*(1+isqrt(n/4096));\n      int64_t error=int64_t(bit)*65536-probability_;\n      for(int i=0;i<kFeatures;i++) {\n        int64_t change=round_signed(error*features_[i]*int64_t(rate_),denom);\n        w[i]=int32_t(std::clamp<int64_t>(int64_t(w[i])+change,-int64_t(4<<24),int64_t(4<<24)));\n      }\n    }\n    pending_=false;\n  }\n private:\n  std::array<std::array<int32_t,kFeatures>,kContexts> weights_{};\n  std::array<Count,kContexts> counts_{};\n  std::array<int32_t,kFeatures> features_{};\n  unsigned context_=0;uint16_t probability_=32768;\n  bool pending_=false,global_context_=false,neural_,shuffled_,identity_;uint32_t rate_;\n};\n}\n",
+    "/kaggle/working/hp_round12_claude/code/r12_driver.py": "\"\"\"R12 driver: one native encode of a canonical slice + streaming replay of all arms.\n\nThe native binary and model are unchanged (replay only).  Traces are regular files\nfollowed by the consumer, which punches holes behind its read position.\n\"\"\"\nimport gzip, hashlib, json, os, shutil, signal, subprocess, time\nfrom pathlib import Path\n\n\ndef sha(path):\n    h = hashlib.sha256()\n    with open(path, 'rb') as f:\n        while b := f.read(1 << 22):\n            h.update(b)\n    return h.hexdigest()\n\n\ndef compile_consumer(code_dir, exe):\n    r = subprocess.run(['g++', '-O2', '-std=c++17', '-fno-fast-math', '-ffp-contract=off', '-I', str(code_dir),\n                        str(Path(code_dir) / 'stream_replay.cpp'), '-o', str(exe)], capture_output=True, text=True)\n    if r.returncode != 0:\n        raise RuntimeError('consumer compile failed: ' + r.stderr[-2000:])\n    return {'compiler': subprocess.run(['g++', '--version'], capture_output=True, text=True).stdout.splitlines()[0],\n            'flags': '-O2 -std=c++17 -fno-fast-math -ffp-contract=off', 'exe_sha256': sha(exe)}\n\n\ndef run_case(*, label, slice_bytes, abs_offset, binary, weights, dictionary, vocab, consumer, work, out_dir,\n             budget_seconds, cpu_encoder=0, cpu_consumer=1, punch=True, window=524288, min_free_gb=6.0,\n             keep_cost=True, manifest=None, save=None):\n    work = Path(work); out_dir = Path(out_dir)\n    work.mkdir(parents=True, exist_ok=False); out_dir.mkdir(parents=True, exist_ok=True)\n    (work / 'input.bin').write_bytes(slice_bytes)\n    (work / '.dict').symlink_to(dictionary)\n    rec = {'label': label, 'abs_offset': abs_offset, 'bytes_requested': len(slice_bytes),\n           'input_sha256': hashlib.sha256(slice_bytes).hexdigest(), 'window_bytes': window,\n           'cpu_encoder': cpu_encoder, 'cpu_consumer': cpu_consumer, 'status': 'RUNNING'}\n    if manifest is not None:\n        manifest.setdefault('cases', []).append(rec)\n    def persist(stage):\n        rec['stage'] = stage\n        if save: save()\n    paths = {k: work / k for k in ['final_p.u16', 'stage.f32', 'hidden.q8', 'cost.f32']}\n    done = work / 'encoder.done'\n    out_jsonl = out_dir / f'{label}.jsonl'\n    env = {k: v for k, v in os.environ.items() if not k.startswith(('LAB_', 'FX_PREPARE', 'HP_LEX_'))}\n    env.update(LAB_RAW='1', LAB_VOCAB=str(vocab), LAB_DICT=str(dictionary), LAB_KEEP_TEMP='1', OMP_NUM_THREADS='1',\n               LAB_COST=str(paths['cost.f32']), LAB_BITTRACE=str(paths['final_p.u16']),\n               LAB_STAGETRACE=str(paths['stage.f32']), LAB_HIDDENTRACE=str(paths['hidden.q8']))\n    cons = subprocess.Popen([str(consumer), str(work / 'input.bin'), str(paths['final_p.u16']), str(paths['stage.f32']),\n                             str(paths['hidden.q8']), str(done), str(out_jsonl), str(window), str(abs_offset),\n                             '1' if punch else '0'], cwd=work, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,\n                            preexec_fn=lambda: os.sched_setaffinity(0, {cpu_consumer}))\n    started = time.monotonic()\n    enc = subprocess.Popen([str(binary), '-n', '--transformer', str(weights), 'input.bin', 'out.cmx'], cwd=work, env=env,\n                           stdout=open(work / 'encode.log', 'wb'), stderr=subprocess.STDOUT,\n                           preexec_fn=lambda: os.sched_setaffinity(0, {cpu_encoder}))\n    rec['encoder_pid'] = enc.pid; rec['consumer_pid'] = cons.pid\n    persist('encode running')\n    stop_reason = None\n    while True:\n        try:\n            pid, status, usage = os.wait4(enc.pid, os.WNOHANG)\n        except ChildProcessError:\n            pid = enc.pid; status = 0; usage = None\n        if pid == enc.pid:\n            break\n        elapsed = time.monotonic() - started\n        free_gb = shutil.disk_usage(work).free / 1e9\n        progressed = paths['cost.f32'].stat().st_size // 4 if paths['cost.f32'].exists() else 0\n        rec['progress'] = {'elapsed_s': round(elapsed), 'bytes_encoded_approx': progressed, 'free_gb': round(free_gb, 1)}\n        if stop_reason is None and (elapsed > budget_seconds or free_gb < min_free_gb):\n            stop_reason = 'time budget' if elapsed > budget_seconds else 'disk guard'\n            rec['stopped_early'] = stop_reason\n            enc.send_signal(signal.SIGTERM)\n        if cons.poll() is not None and cons.returncode != 0:\n            enc.send_signal(signal.SIGTERM); stop_reason = stop_reason or 'consumer failed'\n        persist('encode running')\n        time.sleep(30)\n    code = os.waitstatus_to_exitcode(status) if usage else None\n    rec['encode'] = {'wall_seconds': time.monotonic() - started, 'exit_code': code,\n                     'CPU_user_seconds': usage.ru_utime if usage else None,\n                     'CPU_system_seconds': usage.ru_stime if usage else None,\n                     'peak_RSS_KiB': usage.ru_maxrss if usage else None}\n    done.write_text('done')\n    persist('waiting for consumer')\n    try:\n        out, _ = cons.communicate(timeout=3600)\n    except subprocess.TimeoutExpired:\n        cons.kill(); out, _ = cons.communicate()\n    rec['consumer_exit'] = cons.returncode\n    rec['consumer_output'] = out.decode(errors='replace')[-2000:]\n    rows = [json.loads(l) for l in out_jsonl.read_text().splitlines() if l.strip()] if out_jsonl.exists() else []\n    summary = next((r for r in rows if r.get('type') == 'summary'), None)\n    errors = [r for r in rows if r.get('type') == 'error']\n    rec['summary'] = summary; rec['errors'] = errors\n    # Cross-check the replay baseline against the native per-byte cost file (same native p).\n    if summary and paths['cost.f32'].exists():\n        import numpy as np\n        nbytes = summary['bytes']\n        cost = np.fromfile(paths['cost.f32'], dtype='<f4', count=nbytes).astype(np.float64)\n        rec['cost_trace_bits_processed_bytes'] = float(cost.sum())\n        rec['baseline_minus_cost_bits'] = float(summary['baseline_bits'] - cost.sum())\n        if keep_cost:\n            with open(paths['cost.f32'], 'rb') as src, gzip.open(out_dir / f'{label}_cost.f32.gz', 'wb', 6) as dst:\n                shutil.copyfileobj(src, dst)\n    if code == 0 and (work / 'out.cmx').exists():\n        rec['archive_bytes'] = (work / 'out.cmx').stat().st_size\n        rec['archive_sha256'] = sha(work / 'out.cmx')\n    ok = summary is not None and not errors and summary['identity_mismatch_bits'] == 0 and cons.returncode == 0\n    rec['status'] = ('COMPLETE' if code == 0 else 'TRUNCATED_' + (stop_reason or 'encoder_exit')) if ok else 'FAIL'\n    persist('case finished')\n    return rec\n",
+    "/kaggle/working/hp_round12_claude/code/r_build_assets.py": "import hashlib, json, os, shutil\nfrom pathlib import Path\nW = Path('/kaggle/working'); A = Path('/root/r12_assets'); A.mkdir(exist_ok=False)\nCANON = W / 'hp_round8/lexical_full_prepare_v1/lexical_full_ready.wrt'\nNA = NB = 64 * 1048576\nslices = {'A': {'file': 'stream_A.bin', 'abs_offset': 0, 'bytes': NA},\n          'B': {'file': 'stream_B.bin', 'abs_offset': 300000000, 'bytes': NB}}\nwith open(CANON, 'rb') as f:\n    for k, s in slices.items():\n        f.seek(s['abs_offset']); data = f.read(s['bytes']); assert len(data) == s['bytes']\n        (A / s['file']).write_bytes(data)\nshutil.copy2(W / 'hp_round8/native_stage_trace_v1/tree/cmix', A / 'native_cmix')\nshutil.copy2(W / 'hp_round7/lex_audit/lex_h1_run11.tfwc2', A / 'lex_h1_run11.tfwc2')\nshutil.copy2(W / 'hp_round8/native_stage_trace_v1/tree/dictionary/english.dic', A / 'english.dic')\nshutil.copy2(W / 'hp_round7/preserved/data/vocab.bm', A / 'vocab.bm')\nfor f in ['stream_replay.cpp', 'integer_mixer.h', 'long_memory.h', 'probability_tables.inc', 'r12_driver.py']:\n    shutil.copy2(W / 'hp_round12_claude/code' / f, A / f)\ndef sha(p):\n    h = hashlib.sha256()\n    with open(p, 'rb') as fh:\n        while b := fh.read(1 << 22): h.update(b)\n    return h.hexdigest()\nfiles = {p.name: {'bytes': p.stat().st_size, 'sha256': sha(p)} for p in sorted(A.iterdir())}\nmeta = {'purpose': 'R12 warm-stream replay assets (Claude audit round)', 'canonical_stream_sha256': sha(CANON),\n        'canonical_stream_bytes': CANON.stat().st_size, 'slices': slices, 'files': files}\n(A / 'r12_manifest.json').write_text(json.dumps(meta, indent=1))\n(A / 'dataset-metadata.json').write_text(json.dumps({'title': 'hutter-r12-warm-stream-assets',\n    'id': 'chaoscpp/hutter-r12-warm-stream-assets', 'licenses': [{'name': 'other'}]}))\nfor n, i in files.items(): print(n, i['bytes'], i['sha256'][:16])\nprint('canonical', meta['canonical_stream_sha256'][:16])\n",
+    "/kaggle/working/hp_round12_claude/code/cold.py": "\"\"\"R12 cold controls: the same 512 KiB windows as the warm streams, coded from a\ncold start (fresh native process, fresh arms).  Registered before warm results.\nH (375,000,000) reproduces the published adaptive-law archive (+172 B).\"\"\"\nimport json, queue, sys, threading, time, traceback\nfrom pathlib import Path\nsys.path.insert(0, '/root/r12/code')\nimport r12_driver as d\nW = Path('/kaggle/working'); OUT = W / 'hp_round12_claude/cold'; OUT.mkdir(parents=True, exist_ok=True)\nMiB = 1048576; K = 524288\nwindows = ([('A', o * MiB) for o in (4, 12, 24, 36, 48, 60)] + [('B', 300000000 + o * MiB) for o in (12, 24, 36, 48, 60)]\n           + [('H', 375000000)])\nM = {'id': 'R12-cold-controls', 'status': 'RUNNING', 'started': time.time(), 'windows': windows, 'deletions': [], 'paid_usd': 0}\nlock = threading.Lock()\ndef save():\n    with lock: (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\nstream = W / 'hp_round8/lexical_full_prepare_v1/lexical_full_ready.wrt'\ncommon = dict(binary=W / 'hp_round8/native_stage_trace_v1/tree/cmix', weights=W / 'hp_round7/lex_audit/lex_h1_run11.tfwc2',\n              dictionary=W / 'hp_round8/native_stage_trace_v1/tree/dictionary/english.dic', vocab=W / 'hp_round7/preserved/data/vocab.bm',\n              consumer=Path('/root/r12/stream_replay'), out_dir=OUT, manifest=M, save=save, budget_seconds=3 * 3600, keep_cost=False)\nq = queue.Queue()\nfor w in windows: q.put(w)\ndef worker(cpu_enc, cpu_cons, wait_for_v1):\n    if wait_for_v1:\n        while True:\n            try:\n                v = json.loads((W / 'hp_round12_claude/validation/manifest.json').read_text())\n                if v.get('status') != 'RUNNING': break\n            except Exception: pass\n            time.sleep(30)\n    while True:\n        try: cluster, off = q.get_nowait()\n        except queue.Empty: return\n        try:\n            with open(stream, 'rb') as f: f.seek(off); data = f.read(K)\n            d.run_case(label=f'cold_{cluster}_{off}', slice_bytes=data, abs_offset=off, work=Path(f'/root/r12/cold_{off}'),\n                       cpu_encoder=cpu_enc, cpu_consumer=cpu_cons, **common)\n        except BaseException as e:\n            with lock: M.setdefault('errors', []).append({'window': off, 'error': repr(e), 'tb': traceback.format_exc()})\n            save()\ntry:\n    th = [threading.Thread(target=worker, args=(3, 2, False)), threading.Thread(target=worker, args=(0, 1, True))]\n    for t in th: t.start()\n    for t in th: t.join()\n    M['status'] = 'COMPLETE' if all(c['status'] == 'COMPLETE' for c in M['cases']) and not M.get('errors') else 'CHECK'\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished'] = time.time(); save()\n",
+    "/kaggle/working/hp_round12_claude/kernels/a/main.py": "\"\"\"R12 private CPU commit: long warm native stream + online replay of every arm.\n\nPre-registered before any output is seen:\n  * cluster A: canonical offset 0; cluster B: canonical offset 300,000,000.\n  * one unchanged native encoder (lexth11c C3 model, observer build sha 17768b06...),\n    window 512 KiB, all windows recorded with their history length.\n  * arms: identity; frozen wider law (a=1); round-9 adaptive law; integer mixer\n    full {250,1000,4000}, full_1000 with decoded-class contexts, no_explicit_nn,\n    global, memory_zero, long_memory.\n  * analysis: per-window gain versus history length; cluster B windows with\n    history < 8 MiB are warm-up.  Replay only: no candidate archive is produced.\n\"\"\"\nCLUSTER = 'A'\nimport hashlib, json, os, shutil, sys, time, traceback\nfrom pathlib import Path\nT0 = time.monotonic()\nOUT = Path('/kaggle/working/r12'); OUT.mkdir(parents=True, exist_ok=True)\nM = {'id': f'R12-warm-stream-{CLUSTER}', 'status': 'PREPARING', 'started_unix': time.time(), 'paid_usd': 0,\n     'GPU': False, 'deletions': [], 'replay_only': True}\ndef save():\n    (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\ndef sha(p):\n    h = hashlib.sha256()\n    with open(p, 'rb') as f:\n        while b := f.read(1 << 22): h.update(b)\n    return h.hexdigest()\ntry:\n    found = list(Path('/kaggle/input').rglob('r12_manifest.json'))\n    assert len(found) == 1, [str(f) for f in found]\n    A = found[0].parent; meta = json.loads(found[0].read_text())\n    for name, info in meta['files'].items():\n        p = A / name\n        assert p.stat().st_size == info['bytes'], name\n        assert sha(p) == info['sha256'], name\n    M['asset_manifest_sha256'] = sha(found[0]); M['assets_verified'] = True\n    M['affinity'] = sorted(os.sched_getaffinity(0)); M['cpu_count'] = os.cpu_count()\n    M['topology'] = [open(f'/sys/devices/system/cpu/cpu{i}/topology/thread_siblings_list').read().strip() for i in range(os.cpu_count())]\n    R = Path('/root/r12nb'); (R / 'code').mkdir(parents=True)\n    for f in ['stream_replay.cpp', 'integer_mixer.h', 'long_memory.h', 'probability_tables.inc', 'r12_driver.py']:\n        shutil.copy2(A / f, R / 'code' / f)\n    shutil.copy2(A / 'native_cmix', R / 'cmix'); os.chmod(R / 'cmix', 0o755)\n    sys.path.insert(0, str(R / 'code')); import r12_driver as d\n    M['consumer_build'] = d.compile_consumer(R / 'code', R / 'stream_replay'); save()\n    sl = meta['slices'][CLUSTER]\n    data = (A / sl['file']).read_bytes(); assert len(data) == sl['bytes']\n    topo = M['topology']\n    cpu_enc, cpu_cons = 0, next(i for i in range(os.cpu_count()) if str(0) not in topo[i].split(',') and i != 0)\n    budget = 10.6 * 3600 - (time.monotonic() - T0)\n    M['status'] = 'RUNNING'; M['budget_seconds'] = budget; save()\n    rec = d.run_case(label=f'R12_warm_{CLUSTER}', slice_bytes=data, abs_offset=sl['abs_offset'], binary=R / 'cmix',\n                     weights=A / 'lex_h1_run11.tfwc2', dictionary=A / 'english.dic', vocab=A / 'vocab.bm',\n                     consumer=R / 'stream_replay', work=R / 'work', out_dir=OUT, budget_seconds=budget,\n                     cpu_encoder=cpu_enc, cpu_consumer=cpu_cons, manifest=M, save=save)\n    M['status'] = rec['status']\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished_unix'] = time.time(); M['wall_seconds'] = time.monotonic() - T0; save()\nprint(json.dumps({k: M.get(k) for k in ('status', 'wall_seconds')}))\n",
+    "/kaggle/working/hp_round12_claude/kernels/b/main.py": "\"\"\"R12 private CPU commit: long warm native stream + online replay of every arm.\n\nPre-registered before any output is seen:\n  * cluster A: canonical offset 0; cluster B: canonical offset 300,000,000.\n  * one unchanged native encoder (lexth11c C3 model, observer build sha 17768b06...),\n    window 512 KiB, all windows recorded with their history length.\n  * arms: identity; frozen wider law (a=1); round-9 adaptive law; integer mixer\n    full {250,1000,4000}, full_1000 with decoded-class contexts, no_explicit_nn,\n    global, memory_zero, long_memory.\n  * analysis: per-window gain versus history length; cluster B windows with\n    history < 8 MiB are warm-up.  Replay only: no candidate archive is produced.\n\"\"\"\nCLUSTER = 'B'\nimport hashlib, json, os, shutil, sys, time, traceback\nfrom pathlib import Path\nT0 = time.monotonic()\nOUT = Path('/kaggle/working/r12'); OUT.mkdir(parents=True, exist_ok=True)\nM = {'id': f'R12-warm-stream-{CLUSTER}', 'status': 'PREPARING', 'started_unix': time.time(), 'paid_usd': 0,\n     'GPU': False, 'deletions': [], 'replay_only': True}\ndef save():\n    (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\ndef sha(p):\n    h = hashlib.sha256()\n    with open(p, 'rb') as f:\n        while b := f.read(1 << 22): h.update(b)\n    return h.hexdigest()\ntry:\n    found = list(Path('/kaggle/input').rglob('r12_manifest.json'))\n    assert len(found) == 1, [str(f) for f in found]\n    A = found[0].parent; meta = json.loads(found[0].read_text())\n    for name, info in meta['files'].items():\n        p = A / name\n        assert p.stat().st_size == info['bytes'], name\n        assert sha(p) == info['sha256'], name\n    M['asset_manifest_sha256'] = sha(found[0]); M['assets_verified'] = True\n    M['affinity'] = sorted(os.sched_getaffinity(0)); M['cpu_count'] = os.cpu_count()\n    M['topology'] = [open(f'/sys/devices/system/cpu/cpu{i}/topology/thread_siblings_list').read().strip() for i in range(os.cpu_count())]\n    R = Path('/root/r12nb'); (R / 'code').mkdir(parents=True)\n    for f in ['stream_replay.cpp', 'integer_mixer.h', 'long_memory.h', 'probability_tables.inc', 'r12_driver.py']:\n        shutil.copy2(A / f, R / 'code' / f)\n    shutil.copy2(A / 'native_cmix', R / 'cmix'); os.chmod(R / 'cmix', 0o755)\n    sys.path.insert(0, str(R / 'code')); import r12_driver as d\n    M['consumer_build'] = d.compile_consumer(R / 'code', R / 'stream_replay'); save()\n    sl = meta['slices'][CLUSTER]\n    data = (A / sl['file']).read_bytes(); assert len(data) == sl['bytes']\n    topo = M['topology']\n    cpu_enc, cpu_cons = 0, next(i for i in range(os.cpu_count()) if str(0) not in topo[i].split(',') and i != 0)\n    budget = 10.6 * 3600 - (time.monotonic() - T0)\n    M['status'] = 'RUNNING'; M['budget_seconds'] = budget; save()\n    rec = d.run_case(label=f'R12_warm_{CLUSTER}', slice_bytes=data, abs_offset=sl['abs_offset'], binary=R / 'cmix',\n                     weights=A / 'lex_h1_run11.tfwc2', dictionary=A / 'english.dic', vocab=A / 'vocab.bm',\n                     consumer=R / 'stream_replay', work=R / 'work', out_dir=OUT, budget_seconds=budget,\n                     cpu_encoder=cpu_enc, cpu_consumer=cpu_cons, manifest=M, save=save)\n    M['status'] = rec['status']\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished_unix'] = time.time(); M['wall_seconds'] = time.monotonic() - T0; save()\nprint(json.dumps({k: M.get(k) for k in ('status', 'wall_seconds')}))\n",
+    "/kaggle/working/hp_round12_claude/kernels/c/main.py": "\"\"\"R12 private CPU commit: long warm native stream + online replay of every arm.\n\nPre-registered before any output is seen:\n  * cluster A: canonical offset 0; cluster B: canonical offset 300,000,000.\n  * one unchanged native encoder (lexth11c C3 model, observer build sha 17768b06...),\n    window 512 KiB, all windows recorded with their history length.\n  * arms: identity; frozen wider law (a=1); round-9 adaptive law; integer mixer\n    full {250,1000,4000}, full_1000 with decoded-class contexts, no_explicit_nn,\n    global, memory_zero, long_memory.\n  * analysis: per-window gain versus history length; cluster B windows with\n    history < 8 MiB are warm-up.  Replay only: no candidate archive is produced.\n\"\"\"\nCLUSTER = 'C'\nimport hashlib, json, os, shutil, sys, time, traceback\nfrom pathlib import Path\nT0 = time.monotonic()\nOUT = Path('/kaggle/working/r12'); OUT.mkdir(parents=True, exist_ok=True)\nM = {'id': f'R12-warm-stream-{CLUSTER}', 'status': 'PREPARING', 'started_unix': time.time(), 'paid_usd': 0,\n     'GPU': False, 'deletions': [], 'replay_only': True}\ndef save():\n    (OUT / 'manifest.json').write_text(json.dumps(M, indent=1))\ndef sha(p):\n    h = hashlib.sha256()\n    with open(p, 'rb') as f:\n        while b := f.read(1 << 22): h.update(b)\n    return h.hexdigest()\ntry:\n    found = list(Path('/kaggle/input').rglob('r12_manifest.json'))\n    assert len(found) == 1, [str(f) for f in found]\n    A = found[0].parent; meta = json.loads(found[0].read_text())\n    for name, info in meta['files'].items():\n        p = A / name\n        assert p.stat().st_size == info['bytes'], name\n        assert sha(p) == info['sha256'], name\n    M['asset_manifest_sha256'] = sha(found[0]); M['assets_verified'] = True\n    M['affinity'] = sorted(os.sched_getaffinity(0)); M['cpu_count'] = os.cpu_count()\n    M['topology'] = [open(f'/sys/devices/system/cpu/cpu{i}/topology/thread_siblings_list').read().strip() for i in range(os.cpu_count())]\n    R = Path('/root/r12nb'); (R / 'code').mkdir(parents=True)\n    for f in ['stream_replay.cpp', 'integer_mixer.h', 'long_memory.h', 'probability_tables.inc', 'r12_driver.py']:\n        shutil.copy2(A / f, R / 'code' / f)\n    shutil.copy2(A / 'native_cmix', R / 'cmix'); os.chmod(R / 'cmix', 0o755)\n    sys.path.insert(0, str(R / 'code')); import r12_driver as d\n    M['consumer_build'] = d.compile_consumer(R / 'code', R / 'stream_replay'); save()\n    sl = meta['slices'][CLUSTER]\n    data = (A / sl['file']).read_bytes(); assert len(data) == sl['bytes']\n    topo = M['topology']\n    cpu_enc, cpu_cons = 0, next(i for i in range(os.cpu_count()) if str(0) not in topo[i].split(',') and i != 0)\n    budget = 10.6 * 3600 - (time.monotonic() - T0)\n    M['status'] = 'RUNNING'; M['budget_seconds'] = budget; save()\n    rec = d.run_case(label=f'R12_warm_{CLUSTER}', slice_bytes=data, abs_offset=sl['abs_offset'], binary=R / 'cmix',\n                     weights=A / 'lex_h1_run11.tfwc2', dictionary=A / 'english.dic', vocab=A / 'vocab.bm',\n                     consumer=R / 'stream_replay', work=R / 'work', out_dir=OUT, budget_seconds=budget,\n                     cpu_encoder=cpu_enc, cpu_consumer=cpu_cons, manifest=M, save=save)\n    M['status'] = rec['status']\nexcept BaseException as e:\n    M.update(status='FAIL', error=repr(e), traceback=traceback.format_exc())\nM['finished_unix'] = time.time(); M['wall_seconds'] = time.monotonic() - T0; save()\nprint(json.dumps({k: M.get(k) for k in ('status', 'wall_seconds')}))\n",
+    "/root/hp_round13_pulls/r12-warm-stream-a/hutter-r12-warm-stream-a.log": "[]",
+    "/root/hp_round13_pulls/r12-warm-stream-b/hutter-r12-warm-stream-b.log": "[]",
+    "/root/hp_round13_pulls/r12-warm-stream-c/hutter-r12-warm-stream-c.log": "[]",
+    "/root/hp_round13_pulls/r10-cpu-bf16-unweighted/hutter-r10-cpu-bf16-unweighted.log": "[{\"stream_name\":\"stdout\",\"time\":1.368831634,\"data\":\"all source/model/data hashes verified\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1.370669063,\"data\":\"baseline encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":996.369345097,\"data\":\"baseline_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":996.369544707,\"data\":\"baseline separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1975.376930902,\"data\":\"baseline_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1976.289245556,\"data\":\"baseline independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1976.291498416,\"data\":\"candidate encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":2981.830365524,\"data\":\"candidate_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":2981.830631054,\"data\":\"candidate separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3979.295435239,\"data\":\"candidate_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3980.335038212,\"data\":\"candidate independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3980.335834662,\"data\":\"finite CPU experiment complete; qualification scope recorded\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3982.781212657,\"data\":\"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\\\|'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3982.781254127,\"data\":\"  cells[i][c] = re.sub('\\\\\\\\\\\\\\\\\\\\|', '|', cell)\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3983.148291806,\"data\":\"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\\\_'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3983.148325476,\"data\":\"  text = re.sub(r'_', '\\\\_', text) # Escape underscores in display text\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3985.059349301,\"data\":\"[NbConvertApp] Converting notebook __script__.ipynb to html\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":3986.052770499,\"data\":\"[NbConvertApp] Writing 336523 bytes to __results__.html\\n\"}\n]",
+    "/root/hp_round13_pulls/r10-cpu-bf16-cut107-half/hutter-r10-cpu-bf16-cut107-half.log": "[{\"stream_name\":\"stdout\",\"time\":1.8186182739999999,\"data\":\"all source/model/data hashes verified\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1.821566733,\"data\":\"baseline encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1630.442751712,\"data\":\"baseline_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1630.443212207,\"data\":\"baseline separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3247.982540345,\"data\":\"baseline_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3253.374655697,\"data\":\"baseline independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3253.377327148,\"data\":\"candidate encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":4942.97811605,\"data\":\"candidate_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":4942.978520216,\"data\":\"candidate separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":6641.564045457,\"data\":\"candidate_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":6646.947701305,\"data\":\"candidate independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":6646.948695158,\"data\":\"finite CPU experiment complete; qualification scope recorded\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6650.306847532,\"data\":\"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\\\|'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6650.30688697,\"data\":\"  cells[i][c] = re.sub('\\\\\\\\\\\\\\\\\\\\|', '|', cell)\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6650.853042483,\"data\":\"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\\\_'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6650.853075523,\"data\":\"  text = re.sub(r'_', '\\\\_', text) # Escape underscores in display text\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6653.355704426,\"data\":\"[NbConvertApp] Converting notebook __script__.ipynb to html\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":6654.871992111,\"data\":\"[NbConvertApp] Writing 336524 bytes to __results__.html\\n\"}\n]",
+    "/root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/hutter-r10-cpu-bf16-cut1392-zero.log": "[{\"stream_name\":\"stdout\",\"time\":1.811613419,\"data\":\"all source/model/data hashes verified\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1.81477472,\"data\":\"baseline encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1825.494926628,\"data\":\"baseline_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":1825.495378999,\"data\":\"baseline separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3641.51529202,\"data\":\"baseline_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3645.324217846,\"data\":\"baseline independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":3645.32730235,\"data\":\"candidate encode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":5446.284074249,\"data\":\"candidate_encode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":5446.28457992,\"data\":\"candidate separate decode starting\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":7192.252350598,\"data\":\"candidate_decode finished\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":7196.073009238,\"data\":\"candidate independent decode PASS\\n\"}\n,{\"stream_name\":\"stdout\",\"time\":7196.073898592,\"data\":\"finite CPU experiment complete; qualification scope recorded\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7199.439358418,\"data\":\"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\\\|'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7199.439436847,\"data\":\"  cells[i][c] = re.sub('\\\\\\\\\\\\\\\\\\\\|', '|', cell)\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7200.029795133,\"data\":\"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\\\_'\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7200.029858328,\"data\":\"  text = re.sub(r'_', '\\\\_', text) # Escape underscores in display text\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7202.672213436,\"data\":\"[NbConvertApp] Converting notebook __script__.ipynb to html\\n\"}\n,{\"stream_name\":\"stderr\",\"time\":7204.238684718,\"data\":\"[NbConvertApp] Writing 336525 bytes to __results__.html\\n\"}\n]"
+  },
+  "pulls": [
+    {
+      "ref": "chaoscpp/hutter-r12-warm-stream-a",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nOutput file downloaded to /root/hp_round13_pulls/r12-warm-stream-a/r12/R12_warm_A.jsonl\nOutput file downloaded to /root/hp_round13_pulls/r12-warm-stream-a/r12/manifest.json\nKernel log downloaded to /root/hp_round13_pulls/r12-warm-stream-a/hutter-r12-warm-stream-a.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r12-warm-stream-a.log",
+          "bytes": 2
+        },
+        {
+          "name": "r12/R12_warm_A.jsonl",
+          "bytes": 23526
+        },
+        {
+          "name": "r12/manifest.json",
+          "bytes": 1120
+        }
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r12-warm-stream-b",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nOutput file downloaded to /root/hp_round13_pulls/r12-warm-stream-b/r12/R12_warm_B.jsonl\nOutput file downloaded to /root/hp_round13_pulls/r12-warm-stream-b/r12/manifest.json\nKernel log downloaded to /root/hp_round13_pulls/r12-warm-stream-b/hutter-r12-warm-stream-b.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r12-warm-stream-b.log",
+          "bytes": 2
+        },
+        {
+          "name": "r12/manifest.json",
+          "bytes": 1127
+        },
+        {
+          "name": "r12/R12_warm_B.jsonl",
+          "bytes": 28323
+        }
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r12-warm-stream-c",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nKernel log downloaded to /root/hp_round13_pulls/r12-warm-stream-c/hutter-r12-warm-stream-c.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r12-warm-stream-c.log",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r10-cpu-bf16-unweighted",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/bf16-unweighted/manifest.json\nKernel log downloaded to /root/hp_round13_pulls/r10-cpu-bf16-unweighted/hutter-r10-cpu-bf16-unweighted.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r10-cpu-bf16-unweighted.log",
+          "bytes": 1904
+        },
+        {
+          "name": "bf16-unweighted/candidate_decode.log",
+          "bytes": 774507
+        },
+        {
+          "name": "bf16-unweighted/baseline_decode.log",
+          "bytes": 774507
+        },
+        {
+          "name": "bf16-unweighted/candidate.cmx",
+          "bytes": 311047
+        },
+        {
+          "name": "bf16-unweighted/baseline.cmx",
+          "bytes": 310050
+        },
+        {
+          "name": "bf16-unweighted/baseline_encode.log",
+          "bytes": 774547
+        },
+        {
+          "name": "bf16-unweighted/manifest.json",
+          "bytes": 8208
+        },
+        {
+          "name": "bf16-unweighted/candidate_encode.log",
+          "bytes": 774548
+        }
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r10-cpu-bf16-cut107-half",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/manifest.json\nKernel log downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut107-half/hutter-r10-cpu-bf16-cut107-half.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r10-cpu-bf16-cut107-half.log",
+          "bytes": 1911
+        },
+        {
+          "name": "bf16-cut107_half/candidate_decode.log",
+          "bytes": 774508
+        },
+        {
+          "name": "bf16-cut107_half/baseline_decode.log",
+          "bytes": 774508
+        },
+        {
+          "name": "bf16-cut107_half/candidate.cmx",
+          "bytes": 311081
+        },
+        {
+          "name": "bf16-cut107_half/baseline.cmx",
+          "bytes": 310050
+        },
+        {
+          "name": "bf16-cut107_half/baseline_encode.log",
+          "bytes": 774548
+        },
+        {
+          "name": "bf16-cut107_half/manifest.json",
+          "bytes": 8216
+        },
+        {
+          "name": "bf16-cut107_half/candidate_encode.log",
+          "bytes": 774548
+        }
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r10-cpu-bf16-cut1392-zero",
+      "exit": 0,
+      "output": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate.cmx\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate_decode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate_encode.log\nOutput file downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/manifest.json\nKernel log downloaded to /root/hp_round13_pulls/r10-cpu-bf16-cut1392-zero/hutter-r10-cpu-bf16-cut1392-zero.log \n\n",
+      "files": [
+        {
+          "name": "hutter-r10-cpu-bf16-cut1392-zero.log",
+          "bytes": 1902
+        },
+        {
+          "name": "bf16-cut1392_zero/candidate_decode.log",
+          "bytes": 774508
+        },
+        {
+          "name": "bf16-cut1392_zero/baseline_decode.log",
+          "bytes": 774508
+        },
+        {
+          "name": "bf16-cut1392_zero/candidate.cmx",
+          "bytes": 314261
+        },
+        {
+          "name": "bf16-cut1392_zero/baseline.cmx",
+          "bytes": 310050
+        },
+        {
+          "name": "bf16-cut1392_zero/baseline_encode.log",
+          "bytes": 774548
+        },
+        {
+          "name": "bf16-cut1392_zero/manifest.json",
+          "bytes": 8218
+        },
+        {
+          "name": "bf16-cut1392_zero/candidate_encode.log",
+          "bytes": 774548
+        }
+      ]
+    }
+  ],
+  "deletions": [],
+  "cleanup_source": "\"\"\"User-run cleanup of hash-verified, non-essential files on /kaggle/working.\n\nPrepared by the Claude audit (round 12).  It removes a file ONLY if its current\nSHA-256 still equals the value recorded in cleanup_candidates.json and, for a\nduplicate, its twin still exists with the identical hash.  Every action is\nappended to cleanup_ledger.json.  Run:  python3 cleanup_verified.py --apply\nWithout --apply it only reports what it would remove.\n\"\"\"\nimport hashlib, json, os, sys, time\nfrom pathlib import Path\nHERE = Path('/kaggle/working/hp_round12_claude')\napply = '--apply' in sys.argv\ndef sha(p):\n    h = hashlib.sha256()\n    with open(p, 'rb') as f:\n        while b := f.read(1 << 22): h.update(b)\n    return h.hexdigest()\ncands = json.loads((HERE / 'cleanup_candidates.json').read_text())\nledger = {'run': time.time(), 'apply': apply, 'actions': []}\nfreed = 0\nfor c in cands:\n    p = Path(c['path']); act = {'path': str(p), 'bytes': c['bytes']}\n    if not p.exists():\n        act['result'] = 'absent'; ledger['actions'].append(act); continue\n    h = sha(p)\n    if h != c['sha256']:\n        act['result'] = 'SKIPPED_HASH_CHANGED'; ledger['actions'].append(act); continue\n    if c.get('verified_identical'):\n        twin = Path(c['reason'].split('duplicate of ', 1)[1])\n        if not twin.exists() or sha(twin) != h:\n            act['result'] = 'SKIPPED_TWIN_MISSING_OR_DIFFERENT'; ledger['actions'].append(act); continue\n    if apply:\n        p.unlink(); act['result'] = 'REMOVED'; freed += c['bytes']\n    else:\n        act['result'] = 'WOULD_REMOVE'\n    ledger['actions'].append(act)\nledger['freed_bytes'] = freed\n(HERE / 'cleanup_ledger.json').write_text(json.dumps(ledger, indent=1))\nfor a in ledger['actions']: print(f\"{a['result']:34s} {a['bytes']/1e6:9.1f} MB  {a['path']}\")\nprint('freed GB', round(freed / 1e9, 3), '(dry run)' if not apply else '')\n",
+  "scratch_present": {
+    "/root/hp_round11/warm_atlas_v2": false,
+    "/root/hp_round11_word_cost_v1": false,
+    "/root/r12_pull": true,
+    "/root/r12_assets": true,
+    "/root/hp_round11_private_assets_v2": false
+  }
+}

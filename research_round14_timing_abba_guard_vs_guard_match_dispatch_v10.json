@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETE_VERIFIED_PRIVATE_CPU_PUSH",
+  "started": 1791608572.6713324,
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "push_exit": 0,
+  "job": {
+    "ref": "chaoscpp/hutter-r14-guard-match-timing-abba-v1",
+    "folder": "hutter-r14-guard-match-timing-abba-v1",
+    "main_sha256": "608056426dec24f0e909deddc4a470778b9b00d4fafb8e636f503d7d379d8ac1",
+    "workers": 4,
+    "pair_label": "guard_vs_guard_match",
+    "region_ids": [
+      8,
+      9
+    ],
+    "lane_tasks": [
+      [
+        8,
+        "AB"
+      ],
+      [
+        8,
+        "BA"
+      ],
+      [
+        9,
+        "AB"
+      ],
+      [
+        9,
+        "BA"
+      ]
+    ]
+  },
+  "verified_push": {
+    "actual_ref": "chaoscpp/hutter-r14-guard-match-timing-abba-v1",
+    "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-guard-match-timing-abba-v1",
+    "version": 1
+  },
+  "finished": 1791608576.4153483
+}

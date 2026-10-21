@@ -1,0 +1,14 @@
+{
+  "layout": "transpose",
+  "codec": "zstd",
+  "model_bytes": 33442317,
+  "model_sha256": "85058f30f6b1b1c3c429d8c61c971555e7d7eb1ef83258e8f66e1686b3a8d2ff",
+  "cpu": 1,
+  "saving_per_copy_before_decoder_code": -30464278,
+  "all_435_native_tensors_equal": true,
+  "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+  "wall_seconds": 1.719965435000006,
+  "CPU_seconds": 1.5930629999999981,
+  "peak_RSS_KiB": 663672,
+  "deployment_decoder_not_qualified": true
+}

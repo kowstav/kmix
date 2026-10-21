@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.beta_projection.weight",
+  "names": [
+    "blocks.10.attention.beta_projection.weight"
+  ],
+  "label": "d17f41a0a7822cde17c88778",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1120
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1227
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1096
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1116
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1120
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1097
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1120
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1227
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1096
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1120
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1227
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1096
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1124
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1235
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1100
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1312
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1329
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1299
+    }
+  ],
+  "selected": [
+    1096,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "67a5dafe90c20e73601f350b8fdee0037bbea5c4d1c429e523e688debca1601b",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.012433999999998918,
+  "wall_seconds": 0.012716093999983968
+}

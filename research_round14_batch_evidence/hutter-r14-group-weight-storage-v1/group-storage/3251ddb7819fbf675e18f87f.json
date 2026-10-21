@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.0.attention.output_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.0.attention.output_gate_projection.down.weight.scale"
+  ],
+  "label": "3251ddb7819fbf675e18f87f",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 466
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 466
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 439
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 471
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 427
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 466
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 466
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 466
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 466
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 466
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 466
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 557
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 574
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    427,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "60859cbd84a9cfb00f164515d176272754677043d345a8ea3e4af584d5fa9f5e",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.010802000000001866,
+  "wall_seconds": 0.011024963000011212
+}

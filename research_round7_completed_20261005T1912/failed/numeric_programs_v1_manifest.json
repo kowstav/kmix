@@ -1,0 +1,10 @@
+{
+  "status": "FAIL",
+  "pid": 143,
+  "utc": "2026-10-05T18:18:41.707813+00:00",
+  "preregistered": "six rendered-integer programs, copy weights .01/.1; all ABCD bits charged, no tuning",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "error": "CalledProcessError(1, ['g++', '-O3', '-std=c++17', '/kaggle/working/hp_round7/research_round7_numeric_programs.cpp', '-o', '/kaggle/working/hp_round7/numeric_programs_v1/numeric'])",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_numeric_worker.py\", line 7, in <module>\n    b=D/'numeric';subprocess.run(['g++','-O3','-std=c++17',str(R/'research_round7_numeric_programs.cpp'),'-o',str(b)],check=True);m['binary_bytes']=b.stat().st_size;save()\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['g++', '-O3', '-std=c++17', '/kaggle/working/hp_round7/research_round7_numeric_programs.cpp', '-o', '/kaggle/working/hp_round7/numeric_programs_v1/numeric']' returned non-zero exit status 1.\n"
+}

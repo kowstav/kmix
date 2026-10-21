@@ -1,0 +1,107 @@
+{
+  "status": "COMPLETE_AWAITING_NATIVE_PARITY",
+  "started": 1791469382.8208086,
+  "builds": [
+    {
+      "name": "neutral",
+      "bytes": 559120,
+      "sha256": "30b539b3ec2cd0a2adf51d3103f2643d113022cce2c7fb17b9828b6f61e10fda",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "build_wall_seconds": 32.81127429008484
+    },
+    {
+      "name": "prune_word",
+      "bytes": 549424,
+      "sha256": "c2ba7d4c10912e9bac9d53b3e890a1cb458e0396eb3c6c3d70c681800168e56d",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=1 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "build_wall_seconds": 23.646686792373657
+    },
+    {
+      "name": "prune_match",
+      "bytes": 555168,
+      "sha256": "cf8fc836f7225f2b25b48d76ffb5ce3bf0682f91549082a1d4ba0353755c8a6e",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=2 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "build_wall_seconds": 23.29424738883972
+    },
+    {
+      "name": "prune_indirect",
+      "bytes": 557792,
+      "sha256": "c6aca330ce814aeafd7115a82bcea43f59a8a4dd77c5f7d341ba18513ca9281b",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=3 -DHP_R14_OUTPUT_FP32=0",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "build_wall_seconds": 22.437399864196777
+    },
+    {
+      "name": "output_fp32",
+      "bytes": 556800,
+      "sha256": "470d4f8c66e07910d92b18f80d1d73ef450f23d0a77e1eda6e6c3fa27a108565",
+      "command": [
+        "make",
+        "-j4",
+        "cmix",
+        "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0 -DHP_R14_ABLATION=0 -DHP_R14_OUTPUT_FP32=1",
+        "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+      ],
+      "build_wall_seconds": 23.844189643859863
+    }
+  ],
+  "restored_headers": [
+    {
+      "path": "src/mixer/lstm-layer.hpp",
+      "bytes": 8885,
+      "sha256": "ddfb281b76fced94f1a96042a4dcaa9d3be3c216b17e53d7256d74d580ae2d96"
+    },
+    {
+      "path": "src/mixer/lstm.hpp",
+      "bytes": 5773,
+      "sha256": "9407cf7ccee213c0b23ed8539acfe04ebfdf234808a8b863f5793f50c3cbf63b"
+    },
+    {
+      "path": "src/ds/SmallVector.hpp",
+      "bytes": 5879,
+      "sha256": "3ec8c6bd7fcf2ac998afb362dda72a494f70c866a2cd3f392e61064958992bf2"
+    },
+    {
+      "path": "src/ds/emhash_map.hpp",
+      "bytes": 58141,
+      "sha256": "2d84c685c62acd28f4c66e9498f244c472ae898aaa0902cbc0feeb5a0c6af83a"
+    },
+    {
+      "path": "src/ds/emhash_set.hpp",
+      "bytes": 41612,
+      "sha256": "d9405c502181dc76378f33cf919f76294dcb5f0c9b219b485c76d222f89bed7b"
+    }
+  ],
+  "deletions": [],
+  "flags": {
+    "common": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=0",
+    "transformer": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+  },
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "finished": 1791469508.9511516,
+  "source_sha256": "a21f035652bf756db9e0bc43c34835ed85412540dc5dd9329d62fd1cd4183840",
+  "source_entries": 140
+}

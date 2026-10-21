@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "utc": "2026-10-05T18:15:25.654688+00:00",
+  "pid": 139,
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "scratch": "/root/hp/full_stream_regen_v1",
+  "binary_sha256": "3f053d9a4f26a24ee0bc7d9563ab7a282cec72dfec01474912e3204339b32f6c",
+  "prepare_only_hook": false,
+  "bytes_only_flag": false,
+  "error": "AssertionError('Preserved package lacks model-free preparation; no full native coding launch')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_p05_worker.py\", line 16, in <module>\n    assert m['prepare_only_hook'] or m['bytes_only_flag'],'Preserved package lacks model-free preparation; no full native coding launch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Preserved package lacks model-free preparation; no full native coding launch\n"
+}

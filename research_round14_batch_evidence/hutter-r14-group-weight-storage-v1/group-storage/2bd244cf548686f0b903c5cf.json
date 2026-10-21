@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.value_convolution.weight",
+  "names": [
+    "blocks.8.attention.value_convolution.weight"
+  ],
+  "label": "2bd244cf548686f0b903c5cf",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1481
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1465
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1472
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1457
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1458
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1481
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1465
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1481
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1465
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1481
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1470
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1694
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1457,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "08f94f8375411199b4bd4c44b64005839a387defe5d797f3f1255d5baf71022e",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.011468999999996898,
+  "wall_seconds": 0.012161043999981302
+}

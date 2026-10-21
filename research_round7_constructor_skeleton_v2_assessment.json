@@ -1,0 +1,72 @@
+{
+  "status": "COMPLETE",
+  "version": "v2",
+  "matched_codec_aggregate": [
+    {
+      "representation": "direct",
+      "codec": "zlib9",
+      "original_archive_bytes": 3623465,
+      "candidate_archive_bytes": 3791173,
+      "increase_bytes_before_incremental_decoder": 167708,
+      "increase_percent": 4.628387468900619,
+      "all_slice_deltas_bytes_saved": [
+        -15096,
+        -48119,
+        -49709,
+        -54784
+      ]
+    },
+    {
+      "representation": "direct",
+      "codec": "lzma6",
+      "original_archive_bytes": 2894828,
+      "candidate_archive_bytes": 3088640,
+      "increase_bytes_before_incremental_decoder": 193812,
+      "increase_percent": 6.695112801175052,
+      "all_slice_deltas_bytes_saved": [
+        -19879,
+        -54495,
+        -57039,
+        -62399
+      ]
+    },
+    {
+      "representation": "constructor_word_table",
+      "codec": "zlib9",
+      "original_archive_bytes": 3623465,
+      "candidate_archive_bytes": 3698340,
+      "increase_bytes_before_incremental_decoder": 74875,
+      "increase_percent": 2.066392251615512,
+      "all_slice_deltas_bytes_saved": [
+        -9117,
+        -20810,
+        -22117,
+        -22831
+      ]
+    },
+    {
+      "representation": "constructor_word_table",
+      "codec": "lzma6",
+      "original_archive_bytes": 2894828,
+      "candidate_archive_bytes": 3028020,
+      "increase_bytes_before_incremental_decoder": 133192,
+      "increase_percent": 4.60103329109709,
+      "all_slice_deltas_bytes_saved": [
+        -14671,
+        -37291,
+        -39615,
+        -41615
+      ]
+    }
+  ],
+  "total_input_bytes": 8000000,
+  "all_16_raw_roundtrips": "PASS",
+  "source_dependency_input_cost_hashes": "PASS",
+  "wall_seconds_prototype": 40.64892176000012,
+  "CPU_seconds_prototype": 40.639725143,
+  "peak_RSS_KiB_reported": 593952,
+  "interpretation": "Exact raw WRT matched-codec exploratory screen; overhead is included in packets, additional decoder cost excluded; no qualifying cmix claim.",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

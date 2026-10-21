@@ -1,0 +1,818 @@
+{
+  "status": "COMPLETE_TWO_SEED_CORE_MASK_AND_GRADIENT_PROJECTION_PILOT",
+  "pid": 2064,
+  "started": 1791305036.3302102,
+  "scope": "actual selected-core two-seed longer full-word masking plus gradient-projection descendants; GPU/native parity unresolved",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [
+    {
+      "arm": "unweighted",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 27787.0,
+      "training_seconds": 55.41286077800032,
+      "development": {
+        "all_bits_per_symbol": 0.5943049788475037,
+        "common_or_unlabelled_bits_per_symbol": 0.4305337369441986,
+        "rare_bits_per_symbol": 2.1568007469177246,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6506_step128.pt",
+      "checkpoint_sha256": "9d0c12bb57ffb34e9d32f6bad42689c0a468820658a644d2ab07a3982d54513b"
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 85890.0,
+      "training_seconds": 117.79742671600252,
+      "development": {
+        "all_bits_per_symbol": 0.592913031578064,
+        "common_or_unlabelled_bits_per_symbol": 0.42945918440818787,
+        "rare_bits_per_symbol": 2.1523804664611816,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6506_step384.pt",
+      "checkpoint_sha256": "8a48b22487fef3b66eb3d48165acc41980c100e307440b6464bd17a58b06292a"
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 260262.0,
+      "training_seconds": 290.13404556300156,
+      "development": {
+        "all_bits_per_symbol": 0.5920448899269104,
+        "common_or_unlabelled_bits_per_symbol": 0.42922332882881165,
+        "rare_bits_per_symbol": 2.1454803943634033,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6506_step1152.pt",
+      "checkpoint_sha256": "42b2f268f8cfd553aef63520f55b860a86257cbb5d14c334d068d323fa92c003"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 27298.0,
+      "training_seconds": 35.50794714099902,
+      "development": {
+        "all_bits_per_symbol": 0.5944729447364807,
+        "common_or_unlabelled_bits_per_symbol": 0.43047869205474854,
+        "rare_bits_per_symbol": 2.1590962409973145,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6506_step128.pt",
+      "checkpoint_sha256": "fa8381f7c45d0e0081db88e01b7f775af1e78cc52785f05fdd3a2281600febcd"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 84213.0,
+      "training_seconds": 99.34442438800033,
+      "development": {
+        "all_bits_per_symbol": 0.5931503176689148,
+        "common_or_unlabelled_bits_per_symbol": 0.4288417398929596,
+        "rare_bits_per_symbol": 2.1607723236083984,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6506_step384.pt",
+      "checkpoint_sha256": "8d6156c4743bd355d07a89d1c9f62e6033c5df17c1feb242f60f5085dbeb6775"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 255309.5,
+      "training_seconds": 259.9401172529979,
+      "development": {
+        "all_bits_per_symbol": 0.5927392244338989,
+        "common_or_unlabelled_bits_per_symbol": 0.4250693917274475,
+        "rare_bits_per_symbol": 2.192430019378662,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6506_step1152.pt",
+      "checkpoint_sha256": "466c7f4beb0cfcc0ff36d1e1d31288c6f4ef304e5fc0177cd478f528becbdee8"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 26897.0,
+      "training_seconds": 33.313114587999735,
+      "development": {
+        "all_bits_per_symbol": 0.5947999358177185,
+        "common_or_unlabelled_bits_per_symbol": 0.43069151043891907,
+        "rare_bits_per_symbol": 2.1605122089385986,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6506_step128.pt",
+      "checkpoint_sha256": "02b8d633375cdf5fb65908a4a0115355fadf1140c3c792355ffd98e9b0241b27"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 82715.0,
+      "training_seconds": 91.85066110600019,
+      "development": {
+        "all_bits_per_symbol": 0.5937187671661377,
+        "common_or_unlabelled_bits_per_symbol": 0.42886918783187866,
+        "rare_bits_per_symbol": 2.166501998901367,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6506_step384.pt",
+      "checkpoint_sha256": "a3c2598fcdaf0610cccd32ee467150f22d3106aa04a5aceb0105d587e3fb2623"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 250251.0,
+      "training_seconds": 250.32612766699822,
+      "development": {
+        "all_bits_per_symbol": 0.5942440629005432,
+        "common_or_unlabelled_bits_per_symbol": 0.4224594831466675,
+        "rare_bits_per_symbol": 2.2331924438476562,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6506_step1152.pt",
+      "checkpoint_sha256": "b0ac0836caf1f344f19ffe14c675f66634ff3941a5060bbf326802a1fd795ff2"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 26007.0,
+      "training_seconds": 33.00554527299755,
+      "development": {
+        "all_bits_per_symbol": 0.5946540832519531,
+        "common_or_unlabelled_bits_per_symbol": 0.43015414476394653,
+        "rare_bits_per_symbol": 2.164102077484131,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6506_step128.pt",
+      "checkpoint_sha256": "d62406a370d352bfa9853ffd1c9fffd3ed25557f67ffe93f8b47ab6b63add1aa"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 79540.0,
+      "training_seconds": 91.13562503199864,
+      "development": {
+        "all_bits_per_symbol": 0.5950138568878174,
+        "common_or_unlabelled_bits_per_symbol": 0.4266906678676605,
+        "rare_bits_per_symbol": 2.2009382247924805,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6506_step384.pt",
+      "checkpoint_sha256": "7cc657642a201e825c1d090356227ecd79de9bdd0f16ba99b5c5d7c0ab78691d"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 240240.0,
+      "training_seconds": 249.4109843999977,
+      "development": {
+        "all_bits_per_symbol": 0.643970787525177,
+        "common_or_unlabelled_bits_per_symbol": 0.4158318042755127,
+        "rare_bits_per_symbol": 2.8205814361572266,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6506_step1152.pt",
+      "checkpoint_sha256": "0140a19149e5d71c259bf2ad7a2f8717e86e73cfbbcd7ba265ab2949edd4b025"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 26386.0,
+      "training_seconds": 33.34122362299968,
+      "development": {
+        "all_bits_per_symbol": 0.5945857167243958,
+        "common_or_unlabelled_bits_per_symbol": 0.4302501976490021,
+        "rare_bits_per_symbol": 2.1624646186828613,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6506_step128.pt",
+      "checkpoint_sha256": "51b19dadc1d87d0bf6c154e9d7bc88b98ddd3a2d6d2f13f5af5406ac3ac12650"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 81092.0,
+      "training_seconds": 92.28573861999757,
+      "development": {
+        "all_bits_per_symbol": 0.5938891172409058,
+        "common_or_unlabelled_bits_per_symbol": 0.42887914180755615,
+        "rare_bits_per_symbol": 2.168203592300415,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6506_step384.pt",
+      "checkpoint_sha256": "eaa7dc2334abfcf1909158724e3325b335a4c33797e6ec5c3a5361d61d6744f4"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 245189.5,
+      "training_seconds": 251.45930170499923,
+      "development": {
+        "all_bits_per_symbol": 0.5946098566055298,
+        "common_or_unlabelled_bits_per_symbol": 0.4225890040397644,
+        "rare_bits_per_symbol": 2.235812187194824,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6506_step1152.pt",
+      "checkpoint_sha256": "48079cf6ab2375b2b7f711c1a24e5c9bb321b045114aee7e952c8c39c41d89ce"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6506,
+      "step": 128,
+      "processed_targets": 27787,
+      "sum_loss_weights": 27787.0,
+      "training_seconds": 40.456622491001326,
+      "development": {
+        "all_bits_per_symbol": 0.5943693518638611,
+        "common_or_unlabelled_bits_per_symbol": 0.4305838644504547,
+        "rare_bits_per_symbol": 2.1570005416870117,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6506_step128.pt",
+      "checkpoint_sha256": "43a4296732d264a92f9192f8aa2474845005d7f7954558f4295fd6be331d13c2"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6506,
+      "step": 384,
+      "processed_targets": 85890,
+      "sum_loss_weights": 85890.0,
+      "training_seconds": 113.54718208900158,
+      "development": {
+        "all_bits_per_symbol": 0.5931966304779053,
+        "common_or_unlabelled_bits_per_symbol": 0.42943045496940613,
+        "rare_bits_per_symbol": 2.155643939971924,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6506_step384.pt",
+      "checkpoint_sha256": "1ca2b68e755d3fabd5b797e0c7cf49df04e20083aef292465d39033bd8b17f71"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6506,
+      "step": 1152,
+      "processed_targets": 260262,
+      "sum_loss_weights": 260262.0,
+      "training_seconds": 362.30214645399974,
+      "development": {
+        "all_bits_per_symbol": 0.5920386910438538,
+        "common_or_unlabelled_bits_per_symbol": 0.4266626536846161,
+        "rare_bits_per_symbol": 2.16984486579895,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6506_step1152.pt",
+      "checkpoint_sha256": "f074081967f8d82ca4da7231e2d3b58b7c7e7f1225fc8b6a67bcadbf880bf679"
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 27793.0,
+      "training_seconds": 55.51729675200113,
+      "development": {
+        "all_bits_per_symbol": 0.5933802723884583,
+        "common_or_unlabelled_bits_per_symbol": 0.4297029376029968,
+        "rare_bits_per_symbol": 2.1549794673919678,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6507_step128.pt",
+      "checkpoint_sha256": "dba5d0aab33829ca4b64260142d4767494ccccf772f4cda983a9c4ac00424ad6"
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 87048.0,
+      "training_seconds": 145.56109351800114,
+      "development": {
+        "all_bits_per_symbol": 0.5924374461174011,
+        "common_or_unlabelled_bits_per_symbol": 0.42930811643600464,
+        "rare_bits_per_symbol": 2.1488089561462402,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6507_step384.pt",
+      "checkpoint_sha256": "ac7040d904c38eb4b9177a088c65dcf9bfd842567e0c40c7d29657189d693a13"
+    },
+    {
+      "arm": "unweighted",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 259845.0,
+      "training_seconds": 417.20917770400047,
+      "development": {
+        "all_bits_per_symbol": 0.5904129147529602,
+        "common_or_unlabelled_bits_per_symbol": 0.4279171824455261,
+        "rare_bits_per_symbol": 2.1407389640808105,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6507_step1152.pt",
+      "checkpoint_sha256": "1465d62d0b0ec80019ec1d2e1f9866c58909fae9b08c0c7b0bf0934f500cc8b7"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 27191.5,
+      "training_seconds": 60.87791029900109,
+      "development": {
+        "all_bits_per_symbol": 0.5935129523277283,
+        "common_or_unlabelled_bits_per_symbol": 0.4296194911003113,
+        "rare_bits_per_symbol": 2.157174587249756,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6507_step128.pt",
+      "checkpoint_sha256": "12dc7bfd5a11b6837cccf4f8a6ea0b7828c4b2435a06550b775027c9eed0559e"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 85326.5,
+      "training_seconds": 158.849073753001,
+      "development": {
+        "all_bits_per_symbol": 0.5925803184509277,
+        "common_or_unlabelled_bits_per_symbol": 0.42869311571121216,
+        "rare_bits_per_symbol": 2.1561830043792725,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6507_step384.pt",
+      "checkpoint_sha256": "63c1cdb03c672f938d8af92caa8822ad4a05235f4607e0927566cf329d863325"
+    },
+    {
+      "arm": "cut107_half",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 254596.5,
+      "training_seconds": 417.4400426760003,
+      "development": {
+        "all_bits_per_symbol": 0.5920062065124512,
+        "common_or_unlabelled_bits_per_symbol": 0.42410528659820557,
+        "rare_bits_per_symbol": 2.193902015686035,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut107_half_seed6507_step1152.pt",
+      "checkpoint_sha256": "c36b814045f9bc21d474be8e52f9b739d36affe79bd10b8f989d1ced861875e5"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 26600.0,
+      "training_seconds": 50.854575224002474,
+      "development": {
+        "all_bits_per_symbol": 0.5935879945755005,
+        "common_or_unlabelled_bits_per_symbol": 0.42954206466674805,
+        "rare_bits_per_symbol": 2.1587045192718506,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6507_step128.pt",
+      "checkpoint_sha256": "01f1b7957d1e0601f584f44b1dcb5e60d712065271f4ac3fcf78499d8b589747"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 83490.5,
+      "training_seconds": 141.26611912800217,
+      "development": {
+        "all_bits_per_symbol": 0.5928206443786621,
+        "common_or_unlabelled_bits_per_symbol": 0.42844799160957336,
+        "rare_bits_per_symbol": 2.1610541343688965,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6507_step384.pt",
+      "checkpoint_sha256": "6e9eb7f2051b6ec1c7f650cb1a8cf6c3a5128572af0889a83e5c6859f61a6bdd"
+    },
+    {
+      "arm": "cut1392_half",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 249400.0,
+      "training_seconds": 431.33981191800194,
+      "development": {
+        "all_bits_per_symbol": 0.5932691097259521,
+        "common_or_unlabelled_bits_per_symbol": 0.4216715097427368,
+        "rare_bits_per_symbol": 2.230433702468872,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_half_seed6507_step1152.pt",
+      "checkpoint_sha256": "e3dc56ae6419a45d81a327709ccb537c4d71083cf7f783a8f0ab20ea17d90733"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 25407.0,
+      "training_seconds": 83.00385688299866,
+      "development": {
+        "all_bits_per_symbol": 0.5941003561019897,
+        "common_or_unlabelled_bits_per_symbol": 0.42950960993766785,
+        "rare_bits_per_symbol": 2.1644155979156494,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6507_step128.pt",
+      "checkpoint_sha256": "8027cddc20c93404bc5a0200119154aa84a67681d5a9118511d64e7c0cb45228"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 79933.0,
+      "training_seconds": 226.77402862899908,
+      "development": {
+        "all_bits_per_symbol": 0.5951347351074219,
+        "common_or_unlabelled_bits_per_symbol": 0.4261399805545807,
+        "rare_bits_per_symbol": 2.2074663639068604,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6507_step384.pt",
+      "checkpoint_sha256": "43bea39a437689e65a1d03ecbefe8dc7f95f06f615a9c2c014ee175e51db8637"
+    },
+    {
+      "arm": "cut1392_zero",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 238955.0,
+      "training_seconds": 461.9391390480014,
+      "development": {
+        "all_bits_per_symbol": 0.6365956664085388,
+        "common_or_unlabelled_bits_per_symbol": 0.4147353768348694,
+        "rare_bits_per_symbol": 2.753303050994873,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut1392_zero_seed6507_step1152.pt",
+      "checkpoint_sha256": "d782f19e0ca2d1280cdf12ccaff986f7473d7c5a169d58a2f5ae05ee97b6f9b8"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 26042.5,
+      "training_seconds": 58.61613204999958,
+      "development": {
+        "all_bits_per_symbol": 0.5939952731132507,
+        "common_or_unlabelled_bits_per_symbol": 0.42956554889678955,
+        "rare_bits_per_symbol": 2.1627726554870605,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6507_step128.pt",
+      "checkpoint_sha256": "61b80434628cf510bd355c0d0371421e74f1bc2256f92e4ed09aaabd70ae265d"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 81780.5,
+      "training_seconds": 124.52953535299821,
+      "development": {
+        "all_bits_per_symbol": 0.592560887336731,
+        "common_or_unlabelled_bits_per_symbol": 0.42802563309669495,
+        "rare_bits_per_symbol": 2.1623454093933105,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6507_step384.pt",
+      "checkpoint_sha256": "ebe85f7bfb22516a68eae8bd47340fce72a229d40b6ef549bfe2e84cd06f2cc1"
+    },
+    {
+      "arm": "cut8372_half",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 244244.0,
+      "training_seconds": 312.863359777999,
+      "development": {
+        "all_bits_per_symbol": 0.594340980052948,
+        "common_or_unlabelled_bits_per_symbol": 0.4227268695831299,
+        "rare_bits_per_symbol": 2.2316627502441406,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/cut8372_half_seed6507_step1152.pt",
+      "checkpoint_sha256": "a577e76370c1550c32a0e802d5d50dea9d8f7a1cd153c73950b2b661f230b464"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6507,
+      "step": 128,
+      "processed_targets": 27793,
+      "sum_loss_weights": 27793.0,
+      "training_seconds": 59.29042584800118,
+      "development": {
+        "all_bits_per_symbol": 0.5935088396072388,
+        "common_or_unlabelled_bits_per_symbol": 0.42985934019088745,
+        "rare_bits_per_symbol": 2.1548426151275635,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6507_step128.pt",
+      "checkpoint_sha256": "63f9a3586a76cfbc18984b194932f1997a8fee071bf35be9926d710e33961001"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6507,
+      "step": 384,
+      "processed_targets": 87048,
+      "sum_loss_weights": 87048.0,
+      "training_seconds": 165.79434194900023,
+      "development": {
+        "all_bits_per_symbol": 0.5924776792526245,
+        "common_or_unlabelled_bits_per_symbol": 0.42914101481437683,
+        "rare_bits_per_symbol": 2.150826930999756,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6507_step384.pt",
+      "checkpoint_sha256": "1b8f87b5e855932d5ae17f91b521a1d1af5a8fc2042e9168a3610ae81b2c01dd"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6507,
+      "step": 1152,
+      "processed_targets": 259845,
+      "sum_loss_weights": 259845.0,
+      "training_seconds": 459.7716845959985,
+      "development": {
+        "all_bits_per_symbol": 0.5907335877418518,
+        "common_or_unlabelled_bits_per_symbol": 0.42596709728240967,
+        "rare_bits_per_symbol": 2.1627237796783447,
+        "targets": 50996
+      },
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/projected1392_seed6507_step1152.pt",
+      "checkpoint_sha256": "a50f1dcb487a5645557be105d01617feeb81667dec7732e390caad93e94160c6"
+    }
+  ],
+  "gpu": "Tesla T4",
+  "actual_core_import": {
+    "loaded_parameters": 199,
+    "parameter_count": 5897145,
+    "packed_source_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "imported_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+    "weight_laws": "learned15level codebooks on0.25grid plus8bit small tables; fixed native BF16 row scales, STE nearest native code levels",
+    "activation_laws": "dynamic per-token amax/127, static per-head QKV scales",
+    "state": "FLa parallel KDA and T4 sliding-window SDPA; native equivalence measured below, not presumed"
+  },
+  "stage": "longer shared-core mask descendants complete; native and fresh corpus gates required",
+  "zero_update_likelihood_parity": [
+    {
+      "start": 0,
+      "rows": 36,
+      "mean_absolute_target_bits_difference": 0.027850219782570202,
+      "max_absolute_target_bits_difference": 0.5203292401366544,
+      "mean_native_to_GPU_KL_bits": 0.0008906151584221964,
+      "max_probability_difference": 0.05524237326288922
+    },
+    {
+      "start": 37,
+      "rows": 321,
+      "mean_absolute_target_bits_difference": 0.051609663059092085,
+      "max_absolute_target_bits_difference": 0.37259652230679496,
+      "mean_native_to_GPU_KL_bits": 0.002976013567333393,
+      "max_probability_difference": 0.08547757587891697
+    },
+    {
+      "start": 359,
+      "rows": 519,
+      "mean_absolute_target_bits_difference": 0.03537531407710378,
+      "max_absolute_target_bits_difference": 0.7502437274421744,
+      "mean_native_to_GPU_KL_bits": 0.0021946387387408966,
+      "max_probability_difference": 0.1435837499615129
+    },
+    {
+      "start": 879,
+      "rows": 600,
+      "mean_absolute_target_bits_difference": 0.014726143162299064,
+      "max_absolute_target_bits_difference": 0.4292671853606381,
+      "mean_native_to_GPU_KL_bits": 0.0009197424530144298,
+      "max_probability_difference": 0.07357672971723828
+    },
+    {
+      "start": 1480,
+      "rows": 552,
+      "mean_absolute_target_bits_difference": 0.007774389860213585,
+      "max_absolute_target_bits_difference": 0.5216508665651773,
+      "mean_native_to_GPU_KL_bits": 0.0004144572735557976,
+      "max_probability_difference": 0.06433898699104984
+    },
+    {
+      "start": 2033,
+      "rows": 868,
+      "mean_absolute_target_bits_difference": 0.025357953551807786,
+      "max_absolute_target_bits_difference": 0.5249508013440726,
+      "mean_native_to_GPU_KL_bits": 0.0013570742859251317,
+      "max_probability_difference": 0.15450902708636888
+    },
+    {
+      "start": 2902,
+      "rows": 680,
+      "mean_absolute_target_bits_difference": 0.015949276588142536,
+      "max_absolute_target_bits_difference": 0.5033209212802795,
+      "mean_native_to_GPU_KL_bits": 0.0011059126451996686,
+      "max_probability_difference": 0.14096962801717033
+    },
+    {
+      "start": 3583,
+      "rows": 657,
+      "mean_absolute_target_bits_difference": 0.014519409001821817,
+      "max_absolute_target_bits_difference": 0.4133779208318142,
+      "mean_native_to_GPU_KL_bits": 0.0009637051116165524,
+      "max_probability_difference": 0.115596127944674
+    },
+    {
+      "start": 4241,
+      "rows": 808,
+      "mean_absolute_target_bits_difference": 0.019731234974619878,
+      "max_absolute_target_bits_difference": 0.4160387368558913,
+      "mean_native_to_GPU_KL_bits": 0.0011065913895714045,
+      "max_probability_difference": 0.07680261525219234
+    },
+    {
+      "start": 5050,
+      "rows": 863,
+      "mean_absolute_target_bits_difference": 0.022042300670105642,
+      "max_absolute_target_bits_difference": 0.6605294220721504,
+      "mean_native_to_GPU_KL_bits": 0.0012114776956318669,
+      "max_probability_difference": 0.09511796690958801
+    },
+    {
+      "start": 5914,
+      "rows": 637,
+      "mean_absolute_target_bits_difference": 0.015375597289876822,
+      "max_absolute_target_bits_difference": 0.629668633386933,
+      "mean_native_to_GPU_KL_bits": 0.0009973748515936785,
+      "max_probability_difference": 0.14478226833638397
+    },
+    {
+      "start": 6552,
+      "rows": 552,
+      "mean_absolute_target_bits_difference": 0.010869558582082954,
+      "max_absolute_target_bits_difference": 0.445592489636776,
+      "mean_native_to_GPU_KL_bits": 0.0006245338551688612,
+      "max_probability_difference": 0.09842177136334235
+    },
+    {
+      "start": 7105,
+      "rows": 752,
+      "mean_absolute_target_bits_difference": 0.020190754761625258,
+      "max_absolute_target_bits_difference": 0.555174996024767,
+      "mean_native_to_GPU_KL_bits": 0.0010340885727910876,
+      "max_probability_difference": 0.07756755359664758
+    },
+    {
+      "start": 7858,
+      "rows": 635,
+      "mean_absolute_target_bits_difference": 0.01618531243370647,
+      "max_absolute_target_bits_difference": 1.0356687523916805,
+      "mean_native_to_GPU_KL_bits": 0.0008441054363038153,
+      "max_probability_difference": 0.08920651098838694
+    },
+    {
+      "start": 8494,
+      "rows": 683,
+      "mean_absolute_target_bits_difference": 0.0137333459347391,
+      "max_absolute_target_bits_difference": 0.3589035987569897,
+      "mean_native_to_GPU_KL_bits": 0.000753627550880274,
+      "max_probability_difference": 0.07017369304164134
+    },
+    {
+      "start": 9178,
+      "rows": 680,
+      "mean_absolute_target_bits_difference": 0.015276396097490576,
+      "max_absolute_target_bits_difference": 0.6422954039785621,
+      "mean_native_to_GPU_KL_bits": 0.000734448455816773,
+      "max_probability_difference": 0.06937893370038661
+    }
+  ],
+  "native_export_bitexact_passed": false,
+  "diagnostic_training_only": true,
+  "data_split": {
+    "complete_articles": 364,
+    "train_articles": 291,
+    "development_articles": 73,
+    "corpus_scope_bytes": 262138,
+    "training_loss_max_tokens": 256,
+    "training_context": "sampled prefix through4096tokens from true decoded article reset; last256targets only",
+    "all_word_mask_includes_literal_OOV_case_controls": true,
+    "word_mask_input_leakage": false,
+    "mask_changes": "loss weights only; original tokens, priors and rare context remain visible"
+  },
+  "development_zero_update": {
+    "all_bits_per_symbol": 0.5932896137237549,
+    "common_or_unlabelled_bits_per_symbol": 0.42971792817115784,
+    "rare_bits_per_symbol": 2.153881788253784,
+    "targets": 50996
+  },
+  "setup_source_sha256": "ff785188b7e5ff1a86618dfc7de6de34341add753c1a5044c09ef15b3223bc81",
+  "worker_sha256": "6237a041d17f82cd3f07ebc72f7c0fe3c129816e0a5e6dc073add743a5b5c0a6",
+  "gradient_geometry": [
+    {
+      "arm": "projected1392",
+      "seed": 6506,
+      "step": 1,
+      "common_count": 198,
+      "rare_count": 58,
+      "dot_product": -825.4566650390625,
+      "cosine": -0.7516486644744873,
+      "projected": true,
+      "scope": "actual shared selected-transformer parameters; empirical current mini-batch"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6506,
+      "step": 32,
+      "common_count": 224,
+      "rare_count": 32,
+      "dot_product": -1606.7979736328125,
+      "cosine": -0.6218065023422241,
+      "projected": true,
+      "scope": "actual shared selected-transformer parameters; empirical current mini-batch"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6507,
+      "step": 384,
+      "common_count": 253,
+      "rare_count": 3,
+      "dot_product": -39.18337631225586,
+      "cosine": -0.32584065198898315,
+      "projected": true,
+      "scope": "actual shared selected-transformer parameters; empirical current mini-batch"
+    },
+    {
+      "arm": "projected1392",
+      "seed": 6507,
+      "step": 1152,
+      "common_count": 240,
+      "rare_count": 16,
+      "dot_product": 480.465576171875,
+      "cosine": 0.7925081849098206,
+      "projected": false,
+      "scope": "actual shared selected-transformer parameters; empirical current mini-batch"
+    }
+  ],
+  "architecture_extension": false,
+  "extended_contract": {
+    "seeds": [
+      6506,
+      6507
+    ],
+    "rungs": [
+      128,
+      384,
+      1152
+    ],
+    "learning_rate": 1e-05,
+    "train_context": "true article prefix through4096tokens, last256target loss",
+    "sample_target_count": "matched identical examples within each seed across every mask",
+    "loss_mask_scope": "all decoded whole-word literal/OOV/dictionary/case spans; metadata and whitespace unmasked",
+    "projection": "Euclidean rare-gradient projection when its dot with common gradient is negative; first-order common-loss condition, not total-loss guarantee",
+    "checkpoint_location": "/root/hp_round9/core_extension_v1",
+    "paid_compute_usd": 0,
+    "native_qualification": "open; GPU finite pilots only",
+    "new_dataset_generalization": "same prefix corpus; new distributed corpus slices required before promotion"
+  },
+  "finished": 1791309219.6230092,
+  "native_archive_qualification": false,
+  "all96_exhausted": false
+}

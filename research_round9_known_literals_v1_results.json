@@ -1,0 +1,195 @@
+{
+  "status": "COMPLETE_PRICED_KNOWN_LITERAL_BYPASS_AND_COMMON_SPECIALIST_NATIVE_SCREEN",
+  "pid": 2437,
+  "started": 1791310620.920052,
+  "scope": "priced known-literal bypass, original/masked context and common-specialist combination under actual native CM",
+  "spending_usd": 0,
+  "deletions": [],
+  "candidates": [
+    {
+      "name": "raw_context_cut107",
+      "native_main_bytes": 4597,
+      "side_bytes": 2505,
+      "container_bytes": 7115,
+      "gain_vs_original_native_before_new_package_bytes": -1430,
+      "independent_decode_and_restore_exact": true,
+      "encode_decode_hidden_identity": true,
+      "hidden_sha256": "5ea9d9869c49cca18c50a054f18a94b36f9a2dac29c3c5d54c28d0410822ef99",
+      "selected_model_bytes": 2978039,
+      "model_delta_bytes_per_copy": 0,
+      "encode_accounting": {
+        "wall_seconds": 82.97873128599895,
+        "CPU_seconds": 82.962475,
+        "peak_RSS_KiB": 5761952,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 81.14807098999881,
+        "CPU_seconds": 81.13306,
+        "peak_RSS_KiB": 5761564,
+        "returncode": 0
+      },
+      "cutoff": 107,
+      "known_bytes": 2972,
+      "raw_context_preserves_original_hidden": true
+    },
+    {
+      "name": "raw_context_cut1392",
+      "native_main_bytes": 3770,
+      "side_bytes": 5027,
+      "container_bytes": 8810,
+      "gain_vs_original_native_before_new_package_bytes": -3125,
+      "independent_decode_and_restore_exact": true,
+      "encode_decode_hidden_identity": true,
+      "hidden_sha256": "5ea9d9869c49cca18c50a054f18a94b36f9a2dac29c3c5d54c28d0410822ef99",
+      "selected_model_bytes": 2978039,
+      "model_delta_bytes_per_copy": 0,
+      "encode_accounting": {
+        "wall_seconds": 82.4799364190003,
+        "CPU_seconds": 82.464991,
+        "peak_RSS_KiB": 5761868,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 81.30059125999833,
+        "CPU_seconds": 81.285188,
+        "peak_RSS_KiB": 5761604,
+        "returncode": 0
+      },
+      "cutoff": 1392,
+      "known_bytes": 5648,
+      "raw_context_preserves_original_hidden": true
+    },
+    {
+      "name": "raw_context_cut8372",
+      "native_main_bytes": 3024,
+      "side_bytes": 7633,
+      "container_bytes": 10670,
+      "gain_vs_original_native_before_new_package_bytes": -4985,
+      "independent_decode_and_restore_exact": true,
+      "encode_decode_hidden_identity": true,
+      "hidden_sha256": "5ea9d9869c49cca18c50a054f18a94b36f9a2dac29c3c5d54c28d0410822ef99",
+      "selected_model_bytes": 2978039,
+      "model_delta_bytes_per_copy": 0,
+      "encode_accounting": {
+        "wall_seconds": 81.50257800100007,
+        "CPU_seconds": 81.48755799999999,
+        "peak_RSS_KiB": 5761916,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 80.56130981300157,
+        "CPU_seconds": 80.545577,
+        "peak_RSS_KiB": 5761416,
+        "returncode": 0
+      },
+      "cutoff": 8372,
+      "known_bytes": 8527,
+      "raw_context_preserves_original_hidden": true
+    },
+    {
+      "name": "masked_context_cut1392",
+      "native_main_bytes": 4630,
+      "side_bytes": 5027,
+      "container_bytes": 9670,
+      "gain_vs_original_native_before_new_package_bytes": -3985,
+      "independent_decode_and_restore_exact": true,
+      "encode_decode_hidden_identity": true,
+      "hidden_sha256": "d12da754f8787c77bda32252178d5123c950689d24fb30d29adfd433254d6d22",
+      "selected_model_bytes": 2978039,
+      "model_delta_bytes_per_copy": 0,
+      "encode_accounting": {
+        "wall_seconds": 82.24242519299878,
+        "CPU_seconds": 82.228021,
+        "peak_RSS_KiB": 5720916,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 81.73381345099915,
+        "CPU_seconds": 81.718824,
+        "peak_RSS_KiB": 5720580,
+        "returncode": 0
+      },
+      "cutoff": 1392,
+      "known_bytes": 5648
+    },
+    {
+      "name": "raw_context_cut1392_common_specialist",
+      "native_main_bytes": 3616,
+      "side_bytes": 5027,
+      "container_bytes": 8656,
+      "gain_vs_original_native_before_new_package_bytes": -2971,
+      "independent_decode_and_restore_exact": true,
+      "encode_decode_hidden_identity": true,
+      "hidden_sha256": "db5e45bdd1ed7e0038d167f6a9922bf880957e9ed6c26075f68812f8ed0366fc",
+      "selected_model_bytes": 3063966,
+      "model_delta_bytes_per_copy": 85927,
+      "encode_accounting": {
+        "wall_seconds": 81.79387270200095,
+        "CPU_seconds": 81.779018,
+        "peak_RSS_KiB": 5761780,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 81.29634362400247,
+        "CPU_seconds": 81.280253,
+        "peak_RSS_KiB": 5761580,
+        "returncode": 0
+      },
+      "cutoff": 1392,
+      "known_bytes": 5648
+    }
+  ],
+  "scratch": "/root/hp_round9/known_literals_v1",
+  "literal_split_reference_sha256": "fca8edbd6964521697183828774d785db560cc8e97b8714b0fa8425aa14d54ba",
+  "worker_sha256": "e671a84eba5e02bf0a90df658f8df7fa8f707ea9d1d4fbdc1819497a4d5e1b98",
+  "runner_source_sha256": "323631197a0508f0610650c25d014727b2527358c1eb2cee07e1c4cc5e8915c5",
+  "stage": "known constants/contexts/common-specialist combinations actually tested; full package and independent corpus remain open",
+  "build_accounting": {
+    "wall_seconds": 19.907713818000047,
+    "CPU_seconds": 26.500219,
+    "peak_RSS_KiB": 171280,
+    "returncode": 0
+  },
+  "binary": {
+    "sha256": "d4a1b35ee8b87ef558f4ae1e56309286740e0823ebcfa15d3da5dd24de4eb411",
+    "bytes": 498096,
+    "lab_delta_vs_teacher": 992
+  },
+  "baseline": {
+    "archive_bytes": 5685,
+    "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+    "independent_decode_exact": true,
+    "encode_accounting": {
+      "wall_seconds": 120.83087807899938,
+      "CPU_seconds": 119.936107,
+      "peak_RSS_KiB": 5760872,
+      "returncode": 0
+    },
+    "decode_accounting": {
+      "wall_seconds": 113.38206441999864,
+      "CPU_seconds": 112.816209,
+      "peak_RSS_KiB": 5760720,
+      "returncode": 0
+    }
+  },
+  "contract": {
+    "word_filter": "same full literal/OOV/body-word supervision as loss-mask pilot; positions and bytes paid in independent side stream",
+    "known_bits": "native Predict and Perceive still execute for each bit; arithmetic interval is unchanged",
+    "raw_context": "insert original side-supplied literal bytes into decoded history; no redacted context penalty",
+    "mask_context": "feed known spaces and restore original rare bytes after main decode",
+    "side_causality": "unknown known-values file entries are required to be zero; only side-supplied literals enter decoder",
+    "streaming": "native known-byte helper reads sequential files in constant memory; prototype Python side preparation is small65KiB, full production side parser/loader pending",
+    "artifact_price": "13B container + compressed side + actual native main archive; lab executable delta and weight delta recorded, full packaged decoder still pending",
+    "models": "unchanged selected core and one already-trained1392zero common specialist",
+    "confirmation": "previously viewed early65KiB prefix; independent corpus required"
+  },
+  "neutral": {
+    "archive_identity": true,
+    "independent_decode_exact": true,
+    "encoder_decoder_hidden_identity": true,
+    "hidden_sha256": "5ea9d9869c49cca18c50a054f18a94b36f9a2dac29c3c5d54c28d0410822ef99"
+  },
+  "finished": 1791311624.8978307,
+  "full_package_qualified": false
+}

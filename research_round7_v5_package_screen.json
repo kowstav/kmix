@@ -1,0 +1,20 @@
+{
+  "measurement": "matched unprofiled lab executables; not the final round6 PGO production package",
+  "executables": [
+    {
+      "name": "original",
+      "unpacked_bytes": 497744,
+      "packed_bytes": 183412,
+      "sha256": "e28de992925283f9dcf6908211fad845fd309e6859c6453b6e6c6fbf6b423c89"
+    },
+    {
+      "name": "v5",
+      "unpacked_bytes": 497744,
+      "packed_bytes": 184180,
+      "sha256": "f1a57cfe19b879fd5fce3bebcc4775dc2d8d8fbf867ee00a2e2caf1b405f6cd5"
+    }
+  ],
+  "incremental_packed_loader_bytes": 768,
+  "reference_two_copy_net_saving_bytes": 54864,
+  "candidate_bf16_two_copy_net_saving_bytes": 54862
+}

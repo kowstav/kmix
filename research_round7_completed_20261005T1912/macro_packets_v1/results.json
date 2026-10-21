@@ -1,0 +1,126 @@
+[
+  {
+    "slice": "a",
+    "raw_bytes": 2000000,
+    "templates": 256,
+    "covered_lines": 10467,
+    "covered_native_bits": 21226.952738370106,
+    "all_native_bits": 1498904.6940895126,
+    "raw_packet_bytes": 1706141,
+    "packet_sha256": "2e04e0caa7a354080c732fd3096ef259e0c98b2b24fb894992ed7f535310f3fb",
+    "raw_roundtrip": "PASS",
+    "model_pool_raw_bytes": 10192,
+    "model_pool_zlib_bytes": 3734,
+    "relaxed_native_ceiling_bytes_two_copy_pool": -4814.630907703737,
+    "ceiling_relaxation": "Selected-line framing, IDs, variables, misses, code and runtime all free; this is an optimistic diagnostic for this frozen template pool, not an attainable gain.",
+    "codecs": {
+      "zlib9": {
+        "baseline_bytes": 578411,
+        "candidate_bytes_one_pool_in_packet": 602124,
+        "delta_bytes": 23713,
+        "delta_percent": 4.099679985339155,
+        "extra_second_pool_if_hardcoded": 3734
+      },
+      "lzma6": {
+        "baseline_bytes": 412880,
+        "candidate_bytes_one_pool_in_packet": 436632,
+        "delta_bytes": 23752,
+        "delta_percent": 5.752761092811465,
+        "extra_second_pool_if_hardcoded": 3576
+      }
+    }
+  },
+  {
+    "slice": "b",
+    "raw_bytes": 2000000,
+    "templates": 256,
+    "covered_lines": 1503,
+    "covered_native_bits": 14283.231943130144,
+    "all_native_bits": 3496329.124293368,
+    "raw_packet_bytes": 2071336,
+    "packet_sha256": "95bd74fc66f447d9f08b3d83b13927a9bbe01f7fd87c145ff086622f09373aa2",
+    "raw_roundtrip": "PASS",
+    "model_pool_raw_bytes": 10192,
+    "model_pool_zlib_bytes": 3734,
+    "relaxed_native_ceiling_bytes_two_copy_pool": -5682.596007108732,
+    "ceiling_relaxation": "Selected-line framing, IDs, variables, misses, code and runtime all free; this is an optimistic diagnostic for this frozen template pool, not an attainable gain.",
+    "codecs": {
+      "zlib9": {
+        "baseline_bytes": 1002503,
+        "candidate_bytes_one_pool_in_packet": 1058064,
+        "delta_bytes": 55561,
+        "delta_percent": 5.542227803807065,
+        "extra_second_pool_if_hardcoded": 3734
+      },
+      "lzma6": {
+        "baseline_bytes": 814040,
+        "candidate_bytes_one_pool_in_packet": 852220,
+        "delta_bytes": 38180,
+        "delta_percent": 4.690187214387498,
+        "extra_second_pool_if_hardcoded": 3576
+      }
+    }
+  },
+  {
+    "slice": "c",
+    "raw_bytes": 2000000,
+    "templates": 256,
+    "covered_lines": 309,
+    "covered_native_bits": 1994.3627221161732,
+    "all_native_bits": 3576191.459233431,
+    "raw_packet_bytes": 2087373,
+    "packet_sha256": "000f68667297a526d6810e9f5fba74deeb2ea919a325f9f9a2e9b05e58e184da",
+    "raw_roundtrip": "PASS",
+    "model_pool_raw_bytes": 10192,
+    "model_pool_zlib_bytes": 3734,
+    "relaxed_native_ceiling_bytes_two_copy_pool": -7218.704659735478,
+    "ceiling_relaxation": "Selected-line framing, IDs, variables, misses, code and runtime all free; this is an optimistic diagnostic for this frozen template pool, not an attainable gain.",
+    "codecs": {
+      "zlib9": {
+        "baseline_bytes": 1026047,
+        "candidate_bytes_one_pool_in_packet": 1080471,
+        "delta_bytes": 54424,
+        "delta_percent": 5.304240449024267,
+        "extra_second_pool_if_hardcoded": 3734
+      },
+      "lzma6": {
+        "baseline_bytes": 836588,
+        "candidate_bytes_one_pool_in_packet": 874060,
+        "delta_bytes": 37472,
+        "delta_percent": 4.479146246419985,
+        "extra_second_pool_if_hardcoded": 3576
+      }
+    }
+  },
+  {
+    "slice": "d",
+    "raw_bytes": 2000000,
+    "templates": 256,
+    "covered_lines": 7,
+    "covered_native_bits": 358.2561276971828,
+    "all_native_bits": 3514746.506749955,
+    "raw_packet_bytes": 2079067,
+    "packet_sha256": "4bd998f81f890f22c8cb780e868284be8bad6f142e1d810198552a1e458c2bee",
+    "raw_roundtrip": "PASS",
+    "model_pool_raw_bytes": 10192,
+    "model_pool_zlib_bytes": 3734,
+    "relaxed_native_ceiling_bytes_two_copy_pool": -7423.217984037852,
+    "ceiling_relaxation": "Selected-line framing, IDs, variables, misses, code and runtime all free; this is an optimistic diagnostic for this frozen template pool, not an attainable gain.",
+    "codecs": {
+      "zlib9": {
+        "baseline_bytes": 1016504,
+        "candidate_bytes_one_pool_in_packet": 1066089,
+        "delta_bytes": 49585,
+        "delta_percent": 4.877993593729091,
+        "extra_second_pool_if_hardcoded": 3734
+      },
+      "lzma6": {
+        "baseline_bytes": 831320,
+        "candidate_bytes_one_pool_in_packet": 864964,
+        "delta_bytes": 33644,
+        "delta_percent": 4.047057691382383,
+        "extra_second_pool_if_hardcoded": 3576
+      }
+    }
+  }
+]

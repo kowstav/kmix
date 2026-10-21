@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.query_convolution.weight",
+  "names": [
+    "blocks.10.attention.query_convolution.weight"
+  ],
+  "label": "a1e73653970877998eea52ea",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1521
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1593
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1491
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1496
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1422
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1485
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1521
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1593
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1491
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1521
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1593
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1491
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1518
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1573
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1494
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1698
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1695
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1685
+    }
+  ],
+  "selected": [
+    1422,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "ac08bb8acdc96a09897831f400696b03382bec53ff2e58d766ecf44475ba9ecf",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.017291000000001375,
+  "wall_seconds": 0.020497046000002683
+}

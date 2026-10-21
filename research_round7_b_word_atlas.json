@@ -1,0 +1,2837 @@
+{
+  "slice": "b",
+  "encoded_bytes": 2000000,
+  "decoded_bytes": 3502104,
+  "reference_prefix_verified": false,
+  "final_coder_bytes": 427095.00904594886,
+  "neural_bits_per_byte": 1.742430915790677,
+  "ascii_word_occurrences": 513255,
+  "ascii_word_types": 21111,
+  "word_final_bytes": 351083.50882015517,
+  "word_share_final_bits": 0.8220267186086082,
+  "dictionary_word_final_bytes": 313394.3286622608,
+  "word_cost_partition_error_bits": -4.656612873077393e-10,
+  "categories": {
+    "capitalized": [
+      78581,
+      497721.456185882,
+      515415.1712299618
+    ],
+    "lowercase": [
+      414255,
+      2177274.4639293975,
+      2210536.3956223633
+    ],
+    "allcaps": [
+      20419,
+      133672.1504459622,
+      141571.88456997293
+    ]
+  },
+  "top_total_bits": [
+    {
+      "word": "the",
+      "occurrences": 26601,
+      "final_bits": 56361.19341813284,
+      "neural_bits": 56514.81519714897,
+      "bits_per_occurrence": 2.118762205110065,
+      "max_occurrence_bits": 18.652626037597656,
+      "dictionary_occurrences": 26601,
+      "encoded_bytes": 30140
+    },
+    {
+      "word": "a",
+      "occurrences": 12437,
+      "final_bits": 37462.948604239384,
+      "neural_bits": 37707.42143860492,
+      "bits_per_occurrence": 3.0122174643595225,
+      "max_occurrence_bits": 16.168317794799805,
+      "dictionary_occurrences": 12437,
+      "encoded_bytes": 13867
+    },
+    {
+      "word": "in",
+      "occurrences": 8661,
+      "final_bits": 30331.74965731334,
+      "neural_bits": 30731.64559991393,
+      "bits_per_occurrence": 3.502107107414079,
+      "max_occurrence_bits": 20.165409564971924,
+      "dictionary_occurrences": 8661,
+      "encoded_bytes": 10478
+    },
+    {
+      "word": "and",
+      "occurrences": 10414,
+      "final_bits": 29994.075288531138,
+      "neural_bits": 30289.503144886425,
+      "bits_per_occurrence": 2.880168550848006,
+      "max_occurrence_bits": 19.29275401146151,
+      "dictionary_occurrences": 10414,
+      "encoded_bytes": 10453
+    },
+    {
+      "word": "to",
+      "occurrences": 11853,
+      "final_bits": 23131.589564182563,
+      "neural_bits": 23687.469410584657,
+      "bits_per_occurrence": 1.9515388141552825,
+      "max_occurrence_bits": 16.82568359375,
+      "dictionary_occurrences": 11853,
+      "encoded_bytes": 11977
+    },
+    {
+      "word": "for",
+      "occurrences": 4907,
+      "final_bits": 17799.28181604366,
+      "neural_bits": 17693.90906133813,
+      "bits_per_occurrence": 3.627324600783301,
+      "max_occurrence_bits": 19.252660751342773,
+      "dictionary_occurrences": 4907,
+      "encoded_bytes": 5330
+    },
+    {
+      "word": "of",
+      "occurrences": 12396,
+      "final_bits": 15802.482575509348,
+      "neural_bits": 15941.100791976716,
+      "bits_per_occurrence": 1.274804983503497,
+      "max_occurrence_bits": 15.409143209457397,
+      "dictionary_occurrences": 12396,
+      "encoded_bytes": 12431
+    },
+    {
+      "word": "is",
+      "occurrences": 7575,
+      "final_bits": 14927.06675811042,
+      "neural_bits": 15527.781756126658,
+      "bits_per_occurrence": 1.9705698690574813,
+      "max_occurrence_bits": 21.052928686141968,
+      "dictionary_occurrences": 7575,
+      "encoded_bytes": 7734
+    },
+    {
+      "word": "or",
+      "occurrences": 3379,
+      "final_bits": 13752.159582012333,
+      "neural_bits": 13676.512454829432,
+      "bits_per_occurrence": 4.069890376446384,
+      "max_occurrence_bits": 16.52406883239746,
+      "dictionary_occurrences": 3379,
+      "encoded_bytes": 3392
+    },
+    {
+      "word": "network",
+      "occurrences": 3200,
+      "final_bits": 12212.992934713373,
+      "neural_bits": 12791.502536211305,
+      "bits_per_occurrence": 3.816560292097929,
+      "max_occurrence_bits": 27.048011362552643,
+      "dictionary_occurrences": 3200,
+      "encoded_bytes": 6950
+    },
+    {
+      "word": "an",
+      "occurrences": 2250,
+      "final_bits": 12141.155316594755,
+      "neural_bits": 12318.656334089492,
+      "bits_per_occurrence": 5.396069029597669,
+      "max_occurrence_bits": 18.320327758789062,
+      "dictionary_occurrences": 2250,
+      "encoded_bytes": 2497
+    },
+    {
+      "word": "with",
+      "occurrences": 2933,
+      "final_bits": 11756.856851306278,
+      "neural_bits": 11666.648186036005,
+      "bits_per_occurrence": 4.008474889637326,
+      "max_occurrence_bits": 15.527848243713379,
+      "dictionary_occurrences": 2933,
+      "encoded_bytes": 3052
+    },
+    {
+      "word": "on",
+      "occurrences": 2708,
+      "final_bits": 11694.97212492465,
+      "neural_bits": 11624.450456888313,
+      "bits_per_occurrence": 4.318675083059325,
+      "max_occurrence_bits": 17.353239059448242,
+      "dictionary_occurrences": 2708,
+      "encoded_bytes": 2859
+    },
+    {
+      "word": "that",
+      "occurrences": 3265,
+      "final_bits": 11300.220564179122,
+      "neural_bits": 11291.1560987458,
+      "bits_per_occurrence": 3.4610170181253057,
+      "max_occurrence_bits": 15.57466983795166,
+      "dictionary_occurrences": 3265,
+      "encoded_bytes": 3310
+    },
+    {
+      "word": "as",
+      "occurrences": 3756,
+      "final_bits": 11219.515935354168,
+      "neural_bits": 11083.63015470597,
+      "bits_per_occurrence": 2.9870915695831117,
+      "max_occurrence_bits": 19.198004245758057,
+      "dictionary_occurrences": 3756,
+      "encoded_bytes": 4023
+    },
+    {
+      "word": "this",
+      "occurrences": 2285,
+      "final_bits": 10442.668884724379,
+      "neural_bits": 10490.41937373703,
+      "bits_per_occurrence": 4.570095792001916,
+      "max_occurrence_bits": 18.622955322265625,
+      "dictionary_occurrences": 2285,
+      "encoded_bytes": 3352
+    },
+    {
+      "word": "it",
+      "occurrences": 2388,
+      "final_bits": 9921.704761480913,
+      "neural_bits": 9926.655055014922,
+      "bits_per_occurrence": 4.154817739313615,
+      "max_occurrence_bits": 16.570701599121094,
+      "dictionary_occurrences": 2388,
+      "encoded_bytes": 3114
+    },
+    {
+      "word": "at",
+      "occurrences": 1653,
+      "final_bits": 9659.96507248166,
+      "neural_bits": 9712.973220782009,
+      "bits_per_occurrence": 5.843899015415403,
+      "max_occurrence_bits": 18.653628826141357,
+      "dictionary_occurrences": 1653,
+      "encoded_bytes": 1877
+    },
+    {
+      "word": "data",
+      "occurrences": 1862,
+      "final_bits": 9523.303322433028,
+      "neural_bits": 9885.603844333124,
+      "bits_per_occurrence": 5.114556027085407,
+      "max_occurrence_bits": 17.12641477584839,
+      "dictionary_occurrences": 1862,
+      "encoded_bytes": 3957
+    },
+    {
+      "word": "by",
+      "occurrences": 2974,
+      "final_bits": 9454.987833580235,
+      "neural_bits": 9339.669365578406,
+      "bits_per_occurrence": 3.1792158149227423,
+      "max_occurrence_bits": 15.214799880981445,
+      "dictionary_occurrences": 2974,
+      "encoded_bytes": 3065
+    },
+    {
+      "word": "one",
+      "occurrences": 1327,
+      "final_bits": 8032.939902258106,
+      "neural_bits": 7839.868142648655,
+      "bits_per_occurrence": 6.053458856260818,
+      "max_occurrence_bits": 21.608181476593018,
+      "dictionary_occurrences": 1327,
+      "encoded_bytes": 1484
+    },
+    {
+      "word": "which",
+      "occurrences": 1878,
+      "final_bits": 7842.368724721018,
+      "neural_bits": 7715.650756930852,
+      "bits_per_occurrence": 4.175915188882331,
+      "max_occurrence_bits": 16.459399700164795,
+      "dictionary_occurrences": 1878,
+      "encoded_bytes": 1882
+    },
+    {
+      "word": "from",
+      "occurrences": 2137,
+      "final_bits": 7601.98598536104,
+      "neural_bits": 7611.591691054222,
+      "bits_per_occurrence": 3.557316792401048,
+      "max_occurrence_bits": 16.54186163842678,
+      "dictionary_occurrences": 2137,
+      "encoded_bytes": 2240
+    },
+    {
+      "word": "used",
+      "occurrences": 1906,
+      "final_bits": 7576.082221932709,
+      "neural_bits": 7622.666445142735,
+      "bits_per_occurrence": 3.9748595078345796,
+      "max_occurrence_bits": 18.193279266357422,
+      "dictionary_occurrences": 1906,
+      "encoded_bytes": 1924
+    },
+    {
+      "word": "internet",
+      "occurrences": 1482,
+      "final_bits": 7216.8859490896575,
+      "neural_bits": 7606.262512146062,
+      "bits_per_occurrence": 4.869693622867516,
+      "max_occurrence_bits": 19.74241530895233,
+      "dictionary_occurrences": 1482,
+      "encoded_bytes": 4211
+    },
+    {
+      "word": "are",
+      "occurrences": 3189,
+      "final_bits": 7055.958663970698,
+      "neural_bits": 7263.395744229594,
+      "bits_per_occurrence": 2.2125928704831286,
+      "max_occurrence_bits": 16.775432586669922,
+      "dictionary_occurrences": 3189,
+      "encoded_bytes": 3194
+    },
+    {
+      "word": "can",
+      "occurrences": 1726,
+      "final_bits": 6937.390156901907,
+      "neural_bits": 6741.356741093095,
+      "bits_per_occurrence": 4.019345397973295,
+      "max_occurrence_bits": 16.026532530784607,
+      "dictionary_occurrences": 1726,
+      "encoded_bytes": 1765
+    },
+    {
+      "word": "telephone",
+      "occurrences": 1439,
+      "final_bits": 6765.353743083309,
+      "neural_bits": 7364.04895257506,
+      "bits_per_occurrence": 4.701427201586734,
+      "max_occurrence_bits": 39.24940860271454,
+      "dictionary_occurrences": 1439,
+      "encoded_bytes": 3120
+    },
+    {
+      "word": "use",
+      "occurrences": 1132,
+      "final_bits": 6092.080062523601,
+      "neural_bits": 6134.04834311061,
+      "bits_per_occurrence": 5.381696168307068,
+      "max_occurrence_bits": 15.928399085998535,
+      "dictionary_occurrences": 1132,
+      "encoded_bytes": 2292
+    },
+    {
+      "word": "not",
+      "occurrences": 1525,
+      "final_bits": 6087.953856228385,
+      "neural_bits": 6207.3199193177325,
+      "bits_per_occurrence": 3.9921008893300884,
+      "max_occurrence_bits": 21.663384437561035,
+      "dictionary_occurrences": 1525,
+      "encoded_bytes": 1598
+    },
+    {
+      "word": "other",
+      "occurrences": 1201,
+      "final_bits": 5975.475710517028,
+      "neural_bits": 5824.302760283284,
+      "bits_per_occurrence": 4.975416911338075,
+      "max_occurrence_bits": 17.96075201034546,
+      "dictionary_occurrences": 1201,
+      "encoded_bytes": 1299
+    },
+    {
+      "word": "also",
+      "occurrences": 1506,
+      "final_bits": 5783.998743481352,
+      "neural_bits": 5736.564320899267,
+      "bits_per_occurrence": 3.8406366158574716,
+      "max_occurrence_bits": 15.542627334594727,
+      "dictionary_occurrences": 1506,
+      "encoded_bytes": 1574
+    },
+    {
+      "word": "all",
+      "occurrences": 949,
+      "final_bits": 5762.526391344611,
+      "neural_bits": 5666.013024029595,
+      "bits_per_occurrence": 6.07220905305017,
+      "max_occurrence_bits": 18.55451774597168,
+      "dictionary_occurrences": 949,
+      "encoded_bytes": 1095
+    },
+    {
+      "word": "service",
+      "occurrences": 1297,
+      "final_bits": 5704.546866179793,
+      "neural_bits": 5974.281506945183,
+      "bits_per_occurrence": 4.398262811241167,
+      "max_occurrence_bits": 16.932178497314453,
+      "dictionary_occurrences": 1297,
+      "encoded_bytes": 2835
+    },
+    {
+      "word": "some",
+      "occurrences": 885,
+      "final_bits": 5566.702427528333,
+      "neural_bits": 5474.75347938516,
+      "bits_per_occurrence": 6.290059240145009,
+      "max_occurrence_bits": 18.732728958129883,
+      "dictionary_occurrences": 885,
+      "encoded_bytes": 1160
+    },
+    {
+      "word": "number",
+      "occurrences": 1299,
+      "final_bits": 5511.174111516797,
+      "neural_bits": 5865.083216268722,
+      "bits_per_occurrence": 4.242628261367819,
+      "max_occurrence_bits": 18.458663940429688,
+      "dictionary_occurrences": 1299,
+      "encoded_bytes": 2657
+    },
+    {
+      "word": "most",
+      "occurrences": 761,
+      "final_bits": 5477.613683413714,
+      "neural_bits": 5512.026913655419,
+      "bits_per_occurrence": 7.19791548411789,
+      "max_occurrence_bits": 17.741008758544922,
+      "dictionary_occurrences": 761,
+      "encoded_bytes": 897
+    },
+    {
+      "word": "call",
+      "occurrences": 994,
+      "final_bits": 5357.931591612869,
+      "neural_bits": 5639.064871146664,
+      "bits_per_occurrence": 5.390273230998862,
+      "max_occurrence_bits": 20.185707092285156,
+      "dictionary_occurrences": 994,
+      "encoded_bytes": 2165
+    },
+    {
+      "word": "such",
+      "occurrences": 1083,
+      "final_bits": 5299.961840792559,
+      "neural_bits": 5212.730947705506,
+      "bits_per_occurrence": 4.893778246345853,
+      "max_occurrence_bits": 13.788055419921875,
+      "dictionary_occurrences": 1083,
+      "encoded_bytes": 1131
+    },
+    {
+      "word": "was",
+      "occurrences": 1837,
+      "final_bits": 5180.318249715492,
+      "neural_bits": 5193.98324155549,
+      "bits_per_occurrence": 2.819988159888673,
+      "max_occurrence_bits": 23.02573251724243,
+      "dictionary_occurrences": 1837,
+      "encoded_bytes": 1839
+    },
+    {
+      "word": "only",
+      "occurrences": 717,
+      "final_bits": 5163.998320463579,
+      "neural_bits": 5064.717059290254,
+      "bits_per_occurrence": 7.2022291777734715,
+      "max_occurrence_bits": 16.045652389526367,
+      "dictionary_occurrences": 717,
+      "encoded_bytes": 740
+    },
+    {
+      "word": "over",
+      "occurrences": 798,
+      "final_bits": 5161.98137233872,
+      "neural_bits": 5473.366520007996,
+      "bits_per_occurrence": 6.46864833626406,
+      "max_occurrence_bits": 19.1728093624115,
+      "dictionary_occurrences": 798,
+      "encoded_bytes": 825
+    },
+    {
+      "word": "two",
+      "occurrences": 831,
+      "final_bits": 5114.804515795782,
+      "neural_bits": 5044.72800768887,
+      "bits_per_occurrence": 6.154999417323444,
+      "max_occurrence_bits": 16.279306411743164,
+      "dictionary_occurrences": 831,
+      "encoded_bytes": 875
+    },
+    {
+      "word": "each",
+      "occurrences": 803,
+      "final_bits": 5094.75444644643,
+      "neural_bits": 5315.539324945088,
+      "bits_per_occurrence": 6.344650618239639,
+      "max_occurrence_bits": 19.496055603027344,
+      "dictionary_occurrences": 803,
+      "encoded_bytes": 1718
+    },
+    {
+      "word": "more",
+      "occurrences": 859,
+      "final_bits": 5082.805021248758,
+      "neural_bits": 5005.513501466546,
+      "bits_per_occurrence": 5.917118767460719,
+      "max_occurrence_bits": 24.79903221130371,
+      "dictionary_occurrences": 859,
+      "encoded_bytes": 910
+    },
+    {
+      "word": "system",
+      "occurrences": 1400,
+      "final_bits": 5065.088682567119,
+      "neural_bits": 5253.15912416703,
+      "bits_per_occurrence": 3.617920487547942,
+      "max_occurrence_bits": 17.6952805519104,
+      "dictionary_occurrences": 1400,
+      "encoded_bytes": 3037
+    },
+    {
+      "word": "protocol",
+      "occurrences": 1697,
+      "final_bits": 4756.51174311887,
+      "neural_bits": 5072.5061567429775,
+      "bits_per_occurrence": 2.802894368367042,
+      "max_occurrence_bits": 17.73906135559082,
+      "dictionary_occurrences": 1697,
+      "encoded_bytes": 4174
+    },
+    {
+      "word": "computer",
+      "occurrences": 904,
+      "final_bits": 4755.587459661881,
+      "neural_bits": 4928.200014197617,
+      "bits_per_occurrence": 5.260605596971108,
+      "max_occurrence_bits": 17.122610569000244,
+      "dictionary_occurrences": 904,
+      "encoded_bytes": 2012
+    },
+    {
+      "word": "when",
+      "occurrences": 757,
+      "final_bits": 4711.1130222347565,
+      "neural_bits": 4742.613430849328,
+      "bits_per_occurrence": 6.223398972569031,
+      "max_occurrence_bits": 18.729780197143555,
+      "dictionary_occurrences": 757,
+      "encoded_bytes": 979
+    },
+    {
+      "word": "have",
+      "occurrences": 1147,
+      "final_bits": 4640.540654170327,
+      "neural_bits": 4574.299890307281,
+      "bits_per_occurrence": 4.045807021944487,
+      "max_occurrence_bits": 17.027130126953125,
+      "dictionary_occurrences": 1147,
+      "encoded_bytes": 1152
+    },
+    {
+      "word": "may",
+      "occurrences": 877,
+      "final_bits": 4543.07126774732,
+      "neural_bits": 4514.505855940191,
+      "bits_per_occurrence": 5.180240898229555,
+      "max_occurrence_bits": 25.334097385406494,
+      "dictionary_occurrences": 877,
+      "encoded_bytes": 927
+    },
+    {
+      "word": "access",
+      "occurrences": 922,
+      "final_bits": 4541.307070375187,
+      "neural_bits": 4708.226162503886,
+      "bits_per_occurrence": 4.9254957379340425,
+      "max_occurrence_bits": 16.98081350326538,
+      "dictionary_occurrences": 922,
+      "encoded_bytes": 2037
+    },
+    {
+      "word": "has",
+      "occurrences": 1150,
+      "final_bits": 4537.687601292506,
+      "neural_bits": 4343.526907262327,
+      "bits_per_occurrence": 3.9458153054717444,
+      "max_occurrence_bits": 15.81994342803955,
+      "dictionary_occurrences": 1150,
+      "encoded_bytes": 1155
+    },
+    {
+      "word": "information",
+      "occurrences": 821,
+      "final_bits": 4482.366485529114,
+      "neural_bits": 4491.449933683388,
+      "bits_per_occurrence": 5.459642491509274,
+      "max_occurrence_bits": 19.266773223876953,
+      "dictionary_occurrences": 821,
+      "encoded_bytes": 1786
+    },
+    {
+      "word": "wireless",
+      "occurrences": 778,
+      "final_bits": 4439.078238509595,
+      "neural_bits": 4818.882624064752,
+      "bits_per_occurrence": 5.7057560906293,
+      "max_occurrence_bits": 18.2307890355587,
+      "dictionary_occurrences": 778,
+      "encoded_bytes": 2675
+    },
+    {
+      "word": "using",
+      "occurrences": 788,
+      "final_bits": 4438.620918972127,
+      "neural_bits": 4444.872280201709,
+      "bits_per_occurrence": 5.6327676636702115,
+      "max_occurrence_bits": 20.20845055580139,
+      "dictionary_occurrences": 788,
+      "encoded_bytes": 1607
+    },
+    {
+      "word": "networks",
+      "occurrences": 1020,
+      "final_bits": 4401.295188485179,
+      "neural_bits": 4619.063727904047,
+      "bits_per_occurrence": 4.314995282828607,
+      "max_occurrence_bits": 16.336885452270508,
+      "dictionary_occurrences": 1020,
+      "encoded_bytes": 2178
+    },
+    {
+      "word": "if",
+      "occurrences": 760,
+      "final_bits": 4251.218075723387,
+      "neural_bits": 4202.908943257575,
+      "bits_per_occurrence": 5.5937079943728785,
+      "max_occurrence_bits": 18.028106689453125,
+      "dictionary_occurrences": 760,
+      "encoded_bytes": 1044
+    },
+    {
+      "word": "many",
+      "occurrences": 661,
+      "final_bits": 4207.080025302246,
+      "neural_bits": 4175.302814693843,
+      "bits_per_occurrence": 6.364720159307483,
+      "max_occurrence_bits": 19.903059005737305,
+      "dictionary_occurrences": 661,
+      "encoded_bytes": 790
+    },
+    {
+      "word": "standard",
+      "occurrences": 987,
+      "final_bits": 4121.627969954512,
+      "neural_bits": 4338.002494396678,
+      "bits_per_occurrence": 4.175914863175797,
+      "max_occurrence_bits": 18.529623985290527,
+      "dictionary_occurrences": 987,
+      "encoded_bytes": 2369
+    },
+    {
+      "word": "phone",
+      "occurrences": 819,
+      "final_bits": 4072.7939223900903,
+      "neural_bits": 4498.007545923094,
+      "bits_per_occurrence": 4.972886352124652,
+      "max_occurrence_bits": 22.2151757478714,
+      "dictionary_occurrences": 819,
+      "encoded_bytes": 2512
+    },
+    {
+      "word": "mobile",
+      "occurrences": 732,
+      "final_bits": 4056.9940275290282,
+      "neural_bits": 4234.273771132161,
+      "bits_per_occurrence": 5.542341567662607,
+      "max_occurrence_bits": 27.133258379995823,
+      "dictionary_occurrences": 731,
+      "encoded_bytes": 1697
+    },
+    {
+      "word": "these",
+      "occurrences": 699,
+      "final_bits": 3990.1263923142105,
+      "neural_bits": 3875.176952446766,
+      "bits_per_occurrence": 5.708335325199156,
+      "max_occurrence_bits": 19.509844303131104,
+      "dictionary_occurrences": 699,
+      "encoded_bytes": 945
+    },
+    {
+      "word": "packet",
+      "occurrences": 716,
+      "final_bits": 3946.5280772270635,
+      "neural_bits": 4318.25901035039,
+      "bits_per_occurrence": 5.511910722384167,
+      "max_occurrence_bits": 19.13092350959778,
+      "dictionary_occurrences": 716,
+      "encoded_bytes": 2255
+    },
+    {
+      "word": "there",
+      "occurrences": 654,
+      "final_bits": 3922.3566078757867,
+      "neural_bits": 3867.5479488366163,
+      "bits_per_occurrence": 5.99748716800579,
+      "max_occurrence_bits": 18.87250328063965,
+      "dictionary_occurrences": 654,
+      "encoded_bytes": 901
+    },
+    {
+      "word": "transmission",
+      "occurrences": 781,
+      "final_bits": 3916.50236276153,
+      "neural_bits": 4194.970293943346,
+      "bits_per_occurrence": 5.014727737210666,
+      "max_occurrence_bits": 15.789971590042114,
+      "dictionary_occurrences": 781,
+      "encoded_bytes": 1652
+    },
+    {
+      "word": "its",
+      "occurrences": 645,
+      "final_bits": 3892.6402023248374,
+      "neural_bits": 3835.6959346933318,
+      "bits_per_occurrence": 6.035101088875717,
+      "max_occurrence_bits": 14.169811248779297,
+      "dictionary_occurrences": 645,
+      "encoded_bytes": 667
+    },
+    {
+      "word": "local",
+      "occurrences": 554,
+      "final_bits": 3884.567065709969,
+      "neural_bits": 4065.5051793519524,
+      "bits_per_occurrence": 7.01185390922377,
+      "max_occurrence_bits": 19.93922185897827,
+      "dictionary_occurrences": 554,
+      "encoded_bytes": 1195
+    },
+    {
+      "word": "their",
+      "occurrences": 723,
+      "final_bits": 3833.7208584682085,
+      "neural_bits": 3750.936927413699,
+      "bits_per_occurrence": 5.302518476442889,
+      "max_occurrence_bits": 16.516164779663086,
+      "dictionary_occurrences": 723,
+      "encoded_bytes": 736
+    },
+    {
+      "word": "but",
+      "occurrences": 818,
+      "final_bits": 3814.9140944387764,
+      "neural_bits": 3685.498475663553,
+      "bits_per_occurrence": 4.663709161905595,
+      "max_occurrence_bits": 14.710803985595703,
+      "dictionary_occurrences": 818,
+      "encoded_bytes": 848
+    },
+    {
+      "word": "time",
+      "occurrences": 954,
+      "final_bits": 3797.7501339464216,
+      "neural_bits": 3930.9257960224973,
+      "bits_per_occurrence": 3.9808701613694146,
+      "max_occurrence_bits": 16.11524486541748,
+      "dictionary_occurrences": 954,
+      "encoded_bytes": 1999
+    },
+    {
+      "word": "between",
+      "occurrences": 775,
+      "final_bits": 3772.0521394764073,
+      "neural_bits": 3865.6125522811217,
+      "bits_per_occurrence": 4.8671640509372995,
+      "max_occurrence_bits": 15.544483184814453,
+      "dictionary_occurrences": 775,
+      "encoded_bytes": 783
+    },
+    {
+      "word": "digital",
+      "occurrences": 677,
+      "final_bits": 3716.656884043943,
+      "neural_bits": 3837.9687504993544,
+      "bits_per_occurrence": 5.489892000064908,
+      "max_occurrence_bits": 17.191689133644104,
+      "dictionary_occurrences": 677,
+      "encoded_bytes": 1673
+    },
+    {
+      "word": "first",
+      "occurrences": 635,
+      "final_bits": 3699.0510957352817,
+      "neural_bits": 3737.43952800885,
+      "bits_per_occurrence": 5.825277316118554,
+      "max_occurrence_bits": 15.706920146942139,
+      "dictionary_occurrences": 635,
+      "encoded_bytes": 1333
+    },
+    {
+      "word": "so",
+      "occurrences": 496,
+      "final_bits": 3650.7114978583995,
+      "neural_bits": 3640.7207083109533,
+      "bits_per_occurrence": 7.360305439230644,
+      "max_occurrence_bits": 18.424278259277344,
+      "dictionary_occurrences": 496,
+      "encoded_bytes": 539
+    },
+    {
+      "word": "any",
+      "occurrences": 574,
+      "final_bits": 3647.6461525699124,
+      "neural_bits": 3748.7770610505504,
+      "bits_per_occurrence": 6.354784237926677,
+      "max_occurrence_bits": 20.126020193099976,
+      "dictionary_occurrences": 574,
+      "encoded_bytes": 1191
+    },
+    {
+      "word": "services",
+      "occurrences": 774,
+      "final_bits": 3644.6143505035434,
+      "neural_bits": 3804.4300725902867,
+      "bits_per_occurrence": 4.708804070418014,
+      "max_occurrence_bits": 20.71013307571411,
+      "dictionary_occurrences": 774,
+      "encoded_bytes": 1671
+    },
+    {
+      "word": "systems",
+      "occurrences": 791,
+      "final_bits": 3629.1005910079693,
+      "neural_bits": 3772.509476049164,
+      "bits_per_occurrence": 4.587990633385549,
+      "max_occurrence_bits": 16.623382925987244,
+      "dictionary_occurrences": 791,
+      "encoded_bytes": 1742
+    },
+    {
+      "word": "be",
+      "occurrences": 2783,
+      "final_bits": 3548.9449734126683,
+      "neural_bits": 3517.592215530829,
+      "bits_per_occurrence": 1.275222771617919,
+      "max_occurrence_bits": 15.127433776855469,
+      "dictionary_occurrences": 2783,
+      "encoded_bytes": 2792
+    },
+    {
+      "word": "will",
+      "occurrences": 717,
+      "final_bits": 3525.2187400180846,
+      "neural_bits": 3527.432062329879,
+      "bits_per_occurrence": 4.91662306836553,
+      "max_occurrence_bits": 16.374980926513672,
+      "dictionary_occurrences": 717,
+      "encoded_bytes": 723
+    },
+    {
+      "word": "ip",
+      "occurrences": 874,
+      "final_bits": 3502.9006070246687,
+      "neural_bits": 3716.682750865868,
+      "bits_per_occurrence": 4.00789543137834,
+      "max_occurrence_bits": 18.520707607269287,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 2616
+    },
+    {
+      "word": "communications",
+      "occurrences": 809,
+      "final_bits": 3452.2363667215686,
+      "neural_bits": 3645.751164338828,
+      "bits_per_occurrence": 4.267288463191061,
+      "max_occurrence_bits": 17.346139430999756,
+      "dictionary_occurrences": 809,
+      "encoded_bytes": 1929
+    },
+    {
+      "word": "routing",
+      "occurrences": 751,
+      "final_bits": 3427.309730352601,
+      "neural_bits": 3739.421129122231,
+      "bits_per_occurrence": 4.563661425236486,
+      "max_occurrence_bits": 17.8904290497303,
+      "dictionary_occurrences": 751,
+      "encoded_bytes": 2517
+    },
+    {
+      "word": "line",
+      "occurrences": 797,
+      "final_bits": 3422.0012874128297,
+      "neural_bits": 3698.225138969792,
+      "bits_per_occurrence": 4.293602619087616,
+      "max_occurrence_bits": 19.06798791885376,
+      "dictionary_occurrences": 797,
+      "encoded_bytes": 1761
+    },
+    {
+      "word": "e",
+      "occurrences": 824,
+      "final_bits": 3408.605981435976,
+      "neural_bits": 3443.4374377782697,
+      "bits_per_occurrence": 4.136657744461136,
+      "max_occurrence_bits": 18.402705192565918,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 1140
+    },
+    {
+      "word": "radio",
+      "occurrences": 646,
+      "final_bits": 3367.8034918071935,
+      "neural_bits": 3475.5535246998043,
+      "bits_per_occurrence": 5.213318098772746,
+      "max_occurrence_bits": 28.545896291732788,
+      "dictionary_occurrences": 645,
+      "encoded_bytes": 1459
+    },
+    {
+      "word": "new",
+      "occurrences": 529,
+      "final_bits": 3360.71710927831,
+      "neural_bits": 3381.16565283777,
+      "bits_per_occurrence": 6.352962399391891,
+      "max_occurrence_bits": 19.44251012802124,
+      "dictionary_occurrences": 529,
+      "encoded_bytes": 1268
+    },
+    {
+      "word": "they",
+      "occurrences": 708,
+      "final_bits": 3340.2627217806876,
+      "neural_bits": 3311.7179799688565,
+      "bits_per_occurrence": 4.717885200255209,
+      "max_occurrence_bits": 19.00770378112793,
+      "dictionary_occurrences": 708,
+      "encoded_bytes": 839
+    },
+    {
+      "word": "link",
+      "occurrences": 621,
+      "final_bits": 3335.8203881636728,
+      "neural_bits": 3598.4160166213915,
+      "bits_per_occurrence": 5.371691446318313,
+      "max_occurrence_bits": 16.7854642868042,
+      "dictionary_occurrences": 621,
+      "encoded_bytes": 1392
+    },
+    {
+      "word": "voice",
+      "occurrences": 402,
+      "final_bits": 3304.2028936797287,
+      "neural_bits": 3475.0989158497396,
+      "bits_per_occurrence": 8.219410183282907,
+      "max_occurrence_bits": 26.0165114402771,
+      "dictionary_occurrences": 402,
+      "encoded_bytes": 870
+    },
+    {
+      "word": "connection",
+      "occurrences": 538,
+      "final_bits": 3261.144109510584,
+      "neural_bits": 3413.581365581951,
+      "bits_per_occurrence": 6.061606151506662,
+      "max_occurrence_bits": 16.821032524108887,
+      "dictionary_occurrences": 538,
+      "encoded_bytes": 1097
+    },
+    {
+      "word": "bit",
+      "occurrences": 894,
+      "final_bits": 3257.4926253122976,
+      "neural_bits": 3492.363911828448,
+      "bits_per_occurrence": 3.643727768805702,
+      "max_occurrence_bits": 21.520697563886642,
+      "dictionary_occurrences": 894,
+      "encoded_bytes": 1823
+    },
+    {
+      "word": "user",
+      "occurrences": 547,
+      "final_bits": 3245.388168139849,
+      "neural_bits": 3370.7380451372155,
+      "bits_per_occurrence": 5.9330679490673655,
+      "max_occurrence_bits": 15.116737842559814,
+      "dictionary_occurrences": 547,
+      "encoded_bytes": 1186
+    },
+    {
+      "word": "both",
+      "occurrences": 404,
+      "final_bits": 3202.8349883779883,
+      "neural_bits": 3190.111127155962,
+      "bits_per_occurrence": 7.927809377173238,
+      "max_occurrence_bits": 15.725425720214844,
+      "dictionary_occurrences": 404,
+      "encoded_bytes": 845
+    },
+    {
+      "word": "traffic",
+      "occurrences": 512,
+      "final_bits": 3187.6412942546885,
+      "neural_bits": 3218.004710326073,
+      "bits_per_occurrence": 6.225861902841189,
+      "max_occurrence_bits": 21.95777702331543,
+      "dictionary_occurrences": 512,
+      "encoded_bytes": 1090
+    },
+    {
+      "word": "signal",
+      "occurrences": 692,
+      "final_bits": 3161.42329552141,
+      "neural_bits": 3213.153870973405,
+      "bits_per_occurrence": 4.56853077387487,
+      "max_occurrence_bits": 17.183547496795654,
+      "dictionary_occurrences": 692,
+      "encoded_bytes": 1495
+    },
+    {
+      "word": "no",
+      "occurrences": 503,
+      "final_bits": 3144.7893068313133,
+      "neural_bits": 3135.33997809191,
+      "bits_per_occurrence": 6.25206621636444,
+      "max_occurrence_bits": 17.39531373977661,
+      "dictionary_occurrences": 503,
+      "encoded_bytes": 595
+    },
+    {
+      "word": "cable",
+      "occurrences": 927,
+      "final_bits": 3143.2195469003636,
+      "neural_bits": 3332.093206077254,
+      "bits_per_occurrence": 3.3907438477889573,
+      "max_occurrence_bits": 17.57972502708435,
+      "dictionary_occurrences": 927,
+      "encoded_bytes": 1973
+    },
+    {
+      "word": "control",
+      "occurrences": 635,
+      "final_bits": 3105.0559494465124,
+      "neural_bits": 3436.4094039865804,
+      "bits_per_occurrence": 4.889851888892146,
+      "max_occurrence_bits": 17.98111915588379,
+      "dictionary_occurrences": 635,
+      "encoded_bytes": 1493
+    },
+    {
+      "word": "equipment",
+      "occurrences": 527,
+      "final_bits": 3093.441175272339,
+      "neural_bits": 3253.106339138825,
+      "bits_per_occurrence": 5.869907353457949,
+      "max_occurrence_bits": 17.200092315673828,
+      "dictionary_occurrences": 527,
+      "encoded_bytes": 1095
+    }
+  ],
+  "repeated_hard_words": [
+    {
+      "word": "anycast",
+      "occurrences": 5,
+      "final_bits": 121.87728707166389,
+      "neural_bits": 136.13501031603664,
+      "bits_per_occurrence": 24.37545741433278,
+      "max_occurrence_bits": 37.32794128358364,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 38
+    },
+    {
+      "word": "routable",
+      "occurrences": 6,
+      "final_bits": 132.79545134259388,
+      "neural_bits": 151.4666760773398,
+      "bits_per_occurrence": 22.132575223765645,
+      "max_occurrence_bits": 35.42987061291933,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "texting",
+      "occurrences": 5,
+      "final_bits": 108.47183787892573,
+      "neural_bits": 121.25045240018517,
+      "bits_per_occurrence": 21.694367575785144,
+      "max_occurrence_bits": 29.214951425790787,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "survivable",
+      "occurrences": 5,
+      "final_bits": 103.57501796190627,
+      "neural_bits": 108.79223007924156,
+      "bits_per_occurrence": 20.715003592381255,
+      "max_occurrence_bits": 25.67560576274991,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 51
+    },
+    {
+      "word": "uunet",
+      "occurrences": 5,
+      "final_bits": 103.12742198631167,
+      "neural_bits": 101.0030505489558,
+      "bits_per_occurrence": 20.625484397262333,
+      "max_occurrence_bits": 28.026314072310925,
+      "dictionary_occurrences": 1,
+      "encoded_bytes": 31
+    },
+    {
+      "word": "zeroconf",
+      "occurrences": 7,
+      "final_bits": 143.71050587762147,
+      "neural_bits": 165.43781941803172,
+      "bits_per_occurrence": 20.53007226823164,
+      "max_occurrence_bits": 31.691995799541473,
+      "dictionary_occurrences": 1,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "interworking",
+      "occurrences": 6,
+      "final_bits": 122.5031923763454,
+      "neural_bits": 133.4765654768562,
+      "bits_per_occurrence": 20.4171987293909,
+      "max_occurrence_bits": 24.459658980369568,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 42
+    },
+    {
+      "word": "saturated",
+      "occurrences": 5,
+      "final_bits": 101.33858966827393,
+      "neural_bits": 105.60863934409917,
+      "bits_per_occurrence": 20.267717933654787,
+      "max_occurrence_bits": 24.774919748306274,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "proxying",
+      "occurrences": 5,
+      "final_bits": 97.97527367761359,
+      "neural_bits": 112.33034395240247,
+      "bits_per_occurrence": 19.595054735522716,
+      "max_occurrence_bits": 32.114630937576294,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 41
+    },
+    {
+      "word": "spoof",
+      "occurrences": 7,
+      "final_bits": 135.9109687609598,
+      "neural_bits": 142.60425186692737,
+      "bits_per_occurrence": 19.415852680137114,
+      "max_occurrence_bits": 22.070460538379848,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 22
+    },
+    {
+      "word": "acoustically",
+      "occurrences": 5,
+      "final_bits": 96.37381595373154,
+      "neural_bits": 111.24984424153809,
+      "bits_per_occurrence": 19.274763190746306,
+      "max_occurrence_bits": 23.586503505706787,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "provisioned",
+      "occurrences": 8,
+      "final_bits": 152.41282124631107,
+      "neural_bits": 155.72575404588133,
+      "bits_per_occurrence": 19.051602655788884,
+      "max_occurrence_bits": 23.50055928900838,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "backbones",
+      "occurrences": 5,
+      "final_bits": 94.98188543319702,
+      "neural_bits": 102.80143765220419,
+      "bits_per_occurrence": 18.996377086639406,
+      "max_occurrence_bits": 22.891507148742676,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "authenticate",
+      "occurrences": 6,
+      "final_bits": 112.59343139524572,
+      "neural_bits": 115.60614231298678,
+      "bits_per_occurrence": 18.765571899207618,
+      "max_occurrence_bits": 24.763021782040596,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "consultative",
+      "occurrences": 5,
+      "final_bits": 93.39525611698627,
+      "neural_bits": 96.14622463367414,
+      "bits_per_occurrence": 18.679051223397256,
+      "max_occurrence_bits": 21.611520290374756,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "pinout",
+      "occurrences": 8,
+      "final_bits": 149.41551106236875,
+      "neural_bits": 177.6711131548509,
+      "bits_per_occurrence": 18.676938882796094,
+      "max_occurrence_bits": 26.276746928691864,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "ethertalk",
+      "occurrences": 6,
+      "final_bits": 111.49658786924556,
+      "neural_bits": 116.6037076995708,
+      "bits_per_occurrence": 18.58276464487426,
+      "max_occurrence_bits": 41.727427899837494,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 45
+    },
+    {
+      "word": "obsoleted",
+      "occurrences": 6,
+      "final_bits": 110.87590573355556,
+      "neural_bits": 119.77813378744759,
+      "bits_per_occurrence": 18.47931762225926,
+      "max_occurrence_bits": 24.775142535567284,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "authenticating",
+      "occurrences": 6,
+      "final_bits": 109.80659176479094,
+      "neural_bits": 117.0797807611525,
+      "bits_per_occurrence": 18.301098627465155,
+      "max_occurrence_bits": 23.30605621635914,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "sipfoundry",
+      "occurrences": 5,
+      "final_bits": 91.3898676619865,
+      "neural_bits": 96.56622729683295,
+      "bits_per_occurrence": 18.2779735323973,
+      "max_occurrence_bits": 42.532371044158936,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "hooked",
+      "occurrences": 5,
+      "final_bits": 91.35100531578064,
+      "neural_bits": 93.24263618525583,
+      "bits_per_occurrence": 18.27020106315613,
+      "max_occurrence_bits": 20.532015323638916,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "telling",
+      "occurrences": 6,
+      "final_bits": 108.34057641029358,
+      "neural_bits": 108.71239990228787,
+      "bits_per_occurrence": 18.05676273504893,
+      "max_occurrence_bits": 21.559019565582275,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "tributary",
+      "occurrences": 5,
+      "final_bits": 90.20857387781143,
+      "neural_bits": 95.34680899459636,
+      "bits_per_occurrence": 18.041714775562287,
+      "max_occurrence_bits": 21.406687021255493,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "ndiswrapper",
+      "occurrences": 5,
+      "final_bits": 89.87024914193898,
+      "neural_bits": 98.42607542872429,
+      "bits_per_occurrence": 17.9740498283878,
+      "max_occurrence_bits": 50.496927350759506,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 55
+    },
+    {
+      "word": "hopes",
+      "occurrences": 5,
+      "final_bits": 89.76968920230865,
+      "neural_bits": 87.56478591356426,
+      "bits_per_occurrence": 17.95393784046173,
+      "max_occurrence_bits": 22.401334762573242,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "multipath",
+      "occurrences": 5,
+      "final_bits": 89.66782538592815,
+      "neural_bits": 88.15590851096204,
+      "bits_per_occurrence": 17.93356507718563,
+      "max_occurrence_bits": 24.63498356193304,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 19
+    },
+    {
+      "word": "diagnostic",
+      "occurrences": 8,
+      "final_bits": 143.35224881768227,
+      "neural_bits": 142.872884332377,
+      "bits_per_occurrence": 17.919031102210283,
+      "max_occurrence_bits": 21.385704517364502,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 26
+    },
+    {
+      "word": "interoperation",
+      "occurrences": 5,
+      "final_bits": 89.5427965214476,
+      "neural_bits": 89.05823193246033,
+      "bits_per_occurrence": 17.90855930428952,
+      "max_occurrence_bits": 24.522406838834286,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "initiating",
+      "occurrences": 5,
+      "final_bits": 89.26840925216675,
+      "neural_bits": 90.78628686175216,
+      "bits_per_occurrence": 17.85368185043335,
+      "max_occurrence_bits": 22.4288649559021,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "retry",
+      "occurrences": 8,
+      "final_bits": 142.3017393546179,
+      "neural_bits": 155.91882746689953,
+      "bits_per_occurrence": 17.787717419327237,
+      "max_occurrence_bits": 26.80699533224106,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "bundle",
+      "occurrences": 5,
+      "final_bits": 88.69839096069336,
+      "neural_bits": 89.17218477046117,
+      "bits_per_occurrence": 17.739678192138673,
+      "max_occurrence_bits": 20.57219362258911,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "symmetrical",
+      "occurrences": 7,
+      "final_bits": 123.77194285392761,
+      "neural_bits": 127.02136492423597,
+      "bits_per_occurrence": 17.68170612198966,
+      "max_occurrence_bits": 21.645395278930664,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 21
+    },
+    {
+      "word": "ham",
+      "occurrences": 9,
+      "final_bits": 159.06435906141996,
+      "neural_bits": 166.230680599896,
+      "bits_per_occurrence": 17.673817673491108,
+      "max_occurrence_bits": 23.59883952140808,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 33
+    },
+    {
+      "word": "sixxs",
+      "occurrences": 6,
+      "final_bits": 105.64871282782406,
+      "neural_bits": 130.0861078184098,
+      "bits_per_occurrence": 17.608118804637343,
+      "max_occurrence_bits": 28.46266746520996,
+      "dictionary_occurrences": 3,
+      "encoded_bytes": 33
+    },
+    {
+      "word": "offline",
+      "occurrences": 5,
+      "final_bits": 87.84947937726974,
+      "neural_bits": 86.00484552345006,
+      "bits_per_occurrence": 17.56989587545395,
+      "max_occurrence_bits": 23.056228637695312,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "senders",
+      "occurrences": 8,
+      "final_bits": 140.03219283372164,
+      "neural_bits": 148.39243314764462,
+      "bits_per_occurrence": 17.504024104215205,
+      "max_occurrence_bits": 22.878625109791756,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 56
+    },
+    {
+      "word": "distinctive",
+      "occurrences": 5,
+      "final_bits": 87.1862678527832,
+      "neural_bits": 89.34318986180006,
+      "bits_per_occurrence": 17.437253570556642,
+      "max_occurrence_bits": 21.547420978546143,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 10
+    },
+    {
+      "word": "classical",
+      "occurrences": 6,
+      "final_bits": 104.44258165359497,
+      "neural_bits": 98.10847150790505,
+      "bits_per_occurrence": 17.407096942265827,
+      "max_occurrence_bits": 21.44560694694519,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 13
+    },
+    {
+      "word": "chiefly",
+      "occurrences": 6,
+      "final_bits": 104.11472415924072,
+      "neural_bits": 104.28732785891043,
+      "bits_per_occurrence": 17.35245402654012,
+      "max_occurrence_bits": 20.21375322341919,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "thinnet",
+      "occurrences": 6,
+      "final_bits": 104.04730842309073,
+      "neural_bits": 121.1719820946455,
+      "bits_per_occurrence": 17.341218070515122,
+      "max_occurrence_bits": 31.764964014291763,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 44
+    },
+    {
+      "word": "geographically",
+      "occurrences": 5,
+      "final_bits": 86.4459125995636,
+      "neural_bits": 87.69844127236865,
+      "bits_per_occurrence": 17.28918251991272,
+      "max_occurrence_bits": 21.027735710144043,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "incremental",
+      "occurrences": 7,
+      "final_bits": 121.01045128703117,
+      "neural_bits": 125.54713797565637,
+      "bits_per_occurrence": 17.28720732671874,
+      "max_occurrence_bits": 24.443111300468445,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 22
+    },
+    {
+      "word": "patching",
+      "occurrences": 6,
+      "final_bits": 103.69058244209737,
+      "neural_bits": 108.3510378174251,
+      "bits_per_occurrence": 17.28176374034956,
+      "max_occurrence_bits": 23.916911562439054,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 49
+    },
+    {
+      "word": "ingress",
+      "occurrences": 5,
+      "final_bits": 86.39379385113716,
+      "neural_bits": 86.08836598997004,
+      "bits_per_occurrence": 17.278758770227434,
+      "max_occurrence_bits": 22.44278335571289,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "timeslots",
+      "occurrences": 7,
+      "final_bits": 120.38622080162168,
+      "neural_bits": 128.9815937478561,
+      "bits_per_occurrence": 17.19803154308881,
+      "max_occurrence_bits": 26.355634450912476,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 28
+    },
+    {
+      "word": "informs",
+      "occurrences": 5,
+      "final_bits": 85.61012101173401,
+      "neural_bits": 86.02207390265539,
+      "bits_per_occurrence": 17.1220242023468,
+      "max_occurrence_bits": 22.464197635650635,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "bolt",
+      "occurrences": 5,
+      "final_bits": 85.5492751300335,
+      "neural_bits": 90.17249094950967,
+      "bits_per_occurrence": 17.1098550260067,
+      "max_occurrence_bits": 20.94122552871704,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "slotted",
+      "occurrences": 9,
+      "final_bits": 153.45653417194262,
+      "neural_bits": 179.8331483838847,
+      "bits_per_occurrence": 17.050726019104737,
+      "max_occurrence_bits": 21.26394835114479,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 68
+    },
+    {
+      "word": "retransmit",
+      "occurrences": 6,
+      "final_bits": 101.85524581000209,
+      "neural_bits": 115.97531731333584,
+      "bits_per_occurrence": 16.975874301667016,
+      "max_occurrence_bits": 25.154822409152985,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 31
+    },
+    {
+      "word": "moderate",
+      "occurrences": 5,
+      "final_bits": 84.80032059550285,
+      "neural_bits": 84.37902736378601,
+      "bits_per_occurrence": 16.960064119100572,
+      "max_occurrence_bits": 22.78797149658203,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "coexistence",
+      "occurrences": 5,
+      "final_bits": 84.50260021165013,
+      "neural_bits": 92.98159887641668,
+      "bits_per_occurrence": 16.900520042330026,
+      "max_occurrence_bits": 24.397626757621765,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "buffering",
+      "occurrences": 8,
+      "final_bits": 135.08062148094177,
+      "neural_bits": 137.13569394807564,
+      "bits_per_occurrence": 16.88507768511772,
+      "max_occurrence_bits": 18.50240993499756,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 24
+    },
+    {
+      "word": "fifo",
+      "occurrences": 5,
+      "final_bits": 84.15361434593797,
+      "neural_bits": 78.2306469492978,
+      "bits_per_occurrence": 16.830722869187593,
+      "max_occurrence_bits": 20.714715242385864,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "uptake",
+      "occurrences": 6,
+      "final_bits": 100.41852663457394,
+      "neural_bits": 102.22593599837273,
+      "bits_per_occurrence": 16.73642110576232,
+      "max_occurrence_bits": 20.9146511554718,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "mega",
+      "occurrences": 5,
+      "final_bits": 83.44104528427124,
+      "neural_bits": 85.63838406993455,
+      "bits_per_occurrence": 16.688209056854248,
+      "max_occurrence_bits": 22.009288549423218,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "maxstream",
+      "occurrences": 6,
+      "final_bits": 99.71756102656946,
+      "neural_bits": 115.63640451384708,
+      "bits_per_occurrence": 16.61959350442824,
+      "max_occurrence_bits": 25.57377776503563,
+      "dictionary_occurrences": 3,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "dense",
+      "occurrences": 5,
+      "final_bits": 82.85719114542007,
+      "neural_bits": 82.78498304006644,
+      "bits_per_occurrence": 16.571438229084016,
+      "max_occurrence_bits": 26.509989023208618,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 17
+    },
+    {
+      "word": "polling",
+      "occurrences": 6,
+      "final_bits": 99.15868099033833,
+      "neural_bits": 101.15099547815043,
+      "bits_per_occurrence": 16.526446831723053,
+      "max_occurrence_bits": 19.53068733215332,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 19
+    },
+    {
+      "word": "nordic",
+      "occurrences": 8,
+      "final_bits": 131.71922469325364,
+      "neural_bits": 135.1829177949112,
+      "bits_per_occurrence": 16.464903086656705,
+      "max_occurrence_bits": 20.879364013671875,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "migration",
+      "occurrences": 6,
+      "final_bits": 98.67503333091736,
+      "neural_bits": 103.68964764208067,
+      "bits_per_occurrence": 16.445838888486225,
+      "max_occurrence_bits": 20.927406311035156,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 12
+    },
+    {
+      "word": "reserve",
+      "occurrences": 8,
+      "final_bits": 131.37044548988342,
+      "neural_bits": 133.11647391546285,
+      "bits_per_occurrence": 16.421305686235428,
+      "max_occurrence_bits": 17.981566667556763,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 17
+    },
+    {
+      "word": "asymmetrical",
+      "occurrences": 5,
+      "final_bits": 82.05730593204498,
+      "neural_bits": 85.14092430711025,
+      "bits_per_occurrence": 16.411461186408996,
+      "max_occurrence_bits": 20.236178517341614,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "configuring",
+      "occurrences": 9,
+      "final_bits": 147.6832335619256,
+      "neural_bits": 179.57640517194523,
+      "bits_per_occurrence": 16.409248173547287,
+      "max_occurrence_bits": 20.840272683417425,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 100
+    },
+    {
+      "word": "webpage",
+      "occurrences": 5,
+      "final_bits": 81.93381750583649,
+      "neural_bits": 80.01819369525765,
+      "bits_per_occurrence": 16.386763501167298,
+      "max_occurrence_bits": 20.106656074523926,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "etiquette",
+      "occurrences": 6,
+      "final_bits": 98.07130527496338,
+      "neural_bits": 105.81328097474761,
+      "bits_per_occurrence": 16.34521754582723,
+      "max_occurrence_bits": 19.713891983032227,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "tagged",
+      "occurrences": 6,
+      "final_bits": 98.01002445816994,
+      "neural_bits": 96.67164202762069,
+      "bits_per_occurrence": 16.335004076361656,
+      "max_occurrence_bits": 19.466535091400146,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "utilisation",
+      "occurrences": 7,
+      "final_bits": 114.1066857802216,
+      "neural_bits": 118.99982589646243,
+      "bits_per_occurrence": 16.30095511146023,
+      "max_occurrence_bits": 22.17935782391578,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 77
+    },
+    {
+      "word": "naps",
+      "occurrences": 5,
+      "final_bits": 81.18602036312222,
+      "neural_bits": 87.64005682291463,
+      "bits_per_occurrence": 16.237204072624444,
+      "max_occurrence_bits": 24.441203832626343,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "asynchrony",
+      "occurrences": 5,
+      "final_bits": 80.9644416369265,
+      "neural_bits": 91.56448372645536,
+      "bits_per_occurrence": 16.192888327385297,
+      "max_occurrence_bits": 27.733977768104523,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 53
+    },
+    {
+      "word": "situated",
+      "occurrences": 7,
+      "final_bits": 113.07146954536438,
+      "neural_bits": 109.67210636660457,
+      "bits_per_occurrence": 16.153067077909196,
+      "max_occurrence_bits": 18.069963932037354,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 21
+    },
+    {
+      "word": "diagnose",
+      "occurrences": 5,
+      "final_bits": 80.69175237417221,
+      "neural_bits": 81.813761229394,
+      "bits_per_occurrence": 16.138350474834443,
+      "max_occurrence_bits": 20.963735580444336,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "uart",
+      "occurrences": 8,
+      "final_bits": 128.9591374360025,
+      "neural_bits": 142.0070745284902,
+      "bits_per_occurrence": 16.11989217950031,
+      "max_occurrence_bits": 19.987492322921753,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 39
+    },
+    {
+      "word": "allocates",
+      "occurrences": 8,
+      "final_bits": 128.84744508750737,
+      "neural_bits": 130.19524690438993,
+      "bits_per_occurrence": 16.10593063593842,
+      "max_occurrence_bits": 21.280086036305875,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "offerings",
+      "occurrences": 7,
+      "final_bits": 112.706778049469,
+      "neural_bits": 112.90470620349515,
+      "bits_per_occurrence": 16.100968292781285,
+      "max_occurrence_bits": 20.964252471923828,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 22
+    },
+    {
+      "word": "localities",
+      "occurrences": 5,
+      "final_bits": 80.45415407419205,
+      "neural_bits": 80.17908862768672,
+      "bits_per_occurrence": 16.09083081483841,
+      "max_occurrence_bits": 21.759612560272217,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "dundi",
+      "occurrences": 5,
+      "final_bits": 80.43274867534637,
+      "neural_bits": 91.13210716540925,
+      "bits_per_occurrence": 16.086549735069276,
+      "max_occurrence_bits": 32.491002559661865,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 29
+    },
+    {
+      "word": "burden",
+      "occurrences": 8,
+      "final_bits": 128.5224201530218,
+      "neural_bits": 134.1823248444125,
+      "bits_per_occurrence": 16.065302519127727,
+      "max_occurrence_bits": 21.656253814697266,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 24
+    },
+    {
+      "word": "rising",
+      "occurrences": 5,
+      "final_bits": 80.23405238660052,
+      "neural_bits": 79.45726391510107,
+      "bits_per_occurrence": 16.046810477320104,
+      "max_occurrence_bits": 19.814569467678666,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 13
+    },
+    {
+      "word": "bidirectional",
+      "occurrences": 5,
+      "final_bits": 80.18652315437794,
+      "neural_bits": 78.80811579967849,
+      "bits_per_occurrence": 16.03730463087559,
+      "max_occurrence_bits": 19.68837308883667,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "attribute",
+      "occurrences": 7,
+      "final_bits": 112.22562171518803,
+      "neural_bits": 115.88054386575823,
+      "bits_per_occurrence": 16.03223167359829,
+      "max_occurrence_bits": 22.932586431503296,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 24
+    },
+    {
+      "word": "indications",
+      "occurrences": 5,
+      "final_bits": 80.14650297164917,
+      "neural_bits": 80.55800810053188,
+      "bits_per_occurrence": 16.029300594329833,
+      "max_occurrence_bits": 20.30617094039917,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "texts",
+      "occurrences": 7,
+      "final_bits": 112.18456402420998,
+      "neural_bits": 120.5121410593274,
+      "bits_per_occurrence": 16.026366289172852,
+      "max_occurrence_bits": 20.813770294189453,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "joybubbles",
+      "occurrences": 7,
+      "final_bits": 112.15065692923963,
+      "neural_bits": 147.35873854067177,
+      "bits_per_occurrence": 16.021522418462805,
+      "max_occurrence_bits": 37.04788887500763,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 49
+    },
+    {
+      "word": "mediate",
+      "occurrences": 5,
+      "final_bits": 80.07179570198059,
+      "neural_bits": 79.89858403487597,
+      "bits_per_occurrence": 16.014359140396117,
+      "max_occurrence_bits": 19.283925533294678,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "stun",
+      "occurrences": 5,
+      "final_bits": 79.83671574294567,
+      "neural_bits": 85.52700752648525,
+      "bits_per_occurrence": 15.967343148589134,
+      "max_occurrence_bits": 21.899332880973816,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 25
+    },
+    {
+      "word": "segmented",
+      "occurrences": 6,
+      "final_bits": 95.7830798625946,
+      "neural_bits": 99.55260366643779,
+      "bits_per_occurrence": 15.963846643765768,
+      "max_occurrence_bits": 20.717833518981934,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "alltel",
+      "occurrences": 5,
+      "final_bits": 79.78234278201126,
+      "neural_bits": 86.41218753659632,
+      "bits_per_occurrence": 15.956468556402251,
+      "max_occurrence_bits": 27.65067407488823,
+      "dictionary_occurrences": 1,
+      "encoded_bytes": 34
+    },
+    {
+      "word": "banking",
+      "occurrences": 5,
+      "final_bits": 79.7572774887085,
+      "neural_bits": 78.04942584910896,
+      "bits_per_occurrence": 15.9514554977417,
+      "max_occurrence_bits": 20.517854690551758,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "phil",
+      "occurrences": 5,
+      "final_bits": 79.72304083406925,
+      "neural_bits": 77.70304721033608,
+      "bits_per_occurrence": 15.94460816681385,
+      "max_occurrence_bits": 24.071133852005005,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "click",
+      "occurrences": 5,
+      "final_bits": 79.6691232174635,
+      "neural_bits": 76.7522498810431,
+      "bits_per_occurrence": 15.933824643492699,
+      "max_occurrence_bits": 25.447725296020508,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "addressee",
+      "occurrences": 6,
+      "final_bits": 95.53272161446512,
+      "neural_bits": 100.21146382193547,
+      "bits_per_occurrence": 15.922120269077519,
+      "max_occurrence_bits": 24.88736629486084,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "terrestrial",
+      "occurrences": 10,
+      "final_bits": 159.1959700183943,
+      "neural_bits": 158.904547586455,
+      "bits_per_occurrence": 15.91959700183943,
+      "max_occurrence_bits": 56.385990500450134,
+      "dictionary_occurrences": 9,
+      "encoded_bytes": 41
+    },
+    {
+      "word": "computerised",
+      "occurrences": 5,
+      "final_bits": 79.51852757111192,
+      "neural_bits": 79.10259917115036,
+      "bits_per_occurrence": 15.903705514222384,
+      "max_occurrence_bits": 20.909184105694294,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "hello",
+      "occurrences": 7,
+      "final_bits": 111.26976460777223,
+      "neural_bits": 113.91331277182326,
+      "bits_per_occurrence": 15.895680658253175,
+      "max_occurrence_bits": 22.370827555656433,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 26
+    },
+    {
+      "word": "distinctly",
+      "occurrences": 5,
+      "final_bits": 79.37997961044312,
+      "neural_bits": 79.88383066444658,
+      "bits_per_occurrence": 15.875995922088624,
+      "max_occurrence_bits": 20.87373113632202,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "nibbles",
+      "occurrences": 5,
+      "final_bits": 79.36932902224362,
+      "neural_bits": 86.2451445800616,
+      "bits_per_occurrence": 15.873865804448723,
+      "max_occurrence_bits": 25.59544011950493,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "emulation",
+      "occurrences": 5,
+      "final_bits": 79.34223473072052,
+      "neural_bits": 80.61707205325365,
+      "bits_per_occurrence": 15.868446946144104,
+      "max_occurrence_bits": 18.051950931549072,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "dongle",
+      "occurrences": 5,
+      "final_bits": 79.25092392740771,
+      "neural_bits": 90.56758045358583,
+      "bits_per_occurrence": 15.850184785481542,
+      "max_occurrence_bits": 26.927711725234985,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 33
+    },
+    {
+      "word": "wcdma",
+      "occurrences": 6,
+      "final_bits": 95.0998673029244,
+      "neural_bits": 102.12599591561593,
+      "bits_per_occurrence": 15.849977883820733,
+      "max_occurrence_bits": 18.227659482508898,
+      "dictionary_occurrences": 1,
+      "encoded_bytes": 34
+    },
+    {
+      "word": "premise",
+      "occurrences": 6,
+      "final_bits": 95.07837016880512,
+      "neural_bits": 100.0238993850071,
+      "bits_per_occurrence": 15.846395028134188,
+      "max_occurrence_bits": 21.546077728271484,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 19
+    }
+  ],
+  "top_occurrences": [
+    {
+      "word": "PinOutXLRBalanced",
+      "encoded_start": 1187493,
+      "encoded_end": 1187513,
+      "final_bits": 80.40521394181997,
+      "neural_bits": 79.85160297295079,
+      "context": " [Tip ring sleeve]\n* [RCA jack]\n* [DIN connector]\n\n==External links==\n\n* [[http://www.clarkwire.com/PinOutXLRBalanced.htm Audio usage]]\n* [[http://www.dmx512.com/web/light/dmx512/pinouts.htm Lighting control usage]]\n*"
+    },
+    {
+      "word": "Chatzigiannakis",
+      "encoded_start": 1727356,
+      "encoded_end": 1727372,
+      "final_bits": 76.26276874542236,
+      "neural_bits": 73.6378255803138,
+      "context": "uting methods namely '''Termode local routing''' and '''Terminode Remote Routing'''\n\n*[Support] - I.Chatzigiannakis, S.Nikoletseas and P.Spirakis: Distributed Communication Algorithms for Ad-hoc Mobile Networks.  In"
+    },
+    {
+      "word": "InternationalOriginsandCollaborativeVision",
+      "encoded_start": 1985131,
+      "encoded_end": 1985147,
+      "final_bits": 74.04746299982071,
+      "neural_bits": 72.25732373958454,
+      "context": " number of stages. The melting pot of developments brought together the ''network of networks''{ref|InternationalOriginsandCollaborativeVision} that we know as the ''[Internet]''. This included both technological developments, as well as the "
+    },
+    {
+      "word": "ABriefHistoryoftheInternet",
+      "encoded_start": 1990374,
+      "encoded_end": 1990393,
+      "final_bits": 70.50326789915562,
+      "neural_bits": 73.1824752856046,
+      "context": "n] and [Louis Pouzin] (designer of the [CYCLADES] network) with important work on this design. {ref|ABriefHistoryoftheInternet}\n\nWith the role of the network reduced to the bare minimum, it became possible to join almost any n"
+    },
+    {
+      "word": "LieLestoSbrat",
+      "encoded_start": 940054,
+      "encoded_end": 940069,
+      "final_bits": 70.44410741329193,
+      "neural_bits": 67.6131665832363,
+      "context": ">\n    <title>Klaxon</title>\n      <minor />\n      <comment>Reverted edits by [Special:Contributions/LieLestoSbrat|LieLestoSbrat] ([User talk:LieLestoSbrat|talk]) to last version by Thunderbrand</comment>\n      <te"
+    },
+    {
+      "word": "EZchakuuta",
+      "encoded_start": 868877,
+      "encoded_end": 868889,
+      "final_bits": 68.92916774749756,
+      "neural_bits": 68.71345268911682,
+      "context": " of music finds very strong demand by customers. Music downloads were pioneered by [KDDI] with the [EZchakuuta] and the [Chaku Uta Full] services.\n\n''Next generation (3G) wireless networks are not [IEEE 802.11]"
+    },
+    {
+      "word": "FromtheARPANETtotheInternet",
+      "encoded_start": 1988091,
+      "encoded_end": 1988112,
+      "final_bits": 68.18620673567057,
+      "neural_bits": 64.64343809848651,
+      "context": "213, with a new host being added approximately every twenty days. {ref|WhereWizardsStayUpLate} {ref|FromtheARPANETtotheInternet} \n\n[ARPANET] became the technical core of what would become the Internet, and a primary tool in dev"
+    },
+    {
+      "word": "IpzbrOOl",
+      "encoded_start": 1624124,
+      "encoded_end": 1624135,
+      "final_bits": 67.50044655799866,
+      "neural_bits": 70.92500018561259,
+      "context": "Session ID: 0000 Payload Length: 36\nPPPoE Tags\n  Tag: Service-Name \n  Tag: AC-Name\n    String Data: IpzbrOOl \n  Tag: Host-Uniq\n    Binary Data: (16 bytes)\n</pre>\n''AC-Name -> String data'' holds the AC-Name, "
+    },
+    {
+      "word": "treesaretheenemy",
+      "encoded_start": 1458019,
+      "encoded_end": 1458035,
+      "final_bits": 66.54657256603241,
+      "neural_bits": 65.54138951282948,
+      "context": "ematrix.co.uk/ Cambridge Matrix]],  Open Standards mesh for community wireless services.\n* [[http://treesaretheenemy.com/ Trees are the Enemy]],  Blog by community wireless activists.\n* [[http://www.hotspothaven.com "
+    },
+    {
+      "word": "lowescomputerhack",
+      "encoded_start": 1353308,
+      "encoded_end": 1353325,
+      "final_bits": 65.07544800639153,
+      "neural_bits": 66.9960551802069,
+      "context": ", An article on the ethics and legality of wardriving.\n*[[http://charlotte.fbi.gov/dojpressrel/2004/lowescomputerhack.htm]] '...believed to be the first conviction in the [United States] for \"wardriving.\"' \n[category:"
+    },
+    {
+      "word": "Chulalongkorn",
+      "encoded_start": 1993527,
+      "encoded_end": 1993541,
+      "final_bits": 63.777164697647095,
+      "neural_bits": 62.639462664723396,
+      "context": ". [Singapore] developed TECHNET in 1990, and [Thailand] gained a global Internet connection between Chulalongkorn University and UUNET in 1992.{ref|AsiaHist}\n\n===A digital divide===\n:''See main articles at [Digita"
+    },
+    {
+      "word": "resetNpaReportModel",
+      "encoded_start": 626425,
+      "encoded_end": 626438,
+      "final_bits": 63.22158056497574,
+      "neural_bits": 64.098408754915,
+      "context": "ncludes dialing plan information in its [[http://www.nanpa.com/nas/public/npa_query_step1.do?method=resetNpaReportModel information on individual area codes]].\n\nIn areas without overlays and without toll alerting, inclu"
+    },
+    {
+      "word": "WakeOnLanOverMobilephone",
+      "encoded_start": 1519485,
+      "encoded_end": 1519509,
+      "final_bits": 63.05343885580078,
+      "neural_bits": 69.85901072481647,
+      "context": "\ufffd OS independent java WOL utility which can be launched from browser.\n* [[http://www.wakeonlan.org/ WakeOnLanOverMobilephone]] \u2013 Wake on lan over mobile phone is a classic WakeOnLan, but you can turn on your computer over "
+    },
+    {
+      "word": "whatsmyipaddy",
+      "encoded_start": 1954353,
+      "encoded_end": 1954366,
+      "final_bits": 62.94980990886688,
+      "neural_bits": 64.21858709352091,
+      "context": " generated graphs of IPv4 address consumption with predictions of exhaustion dates]]\n* [[http://www.whatsmyipaddy.com/ Display your IP Address, Browser Information, and more]]\n* [[http://www.ripe.net/info/info-ser"
+    },
+    {
+      "word": "Aadoublejackplug",
+      "encoded_start": 1178913,
+      "encoded_end": 1178930,
+      "final_bits": 62.53744550049305,
+      "neural_bits": 60.61699665733613,
+      "context": "urers, and are used when it is desired to restrict the availability of matching connectors.\n\n[Image:Aadoublejackplug.jpg|thumb|225px|right|An obsolete six conductor, two pin jack plug]\n\nSeveral obsolete versions of t"
+    },
+    {
+      "word": "NorbergONeill",
+      "encoded_start": 1636276,
+      "encoded_end": 1636291,
+      "final_bits": 61.1310013756156,
+      "neural_bits": 61.15115241659805,
+      "context": "to Washington from the Gatlinburg meeting [[Roberts]] was influenced by Baran's reports'' {NamedRef|NorbergONeill|2}\n* ''If anyone influenced Roberts in his earliest thinking about computer networks, it was Kleinr"
+    },
+    {
+      "word": "thisisastring",
+      "encoded_start": 1736142,
+      "encoded_end": 1736155,
+      "final_bits": 60.825326800346375,
+      "neural_bits": 60.68458826234564,
+      "context": "eals with issues like how strings are represented - whether they use the [Visual Basic] method (\"13,thisisastring\") or the [c programming language|C]/[C++] method (\"thisisastring\\0\"). The idea is that the applicat"
+    },
+    {
+      "word": "carrieraccessbilling",
+      "encoded_start": 419820,
+      "encoded_end": 419836,
+      "final_bits": 60.465622425079346,
+      "neural_bits": 60.6511381046148,
+      "context": "ications]] at archive.org (Ericsson removed the book from their site in Sep 2005) \t \n* [[http://www.carrieraccessbilling.com/telecommunications-glossary-a.asp Intec Telecom Systems' ''Telecom Dictionary'']] \t \n* [[http:/"
+    },
+    {
+      "word": "SunSPOTSJune",
+      "encoded_start": 1369352,
+      "encoded_end": 1369366,
+      "final_bits": 59.67605605721474,
+      "neural_bits": 62.52104462822899,
+      "context": "id=1 ZigBee Chatter]] Slashdot users discuss ZigBee technology\n*[[http://research.sun.com/spotlight/SunSPOTSJune30.pdf Sun Microsystems SunSPOTS]] Sun Microsystems, SunSPOT\n*[[http://www.radio-electronics.com/inf"
+    },
+    {
+      "word": "TinyMaCLaS",
+      "encoded_start": 1345023,
+      "encoded_end": 1345037,
+      "final_bits": 59.667837768793106,
+      "neural_bits": 60.89105915511027,
+      "context": "w.btnode.ethz.ch BTnodes]]\n*[[http://particle.teco.edu Particle Computer]]\n*[[http://dos.iitm.ac.in/TinyMaCLaS TinyMaCLaS]]\n\n==External references==\n\n* Akyildiz, I.F., W. Su, Y. Sankarasubramaniam, E. Cayirci, "
+    },
+    {
+      "word": "AllSPFRouters",
+      "encoded_start": 1812841,
+      "encoded_end": 1812855,
+      "final_bits": 59.30821791291237,
+      "neural_bits": 62.13846922153607,
+      "context": "ontains all routers on the same network segment\n|-\n|224.0.0.5 \n|The Open Shortest Path First (OSPF) AllSPFRouters address. Used to send OSPF routing information to all OSPF routers on a network segment\n|-\n|224.0.0"
+    },
+    {
+      "word": "teausscheidungsziffer",
+      "encoded_start": 543649,
+      "encoded_end": 543670,
+      "final_bits": 59.18367915973067,
+      "neural_bits": 58.78646636498161,
+      "context": "ate exchange]s.\n\n1&&!TR&&!6 did not support [multiple subscriber number]s but featured an ''Endger\u00e4teausscheidungsziffer'' (''EAZ'', German \"user device selection digit\"). ISDN subscribers would get a sequence of 10 subs"
+    },
+    {
+      "word": "gsmnaliaisonfinal",
+      "encoded_start": 928831,
+      "encoded_end": 928848,
+      "final_bits": 59.126750752329826,
+      "neural_bits": 69.16007835394703,
+      "context": "ucture upgrade may not be feasible for all countries anytime soon.\n\n* [[http://www.atis.org/pub/ioc/gsmnaliaisonfinal.pdf request to ITU for further clarification]]\n* [[http://www.atis.org/IOC/Docs/IMSI-Guidelines-v5."
+    },
+    {
+      "word": "Vestmannaeyjar",
+      "encoded_start": 1289991,
+      "encoded_end": 1290006,
+      "final_bits": 58.499091632664204,
+      "neural_bits": 53.93143929494545,
+      "context": "and] and the [Faroe Islands].\n\n[Cable landing point|Landing points] are:\n*[Pennant Point], Canada\n*[Vestmannaeyjar], Iceland\n*[Tj\u00f8rnuv\u00edk], Faroe Islands\n*[Redcar], England, UK\n*[Blaabjerg], Denmark\n*[Sylt], Germa"
+    },
+    {
+      "word": "enhancedwirelessconsortium",
+      "encoded_start": 1564278,
+      "encoded_end": 1564297,
+      "final_bits": 58.4460742585361,
+      "neural_bits": 71.38540853373706,
+      "context": "www.54g.org/about_54g_speed.php Broadcom's 125 High Speed Mode consortium]]\n#{note|EWC}[[http://www.enhancedwirelessconsortium.org/ Enhanced Wireless Consortium]]\n#{note|802.11-2003}[[http://shop.ieee.org/ieeestore/Product.asp"
+    },
+    {
+      "word": "ReseauCitoyen",
+      "encoded_start": 1453441,
+      "encoded_end": 1453456,
+      "final_bits": 58.390146531164646,
+      "neural_bits": 58.42643931414932,
+      "context": "==Europe===\n\n====Austria====\n* ''Funkfeuer'', Vienna - http://www.funkfeuer.at\n\n====Belgium====\n* ''ReseauCitoyen'', Brussels - http://www.reseaucitoyen.be/wiki\n\n====Bosnia and Herzegovina====\n* ''wireless.ba'', U"
+    },
+    {
+      "word": "ArtikelKnyrim",
+      "encoded_start": 878855,
+      "encoded_end": 878866,
+      "final_bits": 58.08000159263611,
+      "neural_bits": 59.82331906957552,
+      "context": "n and Information on GSM cellphone tracking and location]]\n*[[http://www.preslmayr.at/puplikationen/ArtikelKnyrim_Detektiv_beutete%20Handy_Netzdaten_aus_Die%20Presse_28112005.pdf Misuse of Cell ID by private inves"
+    },
+    {
+      "word": "comoxvalleypayphones",
+      "encoded_start": 679423,
+      "encoded_end": 679443,
+      "final_bits": 57.826946639455855,
+      "neural_bits": 57.92931938893162,
+      "context": "phone List]]\n*** [[http://www.barraclou.com/payphone Barraclou.com Payphones]]\n*** [[http://tnsf.ca/comoxvalleypayphones Comox Valley Pay Phones]] in British Columbia, Canada\n*** [[http://artofhacking.com/payphone.htm Pa"
+    },
+    {
+      "word": "itsawonderfulinternet",
+      "encoded_start": 1983273,
+      "encoded_end": 1983288,
+      "final_bits": 57.68600641191006,
+      "neural_bits": 56.01379699120298,
+      "context": "]] from Keynote\n*[[http://www.internetworldstats.com/stats.htm Internet World Stats]]\n*[[http://www.itsawonderfulinternet.com/ The Pros and Cons of the Internet]] (Humor)\n\n===Articles===\n*[[http://www.iht.com/articles/200"
+    },
+    {
+      "word": "BEnsonhurst",
+      "encoded_start": 510607,
+      "encoded_end": 510619,
+      "final_bits": 57.53445786237717,
+      "neural_bits": 58.12023490201682,
+      "context": "essed into service at all, except in the immediate [Los Angeles, California|Los Angeles] area (the \"BEnsonhurst 0\" exchange mentioned in an episode of the popular TV sitcom ''[The Honeymooners]'' was fictitious)"
+    },
+    {
+      "word": "ReSerVation",
+      "encoded_start": 1375958,
+      "encoded_end": 1375972,
+      "final_bits": 57.51940665021539,
+      "neural_bits": 56.45549049368128,
+      "context": "d, provided the traffic stays within spec.\n\n== RSVP ==\n\nThe [Resource Reservation Protocol|Resource ReSerVation Protocol] (RSVP) is described in [Request for Comments|RFC] 2205. All machines on the network capab"
+    },
+    {
+      "word": "ThisIsVeryCool",
+      "encoded_start": 1068239,
+      "encoded_end": 1068250,
+      "final_bits": 57.41385620832443,
+      "neural_bits": 56.80152440466918,
+      "context": "n of vowels, as in the phrase \"txt msg\", or the replacement of spaces with capitalization, such as \"ThisIsVeryCool\". To avoid the even more limited message lengths allowed when using [Cyrillic] or [Greek alphabet|G"
+    },
+    {
+      "word": "Howdoesaswitchboardwork",
+      "encoded_start": 558707,
+      "encoded_end": 558731,
+      "final_bits": 57.38757048617117,
+      "neural_bits": 55.83261829987168,
+      "context": "elephone company personnel.\n\n==External links==\n* [[http://www.connectedearth.com/FunandGames/Games/Howdoesaswitchboardwork/index.htm Play a switchboard game]]\n* [[http://web.ukonline.co.uk/freshwater/histuk.htm UK telephon"
+    },
+    {
+      "word": "Ananthapadmanabha",
+      "encoded_start": 1715412,
+      "encoded_end": 1715430,
+      "final_bits": 57.283361688256264,
+      "neural_bits": 57.10172114893794,
+      "context": "ne-ierp-02.txt, work in progress, July 2002.''\n\n*[LBR] (Link life Based routing), ''B. S. Manoj, R. Ananthapadmanabha, and C. Siva Ram Murthy, \"Link life Based Routing Protocol for Ad hoc Wireless Networks\", Proc. of "
+    },
+    {
+      "word": "uninterupted",
+      "encoded_start": 6227,
+      "encoded_end": 6235,
+      "final_bits": 57.11252275109291,
+      "neural_bits": 57.06078245896424,
+      "context": "es were stretched across the [Atlantic Ocean], in [1858], but failed to stay in operation; however, uninterupted service began in [1866].\n\nThis invention set off a stream of devices used for the processing of inf"
+    },
+    {
+      "word": "InternetAssignedNumberAuthority",
+      "encoded_start": 1735527,
+      "encoded_end": 1735539,
+      "final_bits": 57.09958912432194,
+      "neural_bits": 62.7487755343318,
+      "context": "s]\n\n==External links==\n* [[http://www.iana.org/assignments/port-numbers List of common Ports at the InternetAssignedNumberAuthority]]\n\n\n[Category:Computer architecture]\n\n    </revision>\n  </page>\n  <page>\n    <title>Presentation la"
+    },
+    {
+      "word": "PEnnsylvania",
+      "encoded_start": 514654,
+      "encoded_end": 514668,
+      "final_bits": 56.57445711642504,
+      "neural_bits": 56.19442720909137,
+      "context": "umbers have not been used in a fictional context).\n\nThe number in the Glenn Miller Orchestra's hit 'PEnnsylvania 6-5000' was and is the number of the Hotel Pennsylvania in New York.  If you call the number, now w"
+    },
+    {
+      "word": "TErrestrial",
+      "encoded_start": 280929,
+      "encoded_end": 280942,
+      "final_bits": 56.385990500450134,
+      "neural_bits": 56.72546318528475,
+      "context": "  </page>\n  <page>\n    <title>Terrestrial Trunked Radio</title>\n      <text xml:space=\"preserve\">'''TErrestrial Trunked RAdio''' ('''TETRA''') is a specialist [Professional Mobile Radio] and [walkie talkie] stan"
+    },
+    {
+      "word": "cheshirecatalyst",
+      "encoded_start": 630787,
+      "encoded_end": 630798,
+      "final_bits": 56.15867276489735,
+      "neural_bits": 58.66279941983521,
+      "context": "Space Coast] area did get the 321 \"[countdown]\" area code as requested by Richard Cheshire [[http://cheshirecatalyst.com/321.html]].)\n\n===Splits and overlays===\n\nBy [1995], many cities in the [United States] and [Can"
+    },
+    {
+      "word": "ThicknotThin",
+      "encoded_start": 1347951,
+      "encoded_end": 1347964,
+      "final_bits": 56.07523477077484,
+      "neural_bits": 56.75855017686263,
+      "context": "nectors have to be attached to both ends.\n\nsee picture here: http://www.certiguide.com/apfr/cg_apfr_ThicknotThin.htm\n\n{compu-stub}</text>\n    </revision>\n  </page>\n  <page>\n    <title>Wardriving</title>\n      <co"
+    },
+    {
+      "word": "Foilhommerum",
+      "encoded_start": 1223807,
+      "encoded_end": 1223820,
+      "final_bits": 56.05474133789539,
+      "neural_bits": 56.51720763463527,
+      "context": "hed with the paying-out gear. At noon on [July 15], [1865], the ''Great Eastern'' left the Nore for Foilhommerum Bay, Valentia Island, where the shore end was laid by the \"Caroline\".  This attempt failed on July "
+    },
+    {
+      "word": "Hocquenghem",
+      "encoded_start": 98286,
+      "encoded_end": 98298,
+      "final_bits": 55.55372482538223,
+      "neural_bits": 55.46068202840979,
+      "context": "] change &\"a&\" to &\"an&\".</comment>\n      <text xml:space=\"preserve\">A '''BCH (Bose, Ray-Chaudhuri, Hocquenghem) code''' is a much studied code within the study of [coding theory] and more specifically error-cor"
+    },
+    {
+      "word": "armorcertkits",
+      "encoded_start": 1137418,
+      "encoded_end": 1137431,
+      "final_bits": 55.371270179748535,
+      "neural_bits": 54.127533331047744,
+      "context": "Response.htm West Chicago]]\n\nList your unit here\n\nSee also: [ZAKA]\n\n==CERT Equipment==\n[[http://www.armorcertkits.com Armor CERT Kits.]]\n\n==External links==\n[Image:EMANZ.gif] [[http://www.emanz.ac.nz Emergency Man"
+    },
+    {
+      "word": "chroniclesofawardriver",
+      "encoded_start": 1352157,
+      "encoded_end": 1352172,
+      "final_bits": 55.30609744787216,
+      "neural_bits": 58.23753074463457,
+      "context": "o==\n* [WarXing]\n* [Warchalking]\n* [Warwalking]\n* [Hotspot (wifi)]\n\n==External links==\n*[[http://www.chroniclesofawardriver.org/ Chronicles of a Wardriver]]The daily adventures of a hardcore wardriver.\n*[[http://www.wardriv"
+    },
+    {
+      "word": "PAPADEMETRIOU",
+      "encoded_start": 1726951,
+      "encoded_end": 1726965,
+      "final_bits": 55.15033662319183,
+      "neural_bits": 59.46743220835924,
+      "context": "ers/VTC2000Spring-FQMM.pdf'' \n\n*[IMEP] (Internet Manet Encapsulation Protocol) - ''M. S. CORSON, S. PAPADEMETRIOU, P. PAPADOPOULOS, V. PARK, A. QAYYUM INTERNET MANET ENCAPSULATION PROTOCOL (IMEP) SPECIFICATION, In"
+    },
+    {
+      "word": "WhereWizardsStayUpLate",
+      "encoded_start": 1988069,
+      "encoded_end": 1988085,
+      "final_bits": 55.00731372833252,
+      "neural_bits": 72.82051698025316,
+      "context": "number of hosts had grown to 213, with a new host being added approximately every twenty days. {ref|WhereWizardsStayUpLate} {ref|FromtheARPANETtotheInternet} \n\n[ARPANET] became the technical core of what would become the I"
+    },
+    {
+      "word": "Arabicmobilephone",
+      "encoded_start": 1080100,
+      "encoded_end": 1080118,
+      "final_bits": 54.462113507092,
+      "neural_bits": 57.67316298093647,
+      "context": "space=\"preserve\">[Image:Cell phones.jpg|thumb|right|250px|Mobile phones from various years]\n\n[Image:Arabicmobilephone.jpg|thumb|right|250px|An Arabic language mobile phone]\n\n\n\nA '''mobile phone''' or '''cell phone''' "
+    },
+    {
+      "word": "UnPlugFest",
+      "encoded_start": 1591950,
+      "encoded_end": 1591962,
+      "final_bits": 54.06006317213178,
+      "neural_bits": 51.039084813557565,
+      "context": "group\n*Marketing committee\n*Regulatory committee\n*Roadmapping committee\n*Test initiative committee\n*UnPlugFest forum\n(UnPlugFest is an annual event at which manufacturers are invited to confidentially test thei"
+    },
+    {
+      "word": "Getaddrinfo",
+      "encoded_start": 1935611,
+      "encoded_end": 1935623,
+      "final_bits": 54.04821014404297,
+      "neural_bits": 53.772909947670996,
+      "context": "Programming ===\n* RFC 3493: Basic Socket Interface Extensions for IPv6 (obsoletes RFC 2553)\n** see [Getaddrinfo#Protocol_Independent_Programming|<tt>getaddrinfo</tt>] for an example of client/server programming "
+    },
+    {
+      "word": "breitbandkatze",
+      "encoded_start": 120878,
+      "encoded_end": 120892,
+      "final_bits": 53.94565033912659,
+      "neural_bits": 55.17890061248909,
+      "context": "sniff.net]] Online-Tool to compute common CRCs (8/16/32/64) from strings\n* Online [[http://www.zorc.breitbandkatze.de/crc.html CRC calculator]]\n* Online [[http://www.easics.com/webtools/crctool CRC Tool: Generator "
+    },
+    {
+      "word": "communitywirelesssummit",
+      "encoded_start": 1458669,
+      "encoded_end": 1458685,
+      "final_bits": 53.89922356233001,
+      "neural_bits": 53.257959878537804,
+      "context": "http://www.teleport.com/~samc/psuwireless/ Sam Churchill's Wireless LAN Revolution]]\n* [[http://www.communitywirelesssummit.org The National Summit for Community Wireless Networks]]\n* [[http://www.wirelesscommunity.info Wir"
+    },
+    {
+      "word": "buenosaireslibre",
+      "encoded_start": 1453176,
+      "encoded_end": 1453192,
+      "final_bits": 53.80099058151245,
+      "neural_bits": 56.250439336989075,
+      "context": "ezone.ca/\n\n===South America===\n\n====Argentina====\n* ''BuenosAiresLibre'', Buenos Aires - http://www.buenosaireslibre.org\n* ''Mendoza Wireless'', Mendoza- http://www.mendozawireless.net.ar\n* ''OesteLibre'', Buenos Air"
+    },
+    {
+      "word": "bredbandsbolaget",
+      "encoded_start": 915961,
+      "encoded_end": 915977,
+      "final_bits": 53.61504666879773,
+      "neural_bits": 51.60208235937171,
+      "context": " in selected places in Madrid. Commercial launch up is planned for 2007. \n\n*[Sweden]\n**[[http://www.bredbandsbolaget.se/ Bredbandsbolaget AB]] supplies fiber-optic VDSL, but not officially.\n\n*[United States]\n**[Qwest"
+    },
+    {
+      "word": "TOwnsend",
+      "encoded_start": 510121,
+      "encoded_end": 510130,
+      "final_bits": 53.46097493171692,
+      "neural_bits": 52.29076501191594,
+      "context": ", the first two or three digits would map to a mnemonic exchange name, e.g. 869&&*1234 was formerly TOwnsend 9&&*1234, and before that (in some localities) might have been TOWnsend 1234 (only the capital lett"
+    },
+    {
+      "word": "Thomasjfletcher",
+      "encoded_start": 916436,
+      "encoded_end": 916447,
+      "final_bits": 53.27376765012741,
+      "neural_bits": 51.56635306542739,
+      "context": "e>Red telephone box</title>\n      <minor />\n      <comment>Reverted edits by [Special:Contributions/Thomasjfletcher|Thomasjfletcher] ([User talk:Thomasjfletcher|talk]) to last version by Wizard191</comment>\n      <t"
+    },
+    {
+      "word": "elwethingol",
+      "encoded_start": 167269,
+      "encoded_end": 167280,
+      "final_bits": 53.270334243774414,
+      "neural_bits": 54.2054098098306,
+      "context": "(copied from [Everything2] and posted here by the original author, [user:Ryangabbard|Ryan Gabbard] (elwethingol of Everything2)) -->\n\n    </revision>\n  </page>\n  <page>\n    <title>Bitstream</title>\n      <minor "
+    },
+    {
+      "word": "matehmatical",
+      "encoded_start": 577391,
+      "encoded_end": 577403,
+      "final_bits": 53.13058144599199,
+      "neural_bits": 52.151544947875664,
+      "context": "ith multi-type customers and multi-skilled agents.  \n\nCall center operations have been supported by matehmatical models beyond queueing. For example, for forecsting of calls, for determining shift-structures, and"
+    },
+    {
+      "word": "FVisitorWrapper",
+      "encoded_start": 1217062,
+      "encoded_end": 1217080,
+      "final_bits": 52.719903245568275,
+      "neural_bits": 54.18510372354649,
+      "context": "pagename=US%2FLayout&&packedargs=c%3DL_Product_C2%26cid%3D1115416829339&&pagename=Linksys%2FCommon%2FVisitorWrapper addon antennas]] for its routers which use the connector.\n\n== References ==\n* [[http://www.amphenol"
+    },
+    {
+      "word": "StMartinsLeGrand",
+      "encoded_start": 875796,
+      "encoded_end": 875809,
+      "final_bits": 52.65604177117348,
+      "neural_bits": 49.724112956086174,
+      "context": "hCoffeeBox.jpg|right|thumbnail|200px|This Edinburgh police box now serves as a coffee shop.]\n[Image:StMartinsLeGrand-PoliceCallBox.jpg|left|thumbnail|Police Call Box (non-working) still to be seen at St Martins Le Gr"
+    },
+    {
+      "word": "Sousveillance",
+      "encoded_start": 939084,
+      "encoded_end": 939098,
+      "final_bits": 52.64059158414602,
+      "neural_bits": 52.42513262620196,
+      "context": "them, taking part, or even just talking with protesters in the street.\n\n==See also==\n* [Bugging]\n* [Sousveillance|Sousveillance (inverse surveillance)]\n* [Privacy International]\n* [Eye in the sky]\n<!-- Excessive i"
+    },
+    {
+      "word": "SBFMLYREV",
+      "encoded_start": 1169982,
+      "encoded_end": 1169992,
+      "final_bits": 52.15627998113632,
+      "neural_bits": 52.69717261590995,
+      "context": "ishes a list of recommended voltages for each color: [[http://www.andersonpower.com/products/pdf/DS-SBFMLYREV01.pdf]]\n*12V: Yellow\n*18V: Orange\n*24V: Red\n*36V: Gray\n*48V: Blue\n*72V: Green\n*80V: Black\n*96V: Bro"
+    },
+    {
+      "word": "Sankarasubramaniam",
+      "encoded_start": 1345102,
+      "encoded_end": 1345117,
+      "final_bits": 52.088614635169506,
+      "neural_bits": 52.738578668329865,
+      "context": "http://dos.iitm.ac.in/TinyMaCLaS TinyMaCLaS]]\n\n==External references==\n\n* Akyildiz, I.F., W. Su, Y. Sankarasubramaniam, E. Cayirci, \"A Survey on Sensor Networks\", ''IEEE Communications Magazine'', August, 102&&*114 (20"
+    },
+    {
+      "word": "synthesizable",
+      "encoded_start": 120972,
+      "encoded_end": 120981,
+      "final_bits": 51.80856740474701,
+      "neural_bits": 53.35065948576084,
+      "context": "/crc.html CRC calculator]]\n* Online [[http://www.easics.com/webtools/crctool CRC Tool: Generator of synthesizable CRC functions]]\n*[[http://www.paulschou.com/tools/xlate/ Online Char (ASCII), HEX, Binary, Base64, "
+    },
+    {
+      "word": "adultproductreview",
+      "encoded_start": 789920,
+      "encoded_end": 789938,
+      "final_bits": 51.681904666125774,
+      "neural_bits": 52.886050783796236,
+      "context": " Guide to Vibrators'' Down There Press, 2000. ISBN 0940208261.\n\n== External links ==\n\n*[[http://www.adultproductreview.com/vibrators/ Real user reviews of today's best vibrators]]\n*[[http://www.goodvibes.com/Content.as"
+    },
+    {
+      "word": "TeliaSonera",
+      "encoded_start": 643412,
+      "encoded_end": 643425,
+      "final_bits": 51.4912790954113,
+      "neural_bits": 55.7568499869667,
+      "context": " one for brazil is but i'd like to know if the prefixes have a proper name before i do so-->\n*990 ([TeliaSonera] in Finland)\n*991 ([Jippii] in Finland)\n*992 ([Tele2] in Finland before August 2005)\n*994 ([Song (T"
+    },
+    {
+      "word": "handgehaltenes",
+      "encoded_start": 1091649,
+      "encoded_end": 1091663,
+      "final_bits": 51.48928460851312,
+      "neural_bits": 54.0857344516553,
+      "context": "ernative spelling: '''H\u00e4ndi'''). In German, the word \"Handy\" has the meaning of \"Hand-Telefon\" or \"handgehaltenes Mobiltelefon\" (translated to English: \"handheld mobile telephone\"). The term possibly derived from "
+    },
+    {
+      "word": "AugmentingHumanIntellect",
+      "encoded_start": 1999075,
+      "encoded_end": 1999086,
+      "final_bits": 51.352348268032074,
+      "neural_bits": 49.47641427954659,
+      "context": "esearch on [Project Xanadu] and [Douglas Engelbart]'s research on [NLS (computer system)|NLS]. {ref|AugmentingHumanIntellect} Many small self-contained hypertext systems had been created before, such as Apple Computer's [Hyp"
+    },
+    {
+      "word": "TBoltCloseup",
+      "encoded_start": 995474,
+      "encoded_end": 995485,
+      "final_bits": 51.23255133628845,
+      "neural_bits": 47.398031030083075,
+      "context": "sirens were manufactured by Federal Signal Corporation.\n\n===Thunderbolt 1000, 1000T, 1003===\n[Image:TBoltCloseup.JPG|thumb|A Federal Signal Thunderbolt civil defense siren]\nThe Federal Signal Thunderbolt is the m"
+    },
+    {
+      "word": "meeeting",
+      "encoded_start": 438644,
+      "encoded_end": 438652,
+      "final_bits": 51.215225756168365,
+      "neural_bits": 51.972539907786995,
+      "context": "ms. \n##Small group VTC are non-portable or portable, smaller, less expensive devices used for small meeeting rooms.\n##Individual VTC are usually portable devices, meant for single users, have fixed cameras, m"
+    },
+    {
+      "word": "ORiNOCO",
+      "encoded_start": 1460494,
+      "encoded_end": 1460503,
+      "final_bits": 51.16850781440735,
+      "neural_bits": 54.42613597633317,
+      "context": "ew line of [iBook] notebooks, plus an AirPort Base Station. The AirPort card (a repackaged Proxim - ORiNOCO Gold Card [PCMCIA] adapter) was later added as an option for almost all of Apple's product line, in"
+    },
+    {
+      "word": "DPDecimal",
+      "encoded_start": 156993,
+      "encoded_end": 157004,
+      "final_bits": 51.062710762023926,
+      "neural_bits": 50.188625886366935,
+      "context": "rsley.ibm.com/decimal/chen-ho.html IBM: Chen-Ho encoding]]  \n*[[http://www2.hursley.ibm.com/decimal/DPDecimal.html IBM: Densely Packed Decimal]].\n\n==References==\n*Schmid, Hermann, ''Decimal computation.'' New "
+    },
+    {
+      "word": "Pfannenstiehl",
+      "encoded_start": 127825,
+      "encoded_end": 127839,
+      "final_bits": 51.05001416802406,
+      "neural_bits": 50.4273834862106,
+      "context": "ment (using start-stop permutation code) until the introduction in 1920 of the 10-A teletypewriter (Pfannenstiehl Patents No. 1,374,606, No. 1,399,933, No. 1,426,768, No. 1,623,809, and No. 1,661,012). \n\nThe 10-A "
+    },
+    {
+      "word": "TagmaStore",
+      "encoded_start": 1400634,
+      "encoded_end": 1400643,
+      "final_bits": 51.03551244735718,
+      "neural_bits": 50.90418511396274,
+      "context": "on an intelligent switching platform for Fibre Channel\n*[[http://www.hds.com Hitachi Data Systems]] TagmaStore\n*[IBM SAN Volume Controller]\n*[FalconStor] [IPStor]\n*[[http://www.datacore.com DataCore]] SANMelody"
+    },
+    {
+      "word": "Nikoletseas",
+      "encoded_start": 1727377,
+      "encoded_end": 1727389,
+      "final_bits": 51.01768946647644,
+      "neural_bits": 54.34528650343418,
+      "context": "y '''Termode local routing''' and '''Terminode Remote Routing'''\n\n*[Support] - I.Chatzigiannakis, S.Nikoletseas and P.Spirakis: Distributed Communication Algorithms for Ad-hoc Mobile Networks.  In the Journal of"
+    },
+    {
+      "word": "firstemailframe",
+      "encoded_start": 1638890,
+      "encoded_end": 1638905,
+      "final_bits": 50.98051477223635,
+      "neural_bits": 51.04338170681149,
+      "context": "71], [Ray Tomlinson] of [BBN] sent the first network [email] [[http://openmap.bbn.com/~tomlinso/ray/firstemailframe.html]]. By 1973, the File Transfer Protocol ([File Transfer Protocol|FTP]) specification had been d"
+    },
+    {
+      "word": "Pressreleasesandarticles",
+      "encoded_start": 648221,
+      "encoded_end": 648240,
+      "final_bits": 50.76339140534401,
+      "neural_bits": 53.42979048402049,
+      "context": "view p.3.\n* BT plc (26 Apr 2004).  BT Wholesale Web Call Connect service: http://www.btplc.com/News/Pressreleasesandarticles/Corporatenewsreleases/2004/nr0426.htm   Press Release.\n\n[Category:Computer_and_telecommunication_st"
+    },
+    {
+      "word": "EPHREMIDES",
+      "encoded_start": 1715622,
+      "encoded_end": 1715633,
+      "final_bits": 50.73438858985901,
+      "neural_bits": 52.3746718657203,
+      "context": "1 (IC3N 2001), October 2001.''\n\n*[LMR] (Lightweight Mobile Routing protocol) - ''M.S. CORSON AND A. EPHREMIDES Lightweight Mobile Routing protocol (LMR), A distributed routing algorithm for mobile wireless netw"
+    },
+    {
+      "word": "Jhunjhunwala",
+      "encoded_start": 1194955,
+      "encoded_end": 1194968,
+      "final_bits": 50.65679621696472,
+      "neural_bits": 49.78002327284776,
+      "context": "ard developed in [India] by Indian Institute of Technology - Chennai under leadership of Prof Ashok Jhunjhunwala, based on the [DECT] [digital] [cordless phone] standard. \n\nThe technology is a [Fixed] Wireless Op"
+    },
+    {
+      "word": "fortyfivemovie",
+      "encoded_start": 623315,
+      "encoded_end": 623329,
+      "final_bits": 50.588125539943576,
+      "neural_bits": 50.223882629186846,
+      "context": "es]]\n* [[http://www.cluas.com/opinion/ring_tones.htm Ring tones and the music industry]]\n* [[http://fortyfivemovie.com/mp3/lamisc/ringtones/phone_ring_2x.mp3 Sample ringtone - Loud vintage telephone ring]]\n\n[Catego"
+    },
+    {
+      "word": "ndiswrapper",
+      "encoded_start": 1442736,
+      "encoded_end": 1442747,
+      "final_bits": 50.496927350759506,
+      "neural_bits": 51.143946969881654,
+      "context": "It is possible that such drivers may be implemented by other BSDs if they do not already exist. The ndiswrapper is also available for FreeBSD.\n\n* [Linux]: As of version 2.6, some Wi-Fi hardware is supported nati"
+    },
+    {
+      "word": "mimmicks",
+      "encoded_start": 1856524,
+      "encoded_end": 1856532,
+      "final_bits": 50.47175121307373,
+      "neural_bits": 54.24203758733347,
+      "context": "[IPv4].\n\n:The difference is in the data used to make the checksum. Included is a pseudo-header that mimmicks the IP header:\n\n{{| width=\"600\" align=\"center\"\n|-\n|\n{{| class=\"wikitable\" style=\"margin: 0 auto; te"
+    },
+    {
+      "word": "ndbreddebegr",
+      "encoded_start": 1536456,
+      "encoded_end": 1536468,
+      "final_bits": 50.3077712059021,
+      "neural_bits": 49.37298624077812,
+      "context": "]\n*[[http://www.sslug.dk/moede/hygge/2002-06-11/ sslug.dk: Hyggem\u00f8de tirsdag den 11. juni 2002: B\u00e5ndbreddebegr\u00e6nsning]]\n*[[http://www.sslug.dk/moede/hygge/2002-06-11/eksempler.txt sslug.dk: Hyggem\u00f8de tirsdag "
+    },
+    {
+      "word": "civildefensemuseum",
+      "encoded_start": 997392,
+      "encoded_end": 997410,
+      "final_bits": 50.286190579645336,
+      "neural_bits": 50.23909662035294,
+      "context": ", USA.  Contains hundreds of unique pictures and many unique recordings and videos.]]\n*[[http://www.civildefensemuseum.com/ Civil Defense Museum - Overview of sirens since their inception]]\n*[[http://home.earthlink.net"
+    },
+    {
+      "word": "netdiagrammer",
+      "encoded_start": 1811850,
+      "encoded_end": 1811859,
+      "final_bits": 50.105684995651245,
+      "neural_bits": 52.36279045138508,
+      "context": "communications]\n\n===Software for Network architecture===\n* [[http://www.conceptdraw.com/en/products/netdiagrammer/main.php/  ConceptDraw NetDiagrammer]], For network and system design, diagrams and schematics</tex"
+    },
+    {
+      "word": "GPHemsley",
+      "encoded_start": 1494889,
+      "encoded_end": 1494900,
+      "final_bits": 50.031736731529236,
+      "neural_bits": 46.24997070385143,
+      "context": "  <title>Burst switching</title>\n      <minor />\n      <comment>ack revert blanking to latest v. by GPHemsley</comment>\n      <text xml:space=\"preserve\">In a [packet switched] [computer network|network], '''bu"
+    },
+    {
+      "word": "bandwdith",
+      "encoded_start": 346424,
+      "encoded_end": 346433,
+      "final_bits": 49.817603409290314,
+      "neural_bits": 51.477229743497446,
+      "context": "the failure reroute the traffic \"the long way\" around the ring. BLSRs trade cost and complexity for bandwdith efficiency as well as the ability to support \"extra traffic\", which can be pre-empted when a protec"
+    },
+    {
+      "word": "TraffiCams",
+      "encoded_start": 729580,
+      "encoded_end": 729592,
+      "final_bits": 49.770874194800854,
+      "neural_bits": 51.86913853371516,
+      "context": "panoramic views of cities (Metrocams) and the countryside. Webcams are used to monitor traffic with TraffiCams, the weather with WeatherCams and even [volcano]es with VolcanoCams.\n\n==Videoconferencing==\n\nAs web"
+    },
+    {
+      "word": "Bundesanwaltschaft",
+      "encoded_start": 1244472,
+      "encoded_end": 1244491,
+      "final_bits": 49.70903781428933,
+      "neural_bits": 50.29578809021041,
+      "context": "e'' on his homepage. ''Radikal'' is illegal in Germany, and to prevent its publication the German ''Bundesanwaltschaft'' ordered commercial ISPs in Germany to block its website. They ended up blocking the entire XS4ALL"
+    },
+    {
+      "word": "Dehardwarization",
+      "encoded_start": 216909,
+      "encoded_end": 216926,
+      "final_bits": 49.671665146015584,
+      "neural_bits": 50.22167169430759,
+      "context": " used to denote a winmodem with support for [Linux].\n\n''See also:'' [GDI#GDI printers|Winprinter], [Dehardwarization]\n\n==External links==\n* [[http://www.56k.com/reports/winmodem.shtml A review of the differences betw"
+    },
+    {
+      "word": "SANMelody",
+      "encoded_start": 1400718,
+      "encoded_end": 1400729,
+      "final_bits": 49.597708344459534,
+      "neural_bits": 48.06116509065032,
+      "context": "agmaStore\n*[IBM SAN Volume Controller]\n*[FalconStor] [IPStor]\n*[[http://www.datacore.com DataCore]] SANMelody\n*[[http://www.emc.com EMC]] InVista\n*[[http://www.plasmon.com/raid Plasmon RTS]] Plasmon RTS\n*[[htt"
+    },
+    {
+      "word": "timothydevans",
+      "encoded_start": 1676065,
+      "encoded_end": 1676074,
+      "final_bits": 49.5646767616272,
+      "neural_bits": 48.62824412435293,
+      "context": " the [Open Publication License])\n* [[http://www.netbiosguide.com NetBIOS specification]]\n* [[http://timothydevans.me.uk/n2c.html NetBios, NetBEUI, NBF, SMB, CIFS Networking]]\n\n==References==\n* Haugdahl, J. Scott ("
+    },
+    {
+      "word": "outputPlugCord",
+      "encoded_start": 1171792,
+      "encoded_end": 1171802,
+      "final_bits": 49.489277601242065,
+      "neural_bits": 50.199558772845194,
+      "context": "er Connector Page]]) that have not yet been included in this entry.\n\n*[[http://www.globtek.com/html/outputPlugCord.htm GlobTek, Inc.]] has a data page that could be used to further research these and other connecto"
+    },
+    {
+      "word": "NXDOMAIN",
+      "encoded_start": 1841908,
+      "encoded_end": 1841917,
+      "final_bits": 49.13477482274175,
+      "neural_bits": 50.721952540334314,
+      "context": " from the authoritative nameserver again. Nameservers also have negative TTLs for negative replies (NXDOMAIN); they are generally short in duration (3 hours at most).\n\nShorter TTLs can cause heavier loads on "
+    },
+    {
+      "word": "jurisidiction",
+      "encoded_start": 953414,
+      "encoded_end": 953427,
+      "final_bits": 48.98461066558957,
+      "neural_bits": 49.16122984793037,
+      "context": "tions Act of 1934|Communications Act], which abolished the Federal Radio Commission and transferred jurisidiction over radio licensing to a new [Federal Communications Commission]. Title III of the Communications "
+    },
+    {
+      "word": "TERAVoice",
+      "encoded_start": 529229,
+      "encoded_end": 529240,
+      "final_bits": 48.92287087440491,
+      "neural_bits": 50.01489150535781,
+      "context": "e call center handling thousands of calls per day.\n\n\n\n==See also==\n*[call center]\n*[Asterisk PBX]\n*[TERAVoice Server]\n\n==ACD Software==\n* [[http://www.avaya.com Avaya Inc.]]\n* [[http://www.genesyslab.com Genes"
+    },
+    {
+      "word": "VennSymmEJC",
+      "encoded_start": 21538,
+      "encoded_end": 21552,
+      "final_bits": 48.846463553840294,
+      "neural_bits": 45.95365963588847,
+      "context": "ams. Mar. 2001. The Electronic Journal of Combinatorics. [[http://www.combinatorics.org/Surveys/ds5/VennSymmEJC.html]].\n\n== External links ==\n* [[http://www.nist.gov/dads/HTML/graycode.html NIST Dictionary of Al"
+    },
+    {
+      "word": "AsWeMayThink",
+      "encoded_start": 1998981,
+      "encoded_end": 1998991,
+      "final_bits": 48.78033244609833,
+      "neural_bits": 49.353559917304665,
+      "context": "ing this period was [hypertext].  The technology had been inspired by [Vannevar Bush]'s \"memex\"{ref|AsWeMayThink} and developed through [Ted Nelson]'s research on [Project Xanadu] and [Douglas Engelbart]'s resear"
+    },
+    {
+      "word": "DUnkirk",
+      "encoded_start": 510466,
+      "encoded_end": 510475,
+      "final_bits": 48.71557259559631,
+      "neural_bits": 45.52128344355151,
+      "context": "isted of only six digits, two letters which began the exchange name followed by four numbers, as in DUnkirk 0799). Prior to the mid-[1950s], the number immediately following the name could never be a \"0\" or "
+    },
+    {
+      "word": "NAtional",
+      "encoded_start": 511056,
+      "encoded_end": 511066,
+      "final_bits": 48.66005277633667,
+      "neural_bits": 49.37155968451407,
+      "context": "n many places well into the [1970s]. A [Chicago] carpet retailer frequently advertised their number NAtional 2-9000 on [WGN] until the [1990s]; not to mention, the number TYler 8-7100 for a [Detroit] construc"
+    },
+    {
+      "word": "ReSIProcate",
+      "encoded_start": 757821,
+      "encoded_end": 757835,
+      "final_bits": 48.5844244658947,
+      "neural_bits": 49.080864260206,
+      "context": ": A [Proprietary software|proprietary] [freeware] VoIP system which uses a messenger-like client.\n*[ReSIProcate] : A robust and feature-rich open source SIP stack.\n*[SIMPLE] : An [instant messaging] and [presenc"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "status": "COMPLETE_ACTUAL_SELECTED_CORE_DIAGNOSTIC_MASK_FINETUNING",
+  "pid": 1718,
+  "started": 1791301754.4925194,
+  "scope": "actual12layer192width selected lexical core QAT import, loss-only full literal/OOV masking; not qualified native archive",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [
+    {
+      "arm": "unweighted",
+      "step": 32,
+      "training_seconds": 422.6262530890017,
+      "processed_targets": 7141,
+      "sum_loss_weights": 7141.0,
+      "development": {
+        "all_bits_per_symbol": 0.593072772026062,
+        "common_or_unlabelled_bits_per_symbol": 0.42943891882896423,
+        "rare_bits_per_symbol": 2.1542577743530273,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "a3de34f3ccee167b0124a11b81b131cc384e2bae7b45da0d2fcbb08d4a20602b"
+    },
+    {
+      "arm": "unweighted",
+      "step": 128,
+      "training_seconds": 451.18539945000157,
+      "processed_targets": 28247,
+      "sum_loss_weights": 28247.0,
+      "development": {
+        "all_bits_per_symbol": 0.5934885740280151,
+        "common_or_unlabelled_bits_per_symbol": 0.43009281158447266,
+        "rare_bits_per_symbol": 2.152401924133301,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "667ecef73eea04cb503e2833da005f231f3503416004b3f6964807d13986e6cc"
+    },
+    {
+      "arm": "cut107_half",
+      "step": 32,
+      "training_seconds": 14.405428304999077,
+      "processed_targets": 7141,
+      "sum_loss_weights": 6984.5,
+      "development": {
+        "all_bits_per_symbol": 0.5936643481254578,
+        "common_or_unlabelled_bits_per_symbol": 0.43001842498779297,
+        "rare_bits_per_symbol": 2.154963493347168,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "76d44b24cd4ebb8cbf68b6f3f431fee80937fa6f5e4b8bd8d05d54ac0b78de25"
+    },
+    {
+      "arm": "cut107_half",
+      "step": 128,
+      "training_seconds": 41.48180901100204,
+      "processed_targets": 28247,
+      "sum_loss_weights": 27802.0,
+      "development": {
+        "all_bits_per_symbol": 0.5937185883522034,
+        "common_or_unlabelled_bits_per_symbol": 0.4300764799118042,
+        "rare_bits_per_symbol": 2.154981851577759,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "3ce4e1b0b332dd1f5216b514fb73c3430f5a01e5aa793ccaef08b1e1d005beab"
+    },
+    {
+      "arm": "cut1392_half",
+      "step": 32,
+      "training_seconds": 14.345044932000746,
+      "processed_targets": 7141,
+      "sum_loss_weights": 6891.0,
+      "development": {
+        "all_bits_per_symbol": 0.5934876799583435,
+        "common_or_unlabelled_bits_per_symbol": 0.4297695755958557,
+        "rare_bits_per_symbol": 2.1554765701293945,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "d40132785392a3ea05dfa24052ea2641d94d68ece87fbe9a9464dd662175ea1e"
+    },
+    {
+      "arm": "cut1392_half",
+      "step": 128,
+      "training_seconds": 41.4949832980019,
+      "processed_targets": 28247,
+      "sum_loss_weights": 27366.5,
+      "development": {
+        "all_bits_per_symbol": 0.5935361981391907,
+        "common_or_unlabelled_bits_per_symbol": 0.4298067092895508,
+        "rare_bits_per_symbol": 2.1556334495544434,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "49f536eb9ac21444a833b2d106a3a3b1d5d6d1fccad67ad9be0d936929d82c3e"
+    },
+    {
+      "arm": "cut1392_zero",
+      "step": 32,
+      "training_seconds": 14.575790486000187,
+      "processed_targets": 7141,
+      "sum_loss_weights": 6641.0,
+      "development": {
+        "all_bits_per_symbol": 0.593864917755127,
+        "common_or_unlabelled_bits_per_symbol": 0.42975813150405884,
+        "rare_bits_per_symbol": 2.159562349319458,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "505601d226063636c55027de0d9cef45c14fc4e134a90808a23eeee07a3220fa"
+    },
+    {
+      "arm": "cut1392_zero",
+      "step": 128,
+      "training_seconds": 41.677537396000844,
+      "processed_targets": 28247,
+      "sum_loss_weights": 26486.0,
+      "development": {
+        "all_bits_per_symbol": 0.5939255356788635,
+        "common_or_unlabelled_bits_per_symbol": 0.4298156201839447,
+        "rare_bits_per_symbol": 2.1596522331237793,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "c2d626d043fc9545c884a278282398941813260560063ff01b24e7c55e11534b"
+    },
+    {
+      "arm": "cut8372_half",
+      "step": 32,
+      "training_seconds": 14.992414505999477,
+      "processed_targets": 7141,
+      "sum_loss_weights": 6790.5,
+      "development": {
+        "all_bits_per_symbol": 0.5930198431015015,
+        "common_or_unlabelled_bits_per_symbol": 0.42934131622314453,
+        "rare_bits_per_symbol": 2.1546316146850586,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "c347007bb5a7c4d29f16fd288725cd7bdce3f0b8f24a5bf3c72541ebe287bcff"
+    },
+    {
+      "arm": "cut8372_half",
+      "step": 128,
+      "training_seconds": 41.86043940699892,
+      "processed_targets": 28247,
+      "sum_loss_weights": 26873.0,
+      "development": {
+        "all_bits_per_symbol": 0.5937755107879639,
+        "common_or_unlabelled_bits_per_symbol": 0.4299440085887909,
+        "rare_bits_per_symbol": 2.156846284866333,
+        "targets": 50996
+      },
+      "checkpoint_sha256": "84f866793ecfb14d58a0222202c9b3df8dd35b94c8337e196a68f1b9fce5d4e9"
+    }
+  ],
+  "gpu": "Tesla T4",
+  "actual_core_import": {
+    "loaded_parameters": 199,
+    "parameter_count": 5897145,
+    "packed_source_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "imported_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+    "weight_laws": "learned15level codebooks on0.25grid plus8bit small tables; fixed native BF16 row scales, STE nearest native code levels",
+    "activation_laws": "dynamic per-token amax/127, static per-head QKV scales",
+    "state": "FLa parallel KDA and T4 sliding-window SDPA; native equivalence measured below, not presumed"
+  },
+  "stage": "five actual selected-core full literal/OOV loss-mask arms complete; native qualification remains open",
+  "zero_update_likelihood_parity": [
+    {
+      "start": 0,
+      "rows": 36,
+      "mean_absolute_target_bits_difference": 0.027850219782570202,
+      "max_absolute_target_bits_difference": 0.5203292401366544,
+      "mean_native_to_GPU_KL_bits": 0.0008906151584221964,
+      "max_probability_difference": 0.05524237326288922
+    },
+    {
+      "start": 37,
+      "rows": 321,
+      "mean_absolute_target_bits_difference": 0.051609663059092085,
+      "max_absolute_target_bits_difference": 0.37259652230679496,
+      "mean_native_to_GPU_KL_bits": 0.002976013567333393,
+      "max_probability_difference": 0.08547757587891697
+    },
+    {
+      "start": 359,
+      "rows": 519,
+      "mean_absolute_target_bits_difference": 0.03537531407710378,
+      "max_absolute_target_bits_difference": 0.7502437274421744,
+      "mean_native_to_GPU_KL_bits": 0.0021946387387408966,
+      "max_probability_difference": 0.1435837499615129
+    },
+    {
+      "start": 879,
+      "rows": 600,
+      "mean_absolute_target_bits_difference": 0.014726143162299064,
+      "max_absolute_target_bits_difference": 0.4292671853606381,
+      "mean_native_to_GPU_KL_bits": 0.0009197424530144298,
+      "max_probability_difference": 0.07357672971723828
+    },
+    {
+      "start": 1480,
+      "rows": 552,
+      "mean_absolute_target_bits_difference": 0.007774389860213585,
+      "max_absolute_target_bits_difference": 0.5216508665651773,
+      "mean_native_to_GPU_KL_bits": 0.0004144572735557976,
+      "max_probability_difference": 0.06433898699104984
+    },
+    {
+      "start": 2033,
+      "rows": 868,
+      "mean_absolute_target_bits_difference": 0.025357953551807786,
+      "max_absolute_target_bits_difference": 0.5249508013440726,
+      "mean_native_to_GPU_KL_bits": 0.0013570742859251317,
+      "max_probability_difference": 0.15450902708636888
+    },
+    {
+      "start": 2902,
+      "rows": 680,
+      "mean_absolute_target_bits_difference": 0.015949276588142536,
+      "max_absolute_target_bits_difference": 0.5033209212802795,
+      "mean_native_to_GPU_KL_bits": 0.0011059126451996686,
+      "max_probability_difference": 0.14096962801717033
+    },
+    {
+      "start": 3583,
+      "rows": 657,
+      "mean_absolute_target_bits_difference": 0.014519409001821817,
+      "max_absolute_target_bits_difference": 0.4133779208318142,
+      "mean_native_to_GPU_KL_bits": 0.0009637051116165524,
+      "max_probability_difference": 0.115596127944674
+    },
+    {
+      "start": 4241,
+      "rows": 808,
+      "mean_absolute_target_bits_difference": 0.019731234974619878,
+      "max_absolute_target_bits_difference": 0.4160387368558913,
+      "mean_native_to_GPU_KL_bits": 0.0011065913895714045,
+      "max_probability_difference": 0.07680261525219234
+    },
+    {
+      "start": 5050,
+      "rows": 863,
+      "mean_absolute_target_bits_difference": 0.022042300670105642,
+      "max_absolute_target_bits_difference": 0.6605294220721504,
+      "mean_native_to_GPU_KL_bits": 0.0012114776956318669,
+      "max_probability_difference": 0.09511796690958801
+    },
+    {
+      "start": 5914,
+      "rows": 637,
+      "mean_absolute_target_bits_difference": 0.015375597289876822,
+      "max_absolute_target_bits_difference": 0.629668633386933,
+      "mean_native_to_GPU_KL_bits": 0.0009973748515936785,
+      "max_probability_difference": 0.14478226833638397
+    },
+    {
+      "start": 6552,
+      "rows": 552,
+      "mean_absolute_target_bits_difference": 0.010869558582082954,
+      "max_absolute_target_bits_difference": 0.445592489636776,
+      "mean_native_to_GPU_KL_bits": 0.0006245338551688612,
+      "max_probability_difference": 0.09842177136334235
+    },
+    {
+      "start": 7105,
+      "rows": 752,
+      "mean_absolute_target_bits_difference": 0.020190754761625258,
+      "max_absolute_target_bits_difference": 0.555174996024767,
+      "mean_native_to_GPU_KL_bits": 0.0010340885727910876,
+      "max_probability_difference": 0.07756755359664758
+    },
+    {
+      "start": 7858,
+      "rows": 635,
+      "mean_absolute_target_bits_difference": 0.01618531243370647,
+      "max_absolute_target_bits_difference": 1.0356687523916805,
+      "mean_native_to_GPU_KL_bits": 0.0008441054363038153,
+      "max_probability_difference": 0.08920651098838694
+    },
+    {
+      "start": 8494,
+      "rows": 683,
+      "mean_absolute_target_bits_difference": 0.0137333459347391,
+      "max_absolute_target_bits_difference": 0.3589035987569897,
+      "mean_native_to_GPU_KL_bits": 0.000753627550880274,
+      "max_probability_difference": 0.07017369304164134
+    },
+    {
+      "start": 9178,
+      "rows": 680,
+      "mean_absolute_target_bits_difference": 0.015276396097490576,
+      "max_absolute_target_bits_difference": 0.6422954039785621,
+      "mean_native_to_GPU_KL_bits": 0.000734448455816773,
+      "max_probability_difference": 0.06937893370038661
+    }
+  ],
+  "native_export_bitexact_passed": false,
+  "diagnostic_training_only": true,
+  "data_split": {
+    "complete_articles": 364,
+    "train_articles": 291,
+    "development_articles": 73,
+    "corpus_scope_bytes": 262138,
+    "training_loss_max_tokens": 256,
+    "training_context": "sampled prefix through4096tokens from true decoded article reset; last256targets only",
+    "all_word_mask_includes_literal_OOV_case_controls": true,
+    "word_mask_input_leakage": false,
+    "mask_changes": "loss weights only; original tokens, priors and rare context remain visible"
+  },
+  "development_zero_update": {
+    "all_bits_per_symbol": 0.5932896137237549,
+    "common_or_unlabelled_bits_per_symbol": 0.42971792817115784,
+    "rare_bits_per_symbol": 2.153881788253784,
+    "targets": 50996
+  },
+  "finished": 1791302390.5781136,
+  "peak_cuda_bytes": 485621760,
+  "native_candidate_archive": false,
+  "all96_exhausted": false
+}

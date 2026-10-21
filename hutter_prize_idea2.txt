@@ -1,0 +1,518 @@
+The literal **“render text to tiny images → OCR it back”** version is probably inefficient. But the underlying idea—**exploit character geometry as another representation of text**—has a much more interesting form that I would actually test.
+
+The key distinction is between **using images as storage** and **using glyph geometry as a predictor**.
+
+The current winning transformer is already predicting one byte at a time and receives PPMD's next-byte distribution as an additional signal. Its 6M-parameter model costs about **2.9 MB in each binary, 5.9 MB combined**, so model size is already a major part of the optimization problem. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md) The Hutter objective counts the compressor plus self-extracting archive, while runtime is also tightly constrained. [Hutter1](https://hutter1.net/prize/index.htm?utm_source=chatgpt.com)
+
+### Why the full OCR version probably loses
+
+Suppose we take:
+
+`"compression"`
+
+and render it in a fixed font.
+
+At that point we've transformed a sequence of discrete symbols into perhaps hundreds or thousands of pixels. But those pixels contain no new information—the bitmap is completely determined by the characters.
+
+If we aggressively downsample:
+
+`high-quality glyph → blurry glyph → OCR → character`
+
+then the blurry glyph is effectively just a complicated **codeword for that character**.
+
+For a fixed machine font, there are only perhaps ~95 common printable ASCII glyphs. Instead of telling the decoder:
+
+> here is a 6×8 blurry pattern; figure out which glyph it represents
+
+we could simply tell it:
+
+> symbol 37.
+
+And, more importantly, arithmetic coding doesn't even spend a fixed number of bits on that symbol. If the predictor thinks the next byte has probability \(p\), it costs approximately
+
+\[
+-\log_2 p
+\]
+
+bits.
+
+So when the transformer is 95% confident:
+
+\[
+-\log_2(0.95)\approx0.074\text{ bits}.
+\]
+
+No image representation can magically encode the same character in less information unless it somehow predicts the character better.
+
+That is the fundamental problem.
+
+Also, making glyphs blurrier creates exactly the wrong property for **lossless** compression. If `O`, `0`, `Q`, `D` become harder to distinguish, the decoder needs additional information somewhere to resolve the ambiguity. Whatever bits you removed from the image tend to reappear as correction/residual bits.
+
+### But your second idea is much better
+
+Don't encode the image.
+
+Make **geometry another model of the text**.
+
+For example, imagine every printable byte has a fixed 8×8 glyph:
+
+```text
+ A             B
+
+  ##           ####
+ #  #          #   #
+ #  #          ####
+ ####          #   #
+ #  #          #   #
+ #  #          ####
+```
+
+We could represent each previous character using features such as:
+
+```text
+has_vertical_stroke
+has_horizontal_stroke
+has_curve
+left_density
+right_density
+top_density
+bottom_density
+symmetry
+ascender
+descender
+holes
+width
+```
+
+Or even simply keep the raw 64-bit glyph mask.
+
+There is **no OCR at runtime** and no image needs to be generated.
+
+It is just:
+
+\[
+\text{byte} \rightarrow \text{precomputed glyph features}
+\]
+
+which is essentially a lookup table.
+
+For 256 bytes × 8 features, using one byte per feature, the entire table would be only about **2 KB**.
+
+Then give those features to a tiny predictor.
+
+That is much more plausible.
+
+---
+
+## There's an even better interpretation of your idea
+
+What you're really proposing is a **second expert for situations where the language model is uncertain**.
+
+Suppose:
+
+\[
+P_T(c)
+\]
+
+is the transformer's probability distribution and
+
+\[
+P_G(c)
+\]
+
+is our geometry/orthography model.
+
+Instead of choosing one compressor or the other, use
+
+\[
+P(c)=(1-w)P_T(c)+wP_G(c).
+\]
+
+And make
+
+\[
+w=f(\text{transformer confidence},\text{context},\text{word state},\ldots).
+\]
+
+When the transformer is extremely confident:
+
+```text
+the cat sat on th_
+              e = .997
+```
+
+we might have
+
+\[
+w\approx0.
+\]
+
+Geometry contributes essentially nothing.
+
+But consider something unusual:
+
+```text
+cyclohexylbenz_
+```
+
+If the transformer's distribution becomes much flatter, a specialized spelling/orthographic predictor might become more useful.
+
+Importantly, **the decoder can calculate the same \(w\)** because it depends only on already-decoded context.
+
+This avoids transmitting a routing flag.
+
+### Your proposed routing has one subtle problem
+
+We cannot say:
+
+> “If the transformer gets this character wrong, use OCR.”
+
+The compressor knows the true upcoming character.
+
+The decompressor doesn't.
+
+Therefore that rule would leak information about the answer.
+
+We could transmit an explicit:
+
+```text
+0 = transformer
+1 = OCR
+```
+
+but then we're paying bits for routing.
+
+Instead, the decision must depend on information both sides already possess:
+
+```text
+transformer entropy
+top-1/top-2 probability gap
+current word length
+previous characters
+XML/text state
+PPMD confidence
+etc.
+```
+
+Or, better yet, don't switch at all—**mix the probabilities**.
+
+That's exactly the philosophy behind context mixing.
+
+---
+
+## Character fragments are interesting for a different reason
+
+Your fragment idea could reduce **model complexity**, rather than directly compress text as pictures.
+
+For example, instead of independently learning representations for:
+
+```text
+b
+d
+p
+q
+```
+
+they could share components:
+
+```text
+vertical stroke
+circle
+orientation
+position
+```
+
+Likewise:
+
+```text
+E F L T
+```
+
+share geometric components.
+
+You could factor a character embedding as
+
+\[
+E(c)=
+E_{\text{vertical}}
++E_{\text{curve}}
++E_{\text{hole}}
++E_{\text{upper}}
++\cdots
+\]
+
+rather than storing an unrelated learned vector for every symbol.
+
+This is essentially **factorized character embeddings using glyph structure**.
+
+However, there's a catch specific to this task.
+
+The vocabulary is only **256 bytes**.
+
+The winning transformer explicitly uses **1 byte = 1 token**. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md) So the byte embedding table is already tiny compared with a 6M-parameter model. Unlike ordinary LLMs with 50,000–200,000 token vocabularies, there's not much parameter budget to recover here.
+
+So I wouldn't target the embedding table.
+
+I'd target **prediction errors**.
+
+---
+
+## A stronger version of your idea
+
+I would change "OCR model" into a:
+
+**Tiny orthographic residual expert.**
+
+Inputs could be:
+
+```text
+previous 8–32 characters
+glyph/shape classes of those characters
+current word length
+letter/digit/punctuation states
+case pattern
+prefix/suffix hashes
+transformer entropy
+transformer top probabilities
+PPMD probabilities/confidence
+Wiki/XML state
+```
+
+Output:
+
+\[
+r(c)
+\]
+
+—a correction to the transformer's logits.
+
+Then:
+
+\[
+P_{\text{new}}(c)
+=
+\operatorname{softmax}
+\left(
+\log P_T(c)+\alpha r(c)
+\right).
+\]
+
+This is preferable to asking another model to predict everything.
+
+The transformer already knows an enormous amount.
+
+Our tiny model only needs to learn:
+
+> **When is the big predictor systematically slightly wrong?**
+
+That's a considerably easier problem.
+
+And there's precedent for feeding another model's distribution into the neural predictor: the current winning transformer receives the existing PPMD model's predicted byte distribution. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md)
+
+So architecturally we're extending something the record holder already does.
+
+---
+
+### The geometry model doesn't even have to be neural
+
+This is where your idea becomes particularly attractive.
+
+Imagine assigning classes:
+
+```text
+a c e o s       round
+b d h k l       ascender
+g j p q y       descender
+i l t           thin
+m w             wide
+A H M N         vertical-heavy
+C G O Q         round-uppercase
+0 6 8 9         rounded-digit
+1 4 7           angular-digit
+```
+
+Then maintain counts like:
+
+\[
+P(\text{next shape}\mid
+\text{previous shapes},\text{word position}).
+\]
+
+And once we've predicted a shape class, predict the actual character.
+
+Something like:
+
+\[
+P(c)
+=
+P(\text{shape}(c))
+P(c\mid\text{shape}(c)).
+\]
+
+That could be implemented with tiny tables and integer arithmetic.
+
+**No CNN. No OCR. No rasterization.**
+
+Potentially only a few KB of additional executable code/state.
+
+That is much more Hutter-like.
+
+---
+
+## There is also a surprisingly interesting 2D version
+
+Your snapshot intuition has one property worth preserving:
+
+**2D placement changes what becomes locally adjacent.**
+
+Imagine arranging words like:
+
+```text
+compression
+expression
+depression
+impression
+suppression
+```
+
+instead of sequentially:
+
+```text
+compression expression depression impression ...
+```
+
+Then aligned character columns expose:
+
+```text
+pression
+pression
+pression
+pression
+pression
+```
+
+to a local model.
+
+That's potentially useful.
+
+But again, I wouldn't convert this to an actual bitmap.
+
+I'd create a **reversible symbolic transform** that groups or aligns structurally similar words/articles.
+
+That's conceptually related to why fx2-cmix already reorders material before compression. The current transformer submission inherits fx2-cmix preprocessing, including article reordering and dictionary-based word transformations. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md)
+
+So your “pack text spatially so repeated patterns become obvious” intuition has precedent.
+
+The optimal version is probably **symbolic**, not visual.
+
+---
+
+## Model-size economics are better than they initially look
+
+There is a useful break-even equation.
+
+Let additional counted model/code size be \(C\) bytes and corpus size be
+
+\[
+N=10^9.
+\]
+
+The predictor needs to reduce average coding cost by only
+
+\[
+\Delta >
+\frac{8C}{N}
+\]
+
+bits/input-byte.
+
+Suppose our geometry expert costs **64 KiB in both binaries**, roughly:
+
+\[
+C\approx131072\text{ bytes}.
+\]
+
+Then we need only approximately
+
+\[
+\frac{8(131072)}{10^9}
+\approx0.00105
+\]
+
+bits per input byte of improvement.
+
+That's tiny.
+
+If the expert activates meaningfully on only 5% of the corpus, it needs approximately
+
+\[
+0.00105/0.05\approx0.021
+\]
+
+bits/byte improvement on those positions.
+
+That's not obviously impossible.
+
+Now compare that with a 1 MB neural OCR model duplicated across compressor/decompressor:
+
+\[
+C\approx2\text{ MB}.
+\]
+
+Break-even is roughly
+
+\[
+0.0168\text{ bits/byte globally}.
+\]
+
+If useful on only 5%:
+
+\[
+\approx0.34\text{ bits/byte}
+\]
+
+on that subset.
+
+That's much harder.
+
+This is why **2 KB tables + 20 KB model** can be far more interesting than a clever 1M-parameter OCR network.
+
+The existing winner illustrates the same tradeoff at larger scale: it accepts roughly 5.9 MB of combined transformer weights because the cross-entropy improvement over the previous LSTM is large enough to repay that cost. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md)
+
+### How I'd rate the variants
+
+| Version | Likely usefulness | Main issue |
+|---|---:|---|
+| Render full text → image → OCR | Low | Converts compact symbols into huge pixel space |
+| Extremely low-res glyph archive + OCR + residual | Low | Ambiguity moves into correction bits |
+| CNN over rendered previous text | Low–medium | Might predict well but CPU cost is high |
+| Precomputed glyph features → tiny predictor | **Interesting** | Very cheap experiment |
+| Character-shape context model | **Interesting** | Could add independent signal for little code |
+| Geometry-conditioned residual model | **Quite interesting** | Directly targets transformer mistakes |
+| Confidence-gated geometry expert | **Quite interesting** | Avoids spending compute everywhere |
+| Tiny residual model using *all* cmix signals | **More promising still** | Less visually novel, but targets the real information |
+| Reversible alignment/grouping transform | **Potentially very interesting** | Harder to design, but essentially free at inference if simple |
+
+So I would **not discard your idea**.
+
+I would discard the expensive part:
+
+\[
+\boxed{\text{pixels}+\text{OCR}}
+\]
+
+and keep:
+
+\[
+\boxed{\text{character geometry}
+\rightarrow
+\text{cheap independent features}
+\rightarrow
+\text{residual probability correction}}
+\]
+
+The particularly good thing about this direction is that we can test whether it contains useful information **before building anything substantial**. Run the existing compressor and record, for every byte, its predicted probability and actual byte. Then ask whether glyph/orthographic features of the preceding characters explain any of the remaining prediction error. If a tiny logistic model reduces held-out cross-entropy, we've established that the idea has signal. If it doesn't, we can kill the idea after a small experiment rather than writing an OCR system.
+
+And I would test one additional hypothesis alongside it: **the same tiny residual model, but fed predictions/features from several existing cmix models instead of glyph geometry.** The current transformer uses PPMD as an auxiliary signal, but otherwise the published change was essentially replacing the LSTM while leaving fx2-cmix intact. [GitHub](https://github.com/astOwOlfo/fx2-cmix-transformer-v1/blob/main/writeup.md) There may be information already computed by the classical models that the transformer never directly sees. That could give us the same "second expert catches difficult bytes" effect with essentially no new expensive perception pipeline.
+
+I can give you a small three-part experiment here that would tell us whether the geometry/OCR idea has measurable compression signal before we touch the full Hutter codebase.

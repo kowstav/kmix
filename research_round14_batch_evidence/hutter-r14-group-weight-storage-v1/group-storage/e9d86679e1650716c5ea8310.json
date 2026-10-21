@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.forget_gate_projection.down.weight.codebook",
+  "names": [
+    "blocks.2.attention.forget_gate_projection.down.weight.codebook"
+  ],
+  "label": "e9d86679e1650716c5ea8310",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 172
+    }
+  ],
+  "selected": [
+    172,
+    "xor",
+    "zstd"
+  ],
+  "archive_sha256": "5fb576633954660a16871e80b199eadc22d7061214db5ae83b5cd79507825586",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.011746999999999716,
+  "wall_seconds": 0.021470515999993722
+}

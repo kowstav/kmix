@@ -1,0 +1,12 @@
+{
+  "status": "FAIL_PRESERVED",
+  "started": 1791467904.6261852,
+  "regions": [],
+  "worker_count": 4,
+  "deletions": [],
+  "scope": "paid original raw-page order under PPMd-I, not canonical WRT/transformer history or qualifying Hutter package",
+  "pyppmd_version": "1.3.1",
+  "selection": "freeze one graph from development indices before inspecting confirmation",
+  "error": "ValueError('L1595: Corrupted input data.')",
+  "traceback": "concurrent.futures.process._RemoteTraceback: \n\"\"\"\nTraceback (most recent call last):\n  File \"/usr/lib/python3.13/concurrent/futures/process.py\", line 254, in _process_worker\n    r = call_item.fn(*call_item.args, **call_item.kwargs)\n  File \"/root/r14_code_v2/hutter_research/cpu_round14_order.py\", line 18, in region\n    blob=order.compress(pages,permutation,max_order=level);assert order.decompress(blob)==pages\n                                                                  ~~~~~~~~~~~~~~~~^^^^^^\n  File \"/root/r14_code_v2/hutter_research/article_order_ppmd.py\", line 27, in decompress\n    raw=pyppmd.decompress(blob[32+a+b:],max_order=o,mem_size=m,variant='I');pages=[None]*n;offset=0\n  File \"/root/r14_pyppmd/pyppmd/__init__.py\", line 205, in decompress\n    return _decompress8(data, max_order, mem_size)\n  File \"/root/r14_pyppmd/pyppmd/__init__.py\", line 218, in _decompress8\n    res = decomp.decode(data)\nValueError: L1595: Corrupted input data.\n\"\"\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/root/r14_code_v2/hutter_research/cpu_round14_order.py\", line 53, in main\n    for f in as_completed([pool.submit(region,i) for i in range(16)]):M['regions'].append(f.result());save()\n                                                                                          ~~~~~~~~^^\n  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n    raise self._exception\nValueError: L1595: Corrupted input data.\n"
+}

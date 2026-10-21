@@ -1,0 +1,336 @@
+{
+  "status": "COMPLETE_ACTUAL_NATIVE_CONFIRMATION",
+  "started": 1791448772.0576515,
+  "regions": [
+    {
+      "region": 11,
+      "cases": [
+        {
+          "mode": 2,
+          "region": 11,
+          "offset": 256000000,
+          "bytes": 3145728,
+          "CPU_lane": 3,
+          "worker_pid": 13,
+          "binary_sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4679.376733043,
+            "CPU_user_seconds": 4602.26527,
+            "CPU_system_seconds": 20.580387,
+            "peak_RSS_KiB": 6078004,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4605.2582506,
+            "CPU_user_seconds": 4514.384479,
+            "CPU_system_seconds": 35.134239,
+            "peak_RSS_KiB": 6075660,
+            "stop": null
+          },
+          "archive_bytes": 644359,
+          "archive_sha256": "878af05fb138ef7b84c42a143f81fc37e382a3dcb2767ec5a2d229f70c2af972",
+          "probabilities_sha256": "00487e0fc7e591dc6737169e15ffac94b0d3b91e282a9d6e962562eac82e4eef",
+          "input_sha256": "6ca13e6e6cf1e08ab0d60815cb56b6367a6107dc72bf7b55d84c676ec132722b",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5154574.36664643,
+          "warm_target_bits": 1664947.4557757475,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        },
+        {
+          "mode": "pinned",
+          "region": 11,
+          "offset": 256000000,
+          "bytes": 3145728,
+          "CPU_lane": 3,
+          "worker_pid": 13,
+          "binary_sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4659.438021297001,
+            "CPU_user_seconds": 4562.622897,
+            "CPU_system_seconds": 21.123048,
+            "peak_RSS_KiB": 6077548,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4995.620154856999,
+            "CPU_user_seconds": 4876.730381,
+            "CPU_system_seconds": 39.381648,
+            "peak_RSS_KiB": 6074984,
+            "stop": null
+          },
+          "archive_bytes": 644710,
+          "archive_sha256": "52953c5953aef34372a9aba3791f83f9fdec3d0319d90bc4cb2f3c5f79f2e5a9",
+          "probabilities_sha256": "1bed1f9d859767d0a1406c1b5295f9eff0c3302fdc4fe6390d76138b0858bc6d",
+          "input_sha256": "6ca13e6e6cf1e08ab0d60815cb56b6367a6107dc72bf7b55d84c676ec132722b",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5157385.460809129,
+          "warm_target_bits": 1665424.9337983015,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        }
+      ],
+      "actual_archive_gain_bytes": 351,
+      "warm_logloss_gain_bytes": 59.68475281924475
+    },
+    {
+      "region": 9,
+      "cases": [
+        {
+          "mode": 2,
+          "region": 9,
+          "offset": 128000000,
+          "bytes": 3145728,
+          "CPU_lane": 1,
+          "worker_pid": 11,
+          "binary_sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4790.92047299,
+            "CPU_user_seconds": 4715.402859,
+            "CPU_system_seconds": 17.457123,
+            "peak_RSS_KiB": 6070876,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4508.725319134,
+            "CPU_user_seconds": 4442.050595,
+            "CPU_system_seconds": 16.384661,
+            "peak_RSS_KiB": 6068544,
+            "stop": null
+          },
+          "archive_bytes": 676329,
+          "archive_sha256": "64bda5137a0e44b29ec929b6947c906bdae43e71ad3cb15f8abc4480e83da41b",
+          "probabilities_sha256": "c383e22387d6ecb98b350f350bd40bb8aefa856d8c68d893a9824ac3410e0201",
+          "input_sha256": "1db7742cee373c5ca5e784782adef5f48e28724cef73da412a66a7f682b91175",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5410328.001121501,
+          "warm_target_bits": 1806965.9254303132,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        },
+        {
+          "mode": "pinned",
+          "region": 9,
+          "offset": 128000000,
+          "bytes": 3145728,
+          "CPU_lane": 1,
+          "worker_pid": 11,
+          "binary_sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4824.014420079,
+            "CPU_user_seconds": 4725.48495,
+            "CPU_system_seconds": 18.40922,
+            "peak_RSS_KiB": 6070316,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4948.556228976,
+            "CPU_user_seconds": 4854.649768,
+            "CPU_system_seconds": 19.958061999999998,
+            "peak_RSS_KiB": 6067868,
+            "stop": null
+          },
+          "archive_bytes": 676647,
+          "archive_sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "probabilities_sha256": "dc0a65684946aec2584b9dc9e937c7d82bedc0bb61209e284932db9fca11a9a8",
+          "input_sha256": "1db7742cee373c5ca5e784782adef5f48e28724cef73da412a66a7f682b91175",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5412872.649700595,
+          "warm_target_bits": 1807401.4488789767,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        }
+      ],
+      "actual_archive_gain_bytes": 318,
+      "warm_logloss_gain_bytes": 54.44043108294136
+    },
+    {
+      "region": 8,
+      "cases": [
+        {
+          "mode": "pinned",
+          "region": 8,
+          "offset": 64000000,
+          "bytes": 3145728,
+          "CPU_lane": 0,
+          "worker_pid": 10,
+          "binary_sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4812.364353756,
+            "CPU_user_seconds": 4736.666314,
+            "CPU_system_seconds": 17.398141,
+            "peak_RSS_KiB": 6070228,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4341.042128396999,
+            "CPU_user_seconds": 4277.541382,
+            "CPU_system_seconds": 15.149362,
+            "peak_RSS_KiB": 6067632,
+            "stop": null
+          },
+          "archive_bytes": 652164,
+          "archive_sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "probabilities_sha256": "352f01771f1b99e55d863768ce3a093192a5b927cd192edbf2f4b758889a8562",
+          "input_sha256": "211133948c1b31845f673ea2497dbe5abaedb042ed58888017984de9d6994bbd",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5217011.532423441,
+          "warm_target_bits": 1745764.9905641223,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        },
+        {
+          "mode": 2,
+          "region": 8,
+          "offset": 64000000,
+          "bytes": 3145728,
+          "CPU_lane": 0,
+          "worker_pid": 10,
+          "binary_sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 5023.7045549819995,
+            "CPU_user_seconds": 4900.152416,
+            "CPU_system_seconds": 33.708607,
+            "peak_RSS_KiB": 6070788,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 5115.697936608001,
+            "CPU_user_seconds": 5019.906242,
+            "CPU_system_seconds": 20.598195,
+            "peak_RSS_KiB": 6068520,
+            "stop": null
+          },
+          "archive_bytes": 651836,
+          "archive_sha256": "69d41f172298e3a6e1be3d5be1e6467d480521790296e9c357f816660967559c",
+          "probabilities_sha256": "d2d6973287937ebc4f7056096c0acfe5dc74fa52c4b29f43549cde57020a9364",
+          "input_sha256": "211133948c1b31845f673ea2497dbe5abaedb042ed58888017984de9d6994bbd",
+          "exact_independent_inverse": true,
+          "all_target_bits": 5214389.351974038,
+          "warm_target_bits": 1745351.648835799,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        }
+      ],
+      "actual_archive_gain_bytes": 328,
+      "warm_logloss_gain_bytes": 51.66771604042151
+    },
+    {
+      "region": 10,
+      "cases": [
+        {
+          "mode": "pinned",
+          "region": 10,
+          "offset": 192000000,
+          "bytes": 3145728,
+          "CPU_lane": 2,
+          "worker_pid": 12,
+          "binary_sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 4858.893513289,
+            "CPU_user_seconds": 4782.565622,
+            "CPU_system_seconds": 17.119699,
+            "peak_RSS_KiB": 6076268,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 4409.0620029970005,
+            "CPU_user_seconds": 4346.144944,
+            "CPU_system_seconds": 14.039717,
+            "peak_RSS_KiB": 6073988,
+            "stop": null
+          },
+          "archive_bytes": 616199,
+          "archive_sha256": "e67de3bf17dfeb5deef4e205153118dee78d99920b676caad1c09b4847bde744",
+          "probabilities_sha256": "5507f65ddb221810e461d0974c2ef6dec9bc7c4c419648fd40525c907afed70e",
+          "input_sha256": "7c2b7b63d6f9ae5786d3608e32e9caf2caafa6aac14449ede0cc86992862428e",
+          "exact_independent_inverse": true,
+          "all_target_bits": 4929291.651431255,
+          "warm_target_bits": 1744759.2667413047,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        },
+        {
+          "mode": 2,
+          "region": 10,
+          "offset": 192000000,
+          "bytes": 3145728,
+          "CPU_lane": 2,
+          "worker_pid": 12,
+          "binary_sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+          "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+          "encode": {
+            "exit": 0,
+            "wall_seconds": 5044.144717169,
+            "CPU_user_seconds": 4935.685025,
+            "CPU_system_seconds": 18.979602,
+            "peak_RSS_KiB": 6077036,
+            "stop": null
+          },
+          "decode": {
+            "exit": 0,
+            "wall_seconds": 5027.129509271001,
+            "CPU_user_seconds": 4934.472798,
+            "CPU_system_seconds": 18.888825,
+            "peak_RSS_KiB": 6074368,
+            "stop": null
+          },
+          "archive_bytes": 615882,
+          "archive_sha256": "50c55726650296fb28904fa7df07198737aa48bfeee25e5c796cc0d9027ba406",
+          "probabilities_sha256": "68594e47464c00763cc28000a798782d8d57be247a7062cee1157aa9c30b0de9",
+          "input_sha256": "7c2b7b63d6f9ae5786d3608e32e9caf2caafa6aac14449ede0cc86992862428e",
+          "exact_independent_inverse": true,
+          "all_target_bits": 4926748.735848793,
+          "warm_target_bits": 1744451.5146128135,
+          "warmup_bytes": 2097152,
+          "no_global_history_claim": true,
+          "production_build_qualification": false
+        }
+      ],
+      "actual_archive_gain_bytes": 317,
+      "warm_logloss_gain_bytes": 38.46901606139727
+    }
+  ],
+  "worker_count": 4,
+  "indices": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "frozen_law": "R13 guard_4_fixedshare, mode2 binary SHA752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+  "confirmation_caveat": "same fixed eight confirmation regions as frozen replay; validates coding, not an additional independent dataset",
+  "deletions": [],
+  "paid_usd": 0,
+  "GPU": false,
+  "finished": 1791468129.98023,
+  "worker_and_descendant_CPU_seconds": 75644.41672400001
+}

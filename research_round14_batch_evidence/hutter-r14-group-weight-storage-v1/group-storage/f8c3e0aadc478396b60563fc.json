@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.1.attention.forget_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.1.attention.forget_gate_projection.down.weight.scale"
+  ],
+  "label": "f8c3e0aadc478396b60563fc",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 472
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 527
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 423
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 467
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 416
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 472
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 527
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 472
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 527
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 472
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 527
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 557
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 574
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    416,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "cff6d575cdd35495ed0e6302def7b22022c148ec7df85c932c9ffe1576a0e72b",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.010018000000001998,
+  "wall_seconds": 0.010917842999987215
+}

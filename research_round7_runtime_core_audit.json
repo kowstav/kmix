@@ -1,0 +1,58 @@
+{
+  "returncode": 0,
+  "files": [
+    {
+      "filename": "fla_core-0.5.1-py3-none-any.whl",
+      "bytes": 702955,
+      "sha256": "02150d34aa1e37f6b8ed9b2feec5d29af93680573e5077ed981238179c11fb06",
+      "requirements": [
+        "Requires-Python: >=3.10",
+        "Requires-Dist: einops",
+        "Requires-Dist: torch>=2.7.0; extra == \"cuda\"",
+        "Requires-Dist: triton>=3.3; extra == \"cuda\"",
+        "Requires-Dist: torch>=2.7.0; extra == \"rocm\"",
+        "Requires-Dist: torch>=2.7.0; extra == \"xpu\"",
+        "Requires-Dist: torch==2.6.0; extra == \"npu\"",
+        "Requires-Dist: torch_npu==2.6.0; extra == \"npu\"",
+        "Requires-Dist: triton-ascend==3.2.0; extra == \"npu\"",
+        "Requires-Dist: torch>=2.7.0; extra == \"cpu\"",
+        "Requires-Dist: triton>=3.3; extra == \"cpu\""
+      ]
+    },
+    {
+      "filename": "wadler_lindig-0.1.3-py3-none-any.whl",
+      "bytes": 20140,
+      "sha256": "3018e4e6b115a7ef21c77414a41cbe7e03e83f6b5e25004958e33432a17f3c94",
+      "requirements": [
+        "Requires-Python: >=3.10",
+        "Requires-Dist: numpy; extra == 'dev'",
+        "Requires-Dist: pre-commit; extra == 'dev'",
+        "Requires-Dist: pytest; extra == 'dev'",
+        "Requires-Dist: jinja2==3.0.3; extra == 'docs'",
+        "Requires-Dist: mkdocs-autorefs==1.0.1; extra == 'docs'",
+        "Requires-Dist: mkdocs-include-exclude-files==0.0.1; extra == 'docs'",
+        "Requires-Dist: mkdocs-material-extensions==1.3.1; extra == 'docs'",
+        "Requires-Dist: mkdocs-material==7.3.6; extra == 'docs'",
+        "Requires-Dist: mkdocs==1.3.0; extra == 'docs'",
+        "Requires-Dist: mkdocstrings==0.17.0; extra == 'docs'",
+        "Requires-Dist: mknotebooks==0.7.1; extra == 'docs'",
+        "Requires-Dist: nbconvert==6.5.0; extra == 'docs'",
+        "Requires-Dist: nbformat==5.4.0; extra == 'docs'",
+        "Requires-Dist: pygments==2.14.0; extra == 'docs'",
+        "Requires-Dist: pymdown-extensions==9.4; extra == 'docs'",
+        "Requires-Dist: pytkdocs-tweaks==0.0.8; extra == 'docs'"
+      ]
+    }
+  ],
+  "installed_dependencies": {
+    "torch": "2.10.0+cu128",
+    "triton": "3.6.0",
+    "numpy": "2.0.2",
+    "einops": "0.8.2",
+    "packaging": "26.1",
+    "transformers": "5.0.0",
+    "ninja": "1.13.0",
+    "termcolor": "3.3.0"
+  },
+  "scope": "Wheel/dependency inspection only; no installation, inference or SGD"
+}

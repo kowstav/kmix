@@ -1,0 +1,42 @@
+[
+  {
+    "name": "residual_none",
+    "steps": 2000,
+    "base_bpb": 2.5720167973233226,
+    "corrected_bpb": 2.5432201820233873,
+    "extra_model_bytes": 45003,
+    "validation_nats": 1.6742281913757324,
+    "train_seconds": 9.55409288406372,
+    "scope": "frozen small causal proxy; not CMIX; cross entropy only; no codec integration"
+  },
+  {
+    "name": "residual_shape",
+    "steps": 2000,
+    "base_bpb": 2.5720167973233226,
+    "corrected_bpb": 2.5432423992136504,
+    "extra_model_bytes": 47470,
+    "validation_nats": 1.6738746166229248,
+    "train_seconds": 9.09587049484253,
+    "scope": "frozen small causal proxy; not CMIX; cross entropy only; no codec integration"
+  },
+  {
+    "name": "residual_orth",
+    "steps": 2000,
+    "base_bpb": 2.5720167973233226,
+    "corrected_bpb": 2.5432437180383096,
+    "extra_model_bytes": 45008,
+    "validation_nats": 1.673570156097412,
+    "train_seconds": 9.19414758682251,
+    "scope": "frozen small causal proxy; not CMIX; cross entropy only; no codec integration"
+  },
+  {
+    "name": "residual_gate",
+    "steps": 2000,
+    "base_bpb": 2.5720167973233226,
+    "corrected_bpb": 2.5497616274127726,
+    "extra_model_bytes": 47737,
+    "validation_nats": 1.6770447492599487,
+    "train_seconds": 9.185816764831543,
+    "scope": "frozen small causal proxy; not CMIX; cross entropy only; no codec integration"
+  }
+]

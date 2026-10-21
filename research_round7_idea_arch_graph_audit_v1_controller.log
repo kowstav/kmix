@@ -1,0 +1,32 @@
+{
+  "scope": "Dictionary-only search/basis audit; not a corpus-fitted graph or compression gain",
+  "dictionary_words": 44515,
+  "queries": 133,
+  "mean_recall_at8": 0.039473684210526314,
+  "zero_recall_queries": 111,
+  "full_recall_queries": 0,
+  "mean_score_regret": 0.14632832994194406,
+  "normalized_float32_identical_feature_collision_groups": 3,
+  "collision_examples": [
+    [
+      "a",
+      "aaaaaa"
+    ],
+    [
+      "ffffff",
+      "ffff"
+    ],
+    [
+      "cccccc",
+      "cccc"
+    ]
+  ],
+  "five_moment_basis_rank": 3,
+  "startup_and_audit_seconds": 178.4655076969998,
+  "prototype_peak_rss_kbytes": 832904,
+  "neural_training": false,
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "source_sha256": "4a36141e9c89b2f1cfb6dadc09f9ec9bcd2ea5431e4005821fa1092741599d12"
+}
+GRAPH_AUDIT_COMPLETE

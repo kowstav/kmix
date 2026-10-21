@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "utc_started": "2026-10-05T13:23:43.926490+00:00",
+  "maximum_native_processes": 2,
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "scope": "Original FX2-ordered WRT slices with actual lexth11c model/config; final integer probability traces, not qualifying archive or published ordered full stream",
+  "binary_sha256": "d906d0f2e98c1f5d0d3c1f3ca893b2190750b4bd708b9e001382c7330381c76e",
+  "weights_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+  "identity_gate": [
+    {
+      "slice": "a",
+      "input_bytes": 32768,
+      "input_sha256": "abf949c54359ee758b795cd282f44c9543864729b514bd0919a428fe3632ba8b",
+      "archive_bytes": 3109,
+      "archive_sha256": "b61c7eec4f2f25e443a5f4033d8c6ccd63b241b23665eeeec4b619e4363f35bc",
+      "bit_trace_sha256": "3e09f3b1ce47da6006c58aa91d02f852b6597d49dd4fbba75b0ca32f85e54cbf",
+      "bit_count": 262144,
+      "max_bit_reconstruction_vs_float32_byte_cost_diff": 4.7653559676064106e-07,
+      "archive_bit_exact_reference": true,
+      "costs_bit_exact_older2M_prefix": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "wall_seconds": 68.01591398899996,
+          "user_seconds": 61.724667,
+          "system_seconds": 5.622967,
+          "max_rss_kbytes": 5651728,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "trace": {
+          "wall_seconds": 73.0102213749999,
+          "user_seconds": 66.851989,
+          "system_seconds": 5.8736809999999995,
+          "max_rss_kbytes": 5651732,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "decode": {
+          "wall_seconds": 77.01220534699996,
+          "user_seconds": 70.233372,
+          "system_seconds": 6.1159,
+          "max_rss_kbytes": 5651568,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        }
+      }
+    },
+    {
+      "slice": "b",
+      "input_bytes": 32768,
+      "input_sha256": "4dcc59b719cf635dfc72d2d96123d0344bab68df0d3f5805f46978f4674a7b24",
+      "archive_bytes": 8222,
+      "archive_sha256": "a82bea6aa9e16dc23ce1cd870c1d56b8600d46d61c9144edf33c86e0becd55c6",
+      "bit_trace_sha256": "be585cc6def93f795090efc71a72a7a2c74681d92272ee38fded8f84618621dd",
+      "bit_count": 262144,
+      "max_bit_reconstruction_vs_float32_byte_cost_diff": 7.704663538277146e-07,
+      "archive_bit_exact_reference": true,
+      "costs_bit_exact_older2M_prefix": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "wall_seconds": 73.010080474,
+          "user_seconds": 66.089233,
+          "system_seconds": 6.099729,
+          "max_rss_kbytes": 5798620,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "trace": {
+          "wall_seconds": 73.01011613800028,
+          "user_seconds": 66.09836,
+          "system_seconds": 6.06284,
+          "max_rss_kbytes": 5798496,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "decode": {
+          "wall_seconds": 72.01039024200008,
+          "user_seconds": 65.383998,
+          "system_seconds": 5.900736,
+          "max_rss_kbytes": 5798316,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        }
+      }
+    }
+  ],
+  "archive_control_sha256": {
+    "a": "4776ebb76fe9bf25c7562cc3b4106793a9262e2d5d23d50361fbd4a8789ff190",
+    "b": "0646ea281d6717a42464463688ceb85c5d2150640c061ca04c49d24676b955b6",
+    "c": "8d9de0b98bb6a891a7c9660122e0fa850776c62e0fc09c4f4932e0974e3c52a0",
+    "d": "420711a6b5793e4d1d9e9d502c79a9a86a308fbc885495b35288e4f66e6d4e99"
+  }
+}

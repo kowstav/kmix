@@ -1,0 +1,112 @@
+{
+  "partition": "layer",
+  "key": "other_1",
+  "names": [
+    "embedding.weight.scale",
+    "prior_embedding.weight.scale",
+    "skip_connection_weights.value",
+    "unembedding.weight.scale"
+  ],
+  "label": "5ef87b216c6b0ae8068b9647",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1020
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 989
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1021
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 915
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 902
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 924
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1020
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 989
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1021
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1020
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 989
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1021
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1020
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 989
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1021
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1311
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1171
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1315
+    }
+  ],
+  "selected": [
+    902,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "ac8f528b56620491ec8e0493bfbbcb5737dc676373d4087da191776ad5863626",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.01563600000000062,
+  "wall_seconds": 0.01647543600000745
+}

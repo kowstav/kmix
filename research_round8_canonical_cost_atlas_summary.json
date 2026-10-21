@@ -1,0 +1,24 @@
+{
+  "scope": "canonical cold 512KiB A/B; all final native code-path bits; no C/D used",
+  "total_native_likelihood_bytes": 157145.25273209586,
+  "class_cost_bytes": {
+    "sync_prefix": 886.6611410720875,
+    "literal_or_control": 52610.35115136733,
+    "other_dictionary": 83365.46855053527,
+    "constructor_dictionary": 20189.556528633275,
+    "escaped_payload": 93.21536048893992
+  },
+  "class_native_cost_percent": {
+    "sync_prefix": 0.5642303064564628,
+    "literal_or_control": 33.47880399610826,
+    "other_dictionary": 53.049943985682006,
+    "constructor_dictionary": 12.847703750270334,
+    "escaped_payload": 0.05931796148360599
+  },
+  "fixed_KT_saving_bytes": -4248.086808889864,
+  "global_half_identity_Q16_mixture_saving_bytes": -0.25196807403699495,
+  "batch_exact_mixture_ideal_saving_bytes": -0.25000000000727596,
+  "max_stream_vs_batch_roundoff_bits": 7.507391273975372e-06,
+  "full_word_or_full_corpus_coverage_claim": false,
+  "recoverable_saving_bound_claim": false
+}

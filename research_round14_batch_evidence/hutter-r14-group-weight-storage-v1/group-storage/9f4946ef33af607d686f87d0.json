@@ -1,0 +1,147 @@
+{
+  "partition": "layer",
+  "key": "block_6",
+  "names": [
+    "blocks.6.attention.beta_projection.weight",
+    "blocks.6.attention.dt_bias",
+    "blocks.6.attention.forget_gate_projection.down.weight.codebook",
+    "blocks.6.attention.forget_gate_projection.down.weight.q",
+    "blocks.6.attention.forget_gate_projection.down.weight.scale",
+    "blocks.6.attention.forget_gate_projection.up.weight.codebook",
+    "blocks.6.attention.forget_gate_projection.up.weight.q",
+    "blocks.6.attention.forget_gate_projection.up.weight.scale",
+    "blocks.6.attention.key_convolution.weight",
+    "blocks.6.attention.key_projection.weight.codebook",
+    "blocks.6.attention.key_projection.weight.q",
+    "blocks.6.attention.key_projection.weight.scale",
+    "blocks.6.attention.log_baseline_decay_rate",
+    "blocks.6.attention.output_fused_norm_gate.weight",
+    "blocks.6.attention.output_gate_projection.down.weight.codebook",
+    "blocks.6.attention.output_gate_projection.down.weight.q",
+    "blocks.6.attention.output_gate_projection.down.weight.scale",
+    "blocks.6.attention.output_gate_projection.up.weight.codebook",
+    "blocks.6.attention.output_gate_projection.up.weight.q",
+    "blocks.6.attention.output_gate_projection.up.weight.scale",
+    "blocks.6.attention.output_projection.weight.codebook",
+    "blocks.6.attention.output_projection.weight.q",
+    "blocks.6.attention.output_projection.weight.scale",
+    "blocks.6.attention.query_convolution.weight",
+    "blocks.6.attention.query_projection.weight.codebook",
+    "blocks.6.attention.query_projection.weight.q",
+    "blocks.6.attention.query_projection.weight.scale",
+    "blocks.6.attention.value_convolution.weight",
+    "blocks.6.attention.value_projection.weight.codebook",
+    "blocks.6.attention.value_projection.weight.q",
+    "blocks.6.attention.value_projection.weight.scale",
+    "blocks.6.mlp.down.weight.codebook",
+    "blocks.6.mlp.down.weight.q",
+    "blocks.6.mlp.down.weight.scale",
+    "blocks.6.mlp.up.weight.codebook",
+    "blocks.6.mlp.up.weight.q",
+    "blocks.6.mlp.up.weight.scale",
+    "blocks.6.residual_stream_coefficient.value",
+    "blocks.6.token_embedding_coefficient.value"
+  ],
+  "label": "9f4946ef33af607d686f87d0",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 285869
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 267297
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 270788
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 284386
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 266029
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 270164
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 285866
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 266187
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 270822
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 251666
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 252629
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 252595
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 286005
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 266492
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 271425
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 296272
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 274515
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 279321
+    }
+  ],
+  "selected": [
+    251666,
+    "nibble",
+    "gzip"
+  ],
+  "archive_sha256": "37ddf31618a0ab4fa3fcb2ab8b04ea79302bc0995a0118ca55bff037ec0c6c27",
+  "CPU_lane": 3,
+  "CPU_seconds": 1.6872150000000006,
+  "wall_seconds": 1.6936519440000097
+}

@@ -1,0 +1,13 @@
+waiting for exact stage-source identity/exports; no duplicate inference
+failure preserved; do not duplicate
+Traceback (most recent call last):
+  File "/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py", line 118, in <module>
+    for s in 'ab':export(s)
+                  ^^^^^^^^^
+  File "/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py", line 117, in export
+    sig[:128,23:37]=0;sig[128:,23:37]=sig[:-128,:14];sig[:,37:43]=roles(raw,words);sig[:128,43:49]=0;sig[128:,43:49]=sig[:-128,37:43];assert np.isfinite(sig).all();data[s]=Records(p,y,sig);row={'slice':s,'stage_sha256':v['stage_sha256'],'native_p_sha256':n['final_p_sha256'],'input_sha256':n['input_sha256'],'feature_sha256':hashlib.sha256(sig.tobytes()).hexdigest(),'feature_dimensions':49,'feature_bytes':sig.nbytes};m['feature_exports'].append(row);save('prefix-known source/role features '+s+' assembled')
+                                                                  ^^^^^^^^^^^^^^^^
+  File "/kaggle/working/hp_round8/research_round8_native_stage_fit_worker.py", line 58, in roles
+    assert 208<=pending[1]<240 and 128<=pending[2]<208;j=3920+((pending[0]-240)*32+pending[1]-208)*80+pending[2]-128
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

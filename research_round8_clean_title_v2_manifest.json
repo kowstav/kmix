@@ -1,0 +1,116 @@
+{
+  "status": "FAIL",
+  "pid": 187,
+  "session": 355655943,
+  "started": "2026-10-06T07:04:43.667169+00:00",
+  "results": [
+    {
+      "raw_bytes": 131072,
+      "unscored_prefix_bytes": 43,
+      "scored_bits": 1048232,
+      "lexical_events": 14706,
+      "past_bank": 14,
+      "donor_selections": 2367,
+      "entity_EOF": false,
+      "arms": [
+        {
+          "name": "generic",
+          "saving_bytes": -0.19225315088225445,
+          "q16_tax_bytes": 0.0033814013523295605,
+          "tree_nodes": 4641,
+          "prediction_hash": "2858859947352388028"
+        },
+        {
+          "name": "persistent_title",
+          "saving_bytes": 0.7382352796473383,
+          "q16_tax_bytes": -0.015234314573890462,
+          "tree_nodes": 4641,
+          "prediction_hash": "5257949953679130659"
+        },
+        {
+          "name": "random_title",
+          "saving_bytes": -0.229397369501734,
+          "q16_tax_bytes": 0.010709476358017639,
+          "tree_nodes": 4641,
+          "prediction_hash": "7970117112112025736"
+        },
+        {
+          "name": "title_geometry",
+          "saving_bytes": -0.24358361950755628,
+          "q16_tax_bytes": -0.005025910673263079,
+          "tree_nodes": 4641,
+          "prediction_hash": "17178684062886376079"
+        },
+        {
+          "name": "past_title_retrieval",
+          "saving_bytes": -0.24919352152378407,
+          "q16_tax_bytes": 0.004801676280370926,
+          "tree_nodes": 4641,
+          "prediction_hash": "16560428538013081632"
+        },
+        {
+          "name": "random_past_retrieval",
+          "saving_bytes": -0.18514035528680603,
+          "q16_tax_bytes": 0.002845168910239365,
+          "tree_nodes": 4641,
+          "prediction_hash": "1091145667643757187"
+        }
+      ],
+      "wall_seconds": 12.717825719,
+      "status": "CLEAN_TITLE_REPLAY_NOT_ARCHIVE",
+      "core_training": false,
+      "deletions": [],
+      "accounting": {
+        "wall_seconds_controller": 12.753688873999636,
+        "user_seconds": 12.667128,
+        "system_seconds": 0.082981,
+        "max_rss_kbytes": 96644
+      },
+      "slice": "a_128k"
+    }
+  ],
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_retraining": false,
+  "repair": "Self-test fixture expected 4 aardvarks but contains 3; only the assertion changes. v1 source/binary/log/manifest preserved.",
+  "compile": {
+    "wall_seconds_controller": 9.048253685000418,
+    "user_seconds": 8.759599,
+    "system_seconds": 0.282758,
+    "max_rss_kbytes": 320188
+  },
+  "binary": {
+    "bytes": 313984,
+    "sha256": "99b24d7981ccc8e788a9e8499e9ef8222682642d2b2f276f92b071675d74631d"
+  },
+  "sources": [
+    {
+      "file": "research_round8_clean_title_v2.cpp",
+      "sha256": "24a66a9d3e5f8708a1d8f9f97ddd6d0a90e68eff5dfe5ed7dfe4e40ba4e1e5fd"
+    },
+    {
+      "file": "research_round8_conditional_library.h",
+      "sha256": "8a20476f8d4af82ea0d8dd8055d60880b95526fd538a2f6ea4421197d98761bc"
+    },
+    {
+      "file": "research_round7_remaining_experts.cpp",
+      "sha256": "b54c35169529eae8cc4269c40585f94bfa77121b25e4d1a0aa51982a5b962d17"
+    },
+    {
+      "file": "research_round8_clean_title_protocol.md",
+      "sha256": "278973cde7b0f1047677b6c387a0bed7e421556f182be8a9662d9cb2737bc756"
+    }
+  ],
+  "selftest": {
+    "status": "PASS",
+    "old_title_tag_contamination_reproduced": true,
+    "tag_and_metadata_words_excluded": true,
+    "quote_aware_tag_close": true,
+    "entities_delayed_until_complete": true,
+    "completed_past_bank_only": true,
+    "incomplete_EOF_unflushed": true,
+    "max_mass_normalization_error": 1.099120794378905e-14
+  },
+  "error": "RuntimeError((['/kaggle/working/hp_round8/clean_title_v2/replay', '/kaggle/working/hp_round7/preserved/slices/b2m.bin', '/kaggle/working/hp_round7/lex_finalbit_2m_v1/b/final_p.u16', '/kaggle/working/hp_round7/preserved/gen/.dict', '/kaggle/working/hp_round7/research_round7_remaining_graph.txt', '/kaggle/working/hp_round7/research_round7_remaining_constructors.txt', '131072', '/kaggle/working/hp_round8/clean_title_v2/b_128k.json'], 1, '/kaggle/working/hp_round8/clean_title_v2/b_128k.log'))",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round8/research_round8_clean_title_v2_worker.py\", line 20, in <module>\n    pilots=[evaluate(s,131072) for s in 'ab'];pairs=[('persistent_title','random_title'),('title_geometry','random_title'),('past_title_retrieval','random_past_retrieval')]\n            ^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round8/research_round8_clean_title_v2_worker.py\", line 18, in evaluate\n    acct=run([str(binary),str(raw),str(trace),*args,str(limit),str(D/(tag+'.json'))],D/(tag+'.log'));row=json.loads((D/(tag+'.json')).read_text());row.update(accounting=acct,slice=tag);(D/(tag+'.json')).write_text(json.dumps(row,indent=2));m['results'].append(row);save();print(json.dumps({'completed':tag,'arms':row['arms'],'cpu':acct['user_seconds']}),flush=True)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round8/research_round8_clean_title_v2_worker.py\", line 8, in run\n    if p.returncode:raise RuntimeError((cmd,p.returncode,str(log)))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: (['/kaggle/working/hp_round8/clean_title_v2/replay', '/kaggle/working/hp_round7/preserved/slices/b2m.bin', '/kaggle/working/hp_round7/lex_finalbit_2m_v1/b/final_p.u16', '/kaggle/working/hp_round7/preserved/gen/.dict', '/kaggle/working/hp_round7/research_round7_remaining_graph.txt', '/kaggle/working/hp_round7/research_round7_remaining_constructors.txt', '131072', '/kaggle/working/hp_round8/clean_title_v2/b_128k.json'], 1, '/kaggle/working/hp_round8/clean_title_v2/b_128k.log')\n"
+}

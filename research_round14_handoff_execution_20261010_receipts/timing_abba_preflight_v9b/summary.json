@@ -1,0 +1,16 @@
+{
+  "note": "attempt 2: attempt 1 (timing_abba_preflight_v9/summary.json) failed before any run because the runner did not create its /root scratch parents",
+  "started": 1791589121.5167491,
+  "source_sha256": "c792a9fbb6151b0b7c9366517a21413c038188620ca65b6b4155e41b58cbba2c",
+  "arms": {
+    "prune_word": "PASS_16KIB_PREFLIGHT_REFERENCE_PARITY",
+    "prune_match": "PASS_16KIB_PREFLIGHT_REFERENCE_PARITY",
+    "prune_indirect": "PASS_16KIB_PREFLIGHT_REFERENCE_PARITY",
+    "output_fp32": "PASS_16KIB_PREFLIGHT_REFERENCE_PARITY"
+  },
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "finished": 1791591698.40526,
+  "status": "PASS_ALL_FOUR_16KIB_PREFLIGHT_REFERENCE_PARITY"
+}

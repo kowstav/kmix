@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.4.attention.output_gate_projection.up.weight.codebook",
+  "names": [
+    "blocks.4.attention.output_gate_projection.up.weight.codebook"
+  ],
+  "label": "493be174e1be8450ccde8b64",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 182
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 171
+    }
+  ],
+  "selected": [
+    171,
+    "plain",
+    "zstd"
+  ],
+  "archive_sha256": "20c5c0f078aec2dd9dde125edd074b9061ebcf6138c363e30d3a297fa41fd74b",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.008338000000001108,
+  "wall_seconds": 0.008761233000001312
+}

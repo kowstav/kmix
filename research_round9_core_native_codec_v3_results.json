@@ -1,0 +1,422 @@
+{
+  "status": "COMPLETE_CORRECTED_NEURAL_AND_COMBINED_CM_TRAINED_MODEL_CODECS",
+  "pid": 2539,
+  "started": 1791312093.8243184,
+  "spending_usd": 0,
+  "deletions": [],
+  "neural_candidates": [
+    {
+      "name": "neural_unweighted",
+      "archive_bytes": 20264,
+      "archive_sha256": "33fc0e459951e81111fc265aafbff3e10613811b0457cad1deeec1f832e5644a",
+      "input_sha256": "fb5d47e7622cb6200174c273551788f81ea954badf6857918262d1dd64d61ae5",
+      "neural_probability_sha256": "d8e156b2510e805bb364d417119507bbace785c2ffa036865401c3e33f8d1018",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 86.2439682769982,
+        "CPU_seconds": 85.92707899999999,
+        "peak_RSS_KiB": 1210736,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 94.777319154,
+        "CPU_seconds": 94.397256,
+        "peak_RSS_KiB": 1210632,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063961,
+      "gain_vs_neural_teacher_bytes": 362
+    },
+    {
+      "name": "neural_cut107_half",
+      "archive_bytes": 20289,
+      "archive_sha256": "5680bbce4575b7c278545a58e915547fc1f156cad67dca37b65661b146029767",
+      "input_sha256": "fb5d47e7622cb6200174c273551788f81ea954badf6857918262d1dd64d61ae5",
+      "neural_probability_sha256": "cb2c3351a409684687c0966a6b2fbb0f12e7014840f8e941766a6fb7ec506e2f",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 93.46339630700095,
+        "CPU_seconds": 93.150144,
+        "peak_RSS_KiB": 1210732,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 92.37453121300132,
+        "CPU_seconds": 92.169748,
+        "peak_RSS_KiB": 1210620,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063979,
+      "gain_vs_neural_teacher_bytes": 337
+    },
+    {
+      "name": "neural_cut1392_zero",
+      "archive_bytes": 22001,
+      "archive_sha256": "a2269acd7ee4ee85cae000528a362ae7bc2d4b1bfbdd370e7a31052b874deced",
+      "input_sha256": "fb5d47e7622cb6200174c273551788f81ea954badf6857918262d1dd64d61ae5",
+      "neural_probability_sha256": "af4b5d235b1662ed7d9f411ccf7e75b67bb84f2437c5f212a7e651871d58fe92",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 101.01497222999751,
+        "CPU_seconds": 99.910534,
+        "peak_RSS_KiB": 1210668,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 81.31141900399962,
+        "CPU_seconds": 81.145291,
+        "peak_RSS_KiB": 1210728,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063966,
+      "gain_vs_neural_teacher_bytes": -1375
+    }
+  ],
+  "final_CM_candidates": [
+    {
+      "name": "final_a_unweighted",
+      "archive_bytes": 5580,
+      "archive_sha256": "3ee68ccc8148d6ddcd08b0ffb6805d26d5f790112fa53db90cb41cf15f03210a",
+      "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "neural_probability_sha256": "8636563b2e2a5fee8ebd6b9b937883bce2ae227c333cdbeeea44dc3546fc017a",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 94.60694577400136,
+        "CPU_seconds": 94.242659,
+        "peak_RSS_KiB": 5768768,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 112.47903801800203,
+        "CPU_seconds": 112.072299,
+        "peak_RSS_KiB": 5768736,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063961,
+      "slice": "a",
+      "model": "unweighted",
+      "gain_vs_native_teacher_bytes": 105,
+      "model_delta_bytes_per_copy": 85922
+    },
+    {
+      "name": "final_a_cut107_half",
+      "archive_bytes": 5580,
+      "archive_sha256": "8474f56ffdcac819cd73430cf17a436d0fed1b5e5b3b6bc792737a4070ab4dd3",
+      "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "neural_probability_sha256": "d51dc082c5236b72ce04125f7b92f8cefec71e180c50b79ecde9e5d18e73d1b1",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 99.319234134,
+        "CPU_seconds": 99.09978000000001,
+        "peak_RSS_KiB": 5768924,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 107.21851651100224,
+        "CPU_seconds": 106.722713,
+        "peak_RSS_KiB": 5768684,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063979,
+      "slice": "a",
+      "model": "cut107_half",
+      "gain_vs_native_teacher_bytes": 105,
+      "model_delta_bytes_per_copy": 85940
+    },
+    {
+      "name": "final_a_cut1392_zero",
+      "archive_bytes": 5791,
+      "archive_sha256": "7ca45f11278d870fb99faf7cce3909d9699fda23fd85d4e9b8b019df0bf5e1a4",
+      "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "neural_probability_sha256": "5ffde165c384889f250987266bc0c63f4aa4f3e8ad9cf7509561a3fad6ec9da3",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 104.14103400100066,
+        "CPU_seconds": 103.828464,
+        "peak_RSS_KiB": 5768620,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 106.8449301949986,
+        "CPU_seconds": 106.437319,
+        "peak_RSS_KiB": 5768584,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063966,
+      "slice": "a",
+      "model": "cut1392_zero",
+      "gain_vs_native_teacher_bytes": -106,
+      "model_delta_bytes_per_copy": 85927
+    },
+    {
+      "name": "final_b_unweighted",
+      "archive_bytes": 16263,
+      "archive_sha256": "3b526e078f6bbc658466470740efb239f50f3002a8796a0af519394bbaa0a98d",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "2f8c20dfc6d9725825400c33842bbbf5e73679278dfa1591f7cd76bb1ca89e4b",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.58184183000049,
+        "CPU_seconds": 88.548889,
+        "peak_RSS_KiB": 5901984,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 88.07259566299763,
+        "CPU_seconds": 88.04759800000001,
+        "peak_RSS_KiB": 5901812,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063961,
+      "slice": "b",
+      "model": "unweighted",
+      "gain_vs_native_teacher_bytes": 14,
+      "model_delta_bytes_per_copy": 85922
+    },
+    {
+      "name": "final_b_cut107_half",
+      "archive_bytes": 16259,
+      "archive_sha256": "2c61e707311739aaf0d70118c56788371fdc4a94f81bdcf41910d1d80cae9b72",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "f87ba0b0cf1c4ccf1d72b024198fd520f0eeeb8aa4c43b47f6494d39ca7803ff",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.92580333100341,
+        "CPU_seconds": 88.89052000000001,
+        "peak_RSS_KiB": 5902212,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.37579909299893,
+        "CPU_seconds": 89.348557,
+        "peak_RSS_KiB": 5901432,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063979,
+      "slice": "b",
+      "model": "cut107_half",
+      "gain_vs_native_teacher_bytes": 18,
+      "model_delta_bytes_per_copy": 85940
+    },
+    {
+      "name": "final_b_cut1392_zero",
+      "archive_bytes": 16395,
+      "archive_sha256": "0c9f2739f99d2b107896fd628c1c65d3df69bdc9eec3201a148ef909d8c03d6e",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "165d77c36e81179983f8dd64a3b65cd3badf1b0c699554fc2a6b6b916ee817e7",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.77682424899831,
+        "CPU_seconds": 88.741361,
+        "peak_RSS_KiB": 5901796,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.23415308500262,
+        "CPU_seconds": 89.201639,
+        "peak_RSS_KiB": 5901528,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063966,
+      "slice": "b",
+      "model": "cut1392_zero",
+      "gain_vs_native_teacher_bytes": -118,
+      "model_delta_bytes_per_copy": 85927
+    },
+    {
+      "name": "final_e_unweighted",
+      "archive_bytes": 15166,
+      "archive_sha256": "c34f76a2a6c1e0a291e6895c24f42d87c0c2f72dedb51bc34a937b07190c2775",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "4ebcc7dfa3b606c3b3fba6adbe24c9a33bb70acb72ff09af10a013beecedee5b",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 89.41027707099784,
+        "CPU_seconds": 89.375488,
+        "peak_RSS_KiB": 5904844,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 88.91885154600095,
+        "CPU_seconds": 88.894305,
+        "peak_RSS_KiB": 5904496,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063961,
+      "slice": "e",
+      "model": "unweighted",
+      "gain_vs_native_teacher_bytes": 20,
+      "model_delta_bytes_per_copy": 85922
+    },
+    {
+      "name": "final_e_cut107_half",
+      "archive_bytes": 15167,
+      "archive_sha256": "0cccb65bb851e54e2bad633108092fb5b9dee6c4d3779eff66b9040e9e6fc140",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "a3bfc570270db5b8f90001cdd9e507c4d83baef9a28a13a500efebf604e71370",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.14435732600032,
+        "CPU_seconds": 88.11261900000001,
+        "peak_RSS_KiB": 5905084,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.4357641280003,
+        "CPU_seconds": 89.406916,
+        "peak_RSS_KiB": 5904628,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063979,
+      "slice": "e",
+      "model": "cut107_half",
+      "gain_vs_native_teacher_bytes": 19,
+      "model_delta_bytes_per_copy": 85940
+    },
+    {
+      "name": "final_e_cut1392_zero",
+      "archive_bytes": 15325,
+      "archive_sha256": "435d2f79f7e8693929cb24e2356ac76dd4e5b8130511b0da099abfbb91aafd91",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "9f81a34abce1d9c4f8cd6ff904ac0be39fd19cf6bae39157d60eee57b5c82347",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 90.82764236299772,
+        "CPU_seconds": 90.762467,
+        "peak_RSS_KiB": 5905016,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 118.4584747810004,
+        "CPU_seconds": 118.118948,
+        "peak_RSS_KiB": 5904676,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3063966,
+      "slice": "e",
+      "model": "cut1392_zero",
+      "gain_vs_native_teacher_bytes": -139,
+      "model_delta_bytes_per_copy": 85927
+    }
+  ],
+  "scope": "repair diagnostic-only bit law, independently decode, then exact trained weights through combined final CM on three slices",
+  "scratch": "/root/hp_round9/core_native_codec_v3",
+  "predictor_patch_sha256": "d46a1302a59e1f7fc0acd41e79456e5f79f969ffae708971254c0be23e3741ba",
+  "historical_measurement_correction": "V2 transformer-only archives actually used PPMD bit probabilities; model tensor identity and observed neural losses remain valid, neural archive gains were unmeasured.",
+  "stage": "all diagnostic and actual combined-CM model tests complete",
+  "build_accounting": {
+    "wall_seconds": 24.91405504100112,
+    "CPU_seconds": 34.095845,
+    "peak_RSS_KiB": 170604,
+    "returncode": 0
+  },
+  "binary_sha256": "ae8a62ff94a318e753cbd1f65a22e8a37b6ff0be943a1d6de3038d65db1e687d",
+  "neural_teacher": {
+    "name": "neural_teacher",
+    "archive_bytes": 20626,
+    "archive_sha256": "3151883754c09bb0ec4873504cd67b3fa9b8c61bd3fa6af141897f73a93f9f9b",
+    "input_sha256": "fb5d47e7622cb6200174c273551788f81ea954badf6857918262d1dd64d61ae5",
+    "neural_probability_sha256": "46415031743b4892131b1e673c15d7ec430476f3f96474b1f950f556c1abaafc",
+    "independent_decode_exact": true,
+    "encode_decode_neural_identity": true,
+    "encode_accounting": {
+      "wall_seconds": 74.310110213999,
+      "CPU_seconds": 74.277747,
+      "peak_RSS_KiB": 1210932,
+      "returncode": 0
+    },
+    "decode_accounting": {
+      "wall_seconds": 94.46522343900142,
+      "CPU_seconds": 94.203778,
+      "peak_RSS_KiB": 1210552,
+      "returncode": 0
+    },
+    "packed_model_bytes": 3008071
+  },
+  "final_CM_teachers": [
+    {
+      "slice": "a",
+      "name": "final_a_teacher",
+      "archive_bytes": 5685,
+      "archive_sha256": "56171fc37cbb0c1dd74d5253d1368648852bdf8dab0e2529d384c1eb80ca9f26",
+      "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "neural_probability_sha256": "8f94a5adcd7719e58467e9ebc706fe6061d103bb8b7ead729006841dcc24b234",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 84.4559894640006,
+        "CPU_seconds": 84.43315199999999,
+        "peak_RSS_KiB": 5768888,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 87.72014770000169,
+        "CPU_seconds": 87.655219,
+        "peak_RSS_KiB": 5768628,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3008071
+    },
+    {
+      "slice": "b",
+      "name": "final_b_teacher",
+      "archive_bytes": 16277,
+      "archive_sha256": "cff762dc31a517738212789307ce9ac4bc8a952a4c5e3424ec945a199137f7b2",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "7570d2ea0e5b35903d6965206bdb9c597453bdcc82f1dd0ef6f9025e23735d2a",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 109.71492666700215,
+        "CPU_seconds": 109.325621,
+        "peak_RSS_KiB": 5901868,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 102.56859006000013,
+        "CPU_seconds": 102.364677,
+        "peak_RSS_KiB": 5901620,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3008071
+    },
+    {
+      "slice": "e",
+      "name": "final_e_teacher",
+      "archive_bytes": 15186,
+      "archive_sha256": "0e8a9ebe5d9736d90febb7b23ab21476559e0eface028d2ab7dc893536fd3e86",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "e2bbaa2885e533386271bd7ecce1f228652241a678d4443c913ab68790ec89d5",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.32729012100026,
+        "CPU_seconds": 88.294517,
+        "peak_RSS_KiB": 5904956,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 90.2150173150003,
+        "CPU_seconds": 90.18025999999999,
+        "peak_RSS_KiB": 5904696,
+        "returncode": 0
+      },
+      "packed_model_bytes": 3008071
+    }
+  ],
+  "finished": 1791315130.2194006,
+  "full_package_qualified": false,
+  "scope_limits": "A/B/E64KiB cold, A previously seen; B/E held out from selected-core training but viewed by other branches; model bytes priced per copy, final self-contained package and fullwarm/resources remain pending"
+}

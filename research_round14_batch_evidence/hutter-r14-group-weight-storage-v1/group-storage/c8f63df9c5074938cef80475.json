@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.output_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.2.attention.output_gate_projection.down.weight.scale"
+  ],
+  "label": "c8f63df9c5074938cef80475",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 475
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 531
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 467
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 419
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 459
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 409
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 475
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 531
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 467
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 475
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 531
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 467
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 475
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 531
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 467
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 557
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 570
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    409,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "0721f73a3a2e9b6172583cb53a9b280778464ea0ee7abb018e227191276d0072",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.014693000000000164,
+  "wall_seconds": 0.015370825000019295
+}

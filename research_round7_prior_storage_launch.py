@@ -1,0 +1,2 @@
+import pathlib,subprocess,json
+r=pathlib.Path('/kaggle/working/hp_round7');assert not (r/'exact_prior_storage_v1').exists();log=(r/'exact_prior_storage_v1_controller.log').open('x');p=subprocess.Popen(['python',str(r/'research_round7_prior_storage_worker.py')],stdout=log,stderr=subprocess.STDOUT,start_new_session=True);print(json.dumps({'prior_storage_pid':p.pid,'scope':'bounded exact-prior storage feasibility'}))

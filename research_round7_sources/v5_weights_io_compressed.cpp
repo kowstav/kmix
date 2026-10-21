@@ -1,0 +1,552 @@
+// weights_io_compressed: decoder for the losslessly compressed weights files
+// written by pysrc/weights_compress.py (must stay in exact sync with it).
+//
+// NOTE: only FX2TFWC5 is readable. The v1 and v2 readers were removed;
+// convert any older file with pysrc/weights_compress.py compress5.
+//
+// format v1, magic FX2TFWC1 (REMOVED): same container as FX2TFW01, every DT_I8
+// payload (quantized weights, 15 possible values in [-7, 7]) is range-coded
+// with a uniform 1/15 model, i.e. log2(15) = 3.907 bits per weight; all other
+// payloads and the metadata are raw.
+//
+// format v2, magic FX2TFWC2: one range-coded stream with adaptive binary
+// models (LZMA-style 11-bit probabilities); rope.sin/rope.cos are not stored
+// but recomputed with a bit-exact host port of CUDA libdevice
+// __nv_sinf/__nv_cosf; DT_I8 uses an adaptive 15-symbol tree, DT_BF16 hi/lo
+// byte models, DT_F32/DT_I32 per-byte-plane models, names an order-2
+// character model and metadata an order-1 byte model.
+//
+// format v5 adds per-tensor Q4 histograms, optional causal column-local counts,
+// and a whole-file CRC32. Column state is reconstructed from tensor shape and
+// prior symbols; no side table is stored. All tensor values, scales and RoPE
+// reconstruction remain unchanged.
+
+#include "weights_io.h"
+
+#include <cmath>
+#include <cstdarg>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+
+namespace fx2 {
+
+namespace {
+
+[[noreturn]] void die(const char* fmt, ...) {
+  va_list ap;
+  va_start(ap, fmt);
+  std::fprintf(stderr, "weights_io_compressed: ");
+  std::vfprintf(stderr, fmt, ap);
+  std::fprintf(stderr, "\n");
+  va_end(ap);
+  std::exit(1);
+}
+
+size_t dtype_size(uint8_t dtype) {
+  switch (dtype) {
+    case DT_I8:
+      return 1;
+    case DT_BF16:
+      return 2;
+    case DT_F32:
+      return 4;
+    case DT_I32:
+      return 4;
+    default:
+      die("unknown dtype code %u", unsigned(dtype));
+  }
+}
+
+struct Reader {
+  const uint8_t* p;
+  size_t left;
+  const char* path;
+
+  void need(size_t n) {
+    if (left < n) die("%s: truncated file (need %zu more bytes)", path, n);
+  }
+  void read(void* dst, size_t n) {
+    need(n);
+    std::memcpy(dst, p, n);
+    p += n;
+    left -= n;
+  }
+  uint32_t u32() {
+    uint32_t v;
+    read(&v, 4);
+    return v;
+  }
+  uint8_t u8() {
+    uint8_t v;
+    read(&v, 1);
+    return v;
+  }
+};
+
+// byte-wise range decoder matching pysrc/weights_compress.py RangeDecoder
+// (LZMA-style: 32-bit range, renormalization below 2^24)
+struct RangeDecoder {
+  const uint8_t* p;
+  const uint8_t* end;
+  uint32_t range = 0xFFFFFFFFu;
+  uint32_t code = 0;
+
+  RangeDecoder(const uint8_t* data, size_t len) : p(data), end(data + len) {
+    p++;  // the first byte is the encoder's initial zero cache
+    for (int i = 0; i < 4; i++) code = (code << 8) | byte();
+  }
+  uint8_t byte() { return p < end ? *p++ : 0; }
+  void normalize() {
+    while (range < (1u << 24)) {
+      code = (code << 8) | byte();
+      range <<= 8;
+    }
+  }
+  uint32_t decode_uniform(uint32_t tot) {
+    uint32_t r = range / tot;
+    uint32_t s = code / r;
+    if (s > tot - 1) s = tot - 1;
+    code -= r * s;
+    range = r;
+    normalize();
+    return s;
+  }
+};
+
+
+// ---------------------------------------------------------------------------
+// format v2
+// ---------------------------------------------------------------------------
+
+// payload encodings (pysrc/weights_compress.py)
+enum : uint8_t {
+  ENC_RAW = 0,
+  ENC_INT4 = 1,
+  ENC_BF16 = 2,
+  ENC_PLANE4 = 3,
+  ENC_ROPE_SIN = 4,
+  ENC_ROPE_COS = 5,
+  ENC_INT4_HIST = 6,
+  ENC_INT4_COLUMN = 7,
+};
+
+// --- bit-exact host port of CUDA libdevice __nv_sinf/__nv_cosf --------------
+// transcribed from the __nv_sinf/__nv_cosf LLVM IR of CUDA 13.0's
+// libdevice.10.bc; verified bit-identical to the rope tables computed by
+// torch.sin/cos on CUDA over all 8388608 table entries (incl. 25457
+// Payne-Hanek slowpath arguments).  cos(a) is sin's body with quadrant + 1.
+
+inline float fbits(uint32_t u) {
+  float f;
+  std::memcpy(&f, &u, 4);
+  return f;
+}
+
+const uint32_t kI2OverPi[6] = {0x3C439041u, 0xDB629599u, 0xF534DDC0u,
+                               0xFC2757D1u, 0x4E441529u, 0xA2F9836Eu};
+
+// __internal_trig_reduction_slowpath: Payne-Hanek for |a| >= 105615
+float trig_slowpath(float a, int* quadrant) {
+  uint32_t ia;
+  std::memcpy(&ia, &a, 4);
+  uint32_t sign = ia & 0x80000000u;
+  int32_t e = (int32_t)((ia >> 23) & 0xffu) - 128;
+  ia = (ia << 8) | 0x80000000u;
+
+  uint32_t result[7];
+  uint32_t hi = 0;
+  for (int k = 0; k < 6; k++) {
+    uint64_t p = (uint64_t)kI2OverPi[k] * ia + hi;
+    result[k] = (uint32_t)p;
+    hi = (uint32_t)(p >> 32);
+  }
+  result[6] = hi;
+
+  int idx = 4 - ((uint32_t)e >> 5);  // e >= 16 on this path
+  int sh = e & 31;
+  uint32_t rhi = result[idx + 2], rlo = result[idx + 1];
+  if (sh) {
+    rhi = (result[idx + 2] << sh) + (result[idx + 1] >> (32 - sh));
+    rlo = (result[idx + 1] << sh) + (result[idx] >> (32 - sh));
+  }
+  uint32_t q = rhi >> 30;
+  uint32_t nhi = (rhi << 2) + (rlo >> 30);
+  uint32_t nlo = rlo << 2;
+  uint32_t top = nhi >> 31;
+  q += top;
+  int32_t qi = (int32_t)q;
+  if (sign) qi = -qi;
+  uint32_t s2 = sign;
+  if (top) {
+    nhi = ~nhi;
+    nlo = ~nlo;
+    s2 = sign ^ 0x80000000u;
+  }
+  *quadrant = qi;
+  int64_t prod = (int64_t)(((uint64_t)nhi << 32) | nlo);
+  double dscale;
+  uint64_t dbits = 0x3BF921FB54442D19ull;  // pi/2 * 2^-64
+  std::memcpy(&dscale, &dbits, 8);
+  float r = (float)((double)prod * dscale);
+  if (s2) r = -r;
+  return r;
+}
+
+// __nv_sinf(a) for cos_bias 0, __nv_cosf(a) for cos_bias 1
+float sincosf_cuda(float a, int cos_bias) {
+  int i = (int)lrintf(a * fbits(0x3F22F983u));  // __float2int_rn(a * 2/pi)
+  float j = (float)i;
+  float t = fmaf(j, fbits(0xBFC90FDAu), a);
+  t = fmaf(j, fbits(0xB3A22168u), t);
+  t = fmaf(j, fbits(0xA7C234C5u), t);
+  if (fabsf(a) >= 105615.0f) {
+    if (std::isinf(a)) {
+      t = a * 0.0f;
+      i = 0;
+    } else {
+      t = trig_slowpath(a, &i);
+    }
+  }
+  i += cos_bias;
+  float x2 = t * t;
+  float base = (i & 1) ? 1.0f : t;
+  float p = fmaf(x2, base, 0.0f);
+  float c = (i & 1) ? fmaf(fbits(0x37CBAC00u), x2, fbits(0xBAB607EDu))
+                    : fbits(0xB94D4153u);
+  c = fmaf(c, x2, (i & 1) ? fbits(0x3D2AAABBu) : fbits(0x3C0885E4u));
+  c = fmaf(c, x2, (i & 1) ? fbits(0xBEFFFFFFu) : fbits(0xBE2AAAA8u));
+  float z = fmaf(c, p, base);
+  if (i & 2) z = fmaf(z, -1.0f, 0.0f);
+  return z;
+}
+
+// --- adaptive binary range decoder (LZMA-style, 11-bit probs, shift-5) ------
+
+struct BinDecoder {
+  const uint8_t* p;
+  const uint8_t* end;
+  uint32_t range = 0xFFFFFFFFu;
+  uint32_t code = 0;
+  bool strict;
+
+  BinDecoder(const uint8_t* data, size_t len, bool strict_ = false)
+      : p(data), end(data + len), strict(strict_) {
+    if (strict && (len < 5 || data[0] != 0)) die("invalid range stream header");
+    p++;  // the first byte is the encoder's initial zero cache
+    for (int i = 0; i < 4; i++) code = (code << 8) | byte();
+  }
+  uint8_t byte() {
+    if (p < end) return *p++;
+    if (strict) die("truncated range stream");
+    return 0;
+  }
+  int decode_bit(uint16_t* prob) {
+    uint32_t bound = (range >> 11) * *prob;
+    int bit;
+    if (code < bound) {
+      range = bound;
+      *prob = uint16_t(*prob + ((2048 - *prob) >> 5));
+      bit = 0;
+    } else {
+      code -= bound;
+      range -= bound;
+      *prob = uint16_t(*prob - (*prob >> 5));
+      bit = 1;
+    }
+    while (range < (1u << 24)) {
+      code = (code << 8) | byte();
+      range <<= 8;
+    }
+    return bit;
+  }
+  // probs: (1 << nbits) entries, indices 1.. used
+  uint32_t decode_tree(uint16_t* probs, int nbits) {
+    uint32_t node = 1;
+    for (int k = 0; k < nbits; k++) node = (node << 1) | decode_bit(&probs[node]);
+    return node - (1u << nbits);
+  }
+  uint32_t decode_hist(const uint32_t* cumulative) {
+    const uint32_t unit = range / 32768;
+    const uint32_t slot = code / unit;
+    if (slot >= 32768) die("invalid histogram range code");
+    uint32_t symbol = 0;
+    while (slot >= cumulative[symbol + 1]) ++symbol;
+    code -= unit * cumulative[symbol];
+    range = unit * (cumulative[symbol + 1] - cumulative[symbol]);
+    while (range < (1u << 24)) {
+      code = (code << 8) | byte();
+      range <<= 8;
+    }
+    return symbol;
+  }
+  uint32_t decode_counts(const uint16_t* counts, uint32_t total) {
+    const uint32_t unit = range / total;
+    const uint32_t slot = code / unit;
+    if (slot >= total) die("invalid adaptive range code");
+    uint32_t cumulative = 0;
+    uint32_t symbol = 0;
+    while (slot >= cumulative + counts[symbol]) {
+      cumulative += counts[symbol];
+      ++symbol;
+    }
+    code -= unit * cumulative;
+    range = unit * counts[symbol];
+    while (range < (1u << 24)) {
+      code = (code << 8) | byte();
+      range <<= 8;
+    }
+    return symbol;
+  }
+};
+
+// the adaptive model set of the v2 stream (pysrc/weights_compress.py _Models)
+struct ModelsV2 {
+  std::vector<uint16_t> meta;     // order-1: prev byte -> byte tree
+  uint8_t meta_prev = 0;
+  std::vector<uint16_t> name;     // order-2: (prev2, prev1) -> byte tree
+  std::vector<uint16_t> raw;      // order-0 byte tree
+  std::vector<uint16_t> int4;     // 4-bit tree, symbols 0..14
+  std::vector<uint16_t> bf16_hi;  // byte tree
+  std::vector<uint16_t> bf16_lo;  // hi byte -> byte tree
+  std::vector<uint16_t> plane;    // 4 byte trees (byte position mod 4)
+
+  ModelsV2()
+      : meta(256 * 256, 1024),
+        name(size_t(65536) * 256, 1024),
+        raw(256, 1024),
+        int4(16, 1024),
+        bf16_hi(256, 1024),
+        bf16_lo(256 * 256, 1024),
+        plane(4 * 256, 1024) {}
+};
+
+WeightsFile load_v2(Reader& r, const char* path, bool compact = false) {
+  uint32_t n_tensors = r.u32();
+  if (compact && n_tensors > 16384) die("%s: too many tensors", path);
+  BinDecoder dec(r.p, r.left, compact);
+  ModelsV2 m;
+
+  auto get_meta = [&]() -> uint8_t {
+    uint8_t b = uint8_t(dec.decode_tree(&m.meta[size_t(m.meta_prev) * 256], 8));
+    m.meta_prev = b;
+    return b;
+  };
+
+  WeightsFile wf;
+  uint64_t total_bytes = 0;
+  wf.tensors.reserve(n_tensors);
+  for (uint32_t i = 0; i < n_tensors; i++) {
+    uint32_t name_len = get_meta();
+    std::string name(name_len, '\0');
+    uint32_t c2 = 0, c1 = 0;
+    for (uint32_t k = 0; k < name_len; k++) {
+      uint32_t ch = dec.decode_tree(&m.name[size_t((c2 << 8) | c1) * 256], 8);
+      name[k] = char(ch);
+      c2 = c1;
+      c1 = ch;
+    }
+
+    WTensor t;
+    t.dtype = get_meta();
+    dtype_size(t.dtype);  // validates the code
+    uint32_t ndim = get_meta();
+    if (ndim > 8) die("%s: %s: absurd ndim %u", path, name.c_str(), ndim);
+    t.shape.resize(ndim);
+    size_t numel = 1;
+    for (uint32_t d = 0; d < ndim; d++) {
+      uint32_t v = 0;
+      for (int k = 0; k < 4; k++) v |= uint32_t(get_meta()) << (8 * k);
+      t.shape[d] = v;
+      if (compact && v && numel > (uint64_t(1) << 30) / v)
+        die("%s: tensor allocation limit exceeded", path);
+      numel *= v;
+    }
+    t.numel = numel;
+    size_t bytes = numel * dtype_size(t.dtype);
+    total_bytes += bytes;
+    if (compact && (bytes > (uint64_t(1) << 30) || total_bytes > (uint64_t(2) << 30)))
+      die("%s: tensor allocation limit exceeded", path);
+    t.data.resize(bytes);
+    uint8_t encoding = get_meta();
+
+    switch (encoding) {
+      case ENC_INT4_HIST:
+      case ENC_INT4_COLUMN: {
+        if (!compact || t.dtype != DT_I8) die("%s: invalid histogram tensor", path);
+        uint32_t cumulative[16] = {};
+        for (size_t k = 0; k < 14; ++k) {
+          uint32_t freq = get_meta();
+          freq |= uint32_t(get_meta()) << 8;
+          if (!freq || cumulative[k] + freq >= 32768)
+            die("%s: invalid Q4 histogram", path);
+          cumulative[k + 1] = cumulative[k] + freq;
+        }
+        cumulative[15] = 32768;
+        if (encoding == ENC_INT4_HIST) {
+          for (size_t k = 0; k < numel; ++k)
+            t.data[k] = uint8_t(int(dec.decode_hist(cumulative)) - 7);
+          break;
+        }
+
+        uint16_t prior[15];
+        uint32_t prior_total = 0;
+        for (size_t k = 0; k < 15; ++k) {
+          const uint32_t frequency = cumulative[k + 1] - cumulative[k];
+          const uint32_t scaled = (frequency * 1024u + 16384u) / 32768u;
+          prior[k] = uint16_t(scaled ? scaled : 1u);
+          prior_total += prior[k];
+        }
+        const size_t width = ndim >= 2 ? t.shape.back() : numel;
+        if (!width && numel) die("%s: invalid local Q4 width", path);
+
+        std::vector<uint16_t> counts(width * 15);
+        for (size_t column = 0; column < width; ++column)
+          std::memcpy(&counts[column * 15], prior, sizeof(prior));
+        for (size_t k = 0; k < numel; ++k) {
+          const size_t column = k % width;
+          uint16_t* state = &counts[column * 15];
+          const uint32_t symbol =
+              dec.decode_counts(state, prior_total + uint32_t(k / width));
+          ++state[symbol];
+          t.data[k] = uint8_t(int(symbol) - 7);
+        }
+        break;
+      }
+      case ENC_INT4: {
+        if (t.dtype != DT_I8) die("%s: %s: ENC_INT4 on dtype %u", path,
+                                  name.c_str(), unsigned(t.dtype));
+        int8_t* out = reinterpret_cast<int8_t*>(t.data.data());
+        for (size_t k = 0; k < numel; k++)
+          out[k] = int8_t(int(dec.decode_tree(m.int4.data(), 4)) - 7);
+        break;
+      }
+      case ENC_BF16: {
+        if (t.dtype != DT_BF16) die("%s: %s: ENC_BF16 on dtype %u", path,
+                                    name.c_str(), unsigned(t.dtype));
+        uint16_t* out = reinterpret_cast<uint16_t*>(t.data.data());
+        for (size_t k = 0; k < numel; k++) {
+          uint32_t hi = dec.decode_tree(m.bf16_hi.data(), 8);
+          uint32_t lo = dec.decode_tree(&m.bf16_lo[hi * 256], 8);
+          out[k] = uint16_t((hi << 8) | lo);
+        }
+        break;
+      }
+      case ENC_PLANE4: {
+        if (dtype_size(t.dtype) != 4)
+          die("%s: %s: ENC_PLANE4 on dtype %u", path, name.c_str(),
+              unsigned(t.dtype));
+        for (size_t k = 0; k < bytes; k++)
+          t.data[k] = uint8_t(dec.decode_tree(&m.plane[(k & 3) * 256], 8));
+        break;
+      }
+      case ENC_ROPE_SIN:
+      case ENC_ROPE_COS: {
+        if (t.dtype != DT_F32 || ndim != 2)
+          die("%s: %s: bad rope tensor", path, name.c_str());
+        if (!wf.has("rope.inv_freq"))
+          die("%s: %s: rope.inv_freq not decoded yet", path, name.c_str());
+        const WTensor& inv = wf.get("rope.inv_freq");
+        if (inv.dtype != DT_F32 || inv.numel != t.shape[1])
+          die("%s: %s: rope.inv_freq mismatch", path, name.c_str());
+        const float* invf = inv.f32();
+        float* out = reinterpret_cast<float*>(t.data.data());
+        int cos_bias = encoding == ENC_ROPE_COS ? 1 : 0;
+        for (size_t pos = 0; pos < t.shape[0]; pos++)
+          for (size_t col = 0; col < t.shape[1]; col++)
+            out[pos * t.shape[1] + col] =
+                sincosf_cuda(float(pos) * invf[col], cos_bias);
+        break;
+      }
+      case ENC_RAW: {
+        for (size_t k = 0; k < bytes; k++)
+          t.data[k] = uint8_t(dec.decode_tree(m.raw.data(), 8));
+        break;
+      }
+      default:
+        die("%s: %s: unknown encoding %u", path, name.c_str(),
+            unsigned(encoding));
+    }
+
+    if (!wf.tensors.emplace(name, std::move(t)).second)
+      die("%s: duplicate tensor %s", path, name.c_str());
+  }
+  return wf;
+}
+
+}  // namespace
+
+WeightsFile WeightsFile::load_compressed(const char* path) {
+  FILE* f = std::fopen(path, "rb");
+  if (!f) die("cannot open %s", path);
+  std::fseek(f, 0, SEEK_END);
+  long size = std::ftell(f);
+  std::fseek(f, 0, SEEK_SET);
+  if (size < 12) die("%s: too small", path);
+  std::vector<uint8_t> buf(static_cast<size_t>(size));
+  if (std::fread(buf.data(), 1, buf.size(), f) != buf.size())
+    die("%s: short read", path);
+  std::fclose(f);
+
+  Reader r{buf.data(), buf.size(), path};
+  char magic[8];
+  r.read(magic, 8);
+  // v5 only. The FX2TFWC1 and FX2TFWC2 readers were removed: every weight
+  // file is converted to v5 before use, so carrying two more container
+  // formats only costs decoder bytes, which count against the Hutter total.
+  // Convert with:  python -m pysrc.weights_compress compress5 <raw> <out>
+  if (std::memcmp(magic, "FX2TFWC5", 8) != 0)
+    die("%s: not an FX2TFWC5 file (v1/v2 readers removed)", path);
+  if (buf.size() < 21) die("%s: truncated v5 file", path);
+  uint32_t crc = 0xFFFFFFFFu;
+  for (size_t i = 0; i < buf.size() - 4; ++i) {
+    crc ^= buf[i];
+    for (int bit = 0; bit < 8; ++bit)
+      crc = (crc >> 1) ^ (0xEDB88320u & (0u - (crc & 1u)));
+  }
+  uint32_t stored = 0;
+  for (int k = 0; k < 4; ++k)
+    stored |= uint32_t(buf[buf.size() - 4 + k]) << (8 * k);
+  if ((crc ^ 0xFFFFFFFFu) != stored) die("%s: v5 checksum mismatch", path);
+  r.left -= 4;
+  return load_v2(r, path, true);
+}
+
+// Release builds do not compile weights_io.cpp: the uncompressed reader is
+// dead weight in a binary that only ever loads the .tfwc5 container, and
+// the compressor's size is scored. These two accessors are the only part
+// of it the rest of the code needs, so they live here instead.
+#if defined(FX2_TRANSFORMER_COMPRESSED_ONLY)
+// The record build never reads the much larger uncompressed training format.
+// Keep the shared tensor accessors here so weights_io.cpp is not linked into
+// the production executable merely to provide these two small methods.
+const WTensor& WeightsFile::get(const std::string& name) const {
+  const auto it = tensors.find(name);
+  if (it == tensors.end()) die("missing tensor %s", name.c_str());
+  return it->second;
+}
+
+const WTensor& WeightsFile::get(const std::string& name, uint8_t dtype,
+                                std::initializer_list<uint32_t> shape) const {
+  const WTensor& tensor = get(name);
+  if (tensor.dtype != dtype) {
+    die("%s: dtype %u, expected %u", name.c_str(), unsigned(tensor.dtype),
+        unsigned(dtype));
+  }
+  if (tensor.shape.size() != shape.size()) {
+    die("%s: ndim %zu, expected %zu", name.c_str(), tensor.shape.size(),
+        shape.size());
+  }
+  size_t index = 0;
+  for (uint32_t dimension : shape) {
+    if (tensor.shape[index] != dimension) {
+      die("%s: shape[%zu] = %u, expected %u", name.c_str(), index,
+          tensor.shape[index], dimension);
+    }
+    ++index;
+  }
+  return tensor;
+}
+#endif
+
+}  // namespace fx2

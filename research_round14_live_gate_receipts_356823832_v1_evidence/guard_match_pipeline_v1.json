@@ -1,0 +1,174 @@
+{
+  "status": "COMPLETE_COMBINED_NATIVE_PREFLIGHT_AND_VERIFIED_CPU_PUSH",
+  "started": 1791547403.02248,
+  "cases": [
+    {
+      "mode": "guard_match",
+      "region": 1,
+      "offset": 288000000,
+      "bytes": 16384,
+      "CPU_lane": 3,
+      "worker_pid": 651,
+      "binary_sha256": "0c29a8c3c90ab04428273f0bfb9f055feb97acf1b520a372ef8362cd076204f5",
+      "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 139.0602921929999,
+        "CPU_user_seconds": 124.833178,
+        "CPU_system_seconds": 10.907049,
+        "peak_RSS_KiB": 5653408,
+        "stop": null
+      },
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 133.57872222600008,
+        "CPU_user_seconds": 118.971491,
+        "CPU_system_seconds": 10.099117,
+        "peak_RSS_KiB": 5653208,
+        "stop": null
+      },
+      "archive_bytes": 4186,
+      "archive_sha256": "f2fb709166b02918534de2399435c4dfa3ec4be078b53cc4883b85392de41a13",
+      "probabilities_sha256": "b0289f29e98779c393b365c43f6e74a6c2b58212cdef1e168d2628f319e2b011",
+      "input_sha256": "34150ad99ab682de6eb5151bb5f4c1ddc6f4a961ee7fb9137b11b55553829910",
+      "exact_independent_inverse": true,
+      "all_target_bits": 33184.98854094425,
+      "warm_target_bits": 33184.98854094425,
+      "warmup_bytes": 0,
+      "no_global_history_claim": true,
+      "production_build_qualification": false
+    },
+    {
+      "mode": "guard_match",
+      "region": 0,
+      "offset": 32000000,
+      "bytes": 16384,
+      "CPU_lane": 1,
+      "worker_pid": 649,
+      "binary_sha256": "0c29a8c3c90ab04428273f0bfb9f055feb97acf1b520a372ef8362cd076204f5",
+      "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 141.07171156599998,
+        "CPU_user_seconds": 125.353614,
+        "CPU_system_seconds": 11.18527,
+        "peak_RSS_KiB": 5649876,
+        "stop": null
+      },
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 133.09607731300002,
+        "CPU_user_seconds": 118.053331,
+        "CPU_system_seconds": 9.794654,
+        "peak_RSS_KiB": 5649760,
+        "stop": null
+      },
+      "archive_bytes": 4596,
+      "archive_sha256": "d5001d578a5c6cabd67ace3fe9500db207c79b35605ba8b2ed2b9b554b368705",
+      "probabilities_sha256": "275f430c90d13751945270fb766d98dbd3ae8b5da77f12d9ba9166db3db3f6ec",
+      "input_sha256": "87ad632aad99fddde15db6ec9c6bd013b9bf260e0808b0f0a28f3dbe99666341",
+      "exact_independent_inverse": true,
+      "all_target_bits": 36470.12450139413,
+      "warm_target_bits": 36470.12450139413,
+      "warmup_bytes": 0,
+      "no_global_history_claim": true,
+      "production_build_qualification": false
+    },
+    {
+      "mode": "guard_base",
+      "region": 0,
+      "offset": 32000000,
+      "bytes": 16384,
+      "CPU_lane": 0,
+      "worker_pid": 648,
+      "binary_sha256": "5f6e0c7b8be11894e979033a94206b7523796656be590794d78d81e9739cb657",
+      "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 150.57184645999996,
+        "CPU_user_seconds": 132.703225,
+        "CPU_system_seconds": 11.383549,
+        "peak_RSS_KiB": 5674108,
+        "stop": null
+      },
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 153.614557419,
+        "CPU_user_seconds": 135.820732,
+        "CPU_system_seconds": 10.975533,
+        "peak_RSS_KiB": 5674032,
+        "stop": null
+      },
+      "archive_bytes": 4596,
+      "archive_sha256": "ed0adaa890056164929c3bae0ba2f90f17b7c60c2b8dca6182f06d3b1f138fe9",
+      "probabilities_sha256": "9e8174a1290636bb87120d96df89805004a9b72f0aa1715908d600a2f9832366",
+      "input_sha256": "87ad632aad99fddde15db6ec9c6bd013b9bf260e0808b0f0a28f3dbe99666341",
+      "exact_independent_inverse": true,
+      "all_target_bits": 36471.988725162235,
+      "warm_target_bits": 36471.988725162235,
+      "warmup_bytes": 0,
+      "no_global_history_claim": true,
+      "production_build_qualification": false
+    },
+    {
+      "mode": "guard_base",
+      "region": 1,
+      "offset": 288000000,
+      "bytes": 16384,
+      "CPU_lane": 2,
+      "worker_pid": 650,
+      "binary_sha256": "5f6e0c7b8be11894e979033a94206b7523796656be590794d78d81e9739cb657",
+      "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 151.08689756500007,
+        "CPU_user_seconds": 133.659513,
+        "CPU_system_seconds": 11.441924,
+        "peak_RSS_KiB": 5677708,
+        "stop": null
+      },
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 153.08650978199967,
+        "CPU_user_seconds": 138.669042,
+        "CPU_system_seconds": 10.808206,
+        "peak_RSS_KiB": 5677272,
+        "stop": null
+      },
+      "archive_bytes": 4185,
+      "archive_sha256": "55e19e1c636c21185862ed175aca99b9e0eda95e79344fa5fc7b805de8740401",
+      "probabilities_sha256": "7a982edfefbe49c5a9c7dfc92ce270da4c1d420e3bc91a3cfd5560fc3e2c141a",
+      "input_sha256": "34150ad99ab682de6eb5151bb5f4c1ddc6f4a961ee7fb9137b11b55553829910",
+      "exact_independent_inverse": true,
+      "all_target_bits": 33183.25965976457,
+      "warm_target_bits": 33183.25965976457,
+      "warmup_bytes": 0,
+      "no_global_history_claim": true,
+      "production_build_qualification": false
+    }
+  ],
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "command": [
+    "make",
+    "-j4",
+    "cmix",
+    "CFLAGS_DEFINES=-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2 -DHP_R13_HEAD=2 -DHP_R14_ABLATION=2 -DHP_R14_OUTPUT_FP32=0",
+    "CFLAGS_TF_DEFINES=-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1"
+  ],
+  "source_sha256": "ad09b2cda1280a40a3e7cadd28635e23a989e71b029fcd988aad6e92c548029f",
+  "binary": {
+    "raw_bytes": 591488,
+    "raw_sha256": "0c29a8c3c90ab04428273f0bfb9f055feb97acf1b520a372ef8362cd076204f5",
+    "upx_bytes": 217540,
+    "upx_sha256": "d484b05cfe72029595b4b1c782ba24485004fee3c710dff0a185297279c1858c"
+  },
+  "asset_url": "https://www.kaggle.com/datasets/chaoscpp/hutter-r14-guard-match-assets-v1",
+  "verified_push": {
+    "actual_ref": "chaoscpp/hutter-r14-guard-match-development-v1",
+    "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-guard-match-development-v1",
+    "version": 1
+  },
+  "finished": 1791548398.9673107
+}

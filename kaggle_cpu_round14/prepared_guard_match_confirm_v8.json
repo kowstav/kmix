@@ -1,0 +1,32 @@
+{
+  "source_sha256": "df8d5b7aaf8d9667a85ffe97f7671aca09e661bfe8df5402ef3f03fc607f4817",
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-guard-match-confirm-a-v1",
+      "folder": "hutter-r14-guard-match-confirm-a-v1",
+      "role": "a",
+      "region_ids": [
+        8,
+        10,
+        12,
+        14
+      ],
+      "main_sha256": "02da76aee1bbda4bda4520c564292921f8e8996a3019a5432f3019a94442915f"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-guard-match-confirm-b-v1",
+      "folder": "hutter-r14-guard-match-confirm-b-v1",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "main_sha256": "568dbf9a32351543b784a72b4fd8335c0fba8d1d1b77ec5b362581ed9e7a5d21"
+    }
+  ],
+  "binary_unchanged": true,
+  "gpu": false,
+  "workers_per_job": 4
+}

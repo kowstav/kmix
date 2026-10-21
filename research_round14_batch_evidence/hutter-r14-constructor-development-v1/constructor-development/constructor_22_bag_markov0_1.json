@@ -1,0 +1,27 @@
+{
+  "index": 22,
+  "offset": 698875252,
+  "input_bytes": 1048576,
+  "input_sha256": "a2100cb53bd10288d2fc0df87e09b91064717ead0cb07c0802697532b8cd8f9d",
+  "mode": "bag_markov0",
+  "alpha": 1,
+  "role": "development",
+  "archive_bytes": 431808,
+  "archive_sha256": "934bcd00246d91dfb7e8d852a1df5e7ee89fdf5da6bf4c368aa32c43de756c9a",
+  "gzip_bytes": 380165,
+  "zstd_bytes": 343612,
+  "channels": {
+    "lexicon": 307,
+    "layout": 93739,
+    "flags": 18999,
+    "literals": 266470,
+    "case": 3707,
+    "constructor_sequence": 3648,
+    "bag_metadata": 44888
+  },
+  "exact_inverse": true,
+  "CPU_lane": 0,
+  "CPU_seconds": 15.74619000000015,
+  "wall_seconds": 16.24079675600001,
+  "peak_RSS_KiB": 97184
+}

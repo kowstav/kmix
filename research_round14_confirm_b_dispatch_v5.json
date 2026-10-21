@@ -1,0 +1,91 @@
+{
+  "status": "COMPLETE_FOUR_VERIFIED_PRIVATE_CPU_PUSHES",
+  "role": "b",
+  "started": 1791567103.6279073,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-prune-word-confirm-b-v1",
+      "folder": "hutter-r14-prune-word-confirm-b-v1",
+      "main_sha256": "c248bb33e4c56dd71ec731c5b8ba506a3f51be2849ab3a6c5207240eda33249b",
+      "workers": 4,
+      "arm": "prune_word",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "exit": 0,
+      "verified_push": {
+        "actual_ref": "chaoscpp/hutter-r14-prune-word-confirm-b-v1",
+        "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-prune-word-confirm-b-v1",
+        "version": 1
+      }
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-match-confirm-b-v1",
+      "folder": "hutter-r14-prune-match-confirm-b-v1",
+      "main_sha256": "2a5574eebc0e1dbe2611ca17e2560914f11f0654764aeb03c3ed2592a33f6789",
+      "workers": 4,
+      "arm": "prune_match",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "exit": 0,
+      "verified_push": {
+        "actual_ref": "chaoscpp/hutter-r14-prune-match-confirm-b-v1",
+        "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-prune-match-confirm-b-v1",
+        "version": 1
+      }
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-indirect-confirm-b-v1",
+      "folder": "hutter-r14-prune-indirect-confirm-b-v1",
+      "main_sha256": "3f2b4bfd29fa5ed1e690b794a693e903714662d2194ba7164edac4eaec0e27c4",
+      "workers": 4,
+      "arm": "prune_indirect",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "exit": 0,
+      "verified_push": {
+        "actual_ref": "chaoscpp/hutter-r14-prune-indirect-confirm-b-v1",
+        "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-prune-indirect-confirm-b-v1",
+        "version": 1
+      }
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-output-fp32-confirm-b-v1",
+      "folder": "hutter-r14-output-fp32-confirm-b-v1",
+      "main_sha256": "1de9df32b5ea7fec182408dd037bae1bd45998831d07f52bd6d0127543d6339f",
+      "workers": 4,
+      "arm": "output_fp32",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "exit": 0,
+      "verified_push": {
+        "actual_ref": "chaoscpp/hutter-r14-output-fp32-confirm-b-v1",
+        "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-output-fp32-confirm-b-v1",
+        "version": 1
+      }
+    }
+  ],
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "finished": 1791567122.875345
+}

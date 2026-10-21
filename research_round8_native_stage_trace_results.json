@@ -1,0 +1,138 @@
+{
+  "status": "COMPLETE_NATIVE_STAGE_IDENTITY_AND_AB_EXPORTS",
+  "pid": 216,
+  "session": 355735431,
+  "started": "2026-10-06T12:38:48.127138+00:00",
+  "scope": "observation-only native staged channels, archive/Q16/independent decode gates; no candidate inference",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "controls": [
+    {
+      "slice": "a",
+      "size": 32768,
+      "archive_sha256": "7936c453115c6ceb308e0ddc11bdf5d6682c3d8cc04f7859d7e2d1be3a082001",
+      "final_p_sha256": "3fd7ec0439f489dba3c9f7bd70f31ca7a900c43749e06968a8f1105ca8e73863",
+      "stage_sha256": "9cfd725a43f91e80d43fc1aaac2813ee7d1c4fcf95df6e35950a8aaa4f359633",
+      "stage_bytes": 19922956,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 63.90658661599991,
+        "user_seconds": 58.159517,
+        "system_seconds": 5.732065,
+        "max_rss_kbytes": 5650840,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 65.11788319800053,
+        "user_seconds": 59.329686,
+        "system_seconds": 5.771899,
+        "max_rss_kbytes": 5650620,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "independent_decode_exact": true
+    },
+    {
+      "slice": "b",
+      "size": 32768,
+      "archive_sha256": "87343f487d2baf853d72d9bddcc4583411fbb1f952c6f344b4197907bb30187f",
+      "final_p_sha256": "08d7806581651eb3e8997ee8b2fc068b9b5f4efb7d1e4dbbf631583bc2166f79",
+      "stage_sha256": "fa026425d5c69775ed1da899eac05b78fce9056cf18e6147c9213edb04f2fb75",
+      "stage_bytes": 19922956,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 66.672601622,
+        "user_seconds": 60.711238,
+        "system_seconds": 5.9469449999999995,
+        "max_rss_kbytes": 5800632,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 65.10130627299986,
+        "user_seconds": 59.365788,
+        "system_seconds": 5.723111,
+        "max_rss_kbytes": 5800120,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "independent_decode_exact": true
+    }
+  ],
+  "exports": [
+    {
+      "slice": "a",
+      "size": 524288,
+      "archive_sha256": "1b2136dbe6974d3b27b286f4d3bdd9c4e1d376a009334502866e0e3995a7ae9a",
+      "final_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447",
+      "stage_sha256": "88f311c7dd843854b984bc645050c5ba306a8fc6abd1bcc6251df3df8b86980c",
+      "stage_bytes": 318767116,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 288.37038953199954,
+        "user_seconds": 280.905325,
+        "system_seconds": 7.405743,
+        "max_rss_kbytes": 5967320,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "input_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12"
+    },
+    {
+      "slice": "b",
+      "size": 524288,
+      "archive_sha256": "e46877f0ca485356f3948a37021a9b2c7ee2ea763dd29452f9b20d67ad662277",
+      "final_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23",
+      "stage_sha256": "cbfd805f961009352900da50fc7d6a42ccd670b207cee749b429d923b23815d9",
+      "stage_bytes": 318767116,
+      "stage_columns": 19,
+      "accounting": {
+        "wall_seconds": 317.4796986600004,
+        "user_seconds": 309.92463,
+        "system_seconds": 7.490734,
+        "max_rss_kbytes": 6001624,
+        "returncode": 0
+      },
+      "archive_identity": true,
+      "Q16_identity": true,
+      "input_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e"
+    }
+  ],
+  "parent_predictor_sha256": "d29056b52c3a1cfc5bf07507ef8351c6c608a62ca20e7b192aa83c2aac1bbee8",
+  "patched_predictor_sha256": "ffc6a2379415c5881216f68c0799dee6d686e49c4cbff765c45d73fd2300339e",
+  "source_hashes": [
+    {
+      "file": "research_round8_native_stage_worker.py",
+      "sha256": "03ceb5270c710e55946a9e5ec9b885716576dbe0b7a751b7d775203cc27cd808"
+    },
+    {
+      "file": "research_round8_native_stage_protocol.md",
+      "sha256": "f6f943ba151fa6ed2fa392d0c22ab6358abb279d17496072f6032ea7d3569bd8"
+    },
+    {
+      "file": "research_round8_native_hidden_trace_worker.py",
+      "sha256": "60a71e55606925f16b24cc17340352a3d72d6fda0dc5bdf0d84bbc0243c6a258"
+    }
+  ],
+  "native_input_manifest_sha256": "65655406517c8179921010e4aec778a36ce62c736739ec64428aece8bbe2a507",
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "stage": "ready for separately registered source-disagreement residual; no C/D exports",
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "classical_flags": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "transformer_flags": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "compile": {
+    "wall_seconds": 19.67592325000078,
+    "user_seconds": 35.820312,
+    "system_seconds": 1.950841,
+    "max_rss_kbytes": 178584,
+    "returncode": 0
+  },
+  "binary_sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa",
+  "finished": "2026-10-06T12:53:54.857216+00:00"
+}

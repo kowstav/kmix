@@ -1,0 +1,1777 @@
+{
+  "slice": "d",
+  "scope": "Actual lexth11c checkpoint/config, original FX2-ordered2M WRT slice, cold neural/classical histories; diagnostic only",
+  "input_bytes": 2000000,
+  "unscored_prefix_bytes": 1239,
+  "input_sha256": "e540a24ded0810ba4fbe4647f267fae38651371d9574e05a7897ed92822e86db",
+  "baseline_ideal_bytes": 439343.3133437444,
+  "ascii_word_occurrences": 512600,
+  "ascii_word_types": 30173,
+  "word_share_all_final_bits": 0.8529460003327962,
+  "assigned_word_partition_error_bits": 0.0,
+  "neural_costs_separately_available": false,
+  "warning": "Categories overlap; XML tags count as ASCII words; first in slice is not globally new; spelling relation is not a free selector or predicted word",
+  "categories": {
+    "first_in_diagnosed_slice": {
+      "occurrences": 30173,
+      "final_bits": 544757.3782918039,
+      "share_all_final_bits": 0.15499193960236257
+    },
+    "dictionary_word": {
+      "occurrences": 475702,
+      "final_bits": 2609642.1438496844,
+      "share_all_final_bits": 0.7424837435183312
+    },
+    "known_in_slice_first_in_article": {
+      "occurrences": 173784,
+      "final_bits": 1368552.0293663624,
+      "share_all_final_bits": 0.38937431952435353
+    },
+    "literal_spelling_word": {
+      "occurrences": 36898,
+      "final_bits": 388246.83126635716,
+      "share_all_final_bits": 0.11046225681446496
+    },
+    "article_repeat": {
+      "occurrences": 308643,
+      "final_bits": 1084579.5674578752,
+      "share_all_final_bits": 0.3085797412060801
+    },
+    "article_repeat_under_1024": {
+      "occurrences": 261323,
+      "final_bits": 781336.5886666061,
+      "share_all_final_bits": 0.2223024013726381
+    },
+    "distinct_earlier_slice_word_prefix4": {
+      "occurrences": 266970,
+      "final_bits": 1972826.1557579704,
+      "share_all_final_bits": 0.5612996988457696
+    },
+    "distinct_earlier_article_word_prefix4": {
+      "occurrences": 72180,
+      "final_bits": 529723.8135726424,
+      "share_all_final_bits": 0.15071465681958152
+    },
+    "distinct_earlier_slice_word_suffix4": {
+      "occurrences": 248254,
+      "final_bits": 1881136.6347732663,
+      "share_all_final_bits": 0.535212605279102
+    },
+    "distinct_earlier_article_word_suffix4": {
+      "occurrences": 61255,
+      "final_bits": 517403.76536085247,
+      "share_all_final_bits": 0.14720941165093857
+    },
+    "distinct_earlier_slice_word_anagram": {
+      "occurrences": 46414,
+      "final_bits": 314256.3043228983,
+      "share_all_final_bits": 0.08941080209323186
+    },
+    "distinct_earlier_article_word_anagram": {
+      "occurrences": 3845,
+      "final_bits": 22825.266696862876,
+      "share_all_final_bits": 0.006494143077751895
+    },
+    "article_repeat_1024_to_4096": {
+      "occurrences": 36159,
+      "final_bits": 221929.51958457526,
+      "share_all_final_bits": 0.06314239708564101
+    },
+    "article_repeat_4096_to_16384": {
+      "occurrences": 10646,
+      "final_bits": 77222.85245497175,
+      "share_all_final_bits": 0.021971101559292487
+    },
+    "article_repeat_over_16384": {
+      "occurrences": 515,
+      "final_bits": 4090.606751722051,
+      "share_all_final_bits": 0.001163841188508524
+    }
+  },
+  "top_total_words": [
+    {
+      "word": "the",
+      "occurrences": 34378,
+      "final_bits": 69740.84041506867,
+      "bits_per_occurrence": 2.02864740284684,
+      "max_occurrence_bits": 19.292780876159668
+    },
+    {
+      "word": "a",
+      "occurrences": 11518,
+      "final_bits": 36950.623900440056,
+      "bits_per_occurrence": 3.2080763935092946,
+      "max_occurrence_bits": 17.70500373840332
+    },
+    {
+      "word": "in",
+      "occurrences": 10897,
+      "final_bits": 34536.520015224814,
+      "bits_per_occurrence": 3.169360375812133,
+      "max_occurrence_bits": 22.05706262588501
+    },
+    {
+      "word": "and",
+      "occurrences": 13291,
+      "final_bits": 32698.897356628673,
+      "bits_per_occurrence": 2.4602285273213957,
+      "max_occurrence_bits": 15.030210494995117
+    },
+    {
+      "word": "to",
+      "occurrences": 10864,
+      "final_bits": 21427.792262434727,
+      "bits_per_occurrence": 1.9723667399148312,
+      "max_occurrence_bits": 18.628862857818604
+    },
+    {
+      "word": "of",
+      "occurrences": 16597,
+      "final_bits": 19827.462174722343,
+      "bits_per_occurrence": 1.1946413312479571,
+      "max_occurrence_bits": 21.701465606689453
+    },
+    {
+      "word": "is",
+      "occurrences": 7019,
+      "final_bits": 14913.594700278714,
+      "bits_per_occurrence": 2.1247463599200334,
+      "max_occurrence_bits": 15.862702369689941
+    },
+    {
+      "word": "as",
+      "occurrences": 4110,
+      "final_bits": 13999.988251712872,
+      "bits_per_occurrence": 3.4063231755992387,
+      "max_occurrence_bits": 16.692387104034424
+    },
+    {
+      "word": "his",
+      "occurrences": 3551,
+      "final_bits": 13596.633421341423,
+      "bits_per_occurrence": 3.8289590034754784,
+      "max_occurrence_bits": 17.764659881591797
+    },
+    {
+      "word": "for",
+      "occurrences": 3475,
+      "final_bits": 13418.430965936976,
+      "bits_per_occurrence": 3.861418983003446,
+      "max_occurrence_bits": 16.647377014160156
+    },
+    {
+      "word": "that",
+      "occurrences": 4109,
+      "final_bits": 12928.979273992823,
+      "bits_per_occurrence": 3.146502622047414,
+      "max_occurrence_bits": 21.732523918151855
+    },
+    {
+      "word": "with",
+      "occurrences": 3016,
+      "final_bits": 12083.337231440935,
+      "bits_per_occurrence": 4.006411548886252,
+      "max_occurrence_bits": 19.110675811767578
+    },
+    {
+      "word": "it",
+      "occurrences": 2706,
+      "final_bits": 11672.091804993572,
+      "bits_per_occurrence": 4.313411605688682,
+      "max_occurrence_bits": 15.289937973022461
+    },
+    {
+      "word": "an",
+      "occurrences": 1973,
+      "final_bits": 11201.740740920883,
+      "bits_per_occurrence": 5.677516847907189,
+      "max_occurrence_bits": 15.94192886352539
+    },
+    {
+      "word": "on",
+      "occurrences": 2594,
+      "final_bits": 10990.315690624062,
+      "bits_per_occurrence": 4.236821777418682,
+      "max_occurrence_bits": 15.870545864105225
+    },
+    {
+      "word": "he",
+      "occurrences": 3428,
+      "final_bits": 10134.926712784916,
+      "bits_per_occurrence": 2.9565130434028344,
+      "max_occurrence_bits": 17.45598793029785
+    },
+    {
+      "word": "by",
+      "occurrences": 4023,
+      "final_bits": 10069.302395926788,
+      "bits_per_occurrence": 2.5029337300340018,
+      "max_occurrence_bits": 19.449630737304688
+    },
+    {
+      "word": "at",
+      "occurrences": 1743,
+      "final_bits": 10013.396950106137,
+      "bits_per_occurrence": 5.74492079753651,
+      "max_occurrence_bits": 20.06470489501953
+    },
+    {
+      "word": "this",
+      "occurrences": 1844,
+      "final_bits": 9400.169987279922,
+      "bits_per_occurrence": 5.097706066854621,
+      "max_occurrence_bits": 24.71137809753418
+    },
+    {
+      "word": "from",
+      "occurrences": 2305,
+      "final_bits": 8942.760832601925,
+      "bits_per_occurrence": 3.8797227039487745,
+      "max_occurrence_bits": 18.047924518585205
+    },
+    {
+      "word": "was",
+      "occurrences": 3103,
+      "final_bits": 8876.410741894506,
+      "bits_per_occurrence": 2.860589990942477,
+      "max_occurrence_bits": 16.38440704345703
+    },
+    {
+      "word": "one",
+      "occurrences": 1328,
+      "final_bits": 8417.082032473292,
+      "bits_per_occurrence": 6.338164181079287,
+      "max_occurrence_bits": 15.322482109069824
+    },
+    {
+      "word": "or",
+      "occurrences": 1621,
+      "final_bits": 7266.640168060549,
+      "bits_per_occurrence": 4.482813182023781,
+      "max_occurrence_bits": 16.04912567138672
+    },
+    {
+      "word": "harry",
+      "occurrences": 2885,
+      "final_bits": 7115.088355125394,
+      "bits_per_occurrence": 2.4662351317592353,
+      "max_occurrence_bits": 16.8963623046875
+    },
+    {
+      "word": "which",
+      "occurrences": 1550,
+      "final_bits": 6570.2864566342905,
+      "bits_per_occurrence": 4.238894488151155,
+      "max_occurrence_bits": 18.10266876220703
+    },
+    {
+      "word": "has",
+      "occurrences": 1526,
+      "final_bits": 6421.566307039931,
+      "bits_per_occurrence": 4.208103739868894,
+      "max_occurrence_bits": 17.63110101222992
+    },
+    {
+      "word": "when",
+      "occurrences": 948,
+      "final_bits": 5931.7833115160465,
+      "bits_per_occurrence": 6.257155391894564,
+      "max_occurrence_bits": 17.566092491149902
+    },
+    {
+      "word": "their",
+      "occurrences": 1142,
+      "final_bits": 5780.373451969586,
+      "bits_per_occurrence": 5.061622987714173,
+      "max_occurrence_bits": 15.686038970947266
+    },
+    {
+      "word": "also",
+      "occurrences": 1265,
+      "final_bits": 5752.4325351801235,
+      "bits_per_occurrence": 4.547377498166106,
+      "max_occurrence_bits": 15.448386192321777
+    },
+    {
+      "word": "not",
+      "occurrences": 1349,
+      "final_bits": 5747.648337190505,
+      "bits_per_occurrence": 4.260673341134548,
+      "max_occurrence_bits": 25.24747085571289
+    },
+    {
+      "word": "her",
+      "occurrences": 1451,
+      "final_bits": 5609.076429950306,
+      "bits_per_occurrence": 3.865662598173884,
+      "max_occurrence_bits": 17.71789312362671
+    },
+    {
+      "word": "first",
+      "occurrences": 949,
+      "final_bits": 5600.840655870736,
+      "bits_per_occurrence": 5.901834200074537,
+      "max_occurrence_bits": 17.872704029083252
+    },
+    {
+      "word": "but",
+      "occurrences": 1334,
+      "final_bits": 5404.0485452762805,
+      "bits_per_occurrence": 4.051010903505458,
+      "max_occurrence_bits": 14.45700454711914
+    },
+    {
+      "word": "are",
+      "occurrences": 2022,
+      "final_bits": 5386.298546768725,
+      "bits_per_occurrence": 2.6638469568589143,
+      "max_occurrence_bits": 20.213777542114258
+    },
+    {
+      "word": "they",
+      "occurrences": 1256,
+      "final_bits": 5354.16024630703,
+      "bits_per_occurrence": 4.26286643814254,
+      "max_occurrence_bits": 16.370332717895508
+    },
+    {
+      "word": "all",
+      "occurrences": 769,
+      "final_bits": 5174.566405942198,
+      "bits_per_occurrence": 6.728955014229126,
+      "max_occurrence_bits": 16.129793167114258
+    },
+    {
+      "word": "who",
+      "occurrences": 1470,
+      "final_bits": 4991.441541992594,
+      "bits_per_occurrence": 3.39553846394054,
+      "max_occurrence_bits": 15.202759742736816
+    },
+    {
+      "word": "film",
+      "occurrences": 1575,
+      "final_bits": 4871.603065077448,
+      "bits_per_occurrence": 3.0930813111602844,
+      "max_occurrence_bits": 17.914998292922974
+    },
+    {
+      "word": "some",
+      "occurrences": 668,
+      "final_bits": 4683.151756737381,
+      "bits_per_occurrence": 7.01070622266075,
+      "max_occurrence_bits": 17.00612783432007
+    },
+    {
+      "word": "after",
+      "occurrences": 824,
+      "final_bits": 4628.571863420075,
+      "bits_per_occurrence": 5.617198863373877,
+      "max_occurrence_bits": 18.06708526611328
+    },
+    {
+      "word": "have",
+      "occurrences": 1225,
+      "final_bits": 4535.611685510725,
+      "bits_per_occurrence": 3.702540151437326,
+      "max_occurrence_bits": 21.0008487701416
+    },
+    {
+      "word": "only",
+      "occurrences": 610,
+      "final_bits": 4403.671465555322,
+      "bits_per_occurrence": 7.219133550090692,
+      "max_occurrence_bits": 16.03476333618164
+    },
+    {
+      "word": "two",
+      "occurrences": 673,
+      "final_bits": 4361.502949845395,
+      "bits_per_occurrence": 6.480687889814852,
+      "max_occurrence_bits": 16.09219741821289
+    },
+    {
+      "word": "other",
+      "occurrences": 807,
+      "final_bits": 4297.547250476666,
+      "bits_per_occurrence": 5.3253373611854595,
+      "max_occurrence_bits": 16.37038016319275
+    },
+    {
+      "word": "many",
+      "occurrences": 644,
+      "final_bits": 4225.969122605864,
+      "bits_per_occurrence": 6.5620638549780494,
+      "max_occurrence_bits": 19.722265243530273
+    },
+    {
+      "word": "more",
+      "occurrences": 652,
+      "final_bits": 4180.937059089309,
+      "bits_per_occurrence": 6.4124801519774675,
+      "max_occurrence_bits": 16.740436553955078
+    },
+    {
+      "word": "there",
+      "occurrences": 635,
+      "final_bits": 4130.281596967019,
+      "bits_per_occurrence": 6.504380467664597,
+      "max_occurrence_bits": 17.348777770996094
+    },
+    {
+      "word": "most",
+      "occurrences": 649,
+      "final_bits": 4103.861902692355,
+      "bits_per_occurrence": 6.323361945596849,
+      "max_occurrence_bits": 16.662851333618164
+    },
+    {
+      "word": "about",
+      "occurrences": 787,
+      "final_bits": 4054.437102434458,
+      "bits_per_occurrence": 5.15176251897644,
+      "max_occurrence_bits": 16.5677490234375
+    },
+    {
+      "word": "she",
+      "occurrences": 1161,
+      "final_bits": 3940.5475075240247,
+      "bits_per_occurrence": 3.3940977670318904,
+      "max_occurrence_bits": 16.599007725715637
+    },
+    {
+      "word": "so",
+      "occurrences": 504,
+      "final_bits": 3899.978982269764,
+      "bits_per_occurrence": 7.738053536249532,
+      "max_occurrence_bits": 17.289173126220703
+    },
+    {
+      "word": "had",
+      "occurrences": 790,
+      "final_bits": 3820.5726296007633,
+      "bits_per_occurrence": 4.836167885570586,
+      "max_occurrence_bits": 24.81266760826111
+    },
+    {
+      "word": "death",
+      "occurrences": 638,
+      "final_bits": 3514.4916195441037,
+      "bits_per_occurrence": 5.508607554144363,
+      "max_occurrence_bits": 17.095823884010315
+    },
+    {
+      "word": "be",
+      "occurrences": 1760,
+      "final_bits": 3399.9253107085824,
+      "bits_per_occurrence": 1.9317757447207855,
+      "max_occurrence_bits": 20.978410720825195
+    },
+    {
+      "word": "story",
+      "occurrences": 653,
+      "final_bits": 3353.1854464001954,
+      "bits_per_occurrence": 5.135046625421432,
+      "max_occurrence_bits": 17.07880687713623
+    },
+    {
+      "word": "series",
+      "occurrences": 1023,
+      "final_bits": 3352.8411578119267,
+      "bits_per_occurrence": 3.277459587303936,
+      "max_occurrence_bits": 21.68964147567749
+    },
+    {
+      "word": "book",
+      "occurrences": 821,
+      "final_bits": 3344.1657033828087,
+      "bits_per_occurrence": 4.073283438955918,
+      "max_occurrence_bits": 17.913984298706055
+    },
+    {
+      "word": "play",
+      "occurrences": 917,
+      "final_bits": 3301.5742635848,
+      "bits_per_occurrence": 3.6004081391328246,
+      "max_occurrence_bits": 14.571812629699707
+    },
+    {
+      "word": "him",
+      "occurrences": 1063,
+      "final_bits": 3295.56729443511,
+      "bits_per_occurrence": 3.1002514529022673,
+      "max_occurrence_bits": 19.10902500152588
+    },
+    {
+      "word": "its",
+      "occurrences": 555,
+      "final_bits": 3280.3339616172016,
+      "bits_per_occurrence": 5.910511642553517,
+      "max_occurrence_bits": 16.379928588867188
+    },
+    {
+      "word": "new",
+      "occurrences": 514,
+      "final_bits": 3267.76043539471,
+      "bits_per_occurrence": 6.357510574697879,
+      "max_occurrence_bits": 17.21827963553369
+    },
+    {
+      "word": "into",
+      "occurrences": 740,
+      "final_bits": 3195.929912598338,
+      "bits_per_occurrence": 4.318824206213971,
+      "max_occurrence_bits": 15.586249351501465
+    },
+    {
+      "word": "being",
+      "occurrences": 492,
+      "final_bits": 3183.4963736648206,
+      "bits_per_occurrence": 6.470521084684595,
+      "max_occurrence_bits": 18.76637077331543
+    },
+    {
+      "word": "both",
+      "occurrences": 371,
+      "final_bits": 3176.563905704301,
+      "bits_per_occurrence": 8.56216686173666,
+      "max_occurrence_bits": 16.394460916519165
+    },
+    {
+      "word": "such",
+      "occurrences": 509,
+      "final_bits": 3169.6652124151587,
+      "bits_per_occurrence": 6.227240102976737,
+      "max_occurrence_bits": 15.335102081298828
+    },
+    {
+      "word": "during",
+      "occurrences": 440,
+      "final_bits": 3149.1780471671373,
+      "bits_per_occurrence": 7.157222834470766,
+      "max_occurrence_bits": 18.268051147460938
+    },
+    {
+      "word": "no",
+      "occurrences": 487,
+      "final_bits": 3141.749138884712,
+      "bits_per_occurrence": 6.451230264650333,
+      "max_occurrence_bits": 15.180200576782227
+    },
+    {
+      "word": "character",
+      "occurrences": 841,
+      "final_bits": 3099.2360847645905,
+      "bits_per_occurrence": 3.6851796489471944,
+      "max_occurrence_bits": 18.02950096130371
+    },
+    {
+      "word": "while",
+      "occurrences": 419,
+      "final_bits": 3080.210781488102,
+      "bits_per_occurrence": 7.351338380639861,
+      "max_occurrence_bits": 15.924198150634766
+    },
+    {
+      "word": "out",
+      "occurrences": 607,
+      "final_bits": 3067.2555240902584,
+      "bits_per_occurrence": 5.053139248913111,
+      "max_occurrence_bits": 20.32989501953125
+    },
+    {
+      "word": "can",
+      "occurrences": 579,
+      "final_bits": 3032.1010687295347,
+      "bits_per_occurrence": 5.2367894105864154,
+      "max_occurrence_bits": 16.981945037841797
+    },
+    {
+      "word": "time",
+      "occurrences": 691,
+      "final_bits": 2989.7668005104642,
+      "bits_per_occurrence": 4.326724747482582,
+      "max_occurrence_bits": 21.005871426314116
+    },
+    {
+      "word": "very",
+      "occurrences": 365,
+      "final_bits": 2965.719576163683,
+      "bits_per_occurrence": 8.125259112777213,
+      "max_occurrence_bits": 20.068650722503662
+    },
+    {
+      "word": "would",
+      "occurrences": 552,
+      "final_bits": 2917.928132649511,
+      "bits_per_occurrence": 5.2861016895824475,
+      "max_occurrence_bits": 16.267841339111328
+    },
+    {
+      "word": "characters",
+      "occurrences": 606,
+      "final_bits": 2864.1362687214278,
+      "bits_per_occurrence": 4.726297473137669,
+      "max_occurrence_bits": 17.37880516052246
+    },
+    {
+      "word": "were",
+      "occurrences": 857,
+      "final_bits": 2841.5240733474493,
+      "bits_per_occurrence": 3.3156640295769537,
+      "max_occurrence_bits": 19.60131072998047
+    },
+    {
+      "word": "three",
+      "occurrences": 374,
+      "final_bits": 2772.3648920455016,
+      "bits_per_occurrence": 7.412740353062839,
+      "max_occurrence_bits": 25.196587085723877
+    },
+    {
+      "word": "often",
+      "occurrences": 436,
+      "final_bits": 2772.048546895385,
+      "bits_per_occurrence": 6.3579095112279465,
+      "max_occurrence_bits": 17.00102996826172
+    },
+    {
+      "word": "later",
+      "occurrences": 394,
+      "final_bits": 2762.6654198390897,
+      "bits_per_occurrence": 7.011841167104289,
+      "max_occurrence_bits": 17.859111309051514
+    },
+    {
+      "word": "see",
+      "occurrences": 577,
+      "final_bits": 2734.518458428327,
+      "bits_per_occurrence": 4.7392001012622655,
+      "max_occurrence_bits": 17.229279650375247
+    }
+  ],
+  "hard_repeated_words": [
+    {
+      "word": "groundskeeper",
+      "occurrences": 6,
+      "final_bits": 128.65941290277988,
+      "bits_per_occurrence": 21.443235483796645,
+      "max_occurrence_bits": 31.825485119596124
+    },
+    {
+      "word": "derisive",
+      "occurrences": 6,
+      "final_bits": 123.86202079709619,
+      "bits_per_occurrence": 20.643670132849365,
+      "max_occurrence_bits": 29.468598783016205
+    },
+    {
+      "word": "eavesdropping",
+      "occurrences": 5,
+      "final_bits": 102.11917655915022,
+      "bits_per_occurrence": 20.423835311830043,
+      "max_occurrence_bits": 23.03923225402832
+    },
+    {
+      "word": "dithyramb",
+      "occurrences": 6,
+      "final_bits": 120.39819680340588,
+      "bits_per_occurrence": 20.06636613390098,
+      "max_occurrence_bits": 47.42893362045288
+    },
+    {
+      "word": "hexes",
+      "occurrences": 6,
+      "final_bits": 117.47341991961002,
+      "bits_per_occurrence": 19.578903319935005,
+      "max_occurrence_bits": 25.065063923597336
+    },
+    {
+      "word": "thestrals",
+      "occurrences": 5,
+      "final_bits": 95.57251835614443,
+      "bits_per_occurrence": 19.114503671228885,
+      "max_occurrence_bits": 38.34213602542877
+    },
+    {
+      "word": "mousy",
+      "occurrences": 6,
+      "final_bits": 114.04936093091965,
+      "bits_per_occurrence": 19.008226821819942,
+      "max_occurrence_bits": 26.94697380065918
+    },
+    {
+      "word": "mocks",
+      "occurrences": 5,
+      "final_bits": 94.49071442708373,
+      "bits_per_occurrence": 18.898142885416746,
+      "max_occurrence_bits": 32.34738254547119
+    },
+    {
+      "word": "bawdy",
+      "occurrences": 5,
+      "final_bits": 93.63078884780407,
+      "bits_per_occurrence": 18.726157769560814,
+      "max_occurrence_bits": 31.65491819381714
+    },
+    {
+      "word": "hellblazer",
+      "occurrences": 6,
+      "final_bits": 112.31220170902088,
+      "bits_per_occurrence": 18.718700284836814,
+      "max_occurrence_bits": 34.237387388944626
+    },
+    {
+      "word": "ingen",
+      "occurrences": 7,
+      "final_bits": 128.44731385586783,
+      "bits_per_occurrence": 18.349616265123977,
+      "max_occurrence_bits": 35.47958488762379
+    },
+    {
+      "word": "subtly",
+      "occurrences": 5,
+      "final_bits": 90.08404958248138,
+      "bits_per_occurrence": 18.01680991649628,
+      "max_occurrence_bits": 21.492620587348938
+    },
+    {
+      "word": "seedy",
+      "occurrences": 5,
+      "final_bits": 89.78665629774332,
+      "bits_per_occurrence": 17.957331259548663,
+      "max_occurrence_bits": 23.093931198120117
+    },
+    {
+      "word": "squat",
+      "occurrences": 5,
+      "final_bits": 88.72901148721576,
+      "bits_per_occurrence": 17.745802297443152,
+      "max_occurrence_bits": 20.801445396617055
+    },
+    {
+      "word": "overprotective",
+      "occurrences": 5,
+      "final_bits": 88.69075188040733,
+      "bits_per_occurrence": 17.738150376081467,
+      "max_occurrence_bits": 30.15607758797705
+    },
+    {
+      "word": "ostensibly",
+      "occurrences": 5,
+      "final_bits": 88.56055760383606,
+      "bits_per_occurrence": 17.712111520767213,
+      "max_occurrence_bits": 22.35439443588257
+    },
+    {
+      "word": "loathing",
+      "occurrences": 6,
+      "final_bits": 106.19742769002914,
+      "bits_per_occurrence": 17.699571281671524,
+      "max_occurrence_bits": 22.332162857055664
+    },
+    {
+      "word": "pirated",
+      "occurrences": 5,
+      "final_bits": 88.4022176861763,
+      "bits_per_occurrence": 17.68044353723526,
+      "max_occurrence_bits": 22.613109409809113
+    },
+    {
+      "word": "radically",
+      "occurrences": 5,
+      "final_bits": 88.2228455543518,
+      "bits_per_occurrence": 17.64456911087036,
+      "max_occurrence_bits": 22.458990573883057
+    },
+    {
+      "word": "petrified",
+      "occurrences": 6,
+      "final_bits": 104.51452505588531,
+      "bits_per_occurrence": 17.41908750931422,
+      "max_occurrence_bits": 24.935951471328735
+    },
+    {
+      "word": "domed",
+      "occurrences": 6,
+      "final_bits": 104.29487586021423,
+      "bits_per_occurrence": 17.382479310035706,
+      "max_occurrence_bits": 22.07963228225708
+    },
+    {
+      "word": "unabridged",
+      "occurrences": 6,
+      "final_bits": 104.05577047169209,
+      "bits_per_occurrence": 17.34262841194868,
+      "max_occurrence_bits": 21.972980976104736
+    },
+    {
+      "word": "tripods",
+      "occurrences": 6,
+      "final_bits": 103.83345886971802,
+      "bits_per_occurrence": 17.305576478286337,
+      "max_occurrence_bits": 31.94685173034668
+    },
+    {
+      "word": "outright",
+      "occurrences": 5,
+      "final_bits": 86.52143743634224,
+      "bits_per_occurrence": 17.304287487268446,
+      "max_occurrence_bits": 19.754173517227173
+    },
+    {
+      "word": "hepzibah",
+      "occurrences": 6,
+      "final_bits": 103.71325328340754,
+      "bits_per_occurrence": 17.285542213901255,
+      "max_occurrence_bits": 47.075917115435004
+    },
+    {
+      "word": "firebolt",
+      "occurrences": 6,
+      "final_bits": 103.15370910195634,
+      "bits_per_occurrence": 17.192284850326057,
+      "max_occurrence_bits": 29.335136890411377
+    },
+    {
+      "word": "dclxvi",
+      "occurrences": 5,
+      "final_bits": 85.92139652371407,
+      "bits_per_occurrence": 17.184279304742812,
+      "max_occurrence_bits": 44.827980756759644
+    },
+    {
+      "word": "unseen",
+      "occurrences": 10,
+      "final_bits": 170.86820363253355,
+      "bits_per_occurrence": 17.086820363253356,
+      "max_occurrence_bits": 22.525358200073242
+    },
+    {
+      "word": "horcruxes",
+      "occurrences": 8,
+      "final_bits": 136.2150214598514,
+      "bits_per_occurrence": 17.026877682481427,
+      "max_occurrence_bits": 45.559161722660065
+    },
+    {
+      "word": "visitor",
+      "occurrences": 5,
+      "final_bits": 85.02344055194408,
+      "bits_per_occurrence": 17.004688110388816,
+      "max_occurrence_bits": 23.09159231185913
+    },
+    {
+      "word": "hippogriff",
+      "occurrences": 11,
+      "final_bits": 186.51434641703963,
+      "bits_per_occurrence": 16.95584967427633,
+      "max_occurrence_bits": 47.031592547893524
+    },
+    {
+      "word": "hysterical",
+      "occurrences": 6,
+      "final_bits": 101.51331233978271,
+      "bits_per_occurrence": 16.918885389963787,
+      "max_occurrence_bits": 23.82347869873047
+    },
+    {
+      "word": "vampiric",
+      "occurrences": 6,
+      "final_bits": 101.51122332783416,
+      "bits_per_occurrence": 16.918537221305694,
+      "max_occurrence_bits": 31.544572979211807
+    },
+    {
+      "word": "hubris",
+      "occurrences": 6,
+      "final_bits": 101.18320047855377,
+      "bits_per_occurrence": 16.86386674642563,
+      "max_occurrence_bits": 22.144895553588867
+    },
+    {
+      "word": "exceeds",
+      "occurrences": 6,
+      "final_bits": 101.04315830767155,
+      "bits_per_occurrence": 16.840526384611923,
+      "max_occurrence_bits": 23.558565735816956
+    },
+    {
+      "word": "madamscoop",
+      "occurrences": 5,
+      "final_bits": 84.02354931039736,
+      "bits_per_occurrence": 16.80470986207947,
+      "max_occurrence_bits": 30.008013114333153
+    },
+    {
+      "word": "nightmarish",
+      "occurrences": 5,
+      "final_bits": 83.95114159584045,
+      "bits_per_occurrence": 16.79022831916809,
+      "max_occurrence_bits": 18.90256404876709
+    },
+    {
+      "word": "carousel",
+      "occurrences": 5,
+      "final_bits": 83.58659989759326,
+      "bits_per_occurrence": 16.717319979518653,
+      "max_occurrence_bits": 20.208975911140442
+    },
+    {
+      "word": "gambling",
+      "occurrences": 5,
+      "final_bits": 83.49283266067505,
+      "bits_per_occurrence": 16.69856653213501,
+      "max_occurrence_bits": 20.244856357574463
+    },
+    {
+      "word": "jeep",
+      "occurrences": 5,
+      "final_bits": 83.2422037050128,
+      "bits_per_occurrence": 16.64844074100256,
+      "max_occurrence_bits": 25.1561461687088
+    },
+    {
+      "word": "dialog",
+      "occurrences": 5,
+      "final_bits": 83.1226433813572,
+      "bits_per_occurrence": 16.62452867627144,
+      "max_occurrence_bits": 19.48191323876381
+    },
+    {
+      "word": "feeding",
+      "occurrences": 5,
+      "final_bits": 82.92881321907043,
+      "bits_per_occurrence": 16.585762643814085,
+      "max_occurrence_bits": 19.468098044395447
+    },
+    {
+      "word": "gof",
+      "occurrences": 9,
+      "final_bits": 149.24149388074875,
+      "bits_per_occurrence": 16.582388208972084,
+      "max_occurrence_bits": 23.107982635498047
+    },
+    {
+      "word": "dubious",
+      "occurrences": 5,
+      "final_bits": 82.8498044013977,
+      "bits_per_occurrence": 16.56996088027954,
+      "max_occurrence_bits": 19.966622829437256
+    },
+    {
+      "word": "misuse",
+      "occurrences": 6,
+      "final_bits": 99.15266128629446,
+      "bits_per_occurrence": 16.525443547715742,
+      "max_occurrence_bits": 25.262064695358276
+    },
+    {
+      "word": "parseltongue",
+      "occurrences": 9,
+      "final_bits": 148.64914308511652,
+      "bits_per_occurrence": 16.516571453901836,
+      "max_occurrence_bits": 49.27273154258728
+    },
+    {
+      "word": "bullet",
+      "occurrences": 5,
+      "final_bits": 82.49070199672133,
+      "bits_per_occurrence": 16.498140399344265,
+      "max_occurrence_bits": 22.245795726776123
+    },
+    {
+      "word": "scifi",
+      "occurrences": 6,
+      "final_bits": 98.97362330835313,
+      "bits_per_occurrence": 16.495603884725522,
+      "max_occurrence_bits": 30.24436642229557
+    },
+    {
+      "word": "disciplines",
+      "occurrences": 6,
+      "final_bits": 98.95642679929733,
+      "bits_per_occurrence": 16.49273779988289,
+      "max_occurrence_bits": 26.91605496406555
+    },
+    {
+      "word": "brewing",
+      "occurrences": 5,
+      "final_bits": 82.43844920396805,
+      "bits_per_occurrence": 16.48768984079361,
+      "max_occurrence_bits": 19.377821922302246
+    },
+    {
+      "word": "frames",
+      "occurrences": 7,
+      "final_bits": 115.40172839164734,
+      "bits_per_occurrence": 16.485961198806763,
+      "max_occurrence_bits": 18.15178155899048
+    },
+    {
+      "word": "conveniently",
+      "occurrences": 6,
+      "final_bits": 98.68660545349121,
+      "bits_per_occurrence": 16.447767575581867,
+      "max_occurrence_bits": 17.77420711517334
+    },
+    {
+      "word": "perilous",
+      "occurrences": 5,
+      "final_bits": 82.10620927810669,
+      "bits_per_occurrence": 16.42124185562134,
+      "max_occurrence_bits": 21.56110715866089
+    },
+    {
+      "word": "logically",
+      "occurrences": 5,
+      "final_bits": 81.75914394855499,
+      "bits_per_occurrence": 16.351828789711,
+      "max_occurrence_bits": 18.07865262031555
+    },
+    {
+      "word": "professors",
+      "occurrences": 9,
+      "final_bits": 146.58614069223404,
+      "bits_per_occurrence": 16.287348965803783,
+      "max_occurrence_bits": 32.28044390678406
+    },
+    {
+      "word": "sybill",
+      "occurrences": 7,
+      "final_bits": 113.56644624983892,
+      "bits_per_occurrence": 16.223778035691275,
+      "max_occurrence_bits": 29.687890276312828
+    },
+    {
+      "word": "license",
+      "occurrences": 5,
+      "final_bits": 81.03684759140015,
+      "bits_per_occurrence": 16.20736951828003,
+      "max_occurrence_bits": 20.393577575683594
+    },
+    {
+      "word": "proudly",
+      "occurrences": 5,
+      "final_bits": 81.0175518989563,
+      "bits_per_occurrence": 16.20351037979126,
+      "max_occurrence_bits": 18.859310150146484
+    },
+    {
+      "word": "conspicuous",
+      "occurrences": 5,
+      "final_bits": 80.86997509002686,
+      "bits_per_occurrence": 16.17399501800537,
+      "max_occurrence_bits": 21.315842151641846
+    },
+    {
+      "word": "ludicrous",
+      "occurrences": 7,
+      "final_bits": 113.18858707509935,
+      "bits_per_occurrence": 16.16979815358562,
+      "max_occurrence_bits": 23.19925546646118
+    },
+    {
+      "word": "descended",
+      "occurrences": 5,
+      "final_bits": 80.7477867603302,
+      "bits_per_occurrence": 16.14955735206604,
+      "max_occurrence_bits": 18.841014862060547
+    },
+    {
+      "word": "raptor",
+      "occurrences": 5,
+      "final_bits": 80.65042567253113,
+      "bits_per_occurrence": 16.130085134506224,
+      "max_occurrence_bits": 20.23564624786377
+    },
+    {
+      "word": "masked",
+      "occurrences": 7,
+      "final_bits": 112.87702550180256,
+      "bits_per_occurrence": 16.125289357400366,
+      "max_occurrence_bits": 17.727301597595215
+    },
+    {
+      "word": "prestige",
+      "occurrences": 5,
+      "final_bits": 80.61702573299408,
+      "bits_per_occurrence": 16.123405146598817,
+      "max_occurrence_bits": 22.965133905410767
+    },
+    {
+      "word": "courtesy",
+      "occurrences": 5,
+      "final_bits": 80.44358268380165,
+      "bits_per_occurrence": 16.08871653676033,
+      "max_occurrence_bits": 19.534415245056152
+    },
+    {
+      "word": "discontinued",
+      "occurrences": 5,
+      "final_bits": 80.4340989291668,
+      "bits_per_occurrence": 16.08681978583336,
+      "max_occurrence_bits": 41.39942526817322
+    },
+    {
+      "word": "bumbling",
+      "occurrences": 7,
+      "final_bits": 112.52788553317077,
+      "bits_per_occurrence": 16.075412219024397,
+      "max_occurrence_bits": 24.26367485895753
+    },
+    {
+      "word": "bullying",
+      "occurrences": 5,
+      "final_bits": 80.35848879814148,
+      "bits_per_occurrence": 16.071697759628297,
+      "max_occurrence_bits": 20.65859031677246
+    },
+    {
+      "word": "undercover",
+      "occurrences": 6,
+      "final_bits": 96.20381379127502,
+      "bits_per_occurrence": 16.033968965212505,
+      "max_occurrence_bits": 18.816280961036682
+    },
+    {
+      "word": "counting",
+      "occurrences": 6,
+      "final_bits": 96.1829055249691,
+      "bits_per_occurrence": 16.030484254161518,
+      "max_occurrence_bits": 17.63975366950035
+    },
+    {
+      "word": "accepting",
+      "occurrences": 5,
+      "final_bits": 80.10214728116989,
+      "bits_per_occurrence": 16.020429456233977,
+      "max_occurrence_bits": 21.51931595802307
+    },
+    {
+      "word": "appealing",
+      "occurrences": 5,
+      "final_bits": 79.92590308189392,
+      "bits_per_occurrence": 15.985180616378784,
+      "max_occurrence_bits": 18.544291496276855
+    },
+    {
+      "word": "footprints",
+      "occurrences": 5,
+      "final_bits": 79.86666874587536,
+      "bits_per_occurrence": 15.973333749175072,
+      "max_occurrence_bits": 20.79094409942627
+    },
+    {
+      "word": "continuously",
+      "occurrences": 5,
+      "final_bits": 79.82642531394958,
+      "bits_per_occurrence": 15.965285062789917,
+      "max_occurrence_bits": 18.34926462173462
+    },
+    {
+      "word": "fortinbras",
+      "occurrences": 5,
+      "final_bits": 79.81943639693782,
+      "bits_per_occurrence": 15.963887279387563,
+      "max_occurrence_bits": 44.360881090164185
+    },
+    {
+      "word": "honeydukes",
+      "occurrences": 6,
+      "final_bits": 95.77791185048409,
+      "bits_per_occurrence": 15.962985308414014,
+      "max_occurrence_bits": 46.2126920633018
+    },
+    {
+      "word": "mixes",
+      "occurrences": 5,
+      "final_bits": 79.72288393974304,
+      "bits_per_occurrence": 15.944576787948609,
+      "max_occurrence_bits": 18.023519039154053
+    },
+    {
+      "word": "teasing",
+      "occurrences": 5,
+      "final_bits": 79.72149910544977,
+      "bits_per_occurrence": 15.944299821089952,
+      "max_occurrence_bits": 20.553459458053112
+    },
+    {
+      "word": "dicephalus",
+      "occurrences": 5,
+      "final_bits": 79.63325761677697,
+      "bits_per_occurrence": 15.926651523355394,
+      "max_occurrence_bits": 34.9433867931366
+    },
+    {
+      "word": "raising",
+      "occurrences": 7,
+      "final_bits": 111.40159409493208,
+      "bits_per_occurrence": 15.914513442133154,
+      "max_occurrence_bits": 19.070368766784668
+    }
+  ],
+  "top_occurrences": [
+    {
+      "word": "Whosafraidofvirginiawoolf",
+      "encoded_start": 38061,
+      "final_bits": 100.40829405747354,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Film */</comment>\n      <text xml:space=\"preserve\">{Broadway-show|\nimage=[Image:Whosafraidofvirginiawoolf.jpg|200px]|\nname=Who's Afraid of Virginia Woolf?|\ntheatre=[Billy Rose Theatre]|"
+    },
+    {
+      "word": "habafropzipulops",
+      "encoded_start": 1509436,
+      "final_bits": 83.83227491378784,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "han his pipe, which is said to be filled with the mysterious substance known as habafropzipulops or \"frop,\" (not a drug) which may contain either mystical, hallucinogenic, or D"
+    },
+    {
+      "word": "liikemaailmassa",
+      "encoded_start": 377772,
+      "final_bits": 83.77520525455475,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rsion is followed by an even shorter version.\n*''Hamlet Goes Business'' (Hamlet liikemaailmassa) ([1987]) by [Aki Kaurism\u00e4ki] is a comic reworking of the story as a power str"
+    },
+    {
+      "word": "Hexakosioihexekontahexaphobia",
+      "encoded_start": 1857483,
+      "final_bits": 81.06061637401581,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "to be far removed from [superstition]. The fear of the number 666 is known as \"[Hexakosioihexekontahexaphobia]\".\n\nFor example, when the giant [Central processing unit|CPU] manufacturer [Int"
+    },
+    {
+      "word": "returntotheforbiddenplanet",
+      "encoded_start": 1733156,
+      "final_bits": 80.06274801492691,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " [[http://www.philipreed.co.uk    website]]\n\n== External links ==\n*[[http://www.returntotheforbiddenplanet.co.uk/ official website]]\n[Category:Musicals]</text>\n    </revision>\n  </page>\n"
+    },
+    {
+      "word": "danielradcliffeinterview",
+      "encoded_start": 1163309,
+      "final_bits": 77.52143567800522,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ly\n*{imdb name|id=0705356|name=Daniel Radcliffe}\n*[[http://www.acedmagazine.com/danielradcliffeinterview_2005.html Radcliffe interview, 2005, Aced Magazine]]\n\n[Category:1989 births|Rad"
+    },
+    {
+      "word": "Walpurgisnacht",
+      "encoded_start": 40033,
+      "final_bits": 74.30892479419708,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " bottle, George. You don't want to waste good liquor...not on your salary\n\nIn ''Walpurgisnacht'', the next act, Nick and George are alone, talking. Nick talks about his wife "
+    },
+    {
+      "word": "thebodysnatchersrharrington",
+      "encoded_start": 1944709,
+      "final_bits": 72.39928558841348,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "978 update\" [[http://www.washingtonpost.com/wp-srv/style/longterm/movies/videos/thebodysnatchersrharrington_a0abad.htm]]--it also had its enthusiastic defenders. The ''Chicago Sun-Times''"
+    },
+    {
+      "word": "triskaidekaphobia",
+      "encoded_start": 1857362,
+      "final_bits": 72.15641486644745,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "try to avoid the \"unlucky\" number [13 (number)|13] (a fear of which is called \"[triskaidekaphobia]\"), so people find ways to avoid the \"Devil's number\", even in contexts that wo"
+    },
+    {
+      "word": "procompsognathids",
+      "encoded_start": 1958041,
+      "final_bits": 70.39264208078384,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "turbing evidence that several Raptors may have escaped, as well as a number of [procompsognathids]. The survivors of the incident are detained indefinitely by the Costa Rican go"
+    },
+    {
+      "word": "aerowarracingleague",
+      "encoded_start": 1974789,
+      "final_bits": 69.49037811160088,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "[[http://www.michaelcrichton.com Official Michael Crichton Website]]\n* [[http://aerowarracingleague.tripod.com/dinohuntersden2/ DinoHunters Den \u2014 A nice Forum and site, Dinosaur"
+    },
+    {
+      "word": "theodorachildrenstru",
+      "encoded_start": 560869,
+      "final_bits": 67.47995084524155,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "irectory]]\n* [[http://www.clown-shoes.com/ Clown Shoes Information]]\n* [[http://theodorachildrenstru.smartchange.org/ Clown Doctors]]\n* [[http://snpp.com/other/papers/eac.paper.htm"
+    },
+    {
+      "word": "Houyhnhnm",
+      "encoded_start": 1934089,
+      "final_bits": 66.66849958896637,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "d apes echoes the relationship between the [Yahoo (literature)|Yahoo]s and the [Houyhnhnm]s in ''[Gulliver's Travels]''. Both the apes and [Jonathan Swift|Swift]'s Houyh"
+    },
+    {
+      "word": "dracocrabbegoylepansy",
+      "encoded_start": 1298341,
+      "final_bits": 66.65429602563381,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ad language in their everyday life.\n\n{spoiler}\n\n==Malfoy in the books==\n\n[Image:dracocrabbegoylepansy.jpg|left|thumb|300px|Draco Malfoy, Gregory Goyle, Vincent Crabbe, and Pansy Par"
+    },
+    {
+      "word": "dumbledoremcgonagallsprout",
+      "encoded_start": 1224169,
+      "final_bits": 66.28578955866396,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "forced to see their own error.\n\n== Magical accomplishments and skills ==\n[Image:dumbledoremcgonagallsprout.jpg|thumb|300px|Dumbledore with [Minerva McGonagall|McGonagall] and [Pomona Spr"
+    },
+    {
+      "word": "Timeenoughtolast",
+      "encoded_start": 1466716,
+      "final_bits": 66.16504402644932,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "=\"preserve\">{Infobox TTW season one}\n{TTW episode details with image\n|imagename=Timeenoughtolast.JPG\n|imagecaption=[Burgess Meredith] as Henry Bemis\n|episodetitle=Time Enough a"
+    },
+    {
+      "word": "bouillabaisse",
+      "encoded_start": 842123,
+      "final_bits": 66.12534308433533,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " its current headmistress is [Olympe Maxime].\n\nSome have speculated that since [bouillabaisse] was served at the opening feast of the [Triwizard Tournament], and this fish s"
+    },
+    {
+      "word": "NYArtsnWords",
+      "encoded_start": 245679,
+      "final_bits": 63.59574735164642,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s/69.168.22.59|69.168.22.59] ([User talk:69.168.22.59|talk]) to last version by NYArtsnWords</comment>\n      <text xml:space=\"preserve\">:''This article refers to the litera"
+    },
+    {
+      "word": "Thrillpeddlers",
+      "encoded_start": 93581,
+      "final_bits": 63.267441526055336,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "[France]. Grand Guignol plays and imitations thereof are currently produced by [Thrillpeddlers] theater in [San Francisco], [California].\n\nThis list is not only somewhat inco"
+    },
+    {
+      "word": "freeclassicaudiobooks",
+      "encoded_start": 1920863,
+      "final_bits": 63.26483987271786,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "d.com/waroftheworlds War of the Worlds Audio && Video Resources]]\n*[[http://www.freeclassicaudiobooks.com/audiobooks/War_of_the_Worlds/War.htm Free audiobook download of War of the "
+    },
+    {
+      "word": "internationalthrillerwriters",
+      "encoded_start": 788235,
+      "final_bits": 62.507864190265536,
+      "recurrence": "known_in_slice_first_in_article",
+      "context": "Thriller Film]\n*[List of thriller authors]\n\n== External links ==\n* [[http://www.internationalthrillerwriters.com International Thriller Writers, Inc.]] The official website for the first i"
+    },
+    {
+      "word": "friendsofpreciouspeople",
+      "encoded_start": 643084,
+      "final_bits": 62.40052058175206,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "issues surrounding separating conjoined twins]]-->\n* [[http://www.geocities.com/friendsofpreciouspeople/Conjoined_Twins_Forum Friends of Conjoined Twins News && Discussion Forum]]\n\n[C"
+    },
+    {
+      "word": "blmacbethscenes",
+      "encoded_start": 361080,
+      "final_bits": 62.17153286933899,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " vanilla text from [Project Gutenberg]\n* [[http://shakespeare.about.com/library/blmacbethscenes.htm Macbeth]] - About.com text of Macbeth\n* [[http://www.slashdoc.com/tag/macbe"
+    },
+    {
+      "word": "humanpingpongball",
+      "encoded_start": 109698,
+      "final_bits": 62.17012909054756,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " by improviser and professor [Daniel_Goldstein | Dan Goldstein].\n* [[http://www.humanpingpongball.com Improv Encyclopedia]] encyclopedia of over 500 improv games, techniques and"
+    },
+    {
+      "word": "alljuliuscaesar",
+      "encoded_start": 261031,
+      "final_bits": 62.112446293234825,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " links==\n{wikisourcepar|The Tragedy of Julius Caesar}\n{wikiquote}\n*[[http://www.alljuliuscaesar.bravehost.com/ All Julius Caesar]] Provides a summary of the play; and backgrou"
+    },
+    {
+      "word": "SontagFascinFascism",
+      "encoded_start": 1848786,
+      "final_bits": 62.05756253004074,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "==\n#{note|FF}[[http://www.history.ucsb.edu/faculty/marcuse/classes/33d/33dTexts/SontagFascinFascism75.htm ''Fascinating Fascism'']] by [Susan Sontag].\n\n== External links ==\n\n* {im"
+    },
+    {
+      "word": "tonsillectomy",
+      "encoded_start": 740084,
+      "final_bits": 61.923213720321655,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "labbergasted when all twelve children lined up on signal, and a motion study of tonsillectomy which produced no results because the photographer forgot to remove the lens ca"
+    },
+    {
+      "word": "jeffwaynetestfootage",
+      "encoded_start": 1891778,
+      "final_bits": 61.65617573261261,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "leased to War of the Worlds online [[http://www.waroftheworldsonline.com/movies/jeffwaynetestfootage.htm]].\n\nThere is also a live tour to occur in the UK and Ireland in April 2006,"
+    },
+    {
+      "word": "Shylockandjessica",
+      "encoded_start": 312818,
+      "final_bits": 61.15280395746231,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ment>/* Story */</comment>\n      <text xml:space=\"preserve\">{unsourced}\n\n[Image:Shylockandjessica.jpeg|thumb|250px|right|\"Shylock and Jessica\" by [Maurycy Gottlieb] ([1856]-[187"
+    },
+    {
+      "word": "KDujardinsCommedia",
+      "encoded_start": 459641,
+      "final_bits": 60.944719633087516,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " influence of the Commedia */</comment>\n      <text xml:space=\"preserve\">[Image:KDujardinsCommedia.jpg|thumb|right|320px|Karel Dujardins set his closely-observed scene of a trave"
+    },
+    {
+      "word": "officiallondontheatre",
+      "encoded_start": 46511,
+      "final_bits": 60.513864159584045,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "1699446,00.html Guardian review of London production 01/02/2006]]\n*[[http://www.officiallondontheatre.co.uk/news/display?contentId=87781 London Theatre Guide (London 2005)]]\n* [[htt"
+    },
+    {
+      "word": "kleptomaniac",
+      "encoded_start": 825662,
+      "final_bits": 60.198304176330566,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " stolen computer.  With the aid of the rest of the LEPrecon team, and of course kleptomaniac [dwarf] [Mulch Diggums], they break into Spiro's company, [Fission Chips], and "
+    },
+    {
+      "word": "quotesyounggen",
+      "encoded_start": 1305885,
+      "final_bits": 59.909385085105896,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " Rowling: Part II]]\n*[[http://www.sugarquill.net/index.php?action=gringotts&&st=quotesyounggen JKR's Quotes: The Younger Generation]]\n\n[Category:Death Eaters|Malfoy, Draco]\n["
+    },
+    {
+      "word": "atuakkiorfik",
+      "encoded_start": 1050669,
+      "final_bits": 59.810880184173584,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "terview]]\n# '''[Greenlandic language|Greenlandic]''', [Greenland]: [[http://www.atuakkiorfik.gl/ Atuakkiorfik Greenland Publishers]], translated by Stephen Hammeken\n# '''[G"
+    },
+    {
+      "word": "paraprosdokian",
+      "encoded_start": 474440,
+      "final_bits": 59.36086416244507,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ous situation are listed below.\n*[Verbal]\n**[Figure of speech]\n***[Triple] and [paraprosdokian]\n***[Enthymeme]\n***[Syllepsis] ([zeugma])\n***[Hyperbole]\n***[Understatement]\n**"
+    },
+    {
+      "word": "Triummmvirate",
+      "encoded_start": 1645500,
+      "final_bits": 59.30096352100372,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tead of arms. His constant buzzing slurs his speech (e.g, 'Bbbbut nooo. Itzzz a Triummmvirate.') He is based on the Demon [Beelzebub].\n\n===After The Sandman===\nAfter the San"
+    },
+    {
+      "word": "improvresourcecenter",
+      "encoded_start": 109985,
+      "final_bits": 59.21822854876518,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nd.com]] features improv news, resources and message boards.\n* The [[http://www.improvresourcecenter.com Improv Resource Center]] is a community site for dedicated improvisers in C"
+    },
+    {
+      "word": "thenostalgialeague",
+      "encoded_start": 1955717,
+      "final_bits": 59.16605672240257,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "arthStoodSTill.html February 21, 1951 revised final draft script]]\n* ''[[http://thenostalgialeague.com/olmag/bates.html Farewell to the Master]],'' the short story by Harry Bates"
+    },
+    {
+      "word": "retroreflectors",
+      "encoded_start": 1737781,
+      "final_bits": 59.1263193488121,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nders might be glimpsed, leaving proponents free to claim that these, like the [retroreflectors] mentioned below, are the result of robot missions. Many hoax sceptics believe "
+    },
+    {
+      "word": "Scheherazade",
+      "encoded_start": 647903,
+      "final_bits": 59.06902703270316,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " the next episode strung together in one session.\n\nIn ''[1001 Nights]'', Queen [Scheherazade] tells stories every night to her mad husband, King [Shahryar], stopping at daw"
+    },
+    {
+      "word": "Ralphfiennesvoldemort",
+      "encoded_start": 1235273,
+      "final_bits": 58.998458734713495,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ort&\" */</comment>\n      <text xml:space=\"preserve\">{HP character|\nimage=[Image:Ralphfiennesvoldemort.JPG|200px|Lord Voldemort]<br>Lord Voldemort after his return in the [Harry Pott"
+    },
+    {
+      "word": "Bartholemew",
+      "encoded_start": 1519914,
+      "final_bits": 58.861286371946335,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "so==\n\n* [Philip Gale]\n\n== External links ==\n* [[http://blogs.salon.com/0003494/ Bartholemew's Notes On Religion (Current Events)]]\n* [[http://www.subgenius.com/ Official S"
+    },
+    {
+      "word": "Siriusblackcalendar",
+      "encoded_start": 997258,
+      "final_bits": 58.653723787516356,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ial] and imprisoned there for twelve years.\n\n===Escape and redemption===\n[Image:Siriusblackcalendar.png|right|thumb|200px|An [illustration] by [Mary GrandPre] depicting Sirius Bla"
+    },
+    {
+      "word": "larryavisbrown",
+      "encoded_start": 274016,
+      "final_bits": 58.60542011260986,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ourcepar|The Tragedy of King Lear}\n{wikiquote}\n*the complete text of ''[[http://larryavisbrown.homestead.com/files/Lear/lear_home.htm King Lear]]'' with Quarto and Folio Vari"
+    },
+    {
+      "word": "Sprechgesang",
+      "encoded_start": 398257,
+      "final_bits": 58.24131904542446,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "omposition: [Arnold Schoenberg|Schoenberg]'s [Pierrot Lunaire] ([1912]), where [Sprechgesang] was used instead of rhythmically spoken words and which took a freer and more "
+    },
+    {
+      "word": "aninspectorcalls",
+      "encoded_start": 4961,
+      "final_bits": 58.103912115097046,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nd Davis] and directed by [Guy Hamilton]. \n\n== External links ==\n* [[http://www.aninspectorcalls.co.uk/ An Inspector Calls]]\n\n[Category:British plays]\n\nThe Play An Inspector ca"
+    },
+    {
+      "word": "dinohuntersden",
+      "encoded_start": 1974815,
+      "final_bits": 57.714607298374176,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "m Official Michael Crichton Website]]\n* [[http://aerowarracingleague.tripod.com/dinohuntersden2/ DinoHunters Den \u2014 A nice Forum and site, Dinosaur related ran by a respecti"
+    },
+    {
+      "word": "Rappresentative",
+      "encoded_start": 465083,
+      "final_bits": 57.48387402296066,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ce for Commedia dell'Arte scenarios is Flamino Scala's ''Il Teatro delle Favole Rappresentative'', translated into English by Henry F. Salerno as ''Scenarios of the Commedia d"
+    },
+    {
+      "word": "oosttaylorj",
+      "encoded_start": 1047333,
+      "final_bits": 57.11513423919678,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "an && Rousseau (pty) Ltd.]], translated by [[http://www.stellenboschwriters.com/oosttaylorj.html Janie Oosthuysen]]\n# '''[Albanian language|Albanian]''', [Albania]: Publis"
+    },
+    {
+      "word": "ULLAdubULLA",
+      "encoded_start": 1891319,
+      "final_bits": 56.92733161896467,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "the computer game - was released as a double CD titled ''The War of the Worlds: ULLAdubULLA The Remix Album''. While most of the contributors are relatively unknown, the a"
+    },
+    {
+      "word": "purveyors",
+      "encoded_start": 1239658,
+      "final_bits": 56.84566879272461,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "le instead took a job at [Knockturn Alley#Borgin and Burkes|Borgin and Burkes], purveyors of dark magical objects. He left the store after acquiring, by [theft] and [mur"
+    },
+    {
+      "word": "Sleekeazy",
+      "encoded_start": 1262771,
+      "final_bits": 56.73854351043701,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "parents wanted her to continue with her [Dental brace|braces]. When she applies Sleekeazy's Hair Potion and does her hair up in a chignon for the [Yule Ball], even Harry"
+    },
+    {
+      "word": "sexliesspies",
+      "encoded_start": 582505,
+      "final_bits": 56.70838713645935,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "t film theory]\n\n==External links==\n* [[http://www.historytelevision.ca/archives/sexliesspies/femmefatale/ History Television's Femme Fatales]].\n\n[Category:Lists of fictiona"
+    },
+    {
+      "word": "felltoearthcover",
+      "encoded_start": 1879674,
+      "final_bits": 56.66143500059843,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "l:space=\"preserve\">{Infobox Film | name = The Man Who Fell to Earth\n  | image = felltoearthcover.jpg\n  | caption = A French poster for the film\n  | director = [Nicolas Roeg] \n "
+    },
+    {
+      "word": "Hellzapoppin",
+      "encoded_start": 555798,
+      "final_bits": 56.501830101013184,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rk && McCullough and Broadway star\n* [Olsen && Johnson] - Stars of Broadway's ''Hellzapoppin'''\n* [Tommy Cooper] - British comedy magician\n* [Carl Ballantine] - Amercan com"
+    },
+    {
+      "word": "postcardsfromthezone",
+      "encoded_start": 1535182,
+      "final_bits": 56.49209028482437,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ight Zone]]\n*[[http://tzone.the-croc.com/ John's Twilight Zone Page]]\n*[[http://postcardsfromthezone.blogspot.com/ Postcards from the Zone]], a blog/episode guide solely for the 19"
+    },
+    {
+      "word": "bimbamboozle",
+      "encoded_start": 492337,
+      "final_bits": 56.47770285606384,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "P. Reilly and Darron Laessig, published by Slave Labor Graphics]]\n*[[http://www.bimbamboozle.com/funforkids/makepunch.htm How to make a Punch and Judy show]]\n*[[http://www."
+    },
+    {
+      "word": "transmogrification",
+      "encoded_start": 1355566,
+      "final_bits": 56.47655263217166,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ilers}\n\n==Vampire: The Masquerade==\nThe Gangrel are associated with [Gypsies], [transmogrification], and [vagrancy|vagrants]. As a [symbol], Gangrel often use a [wolf]'s head. Th"
+    },
+    {
+      "word": "thirtyninesteps",
+      "encoded_start": 757078,
+      "final_bits": 56.41331219673157,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "\n\n* {gutenberg|no=558|name=The Thirty-Nine Steps}\n* [[http://www.kellscraft.com/thirtyninesteps/thirtyninestepscontent.html ''The Thirty Nine Steps'']]. Free eBook, Houghton M"
+    },
+    {
+      "word": "Rhapsodic",
+      "encoded_start": 24850,
+      "final_bits": 56.34387803077698,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tlarczyk, the [Underground education in Poland during World War II|underground] Rhapsodic Theatre, a group cultivating the Romantic tradition of live poetry. After the w"
+    },
+    {
+      "word": "Rinvolucri",
+      "encoded_start": 646319,
+      "final_bits": 56.02635978162289,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " Epistemological historian Paul Veyne (1971: 46-47; English trans. by Min Moore-Rinvolucri 1984: 32-33) defines a plot in the following way: \"Facts do not exist in isolat"
+    },
+    {
+      "word": "Deipnosophistae",
+      "encoded_start": 468388,
+      "final_bits": 55.74633705615997,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "he existence of a clown named ''\u03c0\u03b1\u03bd\u03c4\u03b1\u03bb\u03ad\u03c9\u03bd'' or ''Pantaleon'' in his ''[Deipnosophistae]''. Additionally, there is a Greek phrase ''\u03c0\u03b1\u03bd\u03c4\u03bf\u03c2 \u03ad\u03bb\u03b5\u03bc\u03c9\u03bd'' or ''pa"
+    },
+    {
+      "word": "Vorkosigan",
+      "encoded_start": 1816223,
+      "final_bits": 55.72490465641022,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " A. Heinlein]'s\nnovel ''[Starship Troopers]'' or [Lois McMaster Bujold]'s\nMiles Vorkosigan novels), military SF examines hard questions about the ethics of violence, indi"
+    },
+    {
+      "word": "gaimanmckeanbooks",
+      "encoded_start": 1684032,
+      "final_bits": 55.58216039091349,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "://www.neilgaiman.com/journal/journal.asp Neil Gaiman's weblog]]\n* [[http://www.gaimanmckeanbooks.co.uk/ Official site for children's books with Dave McKean]] (UK publisher)\n* ["
+    },
+    {
+      "word": "Oberammergau",
+      "encoded_start": 29742,
+      "final_bits": 55.523590698838234,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "stian charity are necessary for entry into heaven), passion plays (such as the [Oberammergau Passion Play], which is still  performed every 10 years), and the great cycle p"
+    },
+    {
+      "word": "Sadofuturistics",
+      "encoded_start": 1512083,
+      "final_bits": 55.20193476974964,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "offers and Blasphemers, dedicated to Total Slack, delving into Mockery Science, Sadofuturistics, Megaphysics, Scatalography, Schizophreniatrics, Morealism, Sarcastrophy, Cynis"
+    },
+    {
+      "word": "Sectumsempra",
+      "encoded_start": 1312484,
+      "final_bits": 55.10589379072189,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Harry about the source of the [Canonical Spells in the world of Harry Potter#S|\"Sectumsempra\"] spell (from [Latin (language)|Latin], literally, \"to cut forever\").\n\nHarry is"
+    },
+    {
+      "word": "Obtenebration",
+      "encoded_start": 1343613,
+      "final_bits": 54.70478794723749,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "re also more susceptible to [solar radiation].\n\nThe Lasombra clan discipline is Obtenebration, which allows them to manipulate shadows. The effects they can create range fro"
+    },
+    {
+      "word": "sensesofcinema",
+      "encoded_start": 186415,
+      "final_bits": 54.62656235694885,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ttp://imdb.com/title/tt0016004/ IMDB page on 1925 film version]].\n*[[http://www.sensesofcinema.com/contents/cteq/04/lady_windermeres_fan.html Review of 1925 film by Darragh O"
+    },
+    {
+      "word": "romeoandjuliet",
+      "encoded_start": 167609,
+      "final_bits": 54.46894729137421,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "n])\n* Set Decoration ([Brigitte Brochbulshit])\n\n==External links==\n* http://www.romeoandjuliet.com/ Official Website\n* {imdb title|id=0117509|title=Romeo + Juliet}\n\n[Category"
+    },
+    {
+      "word": "acromantulas",
+      "encoded_start": 1179867,
+      "final_bits": 54.468220591545105,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "agrid's steadfast inability to recognize the truly dangerous nature of dragons, acromantulas, and the like, all of whom are feared much like giants are; by (in his own mind"
+    },
+    {
+      "word": "AnthCACult",
+      "encoded_start": 560490,
+      "final_bits": 54.387521147727966,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "g Circus. Culture, 1981. 2(1):61-72.[[http://www.publicanthropology.org/Archive/AnthCACult1981.htm\n\nRudlin, J. Commedia Dell'Arte; An Actors Handbook[[http://www.amazon.c"
+    },
+    {
+      "word": "thephoenixfiles",
+      "encoded_start": 1230553,
+      "final_bits": 54.28428003564477,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s/dumbledore.html Harry Potter Lexicon]]\n*[[http://www.mugglenet.com/editorials/thephoenixfiles/tpf2-index.shtml The Phoenix Files: Albus Dumbledore]] on [MuggleNet]\n*[[http:/"
+    },
+    {
+      "word": "Brerfcurse",
+      "encoded_start": 194611,
+      "final_bits": 54.19916480779648,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "sh, keeps phoning the Perkinses but remains monosyllabic throughout his calls (\"Brerfcurse\"). When Bill answers the phone, he gives the caller the exact address -- not kn"
+    },
+    {
+      "word": "Laerarafelags",
+      "encoded_start": 1049464,
+      "final_bits": 54.187134712934494,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Faroese]''', [Faroe Islands]: [[http://www.bfl.fo/bkeninfo.htm Bokadeild Foroya Laerarafelags]], translated by Gunnar Hoydal (I-III), Malan H\u00e1berg (IV)\n# '''[Finnish langua"
+    },
+    {
+      "word": "Transfunctioner",
+      "encoded_start": 684354,
+      "final_bits": 54.18083040416241,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "r two groups of aliens who are trying to find a MacGuffin called the [Continuum Transfunctioner].  Jesse's car also serves as a MacGuffin.\n* In ''[Raise the Titanic!]'', [Dirk"
+    },
+    {
+      "word": "magnetohydrodynamic",
+      "encoded_start": 1788069,
+      "final_bits": 54.06558156013489,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " as well as a board game.\n\nIt should be noted that the movie's \"revolutionary\" [magnetohydrodynamic drive] that acts as the main driver of the plot did not exist. In fact, both [s"
+    },
+    {
+      "word": "Brochbulshit",
+      "encoded_start": 167572,
+      "final_bits": 53.981534286402166,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "inations:\n* Best Art Direction ([Catherine Martin])\n* Set Decoration ([Brigitte Brochbulshit])\n\n==External links==\n* http://www.romeoandjuliet.com/ Official Website\n* {imdb"
+    },
+    {
+      "word": "donaldjbingle",
+      "encoded_start": 569060,
+      "final_bits": 53.949767112731934,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Kane|\nwork=}\n* {web reference|date=May 27|year=2005|\nURL=http://www.orphyte.com/donaldjbingle/newpage7.htm|\ntitle=A Gamer&\u0005\u2019s View of the Movies|\nwork=by Donald J. Bingle}"
+    },
+    {
+      "word": "museumoflondon",
+      "encoded_start": 1234712,
+      "final_bits": 53.92735058069229,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "body is said to be buried somewhere between platforms nine and ten.[[http://www.museumoflondon.org.uk/MOLsite/learning/features_facts/roman_london_7.html]]\n\nToday, King's Cro"
+    }
+  ]
+}

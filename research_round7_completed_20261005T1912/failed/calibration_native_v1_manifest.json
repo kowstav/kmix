@@ -1,0 +1,25 @@
+{
+  "status": "FAIL",
+  "pid": 203,
+  "utc": "2026-10-05T18:41:17.790740+00:00",
+  "preregistered": "A/B chosen ridge64, frozen512B table; native64K E/F first; all controls/decode exact; no full-package claim",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "source": {
+    "archive_sha256": "1bec8a5ade1a76c65a7db0ee1619fbde0a1fd2ccf4d8245dfcf83b8f383ef058",
+    "original_instrumented_interfaces_sha256": {
+      "src/coder/encoder.cpp": "99b45b0258056438035c82cb202e0d525268b146a7fe3f3647a56f7ab30d2d09",
+      "src/runner.cpp": "cb3197677ec7f897273aa53b10e94680f7accc9c7fb2462e3fe3b5f3f153cb76"
+    },
+    "patched_interfaces_sha256": {
+      "src/coder/encoder.cpp": "f613f3d10c531d2d2f233a71042436b3cf1365b31c98eca7e9347dbe30080601",
+      "src/runner.cpp": "081de3983054c5dc53b561b037180a4f636bc8aae67171954afeb54cad38dc53"
+    },
+    "makefile_sha256": "3d267ee844cebb53ecd1965a4b814fc7bc8f6391c47c50fb11efb3ddd244615b"
+  },
+  "binary_bytes": 497336,
+  "binary_sha256": "89e0d18855f5fdaf0f0bc0f60a56d0cdd8ac364c944bf05db9d547e485a1f600",
+  "table_sha256": "65480e1569d6f40c93d4cb3f355661006c861ab2af54d2031ddeb963eb1b8578",
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_calibration_native_worker.py\", line 48, in <module>\n    runs[mode]=W.timed([str(program),'-n','--transformer',str(weights),str(inp),'out.cmx'],d,e,n+'_'+mode)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py\", line 113, in timed\n    subprocess.run(['/usr/bin/time', '-v', '-o', str(tf), *cmd], cwd=cwd, env=env,\n  File \"/usr/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/time'\n"
+}

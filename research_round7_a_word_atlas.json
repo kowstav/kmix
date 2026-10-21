@@ -1,0 +1,2837 @@
+{
+  "slice": "a",
+  "encoded_bytes": 2000000,
+  "decoded_bytes": 2815331,
+  "reference_prefix_verified": true,
+  "final_coder_bytes": 193366.1721879462,
+  "neural_bits_per_byte": 0.8004687015706785,
+  "ascii_word_occurrences": 332424,
+  "ascii_word_types": 19348,
+  "word_final_bytes": 149706.0726001707,
+  "word_share_final_bits": 0.7742102504602554,
+  "dictionary_word_final_bytes": 108335.88684315573,
+  "word_cost_partition_error_bits": -2.3283064365386963e-10,
+  "categories": {
+    "lowercase": [
+      207939,
+      451867.6152286961,
+      460603.20837940904
+    ],
+    "capitalized": [
+      120294,
+      734546.9885442108,
+      763259.1072344512
+    ],
+    "allcaps": [
+      4191,
+      11233.977028458728,
+      12153.66328906269
+    ]
+  },
+  "top_total_bits": [
+    {
+      "word": "the",
+      "occurrences": 10793,
+      "final_bits": 20611.483112783986,
+      "neural_bits": 20619.71937059888,
+      "bits_per_occurrence": 1.9097084325751863,
+      "max_occurrence_bits": 15.520977597683668,
+      "dictionary_occurrences": 10793,
+      "encoded_bytes": 12412
+    },
+    {
+      "word": "of",
+      "occurrences": 18279,
+      "final_bits": 10224.553987691877,
+      "neural_bits": 10506.190508552507,
+      "bits_per_occurrence": 0.5593606864539569,
+      "max_occurrence_bits": 19.934803009033203,
+      "dictionary_occurrences": 18279,
+      "encoded_bytes": 18287
+    },
+    {
+      "word": "and",
+      "occurrences": 4239,
+      "final_bits": 9555.257789381663,
+      "neural_bits": 9699.807288821732,
+      "bits_per_occurrence": 2.2541301697055114,
+      "max_occurrence_bits": 15.497178077697754,
+      "dictionary_occurrences": 4239,
+      "encoded_bytes": 4239
+    },
+    {
+      "word": "king",
+      "occurrences": 2228,
+      "final_bits": 8685.675936724874,
+      "neural_bits": 9271.071032533462,
+      "bits_per_occurrence": 3.898418283987825,
+      "max_occurrence_bits": 18.191735103726387,
+      "dictionary_occurrences": 2228,
+      "encoded_bytes": 5957
+    },
+    {
+      "word": "in",
+      "occurrences": 3236,
+      "final_bits": 8371.220526013174,
+      "neural_bits": 8534.814125383655,
+      "bits_per_occurrence": 2.5869037472228595,
+      "max_occurrence_bits": 19.833519623614848,
+      "dictionary_occurrences": 3236,
+      "encoded_bytes": 3408
+    },
+    {
+      "word": "emperor",
+      "occurrences": 2009,
+      "final_bits": 5652.169594472623,
+      "neural_bits": 6029.313615164687,
+      "bits_per_occurrence": 2.813424387492595,
+      "max_occurrence_bits": 15.108116626739502,
+      "dictionary_occurrences": 2009,
+      "encoded_bytes": 5502
+    },
+    {
+      "word": "a",
+      "occurrences": 1491,
+      "final_bits": 5595.8925693138735,
+      "neural_bits": 5632.649941587883,
+      "bits_per_occurrence": 3.7531137285807334,
+      "max_occurrence_bits": 18.55482006072998,
+      "dictionary_occurrences": 1491,
+      "encoded_bytes": 1651
+    },
+    {
+      "word": "is",
+      "occurrences": 1983,
+      "final_bits": 4575.339062042069,
+      "neural_bits": 4812.300574532473,
+      "bits_per_occurrence": 2.3072814231175336,
+      "max_occurrence_bits": 18.2690486907959,
+      "dictionary_occurrences": 1983,
+      "encoded_bytes": 1983
+    },
+    {
+      "word": "to",
+      "occurrences": 2266,
+      "final_bits": 4063.9375291659962,
+      "neural_bits": 4206.710041096264,
+      "bits_per_occurrence": 1.7934410984845526,
+      "max_occurrence_bits": 17.471799850463867,
+      "dictionary_occurrences": 2266,
+      "encoded_bytes": 2268
+    },
+    {
+      "word": "john",
+      "occurrences": 939,
+      "final_bits": 3672.4624289814383,
+      "neural_bits": 3725.297197682735,
+      "bits_per_occurrence": 3.91103560061921,
+      "max_occurrence_bits": 14.630957126617432,
+      "dictionary_occurrences": 939,
+      "encoded_bytes": 2817
+    },
+    {
+      "word": "pope",
+      "occurrences": 956,
+      "final_bits": 3580.9438251352985,
+      "neural_bits": 3671.661088945446,
+      "bits_per_occurrence": 3.7457571392628646,
+      "max_occurrence_bits": 17.26814079284668,
+      "dictionary_occurrences": 956,
+      "encoded_bytes": 2776
+    },
+    {
+      "word": "first",
+      "occurrences": 702,
+      "final_bits": 3571.0563975734403,
+      "neural_bits": 3572.4960556655187,
+      "bits_per_occurrence": 5.086974925318291,
+      "max_occurrence_bits": 17.64264452457428,
+      "dictionary_occurrences": 702,
+      "encoded_bytes": 1587
+    },
+    {
+      "word": "i",
+      "occurrences": 2018,
+      "final_bits": 3495.1480153265875,
+      "neural_bits": 4135.098951251889,
+      "bits_per_occurrence": 1.7319861324710542,
+      "max_occurrence_bits": 14.575730800628662,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 4016
+    },
+    {
+      "word": "ii",
+      "occurrences": 1546,
+      "final_bits": 3235.879762294935,
+      "neural_bits": 3476.086437091938,
+      "bits_per_occurrence": 2.0930658229592076,
+      "max_occurrence_bits": 15.445971101522446,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 4638
+    },
+    {
+      "word": "roman",
+      "occurrences": 1429,
+      "final_bits": 3008.9574846019386,
+      "neural_bits": 3430.923943926798,
+      "bits_per_occurrence": 2.10563854765706,
+      "max_occurrence_bits": 16.37133714556694,
+      "dictionary_occurrences": 1429,
+      "encoded_bytes": 4283
+    },
+    {
+      "word": "saint",
+      "occurrences": 466,
+      "final_bits": 2868.5909461821575,
+      "neural_bits": 2956.309997913073,
+      "bits_per_occurrence": 6.155774562622655,
+      "max_occurrence_bits": 16.304662704467773,
+      "dictionary_occurrences": 466,
+      "encoded_bytes": 1269
+    },
+    {
+      "word": "de",
+      "occurrences": 1252,
+      "final_bits": 2860.1043914960464,
+      "neural_bits": 2947.806085580938,
+      "bits_per_occurrence": 2.284428427712497,
+      "max_occurrence_bits": 16.14723575115204,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 2547
+    },
+    {
+      "word": "henry",
+      "occurrences": 758,
+      "final_bits": 2851.5855561359203,
+      "neural_bits": 2925.4999464928433,
+      "bits_per_occurrence": 3.7619862218151985,
+      "max_occurrence_bits": 12.047536373138428,
+      "dictionary_occurrences": 758,
+      "encoded_bytes": 2274
+    },
+    {
+      "word": "by",
+      "occurrences": 1493,
+      "final_bits": 2834.7516455646837,
+      "neural_bits": 2832.868806917007,
+      "bits_per_occurrence": 1.8986950070761446,
+      "max_occurrence_bits": 12.22315788269043,
+      "dictionary_occurrences": 1493,
+      "encoded_bytes": 1498
+    },
+    {
+      "word": "his",
+      "occurrences": 781,
+      "final_bits": 2705.1787418681197,
+      "neural_bits": 2679.4270068224187,
+      "bits_per_occurrence": 3.46373718549055,
+      "max_occurrence_bits": 13.274301528930664,
+      "dictionary_occurrences": 781,
+      "encoded_bytes": 798
+    },
+    {
+      "word": "may",
+      "occurrences": 634,
+      "final_bits": 2623.4589000282576,
+      "neural_bits": 2846.001533721779,
+      "bits_per_occurrence": 4.137947791842677,
+      "max_occurrence_bits": 13.847015380859375,
+      "dictionary_occurrences": 634,
+      "encoded_bytes": 1254
+    },
+    {
+      "word": "at",
+      "occurrences": 534,
+      "final_bits": 2542.0579678453505,
+      "neural_bits": 2626.517720902901,
+      "bits_per_occurrence": 4.760408179485675,
+      "max_occurrence_bits": 19.425539016723633,
+      "dictionary_occurrences": 534,
+      "encoded_bytes": 548
+    },
+    {
+      "word": "august",
+      "occurrences": 673,
+      "final_bits": 2361.99332484114,
+      "neural_bits": 2441.90448589842,
+      "bits_per_occurrence": 3.5096483281443387,
+      "max_occurrence_bits": 19.328816413879395,
+      "dictionary_occurrences": 673,
+      "encoded_bytes": 2019
+    },
+    {
+      "word": "william",
+      "occurrences": 486,
+      "final_bits": 2355.5960193529027,
+      "neural_bits": 2302.380971761883,
+      "bits_per_occurrence": 4.846905389615026,
+      "max_occurrence_bits": 14.5253826379776,
+      "dictionary_occurrences": 486,
+      "encoded_bytes": 1458
+    },
+    {
+      "word": "becomes",
+      "occurrences": 816,
+      "final_bits": 2350.0620648418553,
+      "neural_bits": 2478.086313728255,
+      "bits_per_occurrence": 2.8799780206395287,
+      "max_occurrence_bits": 11.115103244781494,
+      "dictionary_occurrences": 816,
+      "encoded_bytes": 1632
+    },
+    {
+      "word": "september",
+      "occurrences": 630,
+      "final_bits": 2339.18334500154,
+      "neural_bits": 2346.265536830645,
+      "bits_per_occurrence": 3.712989436510381,
+      "max_occurrence_bits": 18.724628925323486,
+      "dictionary_occurrences": 630,
+      "encoded_bytes": 1890
+    },
+    {
+      "word": "from",
+      "occurrences": 727,
+      "final_bits": 2305.321252891794,
+      "neural_bits": 2398.912187004965,
+      "bits_per_occurrence": 3.1710058499199367,
+      "max_occurrence_bits": 13.990073919296265,
+      "dictionary_occurrences": 727,
+      "encoded_bytes": 729
+    },
+    {
+      "word": "as",
+      "occurrences": 992,
+      "final_bits": 2298.9048342537135,
+      "neural_bits": 2344.911607717885,
+      "bits_per_occurrence": 2.3174443893686627,
+      "max_occurrence_bits": 15.114558696746826,
+      "dictionary_occurrences": 992,
+      "encoded_bytes": 1015
+    },
+    {
+      "word": "battle",
+      "occurrences": 708,
+      "final_bits": 2250.360346143716,
+      "neural_bits": 2265.9419655894453,
+      "bits_per_occurrence": 3.17847506517474,
+      "max_occurrence_bits": 17.275006532669067,
+      "dictionary_occurrences": 708,
+      "encoded_bytes": 1947
+    },
+    {
+      "word": "on",
+      "occurrences": 479,
+      "final_bits": 2239.0411325083114,
+      "neural_bits": 2262.007412484737,
+      "bits_per_occurrence": 4.674407374756392,
+      "max_occurrence_bits": 21.41016387939453,
+      "dictionary_occurrences": 479,
+      "encoded_bytes": 500
+    },
+    {
+      "word": "october",
+      "occurrences": 620,
+      "final_bits": 2186.8834999045357,
+      "neural_bits": 2201.17642700644,
+      "bits_per_occurrence": 3.5272314514589285,
+      "max_occurrence_bits": 14.014205813407898,
+      "dictionary_occurrences": 620,
+      "encoded_bytes": 1860
+    },
+    {
+      "word": "english",
+      "occurrences": 1447,
+      "final_bits": 2146.4779232001165,
+      "neural_bits": 2391.0407499427747,
+      "bits_per_occurrence": 1.483398702971746,
+      "max_occurrence_bits": 15.25644588470459,
+      "dictionary_occurrences": 1447,
+      "encoded_bytes": 4341
+    },
+    {
+      "word": "for",
+      "occurrences": 646,
+      "final_bits": 2129.9264804385602,
+      "neural_bits": 2103.4342159150247,
+      "bits_per_occurrence": 3.297099814920372,
+      "max_occurrence_bits": 24.203052520751953,
+      "dictionary_occurrences": 646,
+      "encoded_bytes": 811
+    },
+    {
+      "word": "december",
+      "occurrences": 551,
+      "final_bits": 2080.2991580363596,
+      "neural_bits": 2160.513800634772,
+      "bits_per_occurrence": 3.7754975644943007,
+      "max_occurrence_bits": 18.55185556411743,
+      "dictionary_occurrences": 551,
+      "encoded_bytes": 1653
+    },
+    {
+      "word": "an",
+      "occurrences": 447,
+      "final_bits": 2071.2164633338107,
+      "neural_bits": 2174.491050606156,
+      "bits_per_occurrence": 4.633593877704275,
+      "max_occurrence_bits": 17.340363981435075,
+      "dictionary_occurrences": 447,
+      "encoded_bytes": 506
+    },
+    {
+      "word": "england",
+      "occurrences": 1178,
+      "final_bits": 2066.8646919567836,
+      "neural_bits": 2327.216606026765,
+      "bits_per_occurrence": 1.7545540678750287,
+      "max_occurrence_bits": 13.135789036750793,
+      "dictionary_occurrences": 1178,
+      "encoded_bytes": 3534
+    },
+    {
+      "word": "june",
+      "occurrences": 541,
+      "final_bits": 2031.8098740590503,
+      "neural_bits": 2065.142310771742,
+      "bits_per_occurrence": 3.755655959443716,
+      "max_occurrence_bits": 17.90074199438095,
+      "dictionary_occurrences": 541,
+      "encoded_bytes": 1623
+    },
+    {
+      "word": "charles",
+      "occurrences": 451,
+      "final_bits": 1978.9168854042655,
+      "neural_bits": 2030.6734088160747,
+      "bits_per_occurrence": 4.387842317969547,
+      "max_occurrence_bits": 14.501725912094116,
+      "dictionary_occurrences": 451,
+      "encoded_bytes": 1353
+    },
+    {
+      "word": "november",
+      "occurrences": 570,
+      "final_bits": 1972.191799653694,
+      "neural_bits": 1995.9930666388864,
+      "bits_per_occurrence": 3.4599856134275333,
+      "max_occurrence_bits": 12.854657888412476,
+      "dictionary_occurrences": 570,
+      "encoded_bytes": 1709
+    },
+    {
+      "word": "iii",
+      "occurrences": 824,
+      "final_bits": 1960.0692762519466,
+      "neural_bits": 1984.0052023943072,
+      "bits_per_occurrence": 2.3787248498203235,
+      "max_occurrence_bits": 13.212686657905579,
+      "dictionary_occurrences": 824,
+      "encoded_bytes": 2472
+    },
+    {
+      "word": "april",
+      "occurrences": 565,
+      "final_bits": 1926.24798222119,
+      "neural_bits": 1925.21182001757,
+      "bits_per_occurrence": 3.4092884641083008,
+      "max_occurrence_bits": 17.8718421459198,
+      "dictionary_occurrences": 565,
+      "encoded_bytes": 1695
+    },
+    {
+      "word": "march",
+      "occurrences": 590,
+      "final_bits": 1921.869301046012,
+      "neural_bits": 1906.832285618082,
+      "bits_per_occurrence": 3.257405594993241,
+      "max_occurrence_bits": 18.86303186416626,
+      "dictionary_occurrences": 590,
+      "encoded_bytes": 1764
+    },
+    {
+      "word": "thomas",
+      "occurrences": 368,
+      "final_bits": 1904.0745679665124,
+      "neural_bits": 1966.1969043809222,
+      "bits_per_occurrence": 5.174115673822045,
+      "max_occurrence_bits": 21.464662075042725,
+      "dictionary_occurrences": 368,
+      "encoded_bytes": 1104
+    },
+    {
+      "word": "bishop",
+      "occurrences": 329,
+      "final_bits": 1873.3072232214035,
+      "neural_bits": 1874.9352735893754,
+      "bits_per_occurrence": 5.693942927724631,
+      "max_occurrence_bits": 16.32742530107498,
+      "dictionary_occurrences": 329,
+      "encoded_bytes": 768
+    },
+    {
+      "word": "duke",
+      "occurrences": 670,
+      "final_bits": 1862.8237342397915,
+      "neural_bits": 1913.9724324513527,
+      "bits_per_occurrence": 2.7803339317011813,
+      "max_occurrence_bits": 17.080359935760498,
+      "dictionary_occurrences": 670,
+      "encoded_bytes": 1973
+    },
+    {
+      "word": "kingdom",
+      "occurrences": 366,
+      "final_bits": 1848.662292781286,
+      "neural_bits": 1921.096628155919,
+      "bits_per_occurrence": 5.05098987098712,
+      "max_occurrence_bits": 19.908867835998535,
+      "dictionary_occurrences": 366,
+      "encoded_bytes": 935
+    },
+    {
+      "word": "with",
+      "occurrences": 382,
+      "final_bits": 1821.9211230926448,
+      "neural_bits": 1830.6054832922218,
+      "bits_per_occurrence": 4.769427023802735,
+      "max_occurrence_bits": 17.078364364802837,
+      "dictionary_occurrences": 382,
+      "encoded_bytes": 400
+    },
+    {
+      "word": "july",
+      "occurrences": 544,
+      "final_bits": 1811.3152933694655,
+      "neural_bits": 1747.8079479527332,
+      "bits_per_occurrence": 3.3296237010468115,
+      "max_occurrence_bits": 15.233424246311188,
+      "dictionary_occurrences": 544,
+      "encoded_bytes": 1632
+    },
+    {
+      "word": "prince",
+      "occurrences": 350,
+      "final_bits": 1798.130616954877,
+      "neural_bits": 1851.0943403598048,
+      "bits_per_occurrence": 5.137516048442506,
+      "max_occurrence_bits": 18.966248750686646,
+      "dictionary_occurrences": 350,
+      "encoded_bytes": 974
+    },
+    {
+      "word": "poet",
+      "occurrences": 522,
+      "final_bits": 1774.105467489222,
+      "neural_bits": 1906.7379586221368,
+      "bits_per_occurrence": 3.3986694779487014,
+      "max_occurrence_bits": 16.19344472885132,
+      "dictionary_occurrences": 522,
+      "encoded_bytes": 1045
+    },
+    {
+      "word": "february",
+      "occurrences": 557,
+      "final_bits": 1736.6795763373375,
+      "neural_bits": 1763.185640026284,
+      "bits_per_occurrence": 3.1179166541065304,
+      "max_occurrence_bits": 15.00127911567688,
+      "dictionary_occurrences": 557,
+      "encoded_bytes": 1671
+    },
+    {
+      "word": "louis",
+      "occurrences": 368,
+      "final_bits": 1715.5631314305356,
+      "neural_bits": 1710.3244299570824,
+      "bits_per_occurrence": 4.661856335409064,
+      "max_occurrence_bits": 17.25956392288208,
+      "dictionary_occurrences": 368,
+      "encoded_bytes": 1103
+    },
+    {
+      "word": "january",
+      "occurrences": 594,
+      "final_bits": 1676.6204540450126,
+      "neural_bits": 1717.9577342537723,
+      "bits_per_occurrence": 2.822593356978136,
+      "max_occurrence_bits": 17.584965705871582,
+      "dictionary_occurrences": 594,
+      "encoded_bytes": 1781
+    },
+    {
+      "word": "byzantine",
+      "occurrences": 459,
+      "final_bits": 1616.2220229593804,
+      "neural_bits": 1782.059231180122,
+      "bits_per_occurrence": 3.5211808779071467,
+      "max_occurrence_bits": 16.003667312674224,
+      "dictionary_occurrences": 459,
+      "encoded_bytes": 1374
+    },
+    {
+      "word": "city",
+      "occurrences": 346,
+      "final_bits": 1598.118388885283,
+      "neural_bits": 1660.528029092965,
+      "bits_per_occurrence": 4.618839274234921,
+      "max_occurrence_bits": 17.295913696289062,
+      "dictionary_occurrences": 346,
+      "encoded_bytes": 745
+    },
+    {
+      "word": "al",
+      "occurrences": 293,
+      "final_bits": 1494.284401717363,
+      "neural_bits": 1576.0542539922144,
+      "bits_per_occurrence": 5.099946763540488,
+      "max_occurrence_bits": 15.659745454788208,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 706
+    },
+    {
+      "word": "france",
+      "occurrences": 750,
+      "final_bits": 1456.2645374267595,
+      "neural_bits": 1601.732471244507,
+      "bits_per_occurrence": 1.941686049902346,
+      "max_occurrence_bits": 13.875235185027122,
+      "dictionary_occurrences": 750,
+      "encoded_bytes": 2250
+    },
+    {
+      "word": "queen",
+      "occurrences": 287,
+      "final_bits": 1453.782316852943,
+      "neural_bits": 1461.3449672120605,
+      "bits_per_occurrence": 5.065443612728025,
+      "max_occurrence_bits": 19.142377376556396,
+      "dictionary_occurrences": 287,
+      "encoded_bytes": 706
+    },
+    {
+      "word": "s",
+      "occurrences": 14946,
+      "final_bits": 1450.8988893710193,
+      "neural_bits": 1510.2104270128168,
+      "bits_per_occurrence": 0.09707606646400505,
+      "max_occurrence_bits": 19.538410395383835,
+      "dictionary_occurrences": 14946,
+      "encoded_bytes": 14978
+    },
+    {
+      "word": "ruler",
+      "occurrences": 327,
+      "final_bits": 1439.446776362718,
+      "neural_bits": 1553.9234937646795,
+      "bits_per_occurrence": 4.40197790936611,
+      "max_occurrence_bits": 16.159131050109863,
+      "dictionary_occurrences": 327,
+      "encoded_bytes": 659
+    },
+    {
+      "word": "after",
+      "occurrences": 221,
+      "final_bits": 1436.0620333561674,
+      "neural_bits": 1401.4423131382464,
+      "bits_per_occurrence": 6.498018250480396,
+      "max_occurrence_bits": 16.83867073059082,
+      "dictionary_occurrences": 221,
+      "encoded_bytes": 257
+    },
+    {
+      "word": "iv",
+      "occurrences": 519,
+      "final_bits": 1416.4865466068732,
+      "neural_bits": 1682.4681800031863,
+      "bits_per_occurrence": 2.72926116879937,
+      "max_occurrence_bits": 11.452681541442871,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 1557
+    },
+    {
+      "word": "st",
+      "occurrences": 845,
+      "final_bits": 1406.6733201030293,
+      "neural_bits": 1414.1125778735259,
+      "bits_per_occurrence": 1.664702153968082,
+      "max_occurrence_bits": 16.45053482055664,
+      "dictionary_occurrences": 845,
+      "encoded_bytes": 1880
+    },
+    {
+      "word": "empire",
+      "occurrences": 947,
+      "final_bits": 1395.7193584656343,
+      "neural_bits": 1534.8913834914633,
+      "bits_per_occurrence": 1.473832479900353,
+      "max_occurrence_bits": 13.88635067641735,
+      "dictionary_occurrences": 947,
+      "encoded_bytes": 2773
+    },
+    {
+      "word": "edward",
+      "occurrences": 309,
+      "final_bits": 1385.5211449821363,
+      "neural_bits": 1399.0536781527653,
+      "bits_per_occurrence": 4.483887200589438,
+      "max_occurrence_bits": 20.506164073944092,
+      "dictionary_occurrences": 309,
+      "encoded_bytes": 927
+    },
+    {
+      "word": "french",
+      "occurrences": 842,
+      "final_bits": 1375.2962297865888,
+      "neural_bits": 1451.5920075882295,
+      "bits_per_occurrence": 1.633368443927065,
+      "max_occurrence_bits": 16.554141342639923,
+      "dictionary_occurrences": 842,
+      "encoded_bytes": 2526
+    },
+    {
+      "word": "general",
+      "occurrences": 209,
+      "final_bits": 1372.3601092596655,
+      "neural_bits": 1421.892451596148,
+      "bits_per_occurrence": 6.566316312247203,
+      "max_occurrence_bits": 23.053308963775635,
+      "dictionary_occurrences": 209,
+      "encoded_bytes": 465
+    },
+    {
+      "word": "under",
+      "occurrences": 313,
+      "final_bits": 1358.7098958549323,
+      "neural_bits": 1408.0678310704316,
+      "bits_per_occurrence": 4.340926184840039,
+      "max_occurrence_bits": 14.621075630187988,
+      "dictionary_occurrences": 313,
+      "encoded_bytes": 633
+    },
+    {
+      "word": "archbishop",
+      "occurrences": 235,
+      "final_bits": 1338.6080910790479,
+      "neural_bits": 1370.4712391560229,
+      "bits_per_occurrence": 5.696204642889565,
+      "max_occurrence_bits": 16.393177449703217,
+      "dictionary_occurrences": 235,
+      "encoded_bytes": 880
+    },
+    {
+      "word": "richard",
+      "occurrences": 248,
+      "final_bits": 1329.9933356191032,
+      "neural_bits": 1327.3596672956373,
+      "bits_per_occurrence": 5.362876353302835,
+      "max_occurrence_bits": 13.7698655128479,
+      "dictionary_occurrences": 248,
+      "encoded_bytes": 744
+    },
+    {
+      "word": "robert",
+      "occurrences": 228,
+      "final_bits": 1304.32377189002,
+      "neural_bits": 1286.3143990298413,
+      "bits_per_occurrence": 5.720718297763246,
+      "max_occurrence_bits": 15.675686195492744,
+      "dictionary_occurrences": 228,
+      "encoded_bytes": 684
+    },
+    {
+      "word": "writer",
+      "occurrences": 310,
+      "final_bits": 1303.0762613718398,
+      "neural_bits": 1371.7164838876297,
+      "bits_per_occurrence": 4.203471810876903,
+      "max_occurrence_bits": 13.3639554977417,
+      "dictionary_occurrences": 310,
+      "encoded_bytes": 620
+    },
+    {
+      "word": "china",
+      "occurrences": 481,
+      "final_bits": 1216.5295568665024,
+      "neural_bits": 1294.7774629642809,
+      "bits_per_occurrence": 2.5291674778929365,
+      "max_occurrence_bits": 14.341697769239545,
+      "dictionary_occurrences": 481,
+      "encoded_bytes": 1443
+    },
+    {
+      "word": "this",
+      "occurrences": 236,
+      "final_bits": 1204.5555864899652,
+      "neural_bits": 1232.9202410594044,
+      "bits_per_occurrence": 5.104049095296463,
+      "max_occurrence_bits": 14.460304260253906,
+      "dictionary_occurrences": 236,
+      "encoded_bytes": 346
+    },
+    {
+      "word": "begins",
+      "occurrences": 243,
+      "final_bits": 1194.0244790762663,
+      "neural_bits": 1213.3807307071465,
+      "bits_per_occurrence": 4.913680983852948,
+      "max_occurrence_bits": 11.12579607963562,
+      "dictionary_occurrences": 243,
+      "encoded_bytes": 486
+    },
+    {
+      "word": "great",
+      "occurrences": 260,
+      "final_bits": 1185.483670613903,
+      "neural_bits": 1208.152078443417,
+      "bits_per_occurrence": 4.559552579284243,
+      "max_occurrence_bits": 18.45659112930298,
+      "dictionary_occurrences": 260,
+      "encoded_bytes": 750
+    },
+    {
+      "word": "d",
+      "occurrences": 1107,
+      "final_bits": 1181.8634388172068,
+      "neural_bits": 1188.4954566710562,
+      "bits_per_occurrence": 1.0676273160047034,
+      "max_occurrence_bits": 13.548357009887695,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 1135
+    },
+    {
+      "word": "was",
+      "occurrences": 287,
+      "final_bits": 1174.6245590988547,
+      "neural_bits": 1166.2718515534602,
+      "bits_per_occurrence": 4.092768498602281,
+      "max_occurrence_bits": 12.016802787780762,
+      "dictionary_occurrences": 287,
+      "encoded_bytes": 288
+    },
+    {
+      "word": "end",
+      "occurrences": 177,
+      "final_bits": 1149.5333396560745,
+      "neural_bits": 1170.6423716691152,
+      "bits_per_occurrence": 6.494538642124715,
+      "max_occurrence_bits": 17.112445831298828,
+      "dictionary_occurrences": 177,
+      "encoded_bytes": 457
+    },
+    {
+      "word": "approximate",
+      "occurrences": 402,
+      "final_bits": 1114.9191770209,
+      "neural_bits": 1360.3278558236884,
+      "bits_per_occurrence": 2.773430788609204,
+      "max_occurrence_bits": 26.106773376464844,
+      "dictionary_occurrences": 402,
+      "encoded_bytes": 1215
+    },
+    {
+      "word": "war",
+      "occurrences": 316,
+      "final_bits": 1103.794271926512,
+      "neural_bits": 1168.9875009781172,
+      "bits_per_occurrence": 3.493019847868709,
+      "max_occurrence_bits": 18.145498275756836,
+      "dictionary_occurrences": 316,
+      "encoded_bytes": 835
+    },
+    {
+      "word": "succeeds",
+      "occurrences": 375,
+      "final_bits": 1094.2897438113578,
+      "neural_bits": 1283.125405293902,
+      "bits_per_occurrence": 2.918105983496954,
+      "max_occurrence_bits": 10.258909463882446,
+      "dictionary_occurrences": 375,
+      "encoded_bytes": 1125
+    },
+    {
+      "word": "historian",
+      "occurrences": 233,
+      "final_bits": 1084.5077282836428,
+      "neural_bits": 1111.6844432687503,
+      "bits_per_occurrence": 4.654539606367566,
+      "max_occurrence_bits": 14.523135542869568,
+      "dictionary_occurrences": 233,
+      "encoded_bytes": 469
+    },
+    {
+      "word": "northern",
+      "occurrences": 161,
+      "final_bits": 1072.461305206758,
+      "neural_bits": 1175.0553702016477,
+      "bits_per_occurrence": 6.661250342899118,
+      "max_occurrence_bits": 19.023530960083008,
+      "dictionary_occurrences": 161,
+      "encoded_bytes": 431
+    },
+    {
+      "word": "philip",
+      "occurrences": 192,
+      "final_bits": 1067.8816163503798,
+      "neural_bits": 1097.9144307114766,
+      "bits_per_occurrence": 5.561883418491561,
+      "max_occurrence_bits": 14.380728475749493,
+      "dictionary_occurrences": 192,
+      "encoded_bytes": 576
+    },
+    {
+      "word": "second",
+      "occurrences": 144,
+      "final_bits": 1067.583136259811,
+      "neural_bits": 1081.9294018623004,
+      "bits_per_occurrence": 7.413771779582021,
+      "max_occurrence_bits": 14.081444025039673,
+      "dictionary_occurrences": 144,
+      "encoded_bytes": 350
+    },
+    {
+      "word": "patriarch",
+      "occurrences": 293,
+      "final_bits": 1056.7973413466243,
+      "neural_bits": 1157.1704271206108,
+      "bits_per_occurrence": 3.6068168646642467,
+      "max_occurrence_bits": 15.556488658301532,
+      "dictionary_occurrences": 293,
+      "encoded_bytes": 1137
+    },
+    {
+      "word": "v",
+      "occurrences": 331,
+      "final_bits": 1039.568240318331,
+      "neural_bits": 1162.1063495239523,
+      "bits_per_occurrence": 3.1406895477895196,
+      "max_occurrence_bits": 16.54893922805786,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 660
+    },
+    {
+      "word": "last",
+      "occurrences": 229,
+      "final_bits": 1026.7836095512612,
+      "neural_bits": 1069.211326617191,
+      "bits_per_occurrence": 4.483771220747865,
+      "max_occurrence_bits": 16.5370136029087,
+      "dictionary_occurrences": 229,
+      "encoded_bytes": 496
+    },
+    {
+      "word": "church",
+      "occurrences": 209,
+      "final_bits": 1019.7442823293386,
+      "neural_bits": 1016.3777768997157,
+      "bits_per_occurrence": 4.879159245594922,
+      "max_occurrence_bits": 18.71304988861084,
+      "dictionary_occurrences": 209,
+      "encoded_bytes": 531
+    },
+    {
+      "word": "count",
+      "occurrences": 202,
+      "final_bits": 1017.6190382974455,
+      "neural_bits": 1019.5458305571028,
+      "bits_per_occurrence": 5.037718011373492,
+      "max_occurrence_bits": 16.823340892791748,
+      "dictionary_occurrences": 202,
+      "encoded_bytes": 574
+    },
+    {
+      "word": "new",
+      "occurrences": 153,
+      "final_bits": 1009.0366712448886,
+      "neural_bits": 1005.3044635887782,
+      "bits_per_occurrence": 6.595010923169206,
+      "max_occurrence_bits": 19.052571296691895,
+      "dictionary_occurrences": 153,
+      "encoded_bytes": 412
+    },
+    {
+      "word": "composer",
+      "occurrences": 350,
+      "final_bits": 1008.557539450936,
+      "neural_bits": 1151.3523632615543,
+      "bits_per_occurrence": 2.8815929698598173,
+      "max_occurrence_bits": 13.779687404632568,
+      "dictionary_occurrences": 350,
+      "encoded_bytes": 702
+    },
+    {
+      "word": "b",
+      "occurrences": 1049,
+      "final_bits": 983.6202578607481,
+      "neural_bits": 956.8645969772697,
+      "bits_per_occurrence": 0.9376742210302651,
+      "max_occurrence_bits": 12.743910789489746,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 1080
+    },
+    {
+      "word": "spanish",
+      "occurrences": 392,
+      "final_bits": 981.1561978013488,
+      "neural_bits": 1050.379917151702,
+      "bits_per_occurrence": 2.502949484187114,
+      "max_occurrence_bits": 14.018178224563599,
+      "dictionary_occurrences": 392,
+      "encoded_bytes": 1176
+    },
+    {
+      "word": "list",
+      "occurrences": 349,
+      "final_bits": 975.9388723110314,
+      "neural_bits": 1033.2137179692272,
+      "bits_per_occurrence": 2.7963864536132705,
+      "max_occurrence_bits": 17.556044101715088,
+      "dictionary_occurrences": 349,
+      "encoded_bytes": 1042
+    },
+    {
+      "word": "or",
+      "occurrences": 162,
+      "final_bits": 962.8928375868127,
+      "neural_bits": 1016.8666964138802,
+      "bits_per_occurrence": 5.943782948066745,
+      "max_occurrence_bits": 18.170015335083008,
+      "dictionary_occurrences": 162,
+      "encoded_bytes": 162
+    },
+    {
+      "word": "western",
+      "occurrences": 117,
+      "final_bits": 955.4409625387052,
+      "neural_bits": 968.2122839325384,
+      "bits_per_occurrence": 8.166162072980386,
+      "max_occurrence_bits": 15.344194889068604,
+      "dictionary_occurrences": 117,
+      "encoded_bytes": 300
+    },
+    {
+      "word": "spain",
+      "occurrences": 222,
+      "final_bits": 948.7112838784233,
+      "neural_bits": 998.2777557292284,
+      "bits_per_occurrence": 4.273474251704609,
+      "max_occurrence_bits": 17.171123027801514,
+      "dictionary_occurrences": 222,
+      "encoded_bytes": 666
+    },
+    {
+      "word": "james",
+      "occurrences": 195,
+      "final_bits": 947.4583581261104,
+      "neural_bits": 935.3251152060111,
+      "bits_per_occurrence": 4.858760810903131,
+      "max_occurrence_bits": 17.114132702350616,
+      "dictionary_occurrences": 195,
+      "encoded_bytes": 585
+    }
+  ],
+  "repeated_hard_words": [
+    {
+      "word": "bonaventura",
+      "occurrences": 5,
+      "final_bits": 99.47453954350203,
+      "neural_bits": 102.41958085098304,
+      "bits_per_occurrence": 19.894907908700407,
+      "max_occurrence_bits": 39.11209981655702,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "bolingbroke",
+      "occurrences": 5,
+      "final_bits": 99.04310820705723,
+      "neural_bits": 99.93565793568268,
+      "bits_per_occurrence": 19.808621641411445,
+      "max_occurrence_bits": 46.04429389350116,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "pocahontas",
+      "occurrences": 6,
+      "final_bits": 117.45399944437668,
+      "neural_bits": 130.14785294025205,
+      "bits_per_occurrence": 19.57566657406278,
+      "max_occurrence_bits": 44.76179689215496,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 66
+    },
+    {
+      "word": "carving",
+      "occurrences": 5,
+      "final_bits": 94.82788383960724,
+      "neural_bits": 103.18489747964122,
+      "bits_per_occurrence": 18.965576767921448,
+      "max_occurrence_bits": 24.549030542373657,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 17
+    },
+    {
+      "word": "lebna",
+      "occurrences": 5,
+      "final_bits": 91.61807342804968,
+      "neural_bits": 99.77747296076268,
+      "bits_per_occurrence": 18.323614685609936,
+      "max_occurrence_bits": 28.631961289793253,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "usurps",
+      "occurrences": 5,
+      "final_bits": 91.14991451520473,
+      "neural_bits": 91.42496250195836,
+      "bits_per_occurrence": 18.229982903040945,
+      "max_occurrence_bits": 36.69974231719971,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "rheims",
+      "occurrences": 5,
+      "final_bits": 90.23709179111756,
+      "neural_bits": 93.8051162140473,
+      "bits_per_occurrence": 18.047418358223513,
+      "max_occurrence_bits": 26.446297697722912,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "uesugi",
+      "occurrences": 6,
+      "final_bits": 107.73281534947455,
+      "neural_bits": 113.59155053365976,
+      "bits_per_occurrence": 17.955469224912424,
+      "max_occurrence_bits": 35.783904338255525,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 42
+    },
+    {
+      "word": "spoleto",
+      "occurrences": 5,
+      "final_bits": 89.75618372950703,
+      "neural_bits": 92.10508882582508,
+      "bits_per_occurrence": 17.951236745901404,
+      "max_occurrence_bits": 29.30790024343878,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "feidlimid",
+      "occurrences": 5,
+      "final_bits": 88.75824274099432,
+      "neural_bits": 91.6983045739762,
+      "bits_per_occurrence": 17.751648548198865,
+      "max_occurrence_bits": 42.40180031955242,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "gascony",
+      "occurrences": 5,
+      "final_bits": 88.62837526306976,
+      "neural_bits": 90.02206706022844,
+      "bits_per_occurrence": 17.72567505261395,
+      "max_occurrence_bits": 31.26587127079256,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "anawrahta",
+      "occurrences": 5,
+      "final_bits": 88.15898148430279,
+      "neural_bits": 94.16347595665138,
+      "bits_per_occurrence": 17.631796296860557,
+      "max_occurrence_bits": 44.928138406947255,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "pachacuti",
+      "occurrences": 5,
+      "final_bits": 86.98963479162194,
+      "neural_bits": 92.10761252627708,
+      "bits_per_occurrence": 17.397926958324387,
+      "max_occurrence_bits": 42.11351209599525,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "sweating",
+      "occurrences": 5,
+      "final_bits": 86.95881378650665,
+      "neural_bits": 96.76657318905927,
+      "bits_per_occurrence": 17.39176275730133,
+      "max_occurrence_bits": 25.17402410507202,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "jurchen",
+      "occurrences": 5,
+      "final_bits": 86.73261511139572,
+      "neural_bits": 97.81911014497746,
+      "bits_per_occurrence": 17.346523022279143,
+      "max_occurrence_bits": 27.573540031909943,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "guelphs",
+      "occurrences": 5,
+      "final_bits": 86.03419900510926,
+      "neural_bits": 88.99266970332246,
+      "bits_per_occurrence": 17.20683980102185,
+      "max_occurrence_bits": 35.60659325122833,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "ambroise",
+      "occurrences": 5,
+      "final_bits": 85.6999183697626,
+      "neural_bits": 91.09010326641146,
+      "bits_per_occurrence": 17.13998367395252,
+      "max_occurrence_bits": 31.906412997515872,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 45
+    },
+    {
+      "word": "grace",
+      "occurrences": 5,
+      "final_bits": 85.46031785872765,
+      "neural_bits": 77.4253008441301,
+      "bits_per_occurrence": 17.09206357174553,
+      "max_occurrence_bits": 19.25129697029479,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "wriothesley",
+      "occurrences": 5,
+      "final_bits": 85.17777248192579,
+      "neural_bits": 91.6064922711812,
+      "bits_per_occurrence": 17.035554496385156,
+      "max_occurrence_bits": 42.620688900351524,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "secures",
+      "occurrences": 5,
+      "final_bits": 84.49150202702731,
+      "neural_bits": 84.02862456062576,
+      "bits_per_occurrence": 16.89830040540546,
+      "max_occurrence_bits": 20.18027268629521,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "trebonianus",
+      "occurrences": 5,
+      "final_bits": 84.47366678342223,
+      "neural_bits": 101.95742608117871,
+      "bits_per_occurrence": 16.894733356684448,
+      "max_occurrence_bits": 34.089888515882194,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "mansa",
+      "occurrences": 5,
+      "final_bits": 83.08700313174631,
+      "neural_bits": 81.1254670767812,
+      "bits_per_occurrence": 16.617400626349262,
+      "max_occurrence_bits": 19.415244907140732,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 29
+    },
+    {
+      "word": "vologases",
+      "occurrences": 5,
+      "final_bits": 82.40247312025167,
+      "neural_bits": 90.57855494273826,
+      "bits_per_occurrence": 16.480494624050333,
+      "max_occurrence_bits": 42.1418055575341,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "montpensier",
+      "occurrences": 5,
+      "final_bits": 81.96305471146479,
+      "neural_bits": 82.40911686979234,
+      "bits_per_occurrence": 16.392610942292958,
+      "max_occurrence_bits": 36.936355989426374,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "dawit",
+      "occurrences": 5,
+      "final_bits": 81.93445888208225,
+      "neural_bits": 97.63409043976571,
+      "bits_per_occurrence": 16.38689177641645,
+      "max_occurrence_bits": 24.04833491134923,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "celje",
+      "occurrences": 7,
+      "final_bits": 114.35785872768611,
+      "neural_bits": 114.63707068539225,
+      "bits_per_occurrence": 16.336836961098015,
+      "max_occurrence_bits": 29.779676290228963,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 42
+    },
+    {
+      "word": "nakagawa",
+      "occurrences": 6,
+      "final_bits": 96.43261959566735,
+      "neural_bits": 106.79580450244248,
+      "bits_per_occurrence": 16.07210326594456,
+      "max_occurrence_bits": 27.66136801522225,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 54
+    },
+    {
+      "word": "owain",
+      "occurrences": 9,
+      "final_bits": 144.55405825539492,
+      "neural_bits": 160.81078796839574,
+      "bits_per_occurrence": 16.061562028377214,
+      "max_occurrence_bits": 27.853461568942294,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 54
+    },
+    {
+      "word": "sienese",
+      "occurrences": 6,
+      "final_bits": 95.38512183353305,
+      "neural_bits": 109.17847631161567,
+      "bits_per_occurrence": 15.897520305588841,
+      "max_occurrence_bits": 27.322727262973785,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "alnwick",
+      "occurrences": 5,
+      "final_bits": 78.86499084741808,
+      "neural_bits": 82.64203296077903,
+      "bits_per_occurrence": 15.772998169483618,
+      "max_occurrence_bits": 29.016346335411072,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "enguerrand",
+      "occurrences": 6,
+      "final_bits": 94.15870331402402,
+      "neural_bits": 93.75920087913983,
+      "bits_per_occurrence": 15.693117219004003,
+      "max_occurrence_bits": 36.14564215950668,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 66
+    },
+    {
+      "word": "kaifeng",
+      "occurrences": 5,
+      "final_bits": 78.42856001621112,
+      "neural_bits": 83.23164338700008,
+      "bits_per_occurrence": 15.685712003242225,
+      "max_occurrence_bits": 29.269094789400697,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "widukind",
+      "occurrences": 5,
+      "final_bits": 78.19672156404704,
+      "neural_bits": 81.51077159283886,
+      "bits_per_occurrence": 15.639344312809408,
+      "max_occurrence_bits": 32.899022412952036,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 45
+    },
+    {
+      "word": "chindaswinth",
+      "occurrences": 5,
+      "final_bits": 77.96754981472623,
+      "neural_bits": 85.71326130075613,
+      "bits_per_occurrence": 15.593509962945244,
+      "max_occurrence_bits": 34.66694807820022,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 65
+    },
+    {
+      "word": "barnabe",
+      "occurrences": 5,
+      "final_bits": 77.72219094657339,
+      "neural_bits": 86.69709870102815,
+      "bits_per_occurrence": 15.544438189314679,
+      "max_occurrence_bits": 23.44311883742921,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "sung",
+      "occurrences": 10,
+      "final_bits": 155.20971257938072,
+      "neural_bits": 167.41099291091086,
+      "bits_per_occurrence": 15.520971257938072,
+      "max_occurrence_bits": 25.306154124438763,
+      "dictionary_occurrences": 10,
+      "encoded_bytes": 39
+    },
+    {
+      "word": "jeong",
+      "occurrences": 5,
+      "final_bits": 77.38798187847715,
+      "neural_bits": 81.68427048937883,
+      "bits_per_occurrence": 15.47759637569543,
+      "max_occurrence_bits": 22.390828996198252,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "calligrapher",
+      "occurrences": 10,
+      "final_bits": 154.01361279340927,
+      "neural_bits": 172.3989138185716,
+      "bits_per_occurrence": 15.401361279340927,
+      "max_occurrence_bits": 29.251179790124297,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 121
+    },
+    {
+      "word": "lutenist",
+      "occurrences": 7,
+      "final_bits": 107.78406191570684,
+      "neural_bits": 114.65909972297959,
+      "bits_per_occurrence": 15.397723130815264,
+      "max_occurrence_bits": 31.289597630500793,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 56
+    },
+    {
+      "word": "yongle",
+      "occurrences": 6,
+      "final_bits": 92.3435066093225,
+      "neural_bits": 104.10247336700559,
+      "bits_per_occurrence": 15.390584434887083,
+      "max_occurrence_bits": 22.09473766386509,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 42
+    },
+    {
+      "word": "sviatoslav",
+      "occurrences": 6,
+      "final_bits": 91.84494571317919,
+      "neural_bits": 94.38314532786535,
+      "bits_per_occurrence": 15.307490952196531,
+      "max_occurrence_bits": 43.81687579071149,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 66
+    },
+    {
+      "word": "approx",
+      "occurrences": 7,
+      "final_bits": 106.88809146918356,
+      "neural_bits": 111.80077763951522,
+      "bits_per_occurrence": 15.269727352740508,
+      "max_occurrence_bits": 23.858994960784912,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 21
+    },
+    {
+      "word": "baeda",
+      "occurrences": 5,
+      "final_bits": 76.3315740787657,
+      "neural_bits": 78.88873689097818,
+      "bits_per_occurrence": 15.26631481575314,
+      "max_occurrence_bits": 27.148695845971815,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "odet",
+      "occurrences": 5,
+      "final_bits": 76.291068753344,
+      "neural_bits": 78.45128860510886,
+      "bits_per_occurrence": 15.258213750668801,
+      "max_occurrence_bits": 19.816483574570157,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 25
+    },
+    {
+      "word": "frontinus",
+      "occurrences": 5,
+      "final_bits": 76.24453542509582,
+      "neural_bits": 92.20518005167833,
+      "bits_per_occurrence": 15.248907085019164,
+      "max_occurrence_bits": 24.51406698441133,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "mindaugas",
+      "occurrences": 7,
+      "final_bits": 106.060230951407,
+      "neural_bits": 120.16973155667074,
+      "bits_per_occurrence": 15.151461564486713,
+      "max_occurrence_bits": 34.80096429819241,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 70
+    },
+    {
+      "word": "sainte",
+      "occurrences": 7,
+      "final_bits": 105.75757758785039,
+      "neural_bits": 105.57025192592118,
+      "bits_per_occurrence": 15.108225369692914,
+      "max_occurrence_bits": 30.446843147277832,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 28
+    },
+    {
+      "word": "devastating",
+      "occurrences": 5,
+      "final_bits": 75.52554154396057,
+      "neural_bits": 73.85965663253137,
+      "bits_per_occurrence": 15.105108308792115,
+      "max_occurrence_bits": 18.156086444854736,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 17
+    },
+    {
+      "word": "fritigern",
+      "occurrences": 5,
+      "final_bits": 75.42758002248593,
+      "neural_bits": 85.97393188264687,
+      "bits_per_occurrence": 15.085516004497185,
+      "max_occurrence_bits": 33.91529167443514,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "raynald",
+      "occurrences": 5,
+      "final_bits": 75.30761343741324,
+      "neural_bits": 81.95274228206836,
+      "bits_per_occurrence": 15.061522687482647,
+      "max_occurrence_bits": 28.5473643084988,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 40
+    },
+    {
+      "word": "amora",
+      "occurrences": 5,
+      "final_bits": 75.2171403169632,
+      "neural_bits": 82.29196602938464,
+      "bits_per_occurrence": 15.04342806339264,
+      "max_occurrence_bits": 24.057069897651672,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 27
+    },
+    {
+      "word": "sarsa",
+      "occurrences": 6,
+      "final_bits": 89.9873243670445,
+      "neural_bits": 98.18977037770674,
+      "bits_per_occurrence": 14.997887394507416,
+      "max_occurrence_bits": 21.854377081850544,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "cuauht",
+      "occurrences": 6,
+      "final_bits": 89.73194100451656,
+      "neural_bits": 97.83936876780353,
+      "bits_per_occurrence": 14.95532350075276,
+      "max_occurrence_bits": 20.21736136917025,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 42
+    },
+    {
+      "word": "saito",
+      "occurrences": 6,
+      "final_bits": 89.48365704796743,
+      "neural_bits": 100.09826706768945,
+      "bits_per_occurrence": 14.913942841327904,
+      "max_occurrence_bits": 19.890196743770503,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "skanderbeg",
+      "occurrences": 5,
+      "final_bits": 74.56630554131698,
+      "neural_bits": 75.43780779361259,
+      "bits_per_occurrence": 14.913261108263395,
+      "max_occurrence_bits": 36.38641756772995,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 55
+    },
+    {
+      "word": "probus",
+      "occurrences": 5,
+      "final_bits": 74.30550914042396,
+      "neural_bits": 88.05465643195203,
+      "bits_per_occurrence": 14.861101828084793,
+      "max_occurrence_bits": 23.47964825388044,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "ataulf",
+      "occurrences": 5,
+      "final_bits": 74.2831737594679,
+      "neural_bits": 80.16629029071191,
+      "bits_per_occurrence": 14.85663475189358,
+      "max_occurrence_bits": 28.375801297836006,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "cause",
+      "occurrences": 5,
+      "final_bits": 74.07801699638367,
+      "neural_bits": 71.4281027072866,
+      "bits_per_occurrence": 14.815603399276734,
+      "max_occurrence_bits": 28.919795989990234,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 10
+    },
+    {
+      "word": "buda",
+      "occurrences": 5,
+      "final_bits": 73.97710516583174,
+      "neural_bits": 81.0884136792738,
+      "bits_per_occurrence": 14.795421033166349,
+      "max_occurrence_bits": 18.4738552570343,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 25
+    },
+    {
+      "word": "abravanel",
+      "occurrences": 5,
+      "final_bits": 73.97158913780004,
+      "neural_bits": 81.83595810364932,
+      "bits_per_occurrence": 14.794317827560008,
+      "max_occurrence_bits": 32.03759804368019,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 50
+    },
+    {
+      "word": "sacks",
+      "occurrences": 12,
+      "final_bits": 177.07915979623795,
+      "neural_bits": 178.01351449807407,
+      "bits_per_occurrence": 14.756596649686495,
+      "max_occurrence_bits": 20.936012744903564,
+      "dictionary_occurrences": 12,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "toltec",
+      "occurrences": 7,
+      "final_bits": 103.27201495924965,
+      "neural_bits": 117.69898189998071,
+      "bits_per_occurrence": 14.753144994178522,
+      "max_occurrence_bits": 29.385497987270355,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "khitan",
+      "occurrences": 5,
+      "final_bits": 73.64204315794632,
+      "neural_bits": 73.67845331678836,
+      "bits_per_occurrence": 14.728408631589264,
+      "max_occurrence_bits": 22.755327004939318,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "carlos",
+      "occurrences": 5,
+      "final_bits": 73.57771884766407,
+      "neural_bits": 75.17663003574125,
+      "bits_per_occurrence": 14.715543769532815,
+      "max_occurrence_bits": 24.02150411834009,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "azai",
+      "occurrences": 5,
+      "final_bits": 73.33769117062911,
+      "neural_bits": 84.20113748242147,
+      "bits_per_occurrence": 14.667538234125823,
+      "max_occurrence_bits": 20.057507726363838,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 25
+    },
+    {
+      "word": "expels",
+      "occurrences": 8,
+      "final_bits": 117.28129756776616,
+      "neural_bits": 117.45114577552886,
+      "bits_per_occurrence": 14.66016219597077,
+      "max_occurrence_bits": 23.818728804588318,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "abul",
+      "occurrences": 5,
+      "final_bits": 73.19382592779584,
+      "neural_bits": 73.50459736640914,
+      "bits_per_occurrence": 14.63876518555917,
+      "max_occurrence_bits": 17.76974387653172,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 25
+    },
+    {
+      "word": "geiseric",
+      "occurrences": 6,
+      "final_bits": 87.78586749103852,
+      "neural_bits": 96.03645179688465,
+      "bits_per_occurrence": 14.630977915173085,
+      "max_occurrence_bits": 29.502953862771392,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 54
+    },
+    {
+      "word": "ulugh",
+      "occurrences": 5,
+      "final_bits": 73.0415824126685,
+      "neural_bits": 82.11744646227453,
+      "bits_per_occurrence": 14.6083164825337,
+      "max_occurrence_bits": 23.133644619956613,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 30
+    },
+    {
+      "word": "macmurrough",
+      "occurrences": 6,
+      "final_bits": 87.63047987653408,
+      "neural_bits": 92.33047717565205,
+      "bits_per_occurrence": 14.605079979422348,
+      "max_occurrence_bits": 39.64557558298111,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 72
+    },
+    {
+      "word": "tuchet",
+      "occurrences": 5,
+      "final_bits": 72.8704104560893,
+      "neural_bits": 75.89323435991537,
+      "bits_per_occurrence": 14.57408209121786,
+      "max_occurrence_bits": 25.391896545886993,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "osroene",
+      "occurrences": 8,
+      "final_bits": 116.30080709955655,
+      "neural_bits": 143.2949909842573,
+      "bits_per_occurrence": 14.537600887444569,
+      "max_occurrence_bits": 38.11232303711586,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 64
+    },
+    {
+      "word": "harthacanute",
+      "occurrences": 8,
+      "final_bits": 116.22275860398076,
+      "neural_bits": 129.14292910054792,
+      "bits_per_occurrence": 14.527844825497596,
+      "max_occurrence_bits": 43.577634437941015,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 104
+    },
+    {
+      "word": "bulgar",
+      "occurrences": 5,
+      "final_bits": 72.55892595276237,
+      "neural_bits": 73.47200458156294,
+      "bits_per_occurrence": 14.511785190552473,
+      "max_occurrence_bits": 20.67229337990284,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 35
+    },
+    {
+      "word": "blue",
+      "occurrences": 5,
+      "final_bits": 72.48373401258141,
+      "neural_bits": 70.69203954661498,
+      "bits_per_occurrence": 14.496746802516281,
+      "max_occurrence_bits": 21.604269981384277,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 13
+    },
+    {
+      "word": "rurik",
+      "occurrences": 6,
+      "final_bits": 86.88261143537238,
+      "neural_bits": 88.90813386943773,
+      "bits_per_occurrence": 14.480435239228731,
+      "max_occurrence_bits": 25.145523929037154,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "breton",
+      "occurrences": 5,
+      "final_bits": 72.26630564033985,
+      "neural_bits": 70.84433616233582,
+      "bits_per_occurrence": 14.45326112806797,
+      "max_occurrence_bits": 17.81672739982605,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "avicenna",
+      "occurrences": 5,
+      "final_bits": 72.25018546229694,
+      "neural_bits": 78.08722909107018,
+      "bits_per_occurrence": 14.450037092459388,
+      "max_occurrence_bits": 16.068996911868453,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "reunites",
+      "occurrences": 5,
+      "final_bits": 71.97111802361906,
+      "neural_bits": 78.67704381031217,
+      "bits_per_occurrence": 14.39422360472381,
+      "max_occurrence_bits": 27.25636637210846,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "current",
+      "occurrences": 7,
+      "final_bits": 100.74325346946716,
+      "neural_bits": 100.47589615598554,
+      "bits_per_occurrence": 14.391893352781024,
+      "max_occurrence_bits": 22.861024856567383,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 14
+    },
+    {
+      "word": "chichen",
+      "occurrences": 6,
+      "final_bits": 86.35060338582844,
+      "neural_bits": 84.64885407818474,
+      "bits_per_occurrence": 14.391767230971405,
+      "max_occurrence_bits": 17.433866707142442,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "hedwig",
+      "occurrences": 5,
+      "final_bits": 71.86960523668677,
+      "neural_bits": 72.11166170130491,
+      "bits_per_occurrence": 14.373921047337353,
+      "max_occurrence_bits": 15.696703840978444,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "horio",
+      "occurrences": 6,
+      "final_bits": 86.2208292989526,
+      "neural_bits": 97.37398183019832,
+      "bits_per_occurrence": 14.3701382164921,
+      "max_occurrence_bits": 20.665957765188068,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    },
+    {
+      "word": "predecessor",
+      "occurrences": 5,
+      "final_bits": 71.74286651611328,
+      "neural_bits": 72.62985125358682,
+      "bits_per_occurrence": 14.348573303222656,
+      "max_occurrence_bits": 21.447309255599976,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "livonian",
+      "occurrences": 8,
+      "final_bits": 114.7056194525212,
+      "neural_bits": 123.69637134275399,
+      "bits_per_occurrence": 14.33820243156515,
+      "max_occurrence_bits": 19.08338558441028,
+      "dictionary_occurrences": 8,
+      "encoded_bytes": 32
+    },
+    {
+      "word": "colin",
+      "occurrences": 5,
+      "final_bits": 71.61667305661831,
+      "neural_bits": 67.71159234084189,
+      "bits_per_occurrence": 14.323334611323663,
+      "max_occurrence_bits": 17.020434247213416,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "perctarit",
+      "occurrences": 6,
+      "final_bits": 85.77210286422633,
+      "neural_bits": 101.86894965269312,
+      "bits_per_occurrence": 14.295350477371054,
+      "max_occurrence_bits": 34.343085940461606,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 60
+    },
+    {
+      "word": "tenochtitl",
+      "occurrences": 10,
+      "final_bits": 142.58460080740042,
+      "neural_bits": 166.56372964428738,
+      "bits_per_occurrence": 14.258460080740042,
+      "max_occurrence_bits": 32.02271140366793,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 110
+    },
+    {
+      "word": "hosokawa",
+      "occurrences": 11,
+      "final_bits": 156.418603750295,
+      "neural_bits": 180.2942361223977,
+      "bits_per_occurrence": 14.219873068208637,
+      "max_occurrence_bits": 36.051347023108974,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 99
+    },
+    {
+      "word": "mamluks",
+      "occurrences": 8,
+      "final_bits": 113.554028708837,
+      "neural_bits": 117.15152065269649,
+      "bits_per_occurrence": 14.194253588604624,
+      "max_occurrence_bits": 28.111848264932632,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 64
+    },
+    {
+      "word": "dismissed",
+      "occurrences": 6,
+      "final_bits": 85.12131142616272,
+      "neural_bits": 85.18323538723052,
+      "bits_per_occurrence": 14.186885237693787,
+      "max_occurrence_bits": 18.734840989112854,
+      "dictionary_occurrences": 6,
+      "encoded_bytes": 18
+    },
+    {
+      "word": "vittoria",
+      "occurrences": 5,
+      "final_bits": 70.71828543068841,
+      "neural_bits": 77.27583731990308,
+      "bits_per_occurrence": 14.143657086137683,
+      "max_occurrence_bits": 16.52545154094696,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 20
+    },
+    {
+      "word": "suppresses",
+      "occurrences": 5,
+      "final_bits": 70.66727495193481,
+      "neural_bits": 71.60181597029441,
+      "bits_per_occurrence": 14.133454990386962,
+      "max_occurrence_bits": 14.789429903030396,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "celebrated",
+      "occurrences": 5,
+      "final_bits": 70.64136052131653,
+      "neural_bits": 70.48193591961171,
+      "bits_per_occurrence": 14.128272104263306,
+      "max_occurrence_bits": 17.39668560028076,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 10
+    },
+    {
+      "word": "murders",
+      "occurrences": 5,
+      "final_bits": 70.5855285525322,
+      "neural_bits": 69.69330981507665,
+      "bits_per_occurrence": 14.11710571050644,
+      "max_occurrence_bits": 16.352200269699097,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "yucat",
+      "occurrences": 8,
+      "final_bits": 112.60726606403477,
+      "neural_bits": 121.96398758585565,
+      "bits_per_occurrence": 14.075908258004347,
+      "max_occurrence_bits": 23.085526503622532,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 48
+    },
+    {
+      "word": "allegedly",
+      "occurrences": 5,
+      "final_bits": 70.24004739522934,
+      "neural_bits": 66.47012582296156,
+      "bits_per_occurrence": 14.048009479045868,
+      "max_occurrence_bits": 18.93659782409668,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 15
+    },
+    {
+      "word": "director",
+      "occurrences": 7,
+      "final_bits": 98.03175449371338,
+      "neural_bits": 98.83131238483475,
+      "bits_per_occurrence": 14.004536356244769,
+      "max_occurrence_bits": 24.361148834228516,
+      "dictionary_occurrences": 7,
+      "encoded_bytes": 16
+    },
+    {
+      "word": "alleged",
+      "occurrences": 5,
+      "final_bits": 69.97895979881287,
+      "neural_bits": 72.79325388997677,
+      "bits_per_occurrence": 13.995791959762574,
+      "max_occurrence_bits": 19.056925296783447,
+      "dictionary_occurrences": 5,
+      "encoded_bytes": 10
+    },
+    {
+      "word": "kilij",
+      "occurrences": 6,
+      "final_bits": 83.94442357576918,
+      "neural_bits": 96.26669052196667,
+      "bits_per_occurrence": 13.990737262628196,
+      "max_occurrence_bits": 25.99699339037761,
+      "dictionary_occurrences": 0,
+      "encoded_bytes": 36
+    }
+  ],
+  "top_occurrences": [
+    {
+      "word": "haihdjflkajhdfljasdhlfkadshfl",
+      "encoded_start": 1665561,
+      "encoded_end": 1665590,
+      "final_bits": 153.64077216386795,
+      "neural_bits": 157.01672167889774,
+      "context": "space=\"preserve\">{centurybox |\n cpa=14 |\n cpb=th century |\n c=[15th century] |\n cn1=[16th century] |haihdjflkajhdfljasdhlfkadshfl\n}\n\nAs a means of recording the passage of [time], the '''15th century''' was that [century] which l"
+    },
+    {
+      "word": "Cuauhtlatoatzin",
+      "encoded_start": 1466890,
+      "encoded_end": 1466906,
+      "final_bits": 76.71698316931725,
+      "neural_bits": 83.31427268660627,
+      "context": "nter (died [1515])\n* [Edward Guilford], Lord Warden of the Cinque Ports (died [1534])\n* [Juan Diego Cuauhtlatoatzin], Mexican Catholic saint (died [1548])\n* [Giacomo Pacchiarotti], Italian painter\n* Sir [John Seymou"
+    },
+    {
+      "word": "Ixtlilxochitl",
+      "encoded_start": 1413101,
+      "encoded_end": 1413115,
+      "final_bits": 74.79689916642383,
+      "neural_bits": 75.94698680657893,
+      "context": "table of France (b. [1360])\n*[November 25] - [Henry Beaufort, 2nd Earl of Somerset] (born [1401])\n*[Ixtlilxochitl], Aztec ruler of Tetzcoco\n*[Mircea cel B\u0103tr\u00e2n], ruler of Wallachia (born [1386])\n\n[Category:1418]"
+    },
+    {
+      "word": "Brahmasphutasiddhanta",
+      "encoded_start": 304814,
+      "encoded_end": 304836,
+      "final_bits": 71.784832470119,
+      "neural_bits": 74.55924549896736,
+      "context": "I of Persia|Kavadh II]\n*[Pippin of Landen] becomes [Mayor of the Palace]\n*[Brahmagupta] writes the [Brahmasphutasiddhanta]\n\n==Births==\n\n==Deaths==\n*[Khosrau II of Persia|Khosrau II], king of Persia\n*[Kavadh II of Persia|K"
+    },
+    {
+      "word": "Szekesfahervar",
+      "encoded_start": 75324,
+      "encoded_end": 75339,
+      "final_bits": 70.68539999052882,
+      "neural_bits": 72.4971820428691,
+      "context": "Sri Lanka]\n*[Magyars|Magyar] army headed by [\u00c1lmos] besieges [Kiev]\n*Magyar tribes found state of [Szekesfahervar] in [Hungary]\n*[Bologna] joins [Italy|Italian] Kingdom\n*End of Yodit era in [Ethiopia]\n*Foundation "
+    },
+    {
+      "word": "Dyrehavsbakken",
+      "encoded_start": 1716665,
+      "encoded_end": 1716680,
+      "final_bits": 68.2110533490777,
+      "neural_bits": 70.69895202177577,
+      "context": "inst the [Portuguese people|Portuguese].\n* World's oldest, intact, still-surviving amusement park, [Dyrehavsbakken] was found.\n\n==Births==\n* [January 8] - [Simon Episcopius], Dutch theologian (died [1643])\n* [March"
+    },
+    {
+      "word": "Voulgaroktonos",
+      "encoded_start": 905800,
+      "encoded_end": 905815,
+      "final_bits": 66.97161078453064,
+      "neural_bits": 64.51250117493328,
+      "context": "soners reportedly causes [Tsar Samuil of Bulgaria] to die of shock, and earns [Basil II] the title 'Voulgaroktonos' (Bulgar-slayer).\n* Henry II of [Germany] crowned [Henry II, Holy Roman Emperor] by [Pope Benedict "
+    },
+    {
+      "word": "MacFhirbhisigh",
+      "encoded_start": 1918136,
+      "encoded_end": 1918151,
+      "final_bits": 64.44950214028358,
+      "neural_bits": 65.03409244911745,
+      "context": "is XIV], King of France, ([1638] - [1715])\n* [Mary II of England] ([1662] - [1694]). \n* [Dubhaltach MacFhirbhisigh] (d.[1671]), Irish historian and genealogist.\n* [John Milton], English author and poet ([1608] - [1"
+    },
+    {
+      "word": "Vigintisexviri",
+      "encoded_start": 789536,
+      "encoded_end": 789551,
+      "final_bits": 63.97720718383789,
+      "neural_bits": 62.85920481273206,
+      "context": "sa] is reinstalled as king of [Osroene]\n*Senate passed a senatus consultum restricting the reduced [Vigintisexviri] to the Ordo Equester\n*[Tiberius] made his triumphant procession through [Rome] after siege of [Ger"
+    },
+    {
+      "word": "Furrukhsiyar",
+      "encoded_start": 1940530,
+      "encoded_end": 1940543,
+      "final_bits": 63.96857391111553,
+      "neural_bits": 61.81211978686042,
+      "context": "f Tungning], [Qing] occupied present day-[Kaohsiung] of [Taiwan] and unified [China].\n\n==Births==\n*[Furrukhsiyar], [Mughal] Emperor\n*[February 28] - [Ren\u00e9 Antoine Ferchault de R\u00e9aumur], French scientist (d.  [1"
+    },
+    {
+      "word": "Boromrajathira",
+      "encoded_start": 1572539,
+      "encoded_end": 1572554,
+      "final_bits": 62.83718130993657,
+      "neural_bits": 58.39777532755397,
+      "context": "England|Henry VIII].\n* [Istv\u00e1n B\u00e1thory|Stephen B\u00e1thory] becomes [governor] of [Transylvania].\n* [Boromrajathira IV] succeeds [Rama Thibodi II] as king of [Ayutthaya kingdom|Ayutthaya].\n* [Fluorine] is first desc"
+    },
+    {
+      "word": "Acamapichtli",
+      "encoded_start": 1325279,
+      "encoded_end": 1325292,
+      "final_bits": 61.43336409027688,
+      "neural_bits": 61.111766250338405,
+      "context": "rch 13] - [John Barbour], Scottish poet\n*[August 29] - Duke [Albert III of Austria] (born [1349])\n*[Acamapichtli], Aztec ruler of Tenochtitlan\n*[John I of Aragon] (born [1350])\n*Queen [Mary of Hungary]\n*[Prince M"
+    },
+    {
+      "word": "butoxyethanol",
+      "encoded_start": 477505,
+      "encoded_end": 477514,
+      "final_bits": 61.42046236991882,
+      "neural_bits": 65.32554055354558,
+      "context": "ut the year 409 C.E. See also [400 (number)#409|409 (number)]. For the cleaning product 409\u00ae, see [butoxyethanol].  For the area code, see [Area code 409].''\n\n{{| align=right cellpadding=3 id=toc style=\"margin-le"
+    },
+    {
+      "word": "Jasomirgott",
+      "encoded_start": 937217,
+      "encoded_end": 937229,
+      "final_bits": 61.23744869232178,
+      "neural_bits": 61.474711597315036,
+      "context": "[11th century] - '''[12th century]''' - [13th century]\n|}}\n\n==Events==\n* [Henry II of Austria|Henry Jasomirgott] was made count palatine of the [Rhine].\n* The town of [Lanark] in [Scotland] was made a [Royal Bur"
+    },
+    {
+      "word": "sunmyungmoon",
+      "encoded_start": 240,
+      "encoded_end": 252,
+      "final_bits": 60.8198401927948,
+      "neural_bits": 66.69682298608598,
+      "context": "cation Church] holy day of recent origin.\n\n==External links==\n*[[http://www.tparents.org/Moon-Talks/sunmyungmoon99/SM990909.htm True Parents' prayer at the Nine Nines Declaration]]\n\n{reli-stub}\n\n[Category:Unifica"
+    },
+    {
+      "word": "ShepherdByzempire",
+      "encoded_start": 1090188,
+      "encoded_end": 1090202,
+      "final_bits": 60.12847167253494,
+      "neural_bits": 61.61878848460037,
+      "context": "he [Reconquista].\n* The [Isle of Man] comes under [Scotland|Scottish] rule.\n\n====Culture====\n[Image:ShepherdByzempire1265.jpg|300px|thumb|right|A map of the [Byzantine Empire] and surrounding lands in 1265.]\n\n* The [B"
+    },
+    {
+      "word": "Myriokephalon",
+      "encoded_start": 964246,
+      "encoded_end": 964260,
+      "final_bits": 59.78098192438483,
+      "neural_bits": 59.665004090289585,
+      "context": "Agreement of Anagni)\n* [September 17] - [Seljuk Turks] defeat [Manuel I Comnenus] at the [Battle of Myriokephalon]\n* Construction begins on the [London Bridge]\n* Cathedral in [Sens] installs first \"[clock|horologe"
+    },
+    {
+      "word": "duumvirate",
+      "encoded_start": 95881,
+      "encoded_end": 95891,
+      "final_bits": 59.73967385292053,
+      "neural_bits": 61.465263954916736,
+      "context": "8th century] - '''[9th century]''' - [10th century]\n|}}\n\n==Events==\n*[Boris I Michael] succeeds the duumvirate of [Malamir] and [Presian] as monarch of [Bulgaria].\n\n==Births==\n\n==Deaths==\n*[Abd-ar-rahman II], r"
+    },
+    {
+      "word": "Katedralskolan",
+      "encoded_start": 920838,
+      "encoded_end": 920853,
+      "final_bits": 59.70258694887161,
+      "neural_bits": 60.929052283172496,
+      "context": " Church]\n*End of the [Heian Period] and beginning of the [Kamakura period] in [Japan].\n*Founding of Katedralskolan in [Lund], [Sweden]. The school is the oldest in northern Europe, and one of the oldest in Europe.\n"
+    },
+    {
+      "word": "Nezahualpilli",
+      "encoded_start": 1458347,
+      "encoded_end": 1458361,
+      "final_bits": 59.43584591872059,
+      "neural_bits": 59.5801481299568,
+      "context": "he throne of [Japan]\n\n==Births==\n*[November 19] - [Emperor Go-Kashiwabara of Japan] (died [1526])\n*[Nezahualpilli], Aztec ruler (died [1515])\n\n==Deaths==\n* [February 23] - [Zhengtong Emperor] of China (born [1427]"
+    },
+    {
+      "word": "Macrembolitissa",
+      "encoded_start": 818406,
+      "encoded_end": 818422,
+      "final_bits": 59.41939073801041,
+      "neural_bits": 60.35105139022926,
+      "context": "entury]''' - [12th century]\n|}}\n\n==Events==\n* On the death of her husband [Constantine X], [Eudocia Macrembolitissa] becomes regent of the [Byzantine Empire].\n* Work begins on the building of the [Tower of London].\n"
+    },
+    {
+      "word": "Geisslerlieder",
+      "encoded_start": 1105080,
+      "encoded_end": 1105095,
+      "final_bits": 59.048301577568054,
+      "neural_bits": 58.87028773268685,
+      "context": "[Song Dynasty] of [China].\n*Civil unrest in northern [Italy] spawns the [medieval music]al form of [Geisslerlieder], penitential songs sung by wandering bands of [Flagellant]s.\n\n\n\n\n\n\n\n==Births==\n* [Arghun], fourth "
+    },
+    {
+      "word": "Wippedfleet",
+      "encoded_start": 421603,
+      "encoded_end": 421615,
+      "final_bits": 58.89473430067301,
+      "neural_bits": 61.99225876672426,
+      "context": "[consul] in the [Eastern Roman Empire].\n*[Peter the Fuller] becomes [Patriarch of Antioch].\n* Near [Wippedfleet] [Hengist] and [Esc] slay twelve [Wales|Welsh] leaders, one of whom, [Wipped], gives his name to th"
+    },
+    {
+      "word": "Ghatotkacha",
+      "encoded_start": 498439,
+      "encoded_end": 498451,
+      "final_bits": 58.3372186422348,
+      "neural_bits": 55.21238007437205,
+      "context": "ntury] - '''[4th century]''' - [5th century]\n|}}\n\n==Events==\n* [Chandragupta I] succeeds his father Ghatotkacha as ruler of the [Gupta Empire]\n\n==Births==\n* [Saint Bassiano], first Bishop of [Lodi, Italy].\n\n==De"
+    },
+    {
+      "word": "Reinheitsgebot",
+      "encoded_start": 1557377,
+      "encoded_end": 1557392,
+      "final_bits": 57.47583657503128,
+      "neural_bits": 59.70841623097658,
+      "context": " - Peace between France and the Empire.\n* [Pedro de Solis] discovers the [R\u00edo de la Plata].\n* The [Reinheitsgebot] is instituted in [Bavaria] regulating the purity of [beer] permissible for sale.\n* The [Concordat "
+    },
+    {
+      "word": "Tlilcoatzin",
+      "encoded_start": 913548,
+      "encoded_end": 913560,
+      "final_bits": 57.165819708723575,
+      "neural_bits": 54.96808168408461,
+      "context": "e of [Edgar of England]\n* [Kuhi], Persian mathematician and astronomer\n* [Garcia IV of Pamplona]\n* [Tlilcoatzin], Toltec ruler (approximate date)\n\n==See also==\n*[Millenarianism]\n*[List of state leaders in 1000]\n"
+    },
+    {
+      "word": "Leijonhufvud",
+      "encoded_start": 1557616,
+      "encoded_end": 1557629,
+      "final_bits": 57.09880006313324,
+      "neural_bits": 61.517258691135794,
+      "context": "Testament].\n* [Thomas More] - ''[Utopia (Novel)|Utopia]''.\n\n== Births ==\n* [January 1] - [Margareta Leijonhufvud], queen of [Gustav I of Sweden] (died [1551])\n* [February 18] - Queen [Mary I of England] (died [15"
+    },
+    {
+      "word": "guldengroschen",
+      "encoded_start": 1476791,
+      "encoded_end": 1476805,
+      "final_bits": 56.69177204370499,
+      "neural_bits": 56.42235335148871,
+      "context": "es first [hussars]\n* Sigismund, Archduke of [Tyrol], issues [Europe]'s first large silver coin, the guldengroschen. This coin later becomes the [thaler].\n\n==Births==\n* [January 6] - [Martin Agricola], German compos"
+    },
+    {
+      "word": "Wawrzyniec",
+      "encoded_start": 1575345,
+      "encoded_end": 1575356,
+      "final_bits": 56.593555489555,
+      "neural_bits": 57.81397413578816,
+      "context": "nia (died [1581])\n* [Jean Bodin], French jurist (died [1596])\n* [Pey de Garros], Proven\u00e7al poet\n* [Wawrzyniec Grzymala Goslicki], Polish bishop, political thinker and philosopher (died [1607])\n* [Thomas Hoby],"
+    },
+    {
+      "word": "CodexManesseFol",
+      "encoded_start": 1082661,
+      "encoded_end": 1082677,
+      "final_bits": 56.16921016573906,
+      "neural_bits": 56.50706906442065,
+      "context": "''' - [14th century] <hr> [List of state leaders in 1268|1268 state leaders]\n|}}\n\n==Events==\n[Image:CodexManesseFol007rConradin.jpg|thumb|250px|Conradin (right) is executed by Charles I of Sicily, thus extinguishing"
+    },
+    {
+      "word": "Ramkhamhaeng",
+      "encoded_start": 1069494,
+      "encoded_end": 1069507,
+      "final_bits": 56.05005685426295,
+      "neural_bits": 53.10736924910452,
+      "context": "tates, specifically the [Mamluk] sultanate of [Egypt].\n*Kings [Mengrai] of the [Lanna] kingdom and [Ramkhamhaeng the Great] of the [Sukhothai kingdom] agree to a peace pact in their region of southeast [Asia] (pr"
+    },
+    {
+      "word": "Hierosolymitanae",
+      "encoded_start": 1041854,
+      "encoded_end": 1041871,
+      "final_bits": 56.03074008226395,
+      "neural_bits": 59.24052046390716,
+      "context": "ovence].\n* The castle of [Nassau, Germany|Nassau] is built.\n* [Albert of Aix] begins his ''Historia Hierosolymitanae expeditionis''.\n* [Magnus the Strong] becomes ruler of [Sweden].\n* [June 11] - The [Crusade]rs defe"
+    },
+    {
+      "word": "Mindowhowna",
+      "encoded_start": 1023849,
+      "encoded_end": 1023861,
+      "final_bits": 56.021479242364876,
+      "neural_bits": 54.944350550184026,
+      "context": "ed [1274])\n* [Theobald IV of Champagne] (died [1252])\n* [Ladislaus III of Hungary] (died [1205])\n* [Mindowhowna], Queen of Galicia (died [1264])\n* [Danylo King of Rus] (died [1264])\n* [Alix of Thouars], Duchess "
+    },
+    {
+      "word": "Prvovencani",
+      "encoded_start": 994956,
+      "encoded_end": 994968,
+      "final_bits": 55.746903866529465,
+      "neural_bits": 56.38153423543554,
+      "context": "[Madoc|Prince Madog of Gwynedd] reached [North America] in what is present-day [Alabama].\n* [Stefan Prvovencani] becomes Grand [\u017dupan] of [Serbia]\n* Creation of water boards in the region of present-day [Nether"
+    },
+    {
+      "word": "Uzurpatorul",
+      "encoded_start": 1412683,
+      "encoded_end": 1412695,
+      "final_bits": 55.67979276180267,
+      "neural_bits": 58.72513622243423,
+      "context": "f English Siege of [Rouen]\n*[Mircea the Old], ruler of [Wallachia] dies and is succeeded by [Vlad I Uzurpatorul].\n* The first [Portugal|Portuguese] settlers move to [Madeira Islands].\n\n==Births==\n* [January 6] -"
+    },
+    {
+      "word": "Wachtendonk",
+      "encoded_start": 1865542,
+      "encoded_end": 1865554,
+      "final_bits": 55.679625287652016,
+      "neural_bits": 57.26987448823638,
+      "context": "lth] in the [Battle of Kircholm]\n* [October 27] - [Spain|Spanish] troops of General Spinola occupy [Wachtendonk]\n* [November 5] - [Gunpowder Plot]: A plot by to blow up the English [Palace of Westminster|Houses "
+    },
+    {
+      "word": "Knipperdolling",
+      "encoded_start": 1613654,
+      "encoded_end": 1613669,
+      "final_bits": 55.63919395208359,
+      "neural_bits": 54.63538132421672,
+      "context": " - [Catherine of Aragon], queen of [Henry VIII of England] (born [1485])\n* [January 22] - [Bernhard Knipperdolling], German religious leader (born ca. [1495])\n* [February 25] - [Berthold Haller], German-born reform"
+    },
+    {
+      "word": "Udayadityavarman",
+      "encoded_start": 911370,
+      "encoded_end": 911387,
+      "final_bits": 55.61718847602606,
+      "neural_bits": 57.26940939552151,
+      "context": " time, with Constance Taillefer d'Arles.\n*[Khmer Empire|Khmer] king [Jayavarman V] is succeeded by [Udayadityavarman I] and/or [Suryavarman I].\n*[Otto III, Holy Roman Emperor] has [Charlemagne]'s vault opened (see [A"
+    },
+    {
+      "word": "Woddesbeorg",
+      "encoded_start": 328738,
+      "encoded_end": 328750,
+      "final_bits": 55.498923778533936,
+      "neural_bits": 57.96787159802625,
+      "context": "5th century] - '''[6th century]''' - [7th century]\n|}}\n\n'''Events'''\n* After the great slaughter at Woddesbeorg, [Ceawlin of Wessex|Ceawlin] is deposed as both king of [Wessex] and [Bretwalda].\n*[Iran|Persia]n u"
+    },
+    {
+      "word": "Ruprechtsberg",
+      "encoded_start": 858741,
+      "encoded_end": 858755,
+      "final_bits": 55.46370418148581,
+      "neural_bits": 56.515900917002,
+      "context": "[New Forest].\n*[Constance of Burgundy] founds a [monastery] in [Burgos].\n*Abbess [Hildegarde of St. Ruprechtsberg] makes the first surviving reference to the use of [hop (plant)|hops] in [brewing]. ''(or [1067]? -"
+    },
+    {
+      "word": "Augustodunensis",
+      "encoded_start": 933992,
+      "encoded_end": 934004,
+      "final_bits": 55.40967705845833,
+      "neural_bits": 55.863095779321156,
+      "context": ")\n* [Elvira of Castile], illegitimate daughter of [Alfonso VI of Castile] (born [1082])\n* [Honorius Augustodunensis], French theologian\n\n[Category:1151]\n\n    </revision>\n  </page>\n  <page>\n    <title>1149</title>\n  "
+    },
+    {
+      "word": "Tabinshwehti",
+      "encoded_start": 1630931,
+      "encoded_end": 1630944,
+      "final_bits": 55.39375313650817,
+      "neural_bits": 54.52968296920881,
+      "context": "o Beltr\u00e1n de Guzm\u00e1n], Spanish conquistador\n*[Jamsheed Quli Qutb Shah], second ruler of Golconda\n*[Tabinshwehti], King of Burma\n\n''See also [:Category: 1550 deaths].''\n\n[Category:1550]\n\n    </revision>\n  </page>"
+    },
+    {
+      "word": "Rathbreasail",
+      "encoded_start": 979041,
+      "encoded_end": 979054,
+      "final_bits": 55.268074214458466,
+      "neural_bits": 56.285051901475526,
+      "context": "</small> <br> [11th century] - '''[12th century]''' - [13th century]\n|}}\n==Events==\n* The [Synod of Rathbreasail] marked the transition of the Irish church from a monastic to a diocesan one\n* [Henry V, Holy Roman"
+    },
+    {
+      "word": "Reccaswinth",
+      "encoded_start": 232068,
+      "encoded_end": 232080,
+      "final_bits": 54.9822416305542,
+      "neural_bits": 55.96171393551049,
+      "context": "peror K\u014dbun], emperor of Japan\n*[Emperor Temmu] ascends to the throne of [Japan]\n*[Wamba] succeeds Reccaswinth as king of the [Visigoth]s.\n\n==Births==\n*[Bede], monk, writer and historian (approximate date)\n\n==D"
+    },
+    {
+      "word": "Sigbritsdatter",
+      "encoded_start": 1560039,
+      "encoded_end": 1560054,
+      "final_bits": 54.959335416555405,
+      "neural_bits": 55.570036123506725,
+      "context": "ca Pacioli], Italian mathematician (born [1445])\n* [Francesco Raibolini], Italian painter\n* [Dyveke Sigbritsdatter], mistress of [Christian II of Denmark]\n* [Gaspar van Weerbeke], Dutch composer (born [1445])\n* [Ba"
+    },
+    {
+      "word": "Kaveripakkam",
+      "encoded_start": 914775,
+      "encoded_end": 914788,
+      "final_bits": 54.9089480638504,
+      "neural_bits": 52.88745421532076,
+      "context": "ogini Goddess from Tamil Nadu.jpg|thumb|right|This statue of a [yoga|yogini] goddess was created in Kaveripakkam in [Tamil Nadu], [India], during the 10th century.]\n* The beginning of the [Medieval Warm Period]\n*"
+    },
+    {
+      "word": "Squarcialupi",
+      "encoded_start": 1414954,
+      "encoded_end": 1414967,
+      "final_bits": 54.87894353270531,
+      "neural_bits": 55.0246746444609,
+      "context": " The [Catholic Church] burns [Jerome of Prague] as a heretic.  \n\n==Births==\n* [March 27] - [Antonio Squarcialupi], Italian composer (died [1480])\n* [October 26] - [Edmund Grey, 1st Earl of Kent] (died [1490])\n* ["
+    },
+    {
+      "word": "Porphyrogenita",
+      "encoded_start": 923802,
+      "encoded_end": 923817,
+      "final_bits": 54.75345602631569,
+      "neural_bits": 62.08252933959011,
+      "context": "(born [1167])\n* [William Fitz Robert, 2nd Earl of Gloucester]\n* [Maria Comnena|Maria Comnena, the ''Porphyrogenita''], Byzantine princess, by poison (born [1149])\n* [Renier of Montferrat] (the Caesar John), Italian"
+    },
+    {
+      "word": "Narasimhagupta",
+      "encoded_start": 489437,
+      "encoded_end": 489452,
+      "final_bits": 54.63264547288418,
+      "neural_bits": 54.92391577165108,
+      "context": "by [Julius Nepos] to recapture [Italy], and has Julius killed; Odoacer also captured [Dalmatia].\n* [Narasimhagupta|Narasimhagupta Baladitya] succeeds his father Skandagupta as ruler of the [Gupta Empire]\n* [Oenopid"
+    },
+    {
+      "word": "Ngasaunggyan",
+      "encoded_start": 1195895,
+      "encoded_end": 1195908,
+      "final_bits": 54.5808140761219,
+      "neural_bits": 51.614557770546526,
+      "context": "yanmar|Pagan] empire begins to disintegrate after being defeated by [Kublai Khan] at the [Battle of Ngasaunggyan], at [Yunnan] near the [China|Chinese] border.\n*1277 - Leaders and some 50,000 citizens of the [Sou"
+    },
+    {
+      "word": "Panairjdde",
+      "encoded_start": 358599,
+      "encoded_end": 358610,
+      "final_bits": 54.3612579703331,
+      "neural_bits": 54.52319751383038,
+      "context": "l:Contributions/130.179.29.151|130.179.29.151] ([User talk:130.179.29.151|talk]) to last version by Panairjdde</comment>\n      <text xml:space=\"preserve\">{{| align=right cellpadding=3 id=toc style=\"margin-left:"
+    },
+    {
+      "word": "Guldensporenslag",
+      "encoded_start": 1280151,
+      "encoded_end": 1280168,
+      "final_bits": 54.206697165966034,
+      "neural_bits": 53.03259864845313,
+      "context": "* [June 12] - foundation of [Rakvere] town, [Estonia]\n* [July 11] - [Battle of the Golden Spurs] (''Guldensporenslag'' in [Dutch language|Dutch]), major victory of [Flanders] over the [France|French].\n* [September 24"
+    },
+    {
+      "word": "Kyanzittha",
+      "encoded_start": 842582,
+      "encoded_end": 842593,
+      "final_bits": 54.187179955653846,
+      "neural_bits": 53.21226459858008,
+      "context": "century]\n|}}\n\n'''Events'''\n*[Bruno of Cologne|Saint Bruno] founds the [Carthusian] Order of monks\n*[Kyanzittha] begins his reign in [Myanmar].\n*[Henry IV, Holy Roman Emperor] crowned [Emperor]\n*[Rome] is besieg"
+    },
+    {
+      "word": "Achtschellinck",
+      "encoded_start": 1908747,
+      "encoded_end": 1908762,
+      "final_bits": 53.985234051942825,
+      "neural_bits": 53.998570922296494,
+      "context": "later City) of [Salem, Massachusetts] is founded at [Naumkeag]\n\n== Births ==\n*[January 16] - [Lucas Achtschellinck], Flemish painter (d. [1699])\n*[February 5] - [Marie de Rabutin-Chantal, marquise de S\u00e9vign\u00e9], Fr"
+    },
+    {
+      "word": "Roimitalkes",
+      "encoded_start": 677310,
+      "encoded_end": 677322,
+      "final_bits": 53.67408068384975,
+      "neural_bits": 53.743287459074054,
+      "context": "n Empire|Roman] [Moesia].\n\n==Births==\n*[Plutarch], Greek historian (approximate date)\n\n==Deaths==\n*[Roimitalkes III] of the Thracian Kingdom of [Sapes] was murdered\n\n[Category:46]\n\n    </revision>\n  </page>\n  <p"
+    },
+    {
+      "word": "aristorcratic",
+      "encoded_start": 251826,
+      "encoded_end": 251839,
+      "final_bits": 53.63555157184601,
+      "neural_bits": 56.488232734263875,
+      "context": "uzong] as emperor of [China].\n* In [Silla] powerful regional hegemon [Jang Bogo] is assassinated by aristorcratic elements.\n\n== Births ==\n\n*[November 1] - [Louis the Stammerer], King of West-Francia (d. [879])\n*[D"
+    },
+    {
+      "word": "Amoghavajra",
+      "encoded_start": 205874,
+      "encoded_end": 205886,
+      "final_bits": 53.581704733893275,
+      "neural_bits": 51.58918111937237,
+      "context": "or of Japan (d. [824])\n*[Kukai] founder of [Shingon] [Buddhism] in [Japan] (d. [835])\n\n==Deaths==\n*[Amoghavajra], Chinese translator and Buddhist (b. [705])\n\n[Category:774]\n\n    </revision>\n  </page>\n  <page>\n  "
+    },
+    {
+      "word": "Druimnacour",
+      "encoded_start": 1404212,
+      "encoded_end": 1404224,
+      "final_bits": 53.41937340795994,
+      "neural_bits": 52.60754836874548,
+      "context": "ch] for the second time.\n*[Minrekyansa] becomes King of [Ava] (''ancient [Burma]'').\n* Conflict of [Druimnacour] in [Sutherland], [Scotland].\n* First [witch hunt]s begin, in [Switzerland].\n* [Celestines|Celestin"
+    },
+    {
+      "word": "Rhescuporis",
+      "encoded_start": 504154,
+      "encoded_end": 504166,
+      "final_bits": 53.297308068256825,
+      "neural_bits": 53.59846159617882,
+      "context": "ves].\n\n'''Births'''\n\n'''Deaths'''\n* [October 7] - [Pope Marcus]\n* [Arius], founder of [Arianism]\n* [Rhescuporis V], King of [Bosporus]\n\n[Category:336]\n\n    </revision>\n  </page>\n  <page>\n    <title>337</title>\n "
+    },
+    {
+      "word": "Nezahualcoyotl",
+      "encoded_start": 1465843,
+      "encoded_end": 1465858,
+      "final_bits": 53.21699496684596,
+      "neural_bits": 53.67265385854989,
+      "context": "ayne van Ghizeghem], Flemish composer\n*[Michelozzo], Italian architect and sculptor (born [1391])\n*[Nezahualcoyotl], Aztec poet\n*[Afanasiy Nikitin], Russian traveller\n*[Amadeus IX of Savoy] (born [1435])\n\n[Category"
+    },
+    {
+      "word": "Dnyaneshwar",
+      "encoded_start": 1154433,
+      "encoded_end": 1154445,
+      "final_bits": 53.14736299251672,
+      "neural_bits": 52.862829196616076,
+      "context": "proximate date; died [1311])\n* [Edward Bruce], Scottish nobleman (approximate date; died [1318])\n* [Dnyaneshwar], Hindu saint and poet (died [1296])\n* [Gediminas, Duke of Lithuania] (approximate date; died [1341"
+    },
+    {
+      "word": "Amhaoibh",
+      "encoded_start": 1140415,
+      "encoded_end": 1140424,
+      "final_bits": 53.10474407672882,
+      "neural_bits": 51.880945734563284,
+      "context": "ile], queen of [Alfonso II of Aragon] (born [1155])\n* [Philip of Poitou], Prince-Bishop of Durham\n* Amhaoibh [O'Rothlain], Chief of Calruidhe Cuile Cearnadha\n[Category:1208]\n\n    </revision>\n  </page>\n  <page"
+    },
+    {
+      "word": "Ysbrandtsz",
+      "encoded_start": 1726629,
+      "encoded_end": 1726640,
+      "final_bits": 52.94335603713989,
+      "neural_bits": 53.53186693950556,
+      "context": "dt], German composer (died [1653])\n* [Kaspar von Barth], German philologist (died [1658])\n* [Willem Ysbrandtsz Bontekoe], Dutch sea captain (died [1657])\n* [Nathaniel Field], English dramatist and actor (died ["
+    },
+    {
+      "word": "Parameshvara",
+      "encoded_start": 1283265,
+      "encoded_end": 1283278,
+      "final_bits": 52.89397873124108,
+      "neural_bits": 56.45631696784403,
+      "context": " of Sangamagrama], Indian mathematician (born [1350])\n*[Yi Jong Mu], Korean general (born [1360])\n*[Parameshvara], Indian mathematician (born [1360])\n*[Vasili I of Russia], Grand Prince of Moscow\n\n[Category:1425]"
+    },
+    {
+      "word": "Duibhghennain",
+      "encoded_start": 1955267,
+      "encoded_end": 1955281,
+      "final_bits": 52.373669028282166,
+      "neural_bits": 54.53335755318403,
+      "context": "ski, King of Poland] (b. [1629])\n*[December 4] - [Empress Meisho of Japan] (b. [1624])\n*[Daibhidh O Duibhghennain]\n\n[Category:1696]\n\n    </revision>\n  </page>\n  <page>\n    <title>1699</title>\n      <minor />\n     "
+    },
+    {
+      "word": "Boddhisattva",
+      "encoded_start": 332750,
+      "encoded_end": 332763,
+      "final_bits": 52.320722579956055,
+      "neural_bits": 58.11505762118031,
+      "context": "'''</small> <br> [5th century] - '''[6th century]''' - [7th century]\n|}}\n\n==Events==\n[Image:Chinese Boddhisattva statue.jpg|thumb|right|150px|This [limestone] statue of a [Boddhisattva] was probably created in th"
+    },
+    {
+      "word": "Ilhuicamina",
+      "encoded_start": 1395574,
+      "encoded_end": 1395586,
+      "final_bits": 52.24806934595108,
+      "neural_bits": 56.01412698463537,
+      "context": ".\n\n* [Itzc\u00f3atl], [Aztec] ruler of [Tenochtitlan] dies and is succeeded by [Moctezuma I], Moctezuma Ilhuicamina.\n* End of term for [List of Swedish monarchs | Regent of Sweden] [Charles VIII of Sweden | Karl Knu"
+    },
+    {
+      "word": "Gelawdewos",
+      "encoded_start": 1626604,
+      "encoded_end": 1626615,
+      "final_bits": 52.17381434421986,
+      "neural_bits": 53.58538834005594,
+      "context": "ism]\n*French translation of [John Calvin]'s ''L'Institution chr\u00e9tienne'' (originally in [Latin])\n*[Gelawdewos of Ethiopia|Gelawdewos] succeeds his father Lebna Dengel as Emperor of Ethiopia.\n*Antwerp is besieg"
+    },
+    {
+      "word": "Kshemgupta",
+      "encoded_start": 262703,
+      "encoded_end": 262714,
+      "final_bits": 52.15003711543977,
+      "neural_bits": 50.47679966632859,
+      "context": "Centuries]:'''</small> <br> [9th century] - '''[10th century]''' - [11th century]\n|}}\n\n==Events==\n*[Kshemgupta], King of [Kashmir] dies and is succeeded by his young son Abhimanyu. [Didda], [widow] of the forme"
+    },
+    {
+      "word": "apocatastasis",
+      "encoded_start": 418184,
+      "encoded_end": 418197,
+      "final_bits": 52.10891127586365,
+      "neural_bits": 53.80436775152339,
+      "context": "small> <br> [5th century] - '''[6th century]''' - [7th century]\n|}}\n\n'''Events'''\n*The doctrine of [apocatastasis] is condemned by the [Synod of Constantinople].\n\n'''Births'''\n*Saint [Columbanus]\n\n'''Deaths'''\n*Sa"
+    },
+    {
+      "word": "Aizkraukle",
+      "encoded_start": 1077701,
+      "encoded_end": 1077712,
+      "final_bits": 51.86331985797733,
+      "neural_bits": 52.33045732683968,
+      "context": " [March 5] - [Lithuania]n forces led by [Traidenis] defeat the [Teutonic Knights] in the [Battle of Aizkraukle].\n* The first of the [Statutes of Mortmain] are passed under king [Edward I of England], which prev"
+    },
+    {
+      "word": "seismoscope",
+      "encoded_start": 766661,
+      "encoded_end": 766672,
+      "final_bits": 51.85299253463745,
+      "neural_bits": 55.44255957601126,
+      "context": "lion.\n*The [Olympeion] in [Athens] is completed\n*Chinese scientist [Zhang Heng] invented the first [seismoscope] for measuring earthquakes\n*Change of era name from ''Yongjian'' (7th year) to ''Yangjia'' of the C"
+    },
+    {
+      "word": "chapultepec",
+      "encoded_start": 1248108,
+      "encoded_end": 1248119,
+      "final_bits": 51.84620380401611,
+      "neural_bits": 53.202660153387114,
+      "context": " [Royal Charter] of [Edward_I_of_England |King Edward I] of [England].\n*The [mexica|Mexica] settle [chapultepec|Chapultepec], a former [toltec|Toltec] stronghold.\n\n==Births==\n* [Alfonso IV of Aragon] (died [1366"
+    },
+    {
+      "word": "Lesmahagow",
+      "encoded_start": 1010383,
+      "encoded_end": 1010394,
+      "final_bits": 51.799870983697474,
+      "neural_bits": 52.26278375147376,
+      "context": "ity of Antioch|Prince of Antioch], under [Byzantine Empire|Byzantine] influence.\n* The [Priory] in [Lesmahagow] is founded by [Benedictine|Benedictine monks]\n\n==Births==\n* [Bohemund III of Antioch] (died [1201]"
+    },
+    {
+      "word": "Defenestrations",
+      "encoded_start": 1411514,
+      "encoded_end": 1411526,
+      "final_bits": 51.75161927193403,
+      "neural_bits": 51.84301325841807,
+      "context": "s to [Henry V of England] which brings [Normandy] under the control of [England].\n*[July 30] - 1st [Defenestrations of Prague|defenestration] of [Prague]\n*[September 10] - Assassination of Duke [John of Burgundy] by"
+    },
+    {
+      "word": "Bulgarophygon",
+      "encoded_start": 76500,
+      "encoded_end": 76514,
+      "final_bits": 51.71834662556648,
+      "neural_bits": 54.11956634631497,
+      "context": "vents==\n*The [Bulgaria]ns, under [Simeon I of Bulgaria|Simeon I], defeat the [Byzantine Empire] at [Bulgarophygon].\n*The Eastern [Franks] invade and conquer [Italy] under the leadership of [Arnulf of Carinthia].\n\n"
+    },
+    {
+      "word": "SmthManly",
+      "encoded_start": 185082,
+      "encoded_end": 185091,
+      "final_bits": 51.63703107833862,
+      "neural_bits": 50.645568597872625,
+      "context": "cial:Contributions/83.211.151.91|83.211.151.91] ([User talk:83.211.151.91|talk]) to last version by SmthManly</comment>\n      <text xml:space=\"preserve\">''This article is about the year 707. For the aircraft, "
+    },
+    {
+      "word": "Weihenstephan",
+      "encoded_start": 862988,
+      "encoded_end": 862998,
+      "final_bits": 51.61854545213282,
+      "neural_bits": 49.700122992740944,
+      "context": " and reclaims the [King of England|English Throne].\n*The oldest brewery still active is founded at [Weihenstephan].\n*[Seljuk Turks] defeat the [Ghaznavids] at the [Battle of Dandanaqan].\n\n==Births==\n*[February 22]"
+    },
+    {
+      "word": "Ercildoun",
+      "encoded_start": 1237496,
+      "encoded_end": 1237506,
+      "final_bits": 51.59521973133087,
+      "neural_bits": 51.14987829630263,
+      "context": "2])\n* [November 11] - [Alphonse of Toulouse], son of [Louis VIII of France] (died [1271])\n* [Thomas Ercildoun], Scottish minstrel (died [1297])\n* [Alexander Nevsky], Grand Prince of Novgorod and Vladimir\n* [Pr"
+    },
+    {
+      "word": "Bourgtheroulde",
+      "encoded_start": 1011053,
+      "encoded_end": 1011068,
+      "final_bits": 51.58077955245972,
+      "neural_bits": 51.33100157149602,
+      "context": " [13th century]\n|}}\n==Events==\n* [March 26] - [Henry I of England]'s forces defeat Norman rebels at Bourgtheroulde.\n* [April 27] - [David I of Scotland|David I] kills [Alexander I of Scotland|Alexander I] to become"
+    },
+    {
+      "word": "Cunincpert",
+      "encoded_start": 175627,
+      "encoded_end": 175638,
+      "final_bits": 51.29676114208996,
+      "neural_bits": 51.48518914685701,
+      "context": "==Births==\n*[Wasil ibn Ata] (d. [748])\n\n==Deaths==\n*[Di Renji], [Chancellor of China] (b. [630])\n\n*[Cunincpert], king of the Lombards\n\n[Category:700]\n\n    </revision>\n  </page>\n  <page>\n    <title>702</title>\n "
+    },
+    {
+      "word": "Kaohsiung",
+      "encoded_start": 1910969,
+      "encoded_end": 1910979,
+      "final_bits": 51.28309391066432,
+      "neural_bits": 54.419606290524825,
+      "context": " of [Ethiopia], arrives at [Massawa] from [Goa].\n* [The Netherlands] establish a trading colony at [Kaohsiung] on [Taiwan].\n* Thirty [Walloons|Walloon] families settle in the [New Netherland] colony.\n* [Oslo] "
+    },
+    {
+      "word": "Azcapotzalco",
+      "encoded_start": 1403370,
+      "encoded_end": 1403383,
+      "final_bits": 51.264474615454674,
+      "neural_bits": 52.306169596500695,
+      "context": "ngarian noblewoman\n* [Tommaso Masaccio], Italian painter (born [1401])\n* [Maxtla], Tepanec ruler of Azcapotzalco\n* [John Purvey], English theologian (born [1353])\n\n[Category:1428]\n\n    </revision>\n  </page>\n  <pa"
+    },
+    {
+      "word": "Opritchtina",
+      "encoded_start": 1749764,
+      "encoded_end": 1749776,
+      "final_bits": 51.149945095181465,
+      "neural_bits": 51.48670653114095,
+      "context": "uel], the first [Spain|Spanish] settlement in the [Philippines]\n* '''[Russia]''', beginning of the [Opritchtina]\n\n==Births==\n* [April 2] - [Cornelis de Houtman], Dutch explorer (died [1599])\n* [August 16] - [Chr"
+    },
+    {
+      "word": "Llyngesog",
+      "encoded_start": 368147,
+      "encoded_end": 368157,
+      "final_bits": 51.14535427093506,
+      "neural_bits": 52.24682986814878,
+      "context": "r> [5th century] - '''[6th century]''' - [7th century]\n|}}\n\n'''Births'''\n\n\n'''Deaths'''\n*[Gerren I] Llyngesog ab Erbin, King of [Dumnonia]. Succeeded by his son [Cado] ap Gerren. \n\n'''Events'''\n*[Clovis I] est"
+    },
+    {
+      "word": "Simplicissimus",
+      "encoded_start": 1964434,
+      "encoded_end": 1964449,
+      "final_bits": 51.041521191596985,
+      "neural_bits": 59.00107684964314,
+      "context": "Jan Swammerdam], groundbreaking work in [microscopy] as well as [entomology]\n* ''Der Abenteuerliche Simplicissimus Teutsch'' by [Hans von Grimmelshausen], the first major German [novel]\n* ''Tyrannic Love'' by [John"
+    },
+    {
+      "word": "souzerainty",
+      "encoded_start": 1084014,
+      "encoded_end": 1084025,
+      "final_bits": 51.013471722602844,
+      "neural_bits": 58.718245550990105,
+      "context": "ublai Khan] sends an emissary to the [Kamakura Shogunate] of [Japan] demanding an acknowledgment of souzerainty and payment of [tribute]; the Japanese refuse, starting a diplomatic back-and-forth lasting until t"
+    },
+    {
+      "word": "Spearthrower",
+      "encoded_start": 472945,
+      "encoded_end": 472954,
+      "final_bits": 50.97610525414348,
+      "neural_bits": 54.86261530529009,
+      "context": "tery of [Mar Saba] is founded nesr [Bethlehem], [Israel].\n\n'''Births'''\n\n'''Deaths'''\n* [9 June] - [Spearthrower Owl], emperor of [Teotihuacan]\n\n[Category:439]\n\n    </revision>\n  </page>\n  <page>\n    <title>436</"
+    },
+    {
+      "word": "Nagyszombat",
+      "encoded_start": 1825332,
+      "encoded_end": 1825344,
+      "final_bits": 50.96925623668358,
+      "neural_bits": 51.26826235558838,
+      "context": "Fran\u00e7aise] expanded nationally by [Cardinal Richelieu].\n* Colonization of [Connecticut] begins.\n* [Nagyszombat University] (predecessor of [Budapest University]) established.\n* The speed limit for the [Hackney "
+    },
+    {
+      "word": "Chimalpopoca",
+      "encoded_start": 1322471,
+      "encoded_end": 1322484,
+      "final_bits": 50.87665158964228,
+      "neural_bits": 48.91000468749553,
+      "context": "f Germany], [Holy Roman Emperor] (died [1439])\n* [November 15] - [Pope Nicholas V] (died [1455])\n* [Chimalpopoca], Aztec ruler of Tenochtitl\u00e1n (died [1427])\n* [Tlacaelel], Aztec nobleman (died [1487])\n* [Paolo d"
+    },
+    {
+      "word": "nchengladbach",
+      "encoded_start": 50585,
+      "encoded_end": 50598,
+      "final_bits": 50.66269097477198,
+      "neural_bits": 51.7824890954289,
+      "context": "] caliph of [Baghdad].\n* [Fuzhou] builds new [city wall]s.\n* An abbey is founded at the site of [M\u00f6nchengladbach].\n* [Carmathians] defeated in [Egypt] by [Jawhar as-Siqilli] - [Fatimid] rule consolidated there.\n\n"
+    },
+    {
+      "word": "Gottesgnaden",
+      "encoded_start": 939227,
+      "encoded_end": 939240,
+      "final_bits": 50.64304864406586,
+      "neural_bits": 50.34316946659237,
+      "context": "urg].\n*[Hermann III of Baden] marries Bertha of Lorraine.\n*[Evermode of Ratzeburg] becomes Abbot of Gottesgnaden.\n*[Ulrich I of Carinthia|Ulrich I] becomes [Carinthia (duchy)|Duke of Carinthia].\n*The [Humiliati] "
+    },
+    {
+      "word": "Visuddhimagga",
+      "encoded_start": 490981,
+      "encoded_end": 490995,
+      "final_bits": 50.638832196593285,
+      "neural_bits": 49.822088664222974,
+      "context": "[431] [432] [433] [434] [435] [436] [437] [438] [439] [440]\n----\nEvents:\n*[Buddhagosha] writes the [Visuddhimagga] in [Sri Lanka] (approximate date).\n*430 - [Peter the Iberian] founds a [Georgia (country)|Georgian"
+    },
+    {
+      "word": "Pornocracy",
+      "encoded_start": 10301,
+      "encoded_end": 10312,
+      "final_bits": 50.533807307481766,
+      "neural_bits": 54.6370730953804,
+      "context": "vents==\n* [January 29] - Accession of [Sergius III]; begins the era of the [The Rule of the Harlots|Pornocracy]\n* Destruction of [Chang'an], the capital of [Tang Dynasty] and the largest city in the ancient wor"
+    },
+    {
+      "word": "Cenkuttuvan",
+      "encoded_start": 776961,
+      "encoded_end": 776973,
+      "final_bits": 50.50546729564667,
+      "neural_bits": 47.47667927958537,
+      "context": "ugration of \"Pattini dheivam\" worship in Kannagi temple in Chera kingdom in South India, by Emperor Cenkuttuvan; the function attended by GajaBahu the king of Central Srilanka ([Mahavamso]).\n\n==Births==\n*\n\n==Dea"
+    },
+    {
+      "word": "Noigiallach",
+      "encoded_start": 381261,
+      "encoded_end": 381273,
+      "final_bits": 50.3517729640007,
+      "neural_bits": 50.86073788834619,
+      "context": " Jerome] hermit, cleric, [Bible] translator\n* [Pope Leo I]\n* [Saint Mesrob], Armenian monk\n* [Niall Noigiallach], founder of one of [Ireland]'s greatest dynasties. \n* [St. Patrick], completed the conversion to C"
+    },
+    {
+      "word": "Dervorguilla",
+      "encoded_start": 1158714,
+      "encoded_end": 1158727,
+      "final_bits": 50.31563718477264,
+      "neural_bits": 49.037648165249266,
+      "context": "* [Jean de Muris], French philosopher and mathematician (died [1351])\n\n==Deaths==\n* [January 28] - [Dervorguilla of Galloway]\n* [May 10] - Duke [Rudolph II of Austria] (born [1271])\n* [July 10] - [Ladislaus IV of"
+    },
+    {
+      "word": "Mookerheyde",
+      "encoded_start": 1795071,
+      "encoded_end": 1795083,
+      "final_bits": 50.28256705403328,
+      "neural_bits": 51.30881011206657,
+      "context": "uary 23] - The 5th [holy war] against the [Huguenot]s begins in [France].\n* [April 14] - [Battle of Mookerheyde]. [Spanish] forces under [Sancho de Avila] defeat the rebel forces of [Louis of Nassau]. [Louis] is"
+    },
+    {
+      "word": "Stuyvesant",
+      "encoded_start": 1747769,
+      "encoded_end": 1747780,
+      "final_bits": 50.150832552462816,
+      "neural_bits": 50.341254393337294,
+      "context": "Rinuccini], Roman Catholic Archbishop\n* [Wilhelm Schickard], German inventor (died [1635])\n* [Peter Stuyvesant], last Dutch Governor of New Netherlands (died [1672])\n* [Hong Taiji], Emperor of China (died [1643"
+    },
+    {
+      "word": "Mopsuestia",
+      "encoded_start": 434979,
+      "encoded_end": 434990,
+      "final_bits": 50.02031358797103,
+      "neural_bits": 51.50245858146809,
+      "context": "]\n<noinclude>\n'''Births'''\n\n'''Deaths'''\n* [Gunderic], king of [Vandals] and [Alans]\n* [Theodore of Mopsuestia], Christian theologian and bishop\n\n[Category:428]\n\n    </revision>\n  </page>\n  <page>\n    <title>42"
+    }
+  ]
+}

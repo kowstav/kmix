@@ -1,0 +1,175 @@
+{
+  "session": 355386999,
+  "utc": "2026-10-05T08:12:20.505832+00:00",
+  "active": "",
+  "gpu": "Tesla T4, 15360 MiB, 0 MiB\nTesla T4, 15360 MiB, 0 MiB\n",
+  "ephemeral_hp_exists": false,
+  "disk": {
+    "/kaggle/working": {
+      "total": 20957446144,
+      "used": 11550810112,
+      "free": 9389858816
+    },
+    "/root": {
+      "total": 8758385086464,
+      "used": 7609568534528,
+      "free": 1148799774720
+    }
+  },
+  "files": {
+    "lex_native_2m_recovered/results.json": [
+      {
+        "slice": "c",
+        "operation": "decode",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1230.7646619509999,
+        "user_seconds": 1222.537926,
+        "system_seconds": 7.533799,
+        "max_rss_kbytes": 6041196,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_full_slice_roundtrip": true,
+        "input_bytes": 2000000,
+        "decoded_sha256": "39b2ac6b5f9fbdacdb70778b5d9f5cd14e92d683b8b10688a8ab4e7031b20d9f",
+        "archive_sha256": "8d9de0b98bb6a891a7c9660122e0fa850776c62e0fc09c4f4932e0974e3c52a0",
+        "native_archive_bytes": 447061
+      },
+      {
+        "slice": "d",
+        "operation": "decode",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1230.7524832200002,
+        "user_seconds": 1220.698609,
+        "system_seconds": 7.319013,
+        "max_rss_kbytes": 6039588,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_full_slice_roundtrip": true,
+        "input_bytes": 2000000,
+        "decoded_sha256": "e540a24ded0810ba4fbe4647f267fae38651371d9574e05a7897ed92822e86db",
+        "archive_sha256": "420711a6b5793e4d1d9e9d502c79a9a86a308fbc885495b35288e4f66e6d4e99",
+        "native_archive_bytes": 439381
+      },
+      {
+        "slice": "a",
+        "operation": "compress",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1227.704676583,
+        "user_seconds": 1218.917592,
+        "system_seconds": 7.714067,
+        "max_rss_kbytes": 6041836,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_archive_bytes": 187401,
+        "ideal_bytes": 187363.08676118907,
+        "previous_archive_bytes": 187401,
+        "all_costs_bit_exact": true,
+        "changed_cost_symbols": 0,
+        "max_abs_cost_difference_bits": 0.0,
+        "ideal_cost_difference_bytes": 0.0,
+        "archive_sha256": "4776ebb76fe9bf25c7562cc3b4106793a9262e2d5d23d50361fbd4a8789ff190"
+      },
+      {
+        "slice": "b",
+        "operation": "compress",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1287.4502254550002,
+        "user_seconds": 1278.686766,
+        "system_seconds": 7.618168,
+        "max_rss_kbytes": 6043668,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_archive_bytes": 437079,
+        "ideal_bytes": 437041.14053667104,
+        "previous_archive_bytes": 437079,
+        "all_costs_bit_exact": true,
+        "changed_cost_symbols": 0,
+        "max_abs_cost_difference_bits": 0.0,
+        "ideal_cost_difference_bytes": 0.0,
+        "archive_sha256": "0646ea281d6717a42464463688ceb85c5d2150640c061ca04c49d24676b955b6"
+      },
+      {
+        "slice": "a",
+        "operation": "decode",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1463.5310452630001,
+        "user_seconds": 1450.431643,
+        "system_seconds": 9.834098000000001,
+        "max_rss_kbytes": 6040576,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_full_slice_roundtrip": true,
+        "input_bytes": 2000000,
+        "decoded_sha256": "e3cf8c63ac7bbc246587bd09729b89abf6bbebc718a1643013cfec57b1892292",
+        "archive_sha256": "4776ebb76fe9bf25c7562cc3b4106793a9262e2d5d23d50361fbd4a8789ff190",
+        "native_archive_bytes": 187401
+      },
+      {
+        "slice": "b",
+        "operation": "decode",
+        "returncode": 0,
+        "wall_seconds_wait_observed": 1561.9207499080003,
+        "user_seconds": 1549.593614,
+        "system_seconds": 9.328309,
+        "max_rss_kbytes": 6041820,
+        "measurement": "Linux wait4 per-process CPU/RSS; overlapping-job observed wall times are not exact completion durations",
+        "native_full_slice_roundtrip": true,
+        "input_bytes": 2000000,
+        "decoded_sha256": "c42695d3600f06a7525a5450a9cfa0044b52e7413344f75fcec28ed46c6781cd",
+        "archive_sha256": "0646ea281d6717a42464463688ceb85c5d2150640c061ca04c49d24676b955b6",
+        "native_archive_bytes": 437079
+      }
+    ],
+    "causal_latent_words_v2/summary.json": [
+      {
+        "slice": "b",
+        "saving_bytes_before_native_code_cost": -1.5616645393032138,
+        "wall_seconds": 493.5789034999998
+      },
+      {
+        "slice": "c",
+        "saving_bytes_before_native_code_cost": -2.462409111291397,
+        "wall_seconds": 560.6080353809998
+      },
+      {
+        "slice": "a",
+        "saving_bytes_before_native_code_cost": -2.496860704100838,
+        "wall_seconds": 421.22085232100017
+      },
+      {
+        "slice": "d",
+        "saving_bytes_before_native_code_cost": -2.4852505504549165,
+        "wall_seconds": 429.0325701749998
+      }
+    ],
+    "causal_latent_words_v3/summary.json": [
+      {
+        "slice": "b",
+        "saving_bytes_before_native_code_cost": -1.5392830410397043,
+        "wall_seconds": 356.84249596299924
+      },
+      {
+        "slice": "c",
+        "saving_bytes_before_native_code_cost": -2.4570439580991024,
+        "wall_seconds": 360.49494488300024
+      }
+    ],
+    "frozen_logits_pilot/results.json": {
+      "scope": "65536-symbol cold A-prefix neural diagnostic; full native probabilities and true float16 PPMD priors; not a full package, model optimum or20% claim",
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": [],
+      "models": [],
+      "native_control": {
+        "returncode": 1,
+        "user_seconds": 0.0023439999999999997,
+        "system_seconds": 0.0023439999999999997,
+        "max_rss_kbytes": 37020,
+        "wall_seconds": 0.0065173550001418334,
+        "binary_sha256": "515760d7a8aa99fa5ca130c3a85474c6c0334b8ddd158e42034e1cf5323885c3",
+        "weights_sha256": "00d79bec67769d636c951bd05130aaed89986a87cd16c95597492df31955cae7",
+        "input_sha256": "9fbddcfcb1973957b92e2d5d1fe3c0d3f59fa11d1fbcc788224b166a141b000d"
+      },
+      "failed": true,
+      "error": "Native probability/prior generation failed",
+      "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_frozen_logits_pilot_worker.py\", line 37, in <module>\n    save();assert p.returncode==0,'Native probability/prior generation failed'\n                  ^^^^^^^^^^^^^^^\nAssertionError: Native probability/prior generation failed\n"
+    }
+  },
+  "frozen_logits_pilot_v2_exists": false,
+  "idea_arch_screens_v1_exists": false
+}

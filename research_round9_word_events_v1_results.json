@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETE_CAUSAL_WHOLE_WORD_EVENTS",
+  "pid": 2192,
+  "started": 1791306569.5660164,
+  "scope": "exact completed-word events for six matched native cold slices",
+  "spending_usd": 0,
+  "deletions": [],
+  "scratch": "/root/hp_round9/word_events_v1",
+  "windows": [
+    {
+      "slice": "a",
+      "start": 0,
+      "end": 524288
+    },
+    {
+      "slice": "b",
+      "start": 102635191,
+      "end": 103159479
+    },
+    {
+      "slice": "c",
+      "start": 310000000,
+      "end": 310524288
+    },
+    {
+      "slice": "d",
+      "start": 520000000,
+      "end": 520524288
+    },
+    {
+      "slice": "e",
+      "start": 190000000,
+      "end": 190524288
+    },
+    {
+      "slice": "f",
+      "start": 430000000,
+      "end": 430524288
+    }
+  ],
+  "source_sha256": "8cb663bcba397291e3e6f5efd2d43f4cd88d11107967aea183f5dc14124a0069",
+  "stage": "complete-word event positions verified; causal feature builders may proceed",
+  "accounting": {
+    "wall_seconds": 2417.0906882050003,
+    "CPU_seconds": 2346.108326,
+    "peak_RSS_KiB": 21628,
+    "returncode": 0
+  },
+  "native_decode_comparison": {
+    "decoded_bytes_checked": 842822999,
+    "word_events": 122698089,
+    "native_byte_comparison": "PASS"
+  },
+  "finished": 1791308991.927701,
+  "event_counts": {
+    "a": 83713,
+    "b": 132506,
+    "c": 134662,
+    "d": 119202,
+    "e": 118148,
+    "f": 107035
+  },
+  "event_file_bytes": 26999851,
+  "event_file_sha256": "0c8a5ad7882f04c719fce0c4b00ae0a4b8b189141d31863f893828dd0c9b5a8d",
+  "input_features": "complete word strings and delimiter completion positions only; intext labels are unused by predictors"
+}

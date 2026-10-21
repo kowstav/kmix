@@ -1,0 +1,36 @@
+{
+  "mode": "neutral",
+  "region": 14,
+  "offset": 448000000,
+  "bytes": 3145728,
+  "CPU_lane": 3,
+  "worker_pid": 13,
+  "binary_sha256": "30b539b3ec2cd0a2adf51d3103f2643d113022cce2c7fb17b9828b6f61e10fda",
+  "status": "COMPLETE_INDEPENDENT_NATIVE_ARCHIVE",
+  "encode": {
+    "exit": 0,
+    "wall_seconds": 4334.229133733001,
+    "CPU_user_seconds": 4264.710335,
+    "CPU_system_seconds": 18.172227,
+    "peak_RSS_KiB": 6067468,
+    "stop": null
+  },
+  "decode": {
+    "exit": 0,
+    "wall_seconds": 4630.168738630999,
+    "CPU_user_seconds": 4547.385634,
+    "CPU_system_seconds": 29.754041,
+    "peak_RSS_KiB": 6065652,
+    "stop": null
+  },
+  "archive_bytes": 347855,
+  "archive_sha256": "9dc8422e9f1b653e5905e6d9a5c198d6231448ee83683879b2a4cabea74026d4",
+  "probabilities_sha256": "4b0c5c25f62b68d2adb7d24bc06554cf31fc23612d1772b37d7fe7872dfc4b15",
+  "input_sha256": "86d753bd93abae9a3ef907de3da37f0e3d1ad697d79ea23d7dbce98e284fe543",
+  "exact_independent_inverse": true,
+  "all_target_bits": 2782543.050025537,
+  "warm_target_bits": 770780.4293592232,
+  "warmup_bytes": 2097152,
+  "no_global_history_claim": true,
+  "production_build_qualification": false
+}

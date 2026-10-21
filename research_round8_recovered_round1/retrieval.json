@@ -1,0 +1,29 @@
+[
+  {
+    "name": "candidate_rank_frequency",
+    "input_bytes": 16384,
+    "archive_bytes": 8781,
+    "bpb": 4.28759765625,
+    "roundtrip": true,
+    "seconds": 0.6393070220947266,
+    "index": "decoder-built; no external dictionary"
+  },
+  {
+    "name": "candidate_rank_recent",
+    "input_bytes": 16384,
+    "archive_bytes": 8897,
+    "bpb": 4.34423828125,
+    "roundtrip": true,
+    "seconds": 0.37645626068115234,
+    "index": "decoder-built; no external dictionary"
+  },
+  {
+    "name": "candidate_rank_context",
+    "input_bytes": 16384,
+    "archive_bytes": 8700,
+    "bpb": 4.248046875,
+    "roundtrip": true,
+    "seconds": 0.4761989116668701,
+    "index": "decoder-built; no external dictionary"
+  }
+]

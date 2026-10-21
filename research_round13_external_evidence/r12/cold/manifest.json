@@ -1,0 +1,708 @@
+{
+ "id": "R12-cold-controls",
+ "status": "COMPLETE",
+ "started": 1791366889.537473,
+ "windows": [
+  [
+   "A",
+   4194304
+  ],
+  [
+   "A",
+   12582912
+  ],
+  [
+   "A",
+   25165824
+  ],
+  [
+   "A",
+   37748736
+  ],
+  [
+   "A",
+   50331648
+  ],
+  [
+   "A",
+   62914560
+  ],
+  [
+   "B",
+   312582912
+  ],
+  [
+   "B",
+   325165824
+  ],
+  [
+   "B",
+   337748736
+  ],
+  [
+   "B",
+   350331648
+  ],
+  [
+   "B",
+   362914560
+  ],
+  [
+   "H",
+   375000000
+  ]
+ ],
+ "deletions": [],
+ "paid_usd": 0,
+ "cases": [
+  {
+   "label": "cold_A_4194304",
+   "abs_offset": 4194304,
+   "bytes_requested": 524288,
+   "input_sha256": "e325188251e5bb338e1b5b92a368c9e7b1ac01d0e81f142693fd44e0ab889d82",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 245,
+   "consumer_pid": 244,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 510,
+    "bytes_encoded_approx": 512000,
+    "free_gb": 1148.0
+   },
+   "encode": {
+    "wall_seconds": 540.0371291250003,
+    "exit_code": 0,
+    "CPU_user_seconds": 500.597607,
+    "CPU_system_seconds": 16.46969,
+    "peak_RSS_KiB": 5997556
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 749023.857328,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 434.5,
+    "totals": {
+     "mixer_identity": 749023.857328,
+     "mixer_full_250": 748610.89379,
+     "mixer_full_1000": 749328.479824,
+     "mixer_full_4000": 753486.751546,
+     "mixer_full_1000_decodedclass": 749321.714331,
+     "mixer_no_explicit_nn_1000": 748748.399535,
+     "mixer_global_1000": 748321.134452,
+     "mixer_memory_zero_1000": 748732.980991,
+     "mixer_long_memory_1000": 748731.480993,
+     "adaptive_law_r9": 747731.126441,
+     "wider_frozen_a1": 748751.977142
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 749023.8572793661,
+   "baseline_minus_cost_bits": 4.863389767706394e-05,
+   "archive_bytes": 93665,
+   "archive_sha256": "7d0fe081b0553ede6646f0fe7bd42d191eb4db7607967a38306e96de919589ea"
+  },
+  {
+   "label": "cold_A_12582912",
+   "abs_offset": 12582912,
+   "bytes_requested": 524288,
+   "input_sha256": "60bbfae8b79d188f832e0d33d8cc736621e20de36ddf19fd8ae821dcd2e1e087",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 261,
+   "consumer_pid": 260,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 480,
+    "bytes_encoded_approx": 515072,
+    "free_gb": 1147.7
+   },
+   "encode": {
+    "wall_seconds": 510.0254606899998,
+    "exit_code": 0,
+    "CPU_user_seconds": 470.652902,
+    "CPU_system_seconds": 15.858266,
+    "peak_RSS_KiB": 6000860
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 854023.675013,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 410.8,
+    "totals": {
+     "mixer_identity": 854023.675013,
+     "mixer_full_250": 853790.055837,
+     "mixer_full_1000": 854691.047647,
+     "mixer_full_4000": 859330.172932,
+     "mixer_full_1000_decodedclass": 854696.676014,
+     "mixer_no_explicit_nn_1000": 854235.295704,
+     "mixer_global_1000": 853133.604216,
+     "mixer_memory_zero_1000": 853991.566079,
+     "mixer_long_memory_1000": 853998.008898,
+     "adaptive_law_r9": 852739.940505,
+     "wider_frozen_a1": 853278.547836
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 854023.6750010531,
+   "baseline_minus_cost_bits": 1.1946889571845531e-05,
+   "archive_bytes": 106790,
+   "archive_sha256": "b1aeb40f93023c6b05935a468bf6bc155ae16f50aa4d846420bafa5165e393ff"
+  },
+  {
+   "label": "cold_A_25165824",
+   "abs_offset": 25165824,
+   "bytes_requested": 524288,
+   "input_sha256": "d7197e6af7b8fbcb83e321879623834635c3659d683f1cdb876349fcf2c6877b",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 263,
+   "consumer_pid": 262,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 570,
+    "bytes_encoded_approx": 519168,
+    "free_gb": 1147.3
+   },
+   "encode": {
+    "wall_seconds": 600.0446869299994,
+    "exit_code": 0,
+    "CPU_user_seconds": 552.607587,
+    "CPU_system_seconds": 18.882717,
+    "peak_RSS_KiB": 6001192
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 831398.652042,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 491.0,
+    "totals": {
+     "mixer_identity": 831398.652042,
+     "mixer_full_250": 831196.330041,
+     "mixer_full_1000": 832109.722955,
+     "mixer_full_4000": 836862.299258,
+     "mixer_full_1000_decodedclass": 832099.512914,
+     "mixer_no_explicit_nn_1000": 831476.375591,
+     "mixer_global_1000": 830578.416506,
+     "mixer_memory_zero_1000": 831376.120143,
+     "mixer_long_memory_1000": 831378.423766,
+     "adaptive_law_r9": 830121.434696,
+     "wider_frozen_a1": 830804.210793
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 831398.6520858648,
+   "baseline_minus_cost_bits": -4.386482760310173e-05,
+   "archive_bytes": 103962,
+   "archive_sha256": "a718267ee0a315175ca3c732a709b20058589e7c804cfcb015613164df65d1eb"
+  },
+  {
+   "label": "cold_A_37748736",
+   "abs_offset": 37748736,
+   "bytes_requested": 524288,
+   "input_sha256": "0e244c0691a95052cae24dded0ff8bb6320db7667655aab1063fdbd4bfa67216",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 265,
+   "consumer_pid": 264,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 630,
+    "bytes_encoded_approx": 510976,
+    "free_gb": 1147.2
+   },
+   "encode": {
+    "wall_seconds": 660.0481794380003,
+    "exit_code": 0,
+    "CPU_user_seconds": 617.2844,
+    "CPU_system_seconds": 16.549362,
+    "peak_RSS_KiB": 6000660
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 881433.355258,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 561.4,
+    "totals": {
+     "mixer_identity": 881433.355258,
+     "mixer_full_250": 881189.409017,
+     "mixer_full_1000": 882086.474619,
+     "mixer_full_4000": 886757.704529,
+     "mixer_full_1000_decodedclass": 882102.796915,
+     "mixer_no_explicit_nn_1000": 881507.723289,
+     "mixer_global_1000": 880593.583872,
+     "mixer_memory_zero_1000": 881368.115924,
+     "mixer_long_memory_1000": 881377.529136,
+     "adaptive_law_r9": 880140.311053,
+     "wider_frozen_a1": 880851.861696
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 881433.3552071527,
+   "baseline_minus_cost_bits": 5.0847302190959454e-05,
+   "archive_bytes": 110217,
+   "archive_sha256": "bf9fd0547b79834b540a7f214e6d27836f410dd6d9072858b7b8ada6aa23a17b"
+  },
+  {
+   "label": "cold_A_50331648",
+   "abs_offset": 50331648,
+   "bytes_requested": 524288,
+   "input_sha256": "0378896a36b362f23ec925e3d1d6152f869b449c120e677bf7ff1e5be1f35861",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 279,
+   "consumer_pid": 278,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 540,
+    "bytes_encoded_approx": 521216,
+    "free_gb": 1146.9
+   },
+   "encode": {
+    "wall_seconds": 570.0358026140002,
+    "exit_code": 0,
+    "CPU_user_seconds": 526.416228,
+    "CPU_system_seconds": 14.927396,
+    "peak_RSS_KiB": 6002976
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 944473.466909,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 459.8,
+    "totals": {
+     "mixer_identity": 944473.466909,
+     "mixer_full_250": 944290.618053,
+     "mixer_full_1000": 945288.425266,
+     "mixer_full_4000": 950379.04429,
+     "mixer_full_1000_decodedclass": 945293.059014,
+     "mixer_no_explicit_nn_1000": 944598.282527,
+     "mixer_global_1000": 943716.828187,
+     "mixer_memory_zero_1000": 944499.16703,
+     "mixer_long_memory_1000": 944497.729904,
+     "adaptive_law_r9": 943144.440322,
+     "wider_frozen_a1": 943814.809634
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 944473.4668937933,
+   "baseline_minus_cost_bits": 1.5206634998321533e-05,
+   "archive_bytes": 118096,
+   "archive_sha256": "854de670f6234312a534c509d6592aa22c6155154d190e39f573936e7901d3c7"
+  },
+  {
+   "label": "cold_A_62914560",
+   "abs_offset": 62914560,
+   "bytes_requested": 524288,
+   "input_sha256": "c03ccf766d9001be95f6b3b45993db3ad6ec9b418fbe8ecf6d6b124b1a4d1329",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 293,
+   "consumer_pid": 292,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 510,
+    "bytes_encoded_approx": 522240,
+    "free_gb": 1146.9
+   },
+   "encode": {
+    "wall_seconds": 540.0354367079999,
+    "exit_code": 0,
+    "CPU_user_seconds": 496.059638,
+    "CPU_system_seconds": 14.617237,
+    "peak_RSS_KiB": 6002320
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 880860.832072,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 435.6,
+    "totals": {
+     "mixer_identity": 880860.832072,
+     "mixer_full_250": 880560.808125,
+     "mixer_full_1000": 881472.458993,
+     "mixer_full_4000": 886390.189831,
+     "mixer_full_1000_decodedclass": 881500.078654,
+     "mixer_no_explicit_nn_1000": 880804.791771,
+     "mixer_global_1000": 880141.788854,
+     "mixer_memory_zero_1000": 880716.405689,
+     "mixer_long_memory_1000": 880723.540025,
+     "adaptive_law_r9": 879616.258386,
+     "wider_frozen_a1": 880475.922655
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 880860.832126841,
+   "baseline_minus_cost_bits": -5.484092980623245e-05,
+   "archive_bytes": 110145,
+   "archive_sha256": "3b9b28ebe53361224e39cb370a29ffa7f49dd0a9d48ccefb0e22dd73299c22da"
+  },
+  {
+   "label": "cold_B_312582912",
+   "abs_offset": 312582912,
+   "bytes_requested": 524288,
+   "input_sha256": "ba9414770b84c0788b36bef20865a11236f202d12e9aaa25549222c4c1c047c0",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 296,
+   "consumer_pid": 295,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 510,
+    "bytes_encoded_approx": 502784,
+    "free_gb": 1146.6
+   },
+   "encode": {
+    "wall_seconds": 540.040960065,
+    "exit_code": 0,
+    "CPU_user_seconds": 511.936115,
+    "CPU_system_seconds": 14.684386,
+    "peak_RSS_KiB": 5996152
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 603146.170178,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 448.0,
+    "totals": {
+     "mixer_identity": 603146.170178,
+     "mixer_full_250": 602847.425918,
+     "mixer_full_1000": 603527.352808,
+     "mixer_full_4000": 607295.876237,
+     "mixer_full_1000_decodedclass": 603527.175887,
+     "mixer_no_explicit_nn_1000": 603240.506075,
+     "mixer_global_1000": 602436.040462,
+     "mixer_memory_zero_1000": 602975.92562,
+     "mixer_long_memory_1000": 602968.9456,
+     "adaptive_law_r9": 601861.416405,
+     "wider_frozen_a1": 602768.385322
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 603146.1701929993,
+   "baseline_minus_cost_bits": -1.4999299310147762e-05,
+   "archive_bytes": 75431,
+   "archive_sha256": "ce1c57165de0e122e77be4619502bc1eae180466d21cb6371f9a8482f43f7e1c"
+  },
+  {
+   "label": "cold_B_325165824",
+   "abs_offset": 325165824,
+   "bytes_requested": 524288,
+   "input_sha256": "b87605b9d4aa2dce4c1a2b409cf725177ab9cbf2d49340ebd4978d0a82cc64ac",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 298,
+   "consumer_pid": 297,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 540,
+    "bytes_encoded_approx": 523264,
+    "free_gb": 1146.5
+   },
+   "encode": {
+    "wall_seconds": 570.0537991350002,
+    "exit_code": 0,
+    "CPU_user_seconds": 523.74408,
+    "CPU_system_seconds": 15.411849,
+    "peak_RSS_KiB": 5996344
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 870701.721825,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 456.0,
+    "totals": {
+     "mixer_identity": 870701.721825,
+     "mixer_full_250": 870533.383652,
+     "mixer_full_1000": 871536.945549,
+     "mixer_full_4000": 876437.944249,
+     "mixer_full_1000_decodedclass": 871529.49794,
+     "mixer_no_explicit_nn_1000": 870871.776007,
+     "mixer_global_1000": 869805.528516,
+     "mixer_memory_zero_1000": 870777.556348,
+     "mixer_long_memory_1000": 870789.505705,
+     "adaptive_law_r9": 869346.200176,
+     "wider_frozen_a1": 869965.068027
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 870701.7218884584,
+   "baseline_minus_cost_bits": -6.345834117382765e-05,
+   "archive_bytes": 108875,
+   "archive_sha256": "d54a6a82ed54101c5d9941110b1d6612278b96feabb7b2738b7e4bd80bf9ead0"
+  },
+  {
+   "label": "cold_B_337748736",
+   "abs_offset": 337748736,
+   "bytes_requested": 524288,
+   "input_sha256": "83175d02c2472644b664d4d0c4336a2b629ba260cfa85398d4e6a3d1e0eb140c",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 300,
+   "consumer_pid": 299,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 510,
+    "bytes_encoded_approx": 504832,
+    "free_gb": 1146.3
+   },
+   "encode": {
+    "wall_seconds": 540.0476702380001,
+    "exit_code": 0,
+    "CPU_user_seconds": 506.467893,
+    "CPU_system_seconds": 17.397681,
+    "peak_RSS_KiB": 6000140
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 887875.394724,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 439.5,
+    "totals": {
+     "mixer_identity": 887875.394724,
+     "mixer_full_250": 887658.609296,
+     "mixer_full_1000": 888576.242937,
+     "mixer_full_4000": 893480.185566,
+     "mixer_full_1000_decodedclass": 888586.601798,
+     "mixer_no_explicit_nn_1000": 887954.069292,
+     "mixer_global_1000": 887045.871604,
+     "mixer_memory_zero_1000": 887846.928653,
+     "mixer_long_memory_1000": 887852.378487,
+     "adaptive_law_r9": 886551.395261,
+     "wider_frozen_a1": 887257.719423
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 887875.394754026,
+   "baseline_minus_cost_bits": -3.0025956220924854e-05,
+   "archive_bytes": 111022,
+   "archive_sha256": "4672fe32b3c2aabdcb52387b8fbe64d8e220f52e0c1780714598825f4688ed4d"
+  },
+  {
+   "label": "cold_B_350331648",
+   "abs_offset": 350331648,
+   "bytes_requested": 524288,
+   "input_sha256": "03517959446a428845b25a77b12465f82edd246ae437528052b9dec850b8030c",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 302,
+   "consumer_pid": 301,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 540,
+    "bytes_encoded_approx": 504832,
+    "free_gb": 1146.2
+   },
+   "encode": {
+    "wall_seconds": 570.0498288620001,
+    "exit_code": 0,
+    "CPU_user_seconds": 537.728293,
+    "CPU_system_seconds": 14.975815,
+    "peak_RSS_KiB": 6003076
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 904065.906716,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 479.0,
+    "totals": {
+     "mixer_identity": 904065.906716,
+     "mixer_full_250": 903828.055409,
+     "mixer_full_1000": 904784.152941,
+     "mixer_full_4000": 909769.908217,
+     "mixer_full_1000_decodedclass": 904782.681401,
+     "mixer_no_explicit_nn_1000": 904051.769572,
+     "mixer_global_1000": 903061.663261,
+     "mixer_memory_zero_1000": 904023.298016,
+     "mixer_long_memory_1000": 904027.564354,
+     "adaptive_law_r9": 902723.235402,
+     "wider_frozen_a1": 903258.217986
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 904065.9067933357,
+   "baseline_minus_cost_bits": -7.733562961220741e-05,
+   "archive_bytes": 113046,
+   "archive_sha256": "61fba1372abfc00b8a9ffb58116fce13b8ae20c9e7411a413c5b48c6d5234715"
+  },
+  {
+   "label": "cold_B_362914560",
+   "abs_offset": 362914560,
+   "bytes_requested": 524288,
+   "input_sha256": "34c366b8fa66896b2c3c8c4eaf48fb985f09b04db00462f01465710b71da2977",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 304,
+   "consumer_pid": 303,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 570,
+    "bytes_encoded_approx": 512000,
+    "free_gb": 1146.0
+   },
+   "encode": {
+    "wall_seconds": 600.0651540099998,
+    "exit_code": 0,
+    "CPU_user_seconds": 558.090808,
+    "CPU_system_seconds": 16.379587,
+    "peak_RSS_KiB": 6002272
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 844475.289986,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 497.2,
+    "totals": {
+     "mixer_identity": 844475.289986,
+     "mixer_full_250": 844276.289025,
+     "mixer_full_1000": 845154.756097,
+     "mixer_full_4000": 849920.18745,
+     "mixer_full_1000_decodedclass": 845169.306845,
+     "mixer_no_explicit_nn_1000": 844522.578054,
+     "mixer_global_1000": 843569.480536,
+     "mixer_memory_zero_1000": 844444.523949,
+     "mixer_long_memory_1000": 844448.529424,
+     "adaptive_law_r9": 843126.174059,
+     "wider_frozen_a1": 843638.741758
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 844475.2899554607,
+   "baseline_minus_cost_bits": 3.053934779018164e-05,
+   "archive_bytes": 105597,
+   "archive_sha256": "0ebc3e41b86ce57abbe0a319534c5fe20813ec5dd9b25f7f407419a1d6e0fbdf"
+  },
+  {
+   "label": "cold_H_375000000",
+   "abs_offset": 375000000,
+   "bytes_requested": 524288,
+   "input_sha256": "431c7330c59b40506be52b5319cb101831258b1d0982f6b89d6cc7e9197fa9d6",
+   "window_bytes": 524288,
+   "cpu_encoder": 3,
+   "cpu_consumer": 2,
+   "status": "COMPLETE",
+   "encoder_pid": 312,
+   "consumer_pid": 311,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 540,
+    "bytes_encoded_approx": 523264,
+    "free_gb": 1146.0
+   },
+   "encode": {
+    "wall_seconds": 570.0680122679996,
+    "exit_code": 0,
+    "CPU_user_seconds": 507.75998,
+    "CPU_system_seconds": 29.022336,
+    "peak_RSS_KiB": 5999400
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 897828.64133,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 447.0,
+    "totals": {
+     "mixer_identity": 897828.64133,
+     "mixer_full_250": 897636.55883,
+     "mixer_full_1000": 898602.283148,
+     "mixer_full_4000": 903392.745819,
+     "mixer_full_1000_decodedclass": 898604.741745,
+     "mixer_no_explicit_nn_1000": 897936.858661,
+     "mixer_global_1000": 896847.339107,
+     "mixer_memory_zero_1000": 897838.36638,
+     "mixer_long_memory_1000": 897846.082069,
+     "adaptive_law_r9": 896450.68002,
+     "wider_frozen_a1": 896892.99141
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 897828.6413420944,
+   "baseline_minus_cost_bits": -1.2094387784600258e-05,
+   "archive_bytes": 112266,
+   "archive_sha256": "cdb81592660461a084aa56d61596b773dac5d039159a0425879c68642d089024"
+  }
+ ],
+ "finished": 1791370850.2360606
+}

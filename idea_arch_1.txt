@@ -1,0 +1,789 @@
+Yes. There is a mathematically valid version of what you are proposing, but I would change one crucial part:
+
+**do not actually fill words in several Wordle-style passes and then transmit corrections.** Make the “passes” operate on **probability distributions**, with letter algebra, geometry, word order, and syntax acting as successive residual experts. Then the final arithmetic coder still codes the original WRT stream once.
+
+That distinction matters because your experiments already found two apparently contradictory facts:
+
+- letter-based grouping genuinely helped, and distributional grouping helped even more; adding letter-algebra embeddings gave another ~1.1–1.5% in those smaller models; hutter_context_miner_report
+- literal Wordle/any-order decoding lost badly, +21% to +130%, while geometry alone was essentially negligible. hutter_ideas_report
+
+So I think there is a stronger architecture hiding between those two results.
+
+## 1. The object we should predict is the *word event*
+
+Let
+
+\[
+w_t\in\mathcal D
+\]
+
+be the \(t\)-th decoded dictionary word and
+
+\[
+H_t=(x_1,\ldots,x_{i_t-1})
+\]
+
+be everything the decoder already knows before that word begins.
+
+The current system effectively predicts bytes. We instead construct a high-quality distribution
+
+\[
+P(w_t=w\mid H_t)
+\]
+
+over known words, while leaving punctuation, XML, spelling escapes, rare words, case information, etc. to the normal byte model.
+
+This directly attacks your largest observed residual category: roughly **37–40% of sampled final bits belong to words that were already known earlier, but are appearing for the first time in the current article**. Long-distance same-article repetitions account for only about 8–9%. research_round7_report
+
+That is exactly where “which familiar word belongs here?” matters.
+
+---
+
+# 2. Letter algebra should define relationships, not codes
+
+For each character \(c\), define a basis vector
+
+\[
+e_c\in\mathbb R^{|\Sigma|}
+\]
+
+and let a word be
+
+\[
+w=(c_1,c_2,\ldots,c_L).
+\]
+
+Instead of a single bag-of-letters vector, construct **positional algebraic moments**
+
+\[
+A_k(w)
+=
+\sum_{j=1}^{L}
+\psi_k\!\left(\frac{j}{L}\right)e_{c_j}.
+\]
+
+For example,
+
+\[
+\psi_0(u)=1,
+\]
+
+\[
+\psi_1(u)=u,
+\]
+
+\[
+\psi_2(u)=1-u,
+\]
+
+\[
+\psi_3(u)=u^2,
+\]
+
+\[
+\psi_4(u)=(1-u)^2.
+\]
+
+Then \(A_0\) is essentially the anagram/multiset representation, while higher moments preserve increasing amounts of order.
+
+So:
+
+\[
+A_0(\text{know})
+\]
+
+and
+
+\[
+A_0(\text{now})
+\]
+
+are strongly related because their letter multisets overlap heavily.
+
+But the positional terms distinguish them.
+
+Likewise:
+
+\[
+A(\text{know})\approx A(\text{now})\approx A(\text{no})
+\]
+
+in a *continuous relational space*, rather than forcing them into one discrete equivalence class.
+
+This is much better than saying “know and now share a code.”
+
+---
+
+## 3. Geometry becomes another basis
+
+Let
+
+\[
+g(c)\in\mathbb R^d
+\]
+
+be deterministic glyph features of character \(c\): strokes, curvature, width, holes, ascender/descender, horizontal/vertical mass, etc.
+
+Then define
+
+\[
+G_k(w)
+=
+\sum_{j=1}^{L}
+\psi_k\!\left(\frac{j}{L}\right)g(c_j).
+\]
+
+The full deterministic spelling representation becomes
+
+\[
+z_{\rm spell}(w)
+=
+[
+A_0(w),\ldots,A_K(w),
+G_0(w),\ldots,G_K(w),
+L
+].
+\]
+
+The important point is that the geometry is **not supposed to predict English by itself**. Your experiments already indicate that that signal is tiny alone.
+
+Instead, it permits **parameter sharing**.
+
+For example, relations learned for
+
+\[
+\text{know}\rightarrow\text{now}
+\]
+
+can partially generalize to other deletion/substitution relationships instead of requiring an independent parameter for every word pair.
+
+---
+
+# 4. We should also explicitly model edit relations
+
+For two words \(u,w\), define a differentiable edit energy.
+
+For an alignment \(\pi\),
+
+\[
+C(\pi;u,w)
+=
+\sum_{\text{substitutions }a\to b}
+C_s(a,b)
++
+n_{\rm del}C_d
++
+n_{\rm ins}C_i.
+\]
+
+Make substitution cost depend partly on glyph geometry:
+
+\[
+C_s(a,b)
+=
+\alpha\mathbf 1[a\neq b]
++
+\beta\|g(a)-g(b)\|_2^2.
+\]
+
+Instead of ordinary minimum edit distance, use the soft minimum
+
+\[
+D_\tau(u,w)
+=
+-\tau
+\log
+\sum_{\pi\in\mathcal A(u,w)}
+\exp
+\left(
+-\frac{C(\pi;u,w)}{\tau}
+\right).
+\]
+
+As
+
+\[
+\tau\rightarrow0,
+\]
+
+this approaches normal edit distance.
+
+Then define the algebraic relation kernel
+
+\[
+K_A(u,w)
+=
+\exp\left[-D_\tau(u,w)/T_A\right].
+\]
+
+So `know`, `now`, and `no` acquire high mutual relation scores without us claiming they are semantically identical.
+
+That distinction is essential.
+
+---
+
+# 5. Now comes the interesting part: **placement algebra**
+
+Suppose the previously decoded word events are
+
+\[
+w_1,w_2,\ldots,w_{t-1}.
+\]
+
+For each earlier word \(w_i\), its influence on candidate \(w\) should depend on the **direction and distance**
+
+\[
+d=t-i.
+\]
+
+Define a lexical placement field
+
+\[
+F_{\rm place}(w,H_t)
+=
+\sum_{i<t}
+\rho(t-i)
+\Psi(w_i,w,t-i,H_t).
+\]
+
+A naive \(\Psi(u,w,d)\) table would be enormous.
+
+Instead factor it.
+
+Let \(z(u)\) be the compact algebraic/semantic representation of \(u\). Define
+
+\[
+\Psi(u,w,d)
+=
+z(u)^\top M(d)z(w)
++
+\gamma^\top r(u,w),
+\]
+
+where \(r(u,w)\) contains the spelling/edit relationships above.
+
+The distance-dependent matrix is itself factorized:
+
+\[
+M(d)
+=
+\sum_{m=1}^{M}
+B_m(d)\,
+U_mV_m^\top.
+\]
+
+Here \(B_m(d)\) might be smooth distance bases such as
+
+\[
+e^{-d/\tau_m},
+\]
+
+localized windows,
+
+\[
+\exp\left[-\frac{(d-\mu_m)^2}{2\sigma_m^2}\right],
+\]
+
+or logarithmic distance bins.
+
+This allows the model to learn something like
+
+\[
+\Psi(\text{now},\text{know},2)\gg0
+\]
+
+if `now X know` genuinely occurs unusually often, while perhaps learning a different value for
+
+\[
+\Psi(\text{know},\text{now},1).
+\]
+
+So we don't hard-code your linguistic hypothesis.
+
+**The corpus decides whether it is true.**
+
+---
+
+# 6. “The” is actually a more important example
+
+Letter algebra isn't very informative for `the`.
+
+What predicts `the` is **syntactic position**.
+
+So maintain a tiny causal placement state
+
+\[
+s_t=f_\eta(
+w_{t-k:t-1},
+\text{punctuation},
+\text{article state},
+\text{case state}
+).
+\]
+
+This could be a very small transformer/recurrent model operating at the **word level**, not every WRT symbol.
+
+Then define
+
+\[
+F_{\rm slot}(w,H_t)
+=
+z(w)^\top W_s s_t.
+\]
+
+It can learn states corresponding approximately to:
+
+- determiner expected,
+- noun expected,
+- verb expected,
+- clause opening,
+- post-comma,
+- article-title relation,
+- parenthetical phrase,
+- numeric expression,
+
+without us needing to give those states linguistic names.
+
+For example, in a state where a determiner is strongly expected,
+
+\[
+F_{\rm slot}(\text{the},H_t)
+\]
+
+becomes large.
+
+This directly captures your observation that `"the"` cannot occur arbitrarily.
+
+---
+
+# 7. Combine the algebra and placement model
+
+Define a heuristic score
+
+\[
+S_H(w,H_t)
+=
+b_w
++
+F_{\rm place}
++
+F_{\rm slot}
++
+F_{\rm article}
++
+F_{\rm memory}.
+\]
+
+Then
+
+\[
+P_H(w\mid H_t)
+=
+\frac{\exp S_H(w,H_t)}
+{\sum_{v\in\mathcal D}\exp S_H(v,H_t)}.
+\]
+
+This is a **normalized probability distribution**.
+
+That normalization is what turns the intuition into an actual compressor.
+
+---
+
+# 8. Now implement your “transformer corrects the heuristic” idea—but in probability space
+
+This is where I think your idea becomes particularly strong.
+
+Don't have the heuristic output:
+
+> `now`
+
+and then let a transformer say:
+
+> wrong, replace it with `know`.
+
+Instead let the heuristic produce
+
+\[
+P_H(w\mid H_t).
+\]
+
+Then let a small residual transformer learn only the mistakes of that distribution.
+
+Define
+
+\[
+\Delta_\theta(w,H_t)
+\]
+
+as the transformer's correction logit.
+
+Then
+
+\[
+\boxed{
+P_\theta(w\mid H_t)
+=
+\frac{
+P_H(w\mid H_t)
+\exp[\Delta_\theta(w,H_t)]
+}{
+\sum_v
+P_H(v\mid H_t)
+\exp[\Delta_\theta(v,H_t)]
+}
+}
+\]
+
+This is the formulation I would investigate.
+
+It is literally:
+
+> heuristic first pass → neural correction pass
+
+but **without transmitting a guessed text**.
+
+The heuristic handles regular word-placement phenomena.
+
+The residual model spends its capacity only where those regularities fail.
+
+---
+
+# 9. Multiple small transformers become residual experts
+
+Your multiple-transformer idea can be written as
+
+\[
+P^{(0)}(w\mid H)=P_H(w\mid H)
+\]
+
+followed by
+
+\[
+P^{(m)}(w\mid H)
+=
+\frac{
+P^{(m-1)}(w\mid H)
+\exp[f_m(w,H)]
+}{
+Z_m(H)
+}.
+\]
+
+So
+
+\[
+\log P^{(M)}(w\mid H)
+=
+\log P_H(w\mid H)
++
+\sum_{m=1}^{M}f_m(w,H)
+-
+\log Z(H).
+\]
+
+One expert could specialize in local grammatical placement.
+
+Another could specialize in article/entity relationships.
+
+Another could specialize in spelling/algebraic relationships.
+
+Another could specialize in distant memory.
+
+But I would **share most weights** rather than literally storing several independent transformers, because Hutter counts the model twice.
+
+Round 7 already demonstrates how expensive a word-level representation can become: the proposed 44,515-word rank-16 int8 table alone would cost about 712 KB per copy and needs roughly 0.01943 bits/WRT-symbol just to break even. research_round7_report
+
+So the architecture should look more like
+
+\[
+\text{shared word state}
+\rightarrow
+\begin{cases}
+\text{placement head}\\
+\text{algebra head}\\
+\text{article head}\\
+\text{spelling head}
+\end{cases}
+\]
+
+than four independent transformers.
+
+---
+
+# 10. There is a useful theorem about the Wordle idea
+
+Suppose both sides deterministically generate a guess
+
+\[
+g=f(H).
+\]
+
+Then define some invertible residual transformation
+
+\[
+r=R_g(w).
+\]
+
+If we encode the residual with probability \(Q_R\), the effective probability assigned to \(w\) is simply
+
+\[
+Q(w\mid H)
+=
+Q_R(R_{f(H)}(w)\mid f(H),H).
+\]
+
+Therefore
+
+\[
+-\log_2Q_R(r\mid g,H)
+=
+-\log_2Q(w\mid H).
+\]
+
+So **guessing and correcting has no inherent information-theoretic advantage**.
+
+Its only possible advantage is that \(R_g(w)\) might be easier for a limited model to predict.
+
+That explains why the literal Wordle experiments could lose even though the underlying intuition was interesting.
+
+The better formulation is therefore to use the guesses as **features or logits**, not as a separately transmitted reconstruction.
+
+---
+
+# 11. Hard words really can be “left in the archive”
+
+But the decision cannot depend on secretly knowing that the next word is hard.
+
+Instead use a causal confidence gate
+
+\[
+\lambda(H_t)\in[0,1].
+\]
+
+Then
+
+\[
+P_{\rm mix}(w\mid H_t)
+=
+(1-\lambda(H_t))P_{\rm base}(w\mid H_t)
++
+\lambda(H_t)P_\theta(w\mid H_t).
+\]
+
+When the algebra/placement model is confident,
+
+\[
+\lambda\rightarrow1.
+\]
+
+When the context is unusual,
+
+\[
+\lambda\rightarrow0.
+\]
+
+Thus rare surnames, weird chemical terms, foreign words, etc. naturally fall back onto the current compressor.
+
+No explicit flag has to be transmitted because
+
+\[
+\lambda(H_t)
+\]
+
+is computable by the decoder.
+
+---
+
+# 12. We don't even need to change WRT
+
+This is a very important property.
+
+Let \(c(w)\) be the existing WRT code sequence for word \(w\).
+
+Suppose we've already decoded prefix \(a\) of that code.
+
+Then the induced probability of the next WRT byte \(b\) is
+
+\[
+\boxed{
+P(b\mid a,H)
+=
+\frac{
+\sum_{w:c(w)\text{ begins with }ab}
+P(w\mid H)
+}{
+\sum_{w:c(w)\text{ begins with }a}
+P(w\mid H)
+}
+}
+\]
+
+This is exactly the direction Round 7 arrived at. research_round7_report
+
+So:
+
+\[
+\text{word-level intelligence}
+\rightarrow
+\text{existing WRT bytes}
+\rightarrow
+\text{existing transformer/cmix}
+\]
+
+without changing the actual stream.
+
+That eliminates one of the biggest engineering risks.
+
+---
+
+# 13. And then we let cmix decide whether the new model deserves trust
+
+At the bit level, suppose the existing final coder predicts
+
+\[
+q_i=P(x_i=1\mid x_{<i})
+\]
+
+and our new word-placement expert predicts \(e_i\).
+
+Use a logistic residual mixer:
+
+\[
+\operatorname{logit}q_i'
+=
+\beta_0(c_i)
++
+\beta_B(c_i)\operatorname{logit}q_i
++
+\beta_E(c_i)\operatorname{logit}e_i.
+\]
+
+Hence
+
+\[
+q_i'
+=
+\sigma(
+\beta_0+
+\beta_B\operatorname{logit}q_i+
+\beta_E\operatorname{logit}e_i
+).
+\]
+
+The parameters can update *after* every decoded bit:
+
+\[
+\beta
+\leftarrow
+\beta-\eta(q_i'-x_i)v_i.
+\]
+
+Encoder and decoder therefore remain identical.
+
+And if our fancy model knows nothing useful,
+
+\[
+\beta_E\rightarrow0.
+\]
+
+That is exactly the protection we want.
+
+---
+
+# 14. The actual objective must be archive size, not accuracy
+
+The optimization target should be
+
+\[
+\boxed{
+J
+=
+L_{\rm payload}
++
+2R_{\rm weights}
++
+2R_{\rm executable}
++
+R_{\rm tables}
++
+R_{\rm other}
+}
+\]
+
+in bits.
+
+For a proposed new expert,
+
+\[
+\Delta S
+=
+\frac{
+L_{\rm payload,new}
+-
+L_{\rm payload,old}
+}{8}
++
+2\Delta B_{\rm weights}
++
+2\Delta B_{\rm exe}
++
+\Delta B_{\rm tables}.
+\]
+
+It wins only when
+
+\[
+\boxed{\Delta S<0}.
+\]
+
+Subject to
+
+\[
+T_{\rm decode}<T_{\max},
+\]
+
+\[
+M_{\rm peak}<10\text{ GB}.
+\]
+
+This is the equation that should kill ideas early.
+
+---
+
+## Why the 37–40% category makes this worth trying
+
+Very roughly, suppose that sampled 38% share generalized across the 93.77 MB payload.
+
+Then merely reducing that bucket by **1% relative** would correspond to roughly
+
+\[
+93.77\,\text{MB}\times0.38\times0.01
+\approx356\,\text{KB}.
+\]
+
+A 2% relative improvement would be around
+
+\[
+712\,\text{KB}.
+\]
+
+Those are only extrapolations—the slice attribution cannot be treated as a whole-file result—but they show why this particular target is interesting.
+
+You do **not** need to magically solve 40% of the archive.
+
+You need to make the current model slightly less surprised about an enormous number of ordinary word choices.
+
+And that's precisely where a placement model could matter.
+
+## The architecture I would build
+
+The rigorous experimental sequence should be:
+
+1. **Algebraic placement expert with essentially no neural parameters.** Build letter/edit/geometry relations plus causal directed word-distance statistics, induce WRT-byte probabilities, and measure directly against final-coder traces. This tells us whether the central hypothesis exists before paying for training.
+2. **Add a tiny word-slot state.** Predict where common words/classes belong using punctuation, nearby word classes, article age, and causal word history. Test `"the"`, `"of"`, `"and"`, `"was"`, `"is"`, etc. separately from rare words.
+3. **Add the residual neural correction model** only if stages 1–2 survive cmix. Train it on the residual logits rather than asking it to relearn the whole language.
+4. **Only then add semantic/article memory**, with empty/shuffled/exact-match controls, because the report already shows that naive memory gets absorbed by the existing stack.
+
+The part I would investigate first is actually not `know/now/no` specifically. I would derive the **directed placement kernels for the top few thousand high-cost words** and see whether a low-rank algebraic model can explain a meaningful fraction of those transition/gap distributions. If it can, we have evidence for a fundamentally different predictor rather than another weak context model.
+
+That is where I think the next mathematical work should start.

@@ -1,0 +1,90 @@
+{
+  "index": 5,
+  "role": "confirmation",
+  "first_page": 83677,
+  "page_count": 128,
+  "input_bytes": 528195,
+  "input_sha256": "74d937fdf2898066d66647e635012b049316920df08bdf35f86c6c9a7a2d6daf",
+  "conditional_pair_probes": 512,
+  "cases": [
+    {
+      "name": "original",
+      "PPMd_order": 8,
+      "archive_bytes": 69178,
+      "sha256": "754aed244c55d38fb06f45d531daaec9e5c53a97bb7bbd3b45188ce706f66fee",
+      "exact_inverse": true
+    },
+    {
+      "name": "reverse",
+      "PPMd_order": 8,
+      "archive_bytes": 69466,
+      "sha256": "660d42a96825697ca5630e2dd81fb6937141de4f63f892d6b6fce6181ad5ee5e",
+      "exact_inverse": true
+    },
+    {
+      "name": "random",
+      "PPMd_order": 8,
+      "archive_bytes": 69620,
+      "sha256": "ea632c3b1c6c8a3e4b7d69a93858a4c5ef22b447698c6d26720cdc3717f30307",
+      "exact_inverse": true
+    },
+    {
+      "name": "rare_word_graph",
+      "PPMd_order": 8,
+      "archive_bytes": 69599,
+      "sha256": "950be90a82b5401c23eda2d56ae37af845cc53a65182b6b252e415f0d54a4335",
+      "exact_inverse": true
+    },
+    {
+      "name": "conditional_ppmd_graph",
+      "PPMd_order": 8,
+      "archive_bytes": 69530,
+      "sha256": "3e053ed9a13d126f061e289ad1afd18944caf2a50165daaf70ed568a2293eddf",
+      "exact_inverse": true
+    },
+    {
+      "name": "original",
+      "PPMd_order": 16,
+      "archive_bytes": 65543,
+      "sha256": "194e03e064baf234f3ebcce7ec53b25da4eaa4de16fcb0b49507d03759dde676",
+      "exact_inverse": true
+    },
+    {
+      "name": "reverse",
+      "PPMd_order": 16,
+      "archive_bytes": 65795,
+      "sha256": "be8964d5eb042953ba7d62cb6d358089101393a659882af1aecac74344b13c0b",
+      "exact_inverse": true
+    },
+    {
+      "name": "random",
+      "PPMd_order": 16,
+      "archive_bytes": 65868,
+      "sha256": "f413fff7e503b1c6e0bb6e55572c4ac0fb96a667a9bc45d0ff797cb5209ccb43",
+      "exact_inverse": true
+    },
+    {
+      "name": "rare_word_graph",
+      "PPMd_order": 16,
+      "archive_bytes": 65899,
+      "sha256": "5c5b3ccbd3f72949f57841b781461ee496314fe5713edd0030a1852941dc2266",
+      "exact_inverse": true
+    },
+    {
+      "name": "conditional_ppmd_graph",
+      "PPMd_order": 16,
+      "archive_bytes": 65846,
+      "sha256": "4e40270bdf5ca5124e8c7597c39cada7e9b05a82634063edcde07376cc0bf556",
+      "exact_inverse": true
+    }
+  ],
+  "CPU_lane": 1,
+  "CPU_seconds": 8.167760999999999,
+  "wall_seconds": 8.82508188600002,
+  "peak_RSS_KiB_self": 66784,
+  "peak_RSS_KiB_codec_children": 66784,
+  "temporary_scratch_created_and_removed": {
+    "files_created_and_removed": 788,
+    "bytes_created_and_removed": 2977953
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 437041.140536671,
+  "unscored_prefix_bytes": 782,
+  "dictionary_atoms": 473860,
+  "contract": {
+    "activation": "prefix-only previous event category and article age, BEFORE first byte",
+    "sources": "completed dictionary atoms and prefix-recognized markers",
+    "coverage": "root dictionary choice plus charged literal/syntax/case/escape fallback",
+    "normalization": "prefix-free word tree; uniform/global/causal count distributions normalize; neutral carries other outcomes",
+    "measurement": "ideal final-coder likelihood only; code/runtime/RSS/full-history not priced",
+    "neural_retraining": false,
+    "families": "rank prior, prefix global counts,8/16 latent topics with article or128/256-token posterior TTL",
+    "latent_learning": "Completed prefix dictionary atoms only; integer4096 responsibility mass; no neural SGD or offline topic tables",
+    "all_root_choices_charged": true,
+    "baseline": "Actual lexical checkpoint native final-coder cold2M cost trace",
+    "memory": "Full-support word/topic counter arrays, derived hashes/rank priors; production subtree aggregates/code/runtime unmeasured"
+  },
+  "by_occurrence_class": {
+    "literal_syntax_or_case": {
+      "events": 1152690,
+      "baseline_bits": 1035744.1415959932,
+      "prequential_saving_bytes": -2.851631917610584
+    },
+    "first_in_slice": {
+      "events": 13041,
+      "baseline_bits": 179195.1035558398,
+      "prequential_saving_bytes": -0.35969494724690154
+    },
+    "article_repeat": {
+      "events": 289442,
+      "baseline_bits": 1028490.5429887986,
+      "prequential_saving_bytes": -0.6780571354540265
+    },
+    "known_first_in_article": {
+      "events": 171377,
+      "baseline_bits": 1246667.2245217576,
+      "prequential_saving_bytes": 2.3284568741498095
+    },
+    "literal_escape": {
+      "events": 1226,
+      "baseline_bits": 3344.970253171865,
+      "prequential_saving_bytes": -0.0007374131415067708
+    }
+  },
+  "score": {
+    "events": 1627776,
+    "baseline_suffix_bits": 3493441.982915561,
+    "prequential_saving_bytes": -1.5616645393032138,
+    "context_count": 20,
+    "model_count": 43,
+    "unpaid_best_model_per_event_oracle_bytes": 10410.414597979086,
+    "fixed_models": [
+      {
+        "family": "neutral",
+        "alpha": 0.0,
+        "saving_bytes": 0.0
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.001,
+        "saving_bytes": -193.63495151690472
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.003,
+        "saving_bytes": -648.289400032707
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.01,
+        "saving_bytes": -2376.539326931206
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.03,
+        "saving_bytes": -7672.704872019336
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.1,
+        "saving_bytes": -27928.048096533897
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.3,
+        "saving_bytes": -97671.77110485113
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.7,
+        "saving_bytes": -334755.8974694352
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.001,
+        "saving_bytes": -181.92719218158797
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.003,
+        "saving_bytes": -607.6534734700805
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.01,
+        "saving_bytes": -2229.3885462309763
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.03,
+        "saving_bytes": -7231.082069137458
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.1,
+        "saving_bytes": -26539.195687630454
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.3,
+        "saving_bytes": -93590.5589263458
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.7,
+        "saving_bytes": -321920.352742843
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.001,
+        "saving_bytes": -181.7727477626997
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.003,
+        "saving_bytes": -607.1584084061169
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.01,
+        "saving_bytes": -2228.1314240559996
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.03,
+        "saving_bytes": -7228.3911547215685
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.1,
+        "saving_bytes": -26532.727830857377
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.3,
+        "saving_bytes": -93574.91167899838
+      },
+      {
+        "family": "topic8_article",
+        "alpha": 0.7,
+        "saving_bytes": -321880.94156368275
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.001,
+        "saving_bytes": -181.77627254634828
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.003,
+        "saving_bytes": -607.1594434582385
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.01,
+        "saving_bytes": -2228.1003957944076
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.03,
+        "saving_bytes": -7228.258949158187
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.1,
+        "saving_bytes": -26532.282308991053
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.3,
+        "saving_bytes": -93573.65215554708
+      },
+      {
+        "family": "topic8_ttl128",
+        "alpha": 0.7,
+        "saving_bytes": -321877.28547426284
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.001,
+        "saving_bytes": -181.5617624129873
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.003,
+        "saving_bytes": -606.9218309264744
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.01,
+        "saving_bytes": -2227.9868449947476
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.03,
+        "saving_bytes": -7228.691657085
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.1,
+        "saving_bytes": -26534.714367851262
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.3,
+        "saving_bytes": -93581.46325505036
+      },
+      {
+        "family": "topic16_article",
+        "alpha": 0.7,
+        "saving_bytes": -321898.304945439
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.001,
+        "saving_bytes": -181.55586569866534
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.003,
+        "saving_bytes": -606.9004737806262
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.01,
+        "saving_bytes": -2227.925728466382
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.03,
+        "saving_bytes": -7228.556700611282
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.1,
+        "saving_bytes": -26534.40918751939
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.3,
+        "saving_bytes": -93580.75658818048
+      },
+      {
+        "family": "topic16_ttl256",
+        "alpha": 0.7,
+        "saving_bytes": -321896.3583395668
+      }
+    ]
+  },
+  "memory": {
+    "followers": {
+      "rows": 0,
+      "edges": 0
+    },
+    "associations": {
+      "rows": 0,
+      "edges": 0
+    },
+    "rows_max_per_graph": 4096,
+    "edges_max_per_graph": 262144
+  },
+  "probability_trace_sha256": "d7e853de8786d0d41148b02c1b75577d107c922f843dead032ef52e831dd6788",
+  "wall_seconds": 493.5789034999998,
+  "prototype_array_bytes": 34901296
+}

@@ -1,0 +1,85 @@
+{
+  "index": 14,
+  "role": "development",
+  "first_page": 220603,
+  "page_count": 128,
+  "input_bytes": 323812,
+  "input_sha256": "3d20534bb1547b78503d47f0565d721a38c9e7bd6a5a0114861f0d32857ab463",
+  "conditional_pair_probes": 512,
+  "cases": [
+    {
+      "name": "original",
+      "PPMd_order": 8,
+      "archive_bytes": 86531,
+      "sha256": "1366352ecd8d8c934f231e7d99b469b8d3b7a250dbb84b5afc3bb2b7493aaaac",
+      "exact_inverse": true
+    },
+    {
+      "name": "reverse",
+      "PPMd_order": 8,
+      "archive_bytes": 86670,
+      "sha256": "8f0c7d7850d36c5b0d4df6ca165bce95d3b26c9b3a4bf1acea145026dba50401",
+      "exact_inverse": true
+    },
+    {
+      "name": "random",
+      "PPMd_order": 8,
+      "archive_bytes": 86748,
+      "sha256": "1a43fb9da750c80a579290a27a26d84631b7240b9bf0a29e58e0ae873751bf18",
+      "exact_inverse": true
+    },
+    {
+      "name": "rare_word_graph",
+      "PPMd_order": 8,
+      "archive_bytes": 86620,
+      "sha256": "475c34e4a79ab430688891a16772c473818166a30609a3bab635bc252cf7cfb2",
+      "exact_inverse": true
+    },
+    {
+      "name": "conditional_ppmd_graph",
+      "PPMd_order": 8,
+      "archive_bytes": 86654,
+      "sha256": "5e8391efaf9351056a68f01311a0f6d8525b6d81c89a3cb30e2555ee7c759d2e",
+      "exact_inverse": true
+    },
+    {
+      "name": "original",
+      "PPMd_order": 16,
+      "archive_bytes": 85936,
+      "sha256": "4bf1745aad57f8c8506466605b0906989d05165eb6dfd5e7a338aa552ec9ec21",
+      "exact_inverse": true
+    },
+    {
+      "name": "reverse",
+      "PPMd_order": 16,
+      "archive_bytes": 86082,
+      "sha256": "5df9a8705e6a704e917fffbc5924b706cdd873077f2602d6246c2d16c7e10dcd",
+      "exact_inverse": true
+    },
+    {
+      "name": "random",
+      "PPMd_order": 16,
+      "archive_bytes": 86158,
+      "sha256": "05fd2b6504483282f5763871f7b344eb8f7ae050afe27e172d05645369ea5357",
+      "exact_inverse": true
+    },
+    {
+      "name": "rare_word_graph",
+      "PPMd_order": 16,
+      "archive_bytes": 86036,
+      "sha256": "89aa1e969bce7cba870905a1117565bca978f84dd0a47f0b08adcbeb73dfc49f",
+      "exact_inverse": true
+    },
+    {
+      "name": "conditional_ppmd_graph",
+      "PPMd_order": 16,
+      "archive_bytes": 86048,
+      "sha256": "ff5ac4a3ea7c703a6048cf8a83342d0be9e281991062c947481f4cacf31efee5",
+      "exact_inverse": true
+    }
+  ],
+  "CPU_lane": 1,
+  "CPU_seconds": 3.642229000000002,
+  "wall_seconds": 3.671340443999952,
+  "peak_RSS_KiB": 118996
+}

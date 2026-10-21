@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "scope": "4x2M original WRT and64M actual final integer bit probabilities; local trace reconstruction/hash controls, no new compression gain",
+  "checks": [
+    {
+      "slice": "a",
+      "status": "PASS",
+      "input_sha256": "e3cf8c63ac7bbc246587bd09729b89abf6bbebc718a1643013cfec57b1892292",
+      "trace_sha256": "06adf932e9b9cd7a99467185d06eda4070057d7c8be2e73a50e1f7522b680d39",
+      "native_archive_control_sha256": "4776ebb76fe9bf25c7562cc3b4106793a9262e2d5d23d50361fbd4a8789ff190",
+      "max_reconstructed_byte_bits_diff": 9.521505681675535e-07,
+      "native_integer_trace_bits": 1498904.6941305643,
+      "trace_bytes": 32000000,
+      "native_user_CPU_seconds": 1236.290682,
+      "native_peak_RSS_KiB": 6041996
+    },
+    {
+      "slice": "b",
+      "status": "PASS",
+      "input_sha256": "c42695d3600f06a7525a5450a9cfa0044b52e7413344f75fcec28ed46c6781cd",
+      "trace_sha256": "376ff55ef63dff0200e327332db3755beafca23463da69f27824e73d97ffc36d",
+      "native_archive_control_sha256": "0646ea281d6717a42464463688ceb85c5d2150640c061ca04c49d24676b955b6",
+      "max_reconstructed_byte_bits_diff": 9.477532820767465e-07,
+      "native_integer_trace_bits": 3496329.1244682963,
+      "trace_bytes": 32000000,
+      "native_user_CPU_seconds": 1312.89963,
+      "native_peak_RSS_KiB": 6043696
+    },
+    {
+      "slice": "c",
+      "status": "PASS",
+      "input_sha256": "39b2ac6b5f9fbdacdb70778b5d9f5cd14e92d683b8b10688a8ab4e7031b20d9f",
+      "trace_sha256": "dd0a0060fcc425f9c23613f2695ab8a3162dae31d4ba25339e0b1e58dbfb39ff",
+      "native_archive_control_sha256": "8d9de0b98bb6a891a7c9660122e0fa850776c62e0fc09c4f4932e0974e3c52a0",
+      "max_reconstructed_byte_bits_diff": 9.525983664104842e-07,
+      "native_integer_trace_bits": 3576191.4592139227,
+      "trace_bytes": 32000000,
+      "native_user_CPU_seconds": 1292.865214,
+      "native_peak_RSS_KiB": 6042960
+    },
+    {
+      "slice": "d",
+      "status": "PASS",
+      "input_sha256": "e540a24ded0810ba4fbe4647f267fae38651371d9574e05a7897ed92822e86db",
+      "trace_sha256": "4b2300205bfb21664f02f74f329083560e24bfb7b2e3cac7954fba0490597f1f",
+      "native_archive_control_sha256": "420711a6b5793e4d1d9e9d502c79a9a86a308fbc885495b35288e4f66e6d4e99",
+      "max_reconstructed_byte_bits_diff": 9.536627700867939e-07,
+      "native_integer_trace_bits": 3514746.507030867,
+      "trace_bytes": 32000000,
+      "native_user_CPU_seconds": 1313.030851,
+      "native_peak_RSS_KiB": 6041696
+    }
+  ],
+  "local_validation_wall_seconds": 1.687999999994645,
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.0.attention.forget_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.0.attention.forget_gate_projection.up.weight.scale"
+  ],
+  "label": "b110e2417c5b4f0d57aecff1",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 268
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 312
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 250
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 235
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 284
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 230
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 268
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 312
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 250
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 268
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 312
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 250
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 268
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 312
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 250
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 285
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 299
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 275
+    }
+  ],
+  "selected": [
+    230,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "361fc338242fcc1232b978335288cbb9e31e261ac798033d39a78bf1ea26914a",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.01312000000000206,
+  "wall_seconds": 0.025576407999977846
+}

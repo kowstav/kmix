@@ -1,0 +1,10 @@
+{
+  "status": "FAIL_PRESERVED_NO_REMOTE_COMMIT",
+  "pid": 834,
+  "started": 1791380058.166596,
+  "cases": [],
+  "deletions": [],
+  "error": "TimeoutExpired(['/root/hp_round13_native_preflight_v1/pinned/cmix', '-n', '--transformer', '/root/hp_round13_asset_v1/original.tfwc3', 'input.bin', 'archive.cmx'], 179.99995507600033)",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round13/native_preflight_worker.py\", line 24, in <module>\n    with (case/(action+'.log')).open('xb') as f:r=subprocess.run(args,cwd=case,env=runenv,stdout=f,stderr=subprocess.STDOUT,timeout=180)\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 550, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1209, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 2141, in _communicate\n    self.wait(timeout=self._remaining_time(endtime))\n  File \"/usr/lib/python3.12/subprocess.py\", line 1264, in wait\n    return self._wait(timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 2045, in _wait\n    raise TimeoutExpired(self.args, timeout)\nsubprocess.TimeoutExpired: Command '['/root/hp_round13_native_preflight_v1/pinned/cmix', '-n', '--transformer', '/root/hp_round13_asset_v1/original.tfwc3', 'input.bin', 'archive.cmx']' timed out after 179.99995507600033 seconds\n",
+  "finished": 1791380239.409689
+}

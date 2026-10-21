@@ -1,0 +1,27 @@
+{
+  "status": "FAIL",
+  "pid": 2540,
+  "started": 1791312096.7618134,
+  "scope": "six distributed native-aligned fragment datasets; actual selected5.897M core, genuine redacted-input and projected-Adam-update controls",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [],
+  "gpu": "Tesla T4",
+  "actual_core_import": {
+    "loaded_parameters": 199,
+    "parameter_count": 5897145,
+    "packed_source_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "imported_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+    "weight_laws": "learned15level codebooks on0.25grid plus8bit small tables; fixed native BF16 row scales, STE nearest native code levels",
+    "activation_laws": "dynamic per-token amax/127, static per-head QKV scales",
+    "state": "FLa parallel KDA and T4 sliding-window SDPA; native equivalence measured below, not presumed"
+  },
+  "projection_geometry": [],
+  "confirmation": [],
+  "setup_source_sha256": "c560622e89d1e198f7097c5d83943c9a6abfd5a6774cbcbce226972729cab6a2",
+  "worker_sha256": "b66de8db5c36786248a60d1ff3e5dae35d2be3f6e19ca267f88e81127ea8abc5",
+  "scratch": "/root/hp_round9/core_distributed_v1",
+  "native_likelihood_parity_resolved": false,
+  "error": "KeyError('slices')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round9/research_round9_distributed_core_training_worker.py\", line 33, in <module>\n    for row in ready['slices']:\n               ~~~~~^^^^^^^^^^\nKeyError: 'slices'\n"
+}

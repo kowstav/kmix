@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.output_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.8.attention.output_gate_projection.up.weight.scale"
+  ],
+  "label": "c8bcbc3a552aeeea98edf39b",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 235
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 284
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 230
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 274
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 267
+    }
+  ],
+  "selected": [
+    230,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "080271c89c9e158650a6efc3a0ef8a0791790606e3bd3b1209664bca9ec5b6dc",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.0072500000000018106,
+  "wall_seconds": 0.008378451999988101
+}

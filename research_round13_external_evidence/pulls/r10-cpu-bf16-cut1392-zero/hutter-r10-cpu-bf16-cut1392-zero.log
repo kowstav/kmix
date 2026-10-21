@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":1.811613419,"data":"all source/model/data hashes verified\n"}
+,{"stream_name":"stdout","time":1.81477472,"data":"baseline encode starting\n"}
+,{"stream_name":"stdout","time":1825.494926628,"data":"baseline_encode finished\n"}
+,{"stream_name":"stdout","time":1825.495378999,"data":"baseline separate decode starting\n"}
+,{"stream_name":"stdout","time":3641.51529202,"data":"baseline_decode finished\n"}
+,{"stream_name":"stdout","time":3645.324217846,"data":"baseline independent decode PASS\n"}
+,{"stream_name":"stdout","time":3645.32730235,"data":"candidate encode starting\n"}
+,{"stream_name":"stdout","time":5446.284074249,"data":"candidate_encode finished\n"}
+,{"stream_name":"stdout","time":5446.28457992,"data":"candidate separate decode starting\n"}
+,{"stream_name":"stdout","time":7192.252350598,"data":"candidate_decode finished\n"}
+,{"stream_name":"stdout","time":7196.073009238,"data":"candidate independent decode PASS\n"}
+,{"stream_name":"stdout","time":7196.073898592,"data":"finite CPU experiment complete; qualification scope recorded\n"}
+,{"stream_name":"stderr","time":7199.439358418,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":7199.439436847,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":7200.029795133,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":7200.029858328,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":7202.672213436,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":7204.238684718,"data":"[NbConvertApp] Writing 336525 bytes to __results__.html\n"}
+]

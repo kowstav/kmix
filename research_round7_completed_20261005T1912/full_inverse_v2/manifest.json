@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FULL_PREPROCESS_INVERSE",
+  "pid": 1174,
+  "utc": "2026-10-05T18:52:06.659684+00:00",
+  "scope": "original FX2 WRT/PHDA/article-order inverse, not entropy-coded full archive",
+  "paid_rental_usd": 0,
+  "child_pid": 1190,
+  "reconstructed_bytes": 1000000000,
+  "reconstructed_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+  "user_seconds": 245.599285,
+  "max_rss_kbytes": 1515868,
+  "deletions": {
+    "manual_project_deletions": [],
+    "generated_scratch_remove_calls": [],
+    "reason": "original inverse program removes its own intermediate files; originals and preserved evidence protected"
+  },
+  "finished": "2026-10-05T18:57:06.914676+00:00"
+}

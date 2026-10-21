@@ -1,0 +1,193 @@
+{
+  "status": "COMPLETE_NATIVE_BF16_QAT_MODEL_PRICE_AND_COMBINED_CM_CONFIRMATION",
+  "pid": 3020,
+  "started": 1791317890.4124048,
+  "spending_usd": 0,
+  "deletions": [],
+  "scratch": "/root/hp_round9/native_bf16_promotion_v1",
+  "exports": [
+    {
+      "name": "bf16_QAT_unweighted",
+      "arm": "bf16_raw_unweighted",
+      "seed": 7006,
+      "step": 384,
+      "checkpoint_sha256": "de44a86eb571a10de0ef48b62f9cebadec109f6ec5935114335e8551eef50802",
+      "packed_path": "/root/hp_round9/native_bf16_promotion_v1/bf16_QAT_unweighted.tfwc3",
+      "packed_bytes": 2978062,
+      "packed_sha256": "bf4c4335c951fd2b0c6faa726b2f2b6bce09a2fd1491968ca02982c19a623a59",
+      "native_tensor_sha256": "3c7838f6130bbc7ec76abc7da61e6227ed149b87d66817ec2a8a9ea835d716b9",
+      "model_delta_per_copy": 23,
+      "native_reader_identity": true
+    },
+    {
+      "name": "bf16_QAT_halfmask_matched",
+      "arm": "bf16_raw1392_half",
+      "seed": 7006,
+      "step": 384,
+      "checkpoint_sha256": "c33b042e0ebc0d043a35282710b3858f85adda49da58d633945e467623112801",
+      "packed_path": "/root/hp_round9/native_bf16_promotion_v1/bf16_QAT_halfmask_matched.tfwc3",
+      "packed_bytes": 2978058,
+      "packed_sha256": "b7dceb93cc562989f1608cb801aee89a5ef3acb3e79085f9da2b1eab0efd4223",
+      "native_tensor_sha256": "7f759fe96714aff5414384bba45841c8c924218faaf43f79d46b2b4dcade1233",
+      "model_delta_per_copy": 19,
+      "native_reader_identity": true
+    }
+  ],
+  "candidates": [
+    {
+      "name": "bf16_QAT_unweighted_b",
+      "archive_bytes": 16209,
+      "archive_sha256": "27d8b8fd8bfb54fb7d918e4ece74ee386382aebab1da714b831d67d34b6c07d5",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "699950d54963d5187868c88b631b3786bdcede1eec173ea0badcd844b214b2b8",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 87.62240117500187,
+        "CPU_seconds": 87.603686,
+        "peak_RSS_KiB": 5901996,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 87.93655969700194,
+        "CPU_seconds": 87.919047,
+        "peak_RSS_KiB": 5901660,
+        "returncode": 0
+      },
+      "packed_model_bytes": 2978062,
+      "slice": "b",
+      "arm": "bf16_raw_unweighted",
+      "seed": 7006,
+      "gain_vs_original_teacher_bytes": 68,
+      "model_delta_per_copy": 23
+    },
+    {
+      "name": "bf16_QAT_unweighted_e",
+      "archive_bytes": 15137,
+      "archive_sha256": "ee1f751b9505a0213df2ce86daf682eb12128b0e5cab3ca8447af6a1765f290e",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "c1ec02d38a4f3b018b1a2f892df7af271598199e9d83550486f5a59dd0ed2263",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 87.53692533499998,
+        "CPU_seconds": 87.517473,
+        "peak_RSS_KiB": 5904940,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.01271833100327,
+        "CPU_seconds": 88.99702900000001,
+        "peak_RSS_KiB": 5904776,
+        "returncode": 0
+      },
+      "packed_model_bytes": 2978062,
+      "slice": "e",
+      "arm": "bf16_raw_unweighted",
+      "seed": 7006,
+      "gain_vs_original_teacher_bytes": 49,
+      "model_delta_per_copy": 23
+    },
+    {
+      "name": "bf16_QAT_halfmask_matched_b",
+      "archive_bytes": 16207,
+      "archive_sha256": "00b9a5e342d543c1b06b210b6d06521d6774978233a7805666e5e34f6ea73006",
+      "input_sha256": "dac183142dbec72ddbe561273d9af233d6cb3db543eb0bc69d3dabd6726bec0e",
+      "neural_probability_sha256": "048f357316ad17b090c5bd0da7d4373bbd13ef6b3d36c94eb947693f691f3bc0",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 88.3763388909938,
+        "CPU_seconds": 88.357468,
+        "peak_RSS_KiB": 5901976,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.40169484599755,
+        "CPU_seconds": 89.38584999999999,
+        "peak_RSS_KiB": 5901524,
+        "returncode": 0
+      },
+      "packed_model_bytes": 2978058,
+      "slice": "b",
+      "arm": "bf16_raw1392_half",
+      "seed": 7006,
+      "gain_vs_original_teacher_bytes": 70,
+      "model_delta_per_copy": 19
+    },
+    {
+      "name": "bf16_QAT_halfmask_matched_e",
+      "archive_bytes": 15135,
+      "archive_sha256": "a7957ff6d289225e80be4d4deea161fb628ffe05dda058ecdf90a2a7700eccfa",
+      "input_sha256": "b9db7ff99749d964f88b3a1996753820d97b476ac0738ed847fd90e5c8e842b0",
+      "neural_probability_sha256": "342e5b108ee066a5d4be929b0ac0e7de042b2944913b02d07d3ce654f4125636",
+      "independent_decode_exact": true,
+      "encode_decode_neural_identity": true,
+      "encode_accounting": {
+        "wall_seconds": 90.30297127000085,
+        "CPU_seconds": 90.27061599999999,
+        "peak_RSS_KiB": 5904844,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 89.16358718099946,
+        "CPU_seconds": 89.145075,
+        "peak_RSS_KiB": 5904716,
+        "returncode": 0
+      },
+      "packed_model_bytes": 2978058,
+      "slice": "e",
+      "arm": "bf16_raw1392_half",
+      "seed": 7006,
+      "gain_vs_original_teacher_bytes": 51,
+      "model_delta_per_copy": 19
+    }
+  ],
+  "stage": "new distributed/selective candidates genuinely tested through final coder",
+  "selection_contract": "freeze using only C/D full original-symbol CE; no E/F value enters selection. All families already have previous E/F observations; no untouched confirmation claim.",
+  "frozen_candidates": [
+    {
+      "name": "bf16_QAT_unweighted",
+      "arm": "bf16_raw_unweighted",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 304.86564803999863,
+      "development": {
+        "all_bits_per_symbol": 0.5639548297020782,
+        "common_or_unlabelled_bits_per_symbol": 0.49555886019585066,
+        "rare_or_redacted_bits_per_symbol": 2.1522896285583917,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_bf16_qat_v1/bf16_raw_unweighted_seed7006_step384.pt",
+      "checkpoint_sha256": "de44a86eb571a10de0ef48b62f9cebadec109f6ec5935114335e8551eef50802"
+    },
+    {
+      "name": "bf16_QAT_halfmask_matched",
+      "arm": "bf16_raw1392_half",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 295.02706156899876,
+      "development": {
+        "all_bits_per_symbol": 0.5639245218440363,
+        "common_or_unlabelled_bits_per_symbol": 0.4952544627877378,
+        "rare_or_redacted_bits_per_symbol": 2.1586243748368465,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_bf16_qat_v1/bf16_raw1392_half_seed7006_step384.pt",
+      "checkpoint_sha256": "c33b042e0ebc0d043a35282710b3858f85adda49da58d633945e467623112801"
+    }
+  ],
+  "deployment_recipe": "all originally BF16 fields retain original storage type; actual rounded promoted FP32 tensor SHA required; pre-rounding shadow export separately preserved",
+  "finished": 1791319836.7430584,
+  "full_package_qualified": false
+}

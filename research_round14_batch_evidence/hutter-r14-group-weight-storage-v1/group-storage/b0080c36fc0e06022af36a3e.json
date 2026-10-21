@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.9.attention.query_convolution.weight",
+  "names": [
+    "blocks.9.attention.query_convolution.weight"
+  ],
+  "label": "b0080c36fc0e06022af36a3e",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1495
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1474
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1485
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1405
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1474
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1495
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1474
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1495
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1474
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1498
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1580
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1478
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1698
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1405,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "f03ac8a1bd7bea51c4ef7a369086fa9d16abd78ca7559a1204e7c5bfdbccac94",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.017313999999995902,
+  "wall_seconds": 0.01772006499999179
+}

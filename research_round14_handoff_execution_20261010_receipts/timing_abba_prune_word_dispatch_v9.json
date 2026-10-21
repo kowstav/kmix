@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_VERIFIED_PRIVATE_CPU_PUSH",
+  "arm": "prune_word",
+  "started": 1791589793.5834694,
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "push_exit": 0,
+  "job": {
+    "ref": "chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+    "folder": "hutter-r14-prune-word-timing-abba-v1",
+    "main_sha256": "78037d61809f81b618aa6aa66e4166536fb0fa3de4c4b7a2e2df91fc425b8ee0",
+    "workers": 4,
+    "arm": "prune_word",
+    "region_ids": [
+      8,
+      9
+    ],
+    "lane_tasks": [
+      [
+        8,
+        "AB"
+      ],
+      [
+        8,
+        "BA"
+      ],
+      [
+        9,
+        "AB"
+      ],
+      [
+        9,
+        "BA"
+      ]
+    ]
+  },
+  "verified_push": {
+    "actual_ref": "chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+    "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+    "version": 1
+  },
+  "finished": 1791589801.1308968
+}

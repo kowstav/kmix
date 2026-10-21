@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "pid": 1167,
+  "utc": "2026-10-05T18:51:25.049395+00:00",
+  "repair": "Reuse successful v1 build/wait4; preserve original baseline and restore lost executable mode on a hash-identical copy. Failed v1/v2 logs retained.",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "binary_sha256": "89e0d18855f5fdaf0f0bc0f60a56d0cdd8ac364c944bf05db9d547e485a1f600",
+  "binary_bytes": 497336,
+  "table_sha256": "65480e1569d6f40c93d4cb3f355661006c861ab2af54d2031ddeb963eb1b8578",
+  "error": "AssertionError(('e_decode', 1))",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_calibration_native_v3_worker.py\", line 23, in <module>\n    d=D/(n+'_decode');d.mkdir();(d/'.dict').symlink_to(R/'preserved/gen/.dict');runs['decode']=timed([str(b),'--transformer',str(weights),str(cand/'out.cmx'),'decoded.bin'],d,{**base,'LAB_ODDS':str(table)},n+'_decode');assert (d/'decoded.bin').read_bytes()==raw\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round7/research_round7_calibration_native_v3_worker.py\", line 8, in timed\n    start=time.monotonic();log=(D/(label+'.log')).open('x');p=subprocess.Popen(cmd,cwd=d,env=env,stdout=log,stderr=subprocess.STDOUT);_,status,u=os.wait4(p.pid,0);rc=os.waitstatus_to_exitcode(status);log.close();assert rc==0,(label,rc)\n                                                                                                                                                                                                                           ^^^^^\nAssertionError: ('e_decode', 1)\n"
+}

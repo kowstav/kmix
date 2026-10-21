@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE_LAB_BINARIES_AWAITING_PARITY_PREFLIGHT",
+  "pid": 685,
+  "started": 1791379725.0924244,
+  "deletions": [],
+  "original_tree": "/kaggle/working/hp_round8/native_stage_trace_v1/tree",
+  "builds": [
+    {
+      "mode": 0,
+      "bytes": 559120,
+      "sha256": "30b539b3ec2cd0a2adf51d3103f2643d113022cce2c7fb17b9828b6f61e10fda",
+      "build_wall_seconds": 63.05212092399597
+    },
+    {
+      "mode": 1,
+      "bytes": 732320,
+      "sha256": "46ec676b63b9fef5d04f54c686c5283e369b79b566fbb69317ab9145894f6f1a",
+      "build_wall_seconds": 56.79159903526306
+    },
+    {
+      "mode": 2,
+      "bytes": 732320,
+      "sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e",
+      "build_wall_seconds": 57.849934816360474
+    }
+  ],
+  "source_changes": [
+    "src/predictor.h",
+    "src/predictor.cpp",
+    "makefile",
+    "src/coder/encoder.cpp",
+    "src/coder/decoder.cpp"
+  ],
+  "flags": {
+    "common": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+    "transformer": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+    "head_modes": [
+      0,
+      1,
+      2
+    ]
+  },
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "finished": 1791379903.7927957,
+  "source_zip_sha256": "9a593b335861569a7c720df0e8e76d85715deb971588b003a714d181e2b42662"
+}

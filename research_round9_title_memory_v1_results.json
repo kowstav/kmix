@@ -1,0 +1,371 @@
+{
+  "status": "COMPLETE_CAUSAL_PERSISTENT_TITLE_COPY_REPLAY",
+  "pid": 2711,
+  "started": 1791312697.053333,
+  "spending_usd": 0,
+  "deletions": [],
+  "development": [
+    {
+      "slice": "c",
+      "law": "histogram",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_contexts": 505525
+      },
+      "features": {
+        "active_byte_contexts": 505525,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "c",
+      "law": "L1",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_contexts": 167740
+      },
+      "features": {
+        "active_byte_contexts": 167740,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "c",
+      "law": "L2",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_contexts": 36644
+      },
+      "features": {
+        "active_byte_contexts": 36644,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "c",
+      "law": "L4",
+      "alpha": 0.0007698286403926654,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.29266656111941597,
+        "Q16_sha256": "c3c30acb315965cd3a90d510802f8356ae14fe7cee57554ffecdc61e73b03c19",
+        "active_contexts": 7644
+      },
+      "features": {
+        "active_byte_contexts": 7644,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "c",
+      "law": "L8",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_contexts": 2293
+      },
+      "features": {
+        "active_byte_contexts": 2293,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "c",
+      "law": "longest",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_contexts": 167740
+      },
+      "features": {
+        "active_byte_contexts": 167740,
+        "completed_title_bytes": 1590,
+        "max_stored_title_bytes": 91
+      }
+    },
+    {
+      "slice": "d",
+      "law": "histogram",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_contexts": 510626
+      },
+      "features": {
+        "active_byte_contexts": 510626,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    },
+    {
+      "slice": "d",
+      "law": "L1",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_contexts": 188954
+      },
+      "features": {
+        "active_byte_contexts": 188954,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    },
+    {
+      "slice": "d",
+      "law": "L2",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_contexts": 34420
+      },
+      "features": {
+        "active_byte_contexts": 34420,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    },
+    {
+      "slice": "d",
+      "law": "L4",
+      "alpha": 0.0007698286403926654,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.2658807399694125,
+        "Q16_sha256": "b2f0468db867b17067caf40263ffec90faa94be85fef5a1f17177760abac903c",
+        "active_contexts": 7399
+      },
+      "features": {
+        "active_byte_contexts": 7399,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    },
+    {
+      "slice": "d",
+      "law": "L8",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_contexts": 3652
+      },
+      "features": {
+        "active_byte_contexts": 3652,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    },
+    {
+      "slice": "d",
+      "law": "longest",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_contexts": 188954
+      },
+      "features": {
+        "active_byte_contexts": 188954,
+        "completed_title_bytes": 6478,
+        "max_stored_title_bytes": 36
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "e",
+      "law": "histogram",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "851a74ed4f0244c5610c024a2427c8fbb896ec6ddb4cb2866848359096d36c1c",
+        "active_contexts": 520498
+      },
+      "features": {
+        "active_byte_contexts": 520498,
+        "completed_title_bytes": 1164,
+        "max_stored_title_bytes": 23
+      }
+    },
+    {
+      "slice": "e",
+      "law": "L1",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "851a74ed4f0244c5610c024a2427c8fbb896ec6ddb4cb2866848359096d36c1c",
+        "active_contexts": 170301
+      },
+      "features": {
+        "active_byte_contexts": 170301,
+        "completed_title_bytes": 1164,
+        "max_stored_title_bytes": 23
+      }
+    },
+    {
+      "slice": "f",
+      "law": "histogram",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "60c2ca31bb9e53acdd7ad768fb666f4a6959c79d0d9d084dfd5557c323ebdbe3",
+        "active_contexts": 507916
+      },
+      "features": {
+        "active_byte_contexts": 507916,
+        "completed_title_bytes": 940,
+        "max_stored_title_bytes": 27
+      }
+    },
+    {
+      "slice": "f",
+      "law": "L1",
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "60c2ca31bb9e53acdd7ad768fb666f4a6959c79d0d9d084dfd5557c323ebdbe3",
+        "active_contexts": 161341
+      },
+      "features": {
+        "active_byte_contexts": 161341,
+        "completed_title_bytes": 940,
+        "max_stored_title_bytes": 27
+      }
+    }
+  ],
+  "scope": "causal persistent title substring-copy laws; only native integer baseline/source history and already observed title bytes",
+  "contract": {
+    "laws": [
+      "histogram",
+      "L1",
+      "L2",
+      "L4",
+      "L8",
+      "longest"
+    ],
+    "alpha": "one convex MLE coefficient/law,0<=alpha<=.5,fit all eligible A/B bit contexts; state/mixture never sees future labels",
+    "normalization": "observed-title next-byte counts plus.001Dirichlet smoothing over256bytes; conditionalize on already-known current bit prefix",
+    "lifetime": "until next completed title-open tag or page-end; max4096stored title bytes; no1024byte TTL truncation",
+    "decode": "production full semantic framing/native parser and eligible memory/time still required; literal tag collisions possible outside known semantic WRT mode",
+    "price": "one8B coefficient per copy plus selected rule code; native executable/memory cost unmeasured; coefficients alone are not the full price",
+    "data": "ABfit; CDselection; EFfit-held-out confirmation, previously viewed by other families"
+  },
+  "worker_sha256": "d0564b2ae6b4d1997430fc5811bff6e1d5a5b90941ad18a633ea60ad9a1eb2d7",
+  "nonzero_future_prefix_and_zero_identity": "PASS",
+  "stage": "title copy descendant replay complete",
+  "development_feature_counts": [
+    {
+      "slice": "a",
+      "law": "histogram",
+      "active_byte_contexts": 507309,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "a",
+      "law": "L1",
+      "active_byte_contexts": 25351,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "a",
+      "law": "L2",
+      "active_byte_contexts": 7273,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "a",
+      "law": "L4",
+      "active_byte_contexts": 43,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "a",
+      "law": "L8",
+      "active_byte_contexts": 11,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "a",
+      "law": "longest",
+      "active_byte_contexts": 25351,
+      "completed_title_bytes": 2189,
+      "max_stored_title_bytes": 14
+    },
+    {
+      "slice": "b",
+      "law": "histogram",
+      "active_byte_contexts": 514806,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    },
+    {
+      "slice": "b",
+      "law": "L1",
+      "active_byte_contexts": 142529,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    },
+    {
+      "slice": "b",
+      "law": "L2",
+      "active_byte_contexts": 18542,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    },
+    {
+      "slice": "b",
+      "law": "L4",
+      "active_byte_contexts": 6113,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    },
+    {
+      "slice": "b",
+      "law": "L8",
+      "active_byte_contexts": 1304,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    },
+    {
+      "slice": "b",
+      "law": "longest",
+      "active_byte_contexts": 142529,
+      "completed_title_bytes": 2169,
+      "max_stored_title_bytes": 25
+    }
+  ],
+  "frozen_coefficients_before_CD": {
+    "histogram": 0.0,
+    "L1": 0.0,
+    "L2": 0.0,
+    "L4": 0.0007698286403926654,
+    "L8": 0.0,
+    "longest": 0.0
+  },
+  "frozen_finalists_before_EF": [
+    "histogram",
+    "L1"
+  ],
+  "finished": 1791312796.5709856,
+  "native_or_full_package_qualified": false
+}

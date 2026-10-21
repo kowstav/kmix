@@ -1,0 +1,4 @@
+import inspect
+from kaggle.api.kaggle_api_extended import KaggleApi
+from kaggle.api.kaggle_api_extended import ApiListKernelSessionOutputRequest
+print(inspect.getsource(ApiListKernelSessionOutputRequest))

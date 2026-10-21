@@ -1,0 +1,78 @@
+{
+  "scope": "Exact integer-defined exhaustive dictionary graph, research construction; not achieved compression or qualifying CPU startup",
+  "dictionary_words": 44515,
+  "dictionary_sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a",
+  "Q": 1024,
+  "K": 8,
+  "blocks": 256,
+  "integer_score_upper_bound": 10485760,
+  "FP32_exact_integer_bound": 16777216,
+  "CPU_GPU_all_scores_equal_on_queries": 133,
+  "CPU_subset_score_seconds": 0.08383450700011963,
+  "mean_recall_at8_vs_original_float_score": 0.9924812030075187,
+  "full_recall_queries_vs_float_score": 125,
+  "examples": {
+    "no": [
+      "noon",
+      "mono",
+      "monsoon",
+      "pontoon",
+      "crono",
+      "anno",
+      "soon",
+      "moon"
+    ],
+    "know": [
+      "now",
+      "kernow",
+      "known",
+      "snow",
+      "brownlow",
+      "downtown",
+      "yorktown",
+      "showdown"
+    ],
+    "now": [
+      "know",
+      "snow",
+      "brownlow",
+      "window",
+      "downtown",
+      "showdown",
+      "slowdown",
+      "own"
+    ],
+    "diamond": [
+      "edmond",
+      "almond",
+      "monad",
+      "diamonds",
+      "hammond",
+      "redmond",
+      "midland",
+      "abaddon"
+    ],
+    "the": [
+      "thee",
+      "tithe",
+      "teeth",
+      "goethe",
+      "he",
+      "three",
+      "berthe",
+      "athlete"
+    ]
+  },
+  "raw_ID_bytes_per_copy": 712240,
+  "raw_score_bytes_per_copy": 1424480,
+  "stored_graph_npz_bytes": 2137224,
+  "scores_can_be_reconstructed_from_dictionary": true,
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "wall_seconds": 6.170316622999962,
+  "prototype_peak_rss_kbytes": 978332,
+  "gpu_peak_allocated_bytes": 267063296,
+  "source_sha256": "177b8d7b1cdd7292cf3fcee3cde7f06756b23672571bdeaa101f07d6fc45a3cd",
+  "graph_sha256": "a5463d821016d4361cbfc813e49241facae633e8c06401fc6d13c8483f95fcd9"
+}

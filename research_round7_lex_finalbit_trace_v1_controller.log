@@ -1,0 +1,153 @@
+{"stage": "compiler restoration", "status": "RUNNING"}
+gpg: directory '/root/.gnupg' created
+gpg: keybox '/root/.gnupg/pubring.kbx' created
+gpg: /root/.gnupg/trustdb.gpg: trustdb created
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 https://cli.github.com/packages stable InRelease [3,917 B]
+Get:4 https://apt.llvm.org/jammy llvm-toolchain-jammy-17 InRelease [6,833 B]
+Get:5 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease [3,632 B]
+Get:6 https://r2u.stat.illinois.edu/ubuntu jammy InRelease [6,555 B]
+Get:7 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  InRelease [1,578 B]
+Get:8 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:10 https://cli.github.com/packages stable/main amd64 Packages [356 B]
+Get:11 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease [18.1 kB]
+Get:12 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 Packages [12.4 kB]
+Get:13 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ Packages [114 kB]
+Hit:14 https://ppa.launchpadcontent.net/graphics-drivers/ppa/ubuntu jammy InRelease
+Hit:15 https://ppa.launchpadcontent.net/ubuntugis/ppa/ubuntu jammy InRelease
+Get:16 https://r2u.stat.illinois.edu/ubuntu jammy/main all Packages [11.0 MB]
+Get:17 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64  Packages [3,045 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4,747 kB]
+Get:19 https://r2u.stat.illinois.edu/ubuntu jammy/main amd64 Packages [3,258 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,623 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [93.2 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [8,198 kB]
+Get:23 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [84.6 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [82.9 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Get:26 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [7,864 kB]
+Get:27 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy/main amd64 Packages [49.0 kB]
+Get:28 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1,321 kB]
+Get:29 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [4,390 kB]
+Fetched 46.4 MB in 4s (12.5 MB/s)
+Reading package lists...
+W: Skipping acquire of configured file 'main/source/Sources' as repository 'https://r2u.stat.illinois.edu/ubuntu jammy InRelease' does not seem to provide it (sources.list entry misspelt?)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libclang-common-17-dev libclang-cpp17 libclang1-17 libgc1 libllvm17
+  libobjc-11-dev libobjc4 llvm-17-linker-tools
+Suggested packages:
+  clang-17-doc wasi-libc
+Recommended packages:
+  llvm-17-dev libclang-rt-17-dev
+The following NEW packages will be installed:
+  clang-17 libclang-common-17-dev libclang-cpp17 libclang1-17 libgc1 libllvm17
+  libobjc-11-dev libobjc4 lld-17 llvm-17-linker-tools
+0 upgraded, 10 newly installed, 0 to remove and 248 not upgraded.
+Need to get 50.5 MB of archives.
+After this operation, 244 MB of additional disk space will be used.
+Get:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 libllvm17 amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [26.2 MB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 libgc1 amd64 1:8.0.6-1.1build1 [96.8 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc4 amd64 12.3.0-1ubuntu1~22.04.3 [48.7 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libobjc-11-dev amd64 11.4.0-1ubuntu1~22.04.3 [196 kB]
+Get:5 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 libclang-cpp17 amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [13.0 MB]
+Get:6 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 libclang-common-17-dev amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [717 kB]
+Get:7 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 llvm-17-linker-tools amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [1,376 kB]
+Get:8 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 libclang1-17 amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [7,414 kB]
+Get:9 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 clang-17 amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [144 kB]
+Get:10 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 lld-17 amd64 1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77 [1,368 kB]
+Fetched 50.5 MB in 2s (27.9 MB/s)
+Selecting previously unselected package libllvm17:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125186 files and directories currently installed.)
+Preparing to unpack .../0-libllvm17_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking libllvm17:amd64 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package libclang-cpp17.
+Preparing to unpack .../1-libclang-cpp17_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking libclang-cpp17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package libgc1:amd64.
+Preparing to unpack .../2-libgc1_1%3a8.0.6-1.1build1_amd64.deb ...
+Unpacking libgc1:amd64 (1:8.0.6-1.1build1) ...
+Selecting previously unselected package libobjc4:amd64.
+Preparing to unpack .../3-libobjc4_12.3.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libobjc4:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libobjc-11-dev:amd64.
+Preparing to unpack .../4-libobjc-11-dev_11.4.0-1ubuntu1~22.04.3_amd64.deb ...
+Unpacking libobjc-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Selecting previously unselected package libclang-common-17-dev.
+Preparing to unpack .../5-libclang-common-17-dev_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking libclang-common-17-dev (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package llvm-17-linker-tools.
+Preparing to unpack .../6-llvm-17-linker-tools_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking llvm-17-linker-tools (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package libclang1-17.
+Preparing to unpack .../7-libclang1-17_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking libclang1-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package clang-17.
+Preparing to unpack .../8-clang-17_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking clang-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Selecting previously unselected package lld-17.
+Preparing to unpack .../9-lld-17_1%3a17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77_amd64.deb ...
+Unpacking lld-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up libgc1:amd64 (1:8.0.6-1.1build1) ...
+Setting up libllvm17:amd64 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up llvm-17-linker-tools (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up libclang1-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up libobjc4:amd64 (12.3.0-1ubuntu1~22.04.3) ...
+Setting up libclang-common-17-dev (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up lld-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up libclang-cpp17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Setting up libobjc-11-dev:amd64 (11.4.0-1ubuntu1~22.04.3) ...
+Setting up clang-17 (1:17.0.6~++20231209124227+6009708b4367-1~exp1~20231209124336.77) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.8) ...
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind_2_5.so.3 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libur_adapter_level_zero.so.0 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind.so.3 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libur_adapter_level_zero_v2.so.0 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtbbbind_2_0.so.3 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libur_loader.so.0 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtbb.so.12 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libumf.so.1 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtcm_debug.so.1 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libur_adapter_opencl.so.0 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtbbmalloc_proxy.so.2 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtcm.so.1 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libtbbmalloc.so.2 is not a symbolic link
+
+/sbin/ldconfig.real: /usr/local/lib/libhwloc.so.15 is not a symbolic link
+
+Processing triggers for man-db (2.10.2-1) ...
+{"stage": "forced native build", "status": "RUNNING"}
+{"stage": "matched32K identity and independent decode", "status": "RUNNING"}
+{"stage": "failed; source/models/logs preserved; no automatic relaunch", "status": "FAIL"}
+Traceback (most recent call last):
+  File "/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py", line 202, in <module>
+    main()
+  File "/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py", line 168, in main
+    runs[mode] = timed([str(program), '-n', '--transformer', str(weights), str(inp), 'out.cmx'], d, e, n + '_' + mode)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/kaggle/working/hp_round7/research_round7_lex_finalbit_trace_worker.py", line 113, in timed
+    subprocess.run(['/usr/bin/time', '-v', '-o', str(tf), *cmd], cwd=cwd, env=env,
+  File "/usr/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/time'

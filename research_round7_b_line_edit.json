@@ -1,0 +1,477 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 427095.00904594886,
+  "mask_observed_prefix_digits": false,
+  "edit_channel": true,
+  "contract": "first four bytes paid; only past completed donors; target end is decoded stop; oracle diagnostic is unpaid",
+  "lines": 40933,
+  "completed_stored_sources": 29542,
+  "proposed_events": 24635,
+  "memory_keys": 5012,
+  "accounted_memory_payload_bytes": 637211,
+  "score": {
+    "name": "combined",
+    "events": 24634,
+    "exact_match_events": 3694,
+    "positive_events": 740,
+    "coded_bytes_covered": 1425211,
+    "baseline_bits_covered": 2416526.7846886483,
+    "prequential_saving_bytes": 3.701024131179924,
+    "prequential_total_bits": 3416730.4641745416,
+    "oracle_best_per_event_saving_bytes_UNPAID": 223.49106589433796,
+    "context_count": 6,
+    "model_count_per_context": 49,
+    "fixed_models": [
+      {
+        "alpha": 0.0,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": 0.0
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": 2.603484611476151
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": 5.288832523387645
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": 5.766484079430727
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": 3.3667029008404112
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -1.510721755863194
+      },
+      {
+        "alpha": 0.001,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -3.4680455178952214
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -0.34497076531682885
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": 3.17876857963876
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": 3.372285914069683
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -0.4005639836996143
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -7.645066452418407
+      },
+      {
+        "alpha": 0.003,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -10.848784904113407
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -18.753786920612185
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -14.088123418970286
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -14.467089916736285
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -20.571322677507794
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -32.237932623934455
+      },
+      {
+        "alpha": 0.01,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -37.65949722951163
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -84.60807106886463
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -78.44544984737654
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -79.8426262216622
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -89.50814913177337
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -108.46237049730621
+      },
+      {
+        "alpha": 0.03,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -117.05021653379066
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -351.61611521143925
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -342.56583592548304
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -346.63381284403494
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -363.94938512794783
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -399.21540895718147
+      },
+      {
+        "alpha": 0.1,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -412.9514341736896
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -1291.9037801633986
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -1276.4488492927533
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -1286.5709409974297
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -1320.3918652479128
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -1391.7543797249557
+      },
+      {
+        "alpha": 0.3,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -1410.849014467092
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -4515.689881577184
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -4478.475367584273
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -4494.949128650104
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -4558.783937484257
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -4704.955143355927
+      },
+      {
+        "alpha": 0.7,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -4704.69433532558
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "saving_bytes": -8687.679572726853
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.001,
+          0.001,
+          0.01
+        ],
+        "saving_bytes": -8606.837247908832
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.01,
+          0.01,
+          0.02
+        ],
+        "saving_bytes": -8608.894586265467
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.03,
+          0.03,
+          0.04
+        ],
+        "saving_bytes": -8675.24062857484
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.1,
+          0.1,
+          0.1
+        ],
+        "saving_bytes": -8850.91412518719
+      },
+      {
+        "alpha": 0.9,
+        "delete_insert_substitute": [
+          0.25,
+          0.15,
+          0.15
+        ],
+        "saving_bytes": -8739.157032585823
+      }
+    ],
+    "by_branch": {
+      "line_copy": {
+        "events": 24634,
+        "matched": 3694,
+        "coded_bytes": 1425211,
+        "baseline_bits": 2416526.7846886483,
+        "prequential_gain_bits": 29.608193049439393
+      }
+    }
+  }
+}

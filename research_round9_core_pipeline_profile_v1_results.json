@@ -1,0 +1,153 @@
+{
+  "status": "COMPLETE_SELECTED_CORE_ZERO_EF_AND_PACKED_PIPELINE_PROFILE",
+  "pid": 2780,
+  "started": 1791315324.9219103,
+  "scope": "unchanged selected-core E/F zero control and packed GPU pipeline profiling,lr0",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [],
+  "gpu": "Tesla T4",
+  "actual_core_import": {
+    "loaded_parameters": 199,
+    "parameter_count": 5897145,
+    "packed_source_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "imported_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+    "weight_laws": "learned15level codebooks on0.25grid plus8bit small tables; fixed native BF16 row scales, STE nearest native code levels",
+    "activation_laws": "dynamic per-token amax/127, static per-head QKV scales",
+    "state": "FLa parallel KDA and T4 sliding-window SDPA; native equivalence measured below, not presumed"
+  },
+  "worker_sha256": "f8e85e84c87f495947d0f9e39f06566af5b4310b7d45c0ddd3c988a097aa1128",
+  "timings": [
+    {
+      "context_cap": 256,
+      "documents": 1,
+      "foreach_optimizer": false,
+      "resident_forward_tokens": 256,
+      "useful_next_token_targets": 255,
+      "warm_steps": 10,
+      "timed_steps": 20,
+      "median_step_seconds": 0.21473988400066446,
+      "p90_step_seconds": 0.2301982353983476,
+      "useful_targets_per_second": 1187.4831784821629,
+      "scope": "resident batch,FP32 selected QAT shadow,backward+Adamlr0; excludes data load/CPU native export/evaluation",
+      "peak_cuda_bytes": 252848128
+    },
+    {
+      "context_cap": 256,
+      "documents": 1,
+      "foreach_optimizer": true,
+      "resident_forward_tokens": 256,
+      "useful_next_token_targets": 255,
+      "warm_steps": 10,
+      "timed_steps": 20,
+      "median_step_seconds": 0.19926770950041828,
+      "p90_step_seconds": 0.21528720500136844,
+      "useful_targets_per_second": 1279.6855076987008,
+      "scope": "resident batch,FP32 selected QAT shadow,backward+Adamlr0; excludes data load/CPU native export/evaluation",
+      "peak_cuda_bytes": 252848128
+    },
+    {
+      "context_cap": 1024,
+      "documents": 1,
+      "foreach_optimizer": false,
+      "resident_forward_tokens": 1024,
+      "useful_next_token_targets": 1023,
+      "warm_steps": 10,
+      "timed_steps": 20,
+      "median_step_seconds": 0.21401988549951056,
+      "p90_step_seconds": 0.21914844040074968,
+      "useful_targets_per_second": 4779.929666873592,
+      "scope": "resident batch,FP32 selected QAT shadow,backward+Adamlr0; excludes data load/CPU native export/evaluation",
+      "peak_cuda_bytes": 489688576
+    },
+    {
+      "context_cap": 1024,
+      "documents": 1,
+      "foreach_optimizer": true,
+      "resident_forward_tokens": 1024,
+      "useful_next_token_targets": 1023,
+      "warm_steps": 10,
+      "timed_steps": 20,
+      "median_step_seconds": 0.21129522999945038,
+      "p90_step_seconds": 0.2235298380983295,
+      "useful_targets_per_second": 4841.5669393135895,
+      "scope": "resident batch,FP32 selected QAT shadow,backward+Adamlr0; excludes data load/CPU native export/evaluation",
+      "peak_cuda_bytes": 489688576
+    }
+  ],
+  "packing_checks": [
+    {
+      "context_cap": 256,
+      "documents": 1,
+      "probability_max_difference_from_separate": 0.0,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": true,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    },
+    {
+      "context_cap": 256,
+      "documents": 4,
+      "probability_max_difference_from_separate": 0.08982768654823303,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": false,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    },
+    {
+      "context_cap": 256,
+      "documents": 8,
+      "probability_max_difference_from_separate": 0.18946844339370728,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": false,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    },
+    {
+      "context_cap": 1024,
+      "documents": 1,
+      "probability_max_difference_from_separate": 0.0,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": true,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    },
+    {
+      "context_cap": 1024,
+      "documents": 4,
+      "probability_max_difference_from_separate": 0.15960979461669922,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": false,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    },
+    {
+      "context_cap": 1024,
+      "documents": 8,
+      "probability_max_difference_from_separate": 0.10001939535140991,
+      "first_document_future_noninterference_max_logit_difference": 0.0,
+      "tolerance_gate_passed": false,
+      "native_probability_parity": "unresolved; this is GPU batching fidelity only"
+    }
+  ],
+  "baseline_EF": {
+    "raw": {
+      "all_bits_per_symbol": 1.5019641266219135,
+      "common_or_unlabelled_bits_per_symbol": 1.3821668981604267,
+      "rare_or_redacted_bits_per_symbol": 2.363275710964244,
+      "targets": 190084,
+      "common_targets": 166874,
+      "rare_targets": 23210,
+      "mode": "raw",
+      "slices": "ef"
+    },
+    "redacted1392": {
+      "all_bits_per_symbol": 1.576322028744349,
+      "common_or_unlabelled_bits_per_symbol": 1.6135255917907654,
+      "rare_or_redacted_bits_per_symbol": 1.3088378285806994,
+      "targets": 190084,
+      "common_targets": 166874,
+      "rare_targets": 23210,
+      "mode": "redacted1392",
+      "slices": "ef"
+    }
+  },
+  "stage": "zero controls and real training-pipeline profile complete",
+  "finished": 1791315420.5749292,
+  "native_or_full_package_qualified": false
+}

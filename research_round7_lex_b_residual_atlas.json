@@ -1,0 +1,1777 @@
+{
+  "slice": "b",
+  "scope": "Actual lexth11c checkpoint/config, original FX2-ordered2M WRT slice, cold neural/classical histories; diagnostic only",
+  "input_bytes": 2000000,
+  "unscored_prefix_bytes": 767,
+  "input_sha256": "c42695d3600f06a7525a5450a9cfa0044b52e7413344f75fcec28ed46c6781cd",
+  "baseline_ideal_bytes": 437041.14053667104,
+  "ascii_word_occurrences": 513040,
+  "ascii_word_types": 21110,
+  "word_share_all_final_bits": 0.8219827635421143,
+  "assigned_word_partition_error_bits": -4.656612873077393e-10,
+  "neural_costs_separately_available": false,
+  "warning": "Categories overlap; XML tags count as ASCII words; first in slice is not globally new; spelling relation is not a free selector or predicted word",
+  "categories": {
+    "first_in_diagnosed_slice": {
+      "occurrences": 21110,
+      "final_bits": 371889.8272141312,
+      "share_all_final_bits": 0.10636579509353047
+    },
+    "dictionary_word": {
+      "occurrences": 472807,
+      "final_bits": 2554272.958521572,
+      "share_all_final_bits": 0.7305584994198188
+    },
+    "article_repeat": {
+      "occurrences": 310224,
+      "final_bits": 1149369.3191845096,
+      "share_all_final_bits": 0.32873601950068276
+    },
+    "article_repeat_under_1024": {
+      "occurrences": 270006,
+      "final_bits": 881962.8249006467,
+      "share_all_final_bits": 0.25225394794001194
+    },
+    "known_in_slice_first_in_article": {
+      "occurrences": 181706,
+      "final_bits": 1352663.1294408021,
+      "share_all_final_bits": 0.3868809489479011
+    },
+    "literal_spelling_word": {
+      "occurrences": 40233,
+      "final_bits": 319649.3173178709,
+      "share_all_final_bits": 0.09142426412229547
+    },
+    "distinct_earlier_slice_word_suffix4": {
+      "occurrences": 253239,
+      "final_bits": 1773199.3085732851,
+      "share_all_final_bits": 0.507160294565135
+    },
+    "distinct_earlier_article_word_suffix4": {
+      "occurrences": 67970,
+      "final_bits": 524387.7598874443,
+      "share_all_final_bits": 0.1499823790168572
+    },
+    "distinct_earlier_slice_word_prefix4": {
+      "occurrences": 272676,
+      "final_bits": 1869905.9717286746,
+      "share_all_final_bits": 0.5348197796186008
+    },
+    "distinct_earlier_article_word_prefix4": {
+      "occurrences": 98162,
+      "final_bits": 656157.846759198,
+      "share_all_final_bits": 0.1876705033859797
+    },
+    "article_repeat_1024_to_4096": {
+      "occurrences": 31938,
+      "final_bits": 207177.51894665032,
+      "share_all_final_bits": 0.059255725528563424
+    },
+    "distinct_earlier_slice_word_anagram": {
+      "occurrences": 34297,
+      "final_bits": 211648.59058631025,
+      "share_all_final_bits": 0.06053451579135471
+    },
+    "distinct_earlier_article_word_anagram": {
+      "occurrences": 2532,
+      "final_bits": 14565.199200649397,
+      "share_all_final_bits": 0.004165854724444205
+    },
+    "article_repeat_4096_to_16384": {
+      "occurrences": 8187,
+      "final_bits": 59658.65143787797,
+      "share_all_final_bits": 0.017063225261991145
+    },
+    "article_repeat_over_16384": {
+      "occurrences": 93,
+      "final_bits": 570.3238993345876,
+      "share_all_final_bits": 0.00016312077011624413
+    }
+  },
+  "top_total_words": [
+    {
+      "word": "the",
+      "occurrences": 26576,
+      "final_bits": 56662.38910676865,
+      "bits_per_occurrence": 2.132088693060229,
+      "max_occurrence_bits": 20.052982330322266
+    },
+    {
+      "word": "a",
+      "occurrences": 12431,
+      "final_bits": 37717.43600520305,
+      "bits_per_occurrence": 3.0341433517177263,
+      "max_occurrence_bits": 18.95477867126465
+    },
+    {
+      "word": "in",
+      "occurrences": 8653,
+      "final_bits": 30807.388933151495,
+      "bits_per_occurrence": 3.5603130628858772,
+      "max_occurrence_bits": 21.17152738571167
+    },
+    {
+      "word": "and",
+      "occurrences": 10413,
+      "final_bits": 30152.748979253694,
+      "bits_per_occurrence": 2.8956831824885905,
+      "max_occurrence_bits": 17.710155487060547
+    },
+    {
+      "word": "to",
+      "occurrences": 11846,
+      "final_bits": 22761.771611931268,
+      "bits_per_occurrence": 1.9214732071527325,
+      "max_occurrence_bits": 17.30588722229004
+    },
+    {
+      "word": "for",
+      "occurrences": 4906,
+      "final_bits": 18214.570469220635,
+      "bits_per_occurrence": 3.7127131001265052,
+      "max_occurrence_bits": 21.41696071624756
+    },
+    {
+      "word": "of",
+      "occurrences": 12389,
+      "final_bits": 17687.15448286722,
+      "bits_per_occurrence": 1.4276498896494647,
+      "max_occurrence_bits": 14.734564661979675
+    },
+    {
+      "word": "is",
+      "occurrences": 7570,
+      "final_bits": 14621.12435979885,
+      "bits_per_occurrence": 1.9314563222983951,
+      "max_occurrence_bits": 21.193784475326538
+    },
+    {
+      "word": "or",
+      "occurrences": 3378,
+      "final_bits": 13646.445050167153,
+      "bits_per_occurrence": 4.039800192471034,
+      "max_occurrence_bits": 16.58388900756836
+    },
+    {
+      "word": "with",
+      "occurrences": 2932,
+      "final_bits": 12502.089514875086,
+      "bits_per_occurrence": 4.264014159234341,
+      "max_occurrence_bits": 16.73625946044922
+    },
+    {
+      "word": "network",
+      "occurrences": 3200,
+      "final_bits": 12130.62055629841,
+      "bits_per_occurrence": 3.7908189238432533,
+      "max_occurrence_bits": 33.652220010757446
+    },
+    {
+      "word": "on",
+      "occurrences": 2706,
+      "final_bits": 11915.979965839535,
+      "bits_per_occurrence": 4.4035402682333835,
+      "max_occurrence_bits": 18.069937229156494
+    },
+    {
+      "word": "an",
+      "occurrences": 2249,
+      "final_bits": 11868.758937703213,
+      "bits_per_occurrence": 5.277349460961855,
+      "max_occurrence_bits": 20.292978763580322
+    },
+    {
+      "word": "that",
+      "occurrences": 3264,
+      "final_bits": 11788.680971205235,
+      "bits_per_occurrence": 3.611728238727094,
+      "max_occurrence_bits": 16.598798751831055
+    },
+    {
+      "word": "as",
+      "occurrences": 3755,
+      "final_bits": 11506.92877612519,
+      "bits_per_occurrence": 3.0644284357190923,
+      "max_occurrence_bits": 24.154772758483887
+    },
+    {
+      "word": "this",
+      "occurrences": 2285,
+      "final_bits": 10541.527030311525,
+      "bits_per_occurrence": 4.61335975068338,
+      "max_occurrence_bits": 17.329227447509766
+    },
+    {
+      "word": "it",
+      "occurrences": 2387,
+      "final_bits": 10005.476266596233,
+      "bits_per_occurrence": 4.19165323275921,
+      "max_occurrence_bits": 16.259506702423096
+    },
+    {
+      "word": "by",
+      "occurrences": 2973,
+      "final_bits": 9562.18888764386,
+      "bits_per_occurrence": 3.2163433863585134,
+      "max_occurrence_bits": 15.846820831298828
+    },
+    {
+      "word": "at",
+      "occurrences": 1653,
+      "final_bits": 9463.25067074201,
+      "bits_per_occurrence": 5.724894537653969,
+      "max_occurrence_bits": 19.548731803894043
+    },
+    {
+      "word": "data",
+      "occurrences": 1862,
+      "final_bits": 9379.41895687976,
+      "bits_per_occurrence": 5.037281931729194,
+      "max_occurrence_bits": 19.06485414505005
+    },
+    {
+      "word": "from",
+      "occurrences": 2136,
+      "final_bits": 8194.377531368751,
+      "bits_per_occurrence": 3.836319068992861,
+      "max_occurrence_bits": 17.47125968337059
+    },
+    {
+      "word": "one",
+      "occurrences": 1327,
+      "final_bits": 8070.094788162038,
+      "bits_per_occurrence": 6.081458016700857,
+      "max_occurrence_bits": 21.724181652069092
+    },
+    {
+      "word": "which",
+      "occurrences": 1877,
+      "final_bits": 7946.596697567962,
+      "bits_per_occurrence": 4.23366899177835,
+      "max_occurrence_bits": 16.253571093082428
+    },
+    {
+      "word": "can",
+      "occurrences": 1725,
+      "final_bits": 7117.35387769714,
+      "bits_per_occurrence": 4.126002247940371,
+      "max_occurrence_bits": 18.85295081138611
+    },
+    {
+      "word": "used",
+      "occurrences": 1906,
+      "final_bits": 7097.57584214909,
+      "bits_per_occurrence": 3.72380684268053,
+      "max_occurrence_bits": 18.112098693847656
+    },
+    {
+      "word": "internet",
+      "occurrences": 1482,
+      "final_bits": 7072.905446912628,
+      "bits_per_occurrence": 4.772540787390437,
+      "max_occurrence_bits": 18.219411849975586
+    },
+    {
+      "word": "are",
+      "occurrences": 3188,
+      "final_bits": 7014.4165569548495,
+      "bits_per_occurrence": 2.200256134552964,
+      "max_occurrence_bits": 15.797672271728516
+    },
+    {
+      "word": "telephone",
+      "occurrences": 1439,
+      "final_bits": 6401.003154354054,
+      "bits_per_occurrence": 4.448230128112615,
+      "max_occurrence_bits": 34.91821563243866
+    },
+    {
+      "word": "other",
+      "occurrences": 1201,
+      "final_bits": 6345.082015608903,
+      "bits_per_occurrence": 5.283165708250544,
+      "max_occurrence_bits": 17.567928314208984
+    },
+    {
+      "word": "all",
+      "occurrences": 948,
+      "final_bits": 5922.105306282174,
+      "bits_per_occurrence": 6.246946525614107,
+      "max_occurrence_bits": 21.1171875
+    },
+    {
+      "word": "use",
+      "occurrences": 1132,
+      "final_bits": 5877.216316403588,
+      "bits_per_occurrence": 5.191887205303523,
+      "max_occurrence_bits": 15.324443101882935
+    },
+    {
+      "word": "not",
+      "occurrences": 1525,
+      "final_bits": 5863.241427297238,
+      "bits_per_occurrence": 3.8447484769162217,
+      "max_occurrence_bits": 22.668827056884766
+    },
+    {
+      "word": "service",
+      "occurrences": 1297,
+      "final_bits": 5818.8801875025965,
+      "bits_per_occurrence": 4.486414947958825,
+      "max_occurrence_bits": 18.062146186828613
+    },
+    {
+      "word": "also",
+      "occurrences": 1504,
+      "final_bits": 5779.839862827444,
+      "bits_per_occurrence": 3.842978632199099,
+      "max_occurrence_bits": 16.04042625427246
+    },
+    {
+      "word": "some",
+      "occurrences": 885,
+      "final_bits": 5691.964866770431,
+      "bits_per_occurrence": 6.431598719514612,
+      "max_occurrence_bits": 19.341060638427734
+    },
+    {
+      "word": "number",
+      "occurrences": 1290,
+      "final_bits": 5490.305910340743,
+      "bits_per_occurrence": 4.256051093287398,
+      "max_occurrence_bits": 18.00111675262451
+    },
+    {
+      "word": "such",
+      "occurrences": 1083,
+      "final_bits": 5453.131734712981,
+      "bits_per_occurrence": 5.035209357999059,
+      "max_occurrence_bits": 16.011079788208008
+    },
+    {
+      "word": "two",
+      "occurrences": 830,
+      "final_bits": 5204.909996243194,
+      "bits_per_occurrence": 6.270975899088185,
+      "max_occurrence_bits": 18.85769297555089
+    },
+    {
+      "word": "only",
+      "occurrences": 717,
+      "final_bits": 5190.543226166163,
+      "bits_per_occurrence": 7.239251361459083,
+      "max_occurrence_bits": 17.124223709106445
+    },
+    {
+      "word": "was",
+      "occurrences": 1837,
+      "final_bits": 5158.317849027924,
+      "bits_per_occurrence": 2.8080118938638674,
+      "max_occurrence_bits": 19.753631114959717
+    },
+    {
+      "word": "system",
+      "occurrences": 1397,
+      "final_bits": 5100.009452093742,
+      "bits_per_occurrence": 3.650686794626873,
+      "max_occurrence_bits": 15.929049968719482
+    },
+    {
+      "word": "most",
+      "occurrences": 756,
+      "final_bits": 5070.229455051012,
+      "bits_per_occurrence": 6.706652718321445,
+      "max_occurrence_bits": 19.12427020072937
+    },
+    {
+      "word": "more",
+      "occurrences": 858,
+      "final_bits": 5021.492896343581,
+      "bits_per_occurrence": 5.852555823244267,
+      "max_occurrence_bits": 26.38870620727539
+    },
+    {
+      "word": "over",
+      "occurrences": 798,
+      "final_bits": 4892.681430177297,
+      "bits_per_occurrence": 6.131179737064283,
+      "max_occurrence_bits": 17.719440937042236
+    },
+    {
+      "word": "call",
+      "occurrences": 994,
+      "final_bits": 4882.541726157186,
+      "bits_per_occurrence": 4.9120138090112535,
+      "max_occurrence_bits": 18.70560383796692
+    },
+    {
+      "word": "each",
+      "occurrences": 802,
+      "final_bits": 4882.001587351784,
+      "bits_per_occurrence": 6.087283774752848,
+      "max_occurrence_bits": 16.38041228055954
+    },
+    {
+      "word": "computer",
+      "occurrences": 903,
+      "final_bits": 4823.385908572236,
+      "bits_per_occurrence": 5.341512634077781,
+      "max_occurrence_bits": 20.19548988342285
+    },
+    {
+      "word": "when",
+      "occurrences": 757,
+      "final_bits": 4764.529946530238,
+      "bits_per_occurrence": 6.293962941255268,
+      "max_occurrence_bits": 19.69694709777832
+    },
+    {
+      "word": "protocol",
+      "occurrences": 1697,
+      "final_bits": 4729.1591328722425,
+      "bits_per_occurrence": 2.7867761537255404,
+      "max_occurrence_bits": 17.64207363128662
+    },
+    {
+      "word": "have",
+      "occurrences": 1147,
+      "final_bits": 4644.822524361778,
+      "bits_per_occurrence": 4.049540125860312,
+      "max_occurrence_bits": 20.89850115776062
+    },
+    {
+      "word": "information",
+      "occurrences": 821,
+      "final_bits": 4637.882102723001,
+      "bits_per_occurrence": 5.6490646805395865,
+      "max_occurrence_bits": 22.032109260559082
+    },
+    {
+      "word": "has",
+      "occurrences": 1149,
+      "final_bits": 4607.469750447199,
+      "bits_per_occurrence": 4.00998237636832,
+      "max_occurrence_bits": 15.400064468383789
+    },
+    {
+      "word": "may",
+      "occurrences": 876,
+      "final_bits": 4510.0409006816335,
+      "bits_per_occurrence": 5.1484485167598555,
+      "max_occurrence_bits": 20.296441078186035
+    },
+    {
+      "word": "using",
+      "occurrences": 788,
+      "final_bits": 4455.747436112724,
+      "bits_per_occurrence": 5.6545018224780765,
+      "max_occurrence_bits": 18.580487608909607
+    },
+    {
+      "word": "networks",
+      "occurrences": 1020,
+      "final_bits": 4437.6657099807635,
+      "bits_per_occurrence": 4.350652656843886,
+      "max_occurrence_bits": 17.124648571014404
+    },
+    {
+      "word": "wireless",
+      "occurrences": 778,
+      "final_bits": 4379.750283779111,
+      "bits_per_occurrence": 5.629499079407597,
+      "max_occurrence_bits": 20.352124214172363
+    },
+    {
+      "word": "access",
+      "occurrences": 922,
+      "final_bits": 4374.098183943424,
+      "bits_per_occurrence": 4.744141197335601,
+      "max_occurrence_bits": 20.02248525619507
+    },
+    {
+      "word": "if",
+      "occurrences": 760,
+      "final_bits": 4271.195725278929,
+      "bits_per_occurrence": 5.619994375367011,
+      "max_occurrence_bits": 18.526100158691406
+    },
+    {
+      "word": "many",
+      "occurrences": 661,
+      "final_bits": 4249.426354226656,
+      "bits_per_occurrence": 6.4287841970146085,
+      "max_occurrence_bits": 19.570791363716125
+    },
+    {
+      "word": "between",
+      "occurrences": 775,
+      "final_bits": 4137.04708230542,
+      "bits_per_occurrence": 5.338125267490865,
+      "max_occurrence_bits": 16.31792449951172
+    },
+    {
+      "word": "standard",
+      "occurrences": 987,
+      "final_bits": 4077.7814256884158,
+      "bits_per_occurrence": 4.131490806168608,
+      "max_occurrence_bits": 15.341722011566162
+    },
+    {
+      "word": "these",
+      "occurrences": 699,
+      "final_bits": 4077.2285048486665,
+      "bits_per_occurrence": 5.832944928252742,
+      "max_occurrence_bits": 18.53630304336548
+    },
+    {
+      "word": "there",
+      "occurrences": 654,
+      "final_bits": 4034.3179074618965,
+      "bits_per_occurrence": 6.168681815690974,
+      "max_occurrence_bits": 19.45414924621582
+    },
+    {
+      "word": "packet",
+      "occurrences": 716,
+      "final_bits": 4007.7456748390105,
+      "bits_per_occurrence": 5.597410160389679,
+      "max_occurrence_bits": 19.712584495544434
+    },
+    {
+      "word": "time",
+      "occurrences": 954,
+      "final_bits": 4004.721779723768,
+      "bits_per_occurrence": 4.197821572037493,
+      "max_occurrence_bits": 14.978382587432861
+    },
+    {
+      "word": "transmission",
+      "occurrences": 781,
+      "final_bits": 3997.89266656409,
+      "bits_per_occurrence": 5.118940674217785,
+      "max_occurrence_bits": 17.724392414093018
+    },
+    {
+      "word": "mobile",
+      "occurrences": 732,
+      "final_bits": 3982.547217437532,
+      "bits_per_occurrence": 5.440638275187885,
+      "max_occurrence_bits": 26.433035813272
+    },
+    {
+      "word": "phone",
+      "occurrences": 819,
+      "final_bits": 3914.21750781266,
+      "bits_per_occurrence": 4.779264356303615,
+      "max_occurrence_bits": 21.346011877059937
+    },
+    {
+      "word": "their",
+      "occurrences": 723,
+      "final_bits": 3914.205194341019,
+      "bits_per_occurrence": 5.413838443071948,
+      "max_occurrence_bits": 17.52240562438965
+    },
+    {
+      "word": "digital",
+      "occurrences": 677,
+      "final_bits": 3865.432867040625,
+      "bits_per_occurrence": 5.709649729749815,
+      "max_occurrence_bits": 19.011715054512024
+    },
+    {
+      "word": "be",
+      "occurrences": 2783,
+      "final_bits": 3861.1882750026416,
+      "bits_per_occurrence": 1.3874194304716643,
+      "max_occurrence_bits": 17.873449325561523
+    },
+    {
+      "word": "its",
+      "occurrences": 645,
+      "final_bits": 3838.0143062360585,
+      "bits_per_occurrence": 5.950409777110168,
+      "max_occurrence_bits": 15.217370986938477
+    },
+    {
+      "word": "but",
+      "occurrences": 818,
+      "final_bits": 3827.2311997525394,
+      "bits_per_occurrence": 4.67876674786374,
+      "max_occurrence_bits": 17.29584503173828
+    },
+    {
+      "word": "systems",
+      "occurrences": 791,
+      "final_bits": 3759.695894150296,
+      "bits_per_occurrence": 4.753092154425153,
+      "max_occurrence_bits": 17.772347927093506
+    },
+    {
+      "word": "first",
+      "occurrences": 635,
+      "final_bits": 3752.845460624434,
+      "bits_per_occurrence": 5.909992851377061,
+      "max_occurrence_bits": 16.335076332092285
+    },
+    {
+      "word": "local",
+      "occurrences": 554,
+      "final_bits": 3713.474600158166,
+      "bits_per_occurrence": 6.703022743967809,
+      "max_occurrence_bits": 19.221858978271484
+    },
+    {
+      "word": "any",
+      "occurrences": 574,
+      "final_bits": 3694.224502976518,
+      "bits_per_occurrence": 6.4359311898545615,
+      "max_occurrence_bits": 19.12176537513733
+    },
+    {
+      "word": "communications",
+      "occurrences": 809,
+      "final_bits": 3589.6015653583454,
+      "bits_per_occurrence": 4.43708475322416,
+      "max_occurrence_bits": 25.8504677596502
+    },
+    {
+      "word": "radio",
+      "occurrences": 646,
+      "final_bits": 3581.519766399637,
+      "bits_per_occurrence": 5.5441482452006765,
+      "max_occurrence_bits": 34.639023780822754
+    },
+    {
+      "word": "services",
+      "occurrences": 774,
+      "final_bits": 3518.402970224619,
+      "bits_per_occurrence": 4.545740271608035,
+      "max_occurrence_bits": 21.790647983551025
+    }
+  ],
+  "hard_repeated_words": [
+    {
+      "word": "uunet",
+      "occurrences": 5,
+      "final_bits": 117.72578681074083,
+      "bits_per_occurrence": 23.545157362148167,
+      "max_occurrence_bits": 32.62619376182556
+    },
+    {
+      "word": "anycast",
+      "occurrences": 5,
+      "final_bits": 112.69932954572141,
+      "bits_per_occurrence": 22.539865909144282,
+      "max_occurrence_bits": 39.592693567276
+    },
+    {
+      "word": "routable",
+      "occurrences": 6,
+      "final_bits": 125.24922519503161,
+      "bits_per_occurrence": 20.874870865838602,
+      "max_occurrence_bits": 28.768282689154148
+    },
+    {
+      "word": "relaying",
+      "occurrences": 5,
+      "final_bits": 101.64928877772763,
+      "bits_per_occurrence": 20.329857755545525,
+      "max_occurrence_bits": 28.324722070246935
+    },
+    {
+      "word": "zeroconf",
+      "occurrences": 7,
+      "final_bits": 140.64844255521894,
+      "bits_per_occurrence": 20.092634650745563,
+      "max_occurrence_bits": 32.27116701006889
+    },
+    {
+      "word": "initiating",
+      "occurrences": 5,
+      "final_bits": 99.76150417327881,
+      "bits_per_occurrence": 19.952300834655762,
+      "max_occurrence_bits": 26.533106803894043
+    },
+    {
+      "word": "proxying",
+      "occurrences": 5,
+      "final_bits": 98.01362824160606,
+      "bits_per_occurrence": 19.60272564832121,
+      "max_occurrence_bits": 33.36936066299677
+    },
+    {
+      "word": "computerised",
+      "occurrences": 5,
+      "final_bits": 97.5585996331647,
+      "bits_per_occurrence": 19.511719926632942,
+      "max_occurrence_bits": 27.708576679229736
+    },
+    {
+      "word": "fifo",
+      "occurrences": 5,
+      "final_bits": 97.09905333071947,
+      "bits_per_occurrence": 19.419810666143896,
+      "max_occurrence_bits": 22.74580380320549
+    },
+    {
+      "word": "interworking",
+      "occurrences": 6,
+      "final_bits": 115.27042230963707,
+      "bits_per_occurrence": 19.21173705160618,
+      "max_occurrence_bits": 24.304363787174225
+    },
+    {
+      "word": "survivable",
+      "occurrences": 5,
+      "final_bits": 95.18405001889914,
+      "bits_per_occurrence": 19.036810003779827,
+      "max_occurrence_bits": 24.981062441132963
+    },
+    {
+      "word": "spoof",
+      "occurrences": 7,
+      "final_bits": 133.0307303071022,
+      "bits_per_occurrence": 19.004390043871744,
+      "max_occurrence_bits": 21.062306702136993
+    },
+    {
+      "word": "provisioned",
+      "occurrences": 8,
+      "final_bits": 151.84867195179686,
+      "bits_per_occurrence": 18.981083993974607,
+      "max_occurrence_bits": 22.382400181144476
+    },
+    {
+      "word": "throttling",
+      "occurrences": 5,
+      "final_bits": 94.61197994090617,
+      "bits_per_occurrence": 18.922395988181233,
+      "max_occurrence_bits": 34.48908571898937
+    },
+    {
+      "word": "diagnose",
+      "occurrences": 5,
+      "final_bits": 94.22863364219666,
+      "bits_per_occurrence": 18.84572672843933,
+      "max_occurrence_bits": 22.78596067428589
+    },
+    {
+      "word": "asymmetrical",
+      "occurrences": 5,
+      "final_bits": 93.5386793911457,
+      "bits_per_occurrence": 18.70773587822914,
+      "max_occurrence_bits": 21.778186321258545
+    },
+    {
+      "word": "senders",
+      "occurrences": 8,
+      "final_bits": 148.59717261837795,
+      "bits_per_occurrence": 18.574646577297244,
+      "max_occurrence_bits": 23.73002267628908
+    },
+    {
+      "word": "saturated",
+      "occurrences": 5,
+      "final_bits": 92.80226469039917,
+      "bits_per_occurrence": 18.560452938079834,
+      "max_occurrence_bits": 24.36960744857788
+    },
+    {
+      "word": "moderate",
+      "occurrences": 5,
+      "final_bits": 92.47656345367432,
+      "bits_per_occurrence": 18.495312690734863,
+      "max_occurrence_bits": 21.72397232055664
+    },
+    {
+      "word": "texting",
+      "occurrences": 5,
+      "final_bits": 92.32435073051602,
+      "bits_per_occurrence": 18.464870146103202,
+      "max_occurrence_bits": 27.73029723763466
+    },
+    {
+      "word": "authenticate",
+      "occurrences": 6,
+      "final_bits": 110.54169029043987,
+      "bits_per_occurrence": 18.423615048406646,
+      "max_occurrence_bits": 26.765366725623608
+    },
+    {
+      "word": "utilisation",
+      "occurrences": 7,
+      "final_bits": 128.6842455919832,
+      "bits_per_occurrence": 18.3834636559976,
+      "max_occurrence_bits": 35.46192144788802
+    },
+    {
+      "word": "ndiswrapper",
+      "occurrences": 5,
+      "final_bits": 91.27303126268089,
+      "bits_per_occurrence": 18.254606252536178,
+      "max_occurrence_bits": 51.9736937135458
+    },
+    {
+      "word": "telcordia",
+      "occurrences": 7,
+      "final_bits": 126.85748906829394,
+      "bits_per_occurrence": 18.122498438327707,
+      "max_occurrence_bits": 36.920828476548195
+    },
+    {
+      "word": "wcdma",
+      "occurrences": 6,
+      "final_bits": 108.28548433538526,
+      "bits_per_occurrence": 18.04758072256421,
+      "max_occurrence_bits": 24.345383156090975
+    },
+    {
+      "word": "interoperation",
+      "occurrences": 5,
+      "final_bits": 90.18969381856732,
+      "bits_per_occurrence": 18.037938763713463,
+      "max_occurrence_bits": 22.151382936164737
+    },
+    {
+      "word": "distinctive",
+      "occurrences": 5,
+      "final_bits": 89.93004035949707,
+      "bits_per_occurrence": 17.986008071899413,
+      "max_occurrence_bits": 21.244759559631348
+    },
+    {
+      "word": "ingress",
+      "occurrences": 5,
+      "final_bits": 89.81767010688782,
+      "bits_per_occurrence": 17.963534021377562,
+      "max_occurrence_bits": 20.454106330871582
+    },
+    {
+      "word": "bundle",
+      "occurrences": 5,
+      "final_bits": 89.75091028213501,
+      "bits_per_occurrence": 17.950182056427003,
+      "max_occurrence_bits": 21.47098970413208
+    },
+    {
+      "word": "ethertalk",
+      "occurrences": 6,
+      "final_bits": 107.54610343417153,
+      "bits_per_occurrence": 17.92435057236192,
+      "max_occurrence_bits": 42.51368510723114
+    },
+    {
+      "word": "extensible",
+      "occurrences": 7,
+      "final_bits": 125.15778247476555,
+      "bits_per_occurrence": 17.879683210680792,
+      "max_occurrence_bits": 44.82635271549225
+    },
+    {
+      "word": "nibbles",
+      "occurrences": 5,
+      "final_bits": 89.04418405564502,
+      "bits_per_occurrence": 17.808836811129005,
+      "max_occurrence_bits": 36.512325167655945
+    },
+    {
+      "word": "premise",
+      "occurrences": 6,
+      "final_bits": 106.35286194086075,
+      "bits_per_occurrence": 17.72547699014346,
+      "max_occurrence_bits": 22.862257480621338
+    },
+    {
+      "word": "maxstream",
+      "occurrences": 6,
+      "final_bits": 105.5858100168407,
+      "bits_per_occurrence": 17.597635002806783,
+      "max_occurrence_bits": 28.367060963064432
+    },
+    {
+      "word": "consultative",
+      "occurrences": 5,
+      "final_bits": 87.91750037670135,
+      "bits_per_occurrence": 17.58350007534027,
+      "max_occurrence_bits": 20.64972949028015
+    },
+    {
+      "word": "backbones",
+      "occurrences": 5,
+      "final_bits": 87.88211727142334,
+      "bits_per_occurrence": 17.57642345428467,
+      "max_occurrence_bits": 21.970661163330078
+    },
+    {
+      "word": "topological",
+      "occurrences": 5,
+      "final_bits": 87.51988816261292,
+      "bits_per_occurrence": 17.503977632522584,
+      "max_occurrence_bits": 20.9944748878479
+    },
+    {
+      "word": "mirrors",
+      "occurrences": 7,
+      "final_bits": 121.50443494319916,
+      "bits_per_occurrence": 17.35777642045702,
+      "max_occurrence_bits": 22.945319414138794
+    },
+    {
+      "word": "telling",
+      "occurrences": 6,
+      "final_bits": 104.1382429599762,
+      "bits_per_occurrence": 17.3563738266627,
+      "max_occurrence_bits": 21.782886028289795
+    },
+    {
+      "word": "translators",
+      "occurrences": 6,
+      "final_bits": 103.20422537438571,
+      "bits_per_occurrence": 17.200704229064286,
+      "max_occurrence_bits": 24.853488445281982
+    },
+    {
+      "word": "configuring",
+      "occurrences": 9,
+      "final_bits": 154.50015883194283,
+      "bits_per_occurrence": 17.166684314660316,
+      "max_occurrence_bits": 33.556755075231194
+    },
+    {
+      "word": "crowded",
+      "occurrences": 6,
+      "final_bits": 102.86130356788635,
+      "bits_per_occurrence": 17.143550594647724,
+      "max_occurrence_bits": 19.36006236076355
+    },
+    {
+      "word": "terrestrial",
+      "occurrences": 10,
+      "final_bits": 171.28370914328843,
+      "bits_per_occurrence": 17.128370914328844,
+      "max_occurrence_bits": 55.61297559738159
+    },
+    {
+      "word": "slotted",
+      "occurrences": 9,
+      "final_bits": 154.13038703566417,
+      "bits_per_occurrence": 17.12559855951824,
+      "max_occurrence_bits": 27.458894968032837
+    },
+    {
+      "word": "symmetrical",
+      "occurrences": 7,
+      "final_bits": 119.7358033657074,
+      "bits_per_occurrence": 17.105114766529628,
+      "max_occurrence_bits": 20.561575412750244
+    },
+    {
+      "word": "divestiture",
+      "occurrences": 6,
+      "final_bits": 102.57468208204955,
+      "bits_per_occurrence": 17.095780347008258,
+      "max_occurrence_bits": 39.1345379948616
+    },
+    {
+      "word": "coexistence",
+      "occurrences": 5,
+      "final_bits": 85.47122877836227,
+      "bits_per_occurrence": 17.094245755672453,
+      "max_occurrence_bits": 24.422100067138672
+    },
+    {
+      "word": "multipath",
+      "occurrences": 5,
+      "final_bits": 85.46616390347481,
+      "bits_per_occurrence": 17.09323278069496,
+      "max_occurrence_bits": 25.614975824952126
+    },
+    {
+      "word": "migration",
+      "occurrences": 6,
+      "final_bits": 102.4944406747818,
+      "bits_per_occurrence": 17.0824067791303,
+      "max_occurrence_bits": 20.895981788635254
+    },
+    {
+      "word": "significance",
+      "occurrences": 5,
+      "final_bits": 85.33634075522423,
+      "bits_per_occurrence": 17.067268151044846,
+      "max_occurrence_bits": 25.236309051513672
+    },
+    {
+      "word": "uart",
+      "occurrences": 8,
+      "final_bits": 135.88112281262875,
+      "bits_per_occurrence": 16.985140351578593,
+      "max_occurrence_bits": 25.47639489173889
+    },
+    {
+      "word": "allocates",
+      "occurrences": 8,
+      "final_bits": 135.4681788359303,
+      "bits_per_occurrence": 16.933522354491288,
+      "max_occurrence_bits": 27.60667395591736
+    },
+    {
+      "word": "authenticating",
+      "occurrences": 6,
+      "final_bits": 101.39606872177683,
+      "bits_per_occurrence": 16.899344786962804,
+      "max_occurrence_bits": 21.651527115143836
+    },
+    {
+      "word": "interconnecting",
+      "occurrences": 7,
+      "final_bits": 118.2480731010437,
+      "bits_per_occurrence": 16.892581871577672,
+      "max_occurrence_bits": 20.52992868423462
+    },
+    {
+      "word": "teletraffic",
+      "occurrences": 9,
+      "final_bits": 151.96728927548975,
+      "bits_per_occurrence": 16.885254363943304,
+      "max_occurrence_bits": 29.311397068202496
+    },
+    {
+      "word": "tardis",
+      "occurrences": 5,
+      "final_bits": 84.32919220300391,
+      "bits_per_occurrence": 16.865838440600783,
+      "max_occurrence_bits": 24.598660945892334
+    },
+    {
+      "word": "chiefly",
+      "occurrences": 6,
+      "final_bits": 101.09583973884583,
+      "bits_per_occurrence": 16.849306623140972,
+      "max_occurrence_bits": 20.32482385635376
+    },
+    {
+      "word": "pinout",
+      "occurrences": 8,
+      "final_bits": 134.72234882041812,
+      "bits_per_occurrence": 16.840293602552265,
+      "max_occurrence_bits": 26.773688167333603
+    },
+    {
+      "word": "powering",
+      "occurrences": 5,
+      "final_bits": 84.15140128135681,
+      "bits_per_occurrence": 16.83028025627136,
+      "max_occurrence_bits": 21.126189708709717
+    },
+    {
+      "word": "reachability",
+      "occurrences": 6,
+      "final_bits": 100.94473847746849,
+      "bits_per_occurrence": 16.824123079578083,
+      "max_occurrence_bits": 23.80250358581543
+    },
+    {
+      "word": "hooked",
+      "occurrences": 5,
+      "final_bits": 83.41962146759033,
+      "bits_per_occurrence": 16.683924293518068,
+      "max_occurrence_bits": 20.392859935760498
+    },
+    {
+      "word": "standardisation",
+      "occurrences": 5,
+      "final_bits": 83.31507611274719,
+      "bits_per_occurrence": 16.66301522254944,
+      "max_occurrence_bits": 18.066951751708984
+    },
+    {
+      "word": "ham",
+      "occurrences": 9,
+      "final_bits": 149.41299179196358,
+      "bits_per_occurrence": 16.6014435324404,
+      "max_occurrence_bits": 20.47678518295288
+    },
+    {
+      "word": "retransmit",
+      "occurrences": 6,
+      "final_bits": 99.47450481820852,
+      "bits_per_occurrence": 16.579084136368085,
+      "max_occurrence_bits": 23.46278440207243
+    },
+    {
+      "word": "stripped",
+      "occurrences": 5,
+      "final_bits": 82.83533310890198,
+      "bits_per_occurrence": 16.567066621780395,
+      "max_occurrence_bits": 19.834547996520996
+    },
+    {
+      "word": "subsets",
+      "occurrences": 5,
+      "final_bits": 82.72060742974281,
+      "bits_per_occurrence": 16.544121485948562,
+      "max_occurrence_bits": 17.885695457458496
+    },
+    {
+      "word": "loudness",
+      "occurrences": 5,
+      "final_bits": 82.66762175783515,
+      "bits_per_occurrence": 16.53352435156703,
+      "max_occurrence_bits": 23.243558287620544
+    },
+    {
+      "word": "retry",
+      "occurrences": 8,
+      "final_bits": 132.2355558797717,
+      "bits_per_occurrence": 16.529444484971464,
+      "max_occurrence_bits": 26.691149532794952
+    },
+    {
+      "word": "buffering",
+      "occurrences": 8,
+      "final_bits": 131.82488894462585,
+      "bits_per_occurrence": 16.478111118078232,
+      "max_occurrence_bits": 18.45966386795044
+    },
+    {
+      "word": "failing",
+      "occurrences": 5,
+      "final_bits": 82.27192896604538,
+      "bits_per_occurrence": 16.454385793209077,
+      "max_occurrence_bits": 18.641005516052246
+    },
+    {
+      "word": "thinnet",
+      "occurrences": 6,
+      "final_bits": 98.56548010930419,
+      "bits_per_occurrence": 16.427580018217366,
+      "max_occurrence_bits": 30.387623131275177
+    },
+    {
+      "word": "ibook",
+      "occurrences": 5,
+      "final_bits": 82.1171154701151,
+      "bits_per_occurrence": 16.42342309402302,
+      "max_occurrence_bits": 24.40905648469925
+    },
+    {
+      "word": "tributary",
+      "occurrences": 5,
+      "final_bits": 82.01642501354218,
+      "bits_per_occurrence": 16.403285002708436,
+      "max_occurrence_bits": 20.05256199836731
+    },
+    {
+      "word": "sipfoundry",
+      "occurrences": 5,
+      "final_bits": 81.75785398297012,
+      "bits_per_occurrence": 16.351570796594025,
+      "max_occurrence_bits": 37.412418365478516
+    },
+    {
+      "word": "banking",
+      "occurrences": 5,
+      "final_bits": 81.26775312423706,
+      "bits_per_occurrence": 16.253550624847414,
+      "max_occurrence_bits": 21.11260223388672
+    },
+    {
+      "word": "utilizing",
+      "occurrences": 5,
+      "final_bits": 81.21552205085754,
+      "bits_per_occurrence": 16.243104410171508,
+      "max_occurrence_bits": 18.07495141029358
+    },
+    {
+      "word": "classical",
+      "occurrences": 6,
+      "final_bits": 97.33520793914795,
+      "bits_per_occurrence": 16.222534656524658,
+      "max_occurrence_bits": 21.748706579208374
+    },
+    {
+      "word": "confusingly",
+      "occurrences": 6,
+      "final_bits": 97.28860223293304,
+      "bits_per_occurrence": 16.214767038822174,
+      "max_occurrence_bits": 19.35260307788849
+    },
+    {
+      "word": "obsoleted",
+      "occurrences": 6,
+      "final_bits": 97.25422584544867,
+      "bits_per_occurrence": 16.20903764090811,
+      "max_occurrence_bits": 19.85003674030304
+    },
+    {
+      "word": "multilevel",
+      "occurrences": 7,
+      "final_bits": 113.31275063415524,
+      "bits_per_occurrence": 16.18753580487932,
+      "max_occurrence_bits": 43.78427029401064
+    }
+  ],
+  "top_occurrences": [
+    {
+      "word": "radionetworkprocessor",
+      "encoded_start": 47282,
+      "final_bits": 79.56678491830826,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "FEC page (includes GPL source for various Reed-Solomon codecs)]]\n* [[http://www.radionetworkprocessor.com/reed-solomon.html A collection of links to books, online articles and sourc"
+    },
+    {
+      "word": "Sandsynlighedsregning",
+      "encoded_start": 434288,
+      "final_bits": 79.3332337141037,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "* [[http://runeberg.org/matetids/1920b/0029.html \"Telefon-Ventetider. Et Stykke Sandsynlighedsregning\"]], in ''Matematisk Tidsskrift'', B, 1920 (a paper on telephone waiting times, "
+    },
+    {
+      "word": "FromtheARPANETtotheInternet",
+      "encoded_start": 1988091,
+      "final_bits": 76.79460725840181,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " being added approximately every twenty days. {ref|WhereWizardsStayUpLate} {ref|FromtheARPANETtotheInternet} \n\n[ARPANET] became the technical core of what would become the Internet, and a"
+    },
+    {
+      "word": "WACsOperateTeletypeDoD",
+      "encoded_start": 196032,
+      "final_bits": 76.53985154628754,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "t one item that points to Telex using Teleprinter#Telex as the link. -->\n[Image:WACsOperateTeletypeDoD.jpg|thumb|Teletype machines in World War II]\nA '''teleprinter''' ('''teletypewr"
+    },
+    {
+      "word": "Howdoesaswitchboardwork",
+      "encoded_start": 558707,
+      "final_bits": 74.78945897193626,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "sonnel.\n\n==External links==\n* [[http://www.connectedearth.com/FunandGames/Games/Howdoesaswitchboardwork/index.htm Play a switchboard game]]\n* [[http://web.ukonline.co.uk/freshwater/hi"
+    },
+    {
+      "word": "Chatzigiannakis",
+      "encoded_start": 1727356,
+      "final_bits": 73.59625494480133,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " '''Termode local routing''' and '''Terminode Remote Routing'''\n\n*[Support] - I.Chatzigiannakis, S.Nikoletseas and P.Spirakis: Distributed Communication Algorithms for Ad-hoc "
+    },
+    {
+      "word": "ABriefHistoryoftheInternet",
+      "encoded_start": 1990374,
+      "final_bits": 73.42907193303108,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "] (designer of the [CYCLADES] network) with important work on this design. {ref|ABriefHistoryoftheInternet}\n\nWith the role of the network reduced to the bare minimum, it became possible "
+    },
+    {
+      "word": "Sankarasubramaniam",
+      "encoded_start": 1345102,
+      "final_bits": 73.4049738124013,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "n/TinyMaCLaS TinyMaCLaS]]\n\n==External references==\n\n* Akyildiz, I.F., W. Su, Y. Sankarasubramaniam, E. Cayirci, \"A Survey on Sensor Networks\", ''IEEE Communications Magazine'', A"
+    },
+    {
+      "word": "InternationalOriginsandCollaborativeVision",
+      "encoded_start": 1985131,
+      "final_bits": 72.3452296257019,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "he melting pot of developments brought together the ''network of networks''{ref|InternationalOriginsandCollaborativeVision} that we know as the ''[Internet]''. This included both technological developme"
+    },
+    {
+      "word": "PinOutXLRBalanced",
+      "encoded_start": 1187493,
+      "final_bits": 72.28273555636406,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " [RCA jack]\n* [DIN connector]\n\n==External links==\n\n* [[http://www.clarkwire.com/PinOutXLRBalanced.htm Audio usage]]\n* [[http://www.dmx512.com/web/light/dmx512/pinouts.htm Lighti"
+    },
+    {
+      "word": "PEnnsylvania",
+      "encoded_start": 514654,
+      "final_bits": 71.02954077720642,
+      "recurrence": "known_in_slice_first_in_article",
+      "context": " used in a fictional context).\n\nThe number in the Glenn Miller Orchestra's hit 'PEnnsylvania 6-5000' was and is the number of the Hotel Pennsylvania in New York.  If you ca"
+    },
+    {
+      "word": "treesaretheenemy",
+      "encoded_start": 1458019,
+      "final_bits": 70.9365901350975,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "idge Matrix]],  Open Standards mesh for community wireless services.\n* [[http://treesaretheenemy.com/ Trees are the Enemy]],  Blog by community wireless activists.\n* [[http://w"
+    },
+    {
+      "word": "Ananthapadmanabha",
+      "encoded_start": 1715412,
+      "final_bits": 69.68439202010632,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " in progress, July 2002.''\n\n*[LBR] (Link life Based routing), ''B. S. Manoj, R. Ananthapadmanabha, and C. Siva Ram Murthy, \"Link life Based Routing Protocol for Ad hoc Wireless "
+    },
+    {
+      "word": "LieLestoSbrat",
+      "encoded_start": 940054,
+      "final_bits": 69.2083387374878,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "/title>\n      <minor />\n      <comment>Reverted edits by [Special:Contributions/LieLestoSbrat|LieLestoSbrat] ([User talk:LieLestoSbrat|talk]) to last version by Thunderbrand"
+    },
+    {
+      "word": "lowescomputerhack",
+      "encoded_start": 1353308,
+      "final_bits": 69.04917186498642,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ethics and legality of wardriving.\n*[[http://charlotte.fbi.gov/dojpressrel/2004/lowescomputerhack.htm]] '...believed to be the first conviction in the [United States] for \"wardr"
+    },
+    {
+      "word": "itsawonderfulinternet",
+      "encoded_start": 1983273,
+      "final_bits": 67.93095856904984,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ttp://www.internetworldstats.com/stats.htm Internet World Stats]]\n*[[http://www.itsawonderfulinternet.com/ The Pros and Cons of the Internet]] (Humor)\n\n===Articles===\n*[[http://www."
+    },
+    {
+      "word": "IpzbrOOl",
+      "encoded_start": 1624124,
+      "final_bits": 67.71959590911865,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "load Length: 36\nPPPoE Tags\n  Tag: Service-Name \n  Tag: AC-Name\n    String Data: IpzbrOOl \n  Tag: Host-Uniq\n    Binary Data: (16 bytes)\n</pre>\n''AC-Name -> String data''"
+    },
+    {
+      "word": "carrieraccessbilling",
+      "encoded_start": 419820,
+      "final_bits": 66.85143887996674,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "e.org (Ericsson removed the book from their site in Sep 2005) \t \n* [[http://www.carrieraccessbilling.com/telecommunications-glossary-a.asp Intec Telecom Systems' ''Telecom Dictiona"
+    },
+    {
+      "word": "Pfannenstiehl",
+      "encoded_start": 127825,
+      "final_bits": 65.38713550567627,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "op permutation code) until the introduction in 1920 of the 10-A teletypewriter (Pfannenstiehl Patents No. 1,374,606, No. 1,399,933, No. 1,426,768, No. 1,623,809, and No. 1,6"
+    },
+    {
+      "word": "nonhygroscopic",
+      "encoded_start": 1301146,
+      "final_bits": 65.09599480032921,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "\"preserve\">In [telecommunication], a '''filled cable''' is a [cable] that has a nonhygroscopic material, usually a [gel], inside the jacket or [sheath].  \n\nThe nonhygroscopic"
+    },
+    {
+      "word": "WakeOnLanOverMobilephone",
+      "encoded_start": 1519485,
+      "final_bits": 64.5537074310705,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "a WOL utility which can be launched from browser.\n* [[http://www.wakeonlan.org/ WakeOnLanOverMobilephone]] \u2013 Wake on lan over mobile phone is a classic WakeOnLan, but you can turn on"
+    },
+    {
+      "word": "TinyMaCLaS",
+      "encoded_start": 1345023,
+      "final_bits": 64.50249222666025,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "odes]]\n*[[http://particle.teco.edu Particle Computer]]\n*[[http://dos.iitm.ac.in/TinyMaCLaS TinyMaCLaS]]\n\n==External references==\n\n* Akyildiz, I.F., W. Su, Y. Sankarasubra"
+    },
+    {
+      "word": "teausscheidungsziffer",
+      "encoded_start": 543649,
+      "final_bits": 64.0209267437458,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "!TR&&!6 did not support [multiple subscriber number]s but featured an ''Endger\u00e4teausscheidungsziffer'' (''EAZ'', German \"user device selection digit\"). ISDN subscribers would get a"
+    },
+    {
+      "word": "BEnsonhurst",
+      "encoded_start": 510607,
+      "final_bits": 63.17820870876312,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "t all, except in the immediate [Los Angeles, California|Los Angeles] area (the \"BEnsonhurst 0\" exchange mentioned in an episode of the popular TV sitcom ''[The Honeymooner"
+    },
+    {
+      "word": "Chulalongkorn",
+      "encoded_start": 1993527,
+      "final_bits": 63.111528158187866,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ped TECHNET in 1990, and [Thailand] gained a global Internet connection between Chulalongkorn University and UUNET in 1992.{ref|AsiaHist}\n\n===A digital divide===\n:''See main"
+    },
+    {
+      "word": "thisisastring",
+      "encoded_start": 1736142,
+      "final_bits": 62.9717857837677,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "e how strings are represented - whether they use the [Visual Basic] method (\"13,thisisastring\") or the [c programming language|C]/[C++] method (\"thisisastring\\0\"). The idea "
+    },
+    {
+      "word": "bredbandsbolaget",
+      "encoded_start": 915961,
+      "final_bits": 62.657104060053825,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "in Madrid. Commercial launch up is planned for 2007. \n\n*[Sweden]\n**[[http://www.bredbandsbolaget.se/ Bredbandsbolaget AB]] supplies fiber-optic VDSL, but not officially.\n\n*[Uni"
+    },
+    {
+      "word": "Vestmannaeyjar",
+      "encoded_start": 1289991,
+      "final_bits": 62.45789998024702,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Islands].\n\n[Cable landing point|Landing points] are:\n*[Pennant Point], Canada\n*[Vestmannaeyjar], Iceland\n*[Tj\u00f8rnuv\u00edk], Faroe Islands\n*[Redcar], England, UK\n*[Blaabjerg], De"
+    },
+    {
+      "word": "gsmnaliaisonfinal",
+      "encoded_start": 928831,
+      "final_bits": 62.27565065026283,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ot be feasible for all countries anytime soon.\n\n* [[http://www.atis.org/pub/ioc/gsmnaliaisonfinal.pdf request to ITU for further clarification]]\n* [[http://www.atis.org/IOC/Docs"
+    },
+    {
+      "word": "AllSPFRouters",
+      "encoded_start": 1812841,
+      "final_bits": 62.16625487804413,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "on the same network segment\n|-\n|224.0.0.5 \n|The Open Shortest Path First (OSPF) AllSPFRouters address. Used to send OSPF routing information to all OSPF routers on a network"
+    },
+    {
+      "word": "adultproductreview",
+      "encoded_start": 789920,
+      "final_bits": 61.64610740542412,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "' Down There Press, 2000. ISBN 0940208261.\n\n== External links ==\n\n*[[http://www.adultproductreview.com/vibrators/ Real user reviews of today's best vibrators]]\n*[[http://www.good"
+    },
+    {
+      "word": "civildefensemuseum",
+      "encoded_start": 997392,
+      "final_bits": 61.523776546120644,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "dreds of unique pictures and many unique recordings and videos.]]\n*[[http://www.civildefensemuseum.com/ Civil Defense Museum - Overview of sirens since their inception]]\n*[[http:"
+    },
+    {
+      "word": "ReseauCitoyen",
+      "encoded_start": 1453441,
+      "final_bits": 61.150330260396004,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tria====\n* ''Funkfeuer'', Vienna - http://www.funkfeuer.at\n\n====Belgium====\n* ''ReseauCitoyen'', Brussels - http://www.reseaucitoyen.be/wiki\n\n====Bosnia and Herzegovina====\n"
+    },
+    {
+      "word": "NorbergONeill",
+      "encoded_start": 1636276,
+      "final_bits": 60.99203448742628,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "he Gatlinburg meeting [[Roberts]] was influenced by Baran's reports'' {NamedRef|NorbergONeill|2}\n* ''If anyone influenced Roberts in his earliest thinking about computer net"
+    },
+    {
+      "word": "Superheterodyne",
+      "encoded_start": 288277,
+      "final_bits": 60.62631653994322,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "receiver] are usually designed to a very high standard, and are usually of the [Superheterodyne receiver|double-conversion superhet] design. Likewise, transmitters are careful"
+    },
+    {
+      "word": "SunSPOTSJune",
+      "encoded_start": 1369352,
+      "final_bits": 60.47515246272087,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "] Slashdot users discuss ZigBee technology\n*[[http://research.sun.com/spotlight/SunSPOTSJune30.pdf Sun Microsystems SunSPOTS]] Sun Microsystems, SunSPOT\n*[[http://www.radio"
+    },
+    {
+      "word": "comoxvalleypayphones",
+      "encoded_start": 679423,
+      "final_bits": 60.27227206341922,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ttp://www.barraclou.com/payphone Barraclou.com Payphones]]\n*** [[http://tnsf.ca/comoxvalleypayphones Comox Valley Pay Phones]] in British Columbia, Canada\n*** [[http://artofhacking"
+    },
+    {
+      "word": "whatsmyipaddy",
+      "encoded_start": 1954353,
+      "final_bits": 60.24898058176041,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " IPv4 address consumption with predictions of exhaustion dates]]\n* [[http://www.whatsmyipaddy.com/ Display your IP Address, Browser Information, and more]]\n* [[http://www.ri"
+    },
+    {
+      "word": "Azerbaidzhan",
+      "encoded_start": 817996,
+      "final_bits": 60.18219621479511,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "\n'''+992:''' [Tajikistan|TJ]<br>\n'''+993:''' [Turkmenistan|TM]<br>\n'''+994:''' [Azerbaidzhan|AZ]<br>\n'''+995:''' [Georgia (country)|GE]<br>\n'''+996:''' [Kyrgyzstan|KG]<br>\n"
+    },
+    {
+      "word": "EZchakuuta",
+      "encoded_start": 868877,
+      "final_bits": 60.07244038581848,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " strong demand by customers. Music downloads were pioneered by [KDDI] with the [EZchakuuta] and the [Chaku Uta Full] services.\n\n''Next generation (3G) wireless networks a"
+    },
+    {
+      "word": "UnPlugFest",
+      "encoded_start": 1591950,
+      "final_bits": 59.65834981203079,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "mittee\n*Regulatory committee\n*Roadmapping committee\n*Test initiative committee\n*UnPlugFest forum\n(UnPlugFest is an annual event at which manufacturers are invited to conf"
+    },
+    {
+      "word": "ThicknotThin",
+      "encoded_start": 1347951,
+      "final_bits": 59.616148352622986,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ttached to both ends.\n\nsee picture here: http://www.certiguide.com/apfr/cg_apfr_ThicknotThin.htm\n\n{compu-stub}</text>\n    </revision>\n  </page>\n  <page>\n    <title>Wardrivi"
+    },
+    {
+      "word": "WhereWizardsStayUpLate",
+      "encoded_start": 1988069,
+      "final_bits": 59.59894159436226,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "grown to 213, with a new host being added approximately every twenty days. {ref|WhereWizardsStayUpLate} {ref|FromtheARPANETtotheInternet} \n\n[ARPANET] became the technical core of wha"
+    },
+    {
+      "word": "Foilhommerum",
+      "encoded_start": 1223807,
+      "final_bits": 59.59284830093384,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "out gear. At noon on [July 15], [1865], the ''Great Eastern'' left the Nore for Foilhommerum Bay, Valentia Island, where the shore end was laid by the \"Caroline\".  This att"
+    },
+    {
+      "word": "bellsystemmemorial",
+      "encoded_start": 575723,
+      "final_bits": 59.58304446935654,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "journal.com/phonepost/ogg.bml Playing the DTMF ogg sound files]]\n* [[http://www.bellsystemmemorial.com/pdf/touchtone_hf.pdf Bell System Technical Journal:  Human Factors Engineer"
+    },
+    {
+      "word": "InternetAssignedNumberAuthority",
+      "encoded_start": 1735527,
+      "final_bits": 59.10079575330019,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "==\n* [[http://www.iana.org/assignments/port-numbers List of common Ports at the InternetAssignedNumberAuthority]]\n\n\n[Category:Computer architecture]\n\n    </revision>\n  </page>\n  <page>\n    <t"
+    },
+    {
+      "word": "FVisitorWrapper",
+      "encoded_start": 1217062,
+      "final_bits": 59.06371908634901,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "&&packedargs=c%3DL_Product_C2%26cid%3D1115416829339&&pagename=Linksys%2FCommon%2FVisitorWrapper addon antennas]] for its routers which use the connector.\n\n== References ==\n* ["
+    },
+    {
+      "word": "ArtikelKnyrim",
+      "encoded_start": 878855,
+      "final_bits": 58.80520510673523,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " GSM cellphone tracking and location]]\n*[[http://www.preslmayr.at/puplikationen/ArtikelKnyrim_Detektiv_beutete%20Handy_Netzdaten_aus_Die%20Presse_28112005.pdf Misuse of Cell"
+    },
+    {
+      "word": "armorcertkits",
+      "encoded_start": 1137418,
+      "final_bits": 58.310935378074646,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "icago]]\n\nList your unit here\n\nSee also: [ZAKA]\n\n==CERT Equipment==\n[[http://www.armorcertkits.com Armor CERT Kits.]]\n\n==External links==\n[Image:EMANZ.gif] [[http://www.emanz"
+    },
+    {
+      "word": "nettkatalogen",
+      "encoded_start": 687198,
+      "final_bits": 58.02600872516632,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "http://www.pagesjaunes.fr WhitePages && YellowPages for France]]\n* [[http://www.nettkatalogen.no/ Nettkatalogen for Norway]]\n* [[http://www.telefonkatalogen.no/ Telefonkatal"
+    },
+    {
+      "word": "freepatentsonline",
+      "encoded_start": 22595,
+      "final_bits": 57.86273746937513,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s]]\n\n<!-- probably should move these 2 to [snake in the box] -->\n* [[http://www.freepatentsonline.com/20020126407.html  Use of snake-in-the-box codes for reliable identification"
+    },
+    {
+      "word": "Pressreleasesandarticles",
+      "encoded_start": 648221,
+      "final_bits": 57.72484230995178,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "26 Apr 2004).  BT Wholesale Web Call Connect service: http://www.btplc.com/News/Pressreleasesandarticles/Corporatenewsreleases/2004/nr0426.htm   Press Release.\n\n[Category:Computer_and_"
+    },
+    {
+      "word": "Corporatenewsreleases",
+      "encoded_start": 648241,
+      "final_bits": 57.639059364795685,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "le Web Call Connect service: http://www.btplc.com/News/Pressreleasesandarticles/Corporatenewsreleases/2004/nr0426.htm   Press Release.\n\n[Category:Computer_and_telecommunication_stan"
+    },
+    {
+      "word": "breitbandkatze",
+      "encoded_start": 120878,
+      "final_bits": 57.44874581694603,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ool to compute common CRCs (8/16/32/64) from strings\n* Online [[http://www.zorc.breitbandkatze.de/crc.html CRC calculator]]\n* Online [[http://www.easics.com/webtools/crctool "
+    },
+    {
+      "word": "occawlonline",
+      "encoded_start": 14420,
+      "final_bits": 57.33505231142044,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "Tower of Hanoi|Tower of Hanoi problem]. A detailed method may be found [[http://occawlonline.pearsoned.com/bookbind/pubbooks/miller2_awl/chapter4/essay1/deluxe-content.html"
+    },
+    {
+      "word": "TeliaSonera",
+      "encoded_start": 643412,
+      "final_bits": 57.22533765435219,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ut i'd like to know if the prefixes have a proper name before i do so-->\n*990 ([TeliaSonera] in Finland)\n*991 ([Jippii] in Finland)\n*992 ([Tele2] in Finland before August "
+    },
+    {
+      "word": "simulataneously",
+      "encoded_start": 345651,
+      "final_bits": 57.15395197272301,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " input to any output. Advanced SONET DCSs can support numerous subtending rings simulataneously.\n\n== SONET Network Architectures==\nCurrently, SONET (and SDH) have a limited nu"
+    },
+    {
+      "word": "firstmilesolutions",
+      "encoded_start": 1444955,
+      "final_bits": 57.004012286663055,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "d 802.11b wireless internet (Guinness Approved ed. 2005 pg. 112).\n*[[http://www.firstmilesolutions.com First Mile Solutions]] Free WiFi internet for developing and developed coun"
+    },
+    {
+      "word": "resetNpaReportModel",
+      "encoded_start": 626425,
+      "final_bits": 56.98733435571194,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " information in its [[http://www.nanpa.com/nas/public/npa_query_step1.do?method=resetNpaReportModel information on individual area codes]].\n\nIn areas without overlays and without "
+    },
+    {
+      "word": "Getaddrinfo",
+      "encoded_start": 1935611,
+      "final_bits": 56.46917271614075,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "C 3493: Basic Socket Interface Extensions for IPv6 (obsoletes RFC 2553)\n** see [Getaddrinfo#Protocol_Independent_Programming|<tt>getaddrinfo</tt>] for an example of client"
+    },
+    {
+      "word": "Aadoublejackplug",
+      "encoded_start": 1178913,
+      "final_bits": 56.465896643698215,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "when it is desired to restrict the availability of matching connectors.\n\n[Image:Aadoublejackplug.jpg|thumb|225px|right|An obsolete six conductor, two pin jack plug]\n\nSeveral ob"
+    },
+    {
+      "word": "electromagentic",
+      "encoded_start": 3084,
+      "final_bits": 56.45975089073181,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "onal antenna]s\n\n[carrier wave|Carrier signals] are usually high frequency [wave|electromagentic waves].\n\nExamples of '''modulation''' include:\n*[amplitude modulation]\n*[freque"
+    },
+    {
+      "word": "troubleshoot",
+      "encoded_start": 347247,
+      "final_bits": 55.87732768058777,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s its own timing circuits to time the SONET signal.\n\nAn interesting and hard-to-troubleshoot issue in SONET Networks is the existence of \"timing loops\". With a timing loop,"
+    },
+    {
+      "word": "unitedwayatl",
+      "encoded_start": 590162,
+      "final_bits": 55.81872284412384,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "page]]\n*[[http://www.211.org/status.html 211 status in the U.S.]]\n*[[http://www.unitedwayatl.org/e0-211.asp United Way Atlanta page on 211]]\n*[[http://www.211toronto.ca/ 21"
+    },
+    {
+      "word": "PAPADEMETRIOU",
+      "encoded_start": 1726951,
+      "final_bits": 55.77606511116028,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "MM.pdf'' \n\n*[IMEP] (Internet Manet Encapsulation Protocol) - ''M. S. CORSON, S. PAPADEMETRIOU, P. PAPADOPOULOS, V. PARK, A. QAYYUM INTERNET MANET ENCAPSULATION PROTOCOL (IME"
+    },
+    {
+      "word": "GSMNALetter",
+      "encoded_start": 926058,
+      "final_bits": 55.771834161132574,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tated that a one stage process is used [[http://www.ifast.org/files/IFAST22_015_GSMNALetter.pdf]].\n\nIn North America, the IMSI is just directly converted to an E.212 numbe"
+    },
+    {
+      "word": "Bundesanwaltschaft",
+      "encoded_start": 1244472,
+      "final_bits": 55.698868948966265,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " ''Radikal'' is illegal in Germany, and to prevent its publication the German ''Bundesanwaltschaft'' ordered commercial ISPs in Germany to block its website. They ended up blocki"
+    },
+    {
+      "word": "TErrestrial",
+      "encoded_start": 280929,
+      "final_bits": 55.61297559738159,
+      "recurrence": "article_repeat",
+      "context": "   <title>Terrestrial Trunked Radio</title>\n      <text xml:space=\"preserve\">'''TErrestrial Trunked RAdio''' ('''TETRA''') is a specialist [Professional Mobile Radio] and "
+    },
+    {
+      "word": "firstemailframe",
+      "encoded_start": 1638890,
+      "final_bits": 55.24520134925842,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " of [BBN] sent the first network [email] [[http://openmap.bbn.com/~tomlinso/ray/firstemailframe.html]]. By 1973, the File Transfer Protocol ([File Transfer Protocol|FTP]) spec"
+    },
+    {
+      "word": "electromagnets",
+      "encoded_start": 474139,
+      "final_bits": 55.147263407707214,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " at right angles to the first (hence the name, \"crossbar\") and also operated by electromagnets. One set of bars carries [spring (device)|spring] -- loaded [wire] fingers that"
+    },
+    {
+      "word": "Xiaolingtong",
+      "encoded_start": 873479,
+      "final_bits": 55.062467351555824,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ory: mobile telephony standards]\n\n    </revision>\n  </page>\n  <page>\n    <title>Xiaolingtong</title>\n      <comment>/* External links */</comment>\n      <text xml:space=\"pr"
+    },
+    {
+      "word": "Dehardwarization",
+      "encoded_start": 216909,
+      "final_bits": 54.95444913581014,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nmodem with support for [Linux].\n\n''See also:'' [GDI#GDI printers|Winprinter], [Dehardwarization]\n\n==External links==\n* [[http://www.56k.com/reports/winmodem.shtml A review of "
+    },
+    {
+      "word": "deinterleaver",
+      "encoded_start": 45552,
+      "final_bits": 54.89988753199577,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s.\nThe decoded 28-byte blocks, with erasure indications, are then spread by the\ndeinterleaver to different blocks of the (28,24) outer code. Thanks to the deinterleaving, an"
+    },
+    {
+      "word": "DPDecimal",
+      "encoded_start": 156993,
+      "final_bits": 54.868470907211304,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "l/chen-ho.html IBM: Chen-Ho encoding]]  \n*[[http://www2.hursley.ibm.com/decimal/DPDecimal.html IBM: Densely Packed Decimal]].\n\n==References==\n*Schmid, Hermann, ''Decimal"
+    },
+    {
+      "word": "buenosaireslibre",
+      "encoded_start": 1453176,
+      "final_bits": 54.76716423034668,
+      "recurrence": "article_repeat",
+      "context": "America===\n\n====Argentina====\n* ''BuenosAiresLibre'', Buenos Aires - http://www.buenosaireslibre.org\n* ''Mendoza Wireless'', Mendoza- http://www.mendozawireless.net.ar\n* ''Oest"
+    },
+    {
+      "word": "Arabicmobilephone",
+      "encoded_start": 1080100,
+      "final_bits": 54.63790990784764,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "age:Cell phones.jpg|thumb|right|250px|Mobile phones from various years]\n\n[Image:Arabicmobilephone.jpg|thumb|right|250px|An Arabic language mobile phone]\n\n\n\nA '''mobile phone''' "
+    },
+    {
+      "word": "federalwarningsystems",
+      "encoded_start": 993277,
+      "final_bits": 54.5685119330883,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nal Corp (http://www.americansignal.com/)\n* Federal Warning Systems (http://www.federalwarningsystems.com/)\n* Whelen Engineering (http://www.whelen.com/)\n* Hormann America Inc (http"
+    },
+    {
+      "word": "illusivecreations",
+      "encoded_start": 1983800,
+      "final_bits": 54.51861536502838,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "bsite accompanying a book (ISBN 0742528103) on the history of DNS\n*[[http://www.illusivecreations.com Canada Web Design]] company that offers over 300 [[http://www.illusivecreat"
+    },
+    {
+      "word": "Thomasjfletcher",
+      "encoded_start": 916436,
+      "final_bits": 54.417532205581665,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "/title>\n      <minor />\n      <comment>Reverted edits by [Special:Contributions/Thomasjfletcher|Thomasjfletcher] ([User talk:Thomasjfletcher|talk]) to last version by Wizard19"
+    },
+    {
+      "word": "cheshirecatalyst",
+      "encoded_start": 630787,
+      "final_bits": 54.31547510623932,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "d get the 321 \"[countdown]\" area code as requested by Richard Cheshire [[http://cheshirecatalyst.com/321.html]].)\n\n===Splits and overlays===\n\nBy [1995], many cities in the [Uni"
+    }
+  ]
+}

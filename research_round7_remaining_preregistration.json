@@ -1,0 +1,39 @@
+{
+  "version": "remaining_experts_v1",
+  "session": 355529591,
+  "fixed_before_results": {
+    "slices": "ABCD cold2M, A/B screens; C/D confirmation only, not pristine validation",
+    "strengths": [
+      -0.125,
+      0.125,
+      0.5,
+      1.0
+    ],
+    "mixture": "half prior neutral, half equally over60 models; posterior uses only previous bits",
+    "normalization": "word expert subtree conditional log odds minus matched adaptive-global subtree conditional log odds",
+    "integer": "p/65536, round nearest to[1,65535]; neutral returns original integer",
+    "article_bank": "1024 completed pages; up to4 donors by observed title overlap; top32 bounded word counters; cold baseline and cold candidate",
+    "features": "ASCII word completion after delimiter, including literal I; no future length, spelling or POS gate",
+    "limits": "4096 causal rows/32 edges, recent128, article bank1024, static8 geometry neighbors",
+    "selection": "do not select best full-ABCD arm as free oracle; byte gain not qualifying archive",
+    "new_EF": "required after source fidelity/full-stream regeneration for any optimized positive",
+    "I09_scope": "TTL/survival recency screen; full counterfactual hazard fitting contingent on screen",
+    "I10_scope": "original-transformer training remains blocked by numerical parity; tiny final-bit residual can be tested separately",
+    "paid_rental_usd": 0,
+    "deletions": []
+  },
+  "sources": {
+    "research_round7_remaining_experts.cpp": {
+      "bytes": 12999,
+      "sha256": "b54c35169529eae8cc4269c40585f94bfa77121b25e4d1a0aa51982a5b962d17"
+    },
+    "research_round7_remaining_constructors.txt": {
+      "bytes": 1125,
+      "sha256": "dc1d039d53d5e0d0ddb6e6e89c968fb04a74d421d0d1532cbc5ac4c0364e5982"
+    },
+    "research_round7_remaining_graph.txt": {
+      "bytes": 2082856,
+      "sha256": "f2e6717d7663958fba6374cf4eef0e984e1dac191f81a36a5316324af26829ed"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "FAIL_PRESERVED_NO_RETRY",
+  "started": 1791449007.1129797,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-group-weight-storage-v1",
+      "folder": "group-weight-storage",
+      "worker_count": 4,
+      "main_sha256": "1f6f439fad03652a822f05e3dc05516655c557ca1dce71e831c9bb5711918cba",
+      "internet": false,
+      "exit": 0,
+      "verified_push": {
+        "actual_ref": "chaoscpp/hutter-r14-group-weight-storage-v1",
+        "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-group-weight-storage-v1",
+        "version": 1
+      }
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-article-order-ppmd-v1",
+      "folder": "article-order-ppmd",
+      "worker_count": 4,
+      "main_sha256": "5de1e93bd838405f38e0936ca210d09b37e4655246c749a9aea11038b921ea06",
+      "internet": true,
+      "exit": 0,
+      "verified_push": null,
+      "failure": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.0.2), please consider upgrading to the latest version (2.2.2)\nKernel push error: Maximum batch CPU session count of 5 reached.\n"
+    }
+  ],
+  "deletions": [],
+  "paid_usd": 0,
+  "GPU": false,
+  "error": "AssertionError('unverified API response; no automatic retry or quota bypass')",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/r14_dispatch_v2.py\", line 27, in <module>\n    M['jobs'].append(r);save();assert r['verified_push'],'unverified API response; no automatic retry or quota bypass'\n                                      ~^^^^^^^^^^^^^^^^^\nAssertionError: unverified API response; no automatic retry or quota bypass\n"
+}

@@ -1,0 +1,79 @@
+{
+  "status": "COMPLETE_NEGATIVE_SCREEN",
+  "total_input_bytes": 8000000,
+  "ASCII_word_events": 1884022,
+  "constructor_occurrences": 629700,
+  "fixed_lexicon_count": 176,
+  "constructor_native_span_share": 0.17199702232515876,
+  "constructor_native_span_bits": 2078785.5582213488,
+  "all_native_bits": 12086171.784366267,
+  "constructor_gaps": 1254326,
+  "gaps_with_two_or_more_constructors": 158731,
+  "gap_share_length_zero_or_one": 0.873453153326966,
+  "within_slice_distinct_template_reduction_percent": [
+    2.8831562974203306,
+    6.167004276389831,
+    6.158427635497321,
+    5.516328331862308
+  ],
+  "casefold_empirical_conditional_order_bits_in_sample_only": 11573.92666915676,
+  "cpu_seconds_prototype": 175.32134183,
+  "wall_seconds_prototype": 176.1643335560002,
+  "prototype_max_RSS_KiB_reported": 593568,
+  "matched_codec_aggregate": [
+    {
+      "representation": "direct",
+      "codec": "zlib9",
+      "original_archive_bytes": 3623465,
+      "candidate_archive_bytes": 4406973,
+      "increase_bytes_before_incremental_decoder": 783508,
+      "increase_percent": 21.623170087195543
+    },
+    {
+      "representation": "direct",
+      "codec": "lzma6",
+      "original_archive_bytes": 2894828,
+      "candidate_archive_bytes": 3485808,
+      "increase_bytes_before_incremental_decoder": 590980,
+      "increase_percent": 20.41502983942396
+    },
+    {
+      "representation": "ordered_templates",
+      "codec": "zlib9",
+      "original_archive_bytes": 3623465,
+      "candidate_archive_bytes": 4306392,
+      "increase_bytes_before_incremental_decoder": 682927,
+      "increase_percent": 18.847346393576323
+    },
+    {
+      "representation": "ordered_templates",
+      "codec": "lzma6",
+      "original_archive_bytes": 2894828,
+      "candidate_archive_bytes": 3517000,
+      "increase_bytes_before_incremental_decoder": 622172,
+      "increase_percent": 21.492537725902892
+    },
+    {
+      "representation": "multiset_plus_order",
+      "codec": "zlib9",
+      "original_archive_bytes": 3623465,
+      "candidate_archive_bytes": 4329052,
+      "increase_bytes_before_incremental_decoder": 705587,
+      "increase_percent": 19.472714652963386
+    },
+    {
+      "representation": "multiset_plus_order",
+      "codec": "lzma6",
+      "original_archive_bytes": 2894828,
+      "candidate_archive_bytes": 3537608,
+      "increase_bytes_before_incremental_decoder": 642780,
+      "increase_percent": 22.20442803510261
+    }
+  ],
+  "all_24_raw_roundtrips": "PASS",
+  "source_and_preserved_result_cost_hashes": "PASS",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "interpretation": "Negative exact two-stream representation screen against matched zlib/LZMA; not a cmix result and not a proof against all conditional syntax models. Constructor budget is sampled fixed-lexicon raw spans, not a global corpus bound. Additional decoder/model cost only worsens current negative packets."
+}

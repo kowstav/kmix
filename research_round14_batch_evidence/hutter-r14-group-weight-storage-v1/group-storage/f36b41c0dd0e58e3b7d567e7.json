@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.5.attention.value_convolution.weight",
+  "names": [
+    "blocks.5.attention.value_convolution.weight"
+  ],
+  "label": "f36b41c0dd0e58e3b7d567e7",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1473
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1445
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1436
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1425
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1435
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1473
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1445
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1473
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1445
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1477
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1556
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1450
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1694
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1425,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "0cda3cc2a6f79ebdaf5b6db30dafb28b2c66814251cff6665758c477b2e0b05c",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.016463000000000394,
+  "wall_seconds": 0.020667936999984704
+}

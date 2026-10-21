@@ -1,0 +1,112 @@
+{
+  "slice": "a",
+  "raw_bytes": 2000000,
+  "unscored_prefix_bytes": 28,
+  "baseline_ideal_bytes": 193366.1721879462,
+  "word_bits": 1197648.5808013657,
+  "word_share_baseline": 0.7742102504602554,
+  "assigned_word_bits_check": -2.3283064365386963e-10,
+  "distinct_words_in_slice": 19348,
+  "article_count": 1851,
+  "contract": "cold history at slice start; observed span attribution only; categories overlap; no oracle savings claimed",
+  "categories": {
+    "first_in_decoded_prefix": {
+      "occurrences": 19348,
+      "final_bits": 374183.9071848131,
+      "encoded_bytes": 102978,
+      "share_total_bits": 0.24188816414403486,
+      "bits_per_occurrence": 19.33966855410446
+    },
+    "unseen_after_previous_word": {
+      "occurrences": 92283,
+      "final_bits": 867902.0704842525,
+      "encoded_bytes": 301963,
+      "share_total_bits": 0.5610482825562926,
+      "bits_per_occurrence": 9.404788211092537
+    },
+    "hard_word_first_in_decoded_prefix": {
+      "occurrences": 11017,
+      "final_bits": 277005.517656483,
+      "encoded_bytes": 75399,
+      "share_total_bits": 0.17906797923995324,
+      "bits_per_occurrence": 25.14346170976518
+    },
+    "known_word_first_in_current_article": {
+      "occurrences": 182087,
+      "final_bits": 668716.827640307,
+      "encoded_bytes": 482048,
+      "share_total_bits": 0.43228659133714326,
+      "bits_per_occurrence": 3.6725127419327412
+    },
+    "article_repeat_under_1024": {
+      "occurrences": 126394,
+      "final_bits": 143861.38308687112,
+      "encoded_bytes": 242494,
+      "share_total_bits": 0.09299802898502983,
+      "bits_per_occurrence": 1.1381978819158436
+    },
+    "seen_after_previous_word_top1": {
+      "occurrences": 124398,
+      "final_bits": 33494.78395291166,
+      "encoded_bytes": 227304,
+      "share_total_bits": 0.02165243251567531,
+      "bits_per_occurrence": 0.26925500372121464
+    },
+    "seen_after_previous_word_top5": {
+      "occurrences": 54806,
+      "final_bits": 59607.56616200783,
+      "encoded_bytes": 126264,
+      "share_total_bits": 0.03853282963583144,
+      "bits_per_occurrence": 1.087610228113853
+    },
+    "seen_after_previous_word_outside_top5": {
+      "occurrences": 59085,
+      "final_bits": 236422.05250119796,
+      "encoded_bytes": 180470,
+      "share_total_bits": 0.15283312602333224,
+      "bits_per_occurrence": 4.00138871966147
+    },
+    "hard_word_article_repeat_under_1024": {
+      "occurrences": 56,
+      "final_bits": 1004.6330086768139,
+      "encoded_bytes": 151,
+      "share_total_bits": 0.0006494368930390913,
+      "bits_per_occurrence": 17.939875154943106
+    },
+    "article_repeat_1024_to_4096": {
+      "occurrences": 3999,
+      "final_bits": 9574.569784248568,
+      "encoded_bytes": 10196,
+      "share_total_bits": 0.00618940329370432,
+      "bits_per_occurrence": 2.3942410063137203
+    },
+    "hard_word_known_word_first_in_current_article": {
+      "occurrences": 2438,
+      "final_bits": 44187.26616730564,
+      "encoded_bytes": 10456,
+      "share_total_bits": 0.028564501269356543,
+      "bits_per_occurrence": 18.12439137297196
+    },
+    "hard_word_article_repeat_1024_to_4096": {
+      "occurrences": 12,
+      "final_bits": 208.97141039487906,
+      "encoded_bytes": 63,
+      "share_total_bits": 0.00013508788017984152,
+      "bits_per_occurrence": 17.414284199573256
+    },
+    "article_repeat_4096_to_16384": {
+      "occurrences": 596,
+      "final_bits": 1311.8931051258696,
+      "encoded_bytes": 1810,
+      "share_total_bits": 0.0008480627003431785,
+      "bits_per_occurrence": 2.20116292806354
+    },
+    "hard_word_article_repeat_4096_to_16384": {
+      "occurrences": 7,
+      "final_bits": 125.71686344966292,
+      "encoded_bytes": 30,
+      "share_total_bits": 8.126865083688853e-05,
+      "bits_per_occurrence": 17.959551921380417
+    }
+  }
+}

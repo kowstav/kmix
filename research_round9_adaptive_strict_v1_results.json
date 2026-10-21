@@ -1,0 +1,77 @@
+{
+  "status": "FAIL_STRICT_CPP_REPLAY",
+  "pid": 2160,
+  "started": 1791306075.1734312,
+  "spending_usd": 0,
+  "deletions": [],
+  "stage": "strict-FP replay compared; native core was not rerun",
+  "strict_CPP_seconds": 1.2580749200024002,
+  "count": 4194304,
+  "unequal_Q16_events": 190,
+  "first_mismatches": [
+    {
+      "index": 8533,
+      "reference": 46278,
+      "CPP": 46279
+    },
+    {
+      "index": 143065,
+      "reference": 17270,
+      "CPP": 17271
+    },
+    {
+      "index": 271186,
+      "reference": 12267,
+      "CPP": 12266
+    },
+    {
+      "index": 296305,
+      "reference": 61487,
+      "CPP": 61486
+    },
+    {
+      "index": 296713,
+      "reference": 8183,
+      "CPP": 8182
+    },
+    {
+      "index": 298338,
+      "reference": 62618,
+      "CPP": 62619
+    },
+    {
+      "index": 314665,
+      "reference": 13991,
+      "CPP": 13990
+    },
+    {
+      "index": 318737,
+      "reference": 17442,
+      "CPP": 17441
+    },
+    {
+      "index": 322747,
+      "reference": 55065,
+      "CPP": 55066
+    },
+    {
+      "index": 325127,
+      "reference": 5,
+      "CPP": 6
+    },
+    {
+      "index": 329306,
+      "reference": 61849,
+      "CPP": 61850
+    },
+    {
+      "index": 332282,
+      "reference": 59390,
+      "CPP": 59391
+    }
+  ],
+  "strict_Q16_sha256": "f2f4dc9f5f5726225518cd9a6bbedc3248cbe85eafb5101f0be9f924efa5e9bb",
+  "reference_Q16_sha256": "bea3240161af9516ef22fb223d3f4f6c755eea456dbeeae170805427511542d2",
+  "source_sha256": "8b950b9fc0e011539afeace654038a4b2e55ebabff65de92ab2f383fa1e88dda",
+  "finished": 1791306079.295839
+}

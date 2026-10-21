@@ -1,0 +1,1150 @@
+[
+  {
+    "ascii_word_events": 332422,
+    "word_stats": {
+      "and": {
+        "count": 4239,
+        "native_complete_span_bits": 9456.83824833529
+      },
+      "diamond": {
+        "count": 1,
+        "native_complete_span_bits": 11.620869247242808
+      },
+      "i": {
+        "count": 2018,
+        "native_complete_span_bits": 3249.614007575554
+      },
+      "in": {
+        "count": 3236,
+        "native_complete_span_bits": 8073.683993189014
+      },
+      "is": {
+        "count": 1983,
+        "native_complete_span_bits": 4348.804131736048
+      },
+      "know": {
+        "count": 1,
+        "native_complete_span_bits": 12.108344554901123
+      },
+      "no": {
+        "count": 102,
+        "native_complete_span_bits": 313.7074292683974
+      },
+      "now": {
+        "count": 69,
+        "native_complete_span_bits": 314.51598704070784
+      },
+      "of": {
+        "count": 18279,
+        "native_complete_span_bits": 9437.872795928735
+      },
+      "the": {
+        "count": 10793,
+        "native_complete_span_bits": 20325.852975306218
+      },
+      "to": {
+        "count": 2266,
+        "native_complete_span_bits": 3630.1369180019246
+      },
+      "was": {
+        "count": 287,
+        "native_complete_span_bits": 1164.0892537403852
+      },
+      "with": {
+        "count": 382,
+        "native_complete_span_bits": 1745.9221476768143
+      }
+    },
+    "example_pairs": [
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 102
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 2,
+        "source_exposures": 101
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 100
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 64,
+        "pair_count": 1,
+        "source_exposures": 46
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 69
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 68
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 68
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 68
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 26
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 5
+      }
+    ],
+    "wall_seconds": 7.748231492999821,
+    "interpretation": "Full ASCII words including literal i and markup; observational counts, not a codec or a claim about grammatical sentences",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": [],
+    "slice": "a"
+  },
+  {
+    "ascii_word_events": 513038,
+    "word_stats": {
+      "and": {
+        "count": 10413,
+        "native_complete_span_bits": 30152.748979253694
+      },
+      "diamond": {
+        "count": 0,
+        "native_complete_span_bits": 0
+      },
+      "i": {
+        "count": 1064,
+        "native_complete_span_bits": 2262.2235407386906
+      },
+      "in": {
+        "count": 8653,
+        "native_complete_span_bits": 30807.388933151495
+      },
+      "is": {
+        "count": 7570,
+        "native_complete_span_bits": 14621.12435979885
+      },
+      "know": {
+        "count": 70,
+        "native_complete_span_bits": 529.4931462090462
+      },
+      "no": {
+        "count": 503,
+        "native_complete_span_bits": 3019.4902380723506
+      },
+      "now": {
+        "count": 298,
+        "native_complete_span_bits": 2033.0613470631652
+      },
+      "of": {
+        "count": 12389,
+        "native_complete_span_bits": 17687.15448286722
+      },
+      "the": {
+        "count": 26576,
+        "native_complete_span_bits": 56662.38910676865
+      },
+      "to": {
+        "count": 11846,
+        "native_complete_span_bits": 22761.771611931268
+      },
+      "was": {
+        "count": 1837,
+        "native_complete_span_bits": 5158.317849027924
+      },
+      "with": {
+        "count": 2932,
+        "native_complete_span_bits": 12502.089514875086
+      }
+    },
+    "example_pairs": [
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 70
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 70
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 69
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 503
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 6,
+        "pair_count": 2,
+        "source_exposures": 503
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 8,
+        "pair_count": 2,
+        "source_exposures": 502
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 498
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 32,
+        "pair_count": 2,
+        "source_exposures": 489
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 503
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 503
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 502
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 502
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 498
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 489
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 64,
+        "pair_count": 2,
+        "source_exposures": 467
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 298
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 296
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 64,
+        "pair_count": 1,
+        "source_exposures": 276
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 3,
+        "pair_count": 1,
+        "source_exposures": 298
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 298
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 287
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 64,
+        "pair_count": 1,
+        "source_exposures": 276
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 59
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 335
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 275
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 335
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 252
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 3,
+        "pair_count": 1,
+        "source_exposures": 273
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 261
+      }
+    ],
+    "wall_seconds": 6.340884324999934,
+    "interpretation": "Full ASCII words including literal i and markup; observational counts, not a codec or a claim about grammatical sentences",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": [],
+    "slice": "b"
+  },
+  {
+    "ascii_word_events": 525964,
+    "word_stats": {
+      "and": {
+        "count": 10706,
+        "native_complete_span_bits": 30929.591832668055
+      },
+      "diamond": {
+        "count": 2,
+        "native_complete_span_bits": 25.351575016975403
+      },
+      "i": {
+        "count": 1136,
+        "native_complete_span_bits": 3385.3369899564423
+      },
+      "in": {
+        "count": 9409,
+        "native_complete_span_bits": 32731.614425530657
+      },
+      "is": {
+        "count": 9038,
+        "native_complete_span_bits": 15452.086776539683
+      },
+      "know": {
+        "count": 36,
+        "native_complete_span_bits": 233.990963421762
+      },
+      "no": {
+        "count": 373,
+        "native_complete_span_bits": 2473.1456260895357
+      },
+      "now": {
+        "count": 206,
+        "native_complete_span_bits": 1447.9642675956711
+      },
+      "of": {
+        "count": 14956,
+        "native_complete_span_bits": 21358.913654794684
+      },
+      "the": {
+        "count": 30168,
+        "native_complete_span_bits": 58736.08065669355
+      },
+      "to": {
+        "count": 10832,
+        "native_complete_span_bits": 20974.92743200541
+      },
+      "was": {
+        "count": 1390,
+        "native_complete_span_bits": 3943.081838177517
+      },
+      "with": {
+        "count": 2823,
+        "native_complete_span_bits": 12139.857241031714
+      }
+    },
+    "example_pairs": [
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 36
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 3,
+        "source_exposures": 373
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 2,
+        "source_exposures": 373
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 373
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 2,
+        "source_exposures": 373
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 366
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 206
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 206
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 1,
+        "pair_count": 1,
+        "source_exposures": 206
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 206
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 206
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 3,
+        "source_exposures": 315
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 264
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 95
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 182
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 142
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 1,
+        "pair_count": 1,
+        "source_exposures": 198
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 192
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 4,
+        "pair_count": 1,
+        "source_exposures": 182
+      }
+    ],
+    "wall_seconds": 5.949561270000231,
+    "interpretation": "Full ASCII words including literal i and markup; observational counts, not a codec or a claim about grammatical sentences",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": [],
+    "slice": "c"
+  },
+  {
+    "ascii_word_events": 512598,
+    "word_stats": {
+      "and": {
+        "count": 13291,
+        "native_complete_span_bits": 32698.897356628673
+      },
+      "diamond": {
+        "count": 6,
+        "native_complete_span_bits": 65.12116651795805
+      },
+      "i": {
+        "count": 660,
+        "native_complete_span_bits": 2509.84664769331
+      },
+      "in": {
+        "count": 10897,
+        "native_complete_span_bits": 34536.520015224814
+      },
+      "is": {
+        "count": 7019,
+        "native_complete_span_bits": 14913.594700278714
+      },
+      "know": {
+        "count": 125,
+        "native_complete_span_bits": 715.4024214935489
+      },
+      "no": {
+        "count": 487,
+        "native_complete_span_bits": 3141.749138884712
+      },
+      "now": {
+        "count": 231,
+        "native_complete_span_bits": 1853.6487940996885
+      },
+      "of": {
+        "count": 16597,
+        "native_complete_span_bits": 19827.462174722343
+      },
+      "the": {
+        "count": 34378,
+        "native_complete_span_bits": 69740.84041506867
+      },
+      "to": {
+        "count": 10864,
+        "native_complete_span_bits": 21427.792262434727
+      },
+      "was": {
+        "count": 3103,
+        "native_complete_span_bits": 8876.410741894506
+      },
+      "with": {
+        "count": 3016,
+        "native_complete_span_bits": 12083.337231440935
+      }
+    },
+    "example_pairs": [
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 1,
+        "pair_count": 2,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 4,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 124
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 124
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 125
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 1,
+        "pair_count": 2,
+        "source_exposures": 487
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 2,
+        "pair_count": 2,
+        "source_exposures": 487
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 2,
+        "source_exposures": 487
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 2,
+        "source_exposures": 487
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 6,
+        "pair_count": 2,
+        "source_exposures": 485
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 3,
+        "source_exposures": 485
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 484
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 4,
+        "source_exposures": 478
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 475
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 485
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 8,
+        "pair_count": 2,
+        "source_exposures": 484
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 32,
+        "pair_count": 1,
+        "source_exposures": 475
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 487
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 6,
+        "pair_count": 2,
+        "source_exposures": 485
+      },
+      {
+        "scope": "article",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 64,
+        "pair_count": 1,
+        "source_exposures": 462
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 2,
+        "pair_count": 2,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 2,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "know",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 1,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "article",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 231
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 1,
+        "pair_count": 1,
+        "source_exposures": 115
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 3,
+        "source_exposures": 103
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 29
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 108
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "know",
+        "target": "no",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 76
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 1,
+        "pair_count": 1,
+        "source_exposures": 474
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 426
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 1,
+        "source_exposures": 400
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 325
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 303
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 270
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 303
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "know",
+        "lag_ASCII_words": 8,
+        "pair_count": 1,
+        "source_exposures": 247
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "no",
+        "target": "now",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 426
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 2,
+        "pair_count": 2,
+        "source_exposures": 211
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 3,
+        "pair_count": 1,
+        "source_exposures": 207
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 5,
+        "pair_count": 1,
+        "source_exposures": 186
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 7,
+        "pair_count": 1,
+        "source_exposures": 164
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "i",
+        "lag_ASCII_words": 16,
+        "pair_count": 1,
+        "source_exposures": 82
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "know",
+        "lag_ASCII_words": 6,
+        "pair_count": 1,
+        "source_exposures": 174
+      },
+      {
+        "scope": "raw_punctuation_segment",
+        "source": "now",
+        "target": "no",
+        "lag_ASCII_words": 2,
+        "pair_count": 1,
+        "source_exposures": 211
+      }
+    ],
+    "wall_seconds": 8.61610097699986,
+    "interpretation": "Full ASCII words including literal i and markup; observational counts, not a codec or a claim about grammatical sentences",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": [],
+    "slice": "d"
+  }
+]

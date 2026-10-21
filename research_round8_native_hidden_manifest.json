@@ -1,0 +1,164 @@
+{
+  "session": 355655943,
+  "core_retraining": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "scope": "observation-only native hidden trace and cold-core diagnostic",
+  "sources": {
+    "archive_sha256": "1bec8a5ade1a76c65a7db0ee1619fbde0a1fd2ccf4d8245dfcf83b8f383ef058",
+    "original_instrumented_interfaces_sha256": {
+      "src/coder/encoder.cpp": "99b45b0258056438035c82cb202e0d525268b146a7fe3f3647a56f7ab30d2d09",
+      "src/runner.cpp": "cb3197677ec7f897273aa53b10e94680f7accc9c7fb2462e3fe3b5f3f153cb76"
+    },
+    "patched_interfaces_sha256": {
+      "src/coder/encoder.cpp": "f613f3d10c531d2d2f233a71042436b3cf1365b31c98eca7e9347dbe30080601",
+      "src/runner.cpp": "081de3983054c5dc53b561b037180a4f636bc8aae67171954afeb54cad38dc53"
+    },
+    "makefile_sha256": "3d267ee844cebb53ecd1965a4b814fc7bc8f6391c47c50fb11efb3ddd244615b"
+  },
+  "hidden_patch_sha256": {
+    "cpp_infer/src/opt/model_opt.h": "bd2aa24e0869ba1945e4a7c5c754cbcc3af7c79f812d1df6d4b4b52e079d718f",
+    "cpp_infer/src/opt/model_opt.cpp": "61520585c92cf88fdae28d400c27d000611231134964e68ccab2ca026f609002",
+    "src/predictor.cpp": "d29056b52c3a1cfc5bf07507ef8351c6c608a62ca20e7b192aa83c2aac1bbee8"
+  },
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "classical_flags": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "transformer_flags": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "build_wall_seconds": 20.733353019999413,
+  "binary": {
+    "sha256": "dd5c79d76ba850b5d61570faaad3a7761f4357d01d7b390c468d8e11fdd5b0ce",
+    "bytes": 496656
+  },
+  "status": "COMPLETE_NATIVE_HIDDEN_IDENTITY_AND_EXPORTS",
+  "pid": 1338,
+  "started": "2026-10-06T08:59:02.723015+00:00",
+  "prior_failures": [
+    "v1 missing /usr/bin/time",
+    "v2 restored reference binary lacks executable bit",
+    "v3 decoder invocation omitted -d; all preserved"
+  ],
+  "reused_binary_and_build": true,
+  "controls": [
+    {
+      "slice": "a",
+      "archive_identity": true,
+      "integer_trace_identity": true,
+      "raw_decode_exact": true,
+      "hidden_encode_decode_identical": true,
+      "hidden_bytes": 6324224,
+      "hidden_sha256": "c48c0d4ed6c08da1b34c078f9376ffc7e115f1b8ea2da4391e37809e78423c62",
+      "archive_sha256": "b61c7eec4f2f25e443a5f4033d8c6ccd63b241b23665eeeec4b619e4363f35bc",
+      "accounting": {
+        "encoding": "Reused exact existing A archives/traces; earlier successful encoding process accounting was not saved by failing controller",
+        "decode": {
+          "wall_seconds": 67.78235999800017,
+          "user_seconds": 61.775041,
+          "system_seconds": 5.989937,
+          "max_rss_kbytes": 5651652,
+          "returncode": 0
+        }
+      }
+    },
+    {
+      "slice": "b",
+      "archive_identity": true,
+      "integer_trace_identity": true,
+      "raw_decode_exact": true,
+      "hidden_encode_decode_identical": true,
+      "hidden_bytes": 6324224,
+      "hidden_sha256": "b2cfe10194f0c3b41f3e8fc8529a17c167da3b1caa1940e9f75d9445edb83a64",
+      "archive_sha256": "a82bea6aa9e16dc23ce1cd870c1d56b8600d46d61c9144edf33c86e0becd55c6",
+      "accounting": {
+        "reference": {
+          "wall_seconds": 73.52967484400142,
+          "user_seconds": 67.383128,
+          "system_seconds": 6.116831,
+          "max_rss_kbytes": 5798816,
+          "returncode": 0
+        },
+        "hidden": {
+          "wall_seconds": 71.4357851650002,
+          "user_seconds": 65.174146,
+          "system_seconds": 6.245672,
+          "max_rss_kbytes": 5798640,
+          "returncode": 0
+        },
+        "decode": {
+          "wall_seconds": 70.50881343100082,
+          "user_seconds": 64.379412,
+          "system_seconds": 6.1099,
+          "max_rss_kbytes": 5798264,
+          "returncode": 0
+        }
+      }
+    }
+  ],
+  "exports": [
+    {
+      "slice": "a",
+      "input_bytes": 131072,
+      "input_sha256": "937ed63b4f275e1b2607baf39d767b663727d2d4c22621320246849e99ff5a86",
+      "hidden_sha256": "8143ba2d6c617f86ed9df3fdb50f93213d9221ac516f14c53c7cec8869eee31a",
+      "hidden_valid_rows": 130890,
+      "final_p_sha256": "01dcb07252ead0c1af24d5f9a9744d3e13a83a340841fafb2351527f81e4306c",
+      "integer_trace_identity": true,
+      "accounting": {
+        "wall_seconds": 117.59229516199957,
+        "user_seconds": 111.042363,
+        "system_seconds": 6.528963,
+        "max_rss_kbytes": 5861812,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "b",
+      "input_bytes": 131072,
+      "input_sha256": "4390757e871af4d599e9e8965c499b05ec49706fe51d32b1d937e430690a02b5",
+      "hidden_sha256": "b251da8b0038faafb1cd6d81f5f419b4996a193b2e98eeb0159855e482a5277b",
+      "hidden_valid_rows": 131017,
+      "final_p_sha256": "bedbb7d313988063a3480853ac7db2a85543705fbd1d87fb8e91f0a58fc2c150",
+      "integer_trace_identity": true,
+      "accounting": {
+        "wall_seconds": 128.0165730360004,
+        "user_seconds": 121.206369,
+        "system_seconds": 6.772791,
+        "max_rss_kbytes": 5962080,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "c",
+      "input_bytes": 131072,
+      "input_sha256": "9ddb9dcbd2d872063880eaa8e6423b78476d9a56549a2324237371f48fcf6fca",
+      "hidden_sha256": "245001a5ad8197f6aff9f64d11a0f2a714b9adae47d72aa5b102c401715c24a2",
+      "hidden_valid_rows": 131048,
+      "final_p_sha256": "7a71777ff24c11834d17cfeaedd80135b26b570080e58a2b55a202c781e67bb1",
+      "integer_trace_identity": true,
+      "accounting": {
+        "wall_seconds": 126.1756222820004,
+        "user_seconds": 119.466663,
+        "system_seconds": 6.65981,
+        "max_rss_kbytes": 5963960,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "d",
+      "input_bytes": 131072,
+      "input_sha256": "d854a8dcdc56aadeee3e219bae126bf520fe3cdd68b4bb94631f3f913a8326bf",
+      "hidden_sha256": "1ff7f12c518867645e737d9b3e4288b35e52d724a1175a677a07b22c5b8f6f56",
+      "hidden_valid_rows": 131038,
+      "final_p_sha256": "5e8c63654a29dd8dafd79ebe8ba1c2ac3402886e2012379c819b6b3bd9e9aa4c",
+      "integer_trace_identity": true,
+      "accounting": {
+        "wall_seconds": 125.8869317739991,
+        "user_seconds": 119.239042,
+        "system_seconds": 6.601839,
+        "max_rss_kbytes": 5958472,
+        "returncode": 0
+      }
+    }
+  ],
+  "stage": "ready for preregistered causal cache replay",
+  "finished": "2026-10-06T09:12:04.213947+00:00"
+}

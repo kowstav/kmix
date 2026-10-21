@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_INDEPENDENT_PAID_SIDE_HINT_RECONSTRUCTION_IDENTITY",
+  "pid": 58,
+  "finished": 1791313893.0577917,
+  "scope": "independent side parser, mask/value identity with executed native decodes and original encoded-input reconstruction; production native side loader and full package still pending",
+  "rows": [
+    {
+      "name": "raw_context_cut107",
+      "all_hints_constructed_from_paid_container_only": true,
+      "known_mask_sha256": "980e58a4b1441068a8fef7f8e5efb809cb2ef4df12815e44a80c80cf463cad5a",
+      "known_values_sha256": "11481a2e4efe43f838f8f6d949600cfddf927c5a7d8fff70d12f57baa7f8a6ba",
+      "exact_files_used_by_independent_native_decoder": true,
+      "original_input_restored_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "full_container_bytes": 7115,
+      "side_bytes": 2505,
+      "spans": 404
+    },
+    {
+      "name": "raw_context_cut1392",
+      "all_hints_constructed_from_paid_container_only": true,
+      "known_mask_sha256": "93233eec7ccfa6a06754b5aa212b368885cfa49e84265878266fc0e9fd7d300b",
+      "known_values_sha256": "15b458d7b0cec4896f4a59a0436d7cd12f394fe90d5c8cc3486d7ead88c19bf7",
+      "exact_files_used_by_independent_native_decoder": true,
+      "original_input_restored_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "full_container_bytes": 8810,
+      "side_bytes": 5027,
+      "spans": 1065
+    },
+    {
+      "name": "raw_context_cut8372",
+      "all_hints_constructed_from_paid_container_only": true,
+      "known_mask_sha256": "f6bf4781e7af1e45862cf0c36e838457ed7d6f9a4de696da3e0738a299f3a804",
+      "known_values_sha256": "069ee0d1f8cee1ca1eaf00da6a768b2f2ae3be7e9d1ec3f089f4647e12e58d7e",
+      "exact_files_used_by_independent_native_decoder": true,
+      "original_input_restored_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "full_container_bytes": 10670,
+      "side_bytes": 7633,
+      "spans": 2014
+    },
+    {
+      "name": "masked_context_cut1392",
+      "all_hints_constructed_from_paid_container_only": true,
+      "known_mask_sha256": "93233eec7ccfa6a06754b5aa212b368885cfa49e84265878266fc0e9fd7d300b",
+      "known_values_sha256": "1d7f197294caf3dcd2d05c6b371019fec4d19d5efb5997f20dde37e2ac406c0a",
+      "exact_files_used_by_independent_native_decoder": true,
+      "original_input_restored_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "full_container_bytes": 9670,
+      "side_bytes": 5027,
+      "spans": 1065
+    },
+    {
+      "name": "raw_context_cut1392_common_specialist",
+      "all_hints_constructed_from_paid_container_only": true,
+      "known_mask_sha256": "93233eec7ccfa6a06754b5aa212b368885cfa49e84265878266fc0e9fd7d300b",
+      "known_values_sha256": "15b458d7b0cec4896f4a59a0436d7cd12f394fe90d5c8cc3486d7ead88c19bf7",
+      "exact_files_used_by_independent_native_decoder": true,
+      "original_input_restored_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "full_container_bytes": 8656,
+      "side_bytes": 5027,
+      "spans": 1065
+    }
+  ],
+  "deletions": [],
+  "spending_usd": 0
+}

@@ -1,0 +1,245 @@
+{
+  "status": "COMPLETE_PRIVATE_CPU_ASSETS_CREATED",
+  "started": 1791378039.7339168,
+  "pid": 421,
+  "deletions": [],
+  "paid_usd": 0,
+  "GPU": false,
+  "dataset": "chaoscpp/hutter-r13-four-lane-cpu-assets-v1",
+  "asset_dir": "/root/hp_round13_asset_v1",
+  "asset_bytes": 376811041,
+  "files": {
+    "region_00.bin": {
+      "bytes": 3145728,
+      "sha256": "6117455b93c1361b4289e3bd6f41ea98775f3b954e033fef91d6663cabacb0c6"
+    },
+    "region_06.bin": {
+      "bytes": 3145728,
+      "sha256": "97e5d34e5de6a136a928e1b2de857ed6ff22a62ef771ca76581774150f2938be"
+    },
+    "native_cmix": {
+      "bytes": 497104,
+      "sha256": "17768b0673e5a1ad6fb39ca86af25d6d40db3b1790fc17e365341456819fd3fa"
+    },
+    "region_12.bin": {
+      "bytes": 3145728,
+      "sha256": "2109f1ede4a0e913a01358c178590616ec6605e1e21c06f349f5ef91452ddec8"
+    },
+    "original.tfwc3": {
+      "bytes": 2978039,
+      "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71"
+    },
+    "region_15.bin": {
+      "bytes": 3145728,
+      "sha256": "8537c8f8fb6ea409400f7d50dea52ec354fc8c88b09a69be3d978a7423614c73"
+    },
+    "english.dic": {
+      "bytes": 411996,
+      "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+    },
+    "region_03.bin": {
+      "bytes": 3145728,
+      "sha256": "22c5e34d254c1f44ee6a7e88e9a7dd4449d31b8847e731f97ea9a2e8cec1e700"
+    },
+    "region_10.bin": {
+      "bytes": 3145728,
+      "sha256": "7c2b7b63d6f9ae5786d3608e32e9caf2caafa6aac14449ede0cc86992862428e"
+    },
+    "region_14.bin": {
+      "bytes": 3145728,
+      "sha256": "86d753bd93abae9a3ef907de3da37f0e3d1ad697d79ea23d7dbce98e284fe543"
+    },
+    "region_13.bin": {
+      "bytes": 3145728,
+      "sha256": "c31f226968a433ff857f940d62ae448c7d3b90073688478265d78474785d3bfa"
+    },
+    "region_02.bin": {
+      "bytes": 3145728,
+      "sha256": "5c092cd720d79a67f9af9c0be918f7d334b2307e67a91ecdb30b230c7c196048"
+    },
+    "region_07.bin": {
+      "bytes": 3145728,
+      "sha256": "fa32fbc90d56b0a2457d3c8e2f727a4fff8ddf6f51593b97ee4874d35d3fe843"
+    },
+    "vocab.bm": {
+      "bytes": 32,
+      "sha256": "3e7f8c043939ccba8675b3a260f65a665bc34acac883a7316cc50fecfd7d36b5"
+    },
+    "region_11.bin": {
+      "bytes": 3145728,
+      "sha256": "6ca13e6e6cf1e08ab0d60815cb56b6367a6107dc72bf7b55d84c676ec132722b"
+    },
+    "region_05.bin": {
+      "bytes": 3145728,
+      "sha256": "77775a842f3b95cd41867c11925b47382274b2675a5a29903f14dc5e2b3a88aa"
+    },
+    "original_enwik9.zip.dat": {
+      "bytes": 322592222,
+      "sha256": "99cdb5ac84392252d3f0912ccedd195bc95bd80cbef3b0cdf2eee4ad9a3b7a51"
+    },
+    "region_01.bin": {
+      "bytes": 3145728,
+      "sha256": "88ef955d7fc16fa41a898bd7f6be98f5e11b8936169ce86e7c4c459b07e7ebe7"
+    },
+    "region_04.bin": {
+      "bytes": 3145728,
+      "sha256": "9c8f7e50578d04a03dc852774043a80e6def52f60bc043b62b37b39b3cb1b935"
+    },
+    "region_09.bin": {
+      "bytes": 3145728,
+      "sha256": "1db7742cee373c5ca5e784782adef5f48e28724cef73da412a66a7f682b91175"
+    },
+    "region_08.bin": {
+      "bytes": 3145728,
+      "sha256": "211133948c1b31845f673ea2497dbe5abaedb042ed58888017984de9d6994bbd"
+    }
+  },
+  "regions": [
+    {
+      "id": 0,
+      "file": "region_00.bin",
+      "offset": 32000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 1,
+      "file": "region_01.bin",
+      "offset": 96000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 2,
+      "file": "region_02.bin",
+      "offset": 160000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 3,
+      "file": "region_03.bin",
+      "offset": 224000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 4,
+      "file": "region_04.bin",
+      "offset": 288000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 5,
+      "file": "region_05.bin",
+      "offset": 352000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 6,
+      "file": "region_06.bin",
+      "offset": 416000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 7,
+      "file": "region_07.bin",
+      "offset": 480000000,
+      "bytes": 3145728,
+      "role": "development",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 8,
+      "file": "region_08.bin",
+      "offset": 64000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 9,
+      "file": "region_09.bin",
+      "offset": 128000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 10,
+      "file": "region_10.bin",
+      "offset": 192000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 11,
+      "file": "region_11.bin",
+      "offset": 256000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 12,
+      "file": "region_12.bin",
+      "offset": 320000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 13,
+      "file": "region_13.bin",
+      "offset": 384000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 14,
+      "file": "region_14.bin",
+      "offset": 448000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    },
+    {
+      "id": 15,
+      "file": "region_15.bin",
+      "offset": 544000000,
+      "bytes": 3145728,
+      "role": "confirmation",
+      "warmup_bytes": 2097152,
+      "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+    }
+  ],
+  "dataset_url": "https://www.kaggle.com/datasets/chaoscpp/hutter-r13-four-lane-cpu-assets-v1",
+  "finished": 1791378094.7705276
+}

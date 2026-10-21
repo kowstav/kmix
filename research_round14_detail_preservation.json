@@ -1,0 +1,178 @@
+{
+  "status": "COMPLETE_DETAIL_BUNDLES",
+  "started": 1791449194.8939924,
+  "deletions": [
+    {
+      "path": "/kaggle/working/hp_round8/native_inline_residual_v1/c512k_candidate_decode/hidden.q8",
+      "bytes": 101187584,
+      "sha256": "cf9e66f8943add363c6c3721a95613f5b7e12c2767f9fde250796ee000f8f92b",
+      "identical_preserved_original": "/kaggle/working/hp_round8/native_inline_residual_v1/c512k_candidate/hidden.q8",
+      "reason": "byte-identical duplicate decoder observer trace; original source/model/data and encode-side trace preserved",
+      "deletion_completed": true
+    },
+    {
+      "path": "/kaggle/working/hp_round8/native_inline_residual_v1/d512k_candidate_decode/hidden.q8",
+      "bytes": 101187584,
+      "sha256": "3a8e8a102c1a47b0fdcb6211ef77f8f3462b7ad360c9d6f9d7d070e6808198fa",
+      "identical_preserved_original": "/kaggle/working/hp_round8/native_inline_residual_v1/d512k_candidate/hidden.q8",
+      "reason": "byte-identical duplicate decoder observer trace; original source/model/data and encode-side trace preserved",
+      "deletion_completed": true
+    },
+    {
+      "path": "/kaggle/working/hp_round8/native_inline_wide_v1/e512k_candidate_decode/hidden.q8",
+      "bytes": 101187584,
+      "sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "identical_preserved_original": "/kaggle/working/hp_round8/native_inline_wide_v1/e512k_candidate/hidden.q8",
+      "reason": "byte-identical duplicate decoder observer trace; original source/model/data and encode-side trace preserved",
+      "deletion_completed": true
+    },
+    {
+      "path": "/kaggle/working/hp_round8/native_inline_wide_v1/f512k_candidate_decode/hidden.q8",
+      "bytes": 101187584,
+      "sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "identical_preserved_original": "/kaggle/working/hp_round8/native_inline_wide_v1/f512k_candidate/hidden.q8",
+      "reason": "byte-identical duplicate decoder observer trace; original source/model/data and encode-side trace preserved",
+      "deletion_completed": true
+    }
+  ],
+  "bundles": [
+    {
+      "label": "warm_costs_development",
+      "path": "/kaggle/working/hp_round14/warm_costs_development.zip",
+      "bytes": 87137071,
+      "sha256": "2aa893b543b41ef896aaba31e59273d1326961f0631614e49c0648daa7fe6da3",
+      "entries": [
+        {
+          "path": "region_00.cost.f32.gz",
+          "bytes": 11492559,
+          "sha256": "f04fe9bd67c3e5a520da416e9d6bc637248d7fe8e2c551f7cd2c4eefca5d4c2f"
+        },
+        {
+          "path": "region_01.cost.f32.gz",
+          "bytes": 11507003,
+          "sha256": "6f5a2a590d2b6abd81c60d441691a87da1abe4e2e2d0a556ea6f37e6da423bda"
+        },
+        {
+          "path": "region_02.cost.f32.gz",
+          "bytes": 11345963,
+          "sha256": "ec47e804da62a0669d1c836d6804b0161a285f9c82ed7bd7a0b0a6d75f8b7086"
+        },
+        {
+          "path": "region_03.cost.f32.gz",
+          "bytes": 11495828,
+          "sha256": "8485784ceaa42f0a084b98e3fbdbb880bb88534f5fa9028d8c703c9c6cad5a70"
+        },
+        {
+          "path": "region_04.cost.f32.gz",
+          "bytes": 10797061,
+          "sha256": "fc7692f93c45fa453e48eaeab95ec9d44672daaa98c0f01e95c3ccdc2f2987e6"
+        },
+        {
+          "path": "region_05.cost.f32.gz",
+          "bytes": 11478895,
+          "sha256": "44f2d20c1732ef74fe9d09d580fcbb9f6852e988c5c74e7a0889015f0226356e"
+        },
+        {
+          "path": "region_06.cost.f32.gz",
+          "bytes": 11371778,
+          "sha256": "4917e88283cca60ee0a4c25ade614210ffa0876094c62c3da0a267a8ae64f2bb"
+        },
+        {
+          "path": "region_07.cost.f32.gz",
+          "bytes": 7645717,
+          "sha256": "5dae59cfd125f7a6aa819cd07bd68f361cc938369cc5e428162835460fd6105a"
+        }
+      ]
+    },
+    {
+      "label": "warm_costs_confirmation",
+      "path": "/kaggle/working/hp_round14/warm_costs_confirmation.zip",
+      "bytes": 86702858,
+      "sha256": "618d6ae56265db0d436a4b8560d7a78fbb0fa3046716bd0e4ba6fea5b31eff98",
+      "entries": [
+        {
+          "path": "region_08.cost.f32.gz",
+          "bytes": 11456795,
+          "sha256": "9938a1b8b467ec25d54c78b58e53958bb8c4411f2fbb99d3ef4f2addd81a8fbb"
+        },
+        {
+          "path": "region_09.cost.f32.gz",
+          "bytes": 11490105,
+          "sha256": "b393c147bf87192d69a69dd078163f43ab6f1c4e1cedefc620d88503ead4c49f"
+        },
+        {
+          "path": "region_10.cost.f32.gz",
+          "bytes": 11360084,
+          "sha256": "7234312e58353891d60affcbd62119315e2564bcb02e96e5ffba2d51e265a125"
+        },
+        {
+          "path": "region_11.cost.f32.gz",
+          "bytes": 11414190,
+          "sha256": "019e3b348cf1b39b8d6d68bcb98ae015734a6edef7ca67a3fabf8b0730133efa"
+        },
+        {
+          "path": "region_12.cost.f32.gz",
+          "bytes": 11500909,
+          "sha256": "dff129ccb0fd2441669781e095bf926d2d5511a9691bc1cfefaa83253b67e451"
+        },
+        {
+          "path": "region_13.cost.f32.gz",
+          "bytes": 11333409,
+          "sha256": "9ba4126ada93c93daf6f7e6b33a61b402945a5a53081087989d7efcdbfcc5aed"
+        },
+        {
+          "path": "region_14.cost.f32.gz",
+          "bytes": 9616010,
+          "sha256": "d64bd039cdf4bba53abfcebeedcb50cae0fec3ed4bba19709a4b1bea3219f8bf"
+        },
+        {
+          "path": "region_15.cost.f32.gz",
+          "bytes": 8529090,
+          "sha256": "63f64913dd9b0cfddf1f131ffe37eac0cc4536005255d4d97c5f907a94953d52"
+        }
+      ]
+    },
+    {
+      "label": "native_sources_and_binaries",
+      "path": "/kaggle/working/hp_round14/native_sources_and_binaries.zip",
+      "bytes": 2436323,
+      "sha256": "333ffb61b38e48f8fc8d4c84abcbc92e5962451007a987edb2ba7cfb4482578f",
+      "entries": [
+        {
+          "path": "cmix_head_2",
+          "bytes": 732320,
+          "sha256": "752a774c0455c50ac1799ccf029a7daa89499566165b8c492251b4d45841aa8e"
+        },
+        {
+          "path": "cmix_head_0",
+          "bytes": 559120,
+          "sha256": "30b539b3ec2cd0a2adf51d3103f2643d113022cce2c7fb17b9828b6f61e10fda"
+        },
+        {
+          "path": "cmix_head_1",
+          "bytes": 732320,
+          "sha256": "46ec676b63b9fef5d04f54c686c5283e369b79b566fbb69317ab9145894f6f1a"
+        },
+        {
+          "path": "native_integration_sources_v1.zip",
+          "bytes": 411429,
+          "sha256": "9a593b335861569a7c720df0e8e76d85715deb971588b003a714d181e2b42662"
+        }
+      ]
+    },
+    {
+      "label": "best_regenerated_model",
+      "path": "/kaggle/working/hp_round14/best_regenerated_model.zip",
+      "bytes": 3030791,
+      "sha256": "ee6c399419ff91313b86ff4ffc9a49d1578e81a9fc85f406a2c643b65cb29784",
+      "entries": [
+        {
+          "path": "nibble_gzip.hpwt",
+          "bytes": 3030415,
+          "sha256": "39f48a05acffa723de742c6c1592c07d89932305f5139ced413835470861be2d"
+        }
+      ]
+    }
+  ],
+  "finished": 1791449214.2155497
+}

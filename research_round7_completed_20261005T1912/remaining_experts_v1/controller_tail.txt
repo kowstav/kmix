@@ -1,0 +1,13 @@
+/kaggle/working/hp_round7/research_round7_remaining_experts.cpp: In function ‘void run(std::string, std::string, std::string, std::string, std::string, size_t, std::string)’:
+/kaggle/working/hp_round7/research_round7_remaining_experts.cpp:102:2: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  102 |  for(int k=0;k<F;k++)for(int s=0;s<4;s++){if(k||s)out<<',';out<<"{\"family\":\""<<fn[k]<<"\",\"strength\":"<<strengths[s]<<",\"saving_bytes\":"<<st.gain[1+k*4+s]/8<<'}';}out<<"],\"wall_seconds\":"<<chrono::duration<double>(chrono::steady_clock::now()-begun).count()<<",\"contract\":\"final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive\"}";
+      |  ^~~
+/kaggle/working/hp_round7/research_round7_remaining_experts.cpp:102:171: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  102 |  for(int k=0;k<F;k++)for(int s=0;s<4;s++){if(k||s)out<<',';out<<"{\"family\":\""<<fn[k]<<"\",\"strength\":"<<strengths[s]<<",\"saving_bytes\":"<<st.gain[1+k*4+s]/8<<'}';}out<<"],\"wall_seconds\":"<<chrono::duration<double>(chrono::steady_clock::now()-begun).count()<<",\"contract\":\"final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive\"}";
+      |                                                                                                                                                                           ^~~
+{"completed": "a_32k", "mixture_saving_bytes": -1.0556578112992614, "cpu": 7.955334}
+{"completed": "b_32k", "mixture_saving_bytes": -1.2975349182544562, "cpu": 11.101116}
+{"completed": "a_2m", "mixture_saving_bytes": -1.0196946976810912, "cpu": 681.080127}
+{"completed": "b_2m", "mixture_saving_bytes": 0.009156911578664328, "cpu": 911.805598}
+{"completed": "c_2m", "mixture_saving_bytes": 0.14154172682455987, "cpu": 846.387843}
+{"completed": "d_2m", "mixture_saving_bytes": 2.6002908817967807, "cpu": 953.757639}

@@ -1,0 +1,42 @@
+{
+  "frozen": 1791607808.8704138,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-guard-match-timing-abba-v1",
+      "folder": "hutter-r14-guard-match-timing-abba-v1",
+      "main_sha256": "608056426dec24f0e909deddc4a470778b9b00d4fafb8e636f503d7d379d8ac1",
+      "workers": 4,
+      "pair_label": "guard_vs_guard_match",
+      "region_ids": [
+        8,
+        9
+      ],
+      "lane_tasks": [
+        [
+          8,
+          "AB"
+        ],
+        [
+          8,
+          "BA"
+        ],
+        [
+          9,
+          "AB"
+        ],
+        [
+          9,
+          "BA"
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "8951a4d60ad4fa55660c32ef6186fa21cc02387df710517a00d95732da4f3891",
+  "protocol_sha256": "290bbc8a54908a7f62cf8fcb6d5e4324d041f2d0a336c85497de6bdb2c6fcefa",
+  "references_sha256": "7ce00542b3b97c7d20b17a9f553c0de0038eec8bb2db8f18b635a2a3049c9a4e",
+  "kernels_zip_sha256": "3598c607a91bfa007fab47084fa8920cc71ff0a881611e6ba764e9ea91b9a2e5",
+  "binary_unchanged": true,
+  "gpu": false,
+  "workers_per_job": 4,
+  "deadline_hours": 10.3
+}

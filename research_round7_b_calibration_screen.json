@@ -1,0 +1,32 @@
+{
+  "raw_bytes": 2000000,
+  "bits_scored": 16000000,
+  "baseline_ideal_bytes": 427095.02343412879,
+  "unpaid_best_expert_per_bit_ORACLE_saving_bytes": 117156.7114701359,
+  "contract": "strict prefix updates; quantized probabilities; ideal cost only; package and CPU excluded",
+  "fixed_models": [
+    {"type": "temperature", "parameter": 0.59999999999999998, "saving_bytes": -45164.267544026545},
+    {"type": "temperature", "parameter": 0.80000000000000004, "saving_bytes": -8078.8768865018501},
+    {"type": "temperature", "parameter": 0.90000000000000002, "saving_bytes": -1626.4404433521559},
+    {"type": "temperature", "parameter": 1, "saving_bytes": 0},
+    {"type": "temperature", "parameter": 1.1000000000000001, "saving_bytes": -1914.6909865244525},
+    {"type": "temperature", "parameter": 1.2, "saving_bytes": -6520.9304663274088},
+    {"type": "temperature", "parameter": 1.5, "saving_bytes": -31377.179393383616},
+    {"type": "causal_shrinkage", "parameter": 4, "saving_bytes": -458.85088149737567},
+    {"type": "causal_shrinkage", "parameter": 16, "saving_bytes": -419.0869847550639},
+    {"type": "causal_shrinkage", "parameter": 64, "saving_bytes": -376.46796936693136},
+    {"type": "causal_shrinkage", "parameter": 256, "saving_bytes": -328.01273480121745},
+    {"type": "causal_shrinkage", "parameter": 1024, "saving_bytes": -261.89022122725146},
+    {"type": "causal_shrinkage", "parameter": 4096, "saving_bytes": -163.0191346827778}
+  ],
+  "policies": [
+    {"confidence_context": false, "share_probability": 0, "saving_bytes": 4.2787500026752241, "ideal_bytes": 427090.74468412611},
+    {"confidence_context": false, "share_probability": 0.00390625, "saving_bytes": -1006.5586210277979, "ideal_bytes": 428101.58205515658},
+    {"confidence_context": false, "share_probability": 0.000244140625, "saving_bytes": -311.108223361196, "ideal_bytes": 427406.13165748998},
+    {"confidence_context": false, "share_probability": 1.52587890625e-05, "saving_bytes": -14.768228154163808, "ideal_bytes": 427109.79166228295},
+    {"confidence_context": true, "share_probability": 0, "saving_bytes": -23.850491902092472, "ideal_bytes": 427118.87392603088},
+    {"confidence_context": true, "share_probability": 0.00390625, "saving_bytes": -859.30970171437366, "ideal_bytes": 427954.33313584316},
+    {"confidence_context": true, "share_probability": 0.000244140625, "saving_bytes": -201.01010020059766, "ideal_bytes": 427296.03353432938},
+    {"confidence_context": true, "share_probability": 1.52587890625e-05, "saving_bytes": -35.969975006068125, "ideal_bytes": 427130.99340913486}
+  ]
+}

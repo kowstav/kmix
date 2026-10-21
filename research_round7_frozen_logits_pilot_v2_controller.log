@@ -1,0 +1,24 @@
+Collecting fla-core==0.5.1
+  Downloading fla_core-0.5.1-py3-none-any.whl.metadata (44 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 1.0 MB/s eta 0:00:00
+Collecting jaxtyping==0.3.11
+  Downloading jaxtyping-0.3.11-py3-none-any.whl.metadata (6.2 kB)
+Collecting wadler-lindig==0.1.3
+  Downloading wadler_lindig-0.1.3-py3-none-any.whl.metadata (17 kB)
+Downloading fla_core-0.5.1-py3-none-any.whl (702 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 703.0/703.0 kB 12.0 MB/s eta 0:00:00
+Downloading jaxtyping-0.3.11-py3-none-any.whl (56 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.6/56.6 kB 2.5 MB/s eta 0:00:00
+Downloading wadler_lindig-0.1.3-py3-none-any.whl (20 kB)
+Saved /root/hp/round7_runtime_packages/fla_core-0.5.1-py3-none-any.whl
+Saved /root/hp/round7_runtime_packages/jaxtyping-0.3.11-py3-none-any.whl
+Saved /root/hp/round7_runtime_packages/wadler_lindig-0.1.3-py3-none-any.whl
+Successfully downloaded fla-core jaxtyping wadler-lindig
+Processing /root/hp/round7_runtime_packages/fla_core-0.5.1-py3-none-any.whl
+Processing /root/hp/round7_runtime_packages/jaxtyping-0.3.11-py3-none-any.whl
+Processing /root/hp/round7_runtime_packages/wadler_lindig-0.1.3-py3-none-any.whl
+Installing collected packages: wadler-lindig, jaxtyping, fla-core
+Successfully installed fla-core-0.5.1 jaxtyping-0.3.11 wadler-lindig-0.1.3
+WAITING_FOR_EXISTING_NATIVE_RECOVERY
+{"checkpoint": "6m-q4-fp32.tch", "layers": 12, "width": 192, "measured_targets": 65535, "mean_neural_bits_per_symbol": 0.7095232732905895, "summed_neural_bits": 46498.607715098784, "gpu_wall_seconds_including_jit": 326.675528471, "gpu_peak_allocated_bytes": 312031232, "quantized_forward": true, "output_float16_then_floor_1e_minus6_and_normalize": true, "configuration_note": "8M/10M unstored hyperparameters inherited from6M; structural loading passed but author config still unverified", "packed_model_and_native_CPU_accounting": "Not measured for larger models; raw checkpoint size is not packed cost", "paired_sample_neural_bits_difference_vs_lex_native": 2593.6002711377773, "comparison_warning": "Sample neural likelihood only; larger models are unquantized, configuration assumptions and packaging/CPU costs unresolved"}
+FROZEN_LOGITS_PILOT_COMPLETE

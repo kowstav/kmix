@@ -1,0 +1,411 @@
+{
+  "grammar": {
+    "manifest_status": "COMPLETE_FOUR_LANE_FINITE_CPU_JOB",
+    "cases": 144,
+    "CPU_lanes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "elapsed_seconds": 433.3336977958679,
+    "measured_worker_CPU_seconds": 1669.6670599999998,
+    "selection": {
+      "selected_at": 1791379492.1696858,
+      "policy": "minimum paid aggregate development archive bytes; deterministic lexical tie break",
+      "development_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "chosen_arm": [
+        "coarse_right",
+        4
+      ],
+      "development_totals": [
+        {
+          "mode": "bag",
+          "alpha": 0,
+          "bytes": 3153110
+        },
+        {
+          "mode": "coarse_left",
+          "alpha": 1,
+          "bytes": 3016693
+        },
+        {
+          "mode": "coarse_left",
+          "alpha": 4,
+          "bytes": 3015913
+        },
+        {
+          "mode": "coarse_right",
+          "alpha": 1,
+          "bytes": 3016416
+        },
+        {
+          "mode": "coarse_right",
+          "alpha": 4,
+          "bytes": 3014495
+        },
+        {
+          "mode": "coarse_wrong",
+          "alpha": 1,
+          "bytes": 3019252
+        },
+        {
+          "mode": "coarse_wrong",
+          "alpha": 4,
+          "bytes": 3023182
+        },
+        {
+          "mode": "markov",
+          "alpha": 4,
+          "bytes": 3018441
+        },
+        {
+          "mode": "unigram",
+          "alpha": 0,
+          "bytes": 3036651
+        }
+      ],
+      "selection_is_proxy_only": true
+    },
+    "selected_confirmation": [
+      {
+        "index": 1,
+        "archive_bytes": 412905,
+        "gzip_baseline_bytes": 379840,
+        "gain_bytes": -33065
+      },
+      {
+        "index": 3,
+        "archive_bytes": 412979,
+        "gzip_baseline_bytes": 381659,
+        "gain_bytes": -31320
+      },
+      {
+        "index": 5,
+        "archive_bytes": 411791,
+        "gzip_baseline_bytes": 379340,
+        "gain_bytes": -32451
+      },
+      {
+        "index": 7,
+        "archive_bytes": 192356,
+        "gzip_baseline_bytes": 173045,
+        "gain_bytes": -19311
+      },
+      {
+        "index": 9,
+        "archive_bytes": 411749,
+        "gzip_baseline_bytes": 381189,
+        "gain_bytes": -30560
+      },
+      {
+        "index": 11,
+        "archive_bytes": 405328,
+        "gzip_baseline_bytes": 371860,
+        "gain_bytes": -33468
+      },
+      {
+        "index": 13,
+        "archive_bytes": 382146,
+        "gzip_baseline_bytes": 352072,
+        "gain_bytes": -30074
+      },
+      {
+        "index": 15,
+        "archive_bytes": 402444,
+        "gzip_baseline_bytes": 372222,
+        "gain_bytes": -30222
+      }
+    ],
+    "selected_confirmation_gain_bytes": -240471
+  },
+  "storage": {
+    "manifest_status": "COMPLETE_FOUR_LANE_FINITE_CPU_JOB",
+    "cases": 18,
+    "CPU_lanes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "elapsed_seconds": 164.12880110740662,
+    "measured_worker_CPU_seconds": 165.35778499999998,
+    "best": {
+      "layout": "transpose",
+      "codec": "lzma",
+      "model_bytes": 20327323,
+      "model_sha256": "1d900e15f16af05f2110c995abe3e7a5f75640737aeeb23bd8bedb719fad0887",
+      "cpu": 2,
+      "saving_per_copy_before_decoder_code": -17349284,
+      "all_435_native_tensors_equal": true,
+      "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+      "wall_seconds": 24.659659040999998,
+      "CPU_seconds": 24.456707999999992,
+      "peak_RSS_KiB": 664856,
+      "deployment_decoder_not_qualified": true
+    },
+    "arms": [
+      {
+        "layout": "plain",
+        "codec": "zstd",
+        "model_bytes": 33808987,
+        "model_sha256": "caee2fdad849e5d670548b89a806091970cc331a40711943242fc4fd44ec98ba",
+        "cpu": 2,
+        "saving_per_copy_before_decoder_code": -30830948,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 0.7289189739999529,
+        "CPU_seconds": 0.5814200000000005,
+        "peak_RSS_KiB": 653784,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "plain",
+        "codec": "gzip",
+        "model_bytes": 33944560,
+        "model_sha256": "7b34e306c67eacf7a9ddd2647dfdfb8a90fc6e97b42da1eb1292772c94296435",
+        "cpu": 0,
+        "saving_per_copy_before_decoder_code": -30966521,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 2.643083632000014,
+        "CPU_seconds": 2.4806039999999987,
+        "peak_RSS_KiB": 653780,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "planes",
+        "codec": "gzip",
+        "model_bytes": 28252926,
+        "model_sha256": "62dcfd91062914d34c424c6e56b17ad0fb3b7b8fcbb918256ba2ef9d3c112464",
+        "cpu": 3,
+        "saving_per_copy_before_decoder_code": -25274887,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 6.315066462999994,
+        "CPU_seconds": 6.139643999999998,
+        "peak_RSS_KiB": 653688,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "plain",
+        "codec": "lzma",
+        "model_bytes": 29226261,
+        "model_sha256": "d08bd964c6b3924d368b5ad5421ffc732b3a7e5780bd4b63bca99622348ec854",
+        "cpu": 1,
+        "saving_per_copy_before_decoder_code": -26248222,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 25.828975533999994,
+        "CPU_seconds": 25.459319,
+        "peak_RSS_KiB": 653636,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "planes",
+        "codec": "zstd",
+        "model_bytes": 26583479,
+        "model_sha256": "457eafeda056a5d6907fbdeb0e29417ffdd57a66fdf38df6c12e5e7d2aa8f0fc",
+        "cpu": 0,
+        "saving_per_copy_before_decoder_code": -23605440,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 1.1805248229999847,
+        "CPU_seconds": 1.057432000000004,
+        "peak_RSS_KiB": 659256,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "zigzag",
+        "codec": "gzip",
+        "model_bytes": 33944380,
+        "model_sha256": "5a4bdb3d04e4ca6af2ac314ec79f9d00669efb70b2e15524bebc2016c91cc5e4",
+        "cpu": 3,
+        "saving_per_copy_before_decoder_code": -30966341,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 2.729814052999984,
+        "CPU_seconds": 2.5881500000000006,
+        "peak_RSS_KiB": 659100,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "zigzag",
+        "codec": "zstd",
+        "model_bytes": 33802712,
+        "model_sha256": "3d057b3af56d4d38ef3d232891ce4ce584b3b14e1c6843ede2713f7e228fbc82",
+        "cpu": 0,
+        "saving_per_copy_before_decoder_code": -30824673,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 0.8127712120000297,
+        "CPU_seconds": 0.690602999999995,
+        "peak_RSS_KiB": 664348,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "planes",
+        "codec": "lzma",
+        "model_bytes": 25546930,
+        "model_sha256": "ccfcc19dd009372c324812a6d1650b25be94bc85d38092a9b897743ea73db266",
+        "cpu": 2,
+        "saving_per_copy_before_decoder_code": -22568891,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 24.935337354000012,
+        "CPU_seconds": 24.568053999999997,
+        "peak_RSS_KiB": 660136,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "nibble",
+        "codec": "gzip",
+        "model_bytes": 33557053,
+        "model_sha256": "34e4d529f7510f196f103c08ab34756e793469adf4700cd0a1471d48543f3cbb",
+        "cpu": 3,
+        "saving_per_copy_before_decoder_code": -30579014,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 2.352746706000005,
+        "CPU_seconds": 2.2305099999999953,
+        "peak_RSS_KiB": 659244,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "nibble",
+        "codec": "zstd",
+        "model_bytes": 33567935,
+        "model_sha256": "3ae3700e5a80ea4b7876905de1c22658f9fb6d98046e9391d266f2fb06b74eda",
+        "cpu": 2,
+        "saving_per_copy_before_decoder_code": -30589896,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 0.637408301999983,
+        "CPU_seconds": 0.46512299999999307,
+        "peak_RSS_KiB": 660312,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "zigzag",
+        "codec": "lzma",
+        "model_bytes": 29154657,
+        "model_sha256": "52fc53a1d6b03f3842ec135eb6a2007e277903008874efb9e52d1cfb5ffb6be1",
+        "cpu": 1,
+        "saving_per_copy_before_decoder_code": -26176618,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 26.02222073500002,
+        "CPU_seconds": 25.673856000000008,
+        "peak_RSS_KiB": 663372,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "transpose",
+        "codec": "gzip",
+        "model_bytes": 33618668,
+        "model_sha256": "948ef2a624ff3641d418fe6e6ecbb5002a30a9016b3bf7d79d9e8ff7621116c1",
+        "cpu": 3,
+        "saving_per_copy_before_decoder_code": -30640629,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 2.633869617000016,
+        "CPU_seconds": 2.500571999999999,
+        "peak_RSS_KiB": 659420,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "nibble",
+        "codec": "lzma",
+        "model_bytes": 28966155,
+        "model_sha256": "e10eaf4edea6d02c58fc0e9a81aedcc46b455559142b9fed289448a9e467bbe7",
+        "cpu": 0,
+        "saving_per_copy_before_decoder_code": -25988116,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 21.833813673999998,
+        "CPU_seconds": 21.440960999999994,
+        "peak_RSS_KiB": 664516,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "transpose",
+        "codec": "zstd",
+        "model_bytes": 33442317,
+        "model_sha256": "85058f30f6b1b1c3c429d8c61c971555e7d7eb1ef83258e8f66e1686b3a8d2ff",
+        "cpu": 1,
+        "saving_per_copy_before_decoder_code": -30464278,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 1.719965435000006,
+        "CPU_seconds": 1.5930629999999981,
+        "peak_RSS_KiB": 663672,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "xor",
+        "codec": "gzip",
+        "model_bytes": 37133205,
+        "model_sha256": "acb1d3a87596e8b1a9c3e6c49c19df46350c962542348839860af34d6f29fc60",
+        "cpu": 3,
+        "saving_per_copy_before_decoder_code": -34155166,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 1.9902172349999887,
+        "CPU_seconds": 1.8308749999999971,
+        "peak_RSS_KiB": 659436,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "xor",
+        "codec": "zstd",
+        "model_bytes": 36966663,
+        "model_sha256": "198d23cc578eea25199f032a0e92bf70dd69a2af08029d984a211893b4e97ae0",
+        "cpu": 1,
+        "saving_per_copy_before_decoder_code": -33988624,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 0.6029826419999722,
+        "CPU_seconds": 0.5000850000000074,
+        "peak_RSS_KiB": 664588,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "transpose",
+        "codec": "lzma",
+        "model_bytes": 20327323,
+        "model_sha256": "1d900e15f16af05f2110c995abe3e7a5f75640737aeeb23bd8bedb719fad0887",
+        "cpu": 2,
+        "saving_per_copy_before_decoder_code": -17349284,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 24.659659040999998,
+        "CPU_seconds": 24.456707999999992,
+        "peak_RSS_KiB": 664856,
+        "deployment_decoder_not_qualified": true
+      },
+      {
+        "layout": "xor",
+        "codec": "lzma",
+        "model_bytes": 36408819,
+        "model_sha256": "556f163dc4184dc646cc6ad2abe876132a82f31f8328bf16e4d1a8bdb458d1fe",
+        "cpu": 0,
+        "saving_per_copy_before_decoder_code": -33430780,
+        "all_435_native_tensors_equal": true,
+        "native_reference_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+        "wall_seconds": 21.231334103999984,
+        "CPU_seconds": 21.100805999999988,
+        "peak_RSS_KiB": 664824,
+        "deployment_decoder_not_qualified": true
+      }
+    ]
+  }
+}

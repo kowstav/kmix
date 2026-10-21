@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETE_LEXICAL_PREPARATION_FULL_INVERSE",
+  "pid": 1418,
+  "started": "2026-10-06T09:47:26.508262+00:00",
+  "scope": "production lexical preparation and full inverse only; no entropy archive or gain",
+  "scratch": "/root/hp/round8_lexical_full_prepare_v1",
+  "core_retraining": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "scratch_replacements": [
+    "Native R1 inverse mutates only a separately copied encoded scratch stream; original and models remain preserved"
+  ],
+  "results": [
+    {
+      "stage": "build",
+      "accounting": {
+        "wall_seconds": 21.156061902000147,
+        "user_seconds": 38.146831,
+        "system_seconds": 2.217254,
+        "max_rss_kbytes": 175832,
+        "returncode": 0
+      }
+    },
+    {
+      "stage": "prepare",
+      "accounting": {
+        "wall_seconds": 100.8014714760011,
+        "user_seconds": 89.179715,
+        "system_seconds": 10.492613,
+        "max_rss_kbytes": 1688764,
+        "returncode": 0
+      }
+    },
+    {
+      "stage": "inverse",
+      "accounting": {
+        "wall_seconds": 427.81622850999884,
+        "user_seconds": 415.462029,
+        "system_seconds": 10.310561,
+        "max_rss_kbytes": 1517616,
+        "returncode": 0
+      }
+    }
+  ],
+  "stage": "production stream preserved; native/full entropy coding still unexecuted",
+  "utility_runner_sha256": "fddb8182248e45a1cbb2c85fe511157713c2d2ac82b9cc1d8ab872fd2c662942",
+  "utility_binary_sha256": "03b39126791c6e97cca25aa87472ca99971729b96be63b01883c234f266d4452",
+  "original_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+  "order_sha256": "eecd462c29319bab185b48229c4d09ab52f16ca9c582e8e32eff9a7c2a7de39e",
+  "dictionary_sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a",
+  "prepared": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "side": {
+    "bytes": 679489,
+    "sha256": "98bae9de75b13b0a4f66f33cd24f1c45b145237eb4f99b363c9cb4e6ef918d95"
+  },
+  "full_inverse_exact": true,
+  "preserved_full_stream_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+  "scratch_apparent_bytes": 12865151805,
+  "finished": "2026-10-06T09:56:51.482658+00:00"
+}

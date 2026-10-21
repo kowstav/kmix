@@ -1,0 +1,518 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 439343.3133437444,
+  "unscored_prefix_bytes": 1254,
+  "dictionary_atoms": 475980,
+  "score": {
+    "events": 1624974,
+    "baseline_suffix_bits": 3510456.9830669397,
+    "prequential_saving_bytes": 2.099423686926821,
+    "context_count": 20,
+    "model_count": 50,
+    "unpaid_best_model_per_event_oracle_bytes": 14293.539436696563,
+    "fixed_models": [
+      {
+        "family": "neutral",
+        "alpha": 0.0,
+        "saving_bytes": 0.0
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.001,
+        "saving_bytes": -194.37221747248853
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.003,
+        "saving_bytes": -645.7605743989693
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.01,
+        "saving_bytes": -2359.0831134627147
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.03,
+        "saving_bytes": -7610.802532144038
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.1,
+        "saving_bytes": -27718.558306755804
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.3,
+        "saving_bytes": -97041.59029784614
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.7,
+        "saving_bytes": -332854.562872055
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.001,
+        "saving_bytes": -193.67573738329622
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.003,
+        "saving_bytes": -633.5368934467451
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.01,
+        "saving_bytes": -2294.5459599801247
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.03,
+        "saving_bytes": -7380.501981616097
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.1,
+        "saving_bytes": -26891.558185334638
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.3,
+        "saving_bytes": -94329.86935987735
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.7,
+        "saving_bytes": -323321.28023556265
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -188.12019623591766
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -627.2416631592965
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2294.783735794254
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7412.030707307453
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -27048.388242723984
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -94875.68779612929
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -325060.86770487454
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -196.03039937502024
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -653.5733906821218
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2389.512888215602
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7699.350682470332
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -27973.996173825777
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -97706.45818016073
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -334646.8686209748
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -177.1525547164566
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -626.8147307803632
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2351.1036136795333
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7644.5657341908745
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -27881.416456392773
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -97510.86553999323
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -334099.48366094386
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -207.43425153830856
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -675.8721926381554
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2432.7956854754925
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7772.85632488859
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -28097.654421871994
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -97912.58168968074
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -335088.6696127205
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -210.35233104621727
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -683.7860193042001
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2455.7281445695085
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7831.141830119526
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -28252.504083751493
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -98295.45849780212
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -336036.06598118914
+      }
+    ]
+  },
+  "by_class": {
+    "literal_syntax_or_case": {
+      "events": 1143137,
+      "baseline_bits": 977022.3840483511,
+      "saving_bytes": -7.048222132469071
+    },
+    "first_in_slice": {
+      "events": 19192,
+      "baseline_bits": 262590.43970715115,
+      "saving_bytes": 6.928733636678899
+    },
+    "article_repeat": {
+      "events": 291625,
+      "baseline_bits": 973110.6973390351,
+      "saving_bytes": -5.978296597096931
+    },
+    "literal_escape": {
+      "events": 5857,
+      "baseline_bits": 12858.269646216184,
+      "saving_bytes": -0.011533557194972292
+    },
+    "known_first_in_article": {
+      "events": 165163,
+      "baseline_bits": 1284875.1923261862,
+      "saving_bytes": 8.208742337010403
+    }
+  },
+  "graph": {
+    "dictionary_words": 44515,
+    "K": 8,
+    "posting_cap": 64,
+    "candidate_cap": 128,
+    "capped_source_words": 44317,
+    "startup_seconds": 99.50107590099992,
+    "feature_array_bytes": 13888680,
+    "graph_edges": 1144190,
+    "examples": {
+      "no": {
+        "prefix_suffix": [
+          "not",
+          "now",
+          "nor",
+          "non",
+          "note",
+          "nova",
+          "none",
+          "noun"
+        ],
+        "deletion_signature": [
+          "so",
+          "or",
+          "to",
+          "in",
+          "on",
+          "of",
+          "an",
+          "do"
+        ],
+        "letter_moments": [
+          "mono",
+          "chrono",
+          "notion",
+          "neo",
+          "on",
+          "non",
+          "finno",
+          "domino"
+        ],
+        "matched_random": [
+          "macs",
+          "waldo",
+          "copies",
+          "dhcp",
+          "but",
+          "few",
+          "aren",
+          "ordeal"
+        ]
+      },
+      "know": {
+        "prefix_suffix": [
+          "known",
+          "knows",
+          "now",
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "kernow"
+        ],
+        "deletion_signature": [
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "known",
+          "now",
+          "knows"
+        ],
+        "letter_moments": [
+          "now",
+          "known",
+          "snow",
+          "downtown",
+          "window",
+          "own",
+          "unknown",
+          "down"
+        ],
+        "matched_random": [
+          "well",
+          "shows",
+          "codes",
+          "babylon",
+          "simple",
+          "lang",
+          "exists",
+          "draw"
+        ]
+      },
+      "now": {
+        "prefix_suffix": [
+          "know",
+          "snow",
+          "not",
+          "no",
+          "how",
+          "nor",
+          "row",
+          "non"
+        ],
+        "deletion_signature": [
+          "not",
+          "how",
+          "nor",
+          "own",
+          "new",
+          "row",
+          "non",
+          "low"
+        ],
+        "letter_moments": [
+          "know",
+          "snow",
+          "window",
+          "downtown",
+          "own",
+          "how",
+          "row",
+          "low"
+        ],
+        "matched_random": [
+          "ended",
+          "block",
+          "fixed",
+          "portugal",
+          "hold",
+          "not",
+          "ban",
+          "true"
+        ]
+      },
+      "diamond": {
+        "prefix_suffix": [
+          "divided",
+          "did",
+          "beyond",
+          "died",
+          "dialect",
+          "demand",
+          "second",
+          "diagram"
+        ],
+        "deletion_signature": [
+          "diamonds"
+        ],
+        "letter_moments": [
+          "abandoned",
+          "didn",
+          "and",
+          "addition",
+          "around",
+          "find",
+          "contained",
+          "named"
+        ],
+        "matched_random": [
+          "believed",
+          "etc",
+          "an",
+          "reference",
+          "create",
+          "pos",
+          "officially",
+          "thus"
+        ]
+      },
+      "the": {
+        "prefix_suffix": [
+          "there",
+          "these",
+          "theme",
+          "tithe",
+          "they",
+          "them",
+          "then",
+          "he"
+        ],
+        "deletion_signature": [
+          "she",
+          "ten",
+          "her",
+          "he",
+          "they",
+          "th",
+          "them",
+          "then"
+        ],
+        "letter_moments": [
+          "he",
+          "three",
+          "there",
+          "these",
+          "theme",
+          "whether",
+          "theatre",
+          "together"
+        ],
+        "matched_random": [
+          "is",
+          "soft",
+          "moving",
+          "unless",
+          "profit",
+          "return",
+          "guitar",
+          "survive"
+        ]
+      }
+    },
+    "note": "Bounded dictionary-derived neighbors; no exhaustive-search recall claim, corpus-fit edges or geometry input"
+  },
+  "memory_slots_per_family": 128,
+  "decay_per_dictionary_atom": "127/128",
+  "coverage": [],
+  "trace_sha256": "1aa519cce7ff58d339c0e435ace1e8a6dd6664e0b57b0086ffe5d295587f3b2e",
+  "wall_seconds": 437.241401579,
+  "prototype_peak_rss_kbytes": 298520,
+  "contract": "Prefix-only additive root expert, all outcomes and EOF prefixes charged; not global P0 tilt, native archive, full package or20% result",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

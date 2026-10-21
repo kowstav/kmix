@@ -1,0 +1,7 @@
+import pathlib,json,subprocess,shutil,datetime
+R=pathlib.Path('/kaggle/working/hp_round8');W=pathlib.Path('/kaggle/working');rows=[]
+for name in ['lexical_full_prepare_v1','native_hidden_trace_v4','hidden_cache_v2','metric_cache_v1','atom_cache_v1','error_memory_v1']:
+ p=R/name/'manifest.json';m=json.loads(p.read_text()) if p.exists() else {};rows.append({'experiment':name,'status':m.get('status'),'stage':m.get('stage'),'pid':m.get('pid'),'error':m.get('error'),'native_exports':len(m.get('native_exports',[])),'feature_exports':len(m.get('feature_exports',[])),'heads':len(m.get('results',[])),'best_priced_AB_bytes':m.get('best_priced_AB_bytes'),'fixed_online_AB':m.get('fixed_online_AB'),'advance_gate_pass':m.get('advance_gate_pass'),'confirmation_evaluated':m.get('confirmation_candidates_evaluated')})
+ps=subprocess.check_output(['ps','-eo','pid,comm,etime,pcpu,rss,args'],text=True)
+active=[s for s in ps.splitlines() if any(v in s for v in ['/research_round8_atom_cache_worker.py','/research_round8_error_memory_worker.py','/atom_cache_v1/replay ','/error_memory_v1/replay ','/cmix_hidden_trace '])]
+print(json.dumps({'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'round8_exists':R.exists(),'files':len(list(R.glob('*'))) if R.exists() else 0,'manifests':rows,'actual_live_workers':active,'working_free_bytes':shutil.disk_usage(W).free,'preserved_round7':(W/'hp_round7').exists()}))

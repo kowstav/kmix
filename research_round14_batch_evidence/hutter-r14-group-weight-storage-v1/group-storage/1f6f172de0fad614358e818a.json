@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.9.attention.forget_gate_projection.down.weight.codebook",
+  "names": [
+    "blocks.9.attention.forget_gate_projection.down.weight.codebook"
+  ],
+  "label": "1f6f172de0fad614358e818a",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 187
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 224
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 176
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 187
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 224
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 176
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 173
+    }
+  ],
+  "selected": [
+    173,
+    "xor",
+    "zstd"
+  ],
+  "archive_sha256": "52601d1442df584f365fadeb3fc7a5b471017e3b4da9b8909e4e70272586aef4",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.010527000000000009,
+  "wall_seconds": 0.01086786299998721
+}

@@ -1,0 +1,1258 @@
+Yes. This version is substantially more promising than “use letter algebra as a new word encoding.”
+
+What you are describing is closer to a **causal associative lexical memory**:
+
+> When the decoder observes a word, that word deterministically excites a sparse set of structurally related words. Those related words remain partially activated for some learned amount of time. Context then strengthens, suppresses, or forgets those activations.
+
+So after seeing `no`, the decoder does not need to be explicitly told “remember `know`.” Both compressor and decompressor can independently infer that `know` is one of the lexical neighbors of `no`, keep a small activation for it, and later exploit that activation if syntax/context makes `know` plausible.
+
+That is compatible with lossless compression because it uses only already-decoded information.
+
+Your earlier experiments already provide some evidence for the ingredients separately: letter-based groupings beat frequency grouping, letter-algebra embeddings improved the word models another ~1.1–1.5%, and explicit keep-alive memory helped when combined with scratch slots. hutter_context_miner_report hutter_ideas_report
+
+I would formalize it as follows.
+
+## 1. A word creates an “echo field”
+
+Let the dictionary vocabulary be
+
+\[
+\mathcal V=\{w_1,\ldots,w_N\}.
+\]
+
+When word \(u\) has just been decoded, define its lexical activation over candidate \(v\) as
+
+\[
+R(u,v).
+\]
+
+The naive version would be an \(N\times N\) table. That is unusable: even 50,000 words gives billions of entries.
+
+Instead, derive \(R\) compositionally from intrinsic relations:
+
+\[
+\boxed{
+R(u,v)=
+F_\theta\!\left(
+\phi_{\rm spell}(u,v),
+\phi_{\rm geom}(u,v),
+\phi_{\rm morph}(u,v),
+\phi_{\rm distribution}(u,v)
+\right)
+}
+\]
+
+where every \(\phi\) is reproducible by the decoder.
+
+For your example:
+
+\[
+u=\text{diamond}
+\]
+
+might give high structural affinity to words such as
+
+\[
+\text{almond},\quad
+\text{mond*},\quad
+\text{on},\quad
+\text{diamond-like morphological neighbors},
+\]
+
+but the learned function could give essentially zero weight to an accidental relation like `amon` if it has historically provided no predictive value.
+
+So structural similarity only **proposes** relationships.
+
+Training decides whether they are useful.
+
+---
+
+## 2. The relation should have several independent channels
+
+For words
+
+\[
+u=u_1\ldots u_m,\qquad v=v_1\ldots v_n,
+\]
+
+define a relation vector
+
+\[
+\Phi(u,v)
+=
+[
+\Phi_{\rm edit},
+\Phi_{\rm prefix},
+\Phi_{\rm suffix},
+\Phi_{\rm multiset},
+\Phi_{\rm positional},
+\Phi_{\rm geometry},
+\Phi_{\rm phonographic},
+\Phi_{\rm length}
+].
+\]
+
+For example:
+
+### Shared prefix
+
+\[
+\Phi_{\rm pre}(u,v)
+=
+\frac{\operatorname{LCP}(u,v)}
+{\sqrt{|u||v|}}.
+\]
+
+### Shared suffix
+
+\[
+\Phi_{\rm suf}(u,v)
+=
+\frac{\operatorname{LCS}(u,v)}
+{\sqrt{|u||v|}}.
+\]
+
+### Letter multiset
+
+Let \(c_j(w)\) be the count of character \(j\) in word \(w\). Then
+
+\[
+\Phi_{\rm bag}(u,v)
+=
+\frac{
+\sum_j\min(c_j(u),c_j(v))
+}{
+\sum_j\max(c_j(u),c_j(v))
+}.
+\]
+
+This would notice relations that exact substrings miss.
+
+### Ordered letter algebra
+
+Define
+
+\[
+A_k(w)=
+\sum_{j=1}^{|w|}
+\psi_k(j/|w|)\,e_{w_j}.
+\]
+
+Then
+
+\[
+\Phi_{A,k}(u,v)
+=
+\frac{
+A_k(u)^\top A_k(v)
+}{
+\|A_k(u)\|\|A_k(v)\|
+}.
+\]
+
+Using \(k=0\) ignores position; higher \(k\)'s preserve increasingly precise position information.
+
+That is close to what your Round 4 letter algebra was already exploiting. hutter_context_miner_report
+
+---
+
+## 3. Geometry can enter without pretending geometry itself predicts language
+
+Give each letter a fixed geometric vector
+
+\[
+g(c)\in\mathbb R^d.
+\]
+
+Then
+
+\[
+G_k(w)=
+\sum_j
+\psi_k(j/|w|)g(w_j).
+\]
+
+And use
+
+\[
+\Phi_{G,k}(u,v)
+=
+\cos(G_k(u),G_k(v)).
+\]
+
+Geometry alone was essentially useless in your earlier experiments, so I would not give it an independent predictor. hutter_ideas_report
+
+Instead, geometry should slightly improve the **relation function**.
+
+So:
+
+\[
+\text{geometry}
+\rightarrow
+\text{better lexical neighborhood}
+\]
+
+rather than
+
+\[
+\text{geometry}
+\rightarrow
+\text{predict next word}.
+\]
+
+That's a much more defensible role for it.
+
+---
+
+# 4. The important new object is persistent activation
+
+Suppose word \(u_t\) is decoded at lexical time \(t\).
+
+For every candidate word \(v\), maintain a memory value
+
+\[
+a_t(v).
+\]
+
+Update it by
+
+\[
+\boxed{
+a_t(v)
+=
+\lambda_t(v)a_{t-1}(v)
++
+I_t(u_t,v)
+}
+\]
+
+where
+
+\[
+0\leq\lambda_t(v)\leq1
+\]
+
+is its learned retention factor and
+
+\[
+I_t(u_t,v)
+\]
+
+is the excitation caused by the newly observed word.
+
+This equation is literally your
+
+> "`no` keeps `know` in the back of the model's mind"
+
+idea.
+
+For example,
+
+\[
+a_t(\text{know})
+=
+0.92a_{t-1}(\text{know})
++
+I_t(\text{no},\text{know}).
+\]
+
+After several irrelevant words, it decays:
+
+\[
+a_{t+k}(\text{know})
+\approx
+0.92^k a_t(\text{know}).
+\]
+
+Unless later context reinforces it.
+
+---
+
+# 5. But the injection should be learned
+
+Do not automatically activate every related spelling.
+
+Use
+
+\[
+I_t(u,v)
+=
+R(u,v)
+\cdot
+G(u,v,H_t)
+\cdot
+S_t.
+\]
+
+Three pieces:
+
+\[
+R(u,v)
+\]
+
+is intrinsic lexical relatedness.
+
+\[
+G(u,v,H_t)
+\]
+
+is a learned usefulness gate.
+
+And
+
+\[
+S_t
+\]
+
+can represent how informative the appearance of \(u\) was.
+
+A particularly interesting choice is its surprise:
+
+\[
+S_t=
+-\log P_{\rm base}(u_t\mid H_t).
+\]
+
+So an unexpected word creates a larger “shake” than a trivial one.
+
+Seeing a surprising `diamond` might activate useful lexical relatives strongly.
+
+Seeing another occurrence of extremely predictable `the` need not excite thousands of things.
+
+This is completely causal because after \(u_t\) has been decoded, both sides know
+
+\[
+u_t,\quad H_t,\quad P_{\rm base}(u_t\mid H_t).
+\]
+
+---
+
+# 6. We can learn which parts of `diamond` matter
+
+Here's the key solution to your `amon` issue.
+
+Instead of defining
+
+\[
+R(\text{diamond},\text{amon})>0
+\]
+
+merely because they share some structural property, define
+
+\[
+R_\theta(u,v)
+=
+\sigma\left(
+\theta^\top\Phi(u,v)
++
+z(u)^\top W z(v)
+\right).
+\]
+
+Then training learns:
+
+\[
+R_\theta(\text{diamond},\text{almond}) \gg
+R_\theta(\text{diamond},\text{amon})
+\]
+
+*if the corpus supports that relation.*
+
+We can even allow negative values:
+
+\[
+R_\theta(u,v)\in[-1,1].
+\]
+
+Then a source word can:
+
+- activate some neighbors,
+- leave some untouched,
+- actively suppress others.
+
+So the lexical field is not merely a memory.
+
+It is a **signed associative field**.
+
+---
+
+# 7. This becomes much stronger when combined with placement
+
+Structural affinity alone can't tell us whether `know` should occur next.
+
+This is where your previous placement idea joins the new one.
+
+Let
+
+\[
+p_t(v)
+\]
+
+represent how appropriate candidate \(v\) is for the current syntactic/positional state.
+
+Then combine lexical activation and placement:
+
+\[
+\boxed{
+h_t(v)
+=
+\beta_A a_t(v)
++
+\beta_P p_t(v)
++
+\beta_{AP}a_t(v)p_t(v)
+}
+\]
+
+The interaction term is particularly important.
+
+Suppose `no` has previously activated `know`.
+
+Then
+
+\[
+a_t(\text{know})>0.
+\]
+
+But immediately after
+
+> `there is`
+
+the placement model might say
+
+\[
+p_t(\text{know})\ll0.
+\]
+
+So the activation does nothing.
+
+Later:
+
+> `we already`
+
+may produce
+
+\[
+p_t(\text{know})\gg0.
+\]
+
+Now the dormant lexical activation becomes useful.
+
+This is exactly the behavior you are describing.
+
+---
+
+# 8. A better mathematical interpretation is “latent lexical priming”
+
+You can view the state
+
+\[
+a_t\in\mathbb R^{|\mathcal V|}
+\]
+
+as a distributed lexical priming vector.
+
+Ordinary language modeling asks:
+
+\[
+P(w_t\mid H_t).
+\]
+
+We ask instead
+
+\[
+P(w_t\mid H_t,a_t)
+\]
+
+with
+
+\[
+a_t =
+F(a_{t-1},w_{t-1}).
+\]
+
+Thus
+
+\[
+\boxed{
+P(w_t\mid H_t)
+=
+P\left(
+w_t
+\mid
+H_t,
+F(F(\cdots F(0,w_1),w_2)\cdots,w_{t-1})
+\right)
+}
+\]
+
+The state becomes a deterministic summary of **what words previous words imply might become useful later**.
+
+That is distinct from a standard context window.
+
+---
+
+# 9. It also differs from ordinary semantic embeddings
+
+A normal embedding learns something like
+
+\[
+z(\text{diamond})\approx z(\text{gem}).
+\]
+
+Your proposed mechanism is richer:
+
+\[
+\text{diamond}
+\rightarrow
+\{
+\text{gem},
+\text{carbon},
+\text{almond?},
+\text{mine},
+\text{hardness},
+\dots
+\}
+\]
+
+with each relation having:
+
+- strength,
+- direction,
+- expected delay,
+- context dependence,
+- decay rate.
+
+So define
+
+\[
+R(u,v,d)
+\]
+
+rather than just \(R(u,v)\).
+
+For example,
+
+\[
+R(\text{now},\text{know},2)
+\]
+
+may differ strongly from
+
+\[
+R(\text{now},\text{know},50).
+\]
+
+A compact factorization is
+
+\[
+R(u,v,d)
+=
+\sum_{r=1}^{R}
+\alpha_r(u)
+\beta_r(v)
+\kappa_r(d).
+\]
+
+This is important because an explicit three-dimensional table would be huge.
+
+The low-rank factorization keeps it affordable.
+
+---
+
+# 10. The delay kernel can be learned
+
+Take
+
+\[
+\kappa_r(d)
+=
+e^{-d/\tau_r}
+\]
+
+for several timescales
+
+\[
+\tau_r\in\{1,2,4,8,16,32,64,128,\ldots\}.
+\]
+
+Then
+
+\[
+R(u,v,d)
+=
+\sum_r
+\alpha_r(u)\beta_r(v)e^{-d/\tau_r}.
+\]
+
+Now `no → know` could naturally learn a short-range relation while an entity like
+
+\[
+\text{Einstein}\rightarrow\text{relativity}
+\]
+
+could survive much longer.
+
+We could also use signed kernels.
+
+---
+
+# 11. We should never maintain activations for the entire dictionary
+
+That would kill the runtime.
+
+Instead each decoded word emits only its top \(K\) lexical neighbors:
+
+\[
+\mathcal N_K(u)
+=
+\operatorname{TopK}_{v}
+R(u,v).
+\]
+
+Say
+
+\[
+K=8,\ 16,\ \text{or }32.
+\]
+
+The active lexical memory might contain only
+
+\[
+M=128\text{–}512
+\]
+
+entries.
+
+Then updates are roughly
+
+\[
+O(K)
+\]
+
+per decoded word rather than
+
+\[
+O(|\mathcal V|).
+\]
+
+When memory fills, deterministic eviction could use
+
+\[
+E_t(v)
+=
+|a_t(v)|
+\cdot
+\widehat{\Delta L}_t(v)
+\]
+
+where
+
+\[
+\widehat{\Delta L}
+\]
+
+estimates expected future bits saved.
+
+This resembles your earlier TTL idea, except now the memory slots can contain **words that have never themselves appeared recently**—they were *activated by related words*.
+
+That is the novel piece.
+
+Your earlier TTL mechanism only kept actually seen words alive. Its best design combined free scratch slots with selected remembered words and produced a real within-model gain. hutter_ideas_report
+
+---
+
+# 12. This produces “virtual memory”
+
+Consider:
+
+```text
+... no ...
+```
+
+Suppose the actual word `know` has not appeared for thousands of symbols.
+
+Current memory:
+
+\[
+\text{know}\notin M_t.
+\]
+
+But `no` is decoded.
+
+The relation generator produces:
+
+\[
+\mathcal N(\text{no})
+=
+\{
+(\text{know},0.54),
+(\text{now},0.37),
+(\text{not},0.09),
+\dots
+\}.
+\]
+
+So now:
+
+\[
+a_t(\text{know})=0.54.
+\]
+
+No side information was transmitted.
+
+You have effectively resurrected `know` into short-term memory **for free**, except for the model/code describing the relation mechanism.
+
+This is the exact insight I think is worth testing.
+
+---
+
+# 13. Now combine it with the baseline predictor
+
+Let the existing word distribution implied by FX2/cmix be
+
+\[
+P_0(v\mid H_t).
+\]
+
+Don't replace it.
+
+Tilt it:
+
+\[
+\boxed{
+P_1(v\mid H_t)
+=
+\frac{
+P_0(v\mid H_t)
+\exp[
+\eta_t(v)
+]
+}{
+\sum_x
+P_0(x\mid H_t)
+\exp[
+\eta_t(x)
+]
+}
+}
+\]
+
+where
+
+\[
+\eta_t(v)
+=
+\beta_A a_t(v)
++
+\beta_Pp_t(v)
++
+\beta_{AP}a_t(v)p_t(v).
+\]
+
+This formula is crucial.
+
+It means your mechanism only reallocates probability mass.
+
+If `know` is dormant but activated:
+
+\[
+P_0(\text{know})=0.001
+\]
+
+and
+
+\[
+\eta(\text{know})=2,
+\]
+
+then its unnormalized probability becomes
+
+\[
+0.001e^2\approx0.00739.
+\]
+
+That's roughly a sevenfold boost.
+
+But only after normalization.
+
+No illegal “free probability.”
+
+---
+
+# 14. A small transformer can learn the gate rather than the language itself
+
+This is where I would modify your multiple-transformer concept.
+
+Instead of several complete transformers that all predict vocabulary, use:
+
+\[
+\text{large/base predictor}
++
+\text{tiny controllers}.
+\]
+
+For example:
+
+\[
+T_{\rm syntax}: H_t\rightarrow s_t
+\]
+
+\[
+T_{\rm gate}:(s_t,a_t)\rightarrow \beta_t
+\]
+
+\[
+T_{\rm residual}:(s_t,\text{candidate features})\rightarrow\Delta_t(v).
+\]
+
+Then final score:
+
+\[
+\ell_t(v)
+=
+\log P_0(v)
++
+\beta_Aa_t(v)
++
+\beta_Pp_t(v)
++
+\beta_{AP}a_t(v)p_t(v)
++
+\Delta_t(v).
+\]
+
+And
+
+\[
+P(v)=\operatorname{softmax}_v \ell_t(v).
+\]
+
+This uses neural capacity to decide **when a lexical echo matters**, rather than forcing a neural model to memorize every relationship.
+
+---
+
+# 15. The residual transformer can also *reject* activations
+
+This addresses your concern exactly.
+
+Suppose `diamond` generates
+
+\[
+\{
+\text{almond},
+\text{mound},
+\text{on},
+\text{amon},
+\dots
+\}.
+\]
+
+The raw structural scores might be:
+
+\[
+R=
+\{0.61,0.52,0.44,0.36,\dots\}.
+\]
+
+The gate learns:
+
+\[
+G=
+\{0.7,0.05,0.01,0.0001,\dots\}.
+\]
+
+Therefore actual injections become
+
+\[
+I=R\odot G
+\]
+
+or approximately
+
+\[
+\{0.427,0.026,0.0044,0.000036,\dots\}.
+\]
+
+`amon` disappears automatically.
+
+So letter algebra gives **candidate generation**.
+
+Training supplies **candidate selection**.
+
+Context supplies **candidate timing**.
+
+That three-stage decomposition is much cleaner than asking one transformer to learn everything.
+
+---
+
+# 16. We can train the activation system directly for bits saved
+
+Don't train it to predict “will this word reappear?”
+
+Your earlier TTL scorer did roughly that and then multiplied by expected savings heuristically. hutter_ideas_report
+
+Instead optimize compression directly.
+
+For each actual next word \(y_t\),
+
+\[
+\mathcal L_{\rm data}
+=
+-\sum_t
+\log_2
+P_\theta(y_t\mid H_t).
+\]
+
+Then charge parameter storage:
+
+\[
+\mathcal L_{\rm MDL}
+=
+\mathcal L_{\rm data}
++
+2R(\theta).
+\]
+
+And charge compute approximately:
+
+\[
+\mathcal L_{\rm total}
+=
+\mathcal L_{\rm data}
++
+2R(\theta)
++
+\mu C(\theta).
+\]
+
+This last term isn't part of official Hutter score directly, but it acts as a Lagrangian for the hard runtime constraint.
+
+---
+
+# 17. More interestingly, train individual lexical edges for *counterfactual bit savings*
+
+For a source \(u_i\) and target \(v_j\), define
+
+\[
+\Delta_{ij}
+=
+\log_2
+\frac{
+P_{\rm with\,activation}(w_j\mid H_j)
+}{
+P_{\rm without}(w_j\mid H_j)
+}.
+\]
+
+Then
+
+\[
+\Delta_{ij}>0
+\]
+
+means activation from \(u_i\) helped.
+
+Train the relation mechanism toward
+
+\[
+R(u_i,v)
+\propto
+\mathbb E[
+\Delta_{ij}
+\mid
+u_i,v,d_{ij},H_i
+].
+\]
+
+This gives an extremely clean meaning to an edge:
+
+> The expected future number of bits that activating \(v\) after observing \(u\) will save.
+
+That is much better than semantic similarity.
+
+---
+
+# 18. We could even define the optimal activation value mathematically
+
+Suppose candidate \(v\)'s baseline probability is \(p_v\).
+
+Give it logit boost \(a\).
+
+Then
+
+\[
+q_v=
+\frac{p_ve^a}
+{1+p_v(e^a-1)}
+\]
+
+in the simplified one-candidate case.
+
+If \(v\) actually occurs, saving is
+
+\[
+\Delta L_+
+=
+\log_2\frac{q_v}{p_v}.
+\]
+
+If some other word occurs, the boost hurts because normalization steals probability:
+
+\[
+\Delta L_-
+=
+\log_2
+\frac{1-q_v}{1-p_v}.
+\]
+
+Let
+
+\[
+r=P(v\text{ occurs in relevant horizon}\mid H).
+\]
+
+Expected benefit is
+
+\[
+B(a)
+=
+r\log_2\frac{q_v}{p_v}
++
+(1-r)\log_2
+\frac{1-q_v}{1-p_v}.
+\]
+
+The optimum is achieved when the modified probability represents the true conditional probability:
+
+\[
+q_v^\star=r.
+\]
+
+Hence the ideal activation is
+
+\[
+\boxed{
+a^\star
+=
+\operatorname{logit}(r)
+-
+\operatorname{logit}(p_v)
+}
+\]
+
+This is a very important equation for your idea.
+
+It says:
+
+> The lexical echo should not simply “remind” the model of a word. It should supply precisely the **missing log-odds** between what the baseline thinks and what the relation predicts.
+
+That is rigorous.
+
+---
+
+# 19. Multiple source words should accumulate evidence
+
+Suppose we've seen
+
+\[
+u_1,u_2,\ldots,u_k.
+\]
+
+Then candidate \(v\)'s activation can be additive in log-odds:
+
+\[
+a_t(v)
+=
+\sum_{i<t}
+\lambda^{t-i}
+r_\theta(u_i,v,H_i).
+\]
+
+So if several words independently support `know`,
+
+\[
+a_t(\text{know})
+\]
+
+builds.
+
+And conflicting evidence can cancel.
+
+With relation types \(r\),
+
+\[
+a_t(v)
+=
+\sum_r\sum_{i<t}
+\lambda_r^{t-i}
+r_r(u_i,v).
+\]
+
+For example:
+
+\[
+a_t(v)
+=
+a_{\rm spelling}
++
+a_{\rm semantic}
++
+a_{\rm syntactic}
++
+a_{\rm entity}
++
+a_{\rm topic}.
+\]
+
+---
+
+# 20. The previous placement model now becomes the second half of the system
+
+The complete architecture would be:
+
+\[
+\boxed{
+\text{decoded word}
+\rightarrow
+\text{structural/algebraic candidate generator}
+\rightarrow
+\text{lexical echo memory}
+\rightarrow
+\text{placement gate}
+\rightarrow
+\text{residual neural correction}
+\rightarrow
+\text{WRT-byte probabilities}
+\rightarrow
+\text{cmix}
+}
+\]
+
+More explicitly:
+
+\[
+u_t
+\overset{\Phi}{\longrightarrow}
+\mathcal N_K(u_t)
+\]
+
+\[
+\mathcal N_K(u_t)
+\overset{R_\theta}{\longrightarrow}
+a_{t+1}
+\]
+
+\[
+(H_{t+1},a_{t+1})
+\overset{G_\theta}{\longrightarrow}
+\eta_{t+1}(v)
+\]
+
+\[
+P_0(v\mid H)
+\overset{\eta}{\longrightarrow}
+P_1(v\mid H,a)
+\]
+
+and then induce probabilities on the existing WRT code tree.
+
+This fits Round 7's preferred direction of maintaining the current WRT/classical stream while putting more intelligence at lexical boundaries. research_round7_report
+
+---
+
+## The experiment sequence matters
+
+I would not immediately train the entire architecture. We can test the central hypothesis much more cheaply and rigorously.
+
+**Experiment A — does lexical echo exist at all?**
+
+Take the top 5,000 or 20,000 frequent dictionary words. For every occurrence of source word \(u\), measure whether structurally related candidate \(v\) becomes cheaper than its baseline prediction within horizons such as
+
+\[
+d\in
+\{1\!-\!4,\ 5\!-\!16,\ 17\!-\!64,\ 65\!-\!256\}.
+\]
+
+Estimate
+
+\[
+E[\Delta L\mid\Phi(u,v),d].
+\]
+
+If letter-algebra relations do not predict future residual surprise, stop.
+
+**Experiment B — oracle upper bound.**
+
+Given the actual future only for diagnostics, calculate the maximum possible gain from activating top-\(K\) related words after each source word.
+
+This is not a codec result.
+
+It tells us whether the bit budget is large enough to justify the architecture.
+
+**Experiment C — causal relation model.**
+
+Replace oracle choices with
+
+\[
+R_\theta(u,v,d)
+\]
+
+trained only on past examples.
+
+Score it against the actual final-coder probabilities.
+
+No transformer yet.
+
+**Experiment D — add placement gating.**
+
+Estimate
+
+\[
+G_\theta(u,v,H_t)
+\]
+
+using syntax/position/history.
+
+This tests exactly whether `diamond → candidate words` can be filtered intelligently.
+
+**Experiment E — persistent echo memory.**
+
+Compare:
+
+- no echo,
+- exact-word TTL,
+- structural echo,
+- shuffled-neighbor control,
+- random-neighbor control,
+- same-parameter learned embedding control.
+
+This is essential because otherwise a gain might just come from adding generic capacity.
+
+**Experiment F — residual transformer.**
+
+Only if structural echo survives the final mixer do we train the small residual transformer.
+
+That prevents spending most of the compute on an effect cmix already knows.
+
+---
+
+The particularly interesting possibility is that this mechanism could help **first mentions**, not merely repeats. Your Round 7 work explicitly says the larger remaining opportunity is familiar words making their first appearance in the current article, roughly 37–40% of sampled final bits. research_round7_report
+
+An exact memory cannot help much there because the word hasn't appeared in the article yet.
+
+But an associative echo potentially can:
+
+\[
+\text{related decoded word}
+\rightarrow
+\text{activate not-yet-mentioned candidate}
+\rightarrow
+\text{placement context confirms it}
+\rightarrow
+\text{lower first-mention surprise}.
+\]
+
+That is the strongest reason I see to test your new idea. It is not merely “better TTL”; it potentially turns **one already decoded word into a free causal hint about several not-yet-seen words**, with learned rejection and decay.
+
+I would call the model something like a **Causal Lexical Echo Field (CLEF)**. The first serious task should be deriving the exact oracle and causal evaluation equations against your saved final-bit traces, because we can determine whether CLEF has a 10 KB, 100 KB, or 1 MB opportunity *before* training a new transformer.

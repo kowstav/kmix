@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.output_projection.weight.codebook",
+  "names": [
+    "blocks.10.attention.output_projection.weight.codebook"
+  ],
+  "label": "1267fd0c9bd316c57710430a",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 179
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 215
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 167
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 179
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 215
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 167
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 180
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 217
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 169
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 180
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 217
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 169
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 179
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 215
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 167
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 178
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 215
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 167
+    }
+  ],
+  "selected": [
+    167,
+    "plain",
+    "zstd"
+  ],
+  "archive_sha256": "9c61b7861929fbe042b1230c936b9386d45ee333eaaaf60417d2a99a155cc210",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.011384999999998355,
+  "wall_seconds": 0.012119703999985632
+}

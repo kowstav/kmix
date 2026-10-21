@@ -1,0 +1,2382 @@
+{
+  "mode": "edit",
+  "raw_bytes": 2000000,
+  "decoded_bytes": 2815309,
+  "unscored_prefix_bytes": 28,
+  "baseline_ideal_bytes": 193366.1721879462,
+  "contract": {
+    "measurement": "ideal likelihood only; package and CPU not included",
+    "donors": "decoded prefix only, bounded keyed value memory",
+    "expert": "normalized probabilistic edit channel with frozen base fallback",
+    "selection": "Bayesian sequence mixture, neutral model included",
+    "oracle": "diagnostic only; free best-model choices are NOT coded gains"
+  },
+  "parser_counts": {
+    "article_title_openers": 1851,
+    "titles_captured": 1851,
+    "template_openers": 3735,
+    "prefix_gated_title_repeat_starts": 46146,
+    "link_openers": 94787,
+    "named_field_starts": 6872,
+    "positional_fields_skipped": 9954,
+    "piped_link_labels": 6029,
+    "balanced_named_fields_completed": 260
+  },
+  "screen_counts": {
+    "schema_value_no_candidate": 6647,
+    "combined_overlap_skipped": 43862,
+    "title_repeat_overlap_skipped": 14
+  },
+  "memory": {
+    "keys": 35,
+    "payload_bytes": 805
+  },
+  "scores": {
+    "title_selflink": {
+      "name": "title_selflink",
+      "events": 94787,
+      "exact_match_events": 1650,
+      "positive_events": 137,
+      "coded_bytes_covered": 735235,
+      "baseline_bits_covered": 789423.2217764525,
+      "prequential_saving_bytes": -0.8632248682067049,
+      "prequential_total_bits": 1546936.2833025153,
+      "oracle_best_per_event_saving_bytes_UNPAID": 142.61645053029966,
+      "context_count": 2,
+      "model_count_per_context": 49,
+      "fixed_models": [
+        {
+          "alpha": 0.0,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": 0.0
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -16.03967421965524
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -14.911894089476178
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -14.35286051044514
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -13.948709746880807
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -13.211582426516985
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -11.827713892610854
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -49.265374851061026
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -47.59084608807407
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -46.77426876978459
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -45.93160659007468
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -43.75760942725793
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -39.47174431726271
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -167.21413371106883
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -164.43048295401587
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -162.93496602846935
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -160.88014746864988
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -154.44609704008292
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -140.61593265037567
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -510.1746025051909
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -505.2640396577294
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -502.341359383035
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -497.69138756555674
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -481.1718555231258
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -440.9905664633767
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -1770.8103975308657
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -1760.3202911006545
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -1753.6744796502533
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -1741.832282670915
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -1693.579209609015
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -1558.2789070558392
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -6002.010268024369
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -5976.264805501388
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -5959.0161614479
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -5925.154234999424
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -5771.706857410585
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -5288.592367216851
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -20256.916219590898
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -20167.347116675362
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -20098.542449793084
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -19955.4567048543
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -19286.58241362767
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -17083.75521669761
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -38722.257100293486
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -38466.18334630625
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -38253.97649754579
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -37815.024346667495
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -35848.12653773867
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -29670.25315566714
+        }
+      ],
+      "by_branch": {
+        "title_selflink": {
+          "events": 94787,
+          "matched": 1650,
+          "coded_bytes": 735235,
+          "baseline_bits": 789423.2217764525,
+          "prequential_gain_bits": -6.905798945653639
+        }
+      }
+    },
+    "title_repeat": {
+      "name": "title_repeat",
+      "events": 46132,
+      "exact_match_events": 5021,
+      "positive_events": 1957,
+      "coded_bytes_covered": 123829,
+      "baseline_bits_covered": 67713.98140647614,
+      "prequential_saving_bytes": -0.5498748862109426,
+      "prequential_total_bits": 1546933.7765026593,
+      "oracle_best_per_event_saving_bytes_UNPAID": 298.4051856273171,
+      "context_count": 2,
+      "model_count_per_context": 49,
+      "fixed_models": [
+        {
+          "alpha": 0.0,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": 0.0
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -3.902096486464211
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -3.672671254327204
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -3.480412548336925
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -3.2663749290942143
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -2.9059417200909543
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -2.50578020580552
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -15.610525416886837
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -15.098472764620784
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -14.625576415882517
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -13.970234681243673
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -12.273563492871693
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -9.819484493331004
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -61.18036786181474
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -59.959935502442654
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -58.55495802570055
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -56.28663502871654
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -49.33294493808744
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -38.543790860173715
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -201.297647092612
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -198.39245641238062
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -194.4310442759729
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -187.42604195823407
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -164.2472586263617
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -127.2984765752635
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -735.1234002393102
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -726.8066706645984
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -713.8514983703676
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -689.4642101537454
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -604.4470891824316
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -465.27351922615924
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -2565.2478195160647
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -2538.9899096178815
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -2493.370759564565
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -2405.4902414662615
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -2094.239924880106
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -1583.0105018669287
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -8808.148571326898
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -8692.64316879321
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -8474.973855438817
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -8066.8627383507255
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -6711.505580315636
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -4708.7500589075635
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -16938.649727292246
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -16567.30986586634
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -15892.95399373737
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -14738.666551873353
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -11351.90745537435
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -7184.92261393181
+        }
+      ],
+      "by_branch": {
+        "title_repeat": {
+          "events": 46132,
+          "matched": 5021,
+          "coded_bytes": 123829,
+          "baseline_bits": 67713.98140647614,
+          "prequential_gain_bits": -4.398999089687541
+        }
+      }
+    },
+    "link_label": {
+      "name": "link_label",
+      "events": 6029,
+      "exact_match_events": 18,
+      "positive_events": 44,
+      "coded_bytes_covered": 48669,
+      "baseline_bits_covered": 26127.35357645429,
+      "prequential_saving_bytes": -2.216413643758786,
+      "prequential_total_bits": 1546947.1088127198,
+      "oracle_best_per_event_saving_bytes_UNPAID": 23.231935659425012,
+      "context_count": 8,
+      "model_count_per_context": 49,
+      "fixed_models": [
+        {
+          "alpha": 0.0,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": 0.0
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -0.795133346620973
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -0.7919439825175426
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -0.8025947750119008
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -0.8200286800248742
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -0.8448983133639527
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -0.8345891694168243
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -2.6676180078358174
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -2.653040014500442
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -2.666046766558354
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -2.6829082798789745
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -2.6686560137107485
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -2.56926825775148
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -9.691975853437484
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -9.629922947903397
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -9.618645244544528
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -9.58657637077996
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -9.367537249462117
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -8.912505493553297
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -30.792367184117893
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -30.572148305906413
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -30.397462576725257
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -30.10265129526498
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -29.25940328623315
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -27.914735951338884
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -110.13153271559932
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -109.25111349150237
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -108.17954608238402
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -106.53022489563378
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -103.39690794211491
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -99.32656835822036
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -380.17329485151794
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -376.63796874968347
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -371.73957881078945
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -364.54091076739326
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -353.1187957716676
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -340.1943727956914
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -1296.4586698769845
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -1277.990620276091
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -1253.1823533843653
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -1218.8656572094442
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -1168.8748836970258
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -1115.4084878853246
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -2486.66691805325
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -2422.832664571079
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -2346.71441373505
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -2251.4398929574036
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -2120.8562205508456
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -1979.1985633281438
+        }
+      ],
+      "by_branch": {
+        "link_label": {
+          "events": 6029,
+          "matched": 18,
+          "coded_bytes": 48669,
+          "baseline_bits": 26127.35357645429,
+          "prequential_gain_bits": -17.731309150070288
+        }
+      }
+    },
+    "schema_value": {
+      "name": "schema_value",
+      "events": 225,
+      "exact_match_events": 36,
+      "positive_events": 14,
+      "coded_bytes_covered": 1604,
+      "baseline_bits_covered": 524.0921455907519,
+      "prequential_saving_bytes": -0.3992608399437586,
+      "prequential_total_bits": 1546932.5715902892,
+      "oracle_best_per_event_saving_bytes_UNPAID": 4.102699321407637,
+      "context_count": 2,
+      "model_count_per_context": 49,
+      "fixed_models": [
+        {
+          "alpha": 0.0,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": 0.0
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -0.027113019174634937
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -0.02693122275974208
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -0.02651980393766982
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -0.02612146387912609
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -0.02694443484100958
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -0.026553007872504735
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -0.08180924210809766
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -0.08124746742971332
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -0.07994863769466892
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -0.07868804983655973
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -0.0810998436074331
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -0.07992488917391673
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -0.2777141172870384
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -0.27567504364310963
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -0.27070276830318457
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -0.26587610635563924
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -0.2733574794349822
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -0.269416457443554
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -0.8680740032709967
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -0.8609137854590911
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -0.8422457346738026
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -0.824658341577695
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -0.844173748550811
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -0.8318336944639382
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -3.176640542131704
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -3.1455333977638604
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -3.0631771043663027
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -2.996575947801973
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -3.0527720643677383
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -3.0007939520985887
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -11.41671399512497
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -11.277371617562487
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -10.96157981880929
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -10.772701865178616
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -10.931241988043848
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -10.65737988438976
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -40.19376100578425
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -39.413125460156586
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -38.26239973206367
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -37.60325790695757
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -37.494164094171225
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -35.7583480794463
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -77.73243362073356
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -75.11176365376174
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -72.45085156507152
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -70.36151569441493
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -67.9763507097676
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -62.77467582541719
+        }
+      ],
+      "by_branch": {
+        "schema_value": {
+          "events": 225,
+          "matched": 36,
+          "coded_bytes": 1604,
+          "baseline_bits": 524.0921455907519,
+          "prequential_gain_bits": -3.194086719550069
+        }
+      }
+    },
+    "combined": {
+      "name": "combined",
+      "events": 103325,
+      "exact_match_events": 2195,
+      "positive_events": 436,
+      "coded_bytes_covered": 791805,
+      "baseline_bits_covered": 819228.3497649708,
+      "prequential_saving_bytes": -3.4945399111056377,
+      "prequential_total_bits": 1546957.3338228585,
+      "oracle_best_per_event_saving_bytes_UNPAID": 203.32575509543088,
+      "context_count": 14,
+      "model_count_per_context": 49,
+      "fixed_models": [
+        {
+          "alpha": 0.0,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": 0.0
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -16.888772913974762
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -15.76355789814101
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -15.235184685812348
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -14.885999666881453
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -14.251657764333318
+        },
+        {
+          "alpha": 0.001,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -12.879520481282702
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -52.22480866188057
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -50.54557717225917
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -49.781936604949166
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -49.03659076314383
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -47.03424978327159
+        },
+        {
+          "alpha": 0.003,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -42.69773827410174
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -178.57287548415704
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -175.73219889030455
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -174.27994636977257
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -172.31996393750254
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -166.02099318172418
+        },
+        {
+          "alpha": 0.01,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -151.76902942616456
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -547.9110396342486
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -542.7447405116517
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -539.669268305136
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -534.8331974041223
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -517.86246993293
+        },
+        {
+          "alpha": 0.03,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -475.952161433512
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -1910.4476808934899
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -1898.8537033093817
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -1890.9496908677806
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -1877.3531051430703
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -1825.754497272498
+        },
+        {
+          "alpha": 0.1,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -1683.3624374198089
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -6494.352275075179
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -6464.1271226555955
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -6440.937609796807
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -6398.8113150003
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -6229.940543040252
+        },
+        {
+          "alpha": 0.3,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -5718.7527698492295
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -21959.671197681615
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -21847.29845885386
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -21748.22779439027
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -21563.379521228475
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -20813.40454211484
+        },
+        {
+          "alpha": 0.7,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -18479.976477293167
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "saving_bytes": -42004.720819894115
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.001,
+            0.001,
+            0.01
+          ],
+          "saving_bytes": -41672.24009347699
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.01,
+            0.01,
+            0.02
+          ],
+          "saving_bytes": -41368.167798032024
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.03,
+            0.03,
+            0.04
+          ],
+          "saving_bytes": -40809.12111640546
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "saving_bytes": -38607.278436633744
+        },
+        {
+          "alpha": 0.9,
+          "delete_insert_substitute": [
+            0.25,
+            0.15,
+            0.15
+          ],
+          "saving_bytes": -32095.819392695175
+        }
+      ],
+      "by_branch": {
+        "title_repeat": {
+          "events": 2387,
+          "matched": 510,
+          "coded_bytes": 6977,
+          "baseline_bits": 3301.297885640117,
+          "prequential_gain_bits": -0.13876356670710432
+        },
+        "title_selflink": {
+          "events": 94684,
+          "matched": 1631,
+          "coded_bytes": 734555,
+          "baseline_bits": 789275.6061572856,
+          "prequential_gain_bits": -6.892159852518649
+        },
+        "link_label": {
+          "events": 6029,
+          "matched": 18,
+          "coded_bytes": 48669,
+          "baseline_bits": 26127.35357645429,
+          "prequential_gain_bits": -17.731309150070288
+        },
+        "schema_value": {
+          "events": 225,
+          "matched": 36,
+          "coded_bytes": 1604,
+          "baseline_bits": 524.0921455907519,
+          "prequential_gain_bits": -3.194086719550069
+        }
+      }
+    }
+  }
+}

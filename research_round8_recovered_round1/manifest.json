@@ -1,0 +1,339 @@
+{
+  "recovered_date": "2026-10-06",
+  "session": 355655943,
+  "files": [
+    {
+      "remote": "/kaggle/working/hutter_lab/logs_launcher.txt",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\logs_launcher.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_type": "NoneType"
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/fresh_process.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\fresh_process.json",
+      "bytes": 665,
+      "sha256": "f8c213942bfc7f9fc249f7d9a8687e2941ec5b740156c98be4e7d8db713244f9",
+      "root_type": "list",
+      "rows": 3,
+      "first_row_keys": [
+        "name",
+        "returncode",
+        "exact_sha256",
+        "output",
+        "error"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/skeleton.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\skeleton.json",
+      "bytes": 346,
+      "sha256": "298ee8b528b2ffe2521ff6298a76ccc424d92908e9fb2271d0831338df626ff5",
+      "root_type": "dict",
+      "keys": [
+        "name",
+        "test_bpb_per_original_byte",
+        "model_bytes",
+        "steps",
+        "validation_nats",
+        "seconds",
+        "scope"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/classical.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\classical.json",
+      "bytes": 6684,
+      "sha256": "7a6f06a716c04f0f7777387016257ec327c9ed74ab8a6e1b743db94cb435036e",
+      "root_type": "list",
+      "rows": 37,
+      "first_row_keys": [
+        "name",
+        "input_bytes",
+        "archive_bytes",
+        "bpb",
+        "roundtrip",
+        "seconds"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/trace_guard_checks.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\trace_guard_checks.json",
+      "bytes": 109,
+      "sha256": "32e6d63160c595b392921efce4021a1acc4ebc0637ecca118bd7becd651eb159",
+      "root_type": "dict",
+      "keys": [
+        "checks_passed",
+        "scope"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/residual.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\residual.json",
+      "bytes": 1367,
+      "sha256": "0613e93afccf225b20ff86f091137a2df905c3f9968ec5ef98083420b86c61e2",
+      "root_type": "list",
+      "rows": 4,
+      "first_row_keys": [
+        "name",
+        "steps",
+        "base_bpb",
+        "corrected_bpb",
+        "extra_model_bytes",
+        "validation_nats",
+        "train_seconds",
+        "scope"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/neural_evaluation.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\neural_evaluation.json",
+      "bytes": 176783,
+      "sha256": "6f4ea73462b6d28eaa3e2c562ed099eb3d2f507e17bb5667ea3c85ef1855acd3",
+      "root_type": "list",
+      "rows": 270,
+      "first_row_keys": [
+        "checkpoint_sha256",
+        "name",
+        "seed",
+        "steps",
+        "model_bytes",
+        "input_bytes",
+        "sha256",
+        "mode",
+        "test_bpb_cross_entropy",
+        "test_blocks",
+        "archive_bytes",
+        "archive_bpb",
+        "encode_seconds",
+        "decode_seconds",
+        "roundtrip"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/neural_evaluation_part2.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\neural_evaluation_part2.json",
+      "bytes": 91263,
+      "sha256": "0f7fe37d2d0a2889c93a9099d32cbaa659e9b76808bcc555e1651cddd05d85eb",
+      "root_type": "list",
+      "rows": 138,
+      "first_row_keys": [
+        "checkpoint_sha256",
+        "name",
+        "seed",
+        "steps",
+        "model_bytes",
+        "input_bytes",
+        "sha256",
+        "mode",
+        "test_bpb_cross_entropy",
+        "test_blocks",
+        "archive_bytes",
+        "archive_bpb",
+        "encode_seconds",
+        "decode_seconds",
+        "roundtrip"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/wordle_identity.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\wordle_identity.json",
+      "bytes": 927,
+      "sha256": "9c71bf3524f20d451998bfd5a483905dc66d083948dde2c3305ab3a11d98432f",
+      "root_type": "dict",
+      "keys": [
+        "scope",
+        "results"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/neural_evaluation_part1.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\neural_evaluation_part1.json",
+      "bytes": 45035,
+      "sha256": "b4f7f56ee2f1632ce4d23f8d7c4cfe1a13e7127fca193ce42c71fffe0d9d955d",
+      "root_type": "list",
+      "rows": 69,
+      "first_row_keys": [
+        "checkpoint_sha256",
+        "name",
+        "seed",
+        "steps",
+        "model_bytes",
+        "input_bytes",
+        "sha256",
+        "mode",
+        "test_bpb_cross_entropy",
+        "test_blocks",
+        "archive_bytes",
+        "archive_bpb",
+        "encode_seconds",
+        "decode_seconds",
+        "roundtrip"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/finalize_status.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\finalize_status.json",
+      "bytes": 100,
+      "sha256": "607d52e8d7dcd41b6019b23b4882947e692e1cd2bcce72a4d1a401ae28c7b503",
+      "root_type": "dict",
+      "keys": [
+        "lab.skeleton",
+        "lab.wordle_identity",
+        "lab.package_model",
+        "lab.statistics"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/weight_sensitivity.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\weight_sensitivity.json",
+      "bytes": 1339,
+      "sha256": "4c43409ab4fa47d0b0a80f3836e80206b96b163ce6e58b0c15d6638fd28b6455",
+      "root_type": "list",
+      "rows": 8,
+      "first_row_keys": [
+        "name",
+        "test_bpb",
+        "stored_bytes",
+        "note"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/statistics.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\statistics.json",
+      "bytes": 21410,
+      "sha256": "36d9f3db5c50c02184c72a4bc1ddce450a452cc6f39e46ee1074398c0c81dad5",
+      "root_type": "dict",
+      "keys": [
+        "seed_summaries",
+        "paired_article_comparisons"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/distillation.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\distillation.json",
+      "bytes": 453,
+      "sha256": "51a8eae5f6bcc25dbc97738020b17d22e7e4e44d47ff296ae0b187fc3652d403",
+      "root_type": "list",
+      "rows": 2,
+      "first_row_keys": [
+        "name",
+        "test_bpb",
+        "stored_bytes",
+        "parameters",
+        "steps",
+        "seconds",
+        "validation_bpb"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/classical_annotated.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\classical_annotated.json",
+      "bytes": 8194,
+      "sha256": "4d82c24bd6ea71640e67df1b4f29356e31b77b4d467bf2bb158d56f777f18e64",
+      "root_type": "list",
+      "rows": 37,
+      "first_row_keys": [
+        "name",
+        "input_bytes",
+        "archive_bytes",
+        "bpb",
+        "roundtrip",
+        "seconds"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/standard_baselines.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\standard_baselines.json",
+      "bytes": 623,
+      "sha256": "375a3b261d43f92ca6ab9ba626b28cbaca5bdac7056d5ee66c799a559b375b2b",
+      "root_type": "list",
+      "rows": 6,
+      "first_row_keys": [
+        "name",
+        "input_bytes",
+        "archive_bytes",
+        "bpb"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/retrieval.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\retrieval.json",
+      "bytes": 713,
+      "sha256": "49b1471b9220a0686a4b94b478a0f2cab20a9b83cebe765ae08695f11f541636",
+      "root_type": "list",
+      "rows": 3,
+      "first_row_keys": [
+        "name",
+        "input_bytes",
+        "archive_bytes",
+        "bpb",
+        "roundtrip",
+        "seconds",
+        "index"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/ocr.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\ocr.json",
+      "bytes": 2672,
+      "sha256": "359f7816053218d34de47810f62de46e95751ba34c02e19fe8906ebab5c9e9c2",
+      "root_type": "list",
+      "rows": 6,
+      "first_row_keys": [
+        "name",
+        "steps",
+        "size",
+        "noise",
+        "printable_accuracy",
+        "corpus_accuracy",
+        "input_bytes",
+        "payload_bytes",
+        "model_bytes",
+        "model_twice_plus_payload",
+        "roundtrip",
+        "train_seconds",
+        "scope"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/model_packages.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\model_packages.json",
+      "bytes": 5363,
+      "sha256": "b36cef4a04e3278709b893ef1d23ab910ce1655491f4772d5fef3e847a220e5f",
+      "root_type": "list",
+      "rows": 54,
+      "first_row_keys": [
+        "name",
+        "package_bytes",
+        "all_tensors_exact"
+      ]
+    },
+    {
+      "remote": "/kaggle/working/hutter_lab/results/neural_evaluation_part0.json",
+      "local": "C:\\Users\\91707\\Downloads\\compression_cmix\\research_round8_recovered_round1\\neural_evaluation_part0.json",
+      "bytes": 40489,
+      "sha256": "7829bd0a31bd5c4c63eae38f52a00c9db40ad8a5106d83f07b280176017ecea4",
+      "root_type": "list",
+      "rows": 63,
+      "first_row_keys": [
+        "checkpoint_sha256",
+        "name",
+        "seed",
+        "steps",
+        "model_bytes",
+        "input_bytes",
+        "sha256",
+        "mode",
+        "test_bpb_cross_entropy",
+        "test_blocks",
+        "archive_bytes",
+        "archive_bpb",
+        "encode_seconds",
+        "decode_seconds",
+        "roundtrip"
+      ]
+    }
+  ],
+  "deletions": []
+}

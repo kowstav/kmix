@@ -1,0 +1,36 @@
+{
+  "repository": "naveenbijalwan/fx4-cmix-transformer",
+  "commit": "f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f",
+  "files": [
+    {
+      "source": "https://raw.githubusercontent.com/naveenbijalwan/fx4-cmix-transformer/f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f/pysrc/weights_compress.py",
+      "local": "v5_weights_compress.py",
+      "bytes": 35328,
+      "sha256": "089837a052db23a8a1aaf0a4da4c1e5bb7a689252a70571e87ea1d7d1e6dfbae"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/naveenbijalwan/fx4-cmix-transformer/f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f/cpp_infer/src/weights_io_compressed.cpp",
+      "local": "v5_weights_io_compressed.cpp",
+      "bytes": 18295,
+      "sha256": "263c6f4402a1628def8be0b3d0b000186d0522fc8b416e1e4b4d242b0933996d"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/naveenbijalwan/fx4-cmix-transformer/f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f/cpp_infer/src/weights_io.h",
+      "local": "v5_weights_io.h",
+      "bytes": 1800,
+      "sha256": "c6abb82b462baa1a10c5244fa8ba52852397fc2b09950d483f9fc3873fd972ec"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/naveenbijalwan/fx4-cmix-transformer/f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f/weights_q4_context_screen.json",
+      "local": "v5_weights_q4_context_screen.json",
+      "bytes": 113177,
+      "sha256": "e02d65d76ee487a5b1b761b2e990372a13c60619e37a5de702a7bed4f68f84cf"
+    },
+    {
+      "source": "https://raw.githubusercontent.com/naveenbijalwan/fx4-cmix-transformer/f6bca0d40d9532dd9a0bfa101abe374d2ca8be7f/LICENSE",
+      "local": "v5_LICENSE",
+      "bytes": 35409,
+      "sha256": "ca22f728867ba24e84f41d8cad3e1339ae187ae53a77d0785729ef2acd4b65d5"
+    }
+  ]
+}

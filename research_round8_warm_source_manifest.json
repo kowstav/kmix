@@ -1,0 +1,264 @@
+{
+  "status": "COMPLETE_CONDITIONAL_DIAGNOSTIC",
+  "pid": 228,
+  "session": 355655943,
+  "started": "2026-10-06T07:26:55.291931+00:00",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_retraining": false,
+  "scope": "warm prefix statistical source, native CORE STILL COLD; not archive qualification",
+  "compile": {
+    "wall_seconds": 9.858336733000215,
+    "user_seconds": 9.555555,
+    "system_seconds": 0.28743599999999997,
+    "max_rss_kbytes": 321068,
+    "returncode": 0
+  },
+  "binary": {
+    "bytes": 327280,
+    "sha256": "84f8e92194bec53a6b5a260a3709ca30a65ef73ac9a1c73808a1acae048eeec2"
+  },
+  "sources": [
+    {
+      "file": "research_round8_warm_source.cpp",
+      "sha256": "71d7bf6be05e05a2ec479a0e228cd99c2f9694a5b5c434bc0bc8482bf9a56a0b"
+    },
+    {
+      "file": "research_round8_clean_title_library.h",
+      "sha256": "804eba5dc8a77da026550fe21c29e25e2435016eb251fc88f73f9707df8338d2"
+    },
+    {
+      "file": "research_round8_clean_library.h",
+      "sha256": "70933f9bf6dd0ebc0515dd9cfca4ce0fd1d9825fb5301e97fda929c5f21fa948"
+    },
+    {
+      "file": "research_round8_observer_separated.h",
+      "sha256": "acd80083e1623356bcdf528b78190617f20c80a52fec534e2f5aaf8cd677f5fe"
+    },
+    {
+      "file": "research_round8_warm_source_protocol.md",
+      "sha256": "5778b414cf66ee682896b764ccd29bb24cba60b936e3a53207d3ef8d8d83f023"
+    }
+  ],
+  "runtime": {
+    "wall_seconds": 176.48121974600053,
+    "user_seconds": 175.113455,
+    "system_seconds": 1.321746,
+    "max_rss_kbytes": 1016276,
+    "returncode": 0
+  },
+  "cold_a_all_prediction_hashes_equal": true,
+  "results": {
+    "status": "WARM_SOURCE_COLD_CORE_CONDITIONAL_DIAGNOSTIC",
+    "future_source_bytes_used": false,
+    "core_retraining": false,
+    "queries": [
+      {
+        "slice": "a_warm128k",
+        "start": 0,
+        "raw_bytes": 131072,
+        "unscored_prefix_bytes": 43,
+        "prefix_dictionary_words_seen": 0,
+        "dictionary_words": 44515,
+        "prefix_events_before_scoring": 0,
+        "warm_processing_seconds": 2.43e-07,
+        "source_cursor_after_scoring": 131072,
+        "past_bank_after": 14,
+        "arms": [
+          {
+            "name": "generic",
+            "saving_bytes": -0.19225315088225445,
+            "q16_tax_bytes": 0.0033814013523295605,
+            "prediction_hash": "2858859947352388028"
+          },
+          {
+            "name": "persistent_title",
+            "saving_bytes": 0.7425586339139347,
+            "q16_tax_bytes": -0.019556989729160867,
+            "prediction_hash": "17483850810488336035"
+          },
+          {
+            "name": "random_title",
+            "saving_bytes": -0.2264629842430971,
+            "q16_tax_bytes": 0.00782456652585431,
+            "prediction_hash": "6984158613042096502"
+          },
+          {
+            "name": "title_geometry",
+            "saving_bytes": -0.24105807252185132,
+            "q16_tax_bytes": -0.007523465582696842,
+            "prediction_hash": "4491548240678426646"
+          },
+          {
+            "name": "past_title_retrieval",
+            "saving_bytes": -0.2511276712425624,
+            "q16_tax_bytes": 0.006854693191865019,
+            "prediction_hash": "15817490569859102599"
+          },
+          {
+            "name": "random_past_retrieval",
+            "saving_bytes": -0.1866172004291751,
+            "q16_tax_bytes": 0.004368258422517951,
+            "prediction_hash": "4538207143911976583"
+          }
+        ]
+      },
+      {
+        "slice": "c_warm128k",
+        "start": 100000000,
+        "raw_bytes": 131072,
+        "unscored_prefix_bytes": 8173,
+        "prefix_dictionary_words_seen": 41868,
+        "dictionary_words": 44515,
+        "prefix_events_before_scoring": 19525262,
+        "warm_processing_seconds": 55.315043488,
+        "source_cursor_after_scoring": 100131072,
+        "past_bank_after": 1024,
+        "arms": [
+          {
+            "name": "generic",
+            "saving_bytes": -0.2507900777253622,
+            "q16_tax_bytes": 0.0008530791777771052,
+            "prediction_hash": "13904528806874550895"
+          },
+          {
+            "name": "persistent_title",
+            "saving_bytes": -0.24885201032445434,
+            "q16_tax_bytes": 0.0008027495999393397,
+            "prediction_hash": "5157166423716927525"
+          },
+          {
+            "name": "random_title",
+            "saving_bytes": -0.2496254346418681,
+            "q16_tax_bytes": 0.00017921142913759902,
+            "prediction_hash": "17432293667596042413"
+          },
+          {
+            "name": "title_geometry",
+            "saving_bytes": -0.2506414037068806,
+            "q16_tax_bytes": 0.0008554428805628567,
+            "prediction_hash": "5988249734457813485"
+          },
+          {
+            "name": "past_title_retrieval",
+            "saving_bytes": -0.24979449816202118,
+            "q16_tax_bytes": -4.643095120340779e-05,
+            "prediction_hash": "14771819534146162526"
+          },
+          {
+            "name": "random_past_retrieval",
+            "saving_bytes": -0.249858416466555,
+            "q16_tax_bytes": -1.3241844590922147e-05,
+            "prediction_hash": "10701870731305593896"
+          }
+        ]
+      },
+      {
+        "slice": "b_warm128k",
+        "start": 102635191,
+        "raw_bytes": 131072,
+        "unscored_prefix_bytes": 782,
+        "prefix_dictionary_words_seen": 41933,
+        "dictionary_words": 44515,
+        "prefix_events_before_scoring": 20114722,
+        "warm_processing_seconds": 1.515384214,
+        "source_cursor_after_scoring": 102766263,
+        "past_bank_after": 1024,
+        "arms": [
+          {
+            "name": "generic",
+            "saving_bytes": -0.25960874836802994,
+            "q16_tax_bytes": 0.009616766695780155,
+            "prediction_hash": "13931644822127233151"
+          },
+          {
+            "name": "persistent_title",
+            "saving_bytes": -0.24371849459999534,
+            "q16_tax_bytes": -0.006053211041127965,
+            "prediction_hash": "10826913987753685435"
+          },
+          {
+            "name": "random_title",
+            "saving_bytes": -0.24465027084436042,
+            "q16_tax_bytes": -0.005319253707365995,
+            "prediction_hash": "4424615326109240145"
+          },
+          {
+            "name": "title_geometry",
+            "saving_bytes": -0.2582215835090396,
+            "q16_tax_bytes": 0.008247074959601725,
+            "prediction_hash": "8462286530858856068"
+          },
+          {
+            "name": "past_title_retrieval",
+            "saving_bytes": -0.2603141705934802,
+            "q16_tax_bytes": 0.010343200243411815,
+            "prediction_hash": "6853611717824291158"
+          },
+          {
+            "name": "random_past_retrieval",
+            "saving_bytes": -0.2557392725621347,
+            "q16_tax_bytes": 0.005775809577435981,
+            "prediction_hash": "7706937743123837335"
+          }
+        ]
+      },
+      {
+        "slice": "d_warm128k",
+        "start": 180000000,
+        "raw_bytes": 131072,
+        "unscored_prefix_bytes": 1254,
+        "prefix_dictionary_words_seen": 43192,
+        "dictionary_words": 44515,
+        "prefix_events_before_scoring": 35887984,
+        "warm_processing_seconds": 42.594196662,
+        "source_cursor_after_scoring": 180131072,
+        "past_bank_after": 1024,
+        "arms": [
+          {
+            "name": "generic",
+            "saving_bytes": -0.25567022195720807,
+            "q16_tax_bytes": 0.0056771174851955875,
+            "prediction_hash": "7736892217460181205"
+          },
+          {
+            "name": "persistent_title",
+            "saving_bytes": -0.2510181725406176,
+            "q16_tax_bytes": 0.0010541139083712625,
+            "prediction_hash": "8747462263661214689"
+          },
+          {
+            "name": "random_title",
+            "saving_bytes": -0.2566243743245055,
+            "q16_tax_bytes": 0.006652159897577642,
+            "prediction_hash": "5058195280196783064"
+          },
+          {
+            "name": "title_geometry",
+            "saving_bytes": -0.2383219776229754,
+            "q16_tax_bytes": -0.011646356326078328,
+            "prediction_hash": "17752999600777296787"
+          },
+          {
+            "name": "past_title_retrieval",
+            "saving_bytes": -0.2414906456713972,
+            "q16_tax_bytes": -0.008486416889085302,
+            "prediction_hash": "4353032438287550431"
+          },
+          {
+            "name": "random_past_retrieval",
+            "saving_bytes": -0.24501889328743998,
+            "q16_tax_bytes": -0.004958239300120598,
+            "prediction_hash": "10645543685958665477"
+          }
+        ]
+      }
+    ],
+    "wall_seconds": 176.388785716,
+    "core_state": "COLD_EXISTING_TRACE",
+    "source_state": "GENUINE_DECODED_PREFIX_ONLY",
+    "archive_claim": false,
+    "deletions": []
+  },
+  "finished": "2026-10-06T07:30:01.634378+00:00"
+}

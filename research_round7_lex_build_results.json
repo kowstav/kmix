@@ -1,0 +1,15 @@
+{
+  "binary_bytes": 490400,
+  "binary_sha256": "1a27013bc72ee9ea607023d8a8beff0b6de98f8f68033844d1aa0596db4905a7",
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "classical_defines": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "transformer_defines": "-DTF_CODEBOOK=1 -DTF_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "build_seconds": 20.93860761399992,
+  "pgo": false,
+  "lto": false,
+  "instrumentation": "forced vocabulary/raw WRT/dictionary pretraining and per-byte final costs; no predictor topology edits",
+  "original_checkpoint_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+  "no_neural_training": true,
+  "no_deletion": true,
+  "scope": "Matched laboratory build, not a reproduced PGO record executable or full archive"
+}

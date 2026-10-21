@@ -1,0 +1,1629 @@
+{
+  "status": "COMPLETE_TERMINAL_JOB_SNAPSHOT",
+  "started": 1791546173.6064115,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-word-v1",
+      "observed": 1791546174.6474986,
+      "state": "COMPLETE",
+      "exit": 0,
+      "files": [
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/manifest.json",
+          "bytes": 13181,
+          "sha256": "cdb3c32015b593eb877f8a2912a4b0ac6315aba693e4c77c2e033422e3219127"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_neutral.json",
+          "bytes": 1157,
+          "sha256": "e82ea6f8dbe7c89e0e2b9b072a42fb582b09ae63fd2edb687453a1fcdf91ab56"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_neutral_archive.cmx",
+          "bytes": 688403,
+          "sha256": "87be2bc559a553d04677a069ce3e9164a449714c6c5b283f042aeb416c1a35c6"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "981ff643e823daec8c0612379adf40d78481465db267e1de1fac8bb68767db01"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "ea53ebdc65cba48e50794b161ec18e570540dbae4d609e2006370b138d492957"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_prune_word.json",
+          "bytes": 1161,
+          "sha256": "af68e26aff8b492d10499f5f5f97802171f21efa3458a415373461805d4c5356"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_prune_word_archive.cmx",
+          "bytes": 688449,
+          "sha256": "5dc61d9005a8cffd54d435250a4487eed3424b2f0653aed6e8b1c8fc06aad11a"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "efbe0e432c63fb469d8ab7cc65fc2b8d460a5dd4c540aea39783d05ad07489e4"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_00_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "ca7030e778308d9f81ae37dbb7b35e6a14798e6441d00e340e36b1d1641a0f4c"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_neutral.json",
+          "bytes": 1158,
+          "sha256": "136ac7603828d521831b332633a1dab80b5e78db95894d0ebf9eee7c9fdc1a05"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_neutral_archive.cmx",
+          "bytes": 535232,
+          "sha256": "fdb9813c796651df11ad3d1151c16f5606b4d866233357313fece4af4d24ff7e"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "d88512702a56c6e1b96409d5fd30531b07200d5aa064c2aeb1dfacd66fb28c51"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "9a66e883321c964262dd5b7e3c52648162c565c5f3bb6a84a66e598de94c2bf2"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_prune_word.json",
+          "bytes": 1160,
+          "sha256": "6ee4b661b1e73a5db6a56ae8b36dd4bb2a620f6975fffc25a9ffbeb7ef008129"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_prune_word_archive.cmx",
+          "bytes": 535285,
+          "sha256": "8ac5a1159ea0677c44dfa736479fdfc73f5033ad732ca9096c04d1ed0d2a1520"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "6c3e45ae9117d03f0e97b873f9a30f58abad91f446d35c5f673a16033db3d367"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_02_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "ad7d0c1797c94bf1a635e7e683f7955e9323ae4bde354963441917d4da54f8cd"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_neutral.json",
+          "bytes": 1155,
+          "sha256": "458e12f4dd24ac43af0b552f36a318c22c31106b48714772619bc4c501d95fe3"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_neutral_archive.cmx",
+          "bytes": 447553,
+          "sha256": "e545a8af798f671c5ecae64f7a9e618b24904079b86fa72b87c33b091b0ee63f"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "c9cf51e7b7129ff183da03b91602ca17735704033bd23c7b6d458a39e08de0fc"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "b06fe66624296ccaf99c68de01547d00844d666dcddb84a831b49bb056b0c7fd"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_prune_word.json",
+          "bytes": 1165,
+          "sha256": "3f93c5b8f1255d8a6f7db7e7ffe4bc9829caa1e5067cae38c487335da29d3c07"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_prune_word_archive.cmx",
+          "bytes": 447592,
+          "sha256": "84fed7128cba3d393a3c39c0e4257272892c252761bdee35fe152e442dba3c55"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "e9d91bcec510f0485455f984bcd37a671771f6e7c434ee8db2348e02285388b0"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_04_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "3ffde7757929fac11c6089fb43f8616c90e12408db0d6eb59cdba1da1b496994"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_neutral.json",
+          "bytes": 1157,
+          "sha256": "7f4da6180200716a7873ab1f7dcf43c8baa4b6d927013ec6473cf1403a6d4dbe"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_neutral_archive.cmx",
+          "bytes": 606071,
+          "sha256": "4ab0f4875d974b204f6ed36273fe9bb02312cbe5aff37572182b0e34c2afe4fc"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "f5f0ae17abd75029eb25090d6880fe92d0f39da7428bb6e811c93fdb38f9c134"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "6d3753db30f2c6e5b0576d035355a5b63c23092f0158c13503b208877887d401"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_prune_word.json",
+          "bytes": 1162,
+          "sha256": "94d47525f728a3160c06dab643d114fb428ed24fca1d10df51e7671fb0f39a4d"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_prune_word_archive.cmx",
+          "bytes": 606086,
+          "sha256": "dd96135194d6ee2210a402c3cbaeb2f5e674533bb96a4a3883d86e4879b0d83e"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "cb794f4e396e1ebc45ad5467340c337fd1dd03aabb065824e23f922ce5867603"
+        },
+        {
+          "path": "hutter-r14-native-prune-word-v1/native-prune_word/native_06_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "af04121c4c3d088cd740364c785c6b577cbdfa1e2f1275ad32bb95bad0a13e2a"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_NATIVE_PAIRS",
+      "manifest_path": "/root/r14_native_wave_outputs_v1/hutter-r14-native-prune-word-v1/native-prune_word/manifest.json"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-match-v1",
+      "observed": 1791546177.5925164,
+      "state": "COMPLETE",
+      "exit": 0,
+      "files": [
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/manifest.json",
+          "bytes": 13170,
+          "sha256": "0af3d4f56e3b2be7ad84a459a39e92c476124a2adf2bfec430b95d1f0eb028bd"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_neutral.json",
+          "bytes": 1152,
+          "sha256": "4bb47c77e6d7e98095bdc2a7b884846baae131f631ec2ddab805bdd57cef21ab"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_neutral_archive.cmx",
+          "bytes": 688403,
+          "sha256": "87be2bc559a553d04677a069ce3e9164a449714c6c5b283f042aeb416c1a35c6"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "54d56c121e85de353018e3f36c6f3abad4308e42fc1ba2e6c4ff8e478b2717f2"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "bd95d2bb438bdc2ec5c62c5cab56d30a41f81f1b3343f2bed88c599de5c9a480"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_prune_match.json",
+          "bytes": 1157,
+          "sha256": "4bf4060100982ebd3ee99519063d54c154fdaee92d29707f4ce48b5f6f8a015b"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_prune_match_archive.cmx",
+          "bytes": 688403,
+          "sha256": "e9757b6651f19c95baaade8e44f414cf2de863e679d693df77c0f93f8dab14c4"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "cc94706a2f80f8dd68650f2dbae8154a7f5ac6e53f37790ea0f29a33badddb36"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_00_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "f8a9adc536ce248c4b487efe6cdfda1f26569dd8e1d0a32f771b433d898b5bb8"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_neutral.json",
+          "bytes": 1156,
+          "sha256": "bb39354ee0acb973485a282dd992556144d52e74675c7dc10752d15f8e9c03c3"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_neutral_archive.cmx",
+          "bytes": 535232,
+          "sha256": "fdb9813c796651df11ad3d1151c16f5606b4d866233357313fece4af4d24ff7e"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "2f5ec10ff64e1721cb7ff45885782003a9f2dd5bfb588a2b9cd7014a8c48af51"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "c2dff2e53d499f934fce3704ca043ad34e2ebe9cb4cb4c3fd4e1f9ba884de467"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_prune_match.json",
+          "bytes": 1160,
+          "sha256": "1f7a8c479987c923c88f3b13f3ceaf48643e2d02d313ac956fe7b5193435551b"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_prune_match_archive.cmx",
+          "bytes": 535223,
+          "sha256": "f58ca5b87c8c215176f948caf54161bac026d08b8cc21a77acaef9650a3a434f"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "fe34aba1bcae61c80699ba3dba6d2f04f4f64f363f0252ce21c8552e650c9589"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_02_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "7c2a74c9cf1b2d88cd2a1f21a5f11091db4a495d2f7d7a16f7f76249a0504e9e"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_neutral.json",
+          "bytes": 1158,
+          "sha256": "8f1985f5c8a6615a1cdd1df9691f8e77f9a41a708b7f61200993fb3b2896ba87"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_neutral_archive.cmx",
+          "bytes": 447553,
+          "sha256": "e545a8af798f671c5ecae64f7a9e618b24904079b86fa72b87c33b091b0ee63f"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "b2812a1c0578bc34e06ebc800feae1eb3dd930aecc8fd2db90cea5e2be2fd6ff"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "496702c76728c085cf597dfa7f28516eb74826e67d52ab95704ce2bc9950b273"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_prune_match.json",
+          "bytes": 1166,
+          "sha256": "873beca08334b1901b4cf6e149e1e995e87ceb578b4c99d8ccd92597f77b335d"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_prune_match_archive.cmx",
+          "bytes": 447558,
+          "sha256": "95170dd7068103e8d40c002fb6d192b69a3605cb5776609efba5a9c2d67d2151"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "aecf68b273415e1cc3fa9cb9c65cd8b320eebc4a4bb5ce8f508a1364ba3d0db9"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_04_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "6fcffab7d3096f973fd53b9e4892cd1d3a18976ac8e869c5411d58d2093d71cc"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_neutral.json",
+          "bytes": 1161,
+          "sha256": "152ab966567df1ac37473a52c1e0ea5ab6a8ea70d18a6114af9a0a4dfd1389cb"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_neutral_archive.cmx",
+          "bytes": 606071,
+          "sha256": "4ab0f4875d974b204f6ed36273fe9bb02312cbe5aff37572182b0e34c2afe4fc"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "a1ad3e60e03e551350a23819937d94f3b876db7c708a094e789fb9cedad480fd"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "24351a5dc684d6579e7260f50134cc13ed2b7fad4a01a73dfa6e4c0b2a7f0c9a"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_prune_match.json",
+          "bytes": 1163,
+          "sha256": "d84b3af8010a860d0cab64f207b008fc44c8ea587264eaaef4d754cc97c2e6c3"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_prune_match_archive.cmx",
+          "bytes": 606077,
+          "sha256": "a2a400a0cab2f9d7f907f9be3c24024774e7263cb2f9a34e795b65c927a43b0c"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "bb43d452a7b47d54e6591e01599df637d80acdba4f56bf23b4b922c5b7b6e6cf"
+        },
+        {
+          "path": "hutter-r14-native-prune-match-v1/native-prune_match/native_06_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "f8ac85c24cd61236f4b19bea689d6683c8194bee4209ec949463d0e3b2fcf42c"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_NATIVE_PAIRS",
+      "manifest_path": "/root/r14_native_wave_outputs_v1/hutter-r14-native-prune-match-v1/native-prune_match/manifest.json"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-indirect-v1",
+      "observed": 1791546180.4459803,
+      "state": "COMPLETE",
+      "exit": 0,
+      "files": [
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/manifest.json",
+          "bytes": 13216,
+          "sha256": "c9152390a9c1dfd04cfac91e8e4e7fd89af9a575723bba8abac175d08e1ee6de"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_neutral.json",
+          "bytes": 1156,
+          "sha256": "db2b3e2ecb1489b0cdca3ce23ceb58f7dde003dafa515882877d30d9d101d1c4"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_neutral_archive.cmx",
+          "bytes": 688403,
+          "sha256": "87be2bc559a553d04677a069ce3e9164a449714c6c5b283f042aeb416c1a35c6"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "5b8f094a00dd53b023d090d3f8da4e2d2301ac85d220924c5add6118c38c5e61"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "abef20e032440bdf9dcdf97c6f0ddb0ba6e47041ebef74a89b5f17cadd34ae9e"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_prune_indirect.json",
+          "bytes": 1165,
+          "sha256": "f99b8ee588550df54bb306a55bb460d2643b27a1e938b88221bd3d9b1747c19b"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_prune_indirect_archive.cmx",
+          "bytes": 688396,
+          "sha256": "e1ba17239dc4ec00e40f42130e88acb88db301fa76d03e1958f4875cfdc9ec0b"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "d15aefa7768ae7555f307602b9361b68290327ecbeee0feb2c54768af6bd727f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_00_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "985f72caebd160f90d552531f539336f15a590400f4969cb34c5a311f5e3923f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_neutral.json",
+          "bytes": 1160,
+          "sha256": "3056cbdd5ac888d7c6e7c9c1085d4fec43d1db3a91a0ea03b12c06d4069df1ab"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_neutral_archive.cmx",
+          "bytes": 535232,
+          "sha256": "fdb9813c796651df11ad3d1151c16f5606b4d866233357313fece4af4d24ff7e"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "a940aecf6e005859870548c631de6d69d240f6ec4f300a94eabbea4aed8b1481"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "5bd4f1dfacee2352431c07645c91e76770c5a8541fea63b8839d410d78795f8f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_prune_indirect.json",
+          "bytes": 1170,
+          "sha256": "271f63109bbdee84e3c873f0ce4907cb8061f159467d964dc020f4aec164590b"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_prune_indirect_archive.cmx",
+          "bytes": 535220,
+          "sha256": "226c60dd3418fb9ddad3b485bdc6be4103300b4c2a1f240831c42990ef54017f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "1261d9342725a810cce6f13b0d2930c2ab5d3113e5107d5bf995db060d972102"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_02_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "c6e0a99e47f43e22a178ba355db37bb9eaa722f61989bef868991e4b8ebf9815"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_neutral.json",
+          "bytes": 1156,
+          "sha256": "c3f5bc52a07ae62b39e4378ef77f38f5fe8e523b3df34313ed9e7428097ee55f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_neutral_archive.cmx",
+          "bytes": 447553,
+          "sha256": "e545a8af798f671c5ecae64f7a9e618b24904079b86fa72b87c33b091b0ee63f"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "427d2f44ddf29d9b4c327fb08e322ba021f096e7948f6bb8733be794ff53099b"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "a20cd725914bb6bb29b6ea949b712fb450d2087455ec06999444760af864a208"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_prune_indirect.json",
+          "bytes": 1170,
+          "sha256": "30de77f7a98904c934793d8f714f1bf79cfc5653eee5ca509d2fbbdb0826caa7"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_prune_indirect_archive.cmx",
+          "bytes": 447558,
+          "sha256": "858a61bc547cafe35a6170db12383cf5a9fc1cfa40e87b1d1bc801c94d1a7ce0"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "25abd9dbea37c291e5baa40dfe8e3ed9705a42717364d326de10063b781435a7"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_04_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "12b328dba6eaab4ce928b7cb6a68d0cea1c0f92fca781b71787b4b5ea717bf54"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_neutral.json",
+          "bytes": 1162,
+          "sha256": "ddd803043be79ec8b691e4d34def88a00e481b4686d5eaa32938aca03c94a440"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_neutral_archive.cmx",
+          "bytes": 606071,
+          "sha256": "4ab0f4875d974b204f6ed36273fe9bb02312cbe5aff37572182b0e34c2afe4fc"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "8e6b5f41e31dcc80e986deaacc1ac69681b71c6e4c23ddba543162d3df5f9030"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "3f1f8cccc09c54a20a7936ce4e03f84dc87990e3394b608522e425cdad633270"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_prune_indirect.json",
+          "bytes": 1166,
+          "sha256": "2d6a2023dbfbfa225d0438a2733c83d05f09c4808c5199aa9de2251261d6c3b0"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_prune_indirect_archive.cmx",
+          "bytes": 606066,
+          "sha256": "68cc43bf777ad7805b10b2a4704ec2717208e0dbc543f6906217fe9d6ee7017d"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "e55e5b738dde9af2d4e5fa29a4c8f495d07c0003a5975f23aa3ba1ad6ebe9475"
+        },
+        {
+          "path": "hutter-r14-native-prune-indirect-v1/native-prune_indirect/native_06_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "025e85e0fa8aafd63dbd75448564c4aa44cece2828fa0e785562d92e9aa1dde9"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_NATIVE_PAIRS",
+      "manifest_path": "/root/r14_native_wave_outputs_v1/hutter-r14-native-prune-indirect-v1/native-prune_indirect/manifest.json"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-output-fp32-v1",
+      "observed": 1791546183.2124286,
+      "state": "COMPLETE",
+      "exit": 0,
+      "files": [
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/manifest.json",
+          "bytes": 13154,
+          "sha256": "3c8461781ec5beb3a5ecb5a97fed491ce9508fe68e5a00d1e699bec85102e979"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_neutral.json",
+          "bytes": 1160,
+          "sha256": "9268d02e45cf90fdd5fba0b3eea743d15b63508d20ab79eed611a968f7e10b2c"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_neutral_archive.cmx",
+          "bytes": 688403,
+          "sha256": "87be2bc559a553d04677a069ce3e9164a449714c6c5b283f042aeb416c1a35c6"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "eb08230c73aa6b9f280fe6952d367f7a06dc6b3bef3c6adc21cebfe4d22d860e"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "a4e5421fabb5477051a11c8139d4daf005f709acfeab0050945ebd651f7c17a9"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_output_fp32.json",
+          "bytes": 1154,
+          "sha256": "fdb7d736589562a0014f20d8ec9b4b9cc70d9798d3eac75f964cab3af8d5281f"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_output_fp32_archive.cmx",
+          "bytes": 688402,
+          "sha256": "8a99f1dbab4ab014cfe9dee9e5e7c5d72ca339acf009ee29c7081d14ce71c050"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "e4a4bc856aa8f447295df642bd6e8b527f672d92792dc79bd09d5203b3858044"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_00_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "97563c322c103641876a3539732fc56d28f3fafffdc3bbcb4651d93a9055c994"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_neutral.json",
+          "bytes": 1154,
+          "sha256": "2ff34f8d9f1950778701328e9b595c996f710bee604c7558dfb60d7ade24baeb"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_neutral_archive.cmx",
+          "bytes": 535232,
+          "sha256": "fdb9813c796651df11ad3d1151c16f5606b4d866233357313fece4af4d24ff7e"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "2e3a0a7f64dc1573b53f7a36f90ecc09369d2c6ecdaf27050841e73bc8d4cae8"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "546451d2e26a83f2e79c5bbabc1443b22380c48ece93d213486cd42ceb8d1f23"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_output_fp32.json",
+          "bytes": 1156,
+          "sha256": "8b211d1319a34949911c56ac1629fe135474c454b57361f7bc6fd91425d329f4"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_output_fp32_archive.cmx",
+          "bytes": 535229,
+          "sha256": "78cdc23707b29cb6a445c93bba545be02eaf59ec8dfbbf0c925f755511c0e385"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "f9410cf3e7e25c932314d7ddcaf8055ca9b67d441abfed6695778ad26c26f75f"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_02_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "9a1dd0c4d653faaee07ae07503a9c54cf5a47e30752cde974b55493b8362b904"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_neutral.json",
+          "bytes": 1155,
+          "sha256": "ab33f2914c01633282135e1a14fa7b18a25b01dbccf6caae194b5fde0ebd48c9"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_neutral_archive.cmx",
+          "bytes": 447553,
+          "sha256": "e545a8af798f671c5ecae64f7a9e618b24904079b86fa72b87c33b091b0ee63f"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "564cd60ecb6698561f98866b1fbd7e259938d6323f67e12eb6d46e770a2c6089"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "4686d0752f607ff70765db1d62e245acc0b735945580249904064ffc181be185"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_output_fp32.json",
+          "bytes": 1161,
+          "sha256": "340e40b82220beb59fa788b6d259089145312a8d72dc166b02ef8ed5d5179484"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_output_fp32_archive.cmx",
+          "bytes": 447552,
+          "sha256": "9934483d362c3b0853988c53a37b244da22f9e1af3bba196e085b725a9900f6f"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "116ba11ae18edf314ec545224db7b88475a55ece50ab75d914774f942b015c9a"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_04_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "7ff379204bd5292d5e9d5688da8f210fdd5507b421892723376c19c50afc4c24"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_neutral.json",
+          "bytes": 1159,
+          "sha256": "a51cd766af2e3d13a2b698eb8732d0e268775cedb02dd705298aa06c5d09e123"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_neutral_archive.cmx",
+          "bytes": 606071,
+          "sha256": "4ab0f4875d974b204f6ed36273fe9bb02312cbe5aff37572182b0e34c2afe4fc"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "1d234085ff2e2104d616675bb5751282816463133f738658b01b5b2babe65f6f"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "d5015531aa0c02287160cfa02ea8373fd3dbc7acbda62101870f08e1e5c4a5a5"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_output_fp32.json",
+          "bytes": 1162,
+          "sha256": "5b77ffcef61cdb6c458ab3d43b6deba8a1bdffba47e067149d18c0dd2b554606"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_output_fp32_archive.cmx",
+          "bytes": 606069,
+          "sha256": "4bb6473f4eec301025b6107bd9e47825a65b01f86e2d4c171b37329249edb9dc"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "41b0335f6d8e467fddff96da97b59429af2bc2c69fd7fff3f15d8843857e825d"
+        },
+        {
+          "path": "hutter-r14-native-output-fp32-v1/native-output_fp32/native_06_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "955f457d5fe4526df918293e062d322c7831b9c855b40b0793467717f11c5495"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_NATIVE_PAIRS",
+      "manifest_path": "/root/r14_native_wave_outputs_v1/hutter-r14-native-output-fp32-v1/native-output_fp32/manifest.json"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-article-order-native-v2",
+      "observed": 1791546186.7015102,
+      "state": "COMPLETE",
+      "exit": 0,
+      "files": [
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/manifest.json",
+          "bytes": 48962,
+          "sha256": "25f133ddedefd75f392286d49d71a1c5b4768f85396f257c6b1db6c1ac50a375"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_16_conditional_ppmd_graph.hporder",
+          "bytes": 254753,
+          "sha256": "b6732840addef47cd9b39117212de587072a2f76c87fa370fd30c79df2966284"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_16_original.hporder",
+          "bytes": 254466,
+          "sha256": "044e174aa654c74f130821fea83bc36a6be4ae7d93241fbd26984e436e2923ac"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_16_random.hporder",
+          "bytes": 254700,
+          "sha256": "ef312fc4ebc468f46f3592d7c7fb1e2e42f9829fdaefb084c92605efb89fd685"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_16_rare_word_graph.hporder",
+          "bytes": 254491,
+          "sha256": "9af39238d99d28be6937d781ba7f92c88ba64c1880c5be733af1e073bcbe9ef9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_16_reverse.hporder",
+          "bytes": 254698,
+          "sha256": "2d917d735076a677624707206aa363be04e62c4bc936d49a23ab54ceaae72c7d"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_8_conditional_ppmd_graph.hporder",
+          "bytes": 255541,
+          "sha256": "b54f13b127e1802f8c5d1d466aa0a7875564fc7fd848092263e8d666d3b3831b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_8_original.hporder",
+          "bytes": 255199,
+          "sha256": "cccd1427f21c36b31b45fd31e80ef75172a9b4e7a99ac89412ee9f31f6a831bf"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_8_random.hporder",
+          "bytes": 255456,
+          "sha256": "126a83dc16d2ce61d5feb40c3844c33a94089a5fcd1e71c72ee39bd665dc603e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_8_rare_word_graph.hporder",
+          "bytes": 255301,
+          "sha256": "8fcb6c655bd5967dfe5205b9bc097bb2866fdd5507204f9b76b923f6416c32f6"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_00_8_reverse.hporder",
+          "bytes": 255441,
+          "sha256": "3f0cfe85ed40407e2cc7098bf42aaf563f4883cffde8ae1ad0a7ba19a4a44a4d"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_16_conditional_ppmd_graph.hporder",
+          "bytes": 266179,
+          "sha256": "48a3f51b35f01dee1affa844e72be0d377f549ba4a22526737c76dbc202cc681"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_16_original.hporder",
+          "bytes": 265919,
+          "sha256": "f9d30ba0db103c0c9f066c28921770dd8d534de8b1c70961088841209193a7db"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_16_random.hporder",
+          "bytes": 265964,
+          "sha256": "4ae5402c1a8a968fa9137060fb68185bd1c1f8c0d0e3639777ac7bf878ead07c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_16_rare_word_graph.hporder",
+          "bytes": 266128,
+          "sha256": "cacf8a5c918438ec64e98d80f23bca38da4c34a5d927d2125d388c293d18e544"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_16_reverse.hporder",
+          "bytes": 266123,
+          "sha256": "43d39f9822ab225f1596a246c008454f201fdd7e4e368fc32d1a1607454567f1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_8_conditional_ppmd_graph.hporder",
+          "bytes": 266888,
+          "sha256": "f17dce568a2f742b790dfa3dd99c26865438c3ddfd6f2af72587b0ef1fd56588"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_8_original.hporder",
+          "bytes": 266613,
+          "sha256": "347d5f5020d43ca5edb6d073d67fc0ca3ff445da3855a082ff46fe37f5b9f2a9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_8_random.hporder",
+          "bytes": 266666,
+          "sha256": "a56d87970e5edffa01dd79dd0ee0335d61c3d76a25b437891678f666151f1f20"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_8_rare_word_graph.hporder",
+          "bytes": 266831,
+          "sha256": "b04ef652bc74341d518eb06dd1f4851af736c82d050b10a8c9aaadb9b596d66f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_01_8_reverse.hporder",
+          "bytes": 266795,
+          "sha256": "7ca6eaa67073435e5d58943cee782053df94d6512d4e9fd6e0911d02ac92fa76"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_16_conditional_ppmd_graph.hporder",
+          "bytes": 205216,
+          "sha256": "7f91f3edd07dff48a6d9ecc498b764b9166bb52e3804b6584fede8321cd68c02"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_16_original.hporder",
+          "bytes": 205075,
+          "sha256": "80258dbd8490140fa52426983bf4d993fd487a69309aa638a662222973d487ce"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_16_random.hporder",
+          "bytes": 205364,
+          "sha256": "50af62f629d28ca97d0826615531b876194d21fc929a2618f6675271f89062c4"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_16_rare_word_graph.hporder",
+          "bytes": 205271,
+          "sha256": "5abec535a1520b51fc972bd0ea73a4e2805e6b68dd4b82ad4438c89eff04d343"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_16_reverse.hporder",
+          "bytes": 205159,
+          "sha256": "f5a41c32119e198719a0839a1055ac48f4df9a3838972572fd894247603909ae"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_8_conditional_ppmd_graph.hporder",
+          "bytes": 206428,
+          "sha256": "7c779a354399e8260a69865136fafbbecc237da9005adae14d0599a7c1405823"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_8_original.hporder",
+          "bytes": 206288,
+          "sha256": "17b97e835130480b53b79b9b16cc430f5d1bcfb94bfad8c1b18b8427d9be6802"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_8_random.hporder",
+          "bytes": 206570,
+          "sha256": "90510967595b26f14bf82836989aff776a856f7cd4e1f2d884b8895c6de22d6a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_8_rare_word_graph.hporder",
+          "bytes": 206504,
+          "sha256": "a908a9670e099eb44be62b05676785dc70916fce3a85ded2ad0595cc0ac4778e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_02_8_reverse.hporder",
+          "bytes": 206337,
+          "sha256": "1aa90c36f0810f00db7d70f72483cc199c74107697974d4f5b3af64c3a2b2f1a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_16_conditional_ppmd_graph.hporder",
+          "bytes": 178200,
+          "sha256": "59899a59d50526ce64a3a48c3ee3212d04e04b091449aead6202b6964b2a2b07"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_16_original.hporder",
+          "bytes": 178095,
+          "sha256": "7f07f6cb0555eacb6a605b6fcace87eeb17c8479e04f34f53c3ab09124f0a956"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_16_random.hporder",
+          "bytes": 178164,
+          "sha256": "c0d31386f0239331f577e7d94771ce0491c703154dbb93988b0b5b3689f84254"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_16_rare_word_graph.hporder",
+          "bytes": 178109,
+          "sha256": "726c9dd7501a5965be5afd959757b5b5134ad871dbaad1e8fecd9b21d77db3a2"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_16_reverse.hporder",
+          "bytes": 177943,
+          "sha256": "5025240672b7fb309949edfbab1e239b71aca6202b67584754111f33452867bf"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_8_conditional_ppmd_graph.hporder",
+          "bytes": 179036,
+          "sha256": "27494b99fc5662f21dd156c288514261e840b96edfb6f0a629379d8ea45d4a40"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_8_original.hporder",
+          "bytes": 178940,
+          "sha256": "897f189fb64f25a9b4f2199532b655e6d882d4396708a72ae4d73c52a6833f81"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_8_random.hporder",
+          "bytes": 179048,
+          "sha256": "ca5168f8de190dd62342dc74c47fc52d659e9f5bdda4708287e18c55238432a1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_8_rare_word_graph.hporder",
+          "bytes": 178944,
+          "sha256": "fd9b07ab9f29b032d281d5b01288cacb16af9b333911cdfc3ba1634818ccf77c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_03_8_reverse.hporder",
+          "bytes": 178843,
+          "sha256": "a600bd86a67e75ba1a8df3eaf117e6e515042e47ed4db8f337d78a6bcbfecab9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_16_conditional_ppmd_graph.hporder",
+          "bytes": 117975,
+          "sha256": "49899704ddc69230d5c4ac5a0b29526e5757adf181957447fdbd5cf3705b17bf"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_16_original.hporder",
+          "bytes": 117771,
+          "sha256": "9aee4adfa19217f0c77286b15ecdf12f83cd03b39de1f195a8862bbbc07ba9ce"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_16_random.hporder",
+          "bytes": 118050,
+          "sha256": "01b60fa7553cdb55ce16391f4da412a7cbb5e34a7584514a114733effe38880a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_16_rare_word_graph.hporder",
+          "bytes": 117988,
+          "sha256": "17946b4e018e2940c3a9ed3625148f4d845e83fe2db45f70549f6d576468342e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_16_reverse.hporder",
+          "bytes": 117967,
+          "sha256": "6bae01898eb72067df4475e287647ec7e751d28c38f06226a483d99b0a1449c9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_8_conditional_ppmd_graph.hporder",
+          "bytes": 119815,
+          "sha256": "128c81d0273b3d6825192e73f8a0c33b5cd1b012d93fd60d89a9413a9a279847"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_8_original.hporder",
+          "bytes": 119558,
+          "sha256": "eea7d106c9ee0a7e7dc0d3637ba362d5ae74a1e889c984844d5ce699c67c5f90"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_8_random.hporder",
+          "bytes": 119873,
+          "sha256": "d718c769f32424f2628f03fea81b54eab29dfbdf2d07c5d8871b2b977b18d6ff"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_8_rare_word_graph.hporder",
+          "bytes": 119821,
+          "sha256": "5598fddc878a39fe2f3ba701f5dcbf1bd0350a4086c6aedbd58417dd33e08d81"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_04_8_reverse.hporder",
+          "bytes": 119793,
+          "sha256": "2160dc17673e64c6e8a2bb734c423b1bf160866115db55218bd675ab3084f0d1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_16_conditional_ppmd_graph.hporder",
+          "bytes": 65846,
+          "sha256": "4e40270bdf5ca5124e8c7597c39cada7e9b05a82634063edcde07376cc0bf556"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_16_original.hporder",
+          "bytes": 65543,
+          "sha256": "194e03e064baf234f3ebcce7ec53b25da4eaa4de16fcb0b49507d03759dde676"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_16_random.hporder",
+          "bytes": 65868,
+          "sha256": "f413fff7e503b1c6e0bb6e55572c4ac0fb96a667a9bc45d0ff797cb5209ccb43"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_16_rare_word_graph.hporder",
+          "bytes": 65899,
+          "sha256": "5c5b3ccbd3f72949f57841b781461ee496314fe5713edd0030a1852941dc2266"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_16_reverse.hporder",
+          "bytes": 65795,
+          "sha256": "be8964d5eb042953ba7d62cb6d358089101393a659882af1aecac74344b13c0b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_8_conditional_ppmd_graph.hporder",
+          "bytes": 69530,
+          "sha256": "3e053ed9a13d126f061e289ad1afd18944caf2a50165daaf70ed568a2293eddf"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_8_original.hporder",
+          "bytes": 69178,
+          "sha256": "754aed244c55d38fb06f45d531daaec9e5c53a97bb7bbd3b45188ce706f66fee"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_8_random.hporder",
+          "bytes": 69620,
+          "sha256": "ea632c3b1c6c8a3e4b7d69a93858a4c5ef22b447698c6d26720cdc3717f30307"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_8_rare_word_graph.hporder",
+          "bytes": 69599,
+          "sha256": "950be90a82b5401c23eda2d56ae37af845cc53a65182b6b252e415f0d54a4335"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_05_8_reverse.hporder",
+          "bytes": 69466,
+          "sha256": "660d42a96825697ca5630e2dd81fb6937141de4f63f892d6b6fce6181ad5ee5e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_16_conditional_ppmd_graph.hporder",
+          "bytes": 116772,
+          "sha256": "1224848e94c119056ed96e3720f2221e98724137199a3c45dfb612f10abe5a82"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_16_original.hporder",
+          "bytes": 116558,
+          "sha256": "eb83a1ba1f401a3c116de5909ff1823d29cca7e504b217e4489f51e90c5406da"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_16_random.hporder",
+          "bytes": 116758,
+          "sha256": "b2d916fd2b25b099028c4c6d3dddafbc06f841732f1212eb78de0145393df7c4"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_16_rare_word_graph.hporder",
+          "bytes": 116687,
+          "sha256": "29c2dd38588346ece6474a5aa7f31dbffa226764ef3b8e125df1b99bdbf7eb93"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_16_reverse.hporder",
+          "bytes": 116579,
+          "sha256": "f98f7d31a1505fc760a61fdae3a4c132d962fae542e1026692e312b53fa08cd1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_8_conditional_ppmd_graph.hporder",
+          "bytes": 119755,
+          "sha256": "899f850182093273b37c9dcf00048cd024287b7396079f96492e830100302811"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_8_original.hporder",
+          "bytes": 119540,
+          "sha256": "6774acf7a5b7fed16e67adc34c1ffe4a264d36789c72019a2302e4181277ca45"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_8_random.hporder",
+          "bytes": 119779,
+          "sha256": "8a38a3a8a65e59c0d84654a82aa6448219ba9ebcbb87f7fe8cd90308ed5181c1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_8_rare_word_graph.hporder",
+          "bytes": 119658,
+          "sha256": "dde95b02ec31150b1ad3585dafe593490f678a0aadc131943c0bc4ba60f08731"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_06_8_reverse.hporder",
+          "bytes": 119569,
+          "sha256": "6172067edcc9ebe46f3d973ef02a1ee966e5cb65a1970c2758c9b61c922f4022"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_16_conditional_ppmd_graph.hporder",
+          "bytes": 47334,
+          "sha256": "b600ec9322953ef19218bcfef81832479d705898e93ace1ce977dbc44fe357a3"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_16_original.hporder",
+          "bytes": 47132,
+          "sha256": "226289330c9a310fc3c7f66270a463a51c59102f0117ab401c6bdaa6717413b0"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_16_random.hporder",
+          "bytes": 47337,
+          "sha256": "185d27101b7a8821dff7d964279ef3e52fdaee3db5720b3001d9ed696ed4166e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_16_rare_word_graph.hporder",
+          "bytes": 47333,
+          "sha256": "8407f8cff7a7fc14989e8380b3ccdd10d900b06939ba58f22df05027dc6934df"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_16_reverse.hporder",
+          "bytes": 47321,
+          "sha256": "e0cfb3fdb98589cef1bd761c41074925c7c96da93f94d94e2c2d506cd8ae6573"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_8_conditional_ppmd_graph.hporder",
+          "bytes": 51125,
+          "sha256": "cb8c5fb46ded55a713c152b76eecdb5344e27eed0e029c6ec46eef01126ed2ff"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_8_original.hporder",
+          "bytes": 50932,
+          "sha256": "5fe8dadd2f9d70d0d7ed79feb0d6717df1f43eaf64c2d4169dea626663915fee"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_8_random.hporder",
+          "bytes": 51192,
+          "sha256": "cd2b3c3c6c4eaaf8f19a6d34e48eb45f608d14049b71441a84df7213d11ba4ec"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_8_rare_word_graph.hporder",
+          "bytes": 51137,
+          "sha256": "e720917ff52d8cd3639b736cd89c2b9c1695e1ba4962a1cd61a8078028b0d81c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_07_8_reverse.hporder",
+          "bytes": 51130,
+          "sha256": "2fc3bf10a1a35c36bdd7c66d980729227f1c891792f38f78272f5f8093ae7c8f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_16_conditional_ppmd_graph.hporder",
+          "bytes": 107558,
+          "sha256": "8476e0caffc10bd8aa7d92e8222c1e7620cdfc9dceb21e229fbd5370699d9a1f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_16_original.hporder",
+          "bytes": 107374,
+          "sha256": "4a4015b7a0fbb0a04c5d06dfb5ed188dd8c62ef94a71bc033f05f0f0095cd2f1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_16_random.hporder",
+          "bytes": 107544,
+          "sha256": "d1d2bda7b34f4cc082c8263f77225aae3899cc1f22ab8ec678a08dc2aaec4504"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_16_rare_word_graph.hporder",
+          "bytes": 107573,
+          "sha256": "c6c4caa428bd19809a67681ebed0071ffd92fe3156ff9ce9059034b322b722aa"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_16_reverse.hporder",
+          "bytes": 107499,
+          "sha256": "f495cb35a93c08e4714d57ad2f49dd433473c9cbf13e1d6ab2372910c590604d"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_8_conditional_ppmd_graph.hporder",
+          "bytes": 108317,
+          "sha256": "133d561cd69ea6274913563b7bb66c6913bd39f05c6b56b2091c733cc8af701f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_8_original.hporder",
+          "bytes": 108092,
+          "sha256": "20374628e543d7f46beab864db47994ccfc2d37e53fc2e4fc7e3ae3135996375"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_8_random.hporder",
+          "bytes": 108287,
+          "sha256": "125fee6743a94706beaab6f7be4cd2a3da6dab781f1d5b45968e67490baf831f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_8_rare_word_graph.hporder",
+          "bytes": 108297,
+          "sha256": "5b6436a6b29b86bbf90b177f1aa2a81def4a21b080b94bdad048d77e3c3ae681"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_08_8_reverse.hporder",
+          "bytes": 108238,
+          "sha256": "259d04ccb4669343f29e6d79f17faf5fbb488eadeff35750d7ddedca159167bc"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_16_conditional_ppmd_graph.hporder",
+          "bytes": 160611,
+          "sha256": "268a8da6e3b751b18e671530ccb743e1035a9e030db10aa54dfdb07c69c626e8"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_16_original.hporder",
+          "bytes": 160396,
+          "sha256": "d3e9e5812e32742875310c20a9c9b8ba956d8f6ff1c628466de42a8140b64b8f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_16_random.hporder",
+          "bytes": 160699,
+          "sha256": "370f187e71ce9bb94418a77544373473eac207db8b1d2dc638f08fac2224364d"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_16_rare_word_graph.hporder",
+          "bytes": 160630,
+          "sha256": "17877f5f86f39d2b98a0915282cba9282130d7d57ba9fb5e71960ed4315a1f63"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_16_reverse.hporder",
+          "bytes": 160811,
+          "sha256": "e5bedced9feeb6659d37bb6aea158db352e3aa592de15fd43fd4bbb5bc4f5901"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_8_conditional_ppmd_graph.hporder",
+          "bytes": 161753,
+          "sha256": "cda1c2172634fe2159f6e76caa310b96c2a97ad26275b55397ce81c2f8efb38f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_8_original.hporder",
+          "bytes": 161573,
+          "sha256": "92c42e2937153aa0f6d5e4c8bd4b2db46836b6e6c43d80c3ce3ee94669e11f2b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_8_random.hporder",
+          "bytes": 161894,
+          "sha256": "91c10104c371c9652850e95d4d52febaf8bedd9749828f8efe3cb32c84b01a27"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_8_rare_word_graph.hporder",
+          "bytes": 161776,
+          "sha256": "6cac14075171d87ba16e4a5310dec6e892463683121af0d53c16ee5d7d907c1b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_09_8_reverse.hporder",
+          "bytes": 161992,
+          "sha256": "87c236e794796bd4811c264b48ce93d9585f4569a11dc8c0495f2ee318d2f81e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_16_conditional_ppmd_graph.hporder",
+          "bytes": 86301,
+          "sha256": "746a1236812a3c16cb35b2d500995179f9ffefb70f7f5c742f96ad9bde7f425a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_16_original.hporder",
+          "bytes": 86135,
+          "sha256": "1acfd9b9e0e458a7c120688b33df056f48a26c08309f96d4f8e1b9ef77b25aee"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_16_random.hporder",
+          "bytes": 86393,
+          "sha256": "4ebe0fda647e316a78ad2f1bd54a4e322864990469c4bc64bf0ff2a3bbe49299"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_16_rare_word_graph.hporder",
+          "bytes": 86355,
+          "sha256": "30745c373488c9efa9dd2f335012d690f5dae333538fc1ed9ae8b4559e1fd96a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_16_reverse.hporder",
+          "bytes": 86395,
+          "sha256": "0961bc39b06069c30eca216792da9bdaf87b43e635c323e9e36e957124b2f5f6"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_8_conditional_ppmd_graph.hporder",
+          "bytes": 86895,
+          "sha256": "2d9232559d7c35629ed774aaae93295ee348b801197258e303bb14b23d24c811"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_8_original.hporder",
+          "bytes": 86720,
+          "sha256": "74507faa1bdacd574ab8bd596cf26284dc1f33954b958f2813b7fcf5660bdbfe"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_8_random.hporder",
+          "bytes": 86990,
+          "sha256": "64e961eea0f3614a5ddf73a28342a12707360b8ba72b93c36d81f9692e7837f0"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_8_rare_word_graph.hporder",
+          "bytes": 86956,
+          "sha256": "f032d8c5ec25e4a5414887d9532d200ccd226944e4b2193a2d964ddba21f04c9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_10_8_reverse.hporder",
+          "bytes": 87006,
+          "sha256": "996cf9fdc517c5df3a917ccee997b5cf1bdc3fd36f626875c37f7ec38f3b732e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_16_conditional_ppmd_graph.hporder",
+          "bytes": 97195,
+          "sha256": "72da91fc1481c7c8bf46dc9a72457b608e9c7f47260a2d8720d9fea945081e25"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_16_original.hporder",
+          "bytes": 97134,
+          "sha256": "a59af2ec88962084a18e2200c0e455d7bf6facc4351d3e92281184e8cf6fdf7c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_16_random.hporder",
+          "bytes": 97364,
+          "sha256": "6c1ab0ef520563a1d2ca4616b868ab77e7889c83bd71449556e925ce22a3870f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_16_rare_word_graph.hporder",
+          "bytes": 97250,
+          "sha256": "d893fd2a0f92e2a1fab90f4180f1c17cbcaab0a24a9b0da981f09cac4bab46f9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_16_reverse.hporder",
+          "bytes": 97232,
+          "sha256": "85fbe456f34d9b51bb05684de9e4b5bcf439405865c005525f1592cbe527a3d0"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_8_conditional_ppmd_graph.hporder",
+          "bytes": 97867,
+          "sha256": "2e49ded6391580f2a9c89cbf4ee6278f09865c884cd7de87fc9394653027f438"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_8_original.hporder",
+          "bytes": 97806,
+          "sha256": "64f2cd2e6c58304a2126d812549f6288a7fa28ef1f408e297e01aea446313910"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_8_random.hporder",
+          "bytes": 98035,
+          "sha256": "6cf3a32d9931468ba11d53d738854d9a09f5dd4444b08fcd23f2ea5c4e4d65cf"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_8_rare_word_graph.hporder",
+          "bytes": 97926,
+          "sha256": "30e16ec9bda3978bfb6160e98a481a12fa30eb227acb8805cb719720df011402"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_11_8_reverse.hporder",
+          "bytes": 97886,
+          "sha256": "b0488f30574000de8fdd6902c4c15a2f209a9af213ec4c5fd49b7213e1e75c32"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_16_conditional_ppmd_graph.hporder",
+          "bytes": 89068,
+          "sha256": "39f7a1ab2aad3d10da9eced134b93774964cb0bd496b55cbdb42f003b08802ca"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_16_original.hporder",
+          "bytes": 89059,
+          "sha256": "68280302874b8b7f6364266a57682b1857baee51b1fa864d027dd52d09db3fa2"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_16_random.hporder",
+          "bytes": 89226,
+          "sha256": "855ae740133cc3524a9caa64138e1c104348ca719b0b9b1cdc7330ce02cab480"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_16_rare_word_graph.hporder",
+          "bytes": 89075,
+          "sha256": "2837ea66783ea7d46fff0e7a1cdb31e6957cd6c55d5f5ca5679e2f4e322b26d8"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_16_reverse.hporder",
+          "bytes": 89210,
+          "sha256": "148ff7bd383f493737fd7b53dd348c46538c3a5c4522b77b3b3303a28b3f73a5"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_8_conditional_ppmd_graph.hporder",
+          "bytes": 89774,
+          "sha256": "949a3ca5b03d24e9ff12a8ee3dee0a242a7de9bedba246ba110cbd3adaf7c264"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_8_original.hporder",
+          "bytes": 89756,
+          "sha256": "c839b3dd08230a039393ae14fb594fd7b45706e0615cdb7cdbfb0a7e9125ec75"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_8_random.hporder",
+          "bytes": 89918,
+          "sha256": "323f9a6f5c700b70de4edd099524b0c7da4fca880bfa0052785cd042ef239f68"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_8_rare_word_graph.hporder",
+          "bytes": 89783,
+          "sha256": "6ec4cbadde7784809f8e121d24765c54a9aeeb98c8a88e5533e81aa06e3b2c83"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_12_8_reverse.hporder",
+          "bytes": 89884,
+          "sha256": "07c34d297ba2bc5d1ecd198d276e8232a885a5062a0e2958d759ce5b56fa91ff"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_16_conditional_ppmd_graph.hporder",
+          "bytes": 88710,
+          "sha256": "0de9750704748e1755d42f42d6c5b49d31936ab48fdf457bfcddf93cbb0ce609"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_16_original.hporder",
+          "bytes": 88493,
+          "sha256": "3f6d4b740121439ff40a33bae61bb297f5168efc979bf87c8e4e697c9411d759"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_16_random.hporder",
+          "bytes": 88877,
+          "sha256": "5776d9a0ab0cec8b5c4848fc5d2886b57d9136f597c41c0378cfc1758b7dfa90"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_16_rare_word_graph.hporder",
+          "bytes": 88742,
+          "sha256": "ecbf669d3dc3c0b63f5f25ce6c0940042a3d053d9613c88e7c9b33c372bf24c1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_16_reverse.hporder",
+          "bytes": 88910,
+          "sha256": "72fc065ae142d508a7054640d1d7e0ad45517e0a5cb0ebf214031eb5cbbce16f"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_8_conditional_ppmd_graph.hporder",
+          "bytes": 89885,
+          "sha256": "65868467051e6dacce1af4879a207b22204e2a371c15a1a3e10a891061240f71"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_8_original.hporder",
+          "bytes": 89691,
+          "sha256": "dde0d026138e88ef120eda01192f2c8a3927076f827c39a307c959156e97b698"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_8_random.hporder",
+          "bytes": 90060,
+          "sha256": "6bf45e5d727eec22090bf7e3ca25d86fb5c4810356fb83700eb8f01a2e78ffa7"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_8_rare_word_graph.hporder",
+          "bytes": 89927,
+          "sha256": "64df7dab0278638622b7e8877201c057d3e4ee8b72c2c3ceac4bc3b475a7c7d9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_13_8_reverse.hporder",
+          "bytes": 90054,
+          "sha256": "6eeb3254e3cd7aa2327f1a8c2b5bcfb65ea014cb399a74276c605b0ff4d01ecb"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_16_conditional_ppmd_graph.hporder",
+          "bytes": 86375,
+          "sha256": "065c355201abad0b5d1d92db51208ca6a8817f5cc6041f479d29dd402d35c56d"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_16_original.hporder",
+          "bytes": 86256,
+          "sha256": "db5fa1bfaff81cd03295b20890949ff53f20d34eaa4b0a90243e59e9b54e9d85"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_16_random.hporder",
+          "bytes": 86475,
+          "sha256": "3bccb7fe81fca216de11268260cec83b5f18605b687be52fffc19395cbc95437"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_16_rare_word_graph.hporder",
+          "bytes": 86362,
+          "sha256": "e8c0063f8b540be23eb063a06fb034f7c79c55fadba4300badb792091bce51bd"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_16_reverse.hporder",
+          "bytes": 86443,
+          "sha256": "a94794a5d72dbaf778cdc245f82fff12762edcfb5beff548ba834ab3cb89fd8a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_8_conditional_ppmd_graph.hporder",
+          "bytes": 86923,
+          "sha256": "5d66c3fc18692f385811b5de1546827a536516df2fbfdd14da78703a7108a08b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_8_original.hporder",
+          "bytes": 86804,
+          "sha256": "af8571ff6529b71430c4fb3466e28edaae4664dc8556ef82c7034d644f06d62b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_8_random.hporder",
+          "bytes": 87012,
+          "sha256": "d38996dd44df4d26cdf7478a9a110a4b2ee81bc4c4f5d2eb181278a718ba4225"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_8_rare_word_graph.hporder",
+          "bytes": 86884,
+          "sha256": "0944b7631ceea414bd39261440c3ded1e033b4616e5289a2716bd83768c7b97a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_14_8_reverse.hporder",
+          "bytes": 86969,
+          "sha256": "ec4b890972138ce5cae8168e5f97f47c44fc7ab42adf8585d64d64a5c05bd0f7"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_16_conditional_ppmd_graph.hporder",
+          "bytes": 75023,
+          "sha256": "88bfaae842b6d7fe5c2787d2d448c519b68d77dd7a6fee76c32cc26067bc4728"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_16_original.hporder",
+          "bytes": 74872,
+          "sha256": "5d3018580c378a8a7ac806df6df3af89be953a19e3c6bfc45cb88cf1b31a5790"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_16_random.hporder",
+          "bytes": 75121,
+          "sha256": "49039860462465852027467ef97f8a60fdd0819e240e2b15870304fbf6e82d48"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_16_rare_word_graph.hporder",
+          "bytes": 75070,
+          "sha256": "03f909a8aef9ea6c2f81dcd6a07ece5f696a8e9d3496f7f08a8b1adb1d2ac655"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_16_reverse.hporder",
+          "bytes": 75158,
+          "sha256": "7d0fe22ade05eead1ea8c72397a994f7e0d3028824e7aeba5d4b2b6c20e462cc"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_8_conditional_ppmd_graph.hporder",
+          "bytes": 75567,
+          "sha256": "ab646a5a4aced61610aeaac8d83ebb0b316a259a3bf6dbe10e93449805c11d32"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_8_original.hporder",
+          "bytes": 75435,
+          "sha256": "c50cb1c94f26b7eca381c1717ffdd59218731dc8b7ceff20edeca6aabb92533a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_8_random.hporder",
+          "bytes": 75688,
+          "sha256": "d5bb1c3910adac39367b8b236a7a98ed9f4d63d31a5e82ad4001760e03a27267"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_8_rare_word_graph.hporder",
+          "bytes": 75622,
+          "sha256": "fcc9fc918be371a2ff40ab4c46752c87f4542b7388287d72323ee874bcf33dfa"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/order_15_8_reverse.hporder",
+          "bytes": 75723,
+          "sha256": "49948ad89c0ab9b7c2255012ea15a012ced6ef2e8af7bc825469ce73dd64bbe9"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_00.json",
+          "bytes": 2619,
+          "sha256": "e88bdf98478cb9cd333585140c4a0cf1c49a19d8790434d984dbed072cbc7c08"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_01.json",
+          "bytes": 2621,
+          "sha256": "7f03bd443d60e7c3768392cd12e21a110020eb3014ed0b1ee99bbce170a60b07"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_02.json",
+          "bytes": 2620,
+          "sha256": "e53e462504ed9e2dd87a034ca3b002d7611a0104a69f08e51725a4b61811ff47"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_03.json",
+          "bytes": 2621,
+          "sha256": "736c62d56c4075c170074db2f69cb0f02802e78234f022c7435969dfa2bba553"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_04.json",
+          "bytes": 2628,
+          "sha256": "e08e5f3e958c1abc485f23571a1d8e9312f3ebe490d873ef7e0f5b6b3424d0d1"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_05.json",
+          "bytes": 2617,
+          "sha256": "daae426e185c2627e03157849b33a6d4defbd75b3f7bd3911004b9ea5f188f57"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_06.json",
+          "bytes": 2619,
+          "sha256": "7c5d5328ba91b02b2b8c1322b4eecc6b8aafa9c026d057412d22e3905a34708c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_07.json",
+          "bytes": 2619,
+          "sha256": "cae968833e117a293966b34ae981653242a5aa5c4631ddbdde3a4a0c6462c79a"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_08.json",
+          "bytes": 2628,
+          "sha256": "46667dae4738202a65e5e4ea2021fab975a0ff9cc24ab366504e2833d7cf7287"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_09.json",
+          "bytes": 2631,
+          "sha256": "9f03cb8f78b8ba3534b43d04187beb7ecda243647dbd21841b8ca31f06f16afc"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_10.json",
+          "bytes": 2610,
+          "sha256": "1b77f942bfd88b0dc9b6c9c9b6ca053481a6465a0706eb10eb2e1788fcb675ce"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_11.json",
+          "bytes": 2609,
+          "sha256": "d463252641f79db35ec64770e7f36d9c16e5b14047fa42b5cd4ad3653a21505e"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_12.json",
+          "bytes": 2618,
+          "sha256": "8a621f6182c90a4827c78d4042939917341996c3d5414331d8046b3c117c6a9b"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_13.json",
+          "bytes": 2620,
+          "sha256": "95ebfd05aa08d13c6b9fc1e4b83f0bfb75bc736978c82981e70ad5237ce2acee"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_14.json",
+          "bytes": 2619,
+          "sha256": "bd346ab1700c15b2212e6baee36b2a86aaa07f6bb992abc75db33186fdefead7"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/region_15.json",
+          "bytes": 2620,
+          "sha256": "09f4514bccb1e8b8f108b0e4d0e25d1110be09344067d30545eb7a664c95ff4c"
+        },
+        {
+          "path": "hutter-r14-article-order-native-v2/article-order-native/selection.json",
+          "bytes": 494,
+          "sha256": "6be2f1769616430661d50cccffff03175feb25b6541428f1c5dedea8cecbf5f7"
+        }
+      ],
+      "listed_files": 178,
+      "pages": 1,
+      "omitted_noncompact_files": 0,
+      "experiment_status": "COMPLETE_160_PAID_NATIVE_PPMD_ORDER_CASES",
+      "manifest_path": "/root/r14_native_wave_outputs_v1/hutter-r14-article-order-native-v2/article-order-native/manifest.json"
+    }
+  ],
+  "deletions": [],
+  "finished": 1791546196.7771602,
+  "compact": {
+    "path": "/kaggle/working/hp_round14/native_wave_compact_v1.zip",
+    "bytes": 45063335,
+    "sha256": "dbff4696be32970c23d5bb24c0c027999c17e3f51de88cc3b5362dda55ce4365",
+    "entries": 310
+  }
+}

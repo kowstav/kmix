@@ -1,0 +1,31 @@
+{
+  "scope": "CPU-only Python/NumPy construction prototype under concurrent research load, not a packaged/native prize-machine measurement",
+  "dictionary_words": 44515,
+  "Q": 1024,
+  "K": 8,
+  "exact_ID_and_score_cells_each": 356120,
+  "all_CPU_GPU_neighbors_and_scores_equal": true,
+  "allowed_CPU_affinity_before": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "actual_CPU_affinity": [
+    0
+  ],
+  "BLAS_OMP_MKL_threads": 1,
+  "feature_construction_seconds": 1.3912510049999582,
+  "exhaustive_scoring_and_topK_seconds": 29.276027585000065,
+  "wall_seconds": 30.66728140999976,
+  "user_seconds": 19.141037999999998,
+  "system_seconds": 11.499581000000001,
+  "prototype_peak_rss_kbytes": 832904,
+  "graph_ID_sha256": "f79bf859483e3a05cda2a1bda85a390ae90fd1905e713201da658b3c67ef3f6e",
+  "numpy_version": "2.0.2",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "source_sha256": "7836bff288abffda60c67f97f55e66f33f525ba7ecabd61d7e244a0117e95b6e"
+}
+INTEGER_GRAPH_CPU_CHECK_COMPLETE

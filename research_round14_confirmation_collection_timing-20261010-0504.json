@@ -1,0 +1,1032 @@
+{
+  "status": "TERMINAL_WAVE_SNAPSHOT",
+  "wave": "timing",
+  "started": 1791608668.4028778,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+      "state": "COMPLETE",
+      "observed": 1791608669.724525,
+      "files": [
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_neutral.json",
+          "bytes": 1153,
+          "sha256": "23ceaca83e8d55ab572ee8a5b8ecfe1d6d8f41df5faf4fe426cdb52147ee1660"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "80fdac2569273455dfccde7e22023e303950c4d09e244948085bdb9a660b05ca"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "bcad87fedae7ebf383966f7d342dd7c002816939be6def8a7c5c5e479b165449"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_prune_word.json",
+          "bytes": 1163,
+          "sha256": "bc18c7f542a8936857b402ba51c98e7d17f01cc8d7de52edb24e8087cd104724"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_prune_word_archive.cmx",
+          "bytes": 652190,
+          "sha256": "fa676588ca2d3b399fd067208d5c9aff1817f1d7f49e6226d4af4ccf5ab01f9d"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "434866a89eb857b7200787a501d00da37fe3c864b54578242b696b7b939400c1"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane0_r08_AB/native_08_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "ab3228793dc81827bafb7a076ee2dc2f9590a49a322f945729c7b66fc73cc616"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_neutral.json",
+          "bytes": 1161,
+          "sha256": "7e65c7fa95ec06f5807db9019b6849208ef070c980fc7fd4515d820dd22f8741"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "2499fa9b8ed8272a6e53c9e803d436df5abb58c6c41aa71573f718182ba5a77a"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "ca2da4b19fc1f80b503001c428f109ca6e6557b302d2f9a467bd0b64050f8b2a"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_prune_word.json",
+          "bytes": 1160,
+          "sha256": "eb708cb4b839a7c98cb60bbb051894c0a62d5d99f16f4ed14258bdc90f7f1adf"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_prune_word_archive.cmx",
+          "bytes": 652190,
+          "sha256": "fa676588ca2d3b399fd067208d5c9aff1817f1d7f49e6226d4af4ccf5ab01f9d"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "460964ba7373f8a1b019ed8320d100c202d4c8ef5e312831a1b3d4e35d9c65f7"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane1_r08_BA/native_08_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "1f372b129575507e2970a140363f98c652202a77fdca416f472f8ab023a6baf4"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_neutral.json",
+          "bytes": 1167,
+          "sha256": "ac4cdba72031b8f5d30c911b09c6125ae65adbfa8a941e8fdf276330b27480fa"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "be0c7713f514bb8f1a7b8516c65a4416cf7b0a04548c9a99fa3bead908713915"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "63ec60856548e1233a44ea390d98790ee664d7c7b04a3249efcf1ee238c9a486"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_prune_word.json",
+          "bytes": 1165,
+          "sha256": "f909a103080e4978f08d4700f07b8ce12dc0e80731e65281402cb6ca2ede38ec"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_prune_word_archive.cmx",
+          "bytes": 676668,
+          "sha256": "491bb508d7e4e20b584fe7221c81e8ebb24c2b0e1a79ec74be6a302df44c04ea"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "59a5e21f3d70a704eb8cdc827ebb312ab2b026d090c8f475a9147591e149be10"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane2_r09_AB/native_09_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "eb009bc8ca6f0b95d9c3e7a37b226cffc8b909918fef7e49346922a1ca6b3873"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_neutral.json",
+          "bytes": 1161,
+          "sha256": "580544ba8e059215a965790467aca006bfa52682451201fa50a43c2a56921702"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "a0184508aa4d23d79e04cad60eef9d596165d83b419a6e849deda2a1246200b1"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "bab4eede66d15a9db45aac34fe0fe464d11f66f16f8c40aceb8f0785de4621fa"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_prune_word.json",
+          "bytes": 1158,
+          "sha256": "ee0f7196bee799dcf50556f2c290c9d9e1246516df4725f62d78771817075c6e"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_prune_word_archive.cmx",
+          "bytes": 676668,
+          "sha256": "491bb508d7e4e20b584fe7221c81e8ebb24c2b0e1a79ec74be6a302df44c04ea"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_prune_word_decode.log",
+          "bytes": 774508,
+          "sha256": "de3820ea7c1a1b49fe3e21561463681fd9204d9c160a88115f242105462111d5"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/lane3_r09_BA/native_09_prune_word_encode.log",
+          "bytes": 774548,
+          "sha256": "31d8e3fd86585b1dea168fe3a8f64431cd18189ecbe41f21069fcd9e2be437fd"
+        },
+        {
+          "path": "hutter-r14-prune-word-timing-abba-v1/timing-abba-prune_word/manifest.json",
+          "bytes": 20421,
+          "sha256": "0a6c95e14f90221460941a1185734a8cb56e1b5af25d9e22bac68dcd52c4b954"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_LANE_ABBA_TIMING",
+      "manifest_sha256": "0a6c95e14f90221460941a1185734a8cb56e1b5af25d9e22bac68dcd52c4b954",
+      "verified_cases": [
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_word/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_word/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_word",
+          "sha256": "fa676588ca2d3b399fd067208d5c9aff1817f1d7f49e6226d4af4ccf5ab01f9d",
+          "matched_files": [
+            "timing-abba-prune_word/lane0_r08_AB/native_08_prune_word_archive.cmx",
+            "timing-abba-prune_word/lane1_r08_BA/native_08_prune_word_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_word",
+          "sha256": "fa676588ca2d3b399fd067208d5c9aff1817f1d7f49e6226d4af4ccf5ab01f9d",
+          "matched_files": [
+            "timing-abba-prune_word/lane0_r08_AB/native_08_prune_word_archive.cmx",
+            "timing-abba-prune_word/lane1_r08_BA/native_08_prune_word_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_word/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_word/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_word/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_word/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_word",
+          "sha256": "491bb508d7e4e20b584fe7221c81e8ebb24c2b0e1a79ec74be6a302df44c04ea",
+          "matched_files": [
+            "timing-abba-prune_word/lane2_r09_AB/native_09_prune_word_archive.cmx",
+            "timing-abba-prune_word/lane3_r09_BA/native_09_prune_word_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_word",
+          "sha256": "491bb508d7e4e20b584fe7221c81e8ebb24c2b0e1a79ec74be6a302df44c04ea",
+          "matched_files": [
+            "timing-abba-prune_word/lane2_r09_AB/native_09_prune_word_archive.cmx",
+            "timing-abba-prune_word/lane3_r09_BA/native_09_prune_word_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_word/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_word/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        }
+      ],
+      "collection": "COLLECTED_TERMINAL_OUTPUT"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+      "state": "COMPLETE",
+      "observed": 1791608676.7197046,
+      "files": [
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_neutral.json",
+          "bytes": 1154,
+          "sha256": "50247b45b3640a0355ba2227ea20ede017bed1baf5531ebca6f3166e59a0d043"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "93f1cb4ac35a0998fa523f68a3e291c26be619338c35bb7cdee1eb19192d90b1"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "ceb172f5ddc59247a629bd1fa644f32062db078ab8abc8b79ff46468bc284a1d"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_prune_match.json",
+          "bytes": 1164,
+          "sha256": "1256999d0bcef7b5cc746784a5b943e998f338fda07b923319a67b3696d5b8f0"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_prune_match_archive.cmx",
+          "bytes": 652178,
+          "sha256": "434d705a40e8629a293aa35f1ac7f7c019e08ec8bb072b9e9057efce18794a19"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "c0249fa9feb9d9c22f51ab2ef02286939f05d08277519568eb9bd2fdd661b2a9"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane0_r08_AB/native_08_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "753983fe351ea94a3ae2b84226957f92c3fe49ad2aa65566920ac908ae87c683"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_neutral.json",
+          "bytes": 1156,
+          "sha256": "17178bea836ed60be52db7ee1a2defcaa278e8fe9154c547e5328eb2f2c1d35f"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "92fb0ffe1583520c294d26306cdb08b4e8681824c1c58456098b8b793f2a2896"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "651f9aed74b03e2d74354aa971e23b22f51b0af4744535151a3a940287940eb5"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_prune_match.json",
+          "bytes": 1154,
+          "sha256": "a4670fa756cc4767d7d2c686f7c442280324432b2ae3127c652aad785db1c95c"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_prune_match_archive.cmx",
+          "bytes": 652178,
+          "sha256": "434d705a40e8629a293aa35f1ac7f7c019e08ec8bb072b9e9057efce18794a19"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "522f36a9741f6e3c799987950d5bc3fb259729a718c9725f058658dcc4a42aff"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane1_r08_BA/native_08_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "5f6d84a3b9a494c3aebdba795d3c23404ecb7f84a6fc412742ad290a2f6be9bb"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_neutral.json",
+          "bytes": 1168,
+          "sha256": "ff17236312f26cf0146d3cf779c5a441d6f4cdbc7acd76cfd5a17108db1b9025"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "d925b1b2ef68b636bb2400a70c46f87e711fc8763af66fe39e7452d2783098ea"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "d4b408e42e7683c985b16e593d38aecf0f5d2844ad658347ab87de797a94ed1b"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_prune_match.json",
+          "bytes": 1163,
+          "sha256": "e9939498b1099b51248b71a53a38fab144e7f996007ebce25a33e3198b486a28"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_prune_match_archive.cmx",
+          "bytes": 676663,
+          "sha256": "5719cdee043335d3f049c6833edb75351b5e25d045fadfffeeeb573fcceae500"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "02d779b497e47648d160daea7c85c0fc62c8168a2d9b85b1fb1220ff8a549fbb"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane2_r09_AB/native_09_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "6cd9b22a4077f04e82ee2c17f86b4160ebbaaefd3b9fe0994759f739ece085e9"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_neutral.json",
+          "bytes": 1157,
+          "sha256": "fd8a6cf77217a7c6e10cc1060beee89bac99bb4af20324f544e711dd94e68a1c"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "99111cc66f5edeacc1eed65bd64fd653731423506a39bcc40eb0e3a2d24ee026"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "22cfd7effc9124c01d21ebe431899875f4a10592032c942f3cf0de7cde927f0d"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_prune_match.json",
+          "bytes": 1162,
+          "sha256": "68747a67508e4d926fc8660d4dfeeaf6edb51d875b14f932c7887db493b49537"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_prune_match_archive.cmx",
+          "bytes": 676663,
+          "sha256": "5719cdee043335d3f049c6833edb75351b5e25d045fadfffeeeb573fcceae500"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_prune_match_decode.log",
+          "bytes": 774508,
+          "sha256": "97f3115d3214cc515fce438a6e85bb8c9fca1426236fc0ff6646e82a26cba362"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/lane3_r09_BA/native_09_prune_match_encode.log",
+          "bytes": 774548,
+          "sha256": "f67f35b7bdf9bf196a404e707ca4094074befb1b7f425e554451c28192462178"
+        },
+        {
+          "path": "hutter-r14-prune-match-timing-abba-v1/timing-abba-prune_match/manifest.json",
+          "bytes": 20468,
+          "sha256": "3313bc1e3567ae2469f0077cb83b37800a76daa7cd8fd02a9e8ce26c254d6143"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_LANE_ABBA_TIMING",
+      "manifest_sha256": "3313bc1e3567ae2469f0077cb83b37800a76daa7cd8fd02a9e8ce26c254d6143",
+      "verified_cases": [
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_match/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_match/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_match",
+          "sha256": "434d705a40e8629a293aa35f1ac7f7c019e08ec8bb072b9e9057efce18794a19",
+          "matched_files": [
+            "timing-abba-prune_match/lane0_r08_AB/native_08_prune_match_archive.cmx",
+            "timing-abba-prune_match/lane1_r08_BA/native_08_prune_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_match",
+          "sha256": "434d705a40e8629a293aa35f1ac7f7c019e08ec8bb072b9e9057efce18794a19",
+          "matched_files": [
+            "timing-abba-prune_match/lane0_r08_AB/native_08_prune_match_archive.cmx",
+            "timing-abba-prune_match/lane1_r08_BA/native_08_prune_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_match/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_match/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_match/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_match/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_match",
+          "sha256": "5719cdee043335d3f049c6833edb75351b5e25d045fadfffeeeb573fcceae500",
+          "matched_files": [
+            "timing-abba-prune_match/lane2_r09_AB/native_09_prune_match_archive.cmx",
+            "timing-abba-prune_match/lane3_r09_BA/native_09_prune_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_match",
+          "sha256": "5719cdee043335d3f049c6833edb75351b5e25d045fadfffeeeb573fcceae500",
+          "matched_files": [
+            "timing-abba-prune_match/lane2_r09_AB/native_09_prune_match_archive.cmx",
+            "timing-abba-prune_match/lane3_r09_BA/native_09_prune_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_match/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_match/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        }
+      ],
+      "collection": "COLLECTED_TERMINAL_OUTPUT"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-indirect-timing-abba-v1",
+      "state": "COMPLETE",
+      "observed": 1791608682.6223524,
+      "files": [
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral.json",
+          "bytes": 1160,
+          "sha256": "5986dc33ba8df2bcb66dfaacfd73d57541c1d645af06407b32436db93b2de3e3"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "b1746a37f0ce10b68da36fbe2d671b5ad4790d3a38ebaf35b6d7ef6024a0a56f"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "0659bde1522f22dd88fe7d916f9ba63d7727cd27dffb7de6402d20f21975f3b3"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect.json",
+          "bytes": 1166,
+          "sha256": "11bad6b0536a6fb951190c1562a68d1e865b949cf5f97ff973d5846a851f2bba"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect_archive.cmx",
+          "bytes": 652163,
+          "sha256": "d9fcd8a67d1239b7a09d9548320a3bea7d5332aaf75c073d921c3242bb465f3f"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "80a02ab96cea155af0027cace70de39dc8cac13bc24ac65d51c170c608c65aa9"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "45bcb07e41eeb74236486470a944dc22832ac2610ad2610940b9fe7851164831"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral.json",
+          "bytes": 1159,
+          "sha256": "c6b91b612917c3b7b1b8924614aaa8284ea2c8651797a6918a128df9c3c46bed"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "67eee2ec6a928ce603582b8a38c4ef56ed669a97588eaf9ccd5c36562dc5b61f"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "fe50ba2f408153afab5737b0f5ec2988714659f4c5259d13d2a34cedfbc695f4"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect.json",
+          "bytes": 1161,
+          "sha256": "dffad02713496bdcda125b992f17188f3622c880e44a9c1d3ede224f573c11c6"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect_archive.cmx",
+          "bytes": 652163,
+          "sha256": "d9fcd8a67d1239b7a09d9548320a3bea7d5332aaf75c073d921c3242bb465f3f"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "bb4e23d761633df35033cd5665774997cb980efa96f17e4efed4a4ec7f0433ff"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "069c446f7755b1e1a399bb7c71bc54b9a7c9f23ab9756fb8c8dfd79e137dd5a1"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral.json",
+          "bytes": 1157,
+          "sha256": "251940a237f0e720e0635ffae557bf88819c4c8acf37bbd4e673968a0ba50b3b"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "c79dd701aecebd348343e0536776d83ad3cf4a5725788654ed02a3648cd98c74"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "c8594aab8fb2e132f42a52c9049db1ae708695fe38cac4af08d05c03b188f9cc"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect.json",
+          "bytes": 1161,
+          "sha256": "09fc828a81d90decfde77c7498354ecd6ee1a026a4243a2009d3607c509df147"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect_archive.cmx",
+          "bytes": 676639,
+          "sha256": "f98c278c4f4e1aee12115c894e8df0b7628fa978005486f7b087f9813a200b2e"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "e227026ec35e80cba5e13926b945e2b57df91d920f9d00e438addc1055f4576b"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "da29045517503b2cee59039756c5de1e5d306e13b2c00ed57acc3a6137e75fc4"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral.json",
+          "bytes": 1156,
+          "sha256": "4deebcd56ac4a1268e700058eeb31837b6b28f38a5998040fd7eec1f92d83c69"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "afefc54d15c0b3ed7ec153f5bcda6a555ca0b69f01963559da9925d93227978a"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "d9d0740c155d1788a5e26b4c6e139182d5881588e40659439d0bdb9b55b79f7e"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect.json",
+          "bytes": 1164,
+          "sha256": "de28f9258d0cea3151cd76a747fb38c60f3019c5601b0341c8a4d3e432ca1d94"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect_archive.cmx",
+          "bytes": 676639,
+          "sha256": "f98c278c4f4e1aee12115c894e8df0b7628fa978005486f7b087f9813a200b2e"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect_decode.log",
+          "bytes": 774508,
+          "sha256": "f02c73485e1619d075be2348321dbed7affa9faa2afa26e0084d365fd6aa85dd"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect_encode.log",
+          "bytes": 774548,
+          "sha256": "a77b6eaf9dc56a5044f42adb02414f57acf92f0a2342a8cd59a597ab65477eba"
+        },
+        {
+          "path": "hutter-r14-prune-indirect-timing-abba-v1/timing-abba-prune_indirect/manifest.json",
+          "bytes": 20485,
+          "sha256": "41e6af5791c26273f6564f5aada686f304f4fbbc6e6599032094d4db42e50a75"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_LANE_ABBA_TIMING",
+      "manifest_sha256": "41e6af5791c26273f6564f5aada686f304f4fbbc6e6599032094d4db42e50a75",
+      "verified_cases": [
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_indirect",
+          "sha256": "d9fcd8a67d1239b7a09d9548320a3bea7d5332aaf75c073d921c3242bb465f3f",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect_archive.cmx",
+            "timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "prune_indirect",
+          "sha256": "d9fcd8a67d1239b7a09d9548320a3bea7d5332aaf75c073d921c3242bb465f3f",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane0_r08_AB/native_08_prune_indirect_archive.cmx",
+            "timing-abba-prune_indirect/lane1_r08_BA/native_08_prune_indirect_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-prune_indirect/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_indirect",
+          "sha256": "f98c278c4f4e1aee12115c894e8df0b7628fa978005486f7b087f9813a200b2e",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect_archive.cmx",
+            "timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "prune_indirect",
+          "sha256": "f98c278c4f4e1aee12115c894e8df0b7628fa978005486f7b087f9813a200b2e",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane2_r09_AB/native_09_prune_indirect_archive.cmx",
+            "timing-abba-prune_indirect/lane3_r09_BA/native_09_prune_indirect_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-prune_indirect/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-prune_indirect/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        }
+      ],
+      "collection": "COLLECTED_TERMINAL_OUTPUT"
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-output-fp32-timing-abba-v1",
+      "state": "COMPLETE",
+      "observed": 1791608689.3706546,
+      "files": [
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_neutral.json",
+          "bytes": 1157,
+          "sha256": "f96108fa4289f262dbe3b3e84126a0d0681b89e68885bb61466891f338b403b6"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "fee6e1fe03dff775e1f0e007068145f23699eb5239c398f05370ca67c474c370"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "7e642a5cfa67ef1d9b8d2814f43c399b49c955ff173e96407374e78cd480d72f"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32.json",
+          "bytes": 1164,
+          "sha256": "c580ac168d8be6a503efd6d0ccfe0d19347bed5c65c88accf58e69620c0735b0"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32_archive.cmx",
+          "bytes": 652164,
+          "sha256": "232678c326bdde7fea8edd67d8bc6d21b7590d7640e43fa96e2363d066432ec0"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "87e59e87900d5a47bc8641aecc1bfdeb29a521008066440239566552ba3fadd2"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "9cf38a3aacf59e0e84b1e4a1b7322d10b812d8a4f7492387840308f5483f4a70"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_neutral.json",
+          "bytes": 1158,
+          "sha256": "7f6ed17072d15ff9af40ab2cf14525164b832617907eeb683083a98e8e7d59e2"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_neutral_archive.cmx",
+          "bytes": 652164,
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "7b173f1fe2d58f8f84f9af5505dd18d4c1a23cd04ceff75bb154db738f7c553f"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "6ab4530d2127e410f9cdd8f72a89135ab18974e8784d9ecb836f74ba058f26c2"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32.json",
+          "bytes": 1156,
+          "sha256": "3ff0034ad2b0a1842b9aef1d057a5dbebb14c1f30a9944cb37db1a0dd28fb9c6"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32_archive.cmx",
+          "bytes": 652164,
+          "sha256": "232678c326bdde7fea8edd67d8bc6d21b7590d7640e43fa96e2363d066432ec0"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "88a7a9d955172d63e62b092f54bb2fa5a7ca48cce45eaeb89d73b8e8c9a8ca1a"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "856089779c33017894f74d7f1858dea63175ac1e7aef3569a30ce58207746034"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_neutral.json",
+          "bytes": 1156,
+          "sha256": "d95c3dcc5cf7e26b3809117359ca57190aa0432e501205f671d7e492aede36b7"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "f2cf5139e3e2f63d2b47b16de77cbfa45601e454359316389c1bcc20252f844e"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "bcc75d624f8d48a61a4614c14045b2174b9ecdb5953a2929d53db5dbaa304da6"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32.json",
+          "bytes": 1165,
+          "sha256": "4d0ba42d54955d6754dd64dceec0b698d7b28561afcfaedc41fe2d1772e59481"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32_archive.cmx",
+          "bytes": 676645,
+          "sha256": "1528ce5f5bc1619fb9c9efee2e94b9e198f9ea8dd58a6f9b2e38fdb587bf50cc"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "a6e372b007e0275855f1e34df5bc5153f4a96d8791780c81a622beb743919e59"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "424c34788aa6aa9dafe5d03e45d6385af048b75531ef3aa8fe3feb09837d4a17"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_neutral.json",
+          "bytes": 1161,
+          "sha256": "ad97740cd7d26ffb2b7a3459c17e5a83d9dc1bf010f7a4f4eb3b073825568637"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_neutral_archive.cmx",
+          "bytes": 676647,
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_neutral_decode.log",
+          "bytes": 774508,
+          "sha256": "e23bbf8441dc9fe9e3d212e2ac24a9d9c6756a561136e30774ba42d7da68b435"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_neutral_encode.log",
+          "bytes": 774548,
+          "sha256": "ee18831e01530bbf1889ee6515f3f45716799e878c02703b18a32da51b689483"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32.json",
+          "bytes": 1162,
+          "sha256": "f02714f4e7846f077ceb347494f96b32e0e985d65b3a4a1aa4ca0e27e04af6a7"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32_archive.cmx",
+          "bytes": 676645,
+          "sha256": "1528ce5f5bc1619fb9c9efee2e94b9e198f9ea8dd58a6f9b2e38fdb587bf50cc"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32_decode.log",
+          "bytes": 774508,
+          "sha256": "cf3e5dc36bc8f0c9c139d2256dc81c05a6a6425514d93e3786c4876d01c8d018"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32_encode.log",
+          "bytes": 774548,
+          "sha256": "a7c64e82bdb5961b1e87a0b99e9e0ee009fb0b78b161926ff5e5fb25e2e328f4"
+        },
+        {
+          "path": "hutter-r14-output-fp32-timing-abba-v1/timing-abba-output_fp32/manifest.json",
+          "bytes": 20411,
+          "sha256": "e79d275f7058fbe430d329b9d6f11ca1b0c37f1e78763c6616f6a1834a5a0f51"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_LANE_ABBA_TIMING",
+      "manifest_sha256": "e79d275f7058fbe430d329b9d6f11ca1b0c37f1e78763c6616f6a1834a5a0f51",
+      "verified_cases": [
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-output_fp32/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-output_fp32/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "output_fp32",
+          "sha256": "232678c326bdde7fea8edd67d8bc6d21b7590d7640e43fa96e2363d066432ec0",
+          "matched_files": [
+            "timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32_archive.cmx",
+            "timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "output_fp32",
+          "sha256": "232678c326bdde7fea8edd67d8bc6d21b7590d7640e43fa96e2363d066432ec0",
+          "matched_files": [
+            "timing-abba-output_fp32/lane0_r08_AB/native_08_output_fp32_archive.cmx",
+            "timing-abba-output_fp32/lane1_r08_BA/native_08_output_fp32_archive.cmx"
+          ]
+        },
+        {
+          "region": 8,
+          "mode": "neutral",
+          "sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+          "matched_files": [
+            "timing-abba-output_fp32/lane0_r08_AB/native_08_neutral_archive.cmx",
+            "timing-abba-output_fp32/lane1_r08_BA/native_08_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-output_fp32/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-output_fp32/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "output_fp32",
+          "sha256": "1528ce5f5bc1619fb9c9efee2e94b9e198f9ea8dd58a6f9b2e38fdb587bf50cc",
+          "matched_files": [
+            "timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32_archive.cmx",
+            "timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "output_fp32",
+          "sha256": "1528ce5f5bc1619fb9c9efee2e94b9e198f9ea8dd58a6f9b2e38fdb587bf50cc",
+          "matched_files": [
+            "timing-abba-output_fp32/lane2_r09_AB/native_09_output_fp32_archive.cmx",
+            "timing-abba-output_fp32/lane3_r09_BA/native_09_output_fp32_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "neutral",
+          "sha256": "d1b3d938da8d1f888b5b2c855469435b449f0eb4631e3e1b8813c368d34b813a",
+          "matched_files": [
+            "timing-abba-output_fp32/lane2_r09_AB/native_09_neutral_archive.cmx",
+            "timing-abba-output_fp32/lane3_r09_BA/native_09_neutral_archive.cmx"
+          ]
+        }
+      ],
+      "collection": "COLLECTED_TERMINAL_OUTPUT"
+    }
+  ],
+  "deletions": [],
+  "launches": 0,
+  "archive_verification": "hash and recorded inverse, not a new decode",
+  "collector_version": "v3-joint-and-timing-selectors",
+  "selected_refs": [
+    "chaoscpp/hutter-r14-prune-word-timing-abba-v1",
+    "chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+    "chaoscpp/hutter-r14-prune-indirect-timing-abba-v1",
+    "chaoscpp/hutter-r14-output-fp32-timing-abba-v1"
+  ],
+  "compact": {
+    "path": "/kaggle/working/hp_round14/confirmation_compact_timing-20261010-0504.zip",
+    "bytes": 27217057,
+    "sha256": "dc5e044b4180f2d3d4e98a2aa0dc0d40e47c5eb5cf14c42ee9dfec4fe169a4d3",
+    "entries": 132
+  },
+  "finished": 1791608697.1542308
+}

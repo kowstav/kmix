@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.1.attention.output_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.1.attention.output_gate_projection.down.weight.scale"
+  ],
+  "label": "4db845cb671296670cd509ff",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 469
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 432
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 467
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 420
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 469
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 469
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 469
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 469
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 557
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 586
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    420,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "26f737aaeee2852c59d5407020f7eb2fde1a3c13e90e8ec7b606814e72d3488f",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.010276000000001312,
+  "wall_seconds": 0.010292203000005884
+}

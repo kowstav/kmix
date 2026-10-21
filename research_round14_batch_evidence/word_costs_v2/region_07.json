@@ -1,0 +1,924 @@
+{
+  "index": 7,
+  "scored_interval": [
+    482097152,
+    483145728
+  ],
+  "native_bits": 352816.9416719144,
+  "categories": {
+    "body_constructor": {
+      "events": 94749,
+      "coded_bytes": 111417,
+      "native_bits": 24235.700509154936
+    },
+    "body_dictionary_other": {
+      "events": 114649,
+      "coded_bytes": 280031,
+      "native_bits": 90901.85085263709
+    },
+    "body_literal_or_oov": {
+      "events": 13342,
+      "coded_bytes": 46434,
+      "native_bits": 23151.364531891188
+    },
+    "metadata_word": {
+      "events": 8339,
+      "coded_bytes": 21070,
+      "native_bits": 12934.270714281825
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 589624,
+      "native_bits": 201593.7550639494
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 158,
+      "coded_bytes": 1500,
+      "native_bits": 4256.397368147736
+    },
+    "16": {
+      "events": 845,
+      "coded_bytes": 7347,
+      "native_bits": 9604.404565001372
+    },
+    "64": {
+      "events": 1523,
+      "coded_bytes": 12856,
+      "native_bits": 14265.92309365864
+    },
+    "107": {
+      "events": 1958,
+      "coded_bytes": 16358,
+      "native_bits": 16850.71757925558
+    },
+    "128": {
+      "events": 2086,
+      "coded_bytes": 17096,
+      "native_bits": 17867.536643358413
+    },
+    "1024": {
+      "events": 5117,
+      "coded_bytes": 32046,
+      "native_bits": 34577.721610406414
+    },
+    "1392": {
+      "events": 5682,
+      "coded_bytes": 34129,
+      "native_bits": 38347.88022255944
+    },
+    "8372": {
+      "events": 10283,
+      "coded_bytes": 47960,
+      "native_bits": 69198.33715139376
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 16201,
+      "coded_bytes": 19797,
+      "native_bits": 3389.9562397454865,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "and",
+      "events": 6965,
+      "coded_bytes": 6968,
+      "native_bits": 1671.4970020395704,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "in",
+      "events": 3229,
+      "coded_bytes": 3834,
+      "native_bits": 1656.9422182592098,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "a",
+      "events": 4097,
+      "coded_bytes": 4136,
+      "native_bits": 1407.8492672089487,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "of",
+      "events": 14567,
+      "coded_bytes": 14587,
+      "native_bits": 1155.2321172477677,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "on",
+      "events": 185,
+      "coded_bytes": 212,
+      "native_bits": 772.9106323127635,
+      "corpus_count": 629335
+    },
+    {
+      "word": "to",
+      "events": 2494,
+      "coded_bytes": 2498,
+      "native_bits": 771.9242704655044,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "city",
+      "events": 4458,
+      "coded_bytes": 9166,
+      "native_bits": 707.265807882417,
+      "corpus_count": 199574
+    },
+    {
+      "word": "for",
+      "events": 3344,
+      "coded_bytes": 4404,
+      "native_bits": 676.1396506638266,
+      "corpus_count": 989460
+    },
+    {
+      "word": "was",
+      "events": 304,
+      "coded_bytes": 304,
+      "native_bits": 611.3628999888897,
+      "corpus_count": 816835
+    },
+    {
+      "word": "it",
+      "events": 1170,
+      "coded_bytes": 1299,
+      "native_bits": 515.0042152004316,
+      "corpus_count": 549509
+    },
+    {
+      "word": "is",
+      "events": 7831,
+      "coded_bytes": 7831,
+      "native_bits": 495.5051296344027,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "as",
+      "events": 1192,
+      "coded_bytes": 2261,
+      "native_bits": 447.5852905230131,
+      "corpus_count": 859588
+    },
+    {
+      "word": "town",
+      "events": 150,
+      "coded_bytes": 304,
+      "native_bits": 444.0364871728234,
+      "corpus_count": 125044
+    },
+    {
+      "word": "from",
+      "events": 2742,
+      "coded_bytes": 2742,
+      "native_bits": 440.54265013802797,
+      "corpus_count": 660615
+    },
+    {
+      "word": "at",
+      "events": 1125,
+      "coded_bytes": 1127,
+      "native_bits": 427.5151572166942,
+      "corpus_count": 445611
+    },
+    {
+      "word": "an",
+      "events": 595,
+      "coded_bytes": 597,
+      "native_bits": 394.4853383938316,
+      "corpus_count": 411017
+    },
+    {
+      "word": "home",
+      "events": 79,
+      "coded_bytes": 170,
+      "native_bits": 391.2756499615498,
+      "corpus_count": 45585
+    },
+    {
+      "word": "that",
+      "events": 95,
+      "coded_bytes": 97,
+      "native_bits": 389.6497259940952,
+      "corpus_count": 614666
+    },
+    {
+      "word": "st",
+      "events": 199,
+      "coded_bytes": 594,
+      "native_bits": 382.00912700151093,
+      "corpus_count": 64249
+    },
+    {
+      "word": "by",
+      "events": 485,
+      "coded_bytes": 490,
+      "native_bits": 374.27034468902275,
+      "corpus_count": 722251
+    },
+    {
+      "word": "with",
+      "events": 1691,
+      "coded_bytes": 1693,
+      "native_bits": 364.7417472896632,
+      "corpus_count": 722262
+    },
+    {
+      "word": "new",
+      "events": 105,
+      "coded_bytes": 296,
+      "native_bits": 355.4670936190523,
+      "corpus_count": 238019
+    },
+    {
+      "word": "history",
+      "events": 62,
+      "coded_bytes": 169,
+      "native_bits": 333.5391320309136,
+      "corpus_count": 94306
+    },
+    {
+      "word": "area",
+      "events": 741,
+      "coded_bytes": 1494,
+      "native_bits": 326.0352063754108,
+      "corpus_count": 132834
+    },
+    {
+      "word": "this",
+      "events": 53,
+      "coded_bytes": 72,
+      "native_bits": 324.4060431532562,
+      "corpus_count": 346843
+    },
+    {
+      "word": "one",
+      "events": 54,
+      "coded_bytes": 61,
+      "native_bits": 322.04709636070766,
+      "corpus_count": 227098
+    },
+    {
+      "word": "first",
+      "events": 62,
+      "coded_bytes": 134,
+      "native_bits": 310.77012365404516,
+      "corpus_count": 191198
+    },
+    {
+      "word": "state",
+      "events": 75,
+      "coded_bytes": 185,
+      "native_bits": 308.2521649694536,
+      "corpus_count": 105355
+    },
+    {
+      "word": "school",
+      "events": 125,
+      "coded_bytes": 318,
+      "native_bits": 308.2506950565148,
+      "corpus_count": 63267
+    },
+    {
+      "word": "missouri",
+      "events": 2097,
+      "coded_bytes": 8387,
+      "native_bits": 302.19824566412717,
+      "corpus_count": 13652
+    },
+    {
+      "word": "high",
+      "events": 64,
+      "coded_bytes": 159,
+      "native_bits": 289.15766342985444,
+      "corpus_count": 61976
+    },
+    {
+      "word": "also",
+      "events": 58,
+      "coded_bytes": 62,
+      "native_bits": 279.4824088579044,
+      "corpus_count": 283761
+    },
+    {
+      "word": "community",
+      "events": 47,
+      "coded_bytes": 112,
+      "native_bits": 277.6413101707585,
+      "corpus_count": 27701
+    },
+    {
+      "word": "county",
+      "events": 1446,
+      "coded_bytes": 4226,
+      "native_bits": 273.87460549757816,
+      "corpus_count": 226311
+    },
+    {
+      "word": "north",
+      "events": 584,
+      "coded_bytes": 1738,
+      "native_bits": 267.11454479116946,
+      "corpus_count": 103422
+    },
+    {
+      "word": "cities",
+      "events": 530,
+      "coded_bytes": 1578,
+      "native_bits": 263.1021476138849,
+      "corpus_count": 36867
+    },
+    {
+      "word": "village",
+      "events": 101,
+      "coded_bytes": 226,
+      "native_bits": 262.32323232199997,
+      "corpus_count": 51773
+    },
+    {
+      "word": "its",
+      "events": 57,
+      "coded_bytes": 60,
+      "native_bits": 257.2851652354002,
+      "corpus_count": 180846
+    },
+    {
+      "word": "his",
+      "events": 62,
+      "coded_bytes": 65,
+      "native_bits": 253.50196050852537,
+      "corpus_count": 414734
+    },
+    {
+      "word": "two",
+      "events": 565,
+      "coded_bytes": 576,
+      "native_bits": 253.08941863267682,
+      "corpus_count": 174865
+    },
+    {
+      "word": "south",
+      "events": 37,
+      "coded_bytes": 89,
+      "native_bits": 238.06409186474048,
+      "corpus_count": 79187
+    },
+    {
+      "word": "there",
+      "events": 2676,
+      "coded_bytes": 3751,
+      "native_bits": 227.09288073144853,
+      "corpus_count": 311572
+    },
+    {
+      "word": "many",
+      "events": 35,
+      "coded_bytes": 38,
+      "native_bits": 226.04902708530426,
+      "corpus_count": 133670
+    },
+    {
+      "word": "were",
+      "events": 90,
+      "coded_bytes": 90,
+      "native_bits": 224.74064856767654,
+      "corpus_count": 244197
+    },
+    {
+      "word": "large",
+      "events": 34,
+      "coded_bytes": 71,
+      "native_bits": 220.7252797842957,
+      "corpus_count": 51066
+    },
+    {
+      "word": "has",
+      "events": 582,
+      "coded_bytes": 582,
+      "native_bits": 219.41551811737008,
+      "corpus_count": 260413
+    },
+    {
+      "word": "people",
+      "events": 564,
+      "coded_bytes": 1134,
+      "native_bits": 218.3133753668517,
+      "corpus_count": 132830
+    },
+    {
+      "word": "lake",
+      "events": 135,
+      "coded_bytes": 395,
+      "native_bits": 209.35095365764573,
+      "corpus_count": 29241
+    },
+    {
+      "word": "which",
+      "events": 586,
+      "coded_bytes": 586,
+      "native_bits": 209.19107587169856,
+      "corpus_count": 357281
+    },
+    {
+      "word": "united",
+      "events": 587,
+      "coded_bytes": 1174,
+      "native_bits": 192.69478254951537,
+      "corpus_count": 202275
+    },
+    {
+      "word": "population",
+      "events": 3195,
+      "coded_bytes": 6391,
+      "native_bits": 188.3379256958142,
+      "corpus_count": 263430
+    },
+    {
+      "word": "four",
+      "events": 24,
+      "coded_bytes": 55,
+      "native_bits": 185.52776135504246,
+      "corpus_count": 41483
+    },
+    {
+      "word": "over",
+      "events": 555,
+      "coded_bytes": 556,
+      "native_bits": 185.52419219212607,
+      "corpus_count": 132336
+    },
+    {
+      "word": "more",
+      "events": 550,
+      "coded_bytes": 553,
+      "native_bits": 184.95842937403359,
+      "corpus_count": 183919
+    },
+    {
+      "word": "government",
+      "events": 33,
+      "coded_bytes": 70,
+      "native_bits": 181.98697260487825,
+      "corpus_count": 66061
+    },
+    {
+      "word": "had",
+      "events": 559,
+      "coded_bytes": 559,
+      "native_bits": 179.59131631092168,
+      "corpus_count": 215442
+    },
+    {
+      "word": "illinois",
+      "events": 244,
+      "coded_bytes": 731,
+      "native_bits": 178.43528808886185,
+      "corpus_count": 17210
+    },
+    {
+      "word": "crystal",
+      "events": 65,
+      "coded_bytes": 194,
+      "native_bits": 178.07385628740303,
+      "corpus_count": 4166
+    },
+    {
+      "word": "district",
+      "events": 54,
+      "coded_bytes": 136,
+      "native_bits": 177.46016995073296,
+      "corpus_count": 36556
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "legend",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 101.07979234308004,
+      "corpus_count": 7633
+    },
+    {
+      "word": "lead",
+      "events": 12,
+      "coded_bytes": 28,
+      "native_bits": 147.26343525014818,
+      "corpus_count": 16321
+    },
+    {
+      "word": "economic",
+      "events": 9,
+      "coded_bytes": 23,
+      "native_bits": 96.7183277187869,
+      "corpus_count": 19495
+    },
+    {
+      "word": "six",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 106.1295976638794,
+      "corpus_count": 19944
+    },
+    {
+      "word": "big",
+      "events": 9,
+      "coded_bytes": 24,
+      "native_bits": 88.90749675687402,
+      "corpus_count": 20787
+    },
+    {
+      "word": "nearly",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 88.30505985766649,
+      "corpus_count": 10959
+    },
+    {
+      "word": "among",
+      "events": 9,
+      "coded_bytes": 22,
+      "native_bits": 87.77181353420019,
+      "corpus_count": 34058
+    },
+    {
+      "word": "municipal",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 76.48848873237148,
+      "corpus_count": 5412
+    },
+    {
+      "word": "laid",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 105.10240983963013,
+      "corpus_count": 4708
+    },
+    {
+      "word": "nearby",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 85.78467584238388,
+      "corpus_count": 7405
+    },
+    {
+      "word": "great",
+      "events": 8,
+      "coded_bytes": 19,
+      "native_bits": 76.23739986121655,
+      "corpus_count": 52646
+    },
+    {
+      "word": "citizens",
+      "events": 8,
+      "coded_bytes": 19,
+      "native_bits": 75.66729566082358,
+      "corpus_count": 6725
+    },
+    {
+      "word": "modern",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 84.75035384297371,
+      "corpus_count": 39077
+    },
+    {
+      "word": "train",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 74.33136248961091,
+      "corpus_count": 8109
+    },
+    {
+      "word": "truman",
+      "events": 10,
+      "coded_bytes": 38,
+      "native_bits": 91.82576324231923,
+      "corpus_count": 1458
+    },
+    {
+      "word": "chief",
+      "events": 8,
+      "coded_bytes": 23,
+      "native_bits": 72.77955324016511,
+      "corpus_count": 16307
+    },
+    {
+      "word": "notable",
+      "events": 8,
+      "coded_bytes": 22,
+      "native_bits": 70.27550813020207,
+      "corpus_count": 12934
+    },
+    {
+      "word": "just",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 95.46276120096445,
+      "corpus_count": 33599
+    },
+    {
+      "word": "three",
+      "events": 19,
+      "coded_bytes": 41,
+      "native_bits": 164.24952249974012,
+      "corpus_count": 68880
+    },
+    {
+      "word": "numerous",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 68.50213038921356,
+      "corpus_count": 10841
+    },
+    {
+      "word": "construction",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 85.2911972347647,
+      "corpus_count": 13205
+    },
+    {
+      "word": "former",
+      "events": 11,
+      "coded_bytes": 24,
+      "native_bits": 93.56588977295905,
+      "corpus_count": 31346
+    },
+    {
+      "word": "industry",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 93.44281850196421,
+      "corpus_count": 16010
+    },
+    {
+      "word": "southwest",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 67.89851894974709,
+      "corpus_count": 6004
+    },
+    {
+      "word": "military",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 75.7857463285327,
+      "corpus_count": 37807
+    },
+    {
+      "word": "local",
+      "events": 17,
+      "coded_bytes": 36,
+      "native_bits": 142.25525468587875,
+      "corpus_count": 32548
+    },
+    {
+      "word": "historic",
+      "events": 11,
+      "coded_bytes": 26,
+      "native_bits": 91.80129550769925,
+      "corpus_count": 8226
+    },
+    {
+      "word": "between",
+      "events": 16,
+      "coded_bytes": 18,
+      "native_bits": 132.3888851851225,
+      "corpus_count": 88323
+    },
+    {
+      "word": "january",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 65.50148864090443,
+      "corpus_count": 41724
+    },
+    {
+      "word": "historical",
+      "events": 14,
+      "coded_bytes": 38,
+      "native_bits": 114.49072289466858,
+      "corpus_count": 18538
+    },
+    {
+      "word": "horses",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 65.24711591005325,
+      "corpus_count": 2746
+    },
+    {
+      "word": "while",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 65.12131720781326,
+      "corpus_count": 72129
+    },
+    {
+      "word": "several",
+      "events": 17,
+      "coded_bytes": 36,
+      "native_bits": 138.02662505209446,
+      "corpus_count": 58193
+    },
+    {
+      "word": "captain",
+      "events": 9,
+      "coded_bytes": 26,
+      "native_bits": 72.61154841631651,
+      "corpus_count": 8928
+    },
+    {
+      "word": "southern",
+      "events": 10,
+      "coded_bytes": 27,
+      "native_bits": 80.21206828206778,
+      "corpus_count": 21945
+    },
+    {
+      "word": "major",
+      "events": 16,
+      "coded_bytes": 39,
+      "native_bits": 128.27833261783235,
+      "corpus_count": 46376
+    },
+    {
+      "word": "business",
+      "events": 21,
+      "coded_bytes": 48,
+      "native_bits": 168.31286324188113,
+      "corpus_count": 21097
+    },
+    {
+      "word": "once",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 63.724703431129456,
+      "corpus_count": 24701
+    },
+    {
+      "word": "homes",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 63.4465741366148,
+      "corpus_count": 3587
+    },
+    {
+      "word": "cape",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 71.23037085938267,
+      "corpus_count": 6276
+    },
+    {
+      "word": "about",
+      "events": 19,
+      "coded_bytes": 20,
+      "native_bits": 149.93097364157438,
+      "corpus_count": 97574
+    },
+    {
+      "word": "hospital",
+      "events": 9,
+      "coded_bytes": 23,
+      "native_bits": 70.9276651199907,
+      "corpus_count": 6436
+    },
+    {
+      "word": "long",
+      "events": 12,
+      "coded_bytes": 28,
+      "native_bits": 94.43208103673533,
+      "corpus_count": 51300
+    },
+    {
+      "word": "houses",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 70.78412682563066,
+      "corpus_count": 7654
+    },
+    {
+      "word": "george",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 78.6354690529406,
+      "corpus_count": 39320
+    },
+    {
+      "word": "around",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 62.898055374622345,
+      "corpus_count": 42633
+    },
+    {
+      "word": "four",
+      "events": 24,
+      "coded_bytes": 55,
+      "native_bits": 185.52776135504246,
+      "corpus_count": 41483
+    },
+    {
+      "word": "city's",
+      "events": 13,
+      "coded_bytes": 58,
+      "native_bits": 100.2947811614722,
+      "corpus_count": 4795
+    },
+    {
+      "word": "back",
+      "events": 10,
+      "coded_bytes": 22,
+      "native_bits": 77.06692960206419,
+      "corpus_count": 38434
+    },
+    {
+      "word": "due",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 76.60454383119941,
+      "corpus_count": 36615
+    },
+    {
+      "word": "within",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 68.56765989586711,
+      "corpus_count": 37720
+    },
+    {
+      "word": "because",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 68.54188229516149,
+      "corpus_count": 58627
+    },
+    {
+      "word": "german",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 83.56328374892473,
+      "corpus_count": 47471
+    },
+    {
+      "word": "national",
+      "events": 23,
+      "coded_bytes": 64,
+      "native_bits": 174.70213796384633,
+      "corpus_count": 76544
+    },
+    {
+      "word": "still",
+      "events": 13,
+      "coded_bytes": 29,
+      "native_bits": 98.51804478559643,
+      "corpus_count": 45380
+    },
+    {
+      "word": "property",
+      "events": 12,
+      "coded_bytes": 24,
+      "native_bits": 90.52946039102972,
+      "corpus_count": 11087
+    },
+    {
+      "word": "french",
+      "events": 14,
+      "coded_bytes": 42,
+      "native_bits": 105.49964146409184,
+      "corpus_count": 55626
+    },
+    {
+      "word": "governor",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 82.55232464522123,
+      "corpus_count": 18002
+    },
+    {
+      "word": "hometown",
+      "events": 11,
+      "coded_bytes": 34,
+      "native_bits": 81.8541359694209,
+      "corpus_count": 1150
+    },
+    {
+      "word": "union",
+      "events": 10,
+      "coded_bytes": 29,
+      "native_bits": 74.18445407040417,
+      "corpus_count": 34836
+    }
+  ],
+  "words_file_sha256": "d2fce83d3f41f9aaa79d0754a3c67d7d6fcb1a39ca1b12d12dbd5a29f5f950cf",
+  "CPU_lane": 3,
+  "exact_WRT_character_crosscheck": true
+}

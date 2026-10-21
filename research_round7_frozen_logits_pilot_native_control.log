@@ -1,0 +1,58 @@
+cmix: invalid command line: --save-article-boundaries can only be used with -e: article boundaries are specific to the enwik9 preprocessing pipeline
+
+fx2-cmix
+Compress:
+    to compress enwik9: cmix -e enwik9 [output]
+    to create a header for hutter prize: cmix -h comp_dict_size comp_new_order_size decomp_input_size tf_weights_size
+    with dictionary:    cmix -c [dictionary] [input] [output]
+    without dictionary: cmix -c [input] [output]
+    no preprocessing:   cmix -n [input] [output]
+    only preprocessing: cmix -s [dictionary] [input] [output]
+                        cmix -s [input] [output]
+Decompress:
+    with dictionary:    cmix -d [dictionary] [input] [output]
+    without dictionary: cmix -d [input] [output]
+    to decompress enwik9: cmix (no arguments)
+Optional flags (compression modes -c, -n, -e, and argument-less
+enwik9 decompression, which must be given the same model-affecting
+flags as the -e run that produced the archive):
+    --ppmd-only                       run only the ppmd, no other model
+                                      (intended for --save-ppmd-probs)
+    --transformer-only                run only the ppmd and the transformer it
+                                      feeds, no other model (intended for
+                                      --save-transformer-probs); requires a mode
+                                      that runs the transformer: -e, argument-less
+                                      enwik9 decompression, or -c/-n with
+                                      --transformer
+    --bytes-only                      run no model at all; only preprocess and
+                                      write the --save-* files (compression only)
+    --save-ppmd-bytes <file>          write the lstm-vocabulary index of every
+                                      byte the ppmd processes (one byte each)
+                                      (compression only)
+    --save-article-boundaries <file>  write int32 offsets into the
+                                      --save-ppmd-bytes stream: 0, the offset of
+                                      the first byte after every article
+                                      separator, and the stream size (-e only)
+    --save-ppmd-probs <file>          write every probability distribution the
+                                      ppmd outputs, restricted to the lstm
+                                      vocabulary, as float16
+    --load-transformer-probs <file>   do not run the ppmd or the
+                                      transformer; replace the transformer's
+                                      distributions with the ones in <file> (same
+                                      format as --save-ppmd-probs); requires a mode
+                                      that runs the transformer: -e, argument-less
+                                      enwik9 decompression, or -c/-n with
+                                      --transformer
+    --save-transformer-probs <file>   write every distribution passed downstream
+                                      in place of the lstm's output (the
+                                      transformer's rows, and the ppmd's rows at
+                                      the article-start tokens the transformer
+                                      cannot predict) as float16, in the format of
+                                      --save-ppmd-probs; requires a mode that runs
+                                      the transformer: -e, argument-less enwik9
+                                      decompression, or -c/-n with --transformer
+    --transformer <weights>           (testing; -c, -n and -d only) replace the
+                                      lstm with the pretrained transformer, as -e
+                                      and argument-less decompression do with the
+                                      embedded weights; compression and
+                                      decompression must both use it or neither

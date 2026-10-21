@@ -1,0 +1,4156 @@
+{
+  "scope": "Dictionary-only search/basis audit; not a corpus-fitted graph or compression gain",
+  "dictionary_words": 44515,
+  "queries": 133,
+  "mean_recall_at8": 0.039473684210526314,
+  "zero_recall_queries": 111,
+  "full_recall_queries": 0,
+  "mean_score_regret": 0.14632832994194406,
+  "normalized_float32_identical_feature_collision_groups": 3,
+  "collision_examples": [
+    [
+      "a",
+      "aaaaaa"
+    ],
+    [
+      "ffffff",
+      "ffff"
+    ],
+    [
+      "cccccc",
+      "cccc"
+    ]
+  ],
+  "five_moment_basis_rank": 3,
+  "graph": {
+    "dictionary_words": 44515,
+    "K": 8,
+    "posting_cap": 64,
+    "candidate_cap": 128,
+    "capped_source_words": 44317,
+    "startup_seconds": 175.27508200700004,
+    "feature_array_bytes": 13888680,
+    "graph_edges": 1144190,
+    "examples": {
+      "no": {
+        "prefix_suffix": [
+          "not",
+          "now",
+          "nor",
+          "non",
+          "note",
+          "nova",
+          "none",
+          "noun"
+        ],
+        "deletion_signature": [
+          "so",
+          "or",
+          "to",
+          "in",
+          "on",
+          "of",
+          "an",
+          "do"
+        ],
+        "letter_moments": [
+          "mono",
+          "chrono",
+          "notion",
+          "neo",
+          "on",
+          "non",
+          "finno",
+          "domino"
+        ],
+        "matched_random": [
+          "macs",
+          "waldo",
+          "copies",
+          "dhcp",
+          "but",
+          "few",
+          "aren",
+          "ordeal"
+        ]
+      },
+      "know": {
+        "prefix_suffix": [
+          "known",
+          "knows",
+          "now",
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "kernow"
+        ],
+        "deletion_signature": [
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "known",
+          "now",
+          "knows"
+        ],
+        "letter_moments": [
+          "now",
+          "known",
+          "snow",
+          "downtown",
+          "window",
+          "own",
+          "unknown",
+          "down"
+        ],
+        "matched_random": [
+          "well",
+          "shows",
+          "codes",
+          "babylon",
+          "simple",
+          "lang",
+          "exists",
+          "draw"
+        ]
+      },
+      "now": {
+        "prefix_suffix": [
+          "know",
+          "snow",
+          "not",
+          "no",
+          "how",
+          "nor",
+          "row",
+          "non"
+        ],
+        "deletion_signature": [
+          "not",
+          "how",
+          "nor",
+          "own",
+          "new",
+          "row",
+          "non",
+          "low"
+        ],
+        "letter_moments": [
+          "know",
+          "snow",
+          "window",
+          "downtown",
+          "own",
+          "how",
+          "row",
+          "low"
+        ],
+        "matched_random": [
+          "ended",
+          "block",
+          "fixed",
+          "portugal",
+          "hold",
+          "not",
+          "ban",
+          "true"
+        ]
+      },
+      "diamond": {
+        "prefix_suffix": [
+          "divided",
+          "did",
+          "beyond",
+          "died",
+          "dialect",
+          "demand",
+          "second",
+          "diagram"
+        ],
+        "deletion_signature": [
+          "diamonds"
+        ],
+        "letter_moments": [
+          "abandoned",
+          "didn",
+          "and",
+          "addition",
+          "around",
+          "find",
+          "contained",
+          "named"
+        ],
+        "matched_random": [
+          "believed",
+          "etc",
+          "an",
+          "reference",
+          "create",
+          "pos",
+          "officially",
+          "thus"
+        ]
+      },
+      "the": {
+        "prefix_suffix": [
+          "there",
+          "these",
+          "theme",
+          "tithe",
+          "they",
+          "them",
+          "then",
+          "he"
+        ],
+        "deletion_signature": [
+          "she",
+          "ten",
+          "her",
+          "he",
+          "they",
+          "th",
+          "them",
+          "then"
+        ],
+        "letter_moments": [
+          "he",
+          "three",
+          "there",
+          "these",
+          "theme",
+          "whether",
+          "theatre",
+          "together"
+        ],
+        "matched_random": [
+          "is",
+          "soft",
+          "moving",
+          "unless",
+          "profit",
+          "return",
+          "guitar",
+          "survive"
+        ]
+      }
+    },
+    "note": "Bounded dictionary-derived neighbors; no exhaustive-search recall claim, corpus-fit edges or geometry input"
+  },
+  "named_examples": {
+    "no": {
+      "source_id": 43,
+      "word": "no",
+      "exhaustive_top8": [
+        "noon",
+        "mono",
+        "monsoon",
+        "pontoon",
+        "crono",
+        "anno",
+        "soon",
+        "moon"
+      ],
+      "bounded_top8": [
+        "mono",
+        "chrono",
+        "notion",
+        "neo",
+        "on",
+        "non",
+        "finno",
+        "domino"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9043893374502658,
+      "mean_bounded_top8_score": 0.8470215752720833,
+      "named_target_ranks": {
+        "know": {
+          "exhaustive_rank": 1063,
+          "score": 0.6526375412940979,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 858,
+          "score": 0.6708318948745727,
+          "bounded_hit": false
+        },
+        "diamond": {
+          "exhaustive_rank": 4383,
+          "score": 0.5041602462530137,
+          "bounded_hit": false
+        }
+      }
+    },
+    "the": {
+      "source_id": 66,
+      "word": "the",
+      "exhaustive_top8": [
+        "thee",
+        "tithe",
+        "teeth",
+        "goethe",
+        "he",
+        "three",
+        "berthe",
+        "athlete"
+      ],
+      "bounded_top8": [
+        "he",
+        "three",
+        "there",
+        "these",
+        "theme",
+        "whether",
+        "theatre",
+        "together"
+      ],
+      "recall_at8": 0.25,
+      "mean_exact_top8_score": 0.8974348597228528,
+      "mean_bounded_top8_score": 0.8540373288094997,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 37181,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 37237,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 37245,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "diamond": {
+          "exhaustive_rank": 37738,
+          "score": 0.0,
+          "bounded_hit": false
+        }
+      }
+    },
+    "know": {
+      "source_id": 386,
+      "word": "know",
+      "exhaustive_top8": [
+        "now",
+        "kernow",
+        "known",
+        "snow",
+        "brownlow",
+        "downtown",
+        "yorktown",
+        "showdown"
+      ],
+      "bounded_top8": [
+        "now",
+        "known",
+        "snow",
+        "downtown",
+        "window",
+        "own",
+        "unknown",
+        "down"
+      ],
+      "recall_at8": 0.5,
+      "mean_exact_top8_score": 0.8497194878757,
+      "mean_bounded_top8_score": 0.8310300283133983,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 81,
+          "score": 0.6526375412940979,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 1,
+          "score": 0.9233582496643067,
+          "bounded_hit": true
+        },
+        "diamond": {
+          "exhaustive_rank": 5583,
+          "score": 0.34260517060756684,
+          "bounded_hit": false
+        }
+      }
+    },
+    "now": {
+      "source_id": 404,
+      "word": "now",
+      "exhaustive_top8": [
+        "know",
+        "snow",
+        "brownlow",
+        "window",
+        "downtown",
+        "showdown",
+        "slowdown",
+        "own"
+      ],
+      "bounded_top8": [
+        "know",
+        "snow",
+        "window",
+        "downtown",
+        "own",
+        "how",
+        "row",
+        "low"
+      ],
+      "recall_at8": 0.625,
+      "mean_exact_top8_score": 0.8726603113114834,
+      "mean_bounded_top8_score": 0.8538950741291047,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 83,
+          "score": 0.6708318948745727,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 1,
+          "score": 0.9233582496643067,
+          "bounded_hit": true
+        },
+        "diamond": {
+          "exhaustive_rank": 5670,
+          "score": 0.3355916827917099,
+          "bounded_hit": false
+        }
+      }
+    },
+    "diamond": {
+      "source_id": 2825,
+      "word": "diamond",
+      "exhaustive_top8": [
+        "edmond",
+        "almond",
+        "monad",
+        "diamonds",
+        "hammond",
+        "redmond",
+        "midland",
+        "abaddon"
+      ],
+      "bounded_top8": [
+        "abandoned",
+        "didn",
+        "and",
+        "addition",
+        "around",
+        "find",
+        "contained",
+        "named"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8775890327990055,
+      "mean_bounded_top8_score": 0.7715266875922681,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 6408,
+          "score": 0.5041602462530137,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 18896,
+          "score": 0.34260517060756684,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 19489,
+          "score": 0.3355916827917099,
+          "bounded_hit": false
+        }
+      }
+    }
+  },
+  "query_results": [
+    {
+      "source_id": 0,
+      "word": "will",
+      "exhaustive_top8": [
+        "weill",
+        "ill",
+        "millwall",
+        "halliwell",
+        "kill",
+        "bill",
+        "hill",
+        "till"
+      ],
+      "bounded_top8": [
+        "ill",
+        "kill",
+        "bill",
+        "well",
+        "wall",
+        "still",
+        "skill",
+        "all"
+      ],
+      "recall_at8": 0.375,
+      "mean_exact_top8_score": 0.9251755446195602,
+      "mean_bounded_top8_score": 0.8926431402564048
+    },
+    {
+      "source_id": 43,
+      "word": "no",
+      "exhaustive_top8": [
+        "noon",
+        "mono",
+        "monsoon",
+        "pontoon",
+        "crono",
+        "anno",
+        "soon",
+        "moon"
+      ],
+      "bounded_top8": [
+        "mono",
+        "chrono",
+        "notion",
+        "neo",
+        "on",
+        "non",
+        "finno",
+        "domino"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9043893374502658,
+      "mean_bounded_top8_score": 0.8470215752720833,
+      "named_target_ranks": {
+        "know": {
+          "exhaustive_rank": 1063,
+          "score": 0.6526375412940979,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 858,
+          "score": 0.6708318948745727,
+          "bounded_hit": false
+        },
+        "diamond": {
+          "exhaustive_rank": 4383,
+          "score": 0.5041602462530137,
+          "bounded_hit": false
+        }
+      }
+    },
+    {
+      "source_id": 66,
+      "word": "the",
+      "exhaustive_top8": [
+        "thee",
+        "tithe",
+        "teeth",
+        "goethe",
+        "he",
+        "three",
+        "berthe",
+        "athlete"
+      ],
+      "bounded_top8": [
+        "he",
+        "three",
+        "there",
+        "these",
+        "theme",
+        "whether",
+        "theatre",
+        "together"
+      ],
+      "recall_at8": 0.25,
+      "mean_exact_top8_score": 0.8974348597228528,
+      "mean_bounded_top8_score": 0.8540373288094997,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 37181,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 37237,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 37245,
+          "score": 0.0,
+          "bounded_hit": false
+        },
+        "diamond": {
+          "exhaustive_rank": 37738,
+          "score": 0.0,
+          "bounded_hit": false
+        }
+      }
+    },
+    {
+      "source_id": 350,
+      "word": "ill",
+      "exhaustive_top8": [
+        "will",
+        "kill",
+        "bill",
+        "hill",
+        "till",
+        "fill",
+        "pill",
+        "gill"
+      ],
+      "bounded_top8": [
+        "will",
+        "kill",
+        "bill",
+        "hill",
+        "still",
+        "skill",
+        "all",
+        "well"
+      ],
+      "recall_at8": 0.5,
+      "mean_exact_top8_score": 0.9518470883369445,
+      "mean_bounded_top8_score": 0.9194585092365741
+    },
+    {
+      "source_id": 386,
+      "word": "know",
+      "exhaustive_top8": [
+        "now",
+        "kernow",
+        "known",
+        "snow",
+        "brownlow",
+        "downtown",
+        "yorktown",
+        "showdown"
+      ],
+      "bounded_top8": [
+        "now",
+        "known",
+        "snow",
+        "downtown",
+        "window",
+        "own",
+        "unknown",
+        "down"
+      ],
+      "recall_at8": 0.5,
+      "mean_exact_top8_score": 0.8497194878757,
+      "mean_bounded_top8_score": 0.8310300283133983,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 81,
+          "score": 0.6526375412940979,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 1,
+          "score": 0.9233582496643067,
+          "bounded_hit": true
+        },
+        "diamond": {
+          "exhaustive_rank": 5583,
+          "score": 0.34260517060756684,
+          "bounded_hit": false
+        }
+      }
+    },
+    {
+      "source_id": 404,
+      "word": "now",
+      "exhaustive_top8": [
+        "know",
+        "snow",
+        "brownlow",
+        "window",
+        "downtown",
+        "showdown",
+        "slowdown",
+        "own"
+      ],
+      "bounded_top8": [
+        "know",
+        "snow",
+        "window",
+        "downtown",
+        "own",
+        "how",
+        "row",
+        "low"
+      ],
+      "recall_at8": 0.625,
+      "mean_exact_top8_score": 0.8726603113114834,
+      "mean_bounded_top8_score": 0.8538950741291047,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 83,
+          "score": 0.6708318948745727,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 1,
+          "score": 0.9233582496643067,
+          "bounded_hit": true
+        },
+        "diamond": {
+          "exhaustive_rank": 5670,
+          "score": 0.3355916827917099,
+          "bounded_hit": false
+        }
+      }
+    },
+    {
+      "source_id": 701,
+      "word": "selling",
+      "exhaustive_top8": [
+        "spelling",
+        "shelling",
+        "swelling",
+        "smelling",
+        "gelling",
+        "telling",
+        "yelling",
+        "felling"
+      ],
+      "bounded_top8": [
+        "resulting",
+        "allowing",
+        "leading",
+        "increasingly",
+        "illegal",
+        "ending",
+        "challenge",
+        "along"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9574964940547943,
+      "mean_bounded_top8_score": 0.7579287476837635
+    },
+    {
+      "source_id": 1051,
+      "word": "joe",
+      "exhaustive_top8": [
+        "joke",
+        "jose",
+        "jerome",
+        "poe",
+        "judeo",
+        "defoe",
+        "someone",
+        "rejoice"
+      ],
+      "bounded_top8": [
+        "joke",
+        "poe",
+        "rejoice",
+        "joule",
+        "one",
+        "enjoyed",
+        "rejoiced",
+        "rejoined"
+      ],
+      "recall_at8": 0.375,
+      "mean_exact_top8_score": 0.8102701887488365,
+      "mean_bounded_top8_score": 0.7521886892616749
+    },
+    {
+      "source_id": 1402,
+      "word": "view",
+      "exhaustive_top8": [
+        "review",
+        "westview",
+        "preview",
+        "overview",
+        "interview",
+        "freeview",
+        "lakeview",
+        "skyview"
+      ],
+      "bounded_top8": [
+        "review",
+        "overview",
+        "interview",
+        "reviews",
+        "viewed",
+        "new",
+        "jew",
+        "knew"
+      ],
+      "recall_at8": 0.375,
+      "mean_exact_top8_score": 0.8799487128853798,
+      "mean_bounded_top8_score": 0.8058539688587188
+    },
+    {
+      "source_id": 1752,
+      "word": "track",
+      "exhaustive_top8": [
+        "rack",
+        "tack",
+        "crack",
+        "railtrack",
+        "attack",
+        "stack",
+        "carmack",
+        "patrick"
+      ],
+      "bounded_top8": [
+        "back",
+        "jack",
+        "attacked",
+        "frac",
+        "check",
+        "frank",
+        "cricket",
+        "frederick"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8989005535840988,
+      "mean_bounded_top8_score": 0.6940456420183182
+    },
+    {
+      "source_id": 2103,
+      "word": "previous",
+      "exhaustive_top8": [
+        "impervious",
+        "grievous",
+        "precious",
+        "vitreous",
+        "devious",
+        "perilous",
+        "serious",
+        "envious"
+      ],
+      "bounded_top8": [
+        "provides",
+        "previously",
+        "produces",
+        "dangerous",
+        "superior",
+        "press",
+        "response",
+        "survive"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9067771375179291,
+      "mean_bounded_top8_score": 0.70700169429183
+    },
+    {
+      "source_id": 2453,
+      "word": "component",
+      "exhaustive_top8": [
+        "opponent",
+        "proponent",
+        "pronouncement",
+        "omnipotent",
+        "components",
+        "apportionment",
+        "opendocument",
+        "compton"
+      ],
+      "bounded_top8": [
+        "often",
+        "cooperation",
+        "attention",
+        "on",
+        "consistent",
+        "one",
+        "someone",
+        "anyone"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9132145144045354,
+      "mean_bounded_top8_score": 0.7652456320822238
+    },
+    {
+      "source_id": 2804,
+      "word": "pure",
+      "exhaustive_top8": [
+        "rupture",
+        "aperture",
+        "pre",
+        "rupee",
+        "empereur",
+        "super",
+        "puppeteer",
+        "impure"
+      ],
+      "bounded_top8": [
+        "procedure",
+        "pierre",
+        "capture",
+        "secure",
+        "require",
+        "ensure",
+        "measure",
+        "culture"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9023353010416031,
+      "mean_bounded_top8_score": 0.8284219697117805
+    },
+    {
+      "source_id": 2825,
+      "word": "diamond",
+      "exhaustive_top8": [
+        "edmond",
+        "almond",
+        "monad",
+        "diamonds",
+        "hammond",
+        "redmond",
+        "midland",
+        "abaddon"
+      ],
+      "bounded_top8": [
+        "abandoned",
+        "didn",
+        "and",
+        "addition",
+        "around",
+        "find",
+        "contained",
+        "named"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8775890327990055,
+      "mean_bounded_top8_score": 0.7715266875922681,
+      "named_target_ranks": {
+        "no": {
+          "exhaustive_rank": 6408,
+          "score": 0.5041602462530137,
+          "bounded_hit": false
+        },
+        "know": {
+          "exhaustive_rank": 18896,
+          "score": 0.34260517060756684,
+          "bounded_hit": false
+        },
+        "now": {
+          "exhaustive_rank": 19489,
+          "score": 0.3355916827917099,
+          "bounded_hit": false
+        }
+      }
+    },
+    {
+      "source_id": 3154,
+      "word": "mechanical",
+      "exhaustive_top8": [
+        "technical",
+        "chemical",
+        "alchemical",
+        "monarchical",
+        "electromechanical",
+        "brahmanical",
+        "ecumenical",
+        "melancholia"
+      ],
+      "bounded_top8": [
+        "identical",
+        "specifically",
+        "occasionally",
+        "can",
+        "especially",
+        "historically",
+        "advance",
+        "significantly"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9185838788747787,
+      "mean_bounded_top8_score": 0.6983919531106949
+    },
+    {
+      "source_id": 3505,
+      "word": "policies",
+      "exhaustive_top8": [
+        "sicilies",
+        "publicise",
+        "polities",
+        "copies",
+        "complies",
+        "specialise",
+        "velocities",
+        "specialities"
+      ],
+      "bounded_top8": [
+        "responsible",
+        "provides",
+        "specified",
+        "describes",
+        "indicates",
+        "specialized",
+        "collins",
+        "varies"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9042120993137359,
+      "mean_bounded_top8_score": 0.7161109782755375
+    },
+    {
+      "source_id": 3855,
+      "word": "monetary",
+      "exhaustive_top8": [
+        "momentary",
+        "commentary",
+        "monastery",
+        "cometary",
+        "notary",
+        "documentary",
+        "mockumentary",
+        "alimentary"
+      ],
+      "bounded_top8": [
+        "category",
+        "nearly",
+        "century",
+        "apparently",
+        "vary",
+        "certainly",
+        "rarely",
+        "very"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9223501682281494,
+      "mean_bounded_top8_score": 0.7172153048217296
+    },
+    {
+      "source_id": 4206,
+      "word": "ohmmat",
+      "exhaustive_top8": [
+        "mammoth",
+        "gotham",
+        "botham",
+        "jotham",
+        "hotham",
+        "metamath",
+        "mahatma",
+        "hammett"
+      ],
+      "bounded_top8": [
+        "combat",
+        "somewhat",
+        "meat",
+        "muhammad",
+        "thomas",
+        "algorithm",
+        "comment",
+        "that"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8612093217670918,
+      "mean_bounded_top8_score": 0.7298559255897998
+    },
+    {
+      "source_id": 4556,
+      "word": "eminently",
+      "exhaustive_top8": [
+        "inherently",
+        "conveniently",
+        "prominently",
+        "permanently",
+        "evidently",
+        "intelligently",
+        "intensely",
+        "environmentally"
+      ],
+      "bounded_top8": [
+        "frequently",
+        "essentially",
+        "immediately",
+        "currently",
+        "increasingly",
+        "extremely",
+        "significantly",
+        "relatively"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9049287155270576,
+      "mean_bounded_top8_score": 0.7504390887916088
+    },
+    {
+      "source_id": 4907,
+      "word": "farther",
+      "exhaustive_top8": [
+        "father",
+        "rather",
+        "further",
+        "forefather",
+        "feather",
+        "rafter",
+        "charter",
+        "gatherer"
+      ],
+      "bounded_top8": [
+        "rather",
+        "further",
+        "after",
+        "other",
+        "faster",
+        "furthermore",
+        "later",
+        "whether"
+      ],
+      "recall_at8": 0.25,
+      "mean_exact_top8_score": 0.9381757132709027,
+      "mean_bounded_top8_score": 0.8784394286572933
+    },
+    {
+      "source_id": 5257,
+      "word": "iridescent",
+      "exhaustive_top8": [
+        "vicepresident",
+        "resident",
+        "prescient",
+        "reminiscent",
+        "president",
+        "indecent",
+        "indictees",
+        "insistence"
+      ],
+      "bounded_top8": [
+        "indicates",
+        "restricted",
+        "oriented",
+        "present",
+        "consistent",
+        "instance",
+        "dependent",
+        "sufficient"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9139211811125278,
+      "mean_bounded_top8_score": 0.8096329905092716
+    },
+    {
+      "source_id": 5608,
+      "word": "feral",
+      "exhaustive_top8": [
+        "freefall",
+        "real",
+        "federal",
+        "rafael",
+        "earl",
+        "farrell",
+        "flagellar",
+        "referral"
+      ],
+      "bounded_top8": [
+        "parallel",
+        "deal",
+        "generally",
+        "really",
+        "literally",
+        "illegal",
+        "formally",
+        "rarely"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9211879923939705,
+      "mean_bounded_top8_score": 0.7651480250060558
+    },
+    {
+      "source_id": 5958,
+      "word": "hypostatic",
+      "exhaustive_top8": [
+        "hydrostatic",
+        "asymptotic",
+        "antipsychotic",
+        "isostatic",
+        "stochastic",
+        "homeostatic",
+        "osteopathic",
+        "static"
+      ],
+      "bounded_top8": [
+        "contact",
+        "cast",
+        "contrast",
+        "that",
+        "broadcast",
+        "associated",
+        "strictly",
+        "at"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.903760540485382,
+      "mean_bounded_top8_score": 0.6939069375395774
+    },
+    {
+      "source_id": 6309,
+      "word": "downloadable",
+      "exhaustive_top8": [
+        "carbondale",
+        "unavoidable",
+        "lonsdale",
+        "allowable",
+        "biodegradable",
+        "ordeal",
+        "knowable",
+        "labiodental"
+      ],
+      "bounded_top8": [
+        "considerable",
+        "available",
+        "capable",
+        "called",
+        "lead",
+        "considerably",
+        "alone",
+        "additionally"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.863793996721506,
+      "mean_bounded_top8_score": 0.7377365097403528
+    },
+    {
+      "source_id": 6659,
+      "word": "basal",
+      "exhaustive_top8": [
+        "baal",
+        "nasal",
+        "batalla",
+        "isabella",
+        "vassal",
+        "baseball",
+        "masala",
+        "salsa"
+      ],
+      "bounded_top8": [
+        "pascal",
+        "atlas",
+        "shall",
+        "falls",
+        "calls",
+        "nasa",
+        "deal",
+        "all"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9052101574838162,
+      "mean_bounded_top8_score": 0.7737098008394241
+    },
+    {
+      "source_id": 7010,
+      "word": "disjointed",
+      "exhaustive_top8": [
+        "disoriented",
+        "jettisoned",
+        "auditioned",
+        "positioned",
+        "conditioned",
+        "destined",
+        "dissident",
+        "joined"
+      ],
+      "bounded_top8": [
+        "united",
+        "oriented",
+        "originated",
+        "designated",
+        "contained",
+        "limited",
+        "existed",
+        "credited"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9000827662646771,
+      "mean_bounded_top8_score": 0.8162613078951836
+    },
+    {
+      "source_id": 7360,
+      "word": "treacherous",
+      "exhaustive_top8": [
+        "charterhouse",
+        "herbaceous",
+        "chapterhouse",
+        "cretaceous",
+        "racecourse",
+        "waterhouse",
+        "brochures",
+        "recourse"
+      ],
+      "bounded_top8": [
+        "dangerous",
+        "produces",
+        "covers",
+        "furthermore",
+        "because",
+        "cause",
+        "increases",
+        "capture"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9045467555522918,
+      "mean_bounded_top8_score": 0.7395906321704387
+    },
+    {
+      "source_id": 7711,
+      "word": "unfinished",
+      "exhaustive_top8": [
+        "finished",
+        "furnished",
+        "undistinguished",
+        "punished",
+        "fiendish",
+        "diminished",
+        "disenfranchised",
+        "distinguished"
+      ],
+      "bounded_top8": [
+        "united",
+        "includes",
+        "contained",
+        "indeed",
+        "linked",
+        "remained",
+        "revised",
+        "instead"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9103908769786357,
+      "mean_bounded_top8_score": 0.7087485380470753
+    },
+    {
+      "source_id": 8061,
+      "word": "unforeseen",
+      "exhaustive_top8": [
+        "foreseen",
+        "kerosene",
+        "overseen",
+        "serene",
+        "mersenne",
+        "unseen",
+        "onscreen",
+        "neurone"
+      ],
+      "bounded_top8": [
+        "references",
+        "reference",
+        "response",
+        "between",
+        "see",
+        "increase",
+        "present",
+        "often"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9298566654324532,
+      "mean_bounded_top8_score": 0.8152338057756423
+    },
+    {
+      "source_id": 8412,
+      "word": "ecumenical",
+      "exhaustive_top8": [
+        "numerical",
+        "electromechanical",
+        "mechanical",
+        "chemical",
+        "technical",
+        "alchemical",
+        "genetical",
+        "geotechnical"
+      ],
+      "bounded_top8": [
+        "identical",
+        "specifically",
+        "especially",
+        "occasionally",
+        "necessarily",
+        "eventually",
+        "deal",
+        "essentially"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8878812059760094,
+      "mean_bounded_top8_score": 0.6885656133294106
+    },
+    {
+      "source_id": 8762,
+      "word": "pointy",
+      "exhaustive_top8": [
+        "opportunity",
+        "spontaneity",
+        "profanity",
+        "anonymity",
+        "pity",
+        "polity",
+        "continuity",
+        "propensity"
+      ],
+      "bounded_top8": [
+        "identify",
+        "opposition",
+        "significantly",
+        "into",
+        "attention",
+        "certainly",
+        "mention",
+        "apparently"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8657966904342176,
+      "mean_bounded_top8_score": 0.674084684252739
+    },
+    {
+      "source_id": 9113,
+      "word": "admissible",
+      "exhaustive_top8": [
+        "inadmissible",
+        "transmissible",
+        "permissible",
+        "impossible",
+        "mandibles",
+        "stabilise",
+        "assemblies",
+        "missile"
+      ],
+      "bounded_top8": [
+        "visible",
+        "responsible",
+        "established",
+        "describes",
+        "considerable",
+        "establish",
+        "inside",
+        "describe"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9218161188066005,
+      "mean_bounded_top8_score": 0.7717315599322319
+    },
+    {
+      "source_id": 9463,
+      "word": "thorough",
+      "exhaustive_top8": [
+        "through",
+        "trough",
+        "though",
+        "rough",
+        "borough",
+        "tough",
+        "although",
+        "walkthrough"
+      ],
+      "bounded_top8": [
+        "through",
+        "though",
+        "although",
+        "throughout",
+        "enough",
+        "worth",
+        "who",
+        "roughly"
+      ],
+      "recall_at8": 0.375,
+      "mean_exact_top8_score": 0.9273222215473651,
+      "mean_bounded_top8_score": 0.8150284618139267
+    },
+    {
+      "source_id": 9814,
+      "word": "formless",
+      "exhaustive_top8": [
+        "effortless",
+        "scoreless",
+        "losers",
+        "smokeless",
+        "molasses",
+        "homeless",
+        "odorless",
+        "harmless"
+      ],
+      "bounded_top8": [
+        "less",
+        "les",
+        "press",
+        "unless",
+        "comes",
+        "express",
+        "uses",
+        "passes"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8994409918785096,
+      "mean_bounded_top8_score": 0.8122723832726478
+    },
+    {
+      "source_id": 10164,
+      "word": "evaluate",
+      "exhaustive_top8": [
+        "evacuate",
+        "ejaculate",
+        "laureate",
+        "emulate",
+        "tabulate",
+        "vulgate",
+        "evaluated",
+        "evaluates"
+      ],
+      "bounded_top8": [
+        "defeat",
+        "operate",
+        "related",
+        "translated",
+        "available",
+        "repeated",
+        "later",
+        "eventually"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9115956492722034,
+      "mean_bounded_top8_score": 0.731315104663372
+    },
+    {
+      "source_id": 10515,
+      "word": "transmit",
+      "exhaustive_top8": [
+        "transit",
+        "transmits",
+        "protestantism",
+        "anatomist",
+        "instrumentalist",
+        "animist",
+        "dramatist",
+        "monetarist"
+      ],
+      "bounded_top8": [
+        "against",
+        "contrast",
+        "limits",
+        "insubstantial",
+        "limit",
+        "consistent",
+        "visit",
+        "it"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9055412329733372,
+      "mean_bounded_top8_score": 0.7477446116507054
+    },
+    {
+      "source_id": 10865,
+      "word": "bundled",
+      "exhaustive_top8": [
+        "blended",
+        "blinded",
+        "doubled",
+        "bounded",
+        "bundle",
+        "blend",
+        "included",
+        "eluded"
+      ],
+      "bounded_top8": [
+        "included",
+        "ended",
+        "indeed",
+        "need",
+        "build",
+        "used",
+        "linked",
+        "banned"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9091080375015735,
+      "mean_bounded_top8_score": 0.8020760327577592
+    },
+    {
+      "source_id": 11216,
+      "word": "disbanded",
+      "exhaustive_top8": [
+        "sideband",
+        "banded",
+        "disdained",
+        "saddened",
+        "branded",
+        "wideband",
+        "blinded",
+        "invaded"
+      ],
+      "bounded_top8": [
+        "based",
+        "ended",
+        "indeed",
+        "divided",
+        "designated",
+        "and",
+        "included",
+        "did"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9253273360431193,
+      "mean_bounded_top8_score": 0.8320446841418744
+    },
+    {
+      "source_id": 11566,
+      "word": "participated",
+      "exhaustive_top8": [
+        "precipitated",
+        "anticipated",
+        "appreciated",
+        "participate",
+        "incapacitated",
+        "decapitated",
+        "pirated",
+        "unanticipated"
+      ],
+      "bounded_top8": [
+        "originated",
+        "associated",
+        "integrated",
+        "restricted",
+        "applied",
+        "repeated",
+        "instead",
+        "credited"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9308911271393299,
+      "mean_bounded_top8_score": 0.7632292978465558
+    },
+    {
+      "source_id": 11917,
+      "word": "traded",
+      "exhaustive_top8": [
+        "retarded",
+        "dared",
+        "dreaded",
+        "threaded",
+        "rated",
+        "dated",
+        "dread",
+        "graded"
+      ],
+      "bounded_top8": [
+        "read",
+        "related",
+        "credited",
+        "add",
+        "ended",
+        "featured",
+        "lead",
+        "repeated"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9468646429479123,
+      "mean_bounded_top8_score": 0.8372448846697806
+    },
+    {
+      "source_id": 12267,
+      "word": "nurturing",
+      "exhaustive_top8": [
+        "turing",
+        "returning",
+        "turning",
+        "structuring",
+        "torturing",
+        "touring",
+        "venturing",
+        "overturning"
+      ],
+      "bounded_top8": [
+        "turning",
+        "during",
+        "featuring",
+        "running",
+        "turn",
+        "resulting",
+        "continuing",
+        "bring"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9278609052300453,
+      "mean_bounded_top8_score": 0.8456496283411981
+    },
+    {
+      "source_id": 12618,
+      "word": "determines",
+      "exhaustive_top8": [
+        "undermines",
+        "mamertines",
+        "disagreements",
+        "enemies",
+        "entries",
+        "determine",
+        "ceremonies",
+        "advertisements"
+      ],
+      "bounded_top8": [
+        "desire",
+        "references",
+        "nevertheless",
+        "increase",
+        "present",
+        "increases",
+        "response",
+        "these"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9180470705032349,
+      "mean_bounded_top8_score": 0.8009569592773914
+    },
+    {
+      "source_id": 12968,
+      "word": "misunderstand",
+      "exhaustive_top8": [
+        "understand",
+        "understands",
+        "misunderstandings",
+        "misunderstanding",
+        "strand",
+        "sustained",
+        "grandstand",
+        "nostrand"
+      ],
+      "bounded_top8": [
+        "stand",
+        "instead",
+        "stands",
+        "designated",
+        "ends",
+        "contained",
+        "and",
+        "depends"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8975842848420142,
+      "mean_bounded_top8_score": 0.7925173416733742
+    },
+    {
+      "source_id": 13319,
+      "word": "underestimates",
+      "exhaustive_top8": [
+        "underestimate",
+        "intermediates",
+        "terminates",
+        "advertisements",
+        "estimates",
+        "emirates",
+        "enumerates",
+        "demonstrates"
+      ],
+      "bounded_top8": [
+        "states",
+        "indicates",
+        "increases",
+        "nevertheless",
+        "present",
+        "increase",
+        "existed",
+        "these"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9395288586616516,
+      "mean_bounded_top8_score": 0.7944787375628948
+    },
+    {
+      "source_id": 13669,
+      "word": "boosting",
+      "exhaustive_top8": [
+        "booting",
+        "shooting",
+        "boasting",
+        "posting",
+        "costing",
+        "hosting",
+        "rooting",
+        "footing"
+      ],
+      "bounded_top8": [
+        "consisting",
+        "nothing",
+        "something",
+        "contributions",
+        "setting",
+        "containing",
+        "continuing",
+        "moving"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9207714311778545,
+      "mean_bounded_top8_score": 0.7935932755470276
+    },
+    {
+      "source_id": 14020,
+      "word": "convenes",
+      "exhaustive_top8": [
+        "covens",
+        "condense",
+        "connes",
+        "nonsense",
+        "vincennes",
+        "inconveniences",
+        "cones",
+        "incense"
+      ],
+      "bounded_top8": [
+        "response",
+        "one",
+        "references",
+        "someone",
+        "nevertheless",
+        "increases",
+        "everyone",
+        "angeles"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9258566446602344,
+      "mean_bounded_top8_score": 0.7862120173871516
+    },
+    {
+      "source_id": 14370,
+      "word": "consecrated",
+      "exhaustive_top8": [
+        "counteracted",
+        "concentrated",
+        "concerted",
+        "forecasted",
+        "contracted",
+        "desecrated",
+        "incarcerated",
+        "consecrate"
+      ],
+      "bounded_top8": [
+        "connected",
+        "restricted",
+        "integrated",
+        "repeated",
+        "related",
+        "credited",
+        "designated",
+        "instead"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9283330552279949,
+      "mean_bounded_top8_score": 0.8088372014462948
+    },
+    {
+      "source_id": 14721,
+      "word": "falsified",
+      "exhaustive_top8": [
+        "classified",
+        "declassified",
+        "disqualified",
+        "satisfied",
+        "solidified",
+        "reclassified",
+        "qualified",
+        "fairfield"
+      ],
+      "bounded_top8": [
+        "specialized",
+        "filled",
+        "limited",
+        "die",
+        "applied",
+        "revised",
+        "isolated",
+        "criticized"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9142640046775341,
+      "mean_bounded_top8_score": 0.7081377550959587
+    },
+    {
+      "source_id": 15071,
+      "word": "flourished",
+      "exhaustive_top8": [
+        "nourished",
+        "furnished",
+        "refurbished",
+        "flushed",
+        "authorised",
+        "undernourished",
+        "rushdie",
+        "polished"
+      ],
+      "bounded_top8": [
+        "focused",
+        "revised",
+        "confused",
+        "closed",
+        "used",
+        "resulted",
+        "showed",
+        "otherwise"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8825909920036792,
+      "mean_bounded_top8_score": 0.7234311118721962
+    },
+    {
+      "source_id": 15422,
+      "word": "strung",
+      "exhaustive_top8": [
+        "sprung",
+        "rung",
+        "rusting",
+        "structuring",
+        "tung",
+        "sung",
+        "trusting",
+        "nurturing"
+      ],
+      "bounded_top8": [
+        "turning",
+        "resulting",
+        "starting",
+        "featuring",
+        "using",
+        "during",
+        "running",
+        "supporting"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8833466492593289,
+      "mean_bounded_top8_score": 0.7826927155256271
+    },
+    {
+      "source_id": 15772,
+      "word": "pebble",
+      "exhaustive_top8": [
+        "elbe",
+        "bumblebee",
+        "bible",
+        "bubble",
+        "bobble",
+        "rebel",
+        "feeble",
+        "pebbles"
+      ],
+      "bounded_top8": [
+        "able",
+        "unable",
+        "capable",
+        "lee",
+        "responsible",
+        "possible",
+        "considerable",
+        "compatible"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9003870487213135,
+      "mean_bounded_top8_score": 0.7560507133603096
+    },
+    {
+      "source_id": 16123,
+      "word": "polemic",
+      "exhaustive_top8": [
+        "ptolemaic",
+        "accomplice",
+        "police",
+        "phonemic",
+        "polemics",
+        "olympic",
+        "septicemic",
+        "epidemic"
+      ],
+      "bounded_top8": [
+        "compatible",
+        "specifically",
+        "twice",
+        "explicitly",
+        "voiced",
+        "becoming",
+        "completely",
+        "identical"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8675930827856064,
+      "mean_bounded_top8_score": 0.6113165631890296
+    },
+    {
+      "source_id": 16473,
+      "word": "deallocation",
+      "exhaustive_top8": [
+        "allocation",
+        "delocalisation",
+        "collation",
+        "relocation",
+        "escalation",
+        "declaration",
+        "cancellation",
+        "location"
+      ],
+      "bounded_top8": [
+        "relation",
+        "addition",
+        "additionally",
+        "identical",
+        "attention",
+        "alone",
+        "opposition",
+        "contained"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9381775237619877,
+      "mean_bounded_top8_score": 0.7391337268054485
+    },
+    {
+      "source_id": 16824,
+      "word": "avatar",
+      "exhaustive_top8": [
+        "qatar",
+        "tatar",
+        "navarra",
+        "astra",
+        "altar",
+        "calatrava",
+        "tamara",
+        "jakarta"
+      ],
+      "bounded_top8": [
+        "apart",
+        "far",
+        "bear",
+        "near",
+        "salvador",
+        "at",
+        "later",
+        "clear"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9143419034779072,
+      "mean_bounded_top8_score": 0.7203214585781097
+    },
+    {
+      "source_id": 17174,
+      "word": "extinctions",
+      "exhaustive_top8": [
+        "excitations",
+        "distinctions",
+        "intentions",
+        "infections",
+        "injections",
+        "interactions",
+        "connectionist",
+        "evictions"
+      ],
+      "bounded_top8": [
+        "contributions",
+        "contains",
+        "consistent",
+        "attention",
+        "consisting",
+        "into",
+        "opposition",
+        "relation"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9388748914003372,
+      "mean_bounded_top8_score": 0.8137382440268993
+    },
+    {
+      "source_id": 17525,
+      "word": "counteroffensive",
+      "exhaustive_top8": [
+        "offensive",
+        "inoffensive",
+        "unforeseen",
+        "firestone",
+        "ineffectiveness",
+        "defensive",
+        "offense",
+        "offensives"
+      ],
+      "bounded_top8": [
+        "references",
+        "often",
+        "everyone",
+        "reference",
+        "benefits",
+        "response",
+        "therefore",
+        "sufficient"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8730428621172905,
+      "mean_bounded_top8_score": 0.7416849181056022
+    },
+    {
+      "source_id": 17875,
+      "word": "communicators",
+      "exhaustive_top8": [
+        "communicator",
+        "commutators",
+        "combinatorics",
+        "semiconductors",
+        "commentators",
+        "commemorations",
+        "communications",
+        "microeconomists"
+      ],
+      "bounded_top8": [
+        "contributions",
+        "francisco",
+        "contrast",
+        "occurs",
+        "cooperation",
+        "airports",
+        "contains",
+        "broadcast"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.890025234222412,
+      "mean_bounded_top8_score": 0.7198346145451069
+    },
+    {
+      "source_id": 18226,
+      "word": "apologetics",
+      "exhaustive_top8": [
+        "geopolitics",
+        "apologetic",
+        "poetics",
+        "ecologist",
+        "archeologist",
+        "archeologists",
+        "pathologies",
+        "photorealistic"
+      ],
+      "bounded_top8": [
+        "close",
+        "indicates",
+        "opposition",
+        "broadcasting",
+        "cooperation",
+        "lose",
+        "compatible",
+        "consisting"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8858147367835045,
+      "mean_bounded_top8_score": 0.6591142266988754
+    },
+    {
+      "source_id": 18576,
+      "word": "perception",
+      "exhaustive_top8": [
+        "reception",
+        "misperception",
+        "interception",
+        "deception",
+        "exception",
+        "perfection",
+        "clipperton",
+        "prescription"
+      ],
+      "bounded_top8": [
+        "cooperation",
+        "opposition",
+        "relation",
+        "attention",
+        "dependent",
+        "contributions",
+        "respect",
+        "pronounced"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9399783901870251,
+      "mean_bounded_top8_score": 0.7220456629991532
+    },
+    {
+      "source_id": 18927,
+      "word": "electroshock",
+      "exhaustive_top8": [
+        "sherlock",
+        "rostock",
+        "roughstock",
+        "livestock",
+        "headstock",
+        "feedstock",
+        "wheelock",
+        "hemlock"
+      ],
+      "bounded_top8": [
+        "check",
+        "blockquote",
+        "correct",
+        "close",
+        "iocc",
+        "protect",
+        "produces",
+        "occurs"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8386563584208487,
+      "mean_bounded_top8_score": 0.6295840978622437
+    },
+    {
+      "source_id": 19277,
+      "word": "adware",
+      "exhaustive_top8": [
+        "aware",
+        "hardware",
+        "delaware",
+        "ware",
+        "dare",
+        "shareware",
+        "dewar",
+        "aberdare"
+      ],
+      "bounded_top8": [
+        "are",
+        "rare",
+        "appeared",
+        "share",
+        "separated",
+        "bear",
+        "near",
+        "afterwards"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9242114253342151,
+      "mean_bounded_top8_score": 0.7892219014465809
+    },
+    {
+      "source_id": 19628,
+      "word": "screenname",
+      "exhaustive_top8": [
+        "seamen",
+        "rename",
+        "username",
+        "permanence",
+        "mascarene",
+        "mersenne",
+        "norsemen",
+        "semen"
+      ],
+      "bounded_top8": [
+        "increase",
+        "reference",
+        "mean",
+        "been",
+        "references",
+        "hence",
+        "even",
+        "remained"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9182400047779082,
+      "mean_bounded_top8_score": 0.798345547169447
+    },
+    {
+      "source_id": 19978,
+      "word": "benzaldehyde",
+      "exhaustive_top8": [
+        "aldehyde",
+        "acetaldehyde",
+        "glyceraldehyde",
+        "delayed",
+        "beheaded",
+        "formaldehyde",
+        "healed",
+        "relayed"
+      ],
+      "bounded_top8": [
+        "indeed",
+        "ended",
+        "opened",
+        "designated",
+        "derived",
+        "already",
+        "called",
+        "included"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9004424057900906,
+      "mean_bounded_top8_score": 0.7469654604792595
+    },
+    {
+      "source_id": 20329,
+      "word": "pheromone",
+      "exhaustive_top8": [
+        "hormone",
+        "aerophone",
+        "pheromones",
+        "metronome",
+        "monroe",
+        "gramophone",
+        "moreno",
+        "homophone"
+      ],
+      "bounded_top8": [
+        "someone",
+        "one",
+        "everyone",
+        "more",
+        "some",
+        "moreover",
+        "alone",
+        "therefore"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9121353819966316,
+      "mean_bounded_top8_score": 0.7888182684779166
+    },
+    {
+      "source_id": 20679,
+      "word": "dendrite",
+      "exhaustive_top8": [
+        "disoriented",
+        "inherited",
+        "disinherited",
+        "oriented",
+        "administered",
+        "reunited",
+        "dieter",
+        "uncredited"
+      ],
+      "bounded_top8": [
+        "oriented",
+        "credited",
+        "integrated",
+        "restricted",
+        "united",
+        "entitled",
+        "designated",
+        "dependent"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9000067375600338,
+      "mean_bounded_top8_score": 0.8380988344550133
+    },
+    {
+      "source_id": 21030,
+      "word": "sneakers",
+      "exhaustive_top8": [
+        "speakers",
+        "seekers",
+        "bankers",
+        "tankers",
+        "nasser",
+        "breakers",
+        "easterners",
+        "shoemakers"
+      ],
+      "bounded_top8": [
+        "increases",
+        "increase",
+        "serves",
+        "whereas",
+        "bears",
+        "answer",
+        "nevertheless",
+        "references"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9223856456577778,
+      "mean_bounded_top8_score": 0.8212345451116562
+    },
+    {
+      "source_id": 21380,
+      "word": "onions",
+      "exhaustive_top8": [
+        "notions",
+        "ions",
+        "opinions",
+        "unions",
+        "dominions",
+        "minions",
+        "robinson",
+        "monsoons"
+      ],
+      "bounded_top8": [
+        "johnson",
+        "conversion",
+        "soon",
+        "contains",
+        "vision",
+        "opinion",
+        "on",
+        "contributions"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9388089716434478,
+      "mean_bounded_top8_score": 0.8314988158643246
+    },
+    {
+      "source_id": 21731,
+      "word": "stepmother",
+      "exhaustive_top8": [
+        "mother",
+        "spectrometer",
+        "smoother",
+        "atmosphere",
+        "thermometer",
+        "stratosphere",
+        "together",
+        "thioether"
+      ],
+      "bounded_top8": [
+        "together",
+        "other",
+        "whether",
+        "furthermore",
+        "neither",
+        "there",
+        "therefore",
+        "operate"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8998860880732537,
+      "mean_bounded_top8_score": 0.8232654616236688
+    },
+    {
+      "source_id": 22081,
+      "word": "virility",
+      "exhaustive_top8": [
+        "visibility",
+        "irritability",
+        "viability",
+        "verifiability",
+        "invisibility",
+        "divisibility",
+        "frivolity",
+        "infertility"
+      ],
+      "bounded_top8": [
+        "explicitly",
+        "initially",
+        "limit",
+        "primarily",
+        "visit",
+        "strictly",
+        "similarly",
+        "it"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9237233199179172,
+      "mean_bounded_top8_score": 0.7601710610091685
+    },
+    {
+      "source_id": 22432,
+      "word": "lineman",
+      "exhaustive_top8": [
+        "lemnian",
+        "tiananmen",
+        "heinemann",
+        "melanin",
+        "eisenman",
+        "linnean",
+        "riemann",
+        "alemanni"
+      ],
+      "bounded_top8": [
+        "mean",
+        "remain",
+        "an",
+        "online",
+        "in",
+        "can",
+        "ran",
+        "remains"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9311766132712365,
+      "mean_bounded_top8_score": 0.772024142742157
+    },
+    {
+      "source_id": 22782,
+      "word": "affix",
+      "exhaustive_top8": [
+        "fix",
+        "suffix",
+        "fairfax",
+        "infix",
+        "halifax",
+        "prefix",
+        "firefox",
+        "felix"
+      ],
+      "bounded_top8": [
+        "fix",
+        "traffic",
+        "ffffff",
+        "ffff",
+        "mix",
+        "six",
+        "staff",
+        "official"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8125212162733078,
+      "mean_bounded_top8_score": 0.6653521902859212
+    },
+    {
+      "source_id": 23133,
+      "word": "excerpt",
+      "exhaustive_top8": [
+        "expert",
+        "except",
+        "intercept",
+        "expect",
+        "receipt",
+        "carpet",
+        "excerpts",
+        "respect"
+      ],
+      "bounded_top8": [
+        "except",
+        "accept",
+        "kept",
+        "interpreted",
+        "expected",
+        "operate",
+        "capture",
+        "enter"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8901795327663422,
+      "mean_bounded_top8_score": 0.7755515232682229
+    },
+    {
+      "source_id": 23483,
+      "word": "hindrance",
+      "exhaustive_top8": [
+        "ordinance",
+        "ordnance",
+        "radiance",
+        "endurance",
+        "inheritance",
+        "chrominance",
+        "irradiance",
+        "ignorance"
+      ],
+      "bounded_top8": [
+        "instance",
+        "advance",
+        "concerned",
+        "contained",
+        "hence",
+        "remained",
+        "increase",
+        "change"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9052191846072674,
+      "mean_bounded_top8_score": 0.7755416952073575
+    },
+    {
+      "source_id": 23834,
+      "word": "cantata",
+      "exhaustive_top8": [
+        "acta",
+        "atlanta",
+        "atalanta",
+        "janata",
+        "ajanta",
+        "attenuata",
+        "santa",
+        "sancta"
+      ],
+      "bounded_top8": [
+        "at",
+        "eat",
+        "that",
+        "contact",
+        "what",
+        "beat",
+        "contrast",
+        "broadcast"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9371652446687221,
+      "mean_bounded_top8_score": 0.7762591533362866
+    },
+    {
+      "source_id": 24184,
+      "word": "explosion",
+      "exhaustive_top8": [
+        "explosions",
+        "expulsion",
+        "epsilon",
+        "implosion",
+        "poison",
+        "lesion",
+        "exposition",
+        "erosion"
+      ],
+      "bounded_top8": [
+        "opposition",
+        "soon",
+        "cooperation",
+        "relation",
+        "solo",
+        "mention",
+        "upon",
+        "contributions"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9116321258246898,
+      "mean_bounded_top8_score": 0.7515126302838325
+    },
+    {
+      "source_id": 24535,
+      "word": "annuities",
+      "exhaustive_top8": [
+        "continuities",
+        "intensities",
+        "quantities",
+        "humanities",
+        "antiquities",
+        "mutinies",
+        "uncertainties",
+        "nineties"
+      ],
+      "bounded_top8": [
+        "indicates",
+        "benefits",
+        "sufficient",
+        "contributions",
+        "consisting",
+        "instance",
+        "insubstantial",
+        "varies"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9285552322864532,
+      "mean_bounded_top8_score": 0.7405536428093911
+    },
+    {
+      "source_id": 24885,
+      "word": "plaintiff",
+      "exhaustive_top8": [
+        "plaintiffs",
+        "pontiff",
+        "bailiff",
+        "alif",
+        "if",
+        "tariff",
+        "mastiff",
+        "printf"
+      ],
+      "bounded_top8": [
+        "if",
+        "sufficient",
+        "significantly",
+        "off",
+        "differ",
+        "officially",
+        "split",
+        "insubstantial"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8720833741128444,
+      "mean_bounded_top8_score": 0.6309042569249869
+    },
+    {
+      "source_id": 25236,
+      "word": "painters",
+      "exhaustive_top8": [
+        "printers",
+        "partners",
+        "pointers",
+        "planters",
+        "trainers",
+        "spinster",
+        "appropriateness",
+        "parents"
+      ],
+      "bounded_top8": [
+        "increases",
+        "faster",
+        "present",
+        "increase",
+        "indicates",
+        "remains",
+        "answer",
+        "bears"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9251240819692612,
+      "mean_bounded_top8_score": 0.7661832772195339
+    },
+    {
+      "source_id": 25586,
+      "word": "renditions",
+      "exhaustive_top8": [
+        "editions",
+        "preconditions",
+        "definitions",
+        "indiscretions",
+        "insertions",
+        "directions",
+        "ordinations",
+        "conditions"
+      ],
+      "bounded_top8": [
+        "contributions",
+        "contains",
+        "addition",
+        "consisting",
+        "relation",
+        "opposition",
+        "consistent",
+        "attention"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9456698961555958,
+      "mean_bounded_top8_score": 0.7968427039682865
+    },
+    {
+      "source_id": 25937,
+      "word": "museums",
+      "exhaustive_top8": [
+        "sums",
+        "seamus",
+        "museum",
+        "kunstmuseum",
+        "muses",
+        "assumes",
+        "fumes",
+        "erasmus"
+      ],
+      "bounded_top8": [
+        "sum",
+        "seems",
+        "jesus",
+        "uses",
+        "customs",
+        "causes",
+        "assumed",
+        "communism"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.902819187194109,
+      "mean_bounded_top8_score": 0.7839457437396049
+    },
+    {
+      "source_id": 26287,
+      "word": "skaters",
+      "exhaustive_top8": [
+        "masters",
+        "starters",
+        "asserts",
+        "streaks",
+        "tears",
+        "disasters",
+        "blasters",
+        "arrests"
+      ],
+      "bounded_top8": [
+        "states",
+        "faster",
+        "bears",
+        "serves",
+        "whereas",
+        "afterwards",
+        "nevertheless",
+        "covers"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9211499914526939,
+      "mean_bounded_top8_score": 0.7791660614311695
+    },
+    {
+      "source_id": 26638,
+      "word": "premillennialism",
+      "exhaustive_top8": [
+        "millennialism",
+        "amillennialism",
+        "postmillennialism",
+        "internalism",
+        "sabellianism",
+        "neoliberalism",
+        "regionalism",
+        "orientalism"
+      ],
+      "bounded_top8": [
+        "remains",
+        "remain",
+        "increasingly",
+        "similar",
+        "identical",
+        "responsible",
+        "online",
+        "limits"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9273873455822468,
+      "mean_bounded_top8_score": 0.7136804930865764
+    },
+    {
+      "source_id": 26988,
+      "word": "shrub",
+      "exhaustive_top8": [
+        "suburb",
+        "scrub",
+        "shrubs",
+        "suburbs",
+        "sub",
+        "curb",
+        "habsburg",
+        "burrhus"
+      ],
+      "bounded_top8": [
+        "stub",
+        "pub",
+        "bush",
+        "club",
+        "publisher",
+        "rugby",
+        "structures",
+        "virus"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8344606824219227,
+      "mean_bounded_top8_score": 0.6285875089466572
+    },
+    {
+      "source_id": 27339,
+      "word": "piston",
+      "exhaustive_top8": [
+        "postposition",
+        "position",
+        "potions",
+        "options",
+        "transposition",
+        "positron",
+        "tipton",
+        "antiprotons"
+      ],
+      "bounded_top8": [
+        "opposition",
+        "into",
+        "contributions",
+        "attention",
+        "mention",
+        "consistent",
+        "soon",
+        "contains"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9126489937305451,
+      "mean_bounded_top8_score": 0.8085151739418506
+    },
+    {
+      "source_id": 27689,
+      "word": "jail",
+      "exhaustive_top8": [
+        "familial",
+        "filial",
+        "rail",
+        "mail",
+        "fail",
+        "hail",
+        "sail",
+        "nail"
+      ],
+      "bounded_top8": [
+        "detail",
+        "godzilla",
+        "ill",
+        "oil",
+        "will",
+        "kill",
+        "bill",
+        "hill"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8686776071786879,
+      "mean_bounded_top8_score": 0.7505378551781178
+    },
+    {
+      "source_id": 28040,
+      "word": "flower",
+      "exhaustive_top8": [
+        "fowler",
+        "lower",
+        "follower",
+        "slower",
+        "blower",
+        "wildflower",
+        "bowler",
+        "sunflower"
+      ],
+      "bounded_top8": [
+        "offer",
+        "however",
+        "therefore",
+        "refer",
+        "closer",
+        "furthermore",
+        "moreover",
+        "walter"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9248302102088928,
+      "mean_bounded_top8_score": 0.7593769907951355
+    },
+    {
+      "source_id": 28390,
+      "word": "plateau",
+      "exhaustive_top8": [
+        "plateaus",
+        "chateau",
+        "palau",
+        "evaluate",
+        "hallertau",
+        "lantau",
+        "aspectual",
+        "encapsulate"
+      ],
+      "bounded_top8": [
+        "appeal",
+        "eat",
+        "beat",
+        "operate",
+        "translated",
+        "defeat",
+        "least",
+        "available"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8678173676133155,
+      "mean_bounded_top8_score": 0.6584069840610027
+    },
+    {
+      "source_id": 28741,
+      "word": "granularity",
+      "exhaustive_top8": [
+        "regularity",
+        "singularity",
+        "irregularity",
+        "particularity",
+        "unitary",
+        "neutrality",
+        "paramilitary",
+        "unsanitary"
+      ],
+      "bounded_top8": [
+        "particularly",
+        "naturally",
+        "greatly",
+        "primarily",
+        "traditionally",
+        "regularly",
+        "nearly",
+        "apparently"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9012491591274738,
+      "mean_bounded_top8_score": 0.7640782967209816
+    },
+    {
+      "source_id": 29091,
+      "word": "wavelet",
+      "exhaustive_top8": [
+        "elevate",
+        "velvet",
+        "wattle",
+        "novelette",
+        "platelet",
+        "willamette",
+        "seattle",
+        "relate"
+      ],
+      "bounded_top8": [
+        "let",
+        "leave",
+        "meet",
+        "little",
+        "whatever",
+        "related",
+        "felt",
+        "relatively"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8919955968856812,
+      "mean_bounded_top8_score": 0.7800572581589222
+    },
+    {
+      "source_id": 29442,
+      "word": "minocycline",
+      "exhaustive_top8": [
+        "consilience",
+        "incline",
+        "glycine",
+        "immunodeficiency",
+        "omniscience",
+        "phencyclidine",
+        "silicone",
+        "convince"
+      ],
+      "bounded_top8": [
+        "online",
+        "concerning",
+        "increasingly",
+        "instance",
+        "certainly",
+        "combined",
+        "contained",
+        "containing"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.886431847512722,
+      "mean_bounded_top8_score": 0.7195704020559788
+    },
+    {
+      "source_id": 29792,
+      "word": "gunfire",
+      "exhaustive_top8": [
+        "figure",
+        "finger",
+        "configure",
+        "reconfigure",
+        "infer",
+        "finer",
+        "foreigner",
+        "jennifer"
+      ],
+      "bounded_top8": [
+        "require",
+        "ensure",
+        "define",
+        "under",
+        "desire",
+        "requires",
+        "required",
+        "reference"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8796794012188911,
+      "mean_bounded_top8_score": 0.7207098968327046
+    },
+    {
+      "source_id": 30143,
+      "word": "headstone",
+      "exhaustive_top8": [
+        "wheatstone",
+        "methadone",
+        "sandstone",
+        "gladstone",
+        "whetstone",
+        "hastened",
+        "maidstone",
+        "aldosterone"
+      ],
+      "bounded_top8": [
+        "someone",
+        "one",
+        "alone",
+        "response",
+        "then",
+        "these",
+        "anyone",
+        "contained"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9031215608119965,
+      "mean_bounded_top8_score": 0.7615054100751877
+    },
+    {
+      "source_id": 30493,
+      "word": "instigation",
+      "exhaustive_top8": [
+        "investigation",
+        "mitigation",
+        "litigation",
+        "instantiation",
+        "initiation",
+        "visitation",
+        "sanitation",
+        "invitation"
+      ],
+      "bounded_top8": [
+        "attention",
+        "consisting",
+        "addition",
+        "into",
+        "contributions",
+        "relation",
+        "starting",
+        "continuing"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9570008851587772,
+      "mean_bounded_top8_score": 0.8220523841679096
+    },
+    {
+      "source_id": 30844,
+      "word": "coleman",
+      "exhaustive_top8": [
+        "policeman",
+        "comnena",
+        "nobleman",
+        "lacedaemon",
+        "carloman",
+        "clean",
+        "chamaeleon",
+        "edelman"
+      ],
+      "bounded_top8": [
+        "mean",
+        "conan",
+        "can",
+        "allen",
+        "learn",
+        "remain",
+        "anyone",
+        "contain"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8885224699974059,
+      "mean_bounded_top8_score": 0.7253294326364994
+    },
+    {
+      "source_id": 31194,
+      "word": "yuri",
+      "exhaustive_top8": [
+        "viipuri",
+        "daiquiri",
+        "inquiry",
+        "cumhuriyeti",
+        "biruni",
+        "yasunori",
+        "priori",
+        "superiority"
+      ],
+      "bounded_top8": [
+        "priori",
+        "papyri",
+        "primarily",
+        "security",
+        "posteriori",
+        "superior",
+        "your",
+        "randori"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.7821763306856155,
+      "mean_bounded_top8_score": 0.6794080585241318
+    },
+    {
+      "source_id": 31545,
+      "word": "fuller",
+      "exhaustive_top8": [
+        "muller",
+        "mueller",
+        "ller",
+        "laurel",
+        "ferrell",
+        "leffler",
+        "seller",
+        "heller"
+      ],
+      "bounded_top8": [
+        "regularly",
+        "parallel",
+        "formerly",
+        "later",
+        "well",
+        "literally",
+        "clear",
+        "clearly"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9002314053475856,
+      "mean_bounded_top8_score": 0.7076141141355038
+    },
+    {
+      "source_id": 31895,
+      "word": "gigantopithecus",
+      "exhaustive_top8": [
+        "leontopithecus",
+        "australopithecus",
+        "ardipithecus",
+        "therapeutics",
+        "antiochus",
+        "anicetus",
+        "australopithecines",
+        "phonetics"
+      ],
+      "bounded_top8": [
+        "contributions",
+        "consistent",
+        "hits",
+        "instance",
+        "something",
+        "this",
+        "sufficient",
+        "its"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.843085664510727,
+      "mean_bounded_top8_score": 0.6526645034551621
+    },
+    {
+      "source_id": 32246,
+      "word": "argon",
+      "exhaustive_top8": [
+        "aragon",
+        "jargon",
+        "sargon",
+        "organon",
+        "dragon",
+        "nagorno",
+        "crannog",
+        "paragon"
+      ],
+      "bounded_top8": [
+        "wrong",
+        "gordon",
+        "along",
+        "among",
+        "on",
+        "kong",
+        "conan",
+        "soon"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9398877650499343,
+      "mean_bounded_top8_score": 0.7795004293322563
+    },
+    {
+      "source_id": 32596,
+      "word": "gerardo",
+      "exhaustive_top8": [
+        "cerrado",
+        "bernardo",
+        "corrado",
+        "petrograd",
+        "overboard",
+        "gerard",
+        "madero",
+        "fingerboard"
+      ],
+      "bounded_top8": [
+        "regard",
+        "order",
+        "salvador",
+        "incorporated",
+        "hard",
+        "gordon",
+        "charged",
+        "afterwards"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8868741743266582,
+      "mean_bounded_top8_score": 0.7462011434137821
+    },
+    {
+      "source_id": 32947,
+      "word": "opensource",
+      "exhaustive_top8": [
+        "source",
+        "resource",
+        "concourse",
+        "enclosure",
+        "jsource",
+        "underscore",
+        "phosphorescence",
+        "pronounces"
+      ],
+      "bounded_top8": [
+        "produces",
+        "once",
+        "ensure",
+        "pronounced",
+        "response",
+        "references",
+        "someone",
+        "reduce"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8940553516149521,
+      "mean_bounded_top8_score": 0.7808460727334023
+    },
+    {
+      "source_id": 33297,
+      "word": "salam",
+      "exhaustive_top8": [
+        "salaam",
+        "slam",
+        "alma",
+        "malayalam",
+        "plasma",
+        "lama",
+        "llama",
+        "islam"
+      ],
+      "bounded_top8": [
+        "sam",
+        "adam",
+        "abraham",
+        "claim",
+        "william",
+        "claims",
+        "alan",
+        "samuel"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9337529473006725,
+      "mean_bounded_top8_score": 0.741948163509369
+    },
+    {
+      "source_id": 33648,
+      "word": "lister",
+      "exhaustive_top8": [
+        "blister",
+        "aleister",
+        "liters",
+        "liter",
+        "leinster",
+        "sister",
+        "litres",
+        "litters"
+      ],
+      "bounded_top8": [
+        "later",
+        "faster",
+        "neither",
+        "restricted",
+        "otherwise",
+        "after",
+        "together",
+        "other"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9363447979092598,
+      "mean_bounded_top8_score": 0.7563820205628873
+    },
+    {
+      "source_id": 33998,
+      "word": "milosz",
+      "exhaustive_top8": [
+        "symbolizes",
+        "mestizo",
+        "limassol",
+        "tomasz",
+        "apologizes",
+        "mieszko",
+        "oils",
+        "lois"
+      ],
+      "bounded_top8": [
+        "los",
+        "louis",
+        "impossible",
+        "follows",
+        "williams",
+        "limits",
+        "solo",
+        "allows"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.7533667080104351,
+      "mean_bounded_top8_score": 0.620296611264348
+    },
+    {
+      "source_id": 34349,
+      "word": "distillers",
+      "exhaustive_top8": [
+        "distilleries",
+        "millilitres",
+        "villiers",
+        "installers",
+        "trellis",
+        "thrillers",
+        "killers",
+        "fillers"
+      ],
+      "bounded_top8": [
+        "visible",
+        "responsible",
+        "less",
+        "nevertheless",
+        "whilst",
+        "unless",
+        "similar",
+        "exists"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9115816369652747,
+      "mean_bounded_top8_score": 0.6961349353194236
+    },
+    {
+      "source_id": 34699,
+      "word": "anima",
+      "exhaustive_top8": [
+        "mania",
+        "anemia",
+        "ghanima",
+        "taniyama",
+        "tasmania",
+        "mina",
+        "anatomia",
+        "animalia"
+      ],
+      "bounded_top8": [
+        "batman",
+        "maintain",
+        "remain",
+        "claim",
+        "muhammad",
+        "alan",
+        "mean",
+        "brian"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9243170410394669,
+      "mean_bounded_top8_score": 0.7283458963036538
+    },
+    {
+      "source_id": 35050,
+      "word": "laurel",
+      "exhaustive_top8": [
+        "extracellular",
+        "fuller",
+        "muller",
+        "derailleur",
+        "gaulle",
+        "burrell",
+        "mueller",
+        "cellular"
+      ],
+      "bounded_top8": [
+        "parallel",
+        "regularly",
+        "really",
+        "well",
+        "tell",
+        "largely",
+        "naturally",
+        "particularly"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8981771126389504,
+      "mean_bounded_top8_score": 0.7818567603826523
+    },
+    {
+      "source_id": 35400,
+      "word": "undp",
+      "exhaustive_top8": [
+        "pound",
+        "kidnapped",
+        "append",
+        "gdp",
+        "snapped",
+        "up",
+        "dump",
+        "quipped"
+      ],
+      "bounded_top8": [
+        "gdp",
+        "fund",
+        "compound",
+        "edmund",
+        "bound",
+        "sound",
+        "round",
+        "found"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.7492851704359054,
+      "mean_bounded_top8_score": 0.6552364900708199
+    },
+    {
+      "source_id": 35751,
+      "word": "acacia",
+      "exhaustive_top8": [
+        "cia",
+        "jamaica",
+        "arabica",
+        "galactica",
+        "acadia",
+        "marcia",
+        "garcia",
+        "isaac"
+      ],
+      "bounded_top8": [
+        "isaac",
+        "rica",
+        "capita",
+        "maria",
+        "via",
+        "capacity",
+        "pascal",
+        "frac"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.9185414388775826,
+      "mean_bounded_top8_score": 0.7820327162742615
+    },
+    {
+      "source_id": 36101,
+      "word": "antimony",
+      "exhaustive_top8": [
+        "antonym",
+        "matrimony",
+        "patrimony",
+        "antony",
+        "anonymity",
+        "testimony",
+        "anthony",
+        "hominy"
+      ],
+      "bounded_top8": [
+        "many",
+        "attention",
+        "commonly",
+        "anyone",
+        "cannot",
+        "containing",
+        "into",
+        "relation"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8935376524925231,
+      "mean_bounded_top8_score": 0.7201023623347282
+    },
+    {
+      "source_id": 36452,
+      "word": "rama",
+      "exhaustive_top8": [
+        "amraam",
+        "drama",
+        "karma",
+        "parma",
+        "mara",
+        "marmara",
+        "aram",
+        "mataram"
+      ],
+      "bounded_top8": [
+        "abraham",
+        "graham",
+        "maria",
+        "adam",
+        "amiga",
+        "era",
+        "muhammad",
+        "sam"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9510874904692173,
+      "mean_bounded_top8_score": 0.8173191502690316
+    },
+    {
+      "source_id": 36802,
+      "word": "westfall",
+      "exhaustive_top8": [
+        "waterfall",
+        "waterfalls",
+        "forestall",
+        "stella",
+        "stall",
+        "planetfall",
+        "fetal",
+        "falwell"
+      ],
+      "bounded_top8": [
+        "falls",
+        "well",
+        "shall",
+        "all",
+        "parallel",
+        "still",
+        "essentially",
+        "illegal"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9006505578756332,
+      "mean_bounded_top8_score": 0.8051793612539768
+    },
+    {
+      "source_id": 37153,
+      "word": "hanlon",
+      "exhaustive_top8": [
+        "hanno",
+        "nolan",
+        "shannon",
+        "athlon",
+        "loan",
+        "anno",
+        "salon",
+        "nylon"
+      ],
+      "bounded_top8": [
+        "on",
+        "conan",
+        "an",
+        "alone",
+        "along",
+        "cannot",
+        "soon",
+        "relation"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8998679324984551,
+      "mean_bounded_top8_score": 0.7605008743703365
+    },
+    {
+      "source_id": 37503,
+      "word": "rideau",
+      "exhaustive_top8": [
+        "girardeau",
+        "trudeau",
+        "depardieu",
+        "mirabeau",
+        "bureau",
+        "ursidae",
+        "undergraduate",
+        "sciuridae"
+      ],
+      "bounded_top8": [
+        "featured",
+        "read",
+        "guide",
+        "carried",
+        "include",
+        "distributed",
+        "declared",
+        "originated"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8534239418804646,
+      "mean_bounded_top8_score": 0.6637917473912239
+    },
+    {
+      "source_id": 37854,
+      "word": "rucker",
+      "exhaustive_top8": [
+        "tucker",
+        "rocker",
+        "lurker",
+        "cracker",
+        "crocker",
+        "bruckner",
+        "tracker",
+        "nutcracker"
+      ],
+      "bounded_top8": [
+        "frederick",
+        "refer",
+        "furthermore",
+        "further",
+        "bruce",
+        "order",
+        "roger",
+        "per"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9108215041458607,
+      "mean_bounded_top8_score": 0.7522246539592743
+    },
+    {
+      "source_id": 38204,
+      "word": "woodworth",
+      "exhaustive_top8": [
+        "wordsworth",
+        "doctorwho",
+        "bosworth",
+        "cosworth",
+        "brownworth",
+        "worth",
+        "wadsworth",
+        "southworth"
+      ],
+      "bounded_top8": [
+        "worth",
+        "two",
+        "both",
+        "without",
+        "too",
+        "fort",
+        "throughout",
+        "understood"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8977733209729194,
+      "mean_bounded_top8_score": 0.7004108764231205
+    },
+    {
+      "source_id": 38555,
+      "word": "ludvig",
+      "exhaustive_top8": [
+        "ludwig",
+        "building",
+        "luigi",
+        "dividing",
+        "diving",
+        "guiding",
+        "alluding",
+        "gliding"
+      ],
+      "bounded_top8": [
+        "living",
+        "giving",
+        "providing",
+        "including",
+        "involving",
+        "leaving",
+        "valign",
+        "advertising"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.7831554584205151,
+      "mean_bounded_top8_score": 0.6998447567224504
+    },
+    {
+      "source_id": 38905,
+      "word": "schottky",
+      "exhaustive_top8": [
+        "trotsky",
+        "schott",
+        "chastity",
+        "kitty",
+        "hockett",
+        "sketchy",
+        "vygotsky",
+        "sticky"
+      ],
+      "bounded_top8": [
+        "scott",
+        "shot",
+        "authority",
+        "shortly",
+        "hockey",
+        "without",
+        "protect",
+        "thought"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.7908772595226765,
+      "mean_bounded_top8_score": 0.6709650106728078
+    },
+    {
+      "source_id": 39256,
+      "word": "maluku",
+      "exhaustive_top8": [
+        "mamluk",
+        "suzaku",
+        "baku",
+        "pulau",
+        "lulu",
+        "zulu",
+        "turku",
+        "kampaku"
+      ],
+      "bounded_top8": [
+        "luke",
+        "value",
+        "equal",
+        "usually",
+        "talk",
+        "walk",
+        "column",
+        "actually"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8134010784327984,
+      "mean_bounded_top8_score": 0.5456615388393402
+    },
+    {
+      "source_id": 39606,
+      "word": "valdez",
+      "exhaustive_top8": [
+        "vandalized",
+        "velarized",
+        "vocalized",
+        "legalized",
+        "realized",
+        "galvanized",
+        "delocalized",
+        "analyzed"
+      ],
+      "bounded_top8": [
+        "revealed",
+        "specialized",
+        "called",
+        "declared",
+        "deal",
+        "developed",
+        "zealand",
+        "made"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8346948713064194,
+      "mean_bounded_top8_score": 0.6795371808111668
+    },
+    {
+      "source_id": 39957,
+      "word": "yamamoto",
+      "exhaustive_top8": [
+        "yamato",
+        "kumamoto",
+        "minamoto",
+        "tomato",
+        "atom",
+        "ammo",
+        "mayo",
+        "tommaso"
+      ],
+      "bounded_top8": [
+        "tom",
+        "auto",
+        "plato",
+        "almost",
+        "to",
+        "too",
+        "onto",
+        "promote"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8935445569455625,
+      "mean_bounded_top8_score": 0.7263481475412845
+    },
+    {
+      "source_id": 40307,
+      "word": "oromo",
+      "exhaustive_top8": [
+        "room",
+        "promo",
+        "broom",
+        "groom",
+        "showroom",
+        "norodom",
+        "homo",
+        "como"
+      ],
+      "bounded_top8": [
+        "from",
+        "com",
+        "promote",
+        "whom",
+        "gordon",
+        "or",
+        "perform",
+        "for"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.934536986798048,
+      "mean_bounded_top8_score": 0.6938521593809128
+    },
+    {
+      "source_id": 40658,
+      "word": "cavendish",
+      "exhaustive_top8": [
+        "vanished",
+        "danish",
+        "wendish",
+        "vanish",
+        "fiendish",
+        "disenfranchised",
+        "sandwiches",
+        "andechs"
+      ],
+      "bounded_top8": [
+        "indicates",
+        "mdash",
+        "ends",
+        "revised",
+        "his",
+        "this",
+        "depends",
+        "stands"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8615604512393474,
+      "mean_bounded_top8_score": 0.6541991926729679
+    },
+    {
+      "source_id": 41008,
+      "word": "castletown",
+      "exhaustive_top8": [
+        "steeltown",
+        "charlottetown",
+        "charlestown",
+        "allentown",
+        "watertown",
+        "stapleton",
+        "jamestown",
+        "collegetown"
+      ],
+      "bounded_top8": [
+        "consistent",
+        "cannot",
+        "contrast",
+        "instance",
+        "into",
+        "least",
+        "almost",
+        "between"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8852791018784045,
+      "mean_bounded_top8_score": 0.6710496477782727
+    },
+    {
+      "source_id": 41359,
+      "word": "zahir",
+      "exhaustive_top8": [
+        "hair",
+        "fairhair",
+        "zawahiri",
+        "chair",
+        "mizrahi",
+        "shari",
+        "chari",
+        "bihari"
+      ],
+      "bounded_top8": [
+        "hair",
+        "air",
+        "pair",
+        "fair",
+        "their",
+        "sir",
+        "higher",
+        "irish"
+      ],
+      "recall_at8": 0.125,
+      "mean_exact_top8_score": 0.8818173989653586,
+      "mean_bounded_top8_score": 0.7655638255178929
+    },
+    {
+      "source_id": 41709,
+      "word": "batalha",
+      "exhaustive_top8": [
+        "kabbalah",
+        "abdallah",
+        "agatha",
+        "mahabharata",
+        "aryabhata",
+        "batalla",
+        "halacha",
+        "halakha"
+      ],
+      "bounded_top8": [
+        "what",
+        "that",
+        "insubstantial",
+        "than",
+        "appeal",
+        "beat",
+        "at",
+        "actually"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9015294902026654,
+      "mean_bounded_top8_score": 0.6410150095820427
+    },
+    {
+      "source_id": 42060,
+      "word": "valentinus",
+      "exhaustive_top8": [
+        "valentinius",
+        "latinus",
+        "magnentius",
+        "linnaeus",
+        "antoninus",
+        "constantinus",
+        "aleutians",
+        "valentinians"
+      ],
+      "bounded_top8": [
+        "contains",
+        "contributions",
+        "resulting",
+        "remains",
+        "consistent",
+        "begins",
+        "continuing",
+        "consisting"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.897843711823225,
+      "mean_bounded_top8_score": 0.7195222556591034
+    },
+    {
+      "source_id": 42410,
+      "word": "russellville",
+      "exhaustive_top8": [
+        "seville",
+        "smallville",
+        "louisville",
+        "saville",
+        "sell",
+        "merrillville",
+        "belleville",
+        "melville"
+      ],
+      "bounded_top8": [
+        "well",
+        "still",
+        "exclusively",
+        "ill",
+        "parallel",
+        "illegal",
+        "will",
+        "essentially"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9269733034074306,
+      "mean_bounded_top8_score": 0.8034232988953591
+    },
+    {
+      "source_id": 42761,
+      "word": "deltabeignet",
+      "exhaustive_top8": [
+        "delineate",
+        "designate",
+        "magnetite",
+        "belligerent",
+        "beltaine",
+        "detergent",
+        "ginette",
+        "ambiente"
+      ],
+      "bounded_top8": [
+        "designated",
+        "benefit",
+        "get",
+        "dependent",
+        "between",
+        "testament",
+        "determine",
+        "meet"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8941960707306862,
+      "mean_bounded_top8_score": 0.7921636514365673
+    },
+    {
+      "source_id": 43111,
+      "word": "donalds",
+      "exhaustive_top8": [
+        "woodlands",
+        "downloads",
+        "docklands",
+        "shadowlands",
+        "lands",
+        "badlands",
+        "loads",
+        "landlords"
+      ],
+      "bounded_top8": [
+        "holds",
+        "stands",
+        "sold",
+        "ends",
+        "grounds",
+        "towards",
+        "zealand",
+        "depends"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9165049113333226,
+      "mean_bounded_top8_score": 0.7453394152224064
+    },
+    {
+      "source_id": 43462,
+      "word": "canaan",
+      "exhaustive_top8": [
+        "anna",
+        "banana",
+        "savanna",
+        "wanna",
+        "hanna",
+        "nanna",
+        "naaman",
+        "ascanian"
+      ],
+      "bounded_top8": [
+        "can",
+        "an",
+        "alan",
+        "conan",
+        "ran",
+        "dan",
+        "ian",
+        "san"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9450931861996651,
+      "mean_bounded_top8_score": 0.8752819612622261
+    },
+    {
+      "source_id": 43812,
+      "word": "melchior",
+      "exhaustive_top8": [
+        "charleroi",
+        "choir",
+        "technicolor",
+        "hydrochloric",
+        "meromorphic",
+        "homeric",
+        "micro",
+        "jericho"
+      ],
+      "bounded_top8": [
+        "superior",
+        "furthermore",
+        "moreover",
+        "more",
+        "or",
+        "perform",
+        "cooperation",
+        "therefore"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.843305978178978,
+      "mean_bounded_top8_score": 0.6320412773638964
+    },
+    {
+      "source_id": 44163,
+      "word": "michelle",
+      "exhaustive_top8": [
+        "michele",
+        "michel",
+        "michell",
+        "chile",
+        "mille",
+        "achille",
+        "rochelle",
+        "mitchell"
+      ],
+      "bounded_top8": [
+        "feel",
+        "challenge",
+        "completely",
+        "well",
+        "example",
+        "filled",
+        "called",
+        "believe"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.9256983406841754,
+      "mean_bounded_top8_score": 0.7622814938426017
+    },
+    {
+      "source_id": 44514,
+      "word": "yorkist",
+      "exhaustive_top8": [
+        "trotskyist",
+        "outskirts",
+        "trotskyists",
+        "skirts",
+        "aorist",
+        "riots",
+        "tourist",
+        "protist"
+      ],
+      "bounded_top8": [
+        "airports",
+        "visit",
+        "starts",
+        "consists",
+        "exist",
+        "contrast",
+        "most",
+        "lost"
+      ],
+      "recall_at8": 0.0,
+      "mean_exact_top8_score": 0.8691363051533699,
+      "mean_bounded_top8_score": 0.7045699186623097
+    }
+  ],
+  "startup_and_audit_seconds": 178.4655076969998,
+  "prototype_peak_rss_kbytes": 832904,
+  "neural_training": false,
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "source_sha256": "4a36141e9c89b2f1cfb6dadc09f9ec9bcd2ea5431e4005821fa1092741599d12"
+}

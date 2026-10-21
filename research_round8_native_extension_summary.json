@@ -1,0 +1,133 @@
+{
+  "status": "ONGOING_ALL_96_CURRENT_FAMILIES_OPEN",
+  "current_status_file": "research_round8_session355735431_extension_status.json",
+  "preserved_historical_51_head_summary": "research_round8_native_extension_summary_historical_51_heads.json",
+  "updated": "2026-10-06T15:06:38.167328+00:00",
+  "session": 355735431,
+  "historical_families": 95,
+  "new_explicit_family": "A96 rarity masking/gradient allocation",
+  "current_families": 96,
+  "attachment_proposals_mapped_to_families": 6,
+  "certified_native_fitted_heads_completed": 118,
+  "role_online_policies_completed": 27,
+  "stage_source_fit": {
+    "status": "COMPLETE_NATIVE_STAGE_FINITE_FIT",
+    "directory": "native_stage_fit_v2",
+    "historical_launch_pid": 1185,
+    "fitted_heads_so_far": 31,
+    "all_expected_heads": 31,
+    "complete": true,
+    "best_priced_AB_bytes": 42.446535645999205,
+    "advance_gate_pass": false,
+    "result_file": "research_round8_native_stage_fit_results.json"
+  },
+  "stage_observer": {
+    "status": "COMPLETE_NATIVE_STAGE_IDENTITY_AND_AB_EXPORTS",
+    "controls": 2,
+    "exports": 2,
+    "full_AB_archive_and_Q16_identity": true,
+    "independent_32K_decodes": true
+  },
+  "rarity_census": {
+    "status": "COMPLETE_RARITY_CENSUS_DIAGNOSTIC",
+    "historical_launch_pid": 1192,
+    "directory": "rarity_census_v1",
+    "training_evaluated": false
+  },
+  "canonical_atom_screen": {
+    "heads": 11,
+    "best_priced_AB_bytes": -26.846967465065642,
+    "advance_gate_pass": false
+  },
+  "paired_error_memory_screen": {
+    "heads": 24,
+    "best_priced_AB_bytes": -26.971967465065642,
+    "advance_gate_pass": false
+  },
+  "role_online_screen": {
+    "policies": 27,
+    "best_raw_AB_bytes": 4.62367919190001,
+    "best_priced_AB_bytes": 3.9986791919000098,
+    "advance_gate_pass": false
+  },
+  "atlas_complete": true,
+  "full_native_qualifying_candidate": false,
+  "twenty_percent_achieved": false,
+  "absolute_optimum_claimed": false,
+  "all_96_fully_explored": false,
+  "paid_spending_usd": 0,
+  "budget_usd": 70,
+  "deletions": [],
+  "managed_goal_status": "usageLimited_DO_NOT_RESUME_OR_REPLACE",
+  "week_end": "2026-10-11",
+  "new_user_answers_and_training_plan": "research_round8_5090_hours_and_rarity_plan.md",
+  "rarity_protocol": "research_round8_rarity_mask_protocol.md",
+  "weak_source_confirmation": {
+    "directory": "native_stage_weak_confirmation_v1",
+    "historical_launch_pid": 1208,
+    "status": "COMPLETE_WEAK_SOURCE_INDEPENDENT_Q16_CONFIRMATION",
+    "result_file": "research_round8_native_stage_weak_confirmation_results.json",
+    "candidate_frozen": "neural_valid",
+    "original_64B_screen_passed": false,
+    "actual_candidate_archive_evaluated": false
+  },
+  "native_inline_residual": {
+    "directory": "native_inline_residual_v1",
+    "historical_launch_pid": 1235,
+    "status": "COMPLETE_NATIVE_INLINE_RESIDUAL_COLD_CODING_DECODE",
+    "actual_CD_archive_saving_bytes": 127,
+    "matched_lab_binary_delta_bytes": 768,
+    "full_qualifying_package": false
+  },
+  "wider_source_fit": {
+    "directory": "source_wide_box_v1",
+    "historical_launch_pid": 1306,
+    "status": "COMPLETE_WIDER_SOURCE_FINITE_BOX",
+    "development_priced_gain_bytes": 81.72835071134426,
+    "coefficients": [
+      0.0016181118716570748,
+      -0.007454085408717222,
+      2.3818512619982752
+    ],
+    "original_source_upper_bound_was_active": true
+  },
+  "fresh_wider_source_confirmation": {
+    "directory": "source_wide_confirmation_v1",
+    "historical_launch_pid": 1316,
+    "status": "COMPLETE_FRESH_WIDER_SOURCE_EF_Q16_CONFIRMATION",
+    "offsets": [
+      190000000,
+      430000000
+    ],
+    "refit_allowed": false,
+    "Q16_gain_bytes": 153.8376543026439,
+    "both_slices_improve": true,
+    "both_slices_beat_generic": true
+  },
+  "native_inline_wider": {
+    "directory": "native_inline_wide_v1",
+    "historical_launch_pid": 1329,
+    "status": "COMPLETE_NATIVE_INLINE_WIDE_COLD_CODING_DECODE",
+    "stage": "actual wider cold archives and independent decodes complete; full package qualification open",
+    "actual_EF_archive_saving_bytes": 154,
+    "matched_lab_binary_delta_bytes": 784,
+    "full_qualifying_package": false,
+    "result_file": "research_round8_native_inline_wide_results.json"
+  },
+  "free_T4_timing": {
+    "status": "COMPLETE_FREE_T4_RESIDUAL_THROUGHPUT_ONLY",
+    "model_parameters_changed": false,
+    "small_residual_pilots_need_paid_5090_hours_now": 0
+  },
+  "partial_A96_dictionary_mask_residual_training": {
+    "directory": "rarity_residual_pilot_v1",
+    "historical_launch_pid": 1400,
+    "status": "COMPLETE_PARTIAL_DICTIONARY_MASK_RESIDUAL_TRAINING",
+    "stage": "partial free-T4 mask pilot complete; core/OOV/native qualification open",
+    "core_retraining": false,
+    "original_transformer_gradient_interference_measured": false,
+    "all_word_mask_training_completed": false,
+    "native_candidate_archive_evaluated": false,
+    "result_file": "research_round8_rarity_residual_pilot_results.json"
+  }
+}

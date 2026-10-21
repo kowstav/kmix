@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.6.attention.query_convolution.weight",
+  "names": [
+    "blocks.6.attention.query_convolution.weight"
+  ],
+  "label": "7348665b8d8e166d84960b4e",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1463
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1428
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1375
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1353
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1348
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1463
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1428
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1463
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1428
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1474
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1433
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1682
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1348,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "e9e703d0d720c7f928f03a03b895ec08b375b9c2b5c721d08424f7e2dc952e4f",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.012731999999998467,
+  "wall_seconds": 0.015391544999999951
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "slice": "a",
+    "raw_bytes": 2000000,
+    "baseline_ideal_bytes": 193366.1861093617,
+    "optimistic_positive_precision_bound_bytes": 57.4915827191559,
+    "bound_fraction_of_baseline": 0.00029731973245125963,
+    "signed_best_inside_bin_bound_bytes": 46.465116214424924,
+    "contract": "fixed predictor; conservative f32 rounding margin; unpaid per-bit upper bound only; no model calibration or decoder change measured"
+  },
+  {
+    "slice": "b",
+    "raw_bytes": 2000000,
+    "baseline_ideal_bytes": 427095.0234438901,
+    "optimistic_positive_precision_bound_bytes": 59.56600485720475,
+    "bound_fraction_of_baseline": 0.00013946780362106065,
+    "signed_best_inside_bin_bound_bytes": 47.31002611263999,
+    "contract": "fixed predictor; conservative f32 rounding margin; unpaid per-bit upper bound only; no model calibration or decoder change measured"
+  }
+]

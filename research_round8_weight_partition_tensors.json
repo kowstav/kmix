@@ -1,0 +1,4733 @@
+[
+  {
+    "name": "blocks.0.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47528.49625296471,
+    "homogeneous_KT_bits": 47606.55098630195,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47607.55098630195,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47607.55098630195,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47616.55098630195,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47291.583485504,
+    "homogeneous_KT_bits": 47369.63825606092,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47370.63825606092,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47370.63825606092,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47379.63825606092,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143515.18302913534,
+    "homogeneous_KT_bits": 143604.32979394862,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143605.32979394862,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143605.32979394862,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143614.32979394862,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47695.63855342637,
+    "homogeneous_KT_bits": 47773.69326300526,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47774.69326300526,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47774.69326300526,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47783.69326300526,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47646.925123624125,
+    "homogeneous_KT_bits": 47724.97983744251,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47725.97983744251,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47725.97983744251,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47734.97983744251,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142300.81259206348,
+    "homogeneous_KT_bits": 142389.95936818546,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142390.95936818546,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142390.95936818546,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142399.95936818546,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143766.02508218487,
+    "homogeneous_KT_bits": 143855.17184317065,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143856.17184317065,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143856.17184317065,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143865.17184317065,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143503.2994908212,
+    "homogeneous_KT_bits": 143592.4462555364,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143593.4462555364,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143593.4462555364,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143602.4462555364,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 573775.1568900134,
+    "homogeneous_KT_bits": 573878.3026561491,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 573879.3026561491,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 573879.3026561491,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 573888.3026561491,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.0.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 571312.6348239859,
+    "homogeneous_KT_bits": 571415.780591706,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 571416.780591706,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 571416.780591706,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 571425.780591706,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47542.448474948214,
+    "homogeneous_KT_bits": 47620.50320926221,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47564.11424020466,
+        "splits": 1,
+        "blocks": 2
+      },
+      {
+        "axis": 1,
+        "bits": 47621.50320926221,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47574.11424020466,
+    "partition_gain_over_homogeneous_bits": 56.38896905755246
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47402.42627581236,
+    "homogeneous_KT_bits": 47480.48102792557,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47481.48102792557,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47481.48102792557,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47490.48102792557,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143471.72051009384,
+    "homogeneous_KT_bits": 143560.8672753997,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143551.50635194167,
+        "splits": 1,
+        "blocks": 2
+      },
+      {
+        "axis": 1,
+        "bits": 143561.8672753997,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143561.50635194167,
+    "partition_gain_over_homogeneous_bits": 9.360923458036268
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47697.67423372365,
+    "homogeneous_KT_bits": 47775.728943684495,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47776.728943684495,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47776.728943684495,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47785.728943684495,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47656.6903051684,
+    "homogeneous_KT_bits": 47734.74501911263,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47735.74501911263,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47735.74501911263,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47744.74501911263,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 140783.64640398754,
+    "homogeneous_KT_bits": 140872.7931952349,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 140873.7931952349,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 140873.7931952349,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 140882.7931952349,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143473.13452085512,
+    "homogeneous_KT_bits": 143562.28128564006,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143563.28128564006,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143563.28128564006,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143572.28128564006,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142944.54727548038,
+    "homogeneous_KT_bits": 143033.69404631387,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143034.69404631387,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143034.69404631387,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143043.69404631387,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574110.4420267483,
+    "homogeneous_KT_bits": 574213.5877925112,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574214.5877925112,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574214.5877925112,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574223.5877925112,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.1.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 572651.045121006,
+    "homogeneous_KT_bits": 572754.1908878484,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 572755.1908878484,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 572755.1908878484,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 572764.1908878484,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47468.819656471074,
+    "homogeneous_KT_bits": 47546.8743959854,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47547.8743959854,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47547.8743959854,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47556.8743959854,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 46748.24516047665,
+    "homogeneous_KT_bits": 46826.300039152964,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 46827.300039152964,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 46827.300039152964,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 46836.300039152964,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142799.03149164468,
+    "homogeneous_KT_bits": 142888.1782676634,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142889.1782676634,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142889.1782676634,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142898.1782676634,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47660.85749973882,
+    "homogeneous_KT_bits": 47738.91221335616,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47739.91221335616,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47739.91221335616,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47748.91221335616,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47495.657396993476,
+    "homogeneous_KT_bits": 47573.71213345247,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47574.71213345247,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47574.71213345247,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47583.71213345247,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143604.93468500258,
+    "homogeneous_KT_bits": 143694.08144783357,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143695.08144783357,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143576.99801920573,
+        "splits": 2,
+        "blocks": 3
+      }
+    ],
+    "chosen_axis": 1,
+    "best_priced_bits": 143586.99801920573,
+    "partition_gain_over_homogeneous_bits": 117.08342862784048
+  },
+  {
+    "name": "blocks.10.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142951.58611907548,
+    "homogeneous_KT_bits": 143040.73289189776,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143041.73289189776,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143041.73289189776,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143050.73289189776,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142959.72040334358,
+    "homogeneous_KT_bits": 143048.86717656793,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142998.8849400952,
+        "splits": 1,
+        "blocks": 2
+      },
+      {
+        "axis": 1,
+        "bits": 143049.86717656793,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143008.8849400952,
+    "partition_gain_over_homogeneous_bits": 49.98223647274426
+  },
+  {
+    "name": "blocks.10.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575091.9470564531,
+    "homogeneous_KT_bits": 575195.0928215487,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575196.0928215487,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575196.0928215487,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575205.0928215487,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.10.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574283.2261443309,
+    "homogeneous_KT_bits": 574386.3719101757,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574387.3719101757,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574387.3719101757,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574396.3719101757,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143500.5405240255,
+    "homogeneous_KT_bits": 143589.68728904516,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143470.31106416078,
+        "splits": 6,
+        "blocks": 7
+      },
+      {
+        "axis": 1,
+        "bits": 143590.68728904516,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143480.31106416078,
+    "partition_gain_over_homogeneous_bits": 119.37622488438501
+  },
+  {
+    "name": "blocks.11.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142837.65015463083,
+    "homogeneous_KT_bits": 142926.79692508554,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142927.79692508554,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142927.79692508554,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142936.79692508554,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143306.4051231796,
+    "homogeneous_KT_bits": 143395.55189123383,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143396.55189123383,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143396.55189123383,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143405.55189123383,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 139403.49704484115,
+    "homogeneous_KT_bits": 139492.6438486389,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 139493.6438486389,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 139493.6438486389,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 139502.6438486389,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 573652.3409884191,
+    "homogeneous_KT_bits": 573755.4867545179,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 573756.4867545179,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 573756.4867545179,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 573765.4867545179,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.11.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 573657.8975976176,
+    "homogeneous_KT_bits": 573761.0433640393,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 573762.0433640393,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 573762.0433640393,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 573771.0433640393,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47553.48320864657,
+    "homogeneous_KT_bits": 47631.537934325424,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47632.537934325424,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47632.537934325424,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47641.537934325424,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47432.40165787235,
+    "homogeneous_KT_bits": 47510.45640559379,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47511.45640559379,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47511.45640559379,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47520.45640559379,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143488.60851741215,
+    "homogeneous_KT_bits": 143577.75528254677,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143578.75528254677,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143578.75528254677,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143587.75528254677,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47695.30653089548,
+    "homogeneous_KT_bits": 47773.361242865874,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47774.361242865874,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47774.361242865874,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47783.361242865874,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47577.20848540455,
+    "homogeneous_KT_bits": 47655.26320785475,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47656.26320785475,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47656.26320785475,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47665.26320785475,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142243.06177970156,
+    "homogeneous_KT_bits": 142332.20855664142,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142333.20855664142,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142333.20855664142,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142342.20855664142,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143491.96300922544,
+    "homogeneous_KT_bits": 143581.10977437263,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143582.10977437263,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143582.10977437263,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143591.10977437263,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143454.22035253223,
+    "homogeneous_KT_bits": 143543.36711776647,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143544.36711776647,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143544.36711776647,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143553.36711776647,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575284.2929697015,
+    "homogeneous_KT_bits": 575387.4387346206,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575388.4387346206,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575388.4387346206,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575397.4387346206,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.2.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574002.4384515308,
+    "homogeneous_KT_bits": 574105.5842175575,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574106.5842175575,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574106.5842175575,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574115.5842175575,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142760.3118948355,
+    "homogeneous_KT_bits": 142849.45866815822,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 139748.20413192813,
+        "splits": 10,
+        "blocks": 11
+      },
+      {
+        "axis": 1,
+        "bits": 142850.45866815822,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 139758.20413192813,
+    "partition_gain_over_homogeneous_bits": 3101.254536230088
+  },
+  {
+    "name": "blocks.3.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 140662.91811115146,
+    "homogeneous_KT_bits": 140752.06490322368,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 140753.06490322368,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 140753.06490322368,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 140762.06490322368,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143014.4125958243,
+    "homogeneous_KT_bits": 143103.5593677404,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 139842.6891479767,
+        "splits": 5,
+        "blocks": 6
+      },
+      {
+        "axis": 1,
+        "bits": 143104.5593677404,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 139852.6891479767,
+    "partition_gain_over_homogeneous_bits": 3260.8702197637176
+  },
+  {
+    "name": "blocks.3.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 139105.26933477915,
+    "homogeneous_KT_bits": 139194.41614167436,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 139195.41614167436,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 139195.41614167436,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 139204.41614167436,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574877.3072295303,
+    "homogeneous_KT_bits": 574980.4529947535,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574981.4529947535,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574981.4529947535,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574990.4529947535,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.3.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574453.2042066025,
+    "homogeneous_KT_bits": 574556.3499722587,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574557.3499722587,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574557.3499722587,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574566.3499722587,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47680.51720360709,
+    "homogeneous_KT_bits": 47758.57191140038,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47759.57191140038,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47759.57191140038,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47768.57191140038,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 46949.31402190433,
+    "homogeneous_KT_bits": 47027.368836383386,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47028.368836383386,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47028.368836383386,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47037.368836383386,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142923.1034156802,
+    "homogeneous_KT_bits": 143012.2501887098,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143013.2501887098,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143013.2501887098,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143022.2501887098,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47720.411892168595,
+    "homogeneous_KT_bits": 47798.466595491285,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47799.466595491285,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47799.466595491285,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47808.466595491285,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47482.40359240814,
+    "homogeneous_KT_bits": 47560.4583283486,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47561.4583283486,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47561.4583283486,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47570.4583283486,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142916.73124963246,
+    "homogeneous_KT_bits": 143005.87801946767,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143006.87801946767,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143006.87801946767,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143015.87801946767,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143472.65041546506,
+    "homogeneous_KT_bits": 143561.79718056772,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143562.79718056772,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143562.79718056772,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143571.79718056772,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143532.49090977502,
+    "homogeneous_KT_bits": 143621.63767419057,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143622.63767419057,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143622.63767419057,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143631.63767419057,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 573254.8258282901,
+    "homogeneous_KT_bits": 573357.971594701,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 573358.971594701,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 573358.971594701,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 573367.971594701,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.4.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574292.394885643,
+    "homogeneous_KT_bits": 574395.5406514589,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574396.5406514589,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574396.5406514589,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574405.5406514589,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47711.52517919225,
+    "homogeneous_KT_bits": 47789.57988281904,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47790.57988281904,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47790.57988281904,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47799.57988281904,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 46986.38225798071,
+    "homogeneous_KT_bits": 47064.437079862466,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47065.437079862466,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47065.437079862466,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47074.437079862466,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142867.23329623265,
+    "homogeneous_KT_bits": 142956.3800705567,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142957.3800705567,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142957.3800705567,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142966.3800705567,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47784.556740363616,
+    "homogeneous_KT_bits": 47862.61143552507,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47863.61143552507,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47863.61143552507,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47872.61143552507,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47713.23863446601,
+    "homogeneous_KT_bits": 47791.29334189535,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47792.29334189535,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47792.29334189535,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47801.29334189535,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 142222.87064943736,
+    "homogeneous_KT_bits": 142312.0174269892,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 142313.0174269892,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 142313.0174269892,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 142322.0174269892,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143684.15348916673,
+    "homogeneous_KT_bits": 143773.30025120266,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143774.30025120266,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143774.30025120266,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143783.30025120266,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143390.40093824948,
+    "homogeneous_KT_bits": 143479.5477047704,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143480.5477047704,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143480.5477047704,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143489.5477047704,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574559.679251739,
+    "homogeneous_KT_bits": 574662.8250172167,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574663.8250172167,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574663.8250172167,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574672.8250172167,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.5.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574307.6879007964,
+    "homogeneous_KT_bits": 574410.8336665923,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574411.8336665923,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574411.8336665923,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574420.8336665923,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47687.83777762226,
+    "homogeneous_KT_bits": 47765.89248277796,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47766.89248277796,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47766.89248277796,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47775.89248277796,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47267.85842130554,
+    "homogeneous_KT_bits": 47345.91318984261,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47346.91318984261,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47346.91318984261,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47355.91318984261,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143389.1179145794,
+    "homogeneous_KT_bits": 143478.2646809506,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143479.2646809506,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143479.2646809506,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143488.2646809506,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47768.875337080295,
+    "homogeneous_KT_bits": 47846.93003322736,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47847.93003322736,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47847.93003322736,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47856.93003322736,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47716.24572492271,
+    "homogeneous_KT_bits": 47794.30043102189,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47795.30043102189,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47795.30043102189,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47804.30043102189,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143242.53598692274,
+    "homogeneous_KT_bits": 143331.68275385548,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143332.68275385548,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143332.68275385548,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143341.68275385548,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143568.27243803284,
+    "homogeneous_KT_bits": 143657.41920158878,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143658.41920158878,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143658.41920158878,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143667.41920158878,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143424.24437004936,
+    "homogeneous_KT_bits": 143513.39113617668,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143514.39113617668,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143514.39113617668,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143523.39113617668,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575218.273109147,
+    "homogeneous_KT_bits": 575321.4188741273,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575322.4188741273,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575322.4188741273,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575331.4188741273,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.6.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574815.7985426969,
+    "homogeneous_KT_bits": 574918.9443079957,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574919.9443079957,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574919.9443079957,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574928.9443079957,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143263.09184927397,
+    "homogeneous_KT_bits": 143352.23861763225,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143353.23861763225,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143353.23861763225,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143362.23861763225,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 140861.79178121474,
+    "homogeneous_KT_bits": 140950.93857155487,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 140951.93857155487,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 140951.93857155487,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 140960.93857155487,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143329.4795700691,
+    "homogeneous_KT_bits": 143418.62633719837,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143419.62633719837,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143419.62633719837,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143428.62633719837,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 138711.36984905752,
+    "homogeneous_KT_bits": 138800.51665852976,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 138801.51665852976,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 138801.51665852976,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 138810.51665852976,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575232.6099364911,
+    "homogeneous_KT_bits": 575335.7557014707,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575336.7557014707,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575336.7557014707,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575345.7557014707,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.7.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574288.3683384953,
+    "homogeneous_KT_bits": 574391.5141043464,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574392.5141043464,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574392.5141043464,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574401.5141043464,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47618.32859490231,
+    "homogeneous_KT_bits": 47696.38331415956,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47697.38331415956,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47697.38331415956,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47706.38331415956,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 46878.1456646048,
+    "homogeneous_KT_bits": 46956.20049218454,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 46957.20049218454,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 46957.20049218454,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 46966.20049218454,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143082.1643020445,
+    "homogeneous_KT_bits": 143171.31107314533,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143172.31107314533,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143172.31107314533,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143181.31107314533,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47676.48987643433,
+    "homogeneous_KT_bits": 47754.544591768194,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47755.544591768194,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47755.544591768194,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47764.544591768194,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47268.64380305781,
+    "homogeneous_KT_bits": 47346.69856403391,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47347.69856403391,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47347.69856403391,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47356.69856403391,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143580.53392545096,
+    "homogeneous_KT_bits": 143669.6806886454,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143670.6806886454,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143670.6806886454,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143679.6806886454,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143247.71857745113,
+    "homogeneous_KT_bits": 143336.8653462087,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143337.8653462087,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143337.8653462087,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143346.8653462087,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143221.21610751454,
+    "homogeneous_KT_bits": 143310.3628761942,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143311.3628761942,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143311.3628761942,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143320.3628761942,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575235.549693258,
+    "homogeneous_KT_bits": 575338.695458218,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575339.695458218,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575339.695458218,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575348.695458218,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.8.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574232.8647007622,
+    "homogeneous_KT_bits": 574336.0104666516,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574337.0104666516,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574337.0104666516,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574346.0104666516,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47514.51206212685,
+    "homogeneous_KT_bits": 47592.566800294146,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47593.566800294146,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47593.566800294146,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47602.566800294146,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.forget_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 46955.2738149191,
+    "homogeneous_KT_bits": 47033.328643402594,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47034.328643402594,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47034.328643402594,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47043.328643402594,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.key_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.key_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143202.96594825102,
+    "homogeneous_KT_bits": 143292.1127174268,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143293.1127174268,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143293.1127174268,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143302.1127174268,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.down.weight.q",
+    "shape": [
+      192,
+      64
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47717.05521181649,
+    "homogeneous_KT_bits": 47795.109916211266,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47796.109916211266,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47796.109916211266,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47805.109916211266,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_gate_projection.up.weight.q",
+    "shape": [
+      64,
+      192
+    ],
+    "numel": 12288,
+    "qmax": 7,
+    "entropy_bits": 47382.67336995666,
+    "homogeneous_KT_bits": 47460.72812181784,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 47461.72812181784,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 47461.72812181784,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 47470.72812181784,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 20,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 86.44720584635584,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 96.44720584635584,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.output_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143348.98079608625,
+    "homogeneous_KT_bits": 143438.12756139573,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143439.12756139573,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143439.12756139573,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143448.12756139573,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.query_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.query_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143576.68624482042,
+    "homogeneous_KT_bits": 143665.8330082889,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143666.8330082889,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143666.8330082889,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143675.8330082889,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.value_projection.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.attention.value_projection.weight.q",
+    "shape": [
+      192,
+      192
+    ],
+    "numel": 36864,
+    "qmax": 7,
+    "entropy_bits": 143253.3778360085,
+    "homogeneous_KT_bits": 143342.52460479163,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 143343.52460479163,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 143343.52460479163,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 143352.52460479163,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.mlp.down.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 18,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 84.76744778361109,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 94.76744778361109,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.mlp.down.weight.q",
+    "shape": [
+      192,
+      768
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 575124.6063080839,
+    "homogeneous_KT_bits": 575227.7520731481,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 575228.7520731481,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 575228.7520731481,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 575237.7520731481,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.mlp.up.weight.codebook",
+    "shape": [
+      15
+    ],
+    "numel": 15,
+    "qmax": 19,
+    "entropy_bits": 58.60335893412777,
+    "homogeneous_KT_bits": 85.62408360843993,
+    "matrix": false,
+    "axes": [],
+    "best_priced_bits": 95.62408360843993,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "blocks.9.mlp.up.weight.q",
+    "shape": [
+      768,
+      192
+    ],
+    "numel": 147456,
+    "qmax": 7,
+    "entropy_bits": 574282.8686444543,
+    "homogeneous_KT_bits": 574386.0144103125,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 574387.0144103125,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 574387.0144103125,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 574396.0144103125,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "embedding.weight.q",
+    "shape": [
+      205,
+      192
+    ],
+    "numel": 39360,
+    "qmax": 127,
+    "entropy_bits": 296572.45675729786,
+    "homogeneous_KT_bits": 297679.7783265063,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 297680.7783265063,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 297680.7783265063,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 297689.7783265063,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "prior_embedding.weight.q",
+    "shape": [
+      192,
+      205
+    ],
+    "numel": 39360,
+    "qmax": 127,
+    "entropy_bits": 297571.00773932337,
+    "homogeneous_KT_bits": 298678.29157714604,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 298679.29157714604,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 298679.29157714604,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 298688.29157714604,
+    "partition_gain_over_homogeneous_bits": 0.0
+  },
+  {
+    "name": "unembedding.weight.q",
+    "shape": [
+      205,
+      192
+    ],
+    "numel": 39360,
+    "qmax": 127,
+    "entropy_bits": 295930.09353183355,
+    "homogeneous_KT_bits": 297037.4487753606,
+    "matrix": true,
+    "axes": [
+      {
+        "axis": 0,
+        "bits": 297038.4487753606,
+        "splits": 0,
+        "blocks": 1
+      },
+      {
+        "axis": 1,
+        "bits": 297038.4487753606,
+        "splits": 0,
+        "blocks": 1
+      }
+    ],
+    "chosen_axis": 0,
+    "best_priced_bits": 297047.4487753606,
+    "partition_gain_over_homogeneous_bits": 0.0
+  }
+]

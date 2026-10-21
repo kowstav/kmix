@@ -1,0 +1,45 @@
+{
+  "status": "EXACT_PYTHON_RECONSTRUCTION_ALL_TABLE_VALUES",
+  "raw_sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc",
+  "source_sha256": "6eb41d6bd3c78ffdaa83854e374eb7ef4167e97f27b305c4debbd8308114e059",
+  "tables": [
+    {
+      "table": "kStretch",
+      "entries": 65536,
+      "degree": 1,
+      "packed_data_bytes": 11063,
+      "raw_bytes": 131072,
+      "candidate_bytes": {
+        "1": 11063,
+        "2": 16111
+      },
+      "values_exact": true
+    },
+    {
+      "table": "kSquash",
+      "entries": 8193,
+      "degree": 1,
+      "packed_data_bytes": 4227,
+      "raw_bytes": 16386,
+      "candidate_bytes": {
+        "1": 4227,
+        "2": 5650
+      },
+      "values_exact": true
+    },
+    {
+      "table": "kOdds",
+      "entries": 4097,
+      "degree": 2,
+      "packed_data_bytes": 8455,
+      "raw_bytes": 16388,
+      "candidate_bytes": {
+        "1": 12299,
+        "2": 8455
+      },
+      "values_exact": true
+    }
+  ],
+  "code_size_included_only_after_compilation": true,
+  "deletions": []
+}

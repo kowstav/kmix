@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_FINITE_NATIVE_CACHE_BRANCHES_FULL_RESEARCH_OPEN",
+  "first_cache_heads": 14,
+  "altered_cache_heads": 37,
+  "all_51_ideal_certificates_below_bytes": 0.05,
+  "max_certificate_gap_bytes": 0.004341157785310396,
+  "qualifying_package_result": false,
+  "twenty_percent_achieved": false,
+  "fresh_candidate_checks_evaluated": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "lexical_preparation": "COMPLETE; exact full preprocessing inverse, not entropy archive",
+  "manifests": [
+    {
+      "file": "research_round8_native_hidden_manifest.json",
+      "sha256": "c22963db59c0e9489a7487ac20478354a36d26d025c68ede386ec11d28e4f84c"
+    },
+    {
+      "file": "research_round8_hidden_cache_manifest.json",
+      "sha256": "706b9e9804bd83acb976f69dcaa5987290d7744fd36442e3e8c3e6df99e9039e"
+    },
+    {
+      "file": "research_round8_metric_cache_manifest.json",
+      "sha256": "da7fc7002aea81e5ab964930d396563c9a3950e55ceafc8fa0dcd3271b7fa120"
+    },
+    {
+      "file": "research_round8_metric_fresh_manifest.json",
+      "sha256": "7192e8e49bc833b1be9fc13774eacd756e18ab0acbc098a03bf6ae06c0644e05"
+    },
+    {
+      "file": "research_round8_lexical_full_prepare_manifest.json",
+      "sha256": "6bd5043a6535c7f544f07b8526248dc95fed47875436278ff9697c2dcfba1e35"
+    }
+  ],
+  "canonical_prepared_bytes": 587138826,
+  "canonical_prepared_sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce",
+  "new_running_branch": {
+    "experiment": "atom_cache_v1",
+    "pid": 1491
+  },
+  "reported_pending_competitor_bytes": 95914051
+}

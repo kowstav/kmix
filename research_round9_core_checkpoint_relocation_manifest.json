@@ -1,0 +1,87 @@
+{
+  "started": 1791305508.020173,
+  "reason": "working disk has220MB free; longer checkpoints use scratch; all old models downloaded locally before relocation",
+  "operation": "verified copy followed by unlink original checkpoint file; model content remains in root scratch and local workspace",
+  "deletions_of_model_content": [],
+  "moves": [
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut107_half_step128.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut107_half_step128.pt",
+      "bytes": 71227456,
+      "sha256": "3ce4e1b0b332dd1f5216b514fb73c3430f5a01e5aa793ccaef08b1e1d005beab",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut107_half_step32.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut107_half_step32.pt",
+      "bytes": 71226423,
+      "sha256": "76d44b24cd4ebb8cbf68b6f3f431fee80937fa6f5e4b8bd8d05d54ac0b78de25",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut1392_half_step128.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut1392_half_step128.pt",
+      "bytes": 71228553,
+      "sha256": "49f536eb9ac21444a833b2d106a3a3b1d5d6d1fccad67ad9be0d936929d82c3e",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut1392_half_step32.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut1392_half_step32.pt",
+      "bytes": 71227456,
+      "sha256": "d40132785392a3ea05dfa24052ea2641d94d68ece87fbe9a9464dd662175ea1e",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut1392_zero_step128.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut1392_zero_step128.pt",
+      "bytes": 71228553,
+      "sha256": "c2d626d043fc9545c884a278282398941813260560063ff01b24e7c55e11534b",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut1392_zero_step32.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut1392_zero_step32.pt",
+      "bytes": 71227456,
+      "sha256": "505601d226063636c55027de0d9cef45c14fc4e134a90808a23eeee07a3220fa",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut8372_half_step128.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut8372_half_step128.pt",
+      "bytes": 71228553,
+      "sha256": "84f866793ecfb14d58a0222202c9b3df8dd35b94c8337e196a68f1b9fce5d4e9",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/cut8372_half_step32.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/cut8372_half_step32.pt",
+      "bytes": 71227456,
+      "sha256": "c347007bb5a7c4d29f16fd288725cd7bdce3f0b8f24a5bf3c72541ebe287bcff",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/selected_core_zero_update.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/selected_core_zero_update.pt",
+      "bytes": 23878859,
+      "sha256": "37382df17413d32a521b3e93cce0d507ecc519af8bb5d8a8e344c2d50a6c7994",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/unweighted_step128.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/unweighted_step128.pt",
+      "bytes": 71226423,
+      "sha256": "667ecef73eea04cb503e2833da005f231f3503416004b3f6964807d13986e6cc",
+      "local_copy_verified_before_rpc": true
+    },
+    {
+      "source": "/kaggle/working/hp_round9/core_training_v2/unweighted_step32.pt",
+      "destination": "/root/hp_round9/preserved_core_training_v2/unweighted_step32.pt",
+      "bytes": 71225326,
+      "sha256": "a3de34f3ccee167b0124a11b81b131cc384e2bae7b45da0d2fcbb08d4a20602b",
+      "local_copy_verified_before_rpc": true
+    }
+  ],
+  "status": "COMPLETE_VERIFIED_CORE_CHECKPOINT_RELOCATION",
+  "free_working_after": 955752448
+}

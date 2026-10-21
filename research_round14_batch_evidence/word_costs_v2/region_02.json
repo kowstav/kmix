@@ -1,0 +1,924 @@
+{
+  "index": 2,
+  "scored_interval": [
+    162097152,
+    163145728
+  ],
+  "native_bits": 1390132.7125162682,
+  "categories": {
+    "body_constructor": {
+      "events": 76669,
+      "coded_bytes": 99725,
+      "native_bits": 232733.59761566948
+    },
+    "body_dictionary_other": {
+      "events": 125121,
+      "coded_bytes": 345739,
+      "native_bits": 730240.9562779851
+    },
+    "body_literal_or_oov": {
+      "events": 17735,
+      "coded_bytes": 108023,
+      "native_bits": 185842.81196962576
+    },
+    "metadata_word": {
+      "events": 6938,
+      "coded_bytes": 17286,
+      "native_bits": 14707.633578021545
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 477803,
+      "native_bits": 226607.71307496633
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 539,
+      "coded_bytes": 5145,
+      "native_bits": 15922.194060725626
+    },
+    "16": {
+      "events": 2817,
+      "coded_bytes": 22890,
+      "native_bits": 56072.27053407114
+    },
+    "64": {
+      "events": 6569,
+      "coded_bytes": 49685,
+      "native_bits": 105207.10986957466
+    },
+    "107": {
+      "events": 9204,
+      "coded_bytes": 66299,
+      "native_bits": 131901.88031926192
+    },
+    "128": {
+      "events": 10231,
+      "coded_bytes": 72097,
+      "native_bits": 141628.87316788267
+    },
+    "1024": {
+      "events": 31722,
+      "coded_bytes": 161402,
+      "native_bits": 317272.16269091517
+    },
+    "1392": {
+      "events": 36599,
+      "coded_bytes": 179466,
+      "native_bits": 353861.421946106
+    },
+    "8372": {
+      "events": 74407,
+      "coded_bytes": 294657,
+      "native_bits": 611490.6298833471
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 11654,
+      "coded_bytes": 15195,
+      "native_bits": 25881.991038313136,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "a",
+      "events": 4602,
+      "coded_bytes": 5218,
+      "native_bits": 14085.064067274798,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "in",
+      "events": 6143,
+      "coded_bytes": 6750,
+      "native_bits": 13744.713703346439,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "and",
+      "events": 5430,
+      "coded_bytes": 5468,
+      "native_bits": 12841.007559840102,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "her",
+      "events": 3265,
+      "coded_bytes": 6913,
+      "native_bits": 9370.05447430443,
+      "corpus_count": 103215
+    },
+    {
+      "word": "to",
+      "events": 3419,
+      "coded_bytes": 3496,
+      "native_bits": 6797.061014850624,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "of",
+      "events": 4916,
+      "coded_bytes": 4983,
+      "native_bits": 6460.858422947116,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "for",
+      "events": 2620,
+      "coded_bytes": 2736,
+      "native_bits": 6123.1210487233475,
+      "corpus_count": 989460
+    },
+    {
+      "word": "she",
+      "events": 2676,
+      "coded_bytes": 6310,
+      "native_bits": 6039.79503031401,
+      "corpus_count": 79893
+    },
+    {
+      "word": "was",
+      "events": 2896,
+      "coded_bytes": 2937,
+      "native_bits": 5546.987444367725,
+      "corpus_count": 816835
+    },
+    {
+      "word": "on",
+      "events": 1474,
+      "coded_bytes": 1606,
+      "native_bits": 5505.697214110289,
+      "corpus_count": 629335
+    },
+    {
+      "word": "with",
+      "events": 1491,
+      "coded_bytes": 1573,
+      "native_bits": 5388.368545616977,
+      "corpus_count": 722262
+    },
+    {
+      "word": "as",
+      "events": 1602,
+      "coded_bytes": 1692,
+      "native_bits": 5036.386591698974,
+      "corpus_count": 859588
+    },
+    {
+      "word": "at",
+      "events": 1042,
+      "coded_bytes": 1128,
+      "native_bits": 4437.608463568147,
+      "corpus_count": 445611
+    },
+    {
+      "word": "film",
+      "events": 2358,
+      "coded_bytes": 4955,
+      "native_bits": 4280.096265133936,
+      "corpus_count": 86742
+    },
+    {
+      "word": "an",
+      "events": 828,
+      "coded_bytes": 885,
+      "native_bits": 3934.4947678782046,
+      "corpus_count": 411017
+    },
+    {
+      "word": "that",
+      "events": 1053,
+      "coded_bytes": 1120,
+      "native_bits": 3671.4304394568317,
+      "corpus_count": 614666
+    },
+    {
+      "word": "by",
+      "events": 1818,
+      "coded_bytes": 1903,
+      "native_bits": 3425.499830270186,
+      "corpus_count": 722251
+    },
+    {
+      "word": "it",
+      "events": 894,
+      "coded_bytes": 1405,
+      "native_bits": 3367.806047342252,
+      "corpus_count": 549509
+    },
+    {
+      "word": "is",
+      "events": 1167,
+      "coded_bytes": 1264,
+      "native_bits": 3054.0897451969795,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "one",
+      "events": 498,
+      "coded_bytes": 601,
+      "native_bits": 3050.9647742067464,
+      "corpus_count": 227098
+    },
+    {
+      "word": "his",
+      "events": 667,
+      "coded_bytes": 737,
+      "native_bits": 3049.550730974879,
+      "corpus_count": 414734
+    },
+    {
+      "word": "from",
+      "events": 801,
+      "coded_bytes": 847,
+      "native_bits": 2956.289792493917,
+      "corpus_count": 660615
+    },
+    {
+      "word": "movie",
+      "events": 768,
+      "coded_bytes": 1580,
+      "native_bits": 2396.7390462253243,
+      "corpus_count": 29439
+    },
+    {
+      "word": "new",
+      "events": 476,
+      "coded_bytes": 1320,
+      "native_bits": 2376.0428909854963,
+      "corpus_count": 238019
+    },
+    {
+      "word": "when",
+      "events": 404,
+      "coded_bytes": 544,
+      "native_bits": 2342.0221036328003,
+      "corpus_count": 135170
+    },
+    {
+      "word": "had",
+      "events": 598,
+      "coded_bytes": 614,
+      "native_bits": 2341.1302337013185,
+      "corpus_count": 215442
+    },
+    {
+      "word": "after",
+      "events": 433,
+      "coded_bytes": 584,
+      "native_bits": 2325.509984661825,
+      "corpus_count": 155295
+    },
+    {
+      "word": "first",
+      "events": 438,
+      "coded_bytes": 901,
+      "native_bits": 2140.900155845098,
+      "corpus_count": 191198
+    },
+    {
+      "word": "but",
+      "events": 484,
+      "coded_bytes": 521,
+      "native_bits": 2105.0036139907315,
+      "corpus_count": 213851
+    },
+    {
+      "word": "he",
+      "events": 542,
+      "coded_bytes": 696,
+      "native_bits": 2073.9647334231995,
+      "corpus_count": 407951
+    },
+    {
+      "word": "musical",
+      "events": 549,
+      "coded_bytes": 1254,
+      "native_bits": 2057.354316703044,
+      "corpus_count": 17143
+    },
+    {
+      "word": "two",
+      "events": 326,
+      "coded_bytes": 407,
+      "native_bits": 1987.5271745487116,
+      "corpus_count": 174865
+    },
+    {
+      "word": "broadway",
+      "events": 485,
+      "coded_bytes": 1454,
+      "native_bits": 1981.2341245538555,
+      "corpus_count": 5124
+    },
+    {
+      "word": "which",
+      "events": 544,
+      "coded_bytes": 546,
+      "native_bits": 1971.582245228812,
+      "corpus_count": 357281
+    },
+    {
+      "word": "this",
+      "events": 346,
+      "coded_bytes": 486,
+      "native_bits": 1943.9141564690508,
+      "corpus_count": 346843
+    },
+    {
+      "word": "love",
+      "events": 404,
+      "coded_bytes": 1082,
+      "native_bits": 1918.8943582396023,
+      "corpus_count": 23177
+    },
+    {
+      "word": "hollywood",
+      "events": 505,
+      "coded_bytes": 1514,
+      "native_bits": 1905.34426525468,
+      "corpus_count": 6268
+    },
+    {
+      "word": "also",
+      "events": 419,
+      "coded_bytes": 436,
+      "native_bits": 1900.9447977393866,
+      "corpus_count": 283761
+    },
+    {
+      "word": "all",
+      "events": 282,
+      "coded_bytes": 410,
+      "native_bits": 1852.4544007228687,
+      "corpus_count": 202073
+    },
+    {
+      "word": "who",
+      "events": 637,
+      "coded_bytes": 1313,
+      "native_bits": 1847.8375873016194,
+      "corpus_count": 233489
+    },
+    {
+      "word": "stage",
+      "events": 292,
+      "coded_bytes": 639,
+      "native_bits": 1817.0105172246695,
+      "corpus_count": 13109
+    },
+    {
+      "word": "best",
+      "events": 1390,
+      "coded_bytes": 4070,
+      "native_bits": 1778.2206164845265,
+      "corpus_count": 50234
+    },
+    {
+      "word": "show",
+      "events": 307,
+      "coded_bytes": 716,
+      "native_bits": 1675.4606661652215,
+      "corpus_count": 40452
+    },
+    {
+      "word": "they",
+      "events": 326,
+      "coded_bytes": 435,
+      "native_bits": 1667.6818659715354,
+      "corpus_count": 175439
+    },
+    {
+      "word": "has",
+      "events": 396,
+      "coded_bytes": 413,
+      "native_bits": 1658.9559161555953,
+      "corpus_count": 260413
+    },
+    {
+      "word": "not",
+      "events": 394,
+      "coded_bytes": 441,
+      "native_bits": 1608.9271261980757,
+      "corpus_count": 250788
+    },
+    {
+      "word": "later",
+      "events": 273,
+      "coded_bytes": 589,
+      "native_bits": 1545.4929955033585,
+      "corpus_count": 73753
+    },
+    {
+      "word": "only",
+      "events": 214,
+      "coded_bytes": 247,
+      "native_bits": 1525.5657772282138,
+      "corpus_count": 118965
+    },
+    {
+      "word": "actress",
+      "events": 1078,
+      "coded_bytes": 2892,
+      "native_bits": 1517.308277047705,
+      "corpus_count": 14880
+    },
+    {
+      "word": "made",
+      "events": 265,
+      "coded_bytes": 546,
+      "native_bits": 1512.0753713604063,
+      "corpus_count": 110655
+    },
+    {
+      "word": "play",
+      "events": 385,
+      "coded_bytes": 804,
+      "native_bits": 1444.169565979857,
+      "corpus_count": 26316
+    },
+    {
+      "word": "during",
+      "events": 207,
+      "coded_bytes": 270,
+      "native_bits": 1426.8329761512578,
+      "corpus_count": 96460
+    },
+    {
+      "word": "their",
+      "events": 296,
+      "coded_bytes": 327,
+      "native_bits": 1412.8371631447226,
+      "corpus_count": 191581
+    },
+    {
+      "word": "american",
+      "events": 527,
+      "coded_bytes": 1581,
+      "native_bits": 1402.269248205237,
+      "corpus_count": 249128
+    },
+    {
+      "word": "life",
+      "events": 360,
+      "coded_bytes": 844,
+      "native_bits": 1374.7446472980082,
+      "corpus_count": 60713
+    },
+    {
+      "word": "three",
+      "events": 185,
+      "coded_bytes": 439,
+      "native_bits": 1329.3912774776109,
+      "corpus_count": 68880
+    },
+    {
+      "word": "then",
+      "events": 191,
+      "coded_bytes": 395,
+      "native_bits": 1296.2630585706793,
+      "corpus_count": 77782
+    },
+    {
+      "word": "star",
+      "events": 331,
+      "coded_bytes": 740,
+      "native_bits": 1294.2491246974096,
+      "corpus_count": 32247
+    },
+    {
+      "word": "many",
+      "events": 193,
+      "coded_bytes": 225,
+      "native_bits": 1291.8037004531361,
+      "corpus_count": 133670
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "beulah",
+      "events": 8,
+      "coded_bytes": 56,
+      "native_bits": 132.65463589457795,
+      "corpus_count": 162
+    },
+    {
+      "word": "modeling",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 125.46249579451978,
+      "corpus_count": 1040
+    },
+    {
+      "word": "finishing",
+      "events": 9,
+      "coded_bytes": 30,
+      "native_bits": 132.34587816894054,
+      "corpus_count": 1332
+    },
+    {
+      "word": "gossip",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 126.98608067072928,
+      "corpus_count": 446
+    },
+    {
+      "word": "mounted",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 111.16797345876694,
+      "corpus_count": 3223
+    },
+    {
+      "word": "slightly",
+      "events": 8,
+      "coded_bytes": 21,
+      "native_bits": 111.00383564271033,
+      "corpus_count": 6354
+    },
+    {
+      "word": "steel",
+      "events": 8,
+      "coded_bytes": 22,
+      "native_bits": 110.25889444444329,
+      "corpus_count": 6253
+    },
+    {
+      "word": "simultaneously",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 123.85780330002308,
+      "corpus_count": 2522
+    },
+    {
+      "word": "biographer",
+      "events": 10,
+      "coded_bytes": 33,
+      "native_bits": 136.09757716953754,
+      "corpus_count": 623
+    },
+    {
+      "word": "personally",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 108.08369934558868,
+      "corpus_count": 1877
+    },
+    {
+      "word": "tap",
+      "events": 9,
+      "coded_bytes": 31,
+      "native_bits": 119.4429201791063,
+      "corpus_count": 1026
+    },
+    {
+      "word": "finale",
+      "events": 9,
+      "coded_bytes": 32,
+      "native_bits": 118.91017955727875,
+      "corpus_count": 944
+    },
+    {
+      "word": "knowing",
+      "events": 11,
+      "coded_bytes": 39,
+      "native_bits": 145.17639507353306,
+      "corpus_count": 1666
+    },
+    {
+      "word": "staged",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 130.66157296299934,
+      "corpus_count": 1017
+    },
+    {
+      "word": "putting",
+      "events": 8,
+      "coded_bytes": 27,
+      "native_bits": 103.94219455122948,
+      "corpus_count": 2471
+    },
+    {
+      "word": "supposedly",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.62252089381218,
+      "corpus_count": 2245
+    },
+    {
+      "word": "continuing",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 116.28276486694813,
+      "corpus_count": 3299
+    },
+    {
+      "word": "posthumously",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 115.99883848428726,
+      "corpus_count": 889
+    },
+    {
+      "word": "pal",
+      "events": 8,
+      "coded_bytes": 30,
+      "native_bits": 103.02600022684783,
+      "corpus_count": 1174
+    },
+    {
+      "word": "memory",
+      "events": 11,
+      "coded_bytes": 26,
+      "native_bits": 141.4873418174684,
+      "corpus_count": 11410
+    },
+    {
+      "word": "stolen",
+      "events": 9,
+      "coded_bytes": 34,
+      "native_bits": 115.55350445350632,
+      "corpus_count": 1509
+    },
+    {
+      "word": "simple",
+      "events": 9,
+      "coded_bytes": 22,
+      "native_bits": 115.45995260588825,
+      "corpus_count": 16157
+    },
+    {
+      "word": "phone",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 115.33773258747533,
+      "corpus_count": 3785
+    },
+    {
+      "word": "legendary",
+      "events": 23,
+      "coded_bytes": 71,
+      "native_bits": 294.21960247308016,
+      "corpus_count": 3358
+    },
+    {
+      "word": "bringing",
+      "events": 8,
+      "coded_bytes": 28,
+      "native_bits": 102.15371828014031,
+      "corpus_count": 3131
+    },
+    {
+      "word": "military",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 114.71354055404663,
+      "corpus_count": 37807
+    },
+    {
+      "word": "milton",
+      "events": 9,
+      "coded_bytes": 36,
+      "native_bits": 114.59525805525482,
+      "corpus_count": 2677
+    },
+    {
+      "word": "pearl",
+      "events": 12,
+      "coded_bytes": 48,
+      "native_bits": 152.22920797253028,
+      "corpus_count": 3561
+    },
+    {
+      "word": "painted",
+      "events": 8,
+      "coded_bytes": 28,
+      "native_bits": 101.3336879471317,
+      "corpus_count": 3112
+    },
+    {
+      "word": "circus",
+      "events": 11,
+      "coded_bytes": 41,
+      "native_bits": 139.3044908954762,
+      "corpus_count": 2129
+    },
+    {
+      "word": "fun",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 101.0584238320589,
+      "corpus_count": 2523
+    },
+    {
+      "word": "talking",
+      "events": 21,
+      "coded_bytes": 66,
+      "native_bits": 265.25344538735226,
+      "corpus_count": 2423
+    },
+    {
+      "word": "preferred",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 113.5092809125781,
+      "corpus_count": 3157
+    },
+    {
+      "word": "daily",
+      "events": 8,
+      "coded_bytes": 21,
+      "native_bits": 100.87329596560448,
+      "corpus_count": 8556
+    },
+    {
+      "word": "extra",
+      "events": 10,
+      "coded_bytes": 22,
+      "native_bits": 126.08130806684494,
+      "corpus_count": 5236
+    },
+    {
+      "word": "silver",
+      "events": 13,
+      "coded_bytes": 33,
+      "native_bits": 163.7052118354477,
+      "corpus_count": 9346
+    },
+    {
+      "word": "memories",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 100.52396413683891,
+      "corpus_count": 1646
+    },
+    {
+      "word": "talkies",
+      "events": 13,
+      "coded_bytes": 40,
+      "native_bits": 163.2853027023375,
+      "corpus_count": 70
+    },
+    {
+      "word": "heavy",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 112.9118450875394,
+      "corpus_count": 11524
+    },
+    {
+      "word": "dances",
+      "events": 9,
+      "coded_bytes": 30,
+      "native_bits": 112.42550622113049,
+      "corpus_count": 1231
+    },
+    {
+      "word": "closely",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 112.27141749858856,
+      "corpus_count": 5802
+    },
+    {
+      "word": "either",
+      "events": 21,
+      "coded_bytes": 43,
+      "native_bits": 261.5919198393822,
+      "corpus_count": 24868
+    },
+    {
+      "word": "enchanted",
+      "events": 11,
+      "coded_bytes": 42,
+      "native_bits": 136.76206266880035,
+      "corpus_count": 362
+    },
+    {
+      "word": "carried",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 99.155058324337,
+      "corpus_count": 8209
+    },
+    {
+      "word": "established",
+      "events": 16,
+      "coded_bytes": 33,
+      "native_bits": 198.1168275475502,
+      "corpus_count": 22464
+    },
+    {
+      "word": "physical",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 135.36108922958374,
+      "corpus_count": 13351
+    },
+    {
+      "word": "milk",
+      "events": 14,
+      "coded_bytes": 52,
+      "native_bits": 172.16806034976617,
+      "corpus_count": 3350
+    },
+    {
+      "word": "secretly",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 98.0252034664154,
+      "corpus_count": 1231
+    },
+    {
+      "word": "alleged",
+      "events": 10,
+      "coded_bytes": 22,
+      "native_bits": 122.42550502717495,
+      "corpus_count": 3652
+    },
+    {
+      "word": "badly",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 97.85824155807495,
+      "corpus_count": 1487
+    },
+    {
+      "word": "tragedy",
+      "events": 12,
+      "coded_bytes": 38,
+      "native_bits": 146.551434897352,
+      "corpus_count": 1824
+    },
+    {
+      "word": "southern",
+      "events": 13,
+      "coded_bytes": 37,
+      "native_bits": 158.7589197801426,
+      "corpus_count": 21945
+    },
+    {
+      "word": "luck",
+      "events": 10,
+      "coded_bytes": 35,
+      "native_bits": 121.93025366496295,
+      "corpus_count": 1594
+    },
+    {
+      "word": "photos",
+      "events": 11,
+      "coded_bytes": 36,
+      "native_bits": 133.93585922196507,
+      "corpus_count": 4580
+    },
+    {
+      "word": "looked",
+      "events": 13,
+      "coded_bytes": 39,
+      "native_bits": 158.14149397611618,
+      "corpus_count": 2550
+    },
+    {
+      "word": "successfully",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 133.75564908981323,
+      "corpus_count": 4187
+    },
+    {
+      "word": "innocent",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 109.41526358108968,
+      "corpus_count": 2227
+    },
+    {
+      "word": "seriously",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 97.13522729277611,
+      "corpus_count": 2240
+    },
+    {
+      "word": "biographies",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 121.36022762954235,
+      "corpus_count": 1017
+    },
+    {
+      "word": "twenty",
+      "events": 23,
+      "coded_bytes": 49,
+      "native_bits": 279.0135135650635,
+      "corpus_count": 7248
+    }
+  ],
+  "words_file_sha256": "dafb7c633b4b830e11cd615b9dbf027e6d8ebf6b2bd5a95a846ba62bdf23ae3c",
+  "CPU_lane": 1,
+  "exact_WRT_character_crosscheck": true
+}

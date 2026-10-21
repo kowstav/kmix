@@ -1,0 +1,581 @@
+{
+  "status": "COMPLETE_CANONICAL_ROLE_RESIDUAL_DIAGNOSTIC",
+  "session": 355735431,
+  "pid": 196,
+  "started": "2026-10-06T12:17:40.031067+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "evaluations": [
+    {
+      "bytes": 524288,
+      "baseline_likelihood_bytes": 39340.25856446086,
+      "mixture_Q16_saving_bytes": 1.7397889915009728,
+      "mixture_ideal_saving_bytes": 1.7441933957888978,
+      "batch_mixture_ideal_saving_bytes": 1.7441933957161382,
+      "batch_normalizer_bits_error": -5.820766091346741e-10,
+      "mixture_hash": "564551157726317286",
+      "production_single_role_bank_nominal_bytes": 61440,
+      "unscored_parser_prefix": 43,
+      "results": [
+        {
+          "policy": 0,
+          "family": 0,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -186.62042132791976,
+          "prediction_hash": "2963899129487775821"
+        },
+        {
+          "policy": 1,
+          "family": 0,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -37.99126593628171,
+          "prediction_hash": "1706124880212440038"
+        },
+        {
+          "policy": 2,
+          "family": 0,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -131.12213721765147,
+          "prediction_hash": "7688566686465397061"
+        },
+        {
+          "policy": 3,
+          "family": 0,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -10.210145483542874,
+          "prediction_hash": "10428747287419573727"
+        },
+        {
+          "policy": 4,
+          "family": 0,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -29.38253928576887,
+          "prediction_hash": "6122495660316450433"
+        },
+        {
+          "policy": 5,
+          "family": 0,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -93.22953215250163,
+          "prediction_hash": "2640918055897142110"
+        },
+        {
+          "policy": 6,
+          "family": 0,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 1.3143675793980947,
+          "prediction_hash": "13989571127683717939"
+        },
+        {
+          "policy": 7,
+          "family": 0,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": 1.4114281168876914,
+          "prediction_hash": "17652775153207039639"
+        },
+        {
+          "policy": 8,
+          "family": 0,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -15.380669389778632,
+          "prediction_hash": "17695916569521479187"
+        },
+        {
+          "policy": 9,
+          "family": 1,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -118.15373568608629,
+          "prediction_hash": "13844529540944763253"
+        },
+        {
+          "policy": 10,
+          "family": 1,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -135.68651938799303,
+          "prediction_hash": "14326579024457864291"
+        },
+        {
+          "policy": 11,
+          "family": 1,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -388.74697176839254,
+          "prediction_hash": "15419938250252182708"
+        },
+        {
+          "policy": 12,
+          "family": 1,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -2.519256915176811,
+          "prediction_hash": "13454886980294481649"
+        },
+        {
+          "policy": 13,
+          "family": 1,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -32.85813440507627,
+          "prediction_hash": "17558274246033835774"
+        },
+        {
+          "policy": 14,
+          "family": 1,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -172.41724252649874,
+          "prediction_hash": "15367986747513830398"
+        },
+        {
+          "policy": 15,
+          "family": 1,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 1.4553311924391892,
+          "prediction_hash": "12391646112606661333"
+        },
+        {
+          "policy": 16,
+          "family": 1,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": 2.308087455763598,
+          "prediction_hash": "14777836136827841041"
+        },
+        {
+          "policy": 17,
+          "family": 1,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -11.570968312240439,
+          "prediction_hash": "18370784556549823436"
+        },
+        {
+          "policy": 18,
+          "family": 2,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -117.8475650191831,
+          "prediction_hash": "14419957401993954053"
+        },
+        {
+          "policy": 19,
+          "family": 2,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -135.4509394205743,
+          "prediction_hash": "16006274410920609410"
+        },
+        {
+          "policy": 20,
+          "family": 2,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -387.3255311280154,
+          "prediction_hash": "4509816305427429575"
+        },
+        {
+          "policy": 21,
+          "family": 2,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -2.292013432859676,
+          "prediction_hash": "16182524253653047196"
+        },
+        {
+          "policy": 22,
+          "family": 2,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -32.36540897328814,
+          "prediction_hash": "6224091653665970489"
+        },
+        {
+          "policy": 23,
+          "family": 2,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -171.86757767498784,
+          "prediction_hash": "492294451734103427"
+        },
+        {
+          "policy": 24,
+          "family": 2,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 1.4732185031534755,
+          "prediction_hash": "16510297784750892067"
+        },
+        {
+          "policy": 25,
+          "family": 2,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": 2.360659589387069,
+          "prediction_hash": "3309342161595406022"
+        },
+        {
+          "policy": 26,
+          "family": 2,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -11.320586717076367,
+          "prediction_hash": "726098192027513371"
+        }
+      ],
+      "core_unchanged": true,
+      "slice": "a",
+      "accounting": {
+        "wall_seconds": 8.025275500999669,
+        "user_seconds": 8.009496,
+        "system_seconds": 0.013996999999999999,
+        "peak_rss_kbytes": 24208,
+        "returncode": 0
+      },
+      "input_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "native_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447"
+    },
+    {
+      "bytes": 524288,
+      "baseline_likelihood_bytes": 117804.99416763497,
+      "mixture_Q16_saving_bytes": 2.652932389304624,
+      "mixture_ideal_saving_bytes": 2.647930876322789,
+      "batch_mixture_ideal_saving_bytes": 2.6479308762936853,
+      "batch_normalizer_bits_error": -2.3283064365386963e-10,
+      "mixture_hash": "1719287606129422292",
+      "production_single_role_bank_nominal_bytes": 61440,
+      "unscored_parser_prefix": 2478,
+      "results": [
+        {
+          "policy": 0,
+          "family": 0,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -437.2935464325856,
+          "prediction_hash": "11935512515861733059"
+        },
+        {
+          "policy": 1,
+          "family": 0,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -52.953256465654704,
+          "prediction_hash": "15766285357437029272"
+        },
+        {
+          "policy": 2,
+          "family": 0,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -164.96192911366234,
+          "prediction_hash": "160752328868023963"
+        },
+        {
+          "policy": 3,
+          "family": 0,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -37.33847142716695,
+          "prediction_hash": "2742141260473691836"
+        },
+        {
+          "policy": 4,
+          "family": 0,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -47.20852613594616,
+          "prediction_hash": "1229568821579148896"
+        },
+        {
+          "policy": 5,
+          "family": 0,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -125.92397297165007,
+          "prediction_hash": "4261865786867339951"
+        },
+        {
+          "policy": 6,
+          "family": 0,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 3.262495346716605,
+          "prediction_hash": "4423783083135950161"
+        },
+        {
+          "policy": 7,
+          "family": 0,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": -2.3384308556705946,
+          "prediction_hash": "7671005582343809535"
+        },
+        {
+          "policy": 8,
+          "family": 0,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -40.216695557392086,
+          "prediction_hash": "8941855665998849870"
+        },
+        {
+          "policy": 9,
+          "family": 1,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -137.5266021748248,
+          "prediction_hash": "11137027336569259036"
+        },
+        {
+          "policy": 10,
+          "family": 1,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -196.15618448228633,
+          "prediction_hash": "12671566610129094023"
+        },
+        {
+          "policy": 11,
+          "family": 1,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -623.4214412721049,
+          "prediction_hash": "10824634542934367000"
+        },
+        {
+          "policy": 12,
+          "family": 1,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -7.9675024082825985,
+          "prediction_hash": "16682240595389274236"
+        },
+        {
+          "policy": 13,
+          "family": 1,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -63.946157154176035,
+          "prediction_hash": "3355739003732872441"
+        },
+        {
+          "policy": 14,
+          "family": 1,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -293.22484850104956,
+          "prediction_hash": "9524579197058462149"
+        },
+        {
+          "policy": 15,
+          "family": 1,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 3.0130422287620604,
+          "prediction_hash": "3095070802302690391"
+        },
+        {
+          "policy": 16,
+          "family": 1,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": -1.6332611257967073,
+          "prediction_hash": "16030047908201914832"
+        },
+        {
+          "policy": 17,
+          "family": 1,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -47.94112414236588,
+          "prediction_hash": "9955238138285012952"
+        },
+        {
+          "policy": 18,
+          "family": 2,
+          "lambda": 1,
+          "eta": 0.25,
+          "Q16_saving_bytes": -137.33916939786286,
+          "prediction_hash": "7993064371962880896"
+        },
+        {
+          "policy": 19,
+          "family": 2,
+          "lambda": 1,
+          "eta": 1,
+          "Q16_saving_bytes": -194.29186015980667,
+          "prediction_hash": "5544343912799777037"
+        },
+        {
+          "policy": 20,
+          "family": 2,
+          "lambda": 1,
+          "eta": 4,
+          "Q16_saving_bytes": -614.72139529376,
+          "prediction_hash": "11302190102404975297"
+        },
+        {
+          "policy": 21,
+          "family": 2,
+          "lambda": 16,
+          "eta": 0.25,
+          "Q16_saving_bytes": -7.045910922228359,
+          "prediction_hash": "14310239584295748656"
+        },
+        {
+          "policy": 22,
+          "family": 2,
+          "lambda": 16,
+          "eta": 1,
+          "Q16_saving_bytes": -62.63768921387964,
+          "prediction_hash": "4093603317947883859"
+        },
+        {
+          "policy": 23,
+          "family": 2,
+          "lambda": 16,
+          "eta": 4,
+          "Q16_saving_bytes": -291.8531496145879,
+          "prediction_hash": "5611559696170011371"
+        },
+        {
+          "policy": 24,
+          "family": 2,
+          "lambda": 256,
+          "eta": 0.25,
+          "Q16_saving_bytes": 3.1504606887465343,
+          "prediction_hash": "1382080316198033327"
+        },
+        {
+          "policy": 25,
+          "family": 2,
+          "lambda": 256,
+          "eta": 1,
+          "Q16_saving_bytes": -0.8522036318026949,
+          "prediction_hash": "15438418770619979669"
+        },
+        {
+          "policy": 26,
+          "family": 2,
+          "lambda": 256,
+          "eta": 4,
+          "Q16_saving_bytes": -46.756769144602,
+          "prediction_hash": "258604592308678537"
+        }
+      ],
+      "core_unchanged": true,
+      "slice": "b",
+      "accounting": {
+        "wall_seconds": 8.157688146000055,
+        "user_seconds": 8.133728,
+        "system_seconds": 0.021995999999999998,
+        "peak_rss_kbytes": 24240,
+        "returncode": 0
+      },
+      "input_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e",
+      "native_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23"
+    }
+  ],
+  "confirmation_evaluated": false,
+  "advance_gate_bytes": 64,
+  "full_native_candidate": false,
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "source_hashes": [
+    {
+      "file": "research_round8_role_residual.cpp",
+      "sha256": "389a6ad976a8a8d2d0088f01313b9deeffcc95d8d5fbddd21a01ceeb24a6b0a7"
+    },
+    {
+      "file": "research_round8_role_residual_protocol.md",
+      "sha256": "124b657a8e07aab8bfb893bb2f5089ad14a61514d8fe72851e017ccfe8f5b373"
+    },
+    {
+      "file": "research_round8_role_residual_worker.py",
+      "sha256": "bd2bd50228f59a7062ec735b7920bd6dbe964187b3552b774a585d89847c5bf1"
+    },
+    {
+      "file": "research_round8_atom_cache.cpp",
+      "sha256": "615930d52fd9f7846835e0827054299dabfec4109835c0fdc672a7b39cb41a03"
+    }
+  ],
+  "stage": "finite branch complete; full native package remains open",
+  "compile": {
+    "wall_seconds": 6.617694262999976,
+    "user_seconds": 6.333335,
+    "system_seconds": 0.271153,
+    "peak_rss_kbytes": 323156,
+    "returncode": 0
+  },
+  "binary_sha256": "a11863fdfae7307adf1d3d42b39ef867d21e5950a16ab3a8ce2cd3e614f4de06",
+  "selftest_accounting": {
+    "wall_seconds": 0.0040845550001904485,
+    "user_seconds": 0.002874,
+    "system_seconds": 0.000958,
+    "peak_rss_kbytes": 22416,
+    "returncode": 0
+  },
+  "selftest": {
+    "status": "PASS",
+    "all_65535_native_identity": true,
+    "independent_toy_update": true,
+    "vocabulary_permutation_bijection": true
+  },
+  "future_accounting": {
+    "wall_seconds": 0.21614941600000748,
+    "user_seconds": 0.193928,
+    "system_seconds": 0.021991,
+    "peak_rss_kbytes": 24240,
+    "returncode": 0
+  },
+  "future_target_noninterference": "PASS",
+  "prefix_prediction_bytes_compared": 1900544,
+  "development_policy_gains_bytes": [
+    -623.9139677605053,
+    -90.94452240193641,
+    -296.0840663313138,
+    -47.548616910709825,
+    -76.59106542171503,
+    -219.1535051241517,
+    4.5768629261147,
+    -0.9270027387829032,
+    -55.59736494717072,
+    -255.6803378609111,
+    -331.84270387027937,
+    -1012.1684130404974,
+    -10.48675932345941,
+    -96.8042915592523,
+    -465.6420910275483,
+    4.46837342120125,
+    0.6748263299668906,
+    -59.51209245460632,
+    -255.18673441704595,
+    -329.74279958038096,
+    -1002.0469264217754,
+    -9.337924355088035,
+    -95.00309818716778,
+    -463.72072728957573,
+    4.62367919190001,
+    1.5084559575843741,
+    -58.07735586167837
+  ],
+  "selected_policy": 24,
+  "best_development_after_5bit_selector_bytes": 3.9986791919000098,
+  "mixture_development_saving_bytes": 4.392721380805597,
+  "advance_gate_pass": false,
+  "finished": "2026-10-06T12:18:03.113064+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.query_projection.weight.q",
+  "names": [
+    "blocks.10.attention.query_projection.weight.q"
+  ],
+  "label": "03cabe1d93869defc26ef658",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 21147
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 18877
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 19708
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 21147
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 18877
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 19708
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 21148
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 18798
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 19700
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 18199
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 18482
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 18130
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 21205
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 18917
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 19705
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 21581
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 19431
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 19973
+    }
+  ],
+  "selected": [
+    18130,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "f59794534867c1a2a4838beca1f3a99b2ca88295c4e903d0527c8f7e672c1b99",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.09885000000000162,
+  "wall_seconds": 0.10365232199998786
+}

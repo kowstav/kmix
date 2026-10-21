@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_VERIFIED_PRIVATE_CPU_PUSH",
+  "arm": "output_fp32",
+  "started": 1791591711.0746107,
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "push_exit": 0,
+  "job": {
+    "ref": "chaoscpp/hutter-r14-output-fp32-timing-abba-v1",
+    "folder": "hutter-r14-output-fp32-timing-abba-v1",
+    "main_sha256": "e3fdbec6c4993287da2075f76ff4f03d107fd0088abaeaf81e7a251ba9e07d09",
+    "workers": 4,
+    "arm": "output_fp32",
+    "region_ids": [
+      8,
+      9
+    ],
+    "lane_tasks": [
+      [
+        8,
+        "AB"
+      ],
+      [
+        8,
+        "BA"
+      ],
+      [
+        9,
+        "AB"
+      ],
+      [
+        9,
+        "BA"
+      ]
+    ]
+  },
+  "verified_push": {
+    "actual_ref": "chaoscpp/hutter-r14-output-fp32-timing-abba-v1",
+    "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-output-fp32-timing-abba-v1",
+    "version": 1
+  },
+  "finished": 1791591714.9287877
+}

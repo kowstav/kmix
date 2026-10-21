@@ -1,0 +1,924 @@
+{
+  "index": 0,
+  "scored_interval": [
+    34097152,
+    35145728
+  ],
+  "native_bits": 1690065.1024673646,
+  "categories": {
+    "body_constructor": {
+      "events": 83626,
+      "coded_bytes": 96835,
+      "native_bits": 266363.21088193543
+    },
+    "body_dictionary_other": {
+      "events": 125411,
+      "coded_bytes": 323457,
+      "native_bits": 822157.2377840099
+    },
+    "body_literal_or_oov": {
+      "events": 29797,
+      "coded_bytes": 160969,
+      "native_bits": 284343.148687521
+    },
+    "metadata_word": {
+      "events": 5294,
+      "coded_bytes": 12571,
+      "native_bits": 12624.521035758778
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 454744,
+      "native_bits": 304576.98407813953
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 1433,
+      "coded_bytes": 12874,
+      "native_bits": 40259.32469052775
+    },
+    "16": {
+      "events": 6666,
+      "coded_bytes": 53882,
+      "native_bits": 124529.62262077816
+    },
+    "64": {
+      "events": 12652,
+      "coded_bytes": 94263,
+      "native_bits": 193411.15539475903
+    },
+    "107": {
+      "events": 15963,
+      "coded_bytes": 112397,
+      "native_bits": 224834.39612194384
+    },
+    "128": {
+      "events": 17672,
+      "coded_bytes": 120912,
+      "native_bits": 238797.07657192927
+    },
+    "1024": {
+      "events": 41938,
+      "coded_bytes": 211175,
+      "native_bits": 430980.506501928
+    },
+    "1392": {
+      "events": 46372,
+      "coded_bytes": 225917,
+      "native_bits": 467563.5507339719
+    },
+    "8372": {
+      "events": 90579,
+      "coded_bytes": 349481,
+      "native_bits": 763854.211862646
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 14252,
+      "coded_bytes": 16537,
+      "native_bits": 28897.54434244288,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "in",
+      "events": 6623,
+      "coded_bytes": 7173,
+      "native_bits": 18677.324090711307,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "a",
+      "events": 5017,
+      "coded_bytes": 5610,
+      "native_bits": 16690.04851206299,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "and",
+      "events": 5920,
+      "coded_bytes": 5970,
+      "native_bits": 14550.154664381873,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "of",
+      "events": 7644,
+      "coded_bytes": 7662,
+      "native_bits": 9945.368812107481,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "for",
+      "events": 2729,
+      "coded_bytes": 2870,
+      "native_bits": 9168.818870218005,
+      "corpus_count": 989460
+    },
+    {
+      "word": "to",
+      "events": 3430,
+      "coded_bytes": 3577,
+      "native_bits": 7567.088784673251,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "as",
+      "events": 1850,
+      "coded_bytes": 1946,
+      "native_bits": 6180.216323813889,
+      "corpus_count": 859588
+    },
+    {
+      "word": "music",
+      "events": 2377,
+      "coded_bytes": 5137,
+      "native_bits": 5824.2458743248135,
+      "corpus_count": 85438
+    },
+    {
+      "word": "with",
+      "events": 1447,
+      "coded_bytes": 1486,
+      "native_bits": 5818.7011288926005,
+      "corpus_count": 722262
+    },
+    {
+      "word": "is",
+      "events": 2495,
+      "coded_bytes": 2509,
+      "native_bits": 5175.685787013732,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "by",
+      "events": 1956,
+      "coded_bytes": 1990,
+      "native_bits": 5020.837671305984,
+      "corpus_count": 722251
+    },
+    {
+      "word": "his",
+      "events": 1279,
+      "coded_bytes": 1389,
+      "native_bits": 4927.7150353891775,
+      "corpus_count": 414734
+    },
+    {
+      "word": "an",
+      "events": 836,
+      "coded_bytes": 918,
+      "native_bits": 4690.836567854509,
+      "corpus_count": 411017
+    },
+    {
+      "word": "this",
+      "events": 965,
+      "coded_bytes": 1266,
+      "native_bits": 4588.543779491447,
+      "corpus_count": 346843
+    },
+    {
+      "word": "on",
+      "events": 1177,
+      "coded_bytes": 1218,
+      "native_bits": 4573.635163388215,
+      "corpus_count": 629335
+    },
+    {
+      "word": "was",
+      "events": 1515,
+      "coded_bytes": 1542,
+      "native_bits": 4358.840176402591,
+      "corpus_count": 816835
+    },
+    {
+      "word": "from",
+      "events": 971,
+      "coded_bytes": 1021,
+      "native_bits": 4214.6029533417895,
+      "corpus_count": 660615
+    },
+    {
+      "word": "it",
+      "events": 1050,
+      "coded_bytes": 1403,
+      "native_bits": 4200.020254015923,
+      "corpus_count": 549509
+    },
+    {
+      "word": "first",
+      "events": 817,
+      "coded_bytes": 1731,
+      "native_bits": 4193.511289101094,
+      "corpus_count": 191198
+    },
+    {
+      "word": "at",
+      "events": 825,
+      "coded_bytes": 883,
+      "native_bits": 4118.663840462919,
+      "corpus_count": 445611
+    },
+    {
+      "word": "which",
+      "events": 919,
+      "coded_bytes": 922,
+      "native_bits": 3838.0960474601015,
+      "corpus_count": 357281
+    },
+    {
+      "word": "that",
+      "events": 1040,
+      "coded_bytes": 1051,
+      "native_bits": 3818.995094899088,
+      "corpus_count": 614666
+    },
+    {
+      "word": "one",
+      "events": 603,
+      "coded_bytes": 670,
+      "native_bits": 3571.980774708092,
+      "corpus_count": 227098
+    },
+    {
+      "word": "piano",
+      "events": 1041,
+      "coded_bytes": 2477,
+      "native_bits": 3523.706559690181,
+      "corpus_count": 6733
+    },
+    {
+      "word": "or",
+      "events": 750,
+      "coded_bytes": 752,
+      "native_bits": 3328.5684668794274,
+      "corpus_count": 534276
+    },
+    {
+      "word": "work",
+      "events": 641,
+      "coded_bytes": 1294,
+      "native_bits": 3015.920536270365,
+      "corpus_count": 57046
+    },
+    {
+      "word": "musical",
+      "events": 502,
+      "coded_bytes": 1142,
+      "native_bits": 2994.3110941536725,
+      "corpus_count": 17143
+    },
+    {
+      "word": "two",
+      "events": 550,
+      "coded_bytes": 582,
+      "native_bits": 2963.0956463562325,
+      "corpus_count": 174865
+    },
+    {
+      "word": "works",
+      "events": 750,
+      "coded_bytes": 1644,
+      "native_bits": 2834.0397860636003,
+      "corpus_count": 27806
+    },
+    {
+      "word": "he",
+      "events": 909,
+      "coded_bytes": 1167,
+      "native_bits": 2828.5554143562913,
+      "corpus_count": 407951
+    },
+    {
+      "word": "also",
+      "events": 553,
+      "coded_bytes": 584,
+      "native_bits": 2573.1056345291436,
+      "corpus_count": 283761
+    },
+    {
+      "word": "movement",
+      "events": 795,
+      "coded_bytes": 1617,
+      "native_bits": 2467.824064396322,
+      "corpus_count": 21912
+    },
+    {
+      "word": "string",
+      "events": 786,
+      "coded_bytes": 1836,
+      "native_bits": 2429.135156047996,
+      "corpus_count": 6955
+    },
+    {
+      "word": "symphony",
+      "events": 931,
+      "coded_bytes": 3451,
+      "native_bits": 2387.0838754260913,
+      "corpus_count": 4893
+    },
+    {
+      "word": "more",
+      "events": 405,
+      "coded_bytes": 423,
+      "native_bits": 2369.9349359236658,
+      "corpus_count": 183919
+    },
+    {
+      "word": "no",
+      "events": 1547,
+      "coded_bytes": 2924,
+      "native_bits": 2282.8129437151365,
+      "corpus_count": 163977
+    },
+    {
+      "word": "other",
+      "events": 414,
+      "coded_bytes": 470,
+      "native_bits": 2258.8033197158948,
+      "corpus_count": 220546
+    },
+    {
+      "word": "classical",
+      "events": 570,
+      "coded_bytes": 1326,
+      "native_bits": 2240.0011313334107,
+      "corpus_count": 13222
+    },
+    {
+      "word": "three",
+      "events": 367,
+      "coded_bytes": 761,
+      "native_bits": 2215.91366584599,
+      "corpus_count": 68880
+    },
+    {
+      "word": "four",
+      "events": 387,
+      "coded_bytes": 829,
+      "native_bits": 2191.320339066442,
+      "corpus_count": 41483
+    },
+    {
+      "word": "new",
+      "events": 366,
+      "coded_bytes": 948,
+      "native_bits": 2073.465060613118,
+      "corpus_count": 238019
+    },
+    {
+      "word": "not",
+      "events": 490,
+      "coded_bytes": 502,
+      "native_bits": 2068.4306596443057,
+      "corpus_count": 250788
+    },
+    {
+      "word": "most",
+      "events": 394,
+      "coded_bytes": 420,
+      "native_bits": 2068.040342256427,
+      "corpus_count": 143210
+    },
+    {
+      "word": "often",
+      "events": 325,
+      "coded_bytes": 333,
+      "native_bits": 2053.676508165896,
+      "corpus_count": 69689
+    },
+    {
+      "word": "all",
+      "events": 321,
+      "coded_bytes": 363,
+      "native_bits": 2039.9384362343699,
+      "corpus_count": 202073
+    },
+    {
+      "word": "solo",
+      "events": 299,
+      "coded_bytes": 621,
+      "native_bits": 2017.7287699454464,
+      "corpus_count": 6099
+    },
+    {
+      "word": "has",
+      "events": 419,
+      "coded_bytes": 421,
+      "native_bits": 1972.3659343123436,
+      "corpus_count": 260413
+    },
+    {
+      "word": "violin",
+      "events": 603,
+      "coded_bytes": 2075,
+      "native_bits": 1966.5189611446112,
+      "corpus_count": 2680
+    },
+    {
+      "word": "many",
+      "events": 294,
+      "coded_bytes": 348,
+      "native_bits": 1933.2874744087458,
+      "corpus_count": 133670
+    },
+    {
+      "word": "are",
+      "events": 771,
+      "coded_bytes": 771,
+      "native_bits": 1927.112335825339,
+      "corpus_count": 854954
+    },
+    {
+      "word": "piece",
+      "events": 343,
+      "coded_bytes": 687,
+      "native_bits": 1906.2628033775836,
+      "corpus_count": 7564
+    },
+    {
+      "word": "some",
+      "events": 280,
+      "coded_bytes": 335,
+      "native_bits": 1894.800750169903,
+      "corpus_count": 152592
+    },
+    {
+      "word": "its",
+      "events": 332,
+      "coded_bytes": 355,
+      "native_bits": 1862.3029995895922,
+      "corpus_count": 180846
+    },
+    {
+      "word": "such",
+      "events": 341,
+      "coded_bytes": 353,
+      "native_bits": 1858.0842872262,
+      "corpus_count": 124519
+    },
+    {
+      "word": "but",
+      "events": 421,
+      "coded_bytes": 446,
+      "native_bits": 1839.1962044490501,
+      "corpus_count": 213851
+    },
+    {
+      "word": "form",
+      "events": 492,
+      "coded_bytes": 1000,
+      "native_bits": 1822.2492483044043,
+      "corpus_count": 48561
+    },
+    {
+      "word": "composers",
+      "events": 486,
+      "coded_bytes": 1023,
+      "native_bits": 1745.1430640616454,
+      "corpus_count": 3845
+    },
+    {
+      "word": "there",
+      "events": 271,
+      "coded_bytes": 364,
+      "native_bits": 1730.9826140645891,
+      "corpus_count": 311572
+    },
+    {
+      "word": "orchestra",
+      "events": 524,
+      "coded_bytes": 1233,
+      "native_bits": 1704.6364100151695,
+      "corpus_count": 6022
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "gross",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 126.14719915762544,
+      "corpus_count": 2209
+    },
+    {
+      "word": "quasi",
+      "events": 12,
+      "coded_bytes": 42,
+      "native_bits": 188.97380296885967,
+      "corpus_count": 913
+    },
+    {
+      "word": "entrance",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 123.90779531747103,
+      "corpus_count": 3024
+    },
+    {
+      "word": "dawn",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 123.51917888224125,
+      "corpus_count": 2495
+    },
+    {
+      "word": "fortissimo",
+      "events": 11,
+      "coded_bytes": 110,
+      "native_bits": 169.58098971284926,
+      "corpus_count": 24
+    },
+    {
+      "word": "septet",
+      "events": 8,
+      "coded_bytes": 55,
+      "native_bits": 121.18125454336405,
+      "corpus_count": 21
+    },
+    {
+      "word": "remote",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 120.64387345314026,
+      "corpus_count": 2953
+    },
+    {
+      "word": "diverse",
+      "events": 12,
+      "coded_bytes": 24,
+      "native_bits": 176.99081707000732,
+      "corpus_count": 2711
+    },
+    {
+      "word": "musically",
+      "events": 10,
+      "coded_bytes": 33,
+      "native_bits": 147.11664301156998,
+      "corpus_count": 377
+    },
+    {
+      "word": "faster",
+      "events": 13,
+      "coded_bytes": 27,
+      "native_bits": 189.314519751817,
+      "corpus_count": 3556
+    },
+    {
+      "word": "unusually",
+      "events": 10,
+      "coded_bytes": 32,
+      "native_bits": 145.45738017559052,
+      "corpus_count": 1051
+    },
+    {
+      "word": "naxos",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 115.87264778651297,
+      "corpus_count": 214
+    },
+    {
+      "word": "pastoral",
+      "events": 14,
+      "coded_bytes": 52,
+      "native_bits": 202.73740587662905,
+      "corpus_count": 668
+    },
+    {
+      "word": "introductory",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 130.19370651245117,
+      "corpus_count": 602
+    },
+    {
+      "word": "winds",
+      "events": 14,
+      "coded_bytes": 45,
+      "native_bits": 202.07927862834185,
+      "corpus_count": 1962
+    },
+    {
+      "word": "sonoclip",
+      "events": 8,
+      "coded_bytes": 68,
+      "native_bits": 113.82253607548773,
+      "corpus_count": 8
+    },
+    {
+      "word": "contrasts",
+      "events": 12,
+      "coded_bytes": 37,
+      "native_bits": 170.30727422237396,
+      "corpus_count": 622
+    },
+    {
+      "word": "violinists",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 112.44295808300376,
+      "corpus_count": 110
+    },
+    {
+      "word": "plan",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 111.89753675460815,
+      "corpus_count": 10402
+    },
+    {
+      "word": "interspersed",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 125.441769041121,
+      "corpus_count": 302
+    },
+    {
+      "word": "peters",
+      "events": 8,
+      "coded_bytes": 31,
+      "native_bits": 111.08426850195974,
+      "corpus_count": 875
+    },
+    {
+      "word": "ground",
+      "events": 14,
+      "coded_bytes": 31,
+      "native_bits": 194.2661731885746,
+      "corpus_count": 14057
+    },
+    {
+      "word": "scoring",
+      "events": 14,
+      "coded_bytes": 44,
+      "native_bits": 194.00034153461456,
+      "corpus_count": 2108
+    },
+    {
+      "word": "flowing",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 151.95406287908554,
+      "corpus_count": 1498
+    },
+    {
+      "word": "maestoso",
+      "events": 8,
+      "coded_bytes": 65,
+      "native_bits": 109.83022669516504,
+      "corpus_count": 15
+    },
+    {
+      "word": "mollina",
+      "events": 8,
+      "coded_bytes": 64,
+      "native_bits": 109.68789225816727,
+      "corpus_count": 9
+    },
+    {
+      "word": "serenade",
+      "events": 14,
+      "coded_bytes": 122,
+      "native_bits": 190.87995698302984,
+      "corpus_count": 200
+    },
+    {
+      "word": "notated",
+      "events": 21,
+      "coded_bytes": 63,
+      "native_bits": 286.3040249943733,
+      "corpus_count": 114
+    },
+    {
+      "word": "trains",
+      "events": 10,
+      "coded_bytes": 33,
+      "native_bits": 135.44819055870175,
+      "corpus_count": 4046
+    },
+    {
+      "word": "extraordinary",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 108.28675086423755,
+      "corpus_count": 1703
+    },
+    {
+      "word": "storm",
+      "events": 11,
+      "coded_bytes": 35,
+      "native_bits": 148.83472717180848,
+      "corpus_count": 4442
+    },
+    {
+      "word": "ababa",
+      "events": 10,
+      "coded_bytes": 40,
+      "native_bits": 135.24925935082138,
+      "corpus_count": 221
+    },
+    {
+      "word": "finishing",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 134.36159018427134,
+      "corpus_count": 1332
+    },
+    {
+      "word": "joyful",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 120.44470155239105,
+      "corpus_count": 142
+    },
+    {
+      "word": "crucial",
+      "events": 12,
+      "coded_bytes": 37,
+      "native_bits": 160.30816328525543,
+      "corpus_count": 1655
+    },
+    {
+      "word": "meditation",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 133.45627457648516,
+      "corpus_count": 1271
+    },
+    {
+      "word": "dotted",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 133.21976347640157,
+      "corpus_count": 302
+    },
+    {
+      "word": "musicmavericks",
+      "events": 10,
+      "coded_bytes": 134,
+      "native_bits": 133.1614399868995,
+      "corpus_count": 17
+    },
+    {
+      "word": "chromaticism",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 119.7090125977993,
+      "corpus_count": 42
+    },
+    {
+      "word": "strongly",
+      "events": 12,
+      "coded_bytes": 25,
+      "native_bits": 159.30793833732605,
+      "corpus_count": 4801
+    },
+    {
+      "word": "ignaz",
+      "events": 9,
+      "coded_bytes": 54,
+      "native_bits": 118.90242580231279,
+      "corpus_count": 170
+    },
+    {
+      "word": "gigue",
+      "events": 12,
+      "coded_bytes": 66,
+      "native_bits": 158.46402726043016,
+      "corpus_count": 43
+    },
+    {
+      "word": "treatment",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 118.43691539764404,
+      "corpus_count": 8910
+    },
+    {
+      "word": "freely",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 131.52514040470123,
+      "corpus_count": 1818
+    },
+    {
+      "word": "titled",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 105.1923258304596,
+      "corpus_count": 4220
+    },
+    {
+      "word": "mighty",
+      "events": 12,
+      "coded_bytes": 37,
+      "native_bits": 157.40276544494554,
+      "corpus_count": 1498
+    },
+    {
+      "word": "rehearsal",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 104.76536597684026,
+      "corpus_count": 277
+    },
+    {
+      "word": "recurring",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 104.42861030995846,
+      "corpus_count": 1659
+    },
+    {
+      "word": "arch",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 104.35862381476909,
+      "corpus_count": 2284
+    },
+    {
+      "word": "custom",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 104.35630297660828,
+      "corpus_count": 3018
+    },
+    {
+      "word": "growing",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 130.41077022254467,
+      "corpus_count": 7984
+    },
+    {
+      "word": "ascending",
+      "events": 8,
+      "coded_bytes": 27,
+      "native_bits": 104.2988906307146,
+      "corpus_count": 470
+    },
+    {
+      "word": "sudden",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 104.25109702348709,
+      "corpus_count": 1784
+    },
+    {
+      "word": "fate",
+      "events": 9,
+      "coded_bytes": 31,
+      "native_bits": 117.0975517546758,
+      "corpus_count": 2866
+    },
+    {
+      "word": "bird",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 116.95429444685578,
+      "corpus_count": 8006
+    },
+    {
+      "word": "mature",
+      "events": 14,
+      "coded_bytes": 42,
+      "native_bits": 181.7134383916855,
+      "corpus_count": 1542
+    },
+    {
+      "word": "reprise",
+      "events": 8,
+      "coded_bytes": 28,
+      "native_bits": 103.71915654279292,
+      "corpus_count": 470
+    },
+    {
+      "word": "marimba",
+      "events": 8,
+      "coded_bytes": 59,
+      "native_bits": 103.68738799728453,
+      "corpus_count": 121
+    },
+    {
+      "word": "dedication",
+      "events": 12,
+      "coded_bytes": 37,
+      "native_bits": 155.33096945658326,
+      "corpus_count": 723
+    },
+    {
+      "word": "running",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 103.46128582954407,
+      "corpus_count": 11673
+    }
+  ],
+  "words_file_sha256": "b4fca6b858f8e608c94a59c6cc3945044dd05f6b7786ba877a198c3c90e8d93e",
+  "CPU_lane": 0,
+  "exact_WRT_character_crosscheck": true
+}

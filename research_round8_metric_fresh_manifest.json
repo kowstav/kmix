@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_FRESH_NATIVE_BASELINES_UNEXAMINED_BY_CANDIDATE",
+  "pid": 1393,
+  "started": "2026-10-06T09:32:14.551472+00:00",
+  "registered_offsets": {
+    "g": 310000000,
+    "h": 520000000
+  },
+  "length": 131072,
+  "core_retraining": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "scope": "fresh cold-native baselines; no candidate labels evaluated",
+  "exports": [
+    {
+      "name": "g",
+      "offset": 310000000,
+      "input_sha256": "5ea413c7a9eb9cc2f315be2568ae7f837249f5bb7ef46c43a34730160d5c0791",
+      "hidden_sha256": "f3869dd1a8bb1aa94ee65746e6dce69e09695784eb14d3d9ceb81a0f04105b12",
+      "final_p_sha256": "f7e04482db4f25c11b46c27adc273fbc1a9e26b1588bd9cc4a6802c1d7bcac5d",
+      "archive_sha256": "b911be5d12b7ddfb220d694976eae412d6df11a0fcb0affc83f2d8d0c6268096",
+      "archive_bytes": 29214,
+      "raw_decode_exact": true,
+      "encode_decode_hidden_equal": true,
+      "encode": {
+        "wall_seconds": 128.5628955609991,
+        "user_seconds": 121.649419,
+        "system_seconds": 6.86733,
+        "max_rss_kbytes": 5963584,
+        "returncode": 0
+      },
+      "decode": {
+        "wall_seconds": 126.25781306799945,
+        "user_seconds": 119.528718,
+        "system_seconds": 6.689641,
+        "max_rss_kbytes": 5963472,
+        "returncode": 0
+      }
+    },
+    {
+      "name": "h",
+      "offset": 520000000,
+      "input_sha256": "1105c4ba4a44afa8f67b4ae365f735615419a3fa5f106aac2c5e6158830e31d5",
+      "hidden_sha256": "0b0905f3f1241fbec49d0df73b55abd07f8bc6f14a54b80e3a5964dff75221b0",
+      "final_p_sha256": "0d6e03006b918145f40062db62bc5c215dc247e1aac07785de5439e417426449",
+      "archive_sha256": "581d7b6fa72e5c76a0833176736a317a164606daa5cd63782728e267ec85d4a9",
+      "archive_bytes": 13991,
+      "raw_decode_exact": true,
+      "encode_decode_hidden_equal": true,
+      "encode": {
+        "wall_seconds": 127.62128046500038,
+        "user_seconds": 120.85834,
+        "system_seconds": 6.700632,
+        "max_rss_kbytes": 5894320,
+        "returncode": 0
+      },
+      "decode": {
+        "wall_seconds": 124.40796920899993,
+        "user_seconds": 117.419771,
+        "system_seconds": 6.932215,
+        "max_rss_kbytes": 5894144,
+        "returncode": 0
+      }
+    }
+  ],
+  "binary_sha256": "dd5c79d76ba850b5d61570faaad3a7761f4357d01d7b390c468d8e11fdd5b0ce",
+  "weights_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+  "finished": "2026-10-06T09:40:41.704678+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.6.attention.value_convolution.weight",
+  "names": [
+    "blocks.6.attention.value_convolution.weight"
+  ],
+  "label": "b07503b789759f67d88c80af",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1459
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1464
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1433
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1445
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1459
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1568
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1459
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1482
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1464
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1694
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1433,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "53f21bc242c0ed968445d94969a48621f43836becb7214b976522255d79dd415",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.014664000000000094,
+  "wall_seconds": 0.018784955999990416
+}

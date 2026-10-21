@@ -1,0 +1,842 @@
+{
+  "status": "COMPLETE_CAUSAL_WORD_SPELLING_GLYPH_GRAMMAR_COMBINATION_SCREEN",
+  "pid": 2248,
+  "started": 1791307974.622727,
+  "scope": "causal completed-word letter/shape/placement combinations with matched controls; core frozen",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [
+    {
+      "key": "native_control_seed6706",
+      "step": 128,
+      "training_seconds": 1.2850625409992062,
+      "checkpoint_sha256": "60dc74ebc5110f109d1cf4dcd3613bcfa1300ffa0e4b1d54dd29ba3a0575e9d9",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/native_control_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29189
+    },
+    {
+      "key": "identity_seed6706",
+      "step": 128,
+      "training_seconds": 0.7566215359984199,
+      "checkpoint_sha256": "3f320a10c96e9e8f8390ed9a56e649bcab7f2495fa729ebce4985442c1e47122",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/identity_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29193
+    },
+    {
+      "key": "bag_positions_seed6706",
+      "step": 128,
+      "training_seconds": 0.7679753089978476,
+      "checkpoint_sha256": "a9b0d11d557cd751ec08bd4b9aa79c30f2b74491c302a1e6140c2af7f4f76d55",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/bag_positions_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29195
+    },
+    {
+      "key": "glyph_seed6706",
+      "step": 128,
+      "training_seconds": 0.758516451001924,
+      "checkpoint_sha256": "549676d9b5e53e945a08399afdeacd2c92a84007ad0568979e231440067bdced",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/glyph_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29196
+    },
+    {
+      "key": "grammar_seed6706",
+      "step": 128,
+      "training_seconds": 0.7512415490018611,
+      "checkpoint_sha256": "fdf21a74de31ed6535842d964646629ea3d6149b8d45099e1a579f4e5b15f157",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29192
+    },
+    {
+      "key": "spelling_grammar_seed6706",
+      "step": 128,
+      "training_seconds": 0.767774815998564,
+      "checkpoint_sha256": "fd7e31833b81feaf562bf535f42ee5230e487c6ae673d8f8f54ec90fad644b90",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_grammar_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29192
+    },
+    {
+      "key": "spelling_cross_seed6706",
+      "step": 128,
+      "training_seconds": 0.7391903809984797,
+      "checkpoint_sha256": "c82d603d9b6a1676c7deae666a3d0c38180b9f76b2f126a13cdeed7268e83bd2",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_cross_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29190
+    },
+    {
+      "key": "all_seed6706",
+      "step": 128,
+      "training_seconds": 0.7341054120006447,
+      "checkpoint_sha256": "3e2e5e699656569c4a543f8ee14319d8beadb9603baed3ac4f82529458805ea9",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/all_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29179
+    },
+    {
+      "key": "random_word_vectors_seed6706",
+      "step": 128,
+      "training_seconds": 0.7267315719982435,
+      "checkpoint_sha256": "c0ef64b3cc44aefbfa89c8baa290f3395e034ea9a11e56cd6efbbd8231179cc3",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/random_word_vectors_seed6706_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29179
+    },
+    {
+      "key": "native_control_seed6707",
+      "step": 128,
+      "training_seconds": 0.7584171790003893,
+      "checkpoint_sha256": "1e22aeeb2fbb2d01ed1e2aa1febd1899f45de6cf937a4aef27cbd4f05faa95ab",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/native_control_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29200
+    },
+    {
+      "key": "identity_seed6707",
+      "step": 128,
+      "training_seconds": 0.7471304609971412,
+      "checkpoint_sha256": "b9aa5bc68172064038c8a82da03819f5fefa7d573bd3348ea8646eb5cd1646ed",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/identity_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29205
+    },
+    {
+      "key": "bag_positions_seed6707",
+      "step": 128,
+      "training_seconds": 0.7515308500005631,
+      "checkpoint_sha256": "df0c81b5952119001a2ec1a4d204eb7d9c2358df9b0cd813eb23faa6198a81f2",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/bag_positions_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29207
+    },
+    {
+      "key": "glyph_seed6707",
+      "step": 128,
+      "training_seconds": 0.8134881600017252,
+      "checkpoint_sha256": "efac5157b83b521cbc7b25c84731d5c9f113d10f19621faac7ff9ab32d6f7691",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/glyph_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29191
+    },
+    {
+      "key": "grammar_seed6707",
+      "step": 128,
+      "training_seconds": 0.7492579789977754,
+      "checkpoint_sha256": "afb3cc5d3decad13f286a478be756e952da0c66d35f7cd35dc5feeef2432631c",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29207
+    },
+    {
+      "key": "spelling_grammar_seed6707",
+      "step": 128,
+      "training_seconds": 0.5514403350025532,
+      "checkpoint_sha256": "2033ddffe342a98187dab912e972e28c09ac8711e4088e58e4b7d8212b8a48a8",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_grammar_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29198
+    },
+    {
+      "key": "spelling_cross_seed6707",
+      "step": 128,
+      "training_seconds": 0.5151606280014676,
+      "checkpoint_sha256": "d5892701902bd2c2ab93c2b23eea24742eaef2e3972a43bd26240a0061408472",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_cross_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29199
+    },
+    {
+      "key": "all_seed6707",
+      "step": 128,
+      "training_seconds": 0.4940369860014471,
+      "checkpoint_sha256": "b4d8cbb93e186c7d14256144a9c8162a3aa464fa6453e56ca13f95db13fbc56c",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/all_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29227
+    },
+    {
+      "key": "random_word_vectors_seed6707",
+      "step": 128,
+      "training_seconds": 0.5135821969997778,
+      "checkpoint_sha256": "d87356c19d5210f6c56273808de02293b36cd894ab64885e70b757e2f5233994",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/random_word_vectors_seed6707_step128.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29216
+    },
+    {
+      "key": "native_control_seed6706",
+      "step": 384,
+      "training_seconds": 1.0491447370004607,
+      "checkpoint_sha256": "4402b3ca9a3e5a75eba4191b8e3d2ee580f676cf59e5de5d08c32e65f57d0d67",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/native_control_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29184,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.93143250966595,
+          "gain_vs_wide_bytes": -0.25689657099932006,
+          "Q16_sha256": "1c3e4507e67b5bd6912a9e5c66fc0e13c027624bf9ce762493ea994531125fea"
+        },
+        {
+          "gain_vs_native_bytes": 126.8702143498806,
+          "gain_vs_wide_bytes": -0.01875324510607048,
+          "Q16_sha256": "015556dc26947818ffd9be6af73ca4cf310466a4797a08e64d0878f056653bd5"
+        }
+      ]
+    },
+    {
+      "key": "identity_seed6706",
+      "step": 384,
+      "training_seconds": 1.1054642950002744,
+      "checkpoint_sha256": "24ddac87ac53a00aee0b25da02ab7e1194f60df31c3a5a274a3e0341787c3557",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/identity_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29182,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.7547446850884,
+          "gain_vs_wide_bytes": -0.4335843955771495,
+          "Q16_sha256": "c04eca842f0a6c9160157e5b076fd4cd1875953c217ac4a481adc803a226871a"
+        },
+        {
+          "gain_vs_native_bytes": 126.90342318542461,
+          "gain_vs_wide_bytes": 0.014455590438008105,
+          "Q16_sha256": "3d2bcf27e2f0592be38b95b13704605b8d1a74d212b8405661af7ff64e4d4ea7"
+        }
+      ]
+    },
+    {
+      "key": "bag_positions_seed6706",
+      "step": 384,
+      "training_seconds": 1.3336879740018048,
+      "checkpoint_sha256": "4c010cf02202780548308ce0f6cf53926e4b5aeded15e4486501e6f5e63cdde5",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/bag_positions_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29223,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.73352386307178,
+          "gain_vs_wide_bytes": -0.454805217593564,
+          "Q16_sha256": "c471a7f6c9d061c756f26077eac1ec7a44019a8b1b7f3423efb407468daef58c"
+        },
+        {
+          "gain_vs_native_bytes": 126.8794011875652,
+          "gain_vs_wide_bytes": -0.00956640742141954,
+          "Q16_sha256": "82da819920c030ab2fef9a53520a67361b5d4080fff3c01e3ed4b6fe31ba1882"
+        }
+      ]
+    },
+    {
+      "key": "glyph_seed6706",
+      "step": 384,
+      "training_seconds": 1.5558116259999224,
+      "checkpoint_sha256": "33b9ec70dc5714d5d4696edae4bdbcf91256d9e9f628a3e99d84bd5f91d06870",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/glyph_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29199,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.93715640967046,
+          "gain_vs_wide_bytes": -0.2511726709947916,
+          "Q16_sha256": "1771cc167382a3bea65836d48af561708d057498613fe9b9bc21cb1214b94cd0"
+        },
+        {
+          "gain_vs_native_bytes": 126.8725265216398,
+          "gain_vs_wide_bytes": -0.016441073346927612,
+          "Q16_sha256": "069f93c9f8387d7acacd9724660fdd12c5fd99f9ba2cc740cbddf4b24d292a2a"
+        }
+      ]
+    },
+    {
+      "key": "grammar_seed6706",
+      "step": 384,
+      "training_seconds": 1.6131922239983396,
+      "checkpoint_sha256": "2c82a363f4904891f7e0b93dec1af8bde73b6a7f339ed9a0850820db6e31994c",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29188,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.95197159421801,
+          "gain_vs_wide_bytes": -0.236357486447215,
+          "Q16_sha256": "b2a2d9ae3a0b59ec3c4fe3f0814d80335e14ec394deee33660bd99d1d82282f9"
+        },
+        {
+          "gain_vs_native_bytes": 126.85396440216591,
+          "gain_vs_wide_bytes": -0.03500319282066837,
+          "Q16_sha256": "44f57ee2138f8c61dc560b42dcd5d3fd2d30b9b15aa58047c3db2a67c3b7a0fe"
+        }
+      ]
+    },
+    {
+      "key": "spelling_grammar_seed6706",
+      "step": 384,
+      "training_seconds": 1.6436352169985184,
+      "checkpoint_sha256": "99cb0b938b681114cd1e5e44f0550bfee4904e3d719fc3c2f9531cb36c90f346",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_grammar_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29207,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.8164014019766,
+          "gain_vs_wide_bytes": -0.37192767868862087,
+          "Q16_sha256": "934b2b9fcb9c9cfe2fe893fa19210add03e9f9dba1b46e0149c889fae9eada93"
+        },
+        {
+          "gain_vs_native_bytes": 126.85990892775563,
+          "gain_vs_wide_bytes": -0.02905866723099553,
+          "Q16_sha256": "685c2579227f660f952e6f1cc3ff7e4aa399dab93eee3c792c84672bbb50791a"
+        }
+      ]
+    },
+    {
+      "key": "spelling_cross_seed6706",
+      "step": 384,
+      "training_seconds": 1.5948153520002961,
+      "checkpoint_sha256": "09fb8b5070774a047ca26bbe9c4f1f1a36d521e79045001545b18c8c040e6ae1",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_cross_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29220,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.8366496226494,
+          "gain_vs_wide_bytes": -0.35167945801587047,
+          "Q16_sha256": "3b92417f58aed85331592a0b6453e86f824cdc0d5e08cf33e59332cc714f94da"
+        },
+        {
+          "gain_vs_native_bytes": 126.86599633367746,
+          "gain_vs_wide_bytes": -0.02297126130927652,
+          "Q16_sha256": "b70899e94ae1fe1644fb789b1933931445ecac39e6289f01360d3a975a513099"
+        }
+      ]
+    },
+    {
+      "key": "all_seed6706",
+      "step": 384,
+      "training_seconds": 1.4424114549983642,
+      "checkpoint_sha256": "0798d15d3adfb8618ab73ac799465c3be5af1218160847495e7c7d22681c0ee2",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/all_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29206,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.71238618396052,
+          "gain_vs_wide_bytes": -0.475942896704856,
+          "Q16_sha256": "1f5939bfa0306fe159872958cc6354b6d03438e6f4bdd9d5b487d3b4b632139f"
+        },
+        {
+          "gain_vs_native_bytes": 126.89000505476113,
+          "gain_vs_wide_bytes": 0.0010374597745664111,
+          "Q16_sha256": "4dc04c9095c99bcbecb0c38f4f506e41d92731ee4596cbce20f1a478e88c74c9"
+        }
+      ]
+    },
+    {
+      "key": "random_word_vectors_seed6706",
+      "step": 384,
+      "training_seconds": 1.513063072998193,
+      "checkpoint_sha256": "35ebbff50d2b54d97430ea2e167abbc7f006e140a22fb1f5f988e802ff512da2",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/random_word_vectors_seed6706_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29224,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.79659444927218,
+          "gain_vs_wide_bytes": -0.39173463139324755,
+          "Q16_sha256": "c0f3a4e5d92fda791eda4e99c801819de30a9b405fffd700d005f0be3ac9156b"
+        },
+        {
+          "gain_vs_native_bytes": 126.90289056044946,
+          "gain_vs_wide_bytes": 0.013922965462892734,
+          "Q16_sha256": "f6ef1789e1a37f3b8915d30d5b2b54fa2683e1e79cdad81682a45592564c82e0"
+        }
+      ]
+    },
+    {
+      "key": "native_control_seed6707",
+      "step": 384,
+      "training_seconds": 1.5114955579992966,
+      "checkpoint_sha256": "12bcb46505df2d6757a53adae1c858af47fa2059a7f3f89488b5ad13ff3fbd2c",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/native_control_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29203,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.87243717706701,
+          "gain_vs_wide_bytes": -0.3158919035981795,
+          "Q16_sha256": "0f6c5635fbef2b3f0c3fe060e1dd32590cee062d3d605048bdb08ae56b9b0d0f"
+        },
+        {
+          "gain_vs_native_bytes": 126.63975153530572,
+          "gain_vs_wide_bytes": -0.24921605968083663,
+          "Q16_sha256": "19499c1b42a20479518b96012cdbcd5671fe851cc70cd8134c356b5df4847629"
+        }
+      ]
+    },
+    {
+      "key": "identity_seed6707",
+      "step": 384,
+      "training_seconds": 1.5296008330005861,
+      "checkpoint_sha256": "ebbc84c63e71c5d46de52f6729723564d454bac0e8fef7feeff62058e44c0643",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/identity_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29218,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.89772831902393,
+          "gain_vs_wide_bytes": -0.290600761641332,
+          "Q16_sha256": "175e71d84f4caf5bfb761136e613b9daa4a749ea0222f4cdbe514da072f3ca8c"
+        },
+        {
+          "gain_vs_native_bytes": 126.60008046402142,
+          "gain_vs_wide_bytes": -0.2888871309652119,
+          "Q16_sha256": "405fd1aa1f01de5e482fcfeccf6b682213cb26f6a6351b1b4e3fb16abe026fac"
+        }
+      ]
+    },
+    {
+      "key": "bag_positions_seed6707",
+      "step": 384,
+      "training_seconds": 1.5043366280006012,
+      "checkpoint_sha256": "ebb9d0b67f0147ae86dbffadd9af4de224bf863e91c0164a525f710657a8bb9f",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/bag_positions_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29221,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.74096412595381,
+          "gain_vs_wide_bytes": -0.4473649547115306,
+          "Q16_sha256": "02caeda5b2b87b56e3fcf39fd6b30f8805238e5316bccaa91c1393a9289aea43"
+        },
+        {
+          "gain_vs_native_bytes": 126.74299054760462,
+          "gain_vs_wide_bytes": -0.14597704738194614,
+          "Q16_sha256": "bff0d50d1cb31c020281d90bb4771c3dfaddba9e7ad4d5de4f1cd043b65da94d"
+        }
+      ]
+    },
+    {
+      "key": "glyph_seed6707",
+      "step": 384,
+      "training_seconds": 1.5106279980027466,
+      "checkpoint_sha256": "775e02794469db5dcd15e77a58402cb35a32590824b9ffe8575a0af4c7a4d2ca",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/glyph_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29210,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.86849698828935,
+          "gain_vs_wide_bytes": -0.31983209237593274,
+          "Q16_sha256": "84c0a2652d6220ae3ddb5895deed4571ab6c2255e613e211f5da3f5276e46c8a"
+        },
+        {
+          "gain_vs_native_bytes": 126.64231592660303,
+          "gain_vs_wide_bytes": -0.24665166838353017,
+          "Q16_sha256": "a6f95423a4931bf03fe595e1d1809a483a86aa6b6aa51ba9ee9a8a657cc89c0a"
+        }
+      ]
+    },
+    {
+      "key": "grammar_seed6707",
+      "step": 384,
+      "training_seconds": 1.480565548001323,
+      "checkpoint_sha256": "30df67c9e5c1f0766e737913e7a8a8955f32f7d4c6f270bf3203ce58a2bc5a9d",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29212,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.8494246723707,
+          "gain_vs_wide_bytes": -0.3389044082947833,
+          "Q16_sha256": "f1212ec7f5c7f47c011a6f47fda00e4f6a424862a4e5578db2ccd517d7cf222b"
+        },
+        {
+          "gain_vs_native_bytes": 126.69310818843728,
+          "gain_vs_wide_bytes": -0.19585940654936418,
+          "Q16_sha256": "4cbce74cf9cdf654665486954a3e917335155f6a57145acf5e7609becc574e5d"
+        }
+      ]
+    },
+    {
+      "key": "spelling_grammar_seed6707",
+      "step": 384,
+      "training_seconds": 1.5112857770000119,
+      "checkpoint_sha256": "08bb09c63237b455e8af4473360a5dcc7321914ffcfd69b530dce11f22f3be5c",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_grammar_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29208,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.72785371486773,
+          "gain_vs_wide_bytes": -0.46047536579760867,
+          "Q16_sha256": "1bebf319113f18ec420efe17b8201dab544a97a3b579e17be8aa5c1b0c8837c6"
+        },
+        {
+          "gain_vs_native_bytes": 126.74619580400001,
+          "gain_vs_wide_bytes": -0.14277179098669904,
+          "Q16_sha256": "35ddf097f06f0aa323c7f5f5b3e226ba5ee875f4fa236ceb2474f40a140cf6a0"
+        }
+      ]
+    },
+    {
+      "key": "spelling_cross_seed6707",
+      "step": 384,
+      "training_seconds": 1.4794871390004118,
+      "checkpoint_sha256": "c25cf930af54867bf870cf47a281fef8ff8b7e4124a218df86361256ef5fa402",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/spelling_cross_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29201,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.66389854999194,
+          "gain_vs_wide_bytes": -0.524430530673415,
+          "Q16_sha256": "ceda9a99b0e73b1d8dfe88f9f711de5b3d329c37c875d91129d96810a25de8cd"
+        },
+        {
+          "gain_vs_native_bytes": 126.71579398223363,
+          "gain_vs_wide_bytes": -0.17317361275294285,
+          "Q16_sha256": "d1f6197a3a92aadf7a8af1d4583c29fef2afc1318b10cda927284e6423ba5038"
+        }
+      ]
+    },
+    {
+      "key": "all_seed6707",
+      "step": 384,
+      "training_seconds": 1.472259963000397,
+      "checkpoint_sha256": "d2f7f98f45cbea6197efb5eced2add344432f2ab81f7e6b4c99c1dbd1d88c9b0",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/all_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29248,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.67793575627981,
+          "gain_vs_wide_bytes": -0.510393324385503,
+          "Q16_sha256": "f475ded10b02978816b0d789864b0d969a5f25ff562d2495005eb25916f2668b"
+        },
+        {
+          "gain_vs_native_bytes": 126.63174827039663,
+          "gain_vs_wide_bytes": -0.25721932459001046,
+          "Q16_sha256": "9d585450c039a7fe47aefff7ff3bc1cf46b43cd7a79c1fe333f7fecd442d42d9"
+        }
+      ]
+    },
+    {
+      "key": "random_word_vectors_seed6707",
+      "step": 384,
+      "training_seconds": 1.4926306950001162,
+      "checkpoint_sha256": "ebccf258d9a62d436ce57a60579488a6312010c6d9296984653605ebc1c5464d",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/random_word_vectors_seed6707_step384.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29240,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.86368309381939,
+          "gain_vs_wide_bytes": -0.32464598684588286,
+          "Q16_sha256": "46375c134d2a7116417ddc74d61d9c3a56a450931047fc0fa78edb4528dc17f8"
+        },
+        {
+          "gain_vs_native_bytes": 126.70381297716256,
+          "gain_vs_wide_bytes": -0.18515461782387513,
+          "Q16_sha256": "9e336e90c75bdfa65adddddc858c2951cf1458f2f3e342ad47a0823716a635bb"
+        }
+      ]
+    },
+    {
+      "key": "glyph_seed6706",
+      "step": 1152,
+      "training_seconds": 2.9804997649989673,
+      "checkpoint_sha256": "9eb87c0e3c76995bbcf3fcf59d6d1a9e131bfff933426b0e8a61cb14766499d4",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/glyph_seed6706_step1152.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29211,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.1969474874494,
+          "gain_vs_wide_bytes": -0.9913815932162823,
+          "Q16_sha256": "aec58c1f98ad70ec5c20afa7abe5cf1281711f666977fa534e76fdcaebba2eb0"
+        },
+        {
+          "gain_vs_native_bytes": 127.43044521618708,
+          "gain_vs_wide_bytes": 0.541477621200344,
+          "Q16_sha256": "45e244b611eb2fd984d6ed7857fd68c007e48aa9eaec0f737e6a213941f7d99d"
+        }
+      ]
+    },
+    {
+      "key": "grammar_seed6706",
+      "step": 1152,
+      "training_seconds": 3.133149768000294,
+      "checkpoint_sha256": "e442919ada36ce8d6df00ba523fd49cb67f3bb29a83f114309fb478940658194",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6706_step1152.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29215,
+      "development": [
+        {
+          "gain_vs_native_bytes": 107.28603826988648,
+          "gain_vs_wide_bytes": -0.9022908107791289,
+          "Q16_sha256": "3bc6dd121431283498875af04331581527f83bb877bf7169cabb96726343b2b6"
+        },
+        {
+          "gain_vs_native_bytes": 127.41520453611864,
+          "gain_vs_wide_bytes": 0.5262369411319254,
+          "Q16_sha256": "1877a8c2c7e8246a4af917e6de8ec157c10b6815bd9787305b94c9ed067dd96c"
+        }
+      ]
+    },
+    {
+      "key": "random_word_vectors_seed6707",
+      "step": 1152,
+      "training_seconds": 2.593509324997285,
+      "checkpoint_sha256": "9d374b1129b5eae1ffbd9fa73c56c029d4f3e86931b573349c73bb989a534660",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/random_word_vectors_seed6707_step1152.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29274,
+      "development": [
+        {
+          "gain_vs_native_bytes": 103.90668424618714,
+          "gain_vs_wide_bytes": -4.281644834478337,
+          "Q16_sha256": "3b481b55034b119226833f2511db989c53c1396b7ce12250dc64b356e8060a65"
+        },
+        {
+          "gain_vs_native_bytes": 126.11400417376963,
+          "gain_vs_wide_bytes": -0.7749634212169096,
+          "Q16_sha256": "9ba9aabe4e5b274c30d5d2afb4f5bab2af8b26589225b76048685ae0dfcaf498"
+        }
+      ]
+    },
+    {
+      "key": "grammar_seed6707",
+      "step": 1152,
+      "training_seconds": 2.5689489309988858,
+      "checkpoint_sha256": "a4506990ca508ddf2b2ccf92615bddd50ecdc71bfe621c2280ca99b74cdb7dc1",
+      "checkpoint_path": "/root/hp_round9/word_features_v1/grammar_seed6707_step1152.pt",
+      "parameters": 7858,
+      "zlib9_model_bytes": 29227,
+      "development": [
+        {
+          "gain_vs_native_bytes": 108.04160964279266,
+          "gain_vs_wide_bytes": -0.146719437872669,
+          "Q16_sha256": "0ea0b81655052a447329e426df43a7bc529b285dcec8b98a0a5017970eb06ff7"
+        },
+        {
+          "gain_vs_native_bytes": 126.92300812447886,
+          "gain_vs_wide_bytes": 0.034040529492286475,
+          "Q16_sha256": "c910751c2064b6cac7859c1187cb89a0bcaf0f4fb966112a64ffe1a1ba091bab"
+        }
+      ]
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "e",
+      "key": "glyph_seed6706",
+      "result": {
+        "gain_vs_native_bytes": 108.51377971035622,
+        "gain_vs_wide_bytes": -1.4129330607070163,
+        "Q16_sha256": "c81284d2e58c3fd63814cd0f6bc69d30d90710818f1ca7093de18237b159a620"
+      }
+    },
+    {
+      "slice": "e",
+      "key": "grammar_seed6706",
+      "result": {
+        "gain_vs_native_bytes": 108.63592568554306,
+        "gain_vs_wide_bytes": -1.2907870855200665,
+        "Q16_sha256": "65c09ec707d0a08ebf876c34c2ee5b785784b88e555f4a913c9b84c78d16ec72"
+      }
+    },
+    {
+      "slice": "e",
+      "key": "random_word_vectors_seed6707",
+      "result": {
+        "gain_vs_native_bytes": 107.61891681604587,
+        "gain_vs_wide_bytes": -2.3077959550169878,
+        "Q16_sha256": "072665c8718fd25467de3bf1b090c842a446bd19789d8d27ed6793c9596a55b3"
+      }
+    },
+    {
+      "slice": "e",
+      "key": "grammar_seed6707",
+      "result": {
+        "gain_vs_native_bytes": 109.75112432816815,
+        "gain_vs_wide_bytes": -0.1755884428947545,
+        "Q16_sha256": "ee6af94b94b0660d595d41e6e971b1476350f668e28b13a8075689f2bfc5c524"
+      }
+    },
+    {
+      "slice": "f",
+      "key": "glyph_seed6706",
+      "result": {
+        "gain_vs_native_bytes": 43.65228136921017,
+        "gain_vs_wide_bytes": -0.25866016237143724,
+        "Q16_sha256": "72873b3566583b9d5839f87d045bf07838434f675a6251109771c615bc98d40d"
+      }
+    },
+    {
+      "slice": "f",
+      "key": "grammar_seed6706",
+      "result": {
+        "gain_vs_native_bytes": 43.70202008685862,
+        "gain_vs_wide_bytes": -0.20892144472293644,
+        "Q16_sha256": "b1eb72bc049f9425aea4896363960bde89bc0939c5059d05c11cf486d362b735"
+      }
+    },
+    {
+      "slice": "f",
+      "key": "random_word_vectors_seed6707",
+      "result": {
+        "gain_vs_native_bytes": 41.73831029274757,
+        "gain_vs_wide_bytes": -2.172631238833865,
+        "Q16_sha256": "1241a4a9e9d0f69d1e7783dae8db0b8f5122233290f968ab9f6c9fd3cf9c86ba"
+      }
+    },
+    {
+      "slice": "f",
+      "key": "grammar_seed6707",
+      "result": {
+        "gain_vs_native_bytes": 43.92492668519385,
+        "gain_vs_wide_bytes": 0.013985153612490099,
+        "Q16_sha256": "00a1fdc186fa9c0c19806db0ae3e1b2e257bd403f0ecb5b6bbebcd8fc53e9071"
+      }
+    }
+  ],
+  "scratch": "/root/hp_round9/word_features_v1",
+  "gpu": "Tesla T4",
+  "worker_sha256": "4c206acb9e0c36abd95f8ac78e6d3a0e9586b845cca696e2653b802f45f023f7",
+  "stage": "controlled word descendants complete; native integration and broader coverage remain open",
+  "AB_prefix_complete_proof": "E at190M emitted; all A/B windows end before103.16M",
+  "inputs": [
+    {
+      "slice": "a",
+      "raw_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "native_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447",
+      "hidden_sha256": "0a7f4ad64af9f98b4e1275d63f2e6807a11d25ee0c8f153f8ae9ef77b0b1cf17",
+      "stage_sha256": "88f311c7dd843854b984bc645050c5ba306a8fc6abd1bcc6251df3df8b86980c"
+    },
+    {
+      "slice": "b",
+      "raw_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e",
+      "native_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23",
+      "hidden_sha256": "a4d0415ab436c7725223083cd964b236549e1cdc04d800dff018baf00ca55aaf",
+      "stage_sha256": "cbfd805f961009352900da50fc7d6a42ccd670b207cee749b429d923b23815d9"
+    },
+    {
+      "slice": "a",
+      "raw_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "native_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447",
+      "hidden_sha256": "0a7f4ad64af9f98b4e1275d63f2e6807a11d25ee0c8f153f8ae9ef77b0b1cf17",
+      "stage_sha256": "88f311c7dd843854b984bc645050c5ba306a8fc6abd1bcc6251df3df8b86980c"
+    },
+    {
+      "slice": "b",
+      "raw_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e",
+      "native_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23",
+      "hidden_sha256": "a4d0415ab436c7725223083cd964b236549e1cdc04d800dff018baf00ca55aaf",
+      "stage_sha256": "cbfd805f961009352900da50fc7d6a42ccd670b207cee749b429d923b23815d9"
+    },
+    {
+      "slice": "c",
+      "raw_sha256": "36466e2514082e359e4d5beee43d7fa5da37e9a19bc97713a3c03172238b76bc",
+      "native_p_sha256": "dd3ecc3645b6fd0ec12d85a141788a7203059729305a40ee29d1e88f88c5d106",
+      "hidden_sha256": "cf9e66f8943add363c6c3721a95613f5b7e12c2767f9fde250796ee000f8f92b",
+      "stage_sha256": "a3db08021299af80dfcbc0fb6240de2a71f363f15d02f4809de84c0566ebf847"
+    },
+    {
+      "slice": "d",
+      "raw_sha256": "ddf4bd678c17c48a7346658c4e4fa62ec8628956f977a54b44f1efb1e02dc149",
+      "native_p_sha256": "09f8f6c4b9a63ec992d2611189d1910bab1f60c394818b67cdadc046977c4716",
+      "hidden_sha256": "3a8e8a102c1a47b0fdcb6211ef77f8f3462b7ad360c9d6f9d7d070e6808198fa",
+      "stage_sha256": "9bd203fd381ffa7ae45d3f1b5cb2d24949fefcc012c896b296c6d2e763868ee1"
+    },
+    {
+      "slice": "c",
+      "raw_sha256": "36466e2514082e359e4d5beee43d7fa5da37e9a19bc97713a3c03172238b76bc",
+      "native_p_sha256": "dd3ecc3645b6fd0ec12d85a141788a7203059729305a40ee29d1e88f88c5d106",
+      "hidden_sha256": "cf9e66f8943add363c6c3721a95613f5b7e12c2767f9fde250796ee000f8f92b",
+      "stage_sha256": "a3db08021299af80dfcbc0fb6240de2a71f363f15d02f4809de84c0566ebf847"
+    },
+    {
+      "slice": "d",
+      "raw_sha256": "ddf4bd678c17c48a7346658c4e4fa62ec8628956f977a54b44f1efb1e02dc149",
+      "native_p_sha256": "09f8f6c4b9a63ec992d2611189d1910bab1f60c394818b67cdadc046977c4716",
+      "hidden_sha256": "3a8e8a102c1a47b0fdcb6211ef77f8f3462b7ad360c9d6f9d7d070e6808198fa",
+      "stage_sha256": "9bd203fd381ffa7ae45d3f1b5cb2d24949fefcc012c896b296c6d2e763868ee1"
+    },
+    {
+      "slice": "e",
+      "raw_sha256": "891954b722e0af0a027ff32e057b511ab47a60550f27af87d523ceeb16a7cd55",
+      "native_p_sha256": "08a21d2a695b26b9b3107fb8c062d911db478335fdaa421205857a17f4b39bef",
+      "hidden_sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "stage_sha256": "64714eb2c84830cd834e352985bd34d23a0c6bc6c0acc2de84c8182de3b08d61"
+    },
+    {
+      "slice": "e",
+      "raw_sha256": "891954b722e0af0a027ff32e057b511ab47a60550f27af87d523ceeb16a7cd55",
+      "native_p_sha256": "08a21d2a695b26b9b3107fb8c062d911db478335fdaa421205857a17f4b39bef",
+      "hidden_sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "stage_sha256": "64714eb2c84830cd834e352985bd34d23a0c6bc6c0acc2de84c8182de3b08d61"
+    },
+    {
+      "slice": "f",
+      "raw_sha256": "2bfce9258f2950c3e9edfa1d4a60974a5eae565e7159e477bf5ef2376796a454",
+      "native_p_sha256": "044b286a4f1671c6f157a36197408f36ab16f8676ff2b7707e88f355bfa01495",
+      "hidden_sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "stage_sha256": "34b5efac866b2d07938e607243c9d3bb7034ad1dedcbc539a086232946de08bd"
+    },
+    {
+      "slice": "f",
+      "raw_sha256": "2bfce9258f2950c3e9edfa1d4a60974a5eae565e7159e477bf5ef2376796a454",
+      "native_p_sha256": "044b286a4f1671c6f157a36197408f36ab16f8676ff2b7707e88f355bfa01495",
+      "hidden_sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "stage_sha256": "34b5efac866b2d07938e607243c9d3bb7034ad1dedcbc539a086232946de08bd"
+    }
+  ],
+  "contract": {
+    "arms": [
+      "native_control",
+      "identity",
+      "bag_positions",
+      "glyph",
+      "grammar",
+      "spelling_grammar",
+      "spelling_cross",
+      "all",
+      "random_word_vectors"
+    ],
+    "seeds": [
+      6706,
+      6707
+    ],
+    "rungs": [
+      128,
+      384,
+      1152
+    ],
+    "history": "completed words only; injected after delimiter completion; no frequency/target/intext labels",
+    "lexical_body_mode": "known canonical WRT semantic body, first16bytes/cross-boundary words excluded; future native integration must reproduce parser state",
+    "grammar": "fixed constructor lexicon is a heuristic class, not POS truth; other words are content-like, not nouns proven by syntax",
+    "glyph": "hand-coded symbolic groups, not raster CNN or OCR codec",
+    "random_control": "deterministic word-hash vectors replacing spelling sharing with matched architecture; not an information-theoretic null",
+    "combination": "word state plus current native-source disagreement, including a learned bilinear interaction",
+    "core": "unchanged",
+    "all96_exhausted": false,
+    "native_integration": "pending"
+  },
+  "nonzero_future_prefix_and_zero_identity": "PASS",
+  "whole_native_word_decoder_verified": true,
+  "event_manifest_sha256": "e3c10dcf1b1bbff692eced4976353425666af2e74934cb2ac647f03126556d35",
+  "frozen_finalists": [
+    "glyph_seed6706",
+    "grammar_seed6706",
+    "random_word_vectors_seed6707",
+    "grammar_seed6707"
+  ],
+  "finished": 1791309433.4688172,
+  "native_or_full_package_qualified": false,
+  "all96_exhausted": false
+}

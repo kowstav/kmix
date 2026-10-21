@@ -1,0 +1,71 @@
+[
+  {
+    "slice": "e",
+    "input_bytes": 65536,
+    "native_archive_saving_bytes": -1,
+    "ideal_saving_bytes": -0.6072071076487191,
+    "neutral_archive_exact": true,
+    "neutral_probabilities_exact": true,
+    "candidate_all_bits_match_integer_replay": true,
+    "independent_raw_decode_exact": true,
+    "runtime": {
+      "reference": {
+        "reused_completed_v3_outputs": true,
+        "runtime": null,
+        "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+      },
+      "neutral": {
+        "reused_completed_v3_outputs": true,
+        "runtime": null,
+        "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+      },
+      "candidate": {
+        "reused_completed_v3_outputs": true,
+        "runtime": null,
+        "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+      },
+      "decode": {
+        "wall_seconds": 86.01155890299924,
+        "user_seconds": 79.867374,
+        "system_seconds": 6.126184,
+        "max_rss_kbytes": 5895500
+      }
+    }
+  },
+  {
+    "slice": "f",
+    "input_bytes": 65536,
+    "native_archive_saving_bytes": -3,
+    "ideal_saving_bytes": -3.235476684381865,
+    "neutral_archive_exact": true,
+    "neutral_probabilities_exact": true,
+    "candidate_all_bits_match_integer_replay": true,
+    "independent_raw_decode_exact": true,
+    "runtime": {
+      "reference": {
+        "wall_seconds": 88.13449645400033,
+        "user_seconds": 82.263367,
+        "system_seconds": 5.857171,
+        "max_rss_kbytes": 5729592
+      },
+      "neutral": {
+        "wall_seconds": 88.16804822000086,
+        "user_seconds": 82.31755,
+        "system_seconds": 5.835188,
+        "max_rss_kbytes": 5730464
+      },
+      "candidate": {
+        "wall_seconds": 87.36401984999975,
+        "user_seconds": 81.47264,
+        "system_seconds": 5.876108,
+        "max_rss_kbytes": 5730364
+      },
+      "decode": {
+        "wall_seconds": 85.11257324500002,
+        "user_seconds": 79.385122,
+        "system_seconds": 5.7091449999999995,
+        "max_rss_kbytes": 5730136
+      }
+    }
+  }
+]

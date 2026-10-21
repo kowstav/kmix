@@ -1,0 +1,76 @@
+{
+  "status": "COMPLETE_FULL_WORD_ALIGNMENT_AND_CURRENT_NATIVE_PRIORS",
+  "pid": 1505,
+  "start": 1791301158.6142583,
+  "deletions": [],
+  "repair": "exclude outer type/decoded-length/dictionary-mode header from neural payload; retain byte-to-word alignment by exact offset",
+  "alignment_v1_preserved": true,
+  "alignment": {
+    "supervision": "full decoded whole ASCII words in transformed XML text body; case markers, literal bytes and encoded substrings assigned together; no labels enter model input",
+    "word_events": 42525,
+    "body_word_events": 32921,
+    "labelled_bytes": 80052,
+    "non_dictionary_whole_word_bytes": 18484,
+    "metadata_control_whitespace_side": "unmasked default weight1",
+    "terminal_crossing_word": "unlabelled; decoded through270000 to cover262144 target prefix",
+    "frequency_source": "original decoded enwik9 text census; transformed spellings absent from census count0",
+    "raw_sha256": "800a69e415d962dd2e3d77a00893e5adf5a4fb668e4fb66324f53087ef3c6802",
+    "labels_sha256": "c0e2893361d28e8a001a21794cb0f576fa1c817894650639c854bf15bf1fd98c"
+  },
+  "input_outer_header_bytes": 6,
+  "target_bytes": 262138,
+  "boundaries": 366,
+  "marker_hex": "20204cdf984e0a202020204cdf9b4e",
+  "stage": "full words including literals/OOVs and native priors ready",
+  "native_accounting": {
+    "seconds": 71.9410885189991,
+    "CPU_user_seconds": 70.687448,
+    "CPU_system_seconds": 0.971827,
+    "peak_RSS_KiB": 1219416,
+    "returncode": 0
+  },
+  "files": [
+    {
+      "path": "/root/hp_round9/core_data_v2/input.bin",
+      "bytes": 262138,
+      "sha256": "fb5d47e7622cb6200174c273551788f81ea954badf6857918262d1dd64d61ae5"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/tokens.u8",
+      "bytes": 262138,
+      "sha256": "ef1e2bf0e60cf991974e613deec33f7fc823c9b3c77a427e7167520977fe7451"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/priors.f16",
+      "bytes": 107476580,
+      "sha256": "2be206f1efdc6a0c7032c509938513697db01fd249f8d53c6ce47ac24b01d4cc"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/native_nn.f16",
+      "bytes": 107476580,
+      "sha256": "46415031743b4892131b1e673c15d7ec430476f3f96474b1f950f556c1abaafc"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/word_frequency.i32",
+      "bytes": 1048552,
+      "sha256": "66465614bf2f2ba27c2c4b0b17ba2cf9dce331991c9923ce3c3f21c54bdfc6bb"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/lex_weights.bin",
+      "bytes": 39615865,
+      "sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/native_control.cmx",
+      "bytes": 39756,
+      "sha256": "39c8baebf00d69662f65238a452ffd57292a4b0ca8389e15c35c525f7533549c"
+    },
+    {
+      "path": "/root/hp_round9/core_data_v2/bounds.i32",
+      "bytes": 1464,
+      "sha256": "05fd6fd860ad52c3035ba30107abfa32b0d6b679b8b841c4eb558555c649687d"
+    }
+  ],
+  "finish": 1791301231.438889,
+  "scratch": "/root/hp_round9/core_data_v2"
+}

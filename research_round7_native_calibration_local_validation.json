@@ -1,0 +1,29 @@
+{
+  "native_evidence_files_verified": 31,
+  "status": "PASS_LOCAL_INDEPENDENT_REPLAY_NO_COMPRESSION_PROMOTION",
+  "results": [
+    {
+      "slice": "e",
+      "raw_sha256": "0d3a2bb8a1c5c0215406c814a6370f131bf6f3fea77791819cd7c1fd832cdbc5",
+      "actual_saving_bytes": -1,
+      "integer_cost_saving_bytes": -0.6072034540281708,
+      "f32_cost_saving_bytes": -0.6072071076487191,
+      "max_f32_reconstruction_error_bits_per_byte": 9.247789236610515e-07,
+      "all_integer_replay_exact": true,
+      "neutral_archive_exact": true,
+      "raw_decode_exact": true
+    },
+    {
+      "slice": "f",
+      "raw_sha256": "dd216753217a02e281ed957385283117ef8ba5c166093ebdaf80dca23e96ca36",
+      "actual_saving_bytes": -3,
+      "integer_cost_saving_bytes": -3.235477325866565,
+      "f32_cost_saving_bytes": -3.235476684381865,
+      "max_f32_reconstruction_error_bits_per_byte": 8.186787994191036e-07,
+      "all_integer_replay_exact": true,
+      "neutral_archive_exact": true,
+      "raw_decode_exact": true
+    }
+  ],
+  "native_zip_sha256": "18585d496a6da2c729bb61f53b78554c520a3c9837b198d153157f079ba15412"
+}

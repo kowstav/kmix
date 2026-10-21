@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.6.attention.output_gate_projection.down.weight.q",
+  "names": [
+    "blocks.6.attention.output_gate_projection.down.weight.q"
+  ],
+  "label": "ecb8bbb67b3bc1948ce4b9d6",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 7153
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 6520
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 6515
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 7153
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 6520
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 6515
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 7155
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 6470
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 6510
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 6208
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 6356
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 6306
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 7141
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 6498
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 6514
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 7267
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 6691
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 6604
+    }
+  ],
+  "selected": [
+    6208,
+    "nibble",
+    "gzip"
+  ],
+  "archive_sha256": "0781a24c57f4b06ba0e9f3c9f2fec1d2b795831409004568f110c59e2dc7371b",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.034126999999997985,
+  "wall_seconds": 0.03420182099998215
+}

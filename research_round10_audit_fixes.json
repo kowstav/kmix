@@ -1,0 +1,380 @@
+{
+  "generated": "2026-10-06T23:51:15.417760+00:00",
+  "audit_sha256": "bd2d658c02b34ce64645a2f055ab917af0b28d150b2e0f21fcea762b33e67587",
+  "companion_sha256": "09755a2112b8aba24f33ef6616e1b163ad760e5751a3e08fd438734f9fa94d65",
+  "all_findings_addressed_in_ledger": true,
+  "all_experimental_fixes_complete": false,
+  "findings": [
+    {
+      "id": "S1",
+      "finding": "The test portfolio does not match the target's scale \u2014 High [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Prioritize a payload-changing critical path and state the size target in bits per canonical byte.",
+      "remaining_requirement": "Warm native corpus evidence is still needed; tiny residual effects are not a route to the entire target."
+    },
+    {
+      "id": "S2",
+      "finding": "The critical-path experiment never ran \u2014 High [PARTIAL]",
+      "status": "CPU_EXECUTION_BLOCKED",
+      "correction": "A sequential warm producer was launched once; concrete private CPU jobs are prepared.",
+      "remaining_requirement": "A full 55\u201360 hour baseline needs a persistent host or tested exact state checkpoints; the supplied proxy is HTTP 404."
+    },
+    {
+      "id": "S3",
+      "finding": "An unfalsifiable research program \u2014 High [NEW]",
+      "status": "PORTFOLIO_SCOPED",
+      "correction": "Every idea now has a finite current protocol, endpoint, priority and reopening condition.",
+      "remaining_requirement": "This scopes research decisions; it does not claim thorough testing or optimal descendants for all 96 ideas."
+    },
+    {
+      "id": "S4",
+      "finding": "The binding constraint is time, but experiments ignore it \u2014 High [NEW]",
+      "status": "IMPLEMENTED_AWAITING_CPU",
+      "correction": "The coarse component job records user/system CPU, wall time, RSS and actual payload per mode.",
+      "remaining_requirement": "Dedicated production build and machine benchmark remain required; a shadow price does not waive a hard limit."
+    },
+    {
+      "id": "S5",
+      "finding": "Repository structure blocks verification \u2014 Medium [NEW]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "README, results registry and one current checkpoint replace status-block reconciliation.",
+      "remaining_requirement": "Historical files remain indexed evidence; metadata verification is not artifact reproduction."
+    },
+    {
+      "id": "M1",
+      "finding": "\u03bb = 30 in the round-6 MDL objective makes the \"9\u00d7 worse\" verdict circular \u2014 High [PARTIAL]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Mean bit loss uses m*lambda*R/T; lambda=1 is the size objective. The old lambda=30 conclusion is retracted.",
+      "remaining_requirement": "Stable GPU continuation and a measured Pareto frontier at lambda in {0,0.5,1,2} remain unexecuted."
+    },
+    {
+      "id": "M2",
+      "finding": "Amortization error in every priced gate \u2014 High [PARTIAL]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "conditional_projection charges each fixed asset once over the declared corpus; its unit test passes.",
+      "remaining_requirement": "A rate from cold or early correlated windows is only a conditional scenario, not a stationary estimate."
+    },
+    {
+      "id": "M3",
+      "finding": "One-copy MDL in round 4 reverses the sign of the \"contest\" result \u2014 High [SELF]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The round-4 one-copy package conclusion remains retracted; correct two-copy totals are 21.51 versus 22.09 MB.",
+      "remaining_requirement": "No new package claim is inferred from that stand-in."
+    },
+    {
+      "id": "M4",
+      "finding": "Assumed 1:1 elasticity from transformer loss to payload \u2014 Medium [PARTIAL]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Final CM and NN losses are separate outcomes; no fixed elasticity is assumed.",
+      "remaining_requirement": "Matched warm native evaluations of the same checkpoints must measure direction-dependent transfer."
+    },
+    {
+      "id": "M5",
+      "finding": "Round 3's TTL claim lies inside its stated noise band \u2014 Medium [PARTIAL]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The round-3 TTL difference was inside the stated noise band and is not an established improvement.",
+      "remaining_requirement": "Long-horizon carried-state training, repeated seeds and matched-capacity controls are GPU work."
+    },
+    {
+      "id": "M6",
+      "finding": "No uncertainty quantification anywhere; false precision everywhere \u2014 Medium [NEW]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "Cluster bootstrap, equivalence intervals and Holm decisions are implemented and tested.",
+      "remaining_requirement": "Current adjacent windows do not supply independent clusters; report insufficiency rather than a fabricated CI."
+    },
+    {
+      "id": "M7",
+      "finding": "Development fits use an atypical slice \u2014 Medium [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Development must sample article types/positions independently of their measured future cost.",
+      "remaining_requirement": "The first 3\u20139 MiB CPU jobs are explicitly early diagnostics, not representative development strata."
+    },
+    {
+      "id": "M8",
+      "finding": "Confirmation slices too small to detect the effect being confirmed \u2014 Medium [NEW]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The 64 KiB calibration confirmation cannot support rejection at an expected 1.2-byte effect.",
+      "remaining_requirement": "Size confirmation from observed cluster variance and a declared detectable effect, with package amortization."
+    },
+    {
+      "id": "M9",
+      "finding": "\"Precision-only upper bound\" covers only the last quantization step \u2014 Low [NEW]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The existing probability bound applies only to the last Q16 discretization.",
+      "remaining_requirement": "Internal clamp/APM/mixer precision changes require distinct native builds and independent decodes."
+    },
+    {
+      "id": "M10",
+      "finding": "Post-hoc i.i.d. weight statistics were read as \"weight description is exhausted\" \u2014 Medium [NEW]",
+      "status": "QUALIFIED_CORRECTION",
+      "correction": "Fixed-code entropy results do not bound a trained entropy-constrained quantizer. Lloyd-Max does not generally equalize occupancies.",
+      "remaining_requirement": "End-to-end ECSQ with actual measured container bits is GPU work; high-rate savings are not guarantees."
+    },
+    {
+      "id": "M11",
+      "finding": "Masking experiments were run before the theory that predicts them \u2014 Low [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Zero rare loss is a curriculum/specialist hypothesis; all-word final loss remains the outcome.",
+      "remaining_requirement": "Compare unweighted and soft weighting at corpus-defined thresholds with full common/rare accounting."
+    },
+    {
+      "id": "M12",
+      "finding": "Outcome-conditioned cost \"budgets\" are not recoverable budgets \u2014 Medium [PARTIAL]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "Outcome-conditioned word classes and realized-path entropy are descriptive, not before-target compute budgets.",
+      "remaining_requirement": "Actual routing must use a prefix-visible class or a paid anchor; deploy full before-byte entropy only when available."
+    },
+    {
+      "id": "M13",
+      "finding": "Denominator inconsistency \u2014 Low [NEW]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "Official 100,424,672 B and README pending 100,420,830 B are labelled separate reference provenance.",
+      "remaining_requirement": "The unexplained 3,842 B difference is not silently reconciled or reused as a shared denominator."
+    },
+    {
+      "id": "D1",
+      "finding": "The cold-slice regime is unrepresentative, and the bias was never quantified \u2014 Critical [PARTIAL]",
+      "status": "CPU_EXECUTION_BLOCKED",
+      "correction": "Warm producer advances unchanged neural and classical state sequentially from canonical offset zero.",
+      "remaining_requirement": "Read its existing manifest after reconnect; independent full-corpus warmth and complete baseline are not finished."
+    },
+    {
+      "id": "D2",
+      "finding": "Asymmetric warmth: warm candidate versus cold baseline \u2014 High [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Both sides receive the same coding-history regime; cold-memory versus warm-core comparisons are invalidated.",
+      "remaining_requirement": "Warm native source tests and actual candidates are pending."
+    },
+    {
+      "id": "D3",
+      "finding": "Repeated reuse of the same few slices for fitting, selection and confirmation \u2014 Medium [SELF/PARTIAL]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Historical C/D/E/F and fitting prefixes are exploratory; new windows are registered before reading outputs.",
+      "remaining_requirement": "Adjacent early confirmation is still one dependence cluster; reserve independently sampled untouched corpus regions."
+    },
+    {
+      "id": "D4",
+      "finding": "Calibration headroom is essentially exhausted; the realized-versus-expected gap is misleading \u2014 Medium [NEW, verifies the project's nulls]",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "Realized-versus-expected gaps under outcome selection do not supply recoverable headroom.",
+      "remaining_requirement": "Calibration nulls bound only their finite feature/law class, not all architectures or trained mixture defects."
+    },
+    {
+      "id": "D5",
+      "finding": "Held-out protocol in rounds 2\u20134 versus the contest regime \u2014 Medium [PARTIAL]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "The full original corpus was pretrained upon; fitting-held-out is not pretrained-unseen.",
+      "remaining_requirement": "Contest overfitting is legitimate if every model/data dependency is paid and decoding is exact."
+    },
+    {
+      "id": "D6",
+      "finding": "Test-set selection of hyperparameters (rounds 2\u20134) \u2014 Low [SELF]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Select on registered development data and report confirmation once without selecting its winner.",
+      "remaining_requirement": "Reused historical test-set tuning is marked exploratory, not repaired retrospectively."
+    },
+    {
+      "id": "D7",
+      "finding": "Timing measurements cannot qualify anything \u2014 High [NEW]",
+      "status": "CPU_QUALIFICATION_PENDING",
+      "correction": "CPU notebook measurements are explicitly diagnostic; record affinity and contention conditions.",
+      "remaining_requirement": "Official benchmark normalization and uncontended full production resource runs remain required."
+    },
+    {
+      "id": "L1",
+      "finding": "A mis-specified parity gate blocked core training for three rounds \u2014 Critical [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Remove per-row GPU agreement as a prerequisite to attempting training; use aggregate equivalence and native checkpoint ranking.",
+      "remaining_requirement": "Native encode/decode still require exact probabilities and reconstruction; upstream aggregate fidelity does not certify our modifications."
+    },
+    {
+      "id": "L2",
+      "finding": "The finetuning protocol had no statistical power \u2014 High [PARTIAL]",
+      "status": "GPU_REQUIRED",
+      "correction": "Corrected plan restores optimizer when available or uses slow warmup, full-piece targets and representative sampling.",
+      "remaining_requirement": "Old batch-1 last-256 target continuation is not a mature training test; its stable replacement has not run."
+    },
+    {
+      "id": "L3",
+      "finding": "The export artifact that inflated every trained model by ~56 KB per copy \u2014 Critical [NEW, verified]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "BF16/original-order exports add 38, 42 and 60 B per copy; all 435 native-reader tensors match exactly. Prior BF16 QAT manifests show 23/19 B.",
+      "remaining_requirement": "New rounded models need new native archive results; the latest prior-session QAT model artifacts must be reproduced."
+    },
+    {
+      "id": "L4",
+      "finding": "Long-memory architectures trained with short resets \u2014 High [PARTIAL]",
+      "status": "GPU_REQUIRED",
+      "correction": "Long-memory episodes exceed the retention horizon and carry decoder state across detached BPTT blocks.",
+      "remaining_requirement": "Short-reset negative screens do not reject long TTL; no long-horizon descendant training is complete."
+    },
+    {
+      "id": "L5",
+      "finding": "Word-level heads were undertrained by orders of magnitude, then priced at slice scale \u2014 Medium [NEW]",
+      "status": "GPU_REQUIRED",
+      "correction": "Train word-level representations/heads with class coverage and a full-support coding law before pricing their corpus rate.",
+      "remaining_requirement": "The frozen tiny heads and short schedules remain underpowered architectural proxies."
+    },
+    {
+      "id": "L6",
+      "finding": "The strongest positive signal was mis-diagnosed as a tiny head rather than a mixer defect \u2014 Medium [NEW]",
+      "status": "IMPLEMENTED_AWAITING_CPU",
+      "correction": "Integer post-SSE source mixer, genuine global-context/explicit-NN ablations and a warm replay kernel are built.",
+      "remaining_requirement": "Warm quality and native feedback/coder integration remain pending; table/executable costs are charged."
+    },
+    {
+      "id": "L7",
+      "finding": "Mixed-precision and finetuning experiments ignore the float-constant channel \u2014 Low [NEW]",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Preserve original float-constant types and charge stored constants; no side channel is omitted.",
+      "remaining_requirement": "Layerwise sensitivity and selective BF16/FP32 decisions require likelihood and package measurements."
+    },
+    {
+      "id": "E1",
+      "finding": "Ephemeral Kaggle sessions as the primary research platform \u2014 High [NEW]",
+      "status": "ENGINEERING_PARTIAL",
+      "correction": "New trained exports and native-reader dumps are local; six private CPU scripts persist only compact outputs with immutable assets.",
+      "remaining_requirement": "The old /root-only latest models were lost across session replacement; a manifest hash is not a preserved artifact."
+    },
+    {
+      "id": "E2",
+      "finding": "Experiments generated by string-patching and `exec` \u2014 Medium [NEW]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_CODE",
+      "correction": "New codecs are importable modules with no runtime exec/string patching; neutral byte identity and native reader tests pass.",
+      "remaining_requirement": "Legacy sources remain historical reproductions; migrating every historical source is not claimed."
+    },
+    {
+      "id": "E3",
+      "finding": "Remote launches without local static checks \u2014 Medium [PARTIAL]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_CODE",
+      "correction": "New Python workers compile locally; new C++ predictor compiles and passes active causal/neutral/ablation tests before remote use.",
+      "remaining_requirement": "Linux end-to-end native and Kaggle runtime checks remain separate gates."
+    },
+    {
+      "id": "E4",
+      "finding": "Lab builds are not production builds \u2014 Medium [PARTIAL]",
+      "status": "CPU_QUALIFICATION_PENDING",
+      "correction": "Lab observer/replay quality is separated from production PGO/LTO size and timing.",
+      "remaining_requirement": "The final uninstrumented build and full uncontended resource qualification have not run."
+    },
+    {
+      "id": "E5",
+      "finding": "No warm-state infrastructure \u2014 High [NEW]",
+      "status": "ENGINEERING_PARTIAL",
+      "correction": "Sequential warm production and dependent preflight workers are implemented and launched once.",
+      "remaining_requirement": "No complete arbitrary-state serializer exists; split cold segments cannot substitute for a full warm run."
+    },
+    {
+      "id": "E6",
+      "finding": "Portability and reproducibility hygiene \u2014 Low [NEW]",
+      "status": "ENGINEERING_PARTIAL",
+      "correction": "New integer coding probability law uses frozen tables, explicit rounding and pinned source/assets.",
+      "remaining_requirement": "Compiler versions and Linux/native portability comparison are pending; old libm-based law is not portable by assertion."
+    },
+    {
+      "id": "P1",
+      "finding": "`#include \"hp_adaptive_law.h\"`, but the preserved header is `research_round9_adaptive_law.h`. The preserved source does not build as stored.",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "Stored include matches stored header; scratch aliases and numeric-detail caller were updated. Standalone replay compiles locally.",
+      "remaining_requirement": "Previously preserved binary/evidence bytes remain unchanged."
+    },
+    {
+      "id": "P2",
+      "finding": "Production probability law uses `std::log`/`std::exp` (platform libm) with double rounding into Q16. Encoder and decoder must use bit-identical libm. Safe on one machine, but a cross-machine or cross-libc decode (the lexth11c README tests an AMD leg) can desynchronize. Use integer stretch/squash tables, as paq/cmix do.",
+      "status": "IMPLEMENTED_AWAITING_CPU",
+      "correction": "New mixer probability generation and updates are integer-only; floating logarithms score diagnostics only.",
+      "remaining_requirement": "This is a new law, not a bit-identical replacement of old floating fixed-share code; native Linux quality and decode remain required."
+    },
+    {
+      "id": "P3",
+      "finding": "Source patching by literal string replacement, then `exec(..., globals())`. See E2.",
+      "status": "ENGINEERING_COMPLETE_CURRENT_CODE",
+      "correction": "New codec/replay modules use normal imports and definitions rather than exec-extracted source.",
+      "remaining_requirement": "The cited old frozen-logit worker remains a historical artifact, not the current execution route."
+    },
+    {
+      "id": "P4",
+      "finding": "Parity compared on float16-stored probabilities (`'<f2'`). Adequate for the observed failure size, but sub-6e-5 probabilities are subnormal and lose relative precision. A KL \u2264 1e-5 gate was specified against data whose storage noise floor is never stated.",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "Precision/fidelity work uses FP32 native distributions or exact Q16 traces; fp16 probes cannot resolve a sub-noise KL gate.",
+      "remaining_requirement": "Old fp16 probe results retain their storage limitation."
+    },
+    {
+      "id": "P5",
+      "finding": "kNN datastore of fp16 keys for 25.8M states = 14.86 GB, beyond the 10 GB RAM bound (credited to the project's audit).",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The 14.86 GB datastore is outside the conservative 10 GB limit and remains excluded from deployment.",
+      "remaining_requirement": "Bounded retrieval must free memory elsewhere and measure total RSS, including the model and allocator."
+    },
+    {
+      "id": "P6",
+      "finding": "Context hash tables without check bytes: collisions silently merge contexts. Acceptable for a stand-in, but the stand-in's weakness (1.82\u20131.89 bpb) drove \"blend\" conclusions in rounds 2\u20134.",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "Unchecked hash collisions in the old token-CM stand-in are identified and cannot support a production blend conclusion.",
+      "remaining_requirement": "A replacement must use tags or a documented collision estimator and native matched controls."
+    },
+    {
+      "id": "P7",
+      "finding": "`best_single_lambda_bpb` (an in-sample oracle) is computed and saved next to online results. The reports were careful, but the artifact invites misuse.",
+      "status": "PROTOCOL_CORRECTED",
+      "correction": "In-sample best-lambda values are oracle diagnostics, never selected deployment gains.",
+      "remaining_requirement": "The registry keeps original raw fields but labels their evidence stage; no oracle estimate is promoted."
+    },
+    {
+      "id": "P8",
+      "finding": "The per-window ratio `(CE*w).sum()/w.sum()` is a biased estimator of the stated corpus objective \u03a3w\u00b7CE/\u03a3w (expectation of a ratio \u2260 ratio of expectations). With batch 1 and 256-target windows, windows dense in rare words are silently up-weighted relative to the declared objective.",
+      "status": "ENGINEERING_COMPLETE_PROTOCOL",
+      "correction": "The fixed-normalization with-replacement piece estimator replaces minibatch ratio normalization; exact expectation test passes.",
+      "remaining_requirement": "Stable full original-core training using it is GPU-dependent and not yet executed."
+    },
+    {
+      "id": "P9",
+      "finding": "Generators prepend blocks into human reports and strip whitespace around numbers (\u00a78, R1).",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "Legacy prepend-status generators are retired; new reports/ledgers derive from explicit result and issue records.",
+      "remaining_requirement": "Old generated reports are labelled dated historical snapshots."
+    },
+    {
+      "id": "P10",
+      "finding": "Field named `\u20263bit_selector_bytes` actually charges a 4-bit selector (acknowledged, not fixed, \"to avoid editing a queued worker\"). Naming drift in evidence files.",
+      "status": "INFERENCE_CORRECTED",
+      "correction": "The archived field labelled 3-bit is interpreted as its actual 4-bit selector charge.",
+      "remaining_requirement": "Raw archived JSON is not silently edited; new tables use the correct bit count."
+    },
+    {
+      "id": "R1",
+      "finding": "Systematic whitespace corruption \u2014 Medium [NEW]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_REPORTS",
+      "correction": "New reports use normal spacing and approximately three significant figures for uncertain estimates.",
+      "remaining_requirement": "Byte counts, SHA values and trace identities retain exact precision; historical text is retained as historical."
+    },
+    {
+      "id": "R2",
+      "finding": "Append-only logs presented as reports \u2014 Medium [NEW]",
+      "status": "ENGINEERING_COMPLETE",
+      "correction": "One concise current checkpoint supersedes historical append-only status; its former contents are separately preserved.",
+      "remaining_requirement": "No old PID or report header establishes current job liveness."
+    },
+    {
+      "id": "R3",
+      "finding": "Boilerplate overwhelms content \u2014 Low [NEW]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_REPORTS",
+      "correction": "Shared qualification limitations appear once per scope; the README links detail instead of repeating disclaimers everywhere.",
+      "remaining_requirement": "The old long ledgers remain audit evidence."
+    },
+    {
+      "id": "R4",
+      "finding": "Internal contradictions \u2014 Low [PARTIAL]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_REPORTS",
+      "correction": "Current count is 96; deletion ledger distinguishes redundant paths from model content; current CPU jobs have unknown status after HTTP 404.",
+      "remaining_requirement": "No later model is claimed locally present without an artifact check."
+    },
+    {
+      "id": "R5",
+      "finding": "Mixed baselines and units in adjacent tables \u2014 Low [NEW]",
+      "status": "ENGINEERING_COMPLETE_CURRENT_REPORTS",
+      "correction": "Every results table identifies baseline, byte units, regime and asset multiplicity.",
+      "remaining_requirement": "Old FX2, lexical, ideal and actual archive values are not combined into a headline."
+    }
+  ]
+}

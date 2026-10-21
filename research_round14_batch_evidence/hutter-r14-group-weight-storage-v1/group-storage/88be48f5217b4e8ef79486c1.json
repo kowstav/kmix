@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.1.attention.value_convolution.weight",
+  "names": [
+    "blocks.1.attention.value_convolution.weight"
+  ],
+  "label": "88be48f5217b4e8ef79486c1",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1474
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1448
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1467
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1437
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1450
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1474
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1448
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1474
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1448
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1479
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1556
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1452
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1702
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1437,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "48602622b6e675b41b997a2de3c3a2aa6677dc5c77fb772bf6d8087466e7b90b",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.017368000000002846,
+  "wall_seconds": 0.018043245000001207
+}

@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.value_convolution.weight",
+  "names": [
+    "blocks.10.attention.value_convolution.weight"
+  ],
+  "label": "293a5c5430160b7773289d9d",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1493
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1557
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1466
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1451
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1430
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1440
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1493
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1557
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1466
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1493
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1557
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1466
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1500
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1557
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1466
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1698
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1691
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1685
+    }
+  ],
+  "selected": [
+    1430,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "c92c6dbd8f922e4046096afbccbc145c5989be6e2e0e9a05a6f53df9ad1d0055",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.017783000000001638,
+  "wall_seconds": 0.020176264999975047
+}

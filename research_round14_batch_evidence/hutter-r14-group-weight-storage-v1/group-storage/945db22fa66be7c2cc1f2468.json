@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.7.mlp.up.weight.scale",
+  "names": [
+    "blocks.7.mlp.up.weight.scale"
+  ],
+  "label": "945db22fa66be7c2cc1f2468",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1103
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1118
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1113
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1025
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1032
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1016
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1103
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1118
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1113
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1103
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1118
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1113
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1103
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1118
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1113
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1406
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1416
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1425
+    }
+  ],
+  "selected": [
+    1016,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "a3aff0282656ee2b692db176a969f22d96c3f4f03144273cef4d0b5e72b748db",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.012259000000001768,
+  "wall_seconds": 0.01230423399999836
+}

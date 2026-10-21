@@ -1,0 +1,107 @@
+{
+  "region": {
+    "id": 8,
+    "file": "region_08.bin",
+    "offset": 64000000,
+    "bytes": 3145728,
+    "role": "confirmation",
+    "warmup_bytes": 2097152,
+    "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+  },
+  "cpu": 0,
+  "worker_pid": 18,
+  "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+  "deletions": [],
+  "encode": {
+    "exit": 0,
+    "wall_seconds": 3757.0191073060005,
+    "CPU_user_seconds": 3512.216675,
+    "CPU_system_seconds": 41.920951,
+    "peak_RSS_KiB": 6070216,
+    "stop_reason": null
+  },
+  "consumer_exit": 0,
+  "baseline_minus_cost_bits": 0.00030384305864572525,
+  "decode": {
+    "exit": 0,
+    "wall_seconds": 3520.865585779,
+    "CPU_user_seconds": 3466.428213,
+    "CPU_system_seconds": 15.623045,
+    "peak_RSS_KiB": 6067948,
+    "stop_reason": null
+  },
+  "archive_bytes": 652164,
+  "archive_sha256": "c0c69ff80f39d53c0ea088fd8c0d73a723f279dede7640a807c45bed52c1226d",
+  "input_sha256": "211133948c1b31845f673ea2497dbe5abaedb042ed58888017984de9d6994bbd",
+  "independent_decode_exact": true,
+  "replay_only": true,
+  "summary": {
+    "type": "summary",
+    "bytes": 3145728,
+    "input_bytes": 3145728,
+    "baseline_bits": 5217011.532423513,
+    "identity_mismatch_bits": 0,
+    "memory_zero_mismatch_bits": 0,
+    "totals": {
+      "identity": 5217011.532423513,
+      "full_250": 5215789.385198779,
+      "full_1000": 5219303.912840842,
+      "full_4000": 5237038.757722484,
+      "global_250": 5218074.843135225,
+      "no_explicit_nn_250": 5216579.748108209,
+      "reduced_250": 5215356.412109273,
+      "add_memory_250": 5215782.414371684,
+      "memory_zero_250": 5215789.385198779,
+      "short_memory_250": 5215793.232400924,
+      "guard_4_fixedshare": 5214389.351974006,
+      "guard_memory_pair": 5215782.104396
+    }
+  },
+  "warm_windows": [
+    {
+      "type": "window",
+      "abs_offset": 66097152,
+      "history_bytes": 2097152,
+      "bytes": 524288,
+      "partial": false,
+      "baseline_bits": 825962.655551742,
+      "arms": {
+        "identity": 825962.655551742,
+        "full_250": 825834.019127443,
+        "full_1000": 826271.741786187,
+        "full_4000": 828579.513428973,
+        "global_250": 826142.408181692,
+        "no_explicit_nn_250": 825928.832701224,
+        "reduced_250": 825759.740591834,
+        "add_memory_250": 825833.199275012,
+        "memory_zero_250": 825834.019127443,
+        "short_memory_250": 825833.591708208,
+        "guard_4_fixedshare": 825761.242495848,
+        "guard_memory_pair": 825833.270130366
+      }
+    },
+    {
+      "type": "window",
+      "abs_offset": 66621440,
+      "history_bytes": 2621440,
+      "bytes": 524288,
+      "partial": false,
+      "baseline_bits": 919802.335012382,
+      "arms": {
+        "identity": 919802.335012382,
+        "full_250": 919637.40826598,
+        "full_1000": 920013.374042041,
+        "full_4000": 922118.236086487,
+        "global_250": 919856.99736972,
+        "no_explicit_nn_250": 919781.136728566,
+        "reduced_250": 919588.626810592,
+        "add_memory_250": 919633.391414839,
+        "memory_zero_250": 919637.40826598,
+        "short_memory_250": 919636.106738128,
+        "guard_4_fixedshare": 919590.406339959,
+        "guard_memory_pair": 919633.48316867
+      }
+    }
+  ],
+  "no_full_file_state_claim": true
+}

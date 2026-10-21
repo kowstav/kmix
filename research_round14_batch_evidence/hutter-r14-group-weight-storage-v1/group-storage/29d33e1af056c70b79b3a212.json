@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.9.attention.forget_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.9.attention.forget_gate_projection.up.weight.scale"
+  ],
+  "label": "29d33e1af056c70b79b3a212",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 270
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 304
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 251
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 235
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 288
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 230
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 270
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 304
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 251
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 270
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 304
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 251
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 270
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 304
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 251
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 288
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 331
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 276
+    }
+  ],
+  "selected": [
+    230,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "81c712a30740468d9b2ade56380fe18ad6f85385afb19fec19425ad17296c550",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.010510000000001352,
+  "wall_seconds": 0.011687013999988949
+}

@@ -1,0 +1,695 @@
+{
+  "status": "RUNNING",
+  "pid": 2243,
+  "started": 1791307746.4044926,
+  "scope": "exact selected-core export plus native neural-only masking comparison, final CM qualification open",
+  "spending_usd": 0,
+  "deletions": [],
+  "exports": [
+    {
+      "name": "zero_update",
+      "checkpoint_path": "/root/hp_round9/preserved_core_training_v2/selected_core_zero_update.pt",
+      "checkpoint_sha256": "37382df17413d32a521b3e93cce0d507ecc519af8bb5d8a8e344c2d50a6c7994",
+      "zero_update_original_tensor_identity": true,
+      "changed_tensors": [],
+      "raw_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+      "packed_sha256": "83d8b442610a8a478ad77bb6776d2e361c6bf6b3c501561274f7ab57969f2717",
+      "packed_bytes": 16582485,
+      "packing_seconds": 343.03950975000043,
+      "native_reader_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 2.5636854429976665,
+        "CPU_seconds": 2.045538,
+        "peak_RSS_KiB": 1422008,
+        "returncode": 0
+      }
+    },
+    {
+      "name": "unweighted",
+      "checkpoint_path": "/root/hp_round9/core_extension_v1/unweighted_seed6506_step1152.pt",
+      "checkpoint_sha256": "42b2f268f8cfd553aef63520f55b860a86257cbb5d14c334d068d323fa92c003",
+      "zero_update_original_tensor_identity": false,
+      "changed_tensors": [
+        {
+          "tensor": "blocks.0.attention.beta_projection.weight",
+          "changed_bytes": 1575
+        },
+        {
+          "tensor": "blocks.0.attention.dt_bias",
+          "changed_bytes": 488
+        },
+        {
+          "tensor": "blocks.0.attention.key_convolution.weight",
+          "changed_bytes": 2278
+        },
+        {
+          "tensor": "blocks.0.attention.key_projection.weight.q",
+          "changed_bytes": 264
+        },
+        {
+          "tensor": "blocks.0.attention.log_baseline_decay_rate",
+          "changed_bytes": 8
+        },
+        {
+          "tensor": "blocks.0.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 169
+        },
+        {
+          "tensor": "blocks.0.attention.output_projection.weight.q",
+          "changed_bytes": 453
+        },
+        {
+          "tensor": "blocks.0.attention.query_convolution.weight",
+          "changed_bytes": 2277
+        },
+        {
+          "tensor": "blocks.0.attention.query_projection.weight.q",
+          "changed_bytes": 321
+        },
+        {
+          "tensor": "blocks.0.attention.value_convolution.weight",
+          "changed_bytes": 2204
+        },
+        {
+          "tensor": "blocks.0.attention.value_projection.weight.q",
+          "changed_bytes": 34
+        },
+        {
+          "tensor": "blocks.0.mlp.down.weight.q",
+          "changed_bytes": 38
+        },
+        {
+          "tensor": "blocks.0.mlp.up.weight.q",
+          "changed_bytes": 608
+        },
+        {
+          "tensor": "blocks.0.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.0.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.1.attention.beta_projection.weight",
+          "changed_bytes": 1537
+        },
+        {
+          "tensor": "blocks.1.attention.dt_bias",
+          "changed_bytes": 487
+        },
+        {
+          "tensor": "blocks.1.attention.key_convolution.weight",
+          "changed_bytes": 2190
+        },
+        {
+          "tensor": "blocks.1.attention.key_projection.weight.q",
+          "changed_bytes": 41
+        },
+        {
+          "tensor": "blocks.1.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.1.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 158
+        },
+        {
+          "tensor": "blocks.1.attention.output_projection.weight.q",
+          "changed_bytes": 434
+        },
+        {
+          "tensor": "blocks.1.attention.query_convolution.weight",
+          "changed_bytes": 2316
+        },
+        {
+          "tensor": "blocks.1.attention.query_projection.weight.q",
+          "changed_bytes": 104
+        },
+        {
+          "tensor": "blocks.1.attention.value_convolution.weight",
+          "changed_bytes": 2173
+        },
+        {
+          "tensor": "blocks.1.attention.value_projection.weight.q",
+          "changed_bytes": 11
+        },
+        {
+          "tensor": "blocks.1.mlp.down.weight.q",
+          "changed_bytes": 74
+        },
+        {
+          "tensor": "blocks.1.mlp.up.weight.q",
+          "changed_bytes": 130
+        },
+        {
+          "tensor": "blocks.1.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.1.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.10.attention.beta_projection.weight",
+          "changed_bytes": 1594
+        },
+        {
+          "tensor": "blocks.10.attention.dt_bias",
+          "changed_bytes": 481
+        },
+        {
+          "tensor": "blocks.10.attention.key_convolution.weight",
+          "changed_bytes": 2160
+        },
+        {
+          "tensor": "blocks.10.attention.key_projection.weight.q",
+          "changed_bytes": 19
+        },
+        {
+          "tensor": "blocks.10.attention.log_baseline_decay_rate",
+          "changed_bytes": 8
+        },
+        {
+          "tensor": "blocks.10.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 160
+        },
+        {
+          "tensor": "blocks.10.attention.output_projection.weight.q",
+          "changed_bytes": 686
+        },
+        {
+          "tensor": "blocks.10.attention.query_convolution.weight",
+          "changed_bytes": 2367
+        },
+        {
+          "tensor": "blocks.10.attention.query_projection.weight.q",
+          "changed_bytes": 234
+        },
+        {
+          "tensor": "blocks.10.attention.value_convolution.weight",
+          "changed_bytes": 2177
+        },
+        {
+          "tensor": "blocks.10.attention.value_projection.weight.q",
+          "changed_bytes": 2
+        },
+        {
+          "tensor": "blocks.10.mlp.down.weight.q",
+          "changed_bytes": 110
+        },
+        {
+          "tensor": "blocks.10.mlp.up.weight.q",
+          "changed_bytes": 184
+        },
+        {
+          "tensor": "blocks.10.residual_stream_coefficient.value",
+          "changed_bytes": 2
+        },
+        {
+          "tensor": "blocks.10.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.11.attention.key_projection.weight.q",
+          "changed_bytes": 4153
+        },
+        {
+          "tensor": "blocks.11.attention.output_projection.weight.q",
+          "changed_bytes": 573
+        },
+        {
+          "tensor": "blocks.11.attention.query_projection.weight.q",
+          "changed_bytes": 4271
+        },
+        {
+          "tensor": "blocks.11.attention.value_projection.weight.q",
+          "changed_bytes": 162
+        },
+        {
+          "tensor": "blocks.11.mlp.down.weight.q",
+          "changed_bytes": 197
+        },
+        {
+          "tensor": "blocks.11.mlp.up.weight.q",
+          "changed_bytes": 111
+        },
+        {
+          "tensor": "blocks.11.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.11.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.2.attention.beta_projection.weight",
+          "changed_bytes": 1619
+        },
+        {
+          "tensor": "blocks.2.attention.dt_bias",
+          "changed_bytes": 486
+        },
+        {
+          "tensor": "blocks.2.attention.key_convolution.weight",
+          "changed_bytes": 2230
+        },
+        {
+          "tensor": "blocks.2.attention.key_projection.weight.q",
+          "changed_bytes": 118
+        },
+        {
+          "tensor": "blocks.2.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.2.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 162
+        },
+        {
+          "tensor": "blocks.2.attention.output_projection.weight.q",
+          "changed_bytes": 340
+        },
+        {
+          "tensor": "blocks.2.attention.query_convolution.weight",
+          "changed_bytes": 2292
+        },
+        {
+          "tensor": "blocks.2.attention.query_projection.weight.q",
+          "changed_bytes": 156
+        },
+        {
+          "tensor": "blocks.2.attention.value_convolution.weight",
+          "changed_bytes": 2129
+        },
+        {
+          "tensor": "blocks.2.mlp.down.weight.q",
+          "changed_bytes": 33
+        },
+        {
+          "tensor": "blocks.2.mlp.up.weight.q",
+          "changed_bytes": 66
+        },
+        {
+          "tensor": "blocks.2.residual_stream_coefficient.value",
+          "changed_bytes": 2
+        },
+        {
+          "tensor": "blocks.2.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.3.attention.key_projection.weight.q",
+          "changed_bytes": 3317
+        },
+        {
+          "tensor": "blocks.3.attention.output_projection.weight.q",
+          "changed_bytes": 886
+        },
+        {
+          "tensor": "blocks.3.attention.query_projection.weight.q",
+          "changed_bytes": 2928
+        },
+        {
+          "tensor": "blocks.3.attention.value_projection.weight.q",
+          "changed_bytes": 415
+        },
+        {
+          "tensor": "blocks.3.mlp.down.weight.q",
+          "changed_bytes": 84
+        },
+        {
+          "tensor": "blocks.3.mlp.up.weight.q",
+          "changed_bytes": 58
+        },
+        {
+          "tensor": "blocks.3.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.3.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.4.attention.beta_projection.weight",
+          "changed_bytes": 1594
+        },
+        {
+          "tensor": "blocks.4.attention.dt_bias",
+          "changed_bytes": 489
+        },
+        {
+          "tensor": "blocks.4.attention.key_convolution.weight",
+          "changed_bytes": 2154
+        },
+        {
+          "tensor": "blocks.4.attention.key_projection.weight.q",
+          "changed_bytes": 24
+        },
+        {
+          "tensor": "blocks.4.attention.log_baseline_decay_rate",
+          "changed_bytes": 8
+        },
+        {
+          "tensor": "blocks.4.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 162
+        },
+        {
+          "tensor": "blocks.4.attention.output_projection.weight.q",
+          "changed_bytes": 370
+        },
+        {
+          "tensor": "blocks.4.attention.query_convolution.weight",
+          "changed_bytes": 2226
+        },
+        {
+          "tensor": "blocks.4.attention.query_projection.weight.q",
+          "changed_bytes": 29
+        },
+        {
+          "tensor": "blocks.4.attention.value_convolution.weight",
+          "changed_bytes": 2086
+        },
+        {
+          "tensor": "blocks.4.mlp.down.weight.q",
+          "changed_bytes": 51
+        },
+        {
+          "tensor": "blocks.4.mlp.up.weight.q",
+          "changed_bytes": 77
+        },
+        {
+          "tensor": "blocks.4.residual_stream_coefficient.value",
+          "changed_bytes": 2
+        },
+        {
+          "tensor": "blocks.4.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.5.attention.beta_projection.weight",
+          "changed_bytes": 1591
+        },
+        {
+          "tensor": "blocks.5.attention.dt_bias",
+          "changed_bytes": 477
+        },
+        {
+          "tensor": "blocks.5.attention.key_convolution.weight",
+          "changed_bytes": 2129
+        },
+        {
+          "tensor": "blocks.5.attention.key_projection.weight.q",
+          "changed_bytes": 18
+        },
+        {
+          "tensor": "blocks.5.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.5.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 167
+        },
+        {
+          "tensor": "blocks.5.attention.output_projection.weight.q",
+          "changed_bytes": 581
+        },
+        {
+          "tensor": "blocks.5.attention.query_convolution.weight",
+          "changed_bytes": 2343
+        },
+        {
+          "tensor": "blocks.5.attention.query_projection.weight.q",
+          "changed_bytes": 203
+        },
+        {
+          "tensor": "blocks.5.attention.value_convolution.weight",
+          "changed_bytes": 2137
+        },
+        {
+          "tensor": "blocks.5.mlp.down.weight.q",
+          "changed_bytes": 45
+        },
+        {
+          "tensor": "blocks.5.mlp.up.weight.q",
+          "changed_bytes": 48
+        },
+        {
+          "tensor": "blocks.5.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.5.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.6.attention.beta_projection.weight",
+          "changed_bytes": 1575
+        },
+        {
+          "tensor": "blocks.6.attention.dt_bias",
+          "changed_bytes": 478
+        },
+        {
+          "tensor": "blocks.6.attention.key_convolution.weight",
+          "changed_bytes": 2354
+        },
+        {
+          "tensor": "blocks.6.attention.key_projection.weight.q",
+          "changed_bytes": 151
+        },
+        {
+          "tensor": "blocks.6.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.6.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 158
+        },
+        {
+          "tensor": "blocks.6.attention.output_projection.weight.q",
+          "changed_bytes": 376
+        },
+        {
+          "tensor": "blocks.6.attention.query_convolution.weight",
+          "changed_bytes": 2281
+        },
+        {
+          "tensor": "blocks.6.attention.query_projection.weight.q",
+          "changed_bytes": 81
+        },
+        {
+          "tensor": "blocks.6.attention.value_convolution.weight",
+          "changed_bytes": 2183
+        },
+        {
+          "tensor": "blocks.6.mlp.down.weight.q",
+          "changed_bytes": 29
+        },
+        {
+          "tensor": "blocks.6.mlp.up.weight.q",
+          "changed_bytes": 104
+        },
+        {
+          "tensor": "blocks.6.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.6.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.7.attention.key_projection.weight.q",
+          "changed_bytes": 1550
+        },
+        {
+          "tensor": "blocks.7.attention.output_projection.weight.q",
+          "changed_bytes": 1171
+        },
+        {
+          "tensor": "blocks.7.attention.query_projection.weight.q",
+          "changed_bytes": 1533
+        },
+        {
+          "tensor": "blocks.7.attention.value_projection.weight.q",
+          "changed_bytes": 283
+        },
+        {
+          "tensor": "blocks.7.mlp.down.weight.q",
+          "changed_bytes": 25
+        },
+        {
+          "tensor": "blocks.7.mlp.up.weight.q",
+          "changed_bytes": 43
+        },
+        {
+          "tensor": "blocks.7.residual_stream_coefficient.value",
+          "changed_bytes": 2
+        },
+        {
+          "tensor": "blocks.7.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.8.attention.beta_projection.weight",
+          "changed_bytes": 1608
+        },
+        {
+          "tensor": "blocks.8.attention.dt_bias",
+          "changed_bytes": 483
+        },
+        {
+          "tensor": "blocks.8.attention.key_convolution.weight",
+          "changed_bytes": 2234
+        },
+        {
+          "tensor": "blocks.8.attention.key_projection.weight.q",
+          "changed_bytes": 22
+        },
+        {
+          "tensor": "blocks.8.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.8.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 160
+        },
+        {
+          "tensor": "blocks.8.attention.output_projection.weight.q",
+          "changed_bytes": 595
+        },
+        {
+          "tensor": "blocks.8.attention.query_convolution.weight",
+          "changed_bytes": 2313
+        },
+        {
+          "tensor": "blocks.8.attention.query_projection.weight.q",
+          "changed_bytes": 187
+        },
+        {
+          "tensor": "blocks.8.attention.value_convolution.weight",
+          "changed_bytes": 2166
+        },
+        {
+          "tensor": "blocks.8.attention.value_projection.weight.q",
+          "changed_bytes": 1
+        },
+        {
+          "tensor": "blocks.8.mlp.down.weight.q",
+          "changed_bytes": 68
+        },
+        {
+          "tensor": "blocks.8.mlp.up.weight.q",
+          "changed_bytes": 133
+        },
+        {
+          "tensor": "blocks.8.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.8.token_embedding_coefficient.value",
+          "changed_bytes": 4
+        },
+        {
+          "tensor": "blocks.9.attention.beta_projection.weight",
+          "changed_bytes": 1634
+        },
+        {
+          "tensor": "blocks.9.attention.dt_bias",
+          "changed_bytes": 475
+        },
+        {
+          "tensor": "blocks.9.attention.key_convolution.weight",
+          "changed_bytes": 2276
+        },
+        {
+          "tensor": "blocks.9.attention.key_projection.weight.q",
+          "changed_bytes": 43
+        },
+        {
+          "tensor": "blocks.9.attention.log_baseline_decay_rate",
+          "changed_bytes": 7
+        },
+        {
+          "tensor": "blocks.9.attention.output_fused_norm_gate.weight",
+          "changed_bytes": 158
+        },
+        {
+          "tensor": "blocks.9.attention.output_projection.weight.q",
+          "changed_bytes": 703
+        },
+        {
+          "tensor": "blocks.9.attention.query_convolution.weight",
+          "changed_bytes": 2450
+        },
+        {
+          "tensor": "blocks.9.attention.query_projection.weight.q",
+          "changed_bytes": 260
+        },
+        {
+          "tensor": "blocks.9.attention.value_convolution.weight",
+          "changed_bytes": 2181
+        },
+        {
+          "tensor": "blocks.9.mlp.down.weight.q",
+          "changed_bytes": 83
+        },
+        {
+          "tensor": "blocks.9.mlp.up.weight.q",
+          "changed_bytes": 137
+        },
+        {
+          "tensor": "blocks.9.residual_stream_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "blocks.9.token_embedding_coefficient.value",
+          "changed_bytes": 3
+        },
+        {
+          "tensor": "embedding.weight.q",
+          "changed_bytes": 1093
+        },
+        {
+          "tensor": "prior_embedding.weight.q",
+          "changed_bytes": 719
+        },
+        {
+          "tensor": "skip_connection_weights.value",
+          "changed_bytes": 18
+        },
+        {
+          "tensor": "unembedding.weight.q",
+          "changed_bytes": 88
+        }
+      ],
+      "raw_sha256": "e2c2e90a6489897a25539f96cba119b2bf90fba57c89540fc53777028aac3258",
+      "packed_sha256": "8b958cb44533bb29cf8db3d16a234bd507dd0536df17dbc28fbd5eda68fc3ba0",
+      "packed_bytes": 16638374,
+      "packing_seconds": 307.75000032499884,
+      "native_reader_tensor_identity": true,
+      "reader_accounting": {
+        "wall_seconds": 1.4134885309977108,
+        "CPU_seconds": 1.41204,
+        "peak_RSS_KiB": 1451480,
+        "returncode": 0
+      }
+    }
+  ],
+  "native_candidates": [],
+  "scratch": "/root/hp_round9/core_export_v1",
+  "actual_original_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+  "stage": "native neural codec candidate unweighted",
+  "frozen_candidates": [
+    "unweighted",
+    "cut107_half",
+    "cut1392_zero"
+  ],
+  "selection_contract": "seed6506 step1152; representative full-loss winner, light mask and zero-loss stress; selected before native measurement, development corpus reused",
+  "native_development_baseline": {
+    "all_bits_per_symbol": 0.5936542564382776,
+    "common_or_unlabelled_bits_per_symbol": 0.4300166097240751,
+    "rare_bits_per_symbol": 2.1548751115507554,
+    "targets": 50996
+  }
+}

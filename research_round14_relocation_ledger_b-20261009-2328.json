@@ -1,0 +1,51 @@
+{
+  "purpose": "temporary relocation so the frozen collector v1 conservative ZIP reserve fits; no deletion",
+  "tag": "b-20261009-2328",
+  "file": "/kaggle/working/hp_round14/native_wave_compact_v1.zip",
+  "sha256": "dbff4696be32970c23d5bb24c0c027999c17e3f51de88cc3b5362dda55ce4365",
+  "bytes": 45063335,
+  "local_verified_copy": "C:/Users/91707/Downloads/compression_cmix/research_round14_native_wave_compact_v1.zip (same SHA-256)",
+  "steps": [
+    {
+      "t": 1791588526.050803,
+      "step": "verified original in working",
+      "working_free_B": 67670016
+    },
+    {
+      "t": 1791588526.3376737,
+      "step": "verified temporary copy in /root",
+      "copy": "/root/r14_relocated_for_b_collection/native_wave_compact_v1.zip",
+      "working_free_B": 67665920
+    },
+    {
+      "t": 1791588526.3387156,
+      "step": "original unlinked from working (temporary copy verified)",
+      "working_free_B": 112730112
+    },
+    {
+      "t": 1791588555.4596617,
+      "step": "collector exited",
+      "exit": 0,
+      "working_free_B": 88813568
+    },
+    {
+      "t": 1791588555.7355523,
+      "step": "restored byte-identical original in working",
+      "working_free_B": 43749376
+    },
+    {
+      "t": 1791588555.7391934,
+      "step": "removed temporary /root copy after verified restore",
+      "working_free_B": 43749376
+    },
+    {
+      "t": 1791588555.7395897,
+      "step": "done",
+      "collector_exit": 0,
+      "working_free_B": 43749376
+    }
+  ],
+  "deletions": [],
+  "finished": 1791588555.7395864,
+  "status": "RESTORED_VERIFIED_NO_NET_DELETION"
+}

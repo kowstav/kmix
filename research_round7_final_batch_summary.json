@@ -1,0 +1,308 @@
+{
+  "utc": "2026-10-05T19:19:30.342424+00:00",
+  "session": 355529591,
+  "status": "FINITE_REGISTERED_BATCH_COMPLETE_NO_QUALIFYING_BREAKTHROUGH",
+  "expert_ABCD_saving_bytes": [
+    -1.0196946976810912,
+    0.009156911578664328,
+    0.14154172682455987,
+    2.6002908817967807
+  ],
+  "expert_total_saving_bytes": 1.7312948225189138,
+  "root_ABCD_saving_bytes": [
+    -2.4932342701835717,
+    16.568967357016934,
+    12.846215126689213,
+    14.969378056492474
+  ],
+  "root_total_saving_bytes": 41.89132627001505,
+  "tiny_residual_screen": {
+    "trained_on": "A/B only",
+    "neural_weights_changed": false,
+    "model_bytes_per_copy": 512,
+    "identity_integer_odds": true,
+    "arms": [
+      {
+        "ridge": 64,
+        "model": "odds_0.u32",
+        "slices": [
+          {
+            "slice": "a",
+            "role": "training",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 28.99847461872413,
+            "baseline_bytes": 187363.0867663323,
+            "changed_bits": 7067468
+          },
+          {
+            "slice": "b",
+            "role": "training",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 46.74648077159817,
+            "baseline_bytes": 437041.14054459037,
+            "changed_bits": 11743318
+          },
+          {
+            "slice": "c",
+            "role": "confirmation",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 35.67838247272694,
+            "baseline_bytes": 447023.93238661205,
+            "changed_bits": 11859249
+          },
+          {
+            "slice": "d",
+            "role": "confirmation",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 36.74452791833492,
+            "baseline_bytes": 439343.31336331787,
+            "changed_bits": 11624184
+          }
+        ]
+      },
+      {
+        "ridge": 4096,
+        "model": "odds_1.u32",
+        "slices": [
+          {
+            "slice": "a",
+            "role": "training",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 26.093523012751618,
+            "baseline_bytes": 187363.0867663323,
+            "changed_bits": 5450492
+          },
+          {
+            "slice": "b",
+            "role": "training",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 42.6884834800526,
+            "baseline_bytes": 437041.14054459037,
+            "changed_bits": 10170192
+          },
+          {
+            "slice": "c",
+            "role": "confirmation",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 36.239464556634196,
+            "baseline_bytes": 447023.93238661205,
+            "changed_bits": 10295438
+          },
+          {
+            "slice": "d",
+            "role": "confirmation",
+            "raw_bytes": 2000000,
+            "scored_bits": 16000000,
+            "saving_bytes": 35.95481855095348,
+            "baseline_bytes": 439343.31336331787,
+            "changed_bits": 9960100
+          }
+        ]
+      }
+    ],
+    "contract": "every actual final uint16 bit; fixed128 integer odds factors; paid512B per model copy; no original transformer SGD; C/D previously examined regions, freshE/F required for promotion"
+  },
+  "native_confirmation": [
+    {
+      "slice": "e",
+      "input_bytes": 65536,
+      "native_archive_saving_bytes": -1,
+      "ideal_saving_bytes": -0.6072071076487191,
+      "neutral_archive_exact": true,
+      "neutral_probabilities_exact": true,
+      "candidate_all_bits_match_integer_replay": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "reused_completed_v3_outputs": true,
+          "runtime": null,
+          "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+        },
+        "neutral": {
+          "reused_completed_v3_outputs": true,
+          "runtime": null,
+          "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+        },
+        "candidate": {
+          "reused_completed_v3_outputs": true,
+          "runtime": null,
+          "note": "wait4 timing was not persisted before failed decode; do not fabricate it"
+        },
+        "decode": {
+          "wall_seconds": 86.01155890299924,
+          "user_seconds": 79.867374,
+          "system_seconds": 6.126184,
+          "max_rss_kbytes": 5895500
+        }
+      }
+    },
+    {
+      "slice": "f",
+      "input_bytes": 65536,
+      "native_archive_saving_bytes": -3,
+      "ideal_saving_bytes": -3.235476684381865,
+      "neutral_archive_exact": true,
+      "neutral_probabilities_exact": true,
+      "candidate_all_bits_match_integer_replay": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "wall_seconds": 88.13449645400033,
+          "user_seconds": 82.263367,
+          "system_seconds": 5.857171,
+          "max_rss_kbytes": 5729592
+        },
+        "neutral": {
+          "wall_seconds": 88.16804822000086,
+          "user_seconds": 82.31755,
+          "system_seconds": 5.835188,
+          "max_rss_kbytes": 5730464
+        },
+        "candidate": {
+          "wall_seconds": 87.36401984999975,
+          "user_seconds": 81.47264,
+          "system_seconds": 5.876108,
+          "max_rss_kbytes": 5730364
+        },
+        "decode": {
+          "wall_seconds": 85.11257324500002,
+          "user_seconds": 79.385122,
+          "system_seconds": 5.7091449999999995,
+          "max_rss_kbytes": 5730136
+        }
+      }
+    }
+  ],
+  "prior_codec_groups": {
+    "raw/zstd3": {
+      "packed_bytes": 54304690,
+      "raw_bytes": 107479040,
+      "decode_seconds": 0.3353250830004981,
+      "ratio": 0.505258420618569,
+      "decode_MB_s": 320.52192170736106,
+      "projected_full_bytes_not_guaranteed": 121488476863.11264
+    },
+    "raw/zstd9": {
+      "packed_bytes": 50901611,
+      "raw_bytes": 107479040,
+      "decode_seconds": 0.28525938099937775,
+      "ratio": 0.4735956982868474,
+      "decode_MB_s": 376.77653097141945,
+      "projected_full_bytes_not_guaranteed": 113875232328.34328
+    },
+    "raw/zlib3": {
+      "packed_bytes": 61583222,
+      "raw_bytes": 107479040,
+      "decode_seconds": 0.765521606999755,
+      "ratio": 0.5729788989555545,
+      "decode_MB_s": 140.39974707080265,
+      "projected_full_bytes_not_guaranteed": 137771743860.48294
+    },
+    "byte_shuffle/zstd3": {
+      "packed_bytes": 58525810,
+      "raw_bytes": 107479040,
+      "decode_seconds": 0.5849448859999029,
+      "ratio": 0.5445323106719226,
+      "decode_MB_s": 183.74216541149116,
+      "projected_full_bytes_not_guaranteed": 130931812962.74643
+    },
+    "byte_shuffle/zstd9": {
+      "packed_bytes": 51021168,
+      "raw_bytes": 107479040,
+      "decode_seconds": 0.6367931779986975,
+      "ratio": 0.4747080733136433,
+      "decode_MB_s": 168.78170764608888,
+      "projected_full_bytes_not_guaranteed": 114142700899.25903
+    },
+    "byte_shuffle/zlib3": {
+      "packed_bytes": 70372174,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.0286351699996885,
+      "ratio": 0.6547525359363091,
+      "decode_MB_s": 104.48703596245164,
+      "projected_full_bytes_not_guaranteed": 157434067532.76627
+    },
+    "xor_byte_shuffle/zstd3": {
+      "packed_bytes": 64105401,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.1441586250011824,
+      "ratio": 0.5964456046499858,
+      "decode_MB_s": 93.9371846276026,
+      "projected_full_bytes_not_guaranteed": 143414270962.39862
+    },
+    "xor_byte_shuffle/zstd9": {
+      "packed_bytes": 56865784,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.0821644320012638,
+      "ratio": 0.529087196908346,
+      "decode_MB_s": 99.31858488569738,
+      "projected_full_bytes_not_guaranteed": 127218063187.30042
+    },
+    "xor_byte_shuffle/zlib3": {
+      "packed_bytes": 73473013,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.4173821859985765,
+      "ratio": 0.683603175093488,
+      "decode_MB_s": 75.82925837626405,
+      "projected_full_bytes_not_guaranteed": 164371151735.02832
+    },
+    "delta_byte_shuffle/zstd3": {
+      "packed_bytes": 66977743,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.4112621020003644,
+      "ratio": 0.6231702758044732,
+      "decode_MB_s": 76.15809979425937,
+      "projected_full_bytes_not_guaranteed": 149840169988.98264
+    },
+    "delta_byte_shuffle/zstd9": {
+      "packed_bytes": 59037806,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.41406920099962,
+      "ratio": 0.549295992967559,
+      "decode_MB_s": 76.00691672233718,
+      "projected_full_bytes_not_guaranteed": 132077231787.52945
+    },
+    "delta_byte_shuffle/zlib3": {
+      "packed_bytes": 77626250,
+      "raw_bytes": 107479040,
+      "decode_seconds": 1.8933380119988215,
+      "ratio": 0.7222454722334699,
+      "decode_MB_s": 56.76695831323483,
+      "projected_full_bytes_not_guaranteed": 173662622456.64597
+    }
+  },
+  "full_inverse": {
+    "status": "PASS_FULL_PREPROCESS_INVERSE",
+    "pid": 1174,
+    "utc": "2026-10-05T18:52:06.659684+00:00",
+    "scope": "original FX2 WRT/PHDA/article-order inverse, not entropy-coded full archive",
+    "paid_rental_usd": 0,
+    "child_pid": 1190,
+    "reconstructed_bytes": 1000000000,
+    "reconstructed_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+    "user_seconds": 245.599285,
+    "max_rss_kbytes": 1515868,
+    "deletions": {
+      "manual_project_deletions": [],
+      "generated_scratch_remove_calls": [],
+      "reason": "original inverse program removes its own intermediate files; originals and preserved evidence protected"
+    },
+    "finished": "2026-10-05T18:57:06.914676+00:00"
+  },
+  "paid_usd": 0,
+  "manual_project_deletions": [],
+  "full_original_transformer_training": "NOT_EXECUTED",
+  "production_lexical_full_stream": "NOT_REGENERATED",
+  "full_exact_training_priors": "NOT_REGENERATED",
+  "full_qualifying_package": "NOT_BUILT_OR_MEASURED",
+  "absolute_optimum_proved": false,
+  "over_20_percent_improvement": false,
+  "goal": "usageLimited; not resumed or mutated"
+}

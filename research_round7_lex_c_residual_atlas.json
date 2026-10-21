@@ -1,0 +1,1777 @@
+{
+  "slice": "c",
+  "scope": "Actual lexth11c checkpoint/config, original FX2-ordered2M WRT slice, cold neural/classical histories; diagnostic only",
+  "input_bytes": 2000000,
+  "unscored_prefix_bytes": 8158,
+  "input_sha256": "39b2ac6b5f9fbdacdb70778b5d9f5cd14e92d683b8b10688a8ab4e7031b20d9f",
+  "baseline_ideal_bytes": 447023.9324041789,
+  "ascii_word_occurrences": 525966,
+  "ascii_word_types": 22303,
+  "word_share_all_final_bits": 0.8202806682721039,
+  "assigned_word_partition_error_bits": 4.656612873077393e-10,
+  "neural_costs_separately_available": false,
+  "warning": "Categories overlap; XML tags count as ASCII words; first in slice is not globally new; spelling relation is not a free selector or predicted word",
+  "categories": {
+    "first_in_diagnosed_slice": {
+      "occurrences": 22303,
+      "final_bits": 392144.41837412806,
+      "share_all_final_bits": 0.10965420136040076
+    },
+    "dictionary_word": {
+      "occurrences": 483085,
+      "final_bits": 2601312.39310238,
+      "share_all_final_bits": 0.7273974066421992
+    },
+    "known_in_slice_first_in_article": {
+      "occurrences": 171121,
+      "final_bits": 1317631.6574661145,
+      "share_all_final_bits": 0.36844550200579956
+    },
+    "article_repeat": {
+      "occurrences": 332542,
+      "final_bits": 1223704.6442087465,
+      "share_all_final_bits": 0.3421809649059035
+    },
+    "article_repeat_under_1024": {
+      "occurrences": 285973,
+      "final_bits": 908201.723678885,
+      "share_all_final_bits": 0.2539578023245884
+    },
+    "distinct_earlier_slice_word_prefix4": {
+      "occurrences": 278914,
+      "final_bits": 1922559.8860947227,
+      "share_all_final_bits": 0.5375998203705877
+    },
+    "distinct_earlier_article_word_prefix4": {
+      "occurrences": 104193,
+      "final_bits": 702641.2737758959,
+      "share_all_final_bits": 0.19647753253303432
+    },
+    "distinct_earlier_slice_word_suffix4": {
+      "occurrences": 255679,
+      "final_bits": 1807966.5037104841,
+      "share_all_final_bits": 0.5055564066746102
+    },
+    "distinct_earlier_article_word_suffix4": {
+      "occurrences": 74122,
+      "final_bits": 588396.1985769776,
+      "share_all_final_bits": 0.1645315149606398
+    },
+    "literal_spelling_word": {
+      "occurrences": 42881,
+      "final_bits": 332168.3269466092,
+      "share_all_final_bits": 0.09288326162990462
+    },
+    "article_repeat_1024_to_4096": {
+      "occurrences": 36343,
+      "final_bits": 238638.29206626373,
+      "share_all_final_bits": 0.06672973043714406
+    },
+    "article_repeat_4096_to_16384": {
+      "occurrences": 9938,
+      "final_bits": 74515.57689272275,
+      "share_all_final_bits": 0.020836573696391362
+    },
+    "distinct_earlier_slice_word_anagram": {
+      "occurrences": 42947,
+      "final_bits": 252170.51166368043,
+      "share_all_final_bits": 0.07051370558267986
+    },
+    "distinct_earlier_article_word_anagram": {
+      "occurrences": 2211,
+      "final_bits": 15244.640909656533,
+      "share_all_final_bits": 0.00426281452865062
+    },
+    "article_repeat_over_16384": {
+      "occurrences": 288,
+      "final_bits": 2349.051570874988,
+      "share_all_final_bits": 0.0006568584477796709
+    }
+  },
+  "top_total_words": [
+    {
+      "word": "the",
+      "occurrences": 30168,
+      "final_bits": 58736.08065669355,
+      "bits_per_occurrence": 1.9469663436984073,
+      "max_occurrence_bits": 26.86495041847229
+    },
+    {
+      "word": "a",
+      "occurrences": 12686,
+      "final_bits": 38809.05450136447,
+      "bits_per_occurrence": 3.0592034133189716,
+      "max_occurrence_bits": 15.722305297851562
+    },
+    {
+      "word": "in",
+      "occurrences": 9409,
+      "final_bits": 32731.614425530657,
+      "bits_per_occurrence": 3.4787559172633284,
+      "max_occurrence_bits": 21.100452423095703
+    },
+    {
+      "word": "and",
+      "occurrences": 10706,
+      "final_bits": 30929.591832668055,
+      "bits_per_occurrence": 2.888996061336452,
+      "max_occurrence_bits": 18.331713676452637
+    },
+    {
+      "word": "of",
+      "occurrences": 14956,
+      "final_bits": 21358.913654794684,
+      "bits_per_occurrence": 1.4281167193631108,
+      "max_occurrence_bits": 18.489999771118164
+    },
+    {
+      "word": "to",
+      "occurrences": 10832,
+      "final_bits": 20974.92743200541,
+      "bits_per_occurrence": 1.936385471935507,
+      "max_occurrence_bits": 17.628738403320312
+    },
+    {
+      "word": "for",
+      "occurrences": 4517,
+      "final_bits": 18111.527041263413,
+      "bits_per_occurrence": 4.009636272141557,
+      "max_occurrence_bits": 18.75066450238228
+    },
+    {
+      "word": "is",
+      "occurrences": 9038,
+      "final_bits": 15452.086776539683,
+      "bits_per_occurrence": 1.7096798823345523,
+      "max_occurrence_bits": 22.723569869995117
+    },
+    {
+      "word": "or",
+      "occurrences": 3295,
+      "final_bits": 13694.38302980084,
+      "bits_per_occurrence": 4.156110175963836,
+      "max_occurrence_bits": 27.088643074035645
+    },
+    {
+      "word": "an",
+      "occurrences": 2516,
+      "final_bits": 13029.851651385427,
+      "bits_per_occurrence": 5.178796363825686,
+      "max_occurrence_bits": 17.24978256225586
+    },
+    {
+      "word": "with",
+      "occurrences": 2823,
+      "final_bits": 12139.857241031714,
+      "bits_per_occurrence": 4.300339086444107,
+      "max_occurrence_bits": 17.57596206665039
+    },
+    {
+      "word": "at",
+      "occurrences": 2193,
+      "final_bits": 12131.800876916386,
+      "bits_per_occurrence": 5.532056943418325,
+      "max_occurrence_bits": 18.535219192504883
+    },
+    {
+      "word": "as",
+      "occurrences": 3884,
+      "final_bits": 11986.344819770195,
+      "bits_per_occurrence": 3.0860826003527793,
+      "max_occurrence_bits": 14.702462434768677
+    },
+    {
+      "word": "that",
+      "occurrences": 3179,
+      "final_bits": 11176.127111432143,
+      "bits_per_occurrence": 3.5156109189783398,
+      "max_occurrence_bits": 21.103189945220947
+    },
+    {
+      "word": "this",
+      "occurrences": 2477,
+      "final_bits": 10840.302980581298,
+      "bits_per_occurrence": 4.376383924336414,
+      "max_occurrence_bits": 20.35778045654297
+    },
+    {
+      "word": "on",
+      "occurrences": 2630,
+      "final_bits": 10668.791116025299,
+      "bits_per_occurrence": 4.0565745688309125,
+      "max_occurrence_bits": 18.20402216911316
+    },
+    {
+      "word": "signal",
+      "occurrences": 2516,
+      "final_bits": 9720.284758081427,
+      "bits_per_occurrence": 3.8633882186333177,
+      "max_occurrence_bits": 18.651695728302002
+    },
+    {
+      "word": "by",
+      "occurrences": 3177,
+      "final_bits": 9658.8519622467,
+      "bits_per_occurrence": 3.0402429846542964,
+      "max_occurrence_bits": 17.18248224258423
+    },
+    {
+      "word": "from",
+      "occurrences": 2278,
+      "final_bits": 9306.841081769904,
+      "bits_per_occurrence": 4.085531642568,
+      "max_occurrence_bits": 17.524620056152344
+    },
+    {
+      "word": "it",
+      "occurrences": 2156,
+      "final_bits": 9291.905842907261,
+      "bits_per_occurrence": 4.309789351997802,
+      "max_occurrence_bits": 18.538698196411133
+    },
+    {
+      "word": "can",
+      "occurrences": 1988,
+      "final_bits": 8037.884832379408,
+      "bits_per_occurrence": 4.043201625945376,
+      "max_occurrence_bits": 18.546844482421875
+    },
+    {
+      "word": "which",
+      "occurrences": 1823,
+      "final_bits": 7727.690947161522,
+      "bits_per_occurrence": 4.238996679737532,
+      "max_occurrence_bits": 16.075735092163086
+    },
+    {
+      "word": "sound",
+      "occurrences": 1638,
+      "final_bits": 7687.758203368867,
+      "bits_per_occurrence": 4.6933810765377695,
+      "max_occurrence_bits": 21.56971549987793
+    },
+    {
+      "word": "digital",
+      "occurrences": 1652,
+      "final_bits": 7678.159402390942,
+      "bits_per_occurrence": 4.647796248420667,
+      "max_occurrence_bits": 15.659730434417725
+    },
+    {
+      "word": "frequency",
+      "occurrences": 1897,
+      "final_bits": 7346.27633678494,
+      "bits_per_occurrence": 3.8725758232920087,
+      "max_occurrence_bits": 24.004863500595093
+    },
+    {
+      "word": "are",
+      "occurrences": 3522,
+      "final_bits": 7286.699232218321,
+      "bits_per_occurrence": 2.068909492395889,
+      "max_occurrence_bits": 20.247385025024414
+    },
+    {
+      "word": "radio",
+      "occurrences": 1714,
+      "final_bits": 7222.308635386638,
+      "bits_per_occurrence": 4.21371565658497,
+      "max_occurrence_bits": 26.729940176010132
+    },
+    {
+      "word": "one",
+      "occurrences": 1085,
+      "final_bits": 6988.882298138924,
+      "bits_per_occurrence": 6.44136617339993,
+      "max_occurrence_bits": 16.174551248550415
+    },
+    {
+      "word": "audio",
+      "occurrences": 1597,
+      "final_bits": 6889.892151213484,
+      "bits_per_occurrence": 4.314271854235118,
+      "max_occurrence_bits": 17.772564850747585
+    },
+    {
+      "word": "used",
+      "occurrences": 1785,
+      "final_bits": 6689.005497448612,
+      "bits_per_occurrence": 3.7473420153773738,
+      "max_occurrence_bits": 18.164316654205322
+    },
+    {
+      "word": "system",
+      "occurrences": 1546,
+      "final_bits": 6192.776256133802,
+      "bits_per_occurrence": 4.005676750409963,
+      "max_occurrence_bits": 17.886481046676636
+    },
+    {
+      "word": "some",
+      "occurrences": 876,
+      "final_bits": 5844.561530333012,
+      "bits_per_occurrence": 6.671873893074215,
+      "max_occurrence_bits": 16.1453857421875
+    },
+    {
+      "word": "such",
+      "occurrences": 1100,
+      "final_bits": 5748.772241906729,
+      "bits_per_occurrence": 5.226156583551571,
+      "max_occurrence_bits": 19.929933547973633
+    },
+    {
+      "word": "high",
+      "occurrences": 909,
+      "final_bits": 5496.505437332671,
+      "bits_per_occurrence": 6.046760657131651,
+      "max_occurrence_bits": 18.77357530593872
+    },
+    {
+      "word": "power",
+      "occurrences": 1160,
+      "final_bits": 5491.547425970202,
+      "bits_per_occurrence": 4.734092608595002,
+      "max_occurrence_bits": 17.64775311946869
+    },
+    {
+      "word": "also",
+      "occurrences": 1509,
+      "final_bits": 5461.442505727755,
+      "bits_per_occurrence": 3.6192461933252185,
+      "max_occurrence_bits": 15.70850944519043
+    },
+    {
+      "word": "other",
+      "occurrences": 987,
+      "final_bits": 5343.241501601413,
+      "bits_per_occurrence": 5.41361854265594,
+      "max_occurrence_bits": 15.636289060115814
+    },
+    {
+      "word": "more",
+      "occurrences": 931,
+      "final_bits": 5278.505568778142,
+      "bits_per_occurrence": 5.669715970760626,
+      "max_occurrence_bits": 14.955343246459961
+    },
+    {
+      "word": "two",
+      "occurrences": 818,
+      "final_bits": 5151.778282349929,
+      "bits_per_occurrence": 6.298017460085488,
+      "max_occurrence_bits": 22.808077812194824
+    },
+    {
+      "word": "most",
+      "occurrences": 757,
+      "final_bits": 4983.111451845616,
+      "bits_per_occurrence": 6.582709976017987,
+      "max_occurrence_bits": 15.203280448913574
+    },
+    {
+      "word": "time",
+      "occurrences": 1018,
+      "final_bits": 4867.562947345199,
+      "bits_per_occurrence": 4.781496019003143,
+      "max_occurrence_bits": 16.431711196899414
+    },
+    {
+      "word": "when",
+      "occurrences": 752,
+      "final_bits": 4848.748625263572,
+      "bits_per_occurrence": 6.447804022956877,
+      "max_occurrence_bits": 21.1249680519104
+    },
+    {
+      "word": "only",
+      "occurrences": 669,
+      "final_bits": 4846.015473226551,
+      "bits_per_occurrence": 7.2436703635673405,
+      "max_occurrence_bits": 15.996270418167114
+    },
+    {
+      "word": "not",
+      "occurrences": 1213,
+      "final_bits": 4747.0724397492595,
+      "bits_per_occurrence": 3.9134974771222253,
+      "max_occurrence_bits": 21.0161771774292
+    },
+    {
+      "word": "all",
+      "occurrences": 697,
+      "final_bits": 4674.456615317613,
+      "bits_per_occurrence": 6.7065374681744805,
+      "max_occurrence_bits": 16.52715301513672
+    },
+    {
+      "word": "these",
+      "occurrences": 800,
+      "final_bits": 4621.400815834291,
+      "bits_per_occurrence": 5.776751019792864,
+      "max_occurrence_bits": 15.840664863586426
+    },
+    {
+      "word": "use",
+      "occurrences": 908,
+      "final_bits": 4609.911537739448,
+      "bits_per_occurrence": 5.076995085616132,
+      "max_occurrence_bits": 18.355350971221924
+    },
+    {
+      "word": "noise",
+      "occurrences": 1259,
+      "final_bits": 4518.112328620511,
+      "bits_per_occurrence": 3.5886515715810257,
+      "max_occurrence_bits": 17.862886041402817
+    },
+    {
+      "word": "its",
+      "occurrences": 754,
+      "final_bits": 4515.461373001337,
+      "bits_per_occurrence": 5.988675561009731,
+      "max_occurrence_bits": 17.69194984436035
+    },
+    {
+      "word": "s",
+      "occurrences": 4305,
+      "final_bits": 4498.29482898803,
+      "bits_per_occurrence": 1.0449000764199836,
+      "max_occurrence_bits": 18.331308364868164
+    },
+    {
+      "word": "has",
+      "occurrences": 980,
+      "final_bits": 4374.413004399277,
+      "bits_per_occurrence": 4.463686739182936,
+      "max_occurrence_bits": 16.862060546875
+    },
+    {
+      "word": "satellite",
+      "occurrences": 1098,
+      "final_bits": 4305.777998693753,
+      "bits_per_occurrence": 3.9214735871527804,
+      "max_occurrence_bits": 19.12506675720215
+    },
+    {
+      "word": "have",
+      "occurrences": 1026,
+      "final_bits": 4280.15135390684,
+      "bits_per_occurrence": 4.171687479441364,
+      "max_occurrence_bits": 20.42953586578369
+    },
+    {
+      "word": "but",
+      "occurrences": 885,
+      "final_bits": 4200.822986128274,
+      "bits_per_occurrence": 4.746692639692966,
+      "max_occurrence_bits": 27.91813564300537
+    },
+    {
+      "word": "systems",
+      "occurrences": 978,
+      "final_bits": 4192.621140208328,
+      "bits_per_occurrence": 4.2869336811946095,
+      "max_occurrence_bits": 15.458900451660156
+    },
+    {
+      "word": "signals",
+      "occurrences": 809,
+      "final_bits": 4161.498393703252,
+      "bits_per_occurrence": 5.1440029588420915,
+      "max_occurrence_bits": 19.353705406188965
+    },
+    {
+      "word": "if",
+      "occurrences": 700,
+      "final_bits": 4110.907041886821,
+      "bits_per_occurrence": 5.872724345552602,
+      "max_occurrence_bits": 16.8600435256958
+    },
+    {
+      "word": "using",
+      "occurrences": 717,
+      "final_bits": 4035.068931232905,
+      "bits_per_occurrence": 5.627711201161652,
+      "max_occurrence_bits": 14.465754985809326
+    },
+    {
+      "word": "low",
+      "occurrences": 608,
+      "final_bits": 4015.780777721666,
+      "bits_per_occurrence": 6.60490259493695,
+      "max_occurrence_bits": 30.76395034790039
+    },
+    {
+      "word": "data",
+      "occurrences": 692,
+      "final_bits": 4013.971809320152,
+      "bits_per_occurrence": 5.800537296705421,
+      "max_occurrence_bits": 18.431060314178467
+    },
+    {
+      "word": "very",
+      "occurrences": 534,
+      "final_bits": 4013.117164541967,
+      "bits_per_occurrence": 7.51520068266286,
+      "max_occurrence_bits": 19.79173231124878
+    },
+    {
+      "word": "television",
+      "occurrences": 968,
+      "final_bits": 4010.2173534994945,
+      "bits_per_occurrence": 4.142786522210222,
+      "max_occurrence_bits": 27.893440306186676
+    },
+    {
+      "word": "may",
+      "occurrences": 765,
+      "final_bits": 3980.0054672872648,
+      "bits_per_occurrence": 5.202621525865705,
+      "max_occurrence_bits": 13.476074695587158
+    },
+    {
+      "word": "information",
+      "occurrences": 833,
+      "final_bits": 3966.2628067969345,
+      "bits_per_occurrence": 4.761419936130774,
+      "max_occurrence_bits": 17.256975173950195
+    },
+    {
+      "word": "was",
+      "occurrences": 1390,
+      "final_bits": 3943.081838177517,
+      "bits_per_occurrence": 2.8367495238687175,
+      "max_occurrence_bits": 17.976753048598766
+    },
+    {
+      "word": "many",
+      "occurrences": 575,
+      "final_bits": 3834.213574470952,
+      "bits_per_occurrence": 6.668197520819048,
+      "max_occurrence_bits": 17.768795013427734
+    },
+    {
+      "word": "so",
+      "occurrences": 538,
+      "final_bits": 3822.2860799506307,
+      "bits_per_occurrence": 7.1046209664509865,
+      "max_occurrence_bits": 17.28515625
+    },
+    {
+      "word": "over",
+      "occurrences": 740,
+      "final_bits": 3808.1089897591155,
+      "bits_per_occurrence": 5.14609322940421,
+      "max_occurrence_bits": 15.530191421508789
+    },
+    {
+      "word": "often",
+      "occurrences": 595,
+      "final_bits": 3723.4703536923043,
+      "bits_per_occurrence": 6.257933367550091,
+      "max_occurrence_bits": 17.44961929321289
+    },
+    {
+      "word": "there",
+      "occurrences": 575,
+      "final_bits": 3638.8870955388993,
+      "bits_per_occurrence": 6.32849929658939,
+      "max_occurrence_bits": 14.2501802444458
+    },
+    {
+      "word": "usually",
+      "occurrences": 603,
+      "final_bits": 3607.6030093687586,
+      "bits_per_occurrence": 5.982757892817179,
+      "max_occurrence_bits": 14.969837665557861
+    },
+    {
+      "word": "where",
+      "occurrences": 672,
+      "final_bits": 3594.7079065935686,
+      "bits_per_occurrence": 5.3492677181451915,
+      "max_occurrence_bits": 17.179357528686523
+    },
+    {
+      "word": "be",
+      "occurrences": 3103,
+      "final_bits": 3589.3450476033613,
+      "bits_per_occurrence": 1.156733821335276,
+      "max_occurrence_bits": 21.688868045806885
+    },
+    {
+      "word": "will",
+      "occurrences": 765,
+      "final_bits": 3551.2568711354397,
+      "bits_per_occurrence": 4.6421658446214895,
+      "max_occurrence_bits": 16.671159744262695
+    },
+    {
+      "word": "their",
+      "occurrences": 622,
+      "final_bits": 3463.6552964840084,
+      "bits_per_occurrence": 5.568577647080399,
+      "max_occurrence_bits": 15.639311790466309
+    },
+    {
+      "word": "between",
+      "occurrences": 656,
+      "final_bits": 3431.1344014047645,
+      "bits_per_occurrence": 5.230387807019458,
+      "max_occurrence_bits": 14.66594123840332
+    },
+    {
+      "word": "i",
+      "occurrences": 1136,
+      "final_bits": 3385.3369899564423,
+      "bits_per_occurrence": 2.980050167215178,
+      "max_occurrence_bits": 16.914438247680664
+    },
+    {
+      "word": "first",
+      "occurrences": 646,
+      "final_bits": 3345.1569874682464,
+      "bits_per_occurrence": 5.1782615905081215,
+      "max_occurrence_bits": 16.91851019859314
+    },
+    {
+      "word": "analog",
+      "occurrences": 653,
+      "final_bits": 3301.2939640595578,
+      "bits_per_occurrence": 5.055580343123365,
+      "max_occurrence_bits": 15.133593082427979
+    },
+    {
+      "word": "channel",
+      "occurrences": 1063,
+      "final_bits": 3265.0233330043266,
+      "bits_per_occurrence": 3.071517716843205,
+      "max_occurrence_bits": 17.294137477874756
+    }
+  ],
+  "hard_repeated_words": [
+    {
+      "word": "alexanderson",
+      "occurrences": 5,
+      "final_bits": 111.55052937753499,
+      "bits_per_occurrence": 22.310105875507,
+      "max_occurrence_bits": 45.20358753204346
+    },
+    {
+      "word": "optimised",
+      "occurrences": 5,
+      "final_bits": 99.72086698375642,
+      "bits_per_occurrence": 19.944173396751285,
+      "max_occurrence_bits": 28.551359444856644
+    },
+    {
+      "word": "radiotelephone",
+      "occurrences": 6,
+      "final_bits": 116.48772369325161,
+      "bits_per_occurrence": 19.414620615541935,
+      "max_occurrence_bits": 28.774617671966553
+    },
+    {
+      "word": "excursion",
+      "occurrences": 6,
+      "final_bits": 115.47678871825337,
+      "bits_per_occurrence": 19.246131453042228,
+      "max_occurrence_bits": 49.60442818701267
+    },
+    {
+      "word": "footprint",
+      "occurrences": 5,
+      "final_bits": 95.66301703453064,
+      "bits_per_occurrence": 19.132603406906128,
+      "max_occurrence_bits": 25.566429138183594
+    },
+    {
+      "word": "midrange",
+      "occurrences": 8,
+      "final_bits": 150.00706851668656,
+      "bits_per_occurrence": 18.75088356458582,
+      "max_occurrence_bits": 33.167071133852005
+    },
+    {
+      "word": "sidelobe",
+      "occurrences": 6,
+      "final_bits": 111.88197472225875,
+      "bits_per_occurrence": 18.646995787043124,
+      "max_occurrence_bits": 36.541956435889006
+    },
+    {
+      "word": "electrostatically",
+      "occurrences": 5,
+      "final_bits": 92.86223840713501,
+      "bits_per_occurrence": 18.572447681427,
+      "max_occurrence_bits": 21.908396244049072
+    },
+    {
+      "word": "faded",
+      "occurrences": 5,
+      "final_bits": 92.58532226085663,
+      "bits_per_occurrence": 18.517064452171326,
+      "max_occurrence_bits": 29.220544815063477
+    },
+    {
+      "word": "attenuating",
+      "occurrences": 5,
+      "final_bits": 92.0024746407289,
+      "bits_per_occurrence": 18.400494928145783,
+      "max_occurrence_bits": 28.021224485244602
+    },
+    {
+      "word": "audibility",
+      "occurrences": 6,
+      "final_bits": 109.93309877766296,
+      "bits_per_occurrence": 18.322183129610494,
+      "max_occurrence_bits": 42.08131519705057
+    },
+    {
+      "word": "critically",
+      "occurrences": 5,
+      "final_bits": 91.21673522144556,
+      "bits_per_occurrence": 18.243347044289113,
+      "max_occurrence_bits": 21.942303277552128
+    },
+    {
+      "word": "undistorted",
+      "occurrences": 5,
+      "final_bits": 91.0523641332984,
+      "bits_per_occurrence": 18.21047282665968,
+      "max_occurrence_bits": 21.476250767707825
+    },
+    {
+      "word": "allowable",
+      "occurrences": 5,
+      "final_bits": 89.5800313949585,
+      "bits_per_occurrence": 17.9160062789917,
+      "max_occurrence_bits": 19.143501043319702
+    },
+    {
+      "word": "perfectv",
+      "occurrences": 5,
+      "final_bits": 89.3269937443547,
+      "bits_per_occurrence": 17.865398748870938,
+      "max_occurrence_bits": 37.6819913983345
+    },
+    {
+      "word": "cabling",
+      "occurrences": 5,
+      "final_bits": 89.29550921916962,
+      "bits_per_occurrence": 17.859101843833923,
+      "max_occurrence_bits": 26.271044731140137
+    },
+    {
+      "word": "quefrency",
+      "occurrences": 5,
+      "final_bits": 89.15340818394907,
+      "bits_per_occurrence": 17.830681636789812,
+      "max_occurrence_bits": 46.21405866742134
+    },
+    {
+      "word": "etymotic",
+      "occurrences": 5,
+      "final_bits": 89.07508907560259,
+      "bits_per_occurrence": 17.81501781512052,
+      "max_occurrence_bits": 33.94369660317898
+    },
+    {
+      "word": "hopping",
+      "occurrences": 5,
+      "final_bits": 88.48535030707717,
+      "bits_per_occurrence": 17.697070061415435,
+      "max_occurrence_bits": 27.229723930358887
+    },
+    {
+      "word": "equipage",
+      "occurrences": 5,
+      "final_bits": 88.35046515008435,
+      "bits_per_occurrence": 17.67009303001687,
+      "max_occurrence_bits": 32.29686500132084
+    },
+    {
+      "word": "spreading",
+      "occurrences": 5,
+      "final_bits": 88.13784790039062,
+      "bits_per_occurrence": 17.627569580078124,
+      "max_occurrence_bits": 19.70487928390503
+    },
+    {
+      "word": "multilateration",
+      "occurrences": 7,
+      "final_bits": 123.23802625015378,
+      "bits_per_occurrence": 17.60543232145054,
+      "max_occurrence_bits": 23.264818236231804
+    },
+    {
+      "word": "transients",
+      "occurrences": 6,
+      "final_bits": 105.63235697895288,
+      "bits_per_occurrence": 17.60539282982548,
+      "max_occurrence_bits": 19.417073726654053
+    },
+    {
+      "word": "directivity",
+      "occurrences": 7,
+      "final_bits": 123.0829207454808,
+      "bits_per_occurrence": 17.583274392211543,
+      "max_occurrence_bits": 31.67234644293785
+    },
+    {
+      "word": "crossed",
+      "occurrences": 5,
+      "final_bits": 87.89315089583397,
+      "bits_per_occurrence": 17.578630179166794,
+      "max_occurrence_bits": 20.175601482391357
+    },
+    {
+      "word": "superficially",
+      "occurrences": 5,
+      "final_bits": 87.58778285980225,
+      "bits_per_occurrence": 17.517556571960448,
+      "max_occurrence_bits": 19.73505163192749
+    },
+    {
+      "word": "alignment",
+      "occurrences": 8,
+      "final_bits": 140.108527302742,
+      "bits_per_occurrence": 17.51356591284275,
+      "max_occurrence_bits": 33.75571060180664
+    },
+    {
+      "word": "continual",
+      "occurrences": 5,
+      "final_bits": 87.56640028953552,
+      "bits_per_occurrence": 17.513280057907103,
+      "max_occurrence_bits": 20.816843509674072
+    },
+    {
+      "word": "acoustically",
+      "occurrences": 6,
+      "final_bits": 104.9659670330584,
+      "bits_per_occurrence": 17.494327838843066,
+      "max_occurrence_bits": 20.867717742919922
+    },
+    {
+      "word": "capturing",
+      "occurrences": 7,
+      "final_bits": 122.18420171737671,
+      "bits_per_occurrence": 17.454885959625244,
+      "max_occurrence_bits": 23.46016764640808
+    },
+    {
+      "word": "freeze",
+      "occurrences": 5,
+      "final_bits": 87.14508018642664,
+      "bits_per_occurrence": 17.42901603728533,
+      "max_occurrence_bits": 23.517606735229492
+    },
+    {
+      "word": "bjt",
+      "occurrences": 5,
+      "final_bits": 87.03647070750594,
+      "bits_per_occurrence": 17.40729414150119,
+      "max_occurrence_bits": 26.859177112579346
+    },
+    {
+      "word": "alerting",
+      "occurrences": 5,
+      "final_bits": 86.87809479236603,
+      "bits_per_occurrence": 17.375618958473204,
+      "max_occurrence_bits": 21.39579427242279
+    },
+    {
+      "word": "graphs",
+      "occurrences": 6,
+      "final_bits": 104.08390200138092,
+      "bits_per_occurrence": 17.347317000230152,
+      "max_occurrence_bits": 23.44407320022583
+    },
+    {
+      "word": "ccir",
+      "occurrences": 7,
+      "final_bits": 121.06633548391983,
+      "bits_per_occurrence": 17.29519078341712,
+      "max_occurrence_bits": 24.764532148838043
+    },
+    {
+      "word": "lag",
+      "occurrences": 5,
+      "final_bits": 86.4638215303421,
+      "bits_per_occurrence": 17.29276430606842,
+      "max_occurrence_bits": 19.63273549079895
+    },
+    {
+      "word": "superheterodyne",
+      "occurrences": 11,
+      "final_bits": 190.16651746816933,
+      "bits_per_occurrence": 17.28786522437903,
+      "max_occurrence_bits": 68.01341117545962
+    },
+    {
+      "word": "alias",
+      "occurrences": 8,
+      "final_bits": 138.26549792662263,
+      "bits_per_occurrence": 17.28318724082783,
+      "max_occurrence_bits": 22.197511319071054
+    },
+    {
+      "word": "synthesised",
+      "occurrences": 5,
+      "final_bits": 86.14996810816228,
+      "bits_per_occurrence": 17.229993621632456,
+      "max_occurrence_bits": 23.44579315185547
+    },
+    {
+      "word": "setups",
+      "occurrences": 8,
+      "final_bits": 137.58703244524077,
+      "bits_per_occurrence": 17.198379055655096,
+      "max_occurrence_bits": 29.094298481941223
+    },
+    {
+      "word": "regeneration",
+      "occurrences": 5,
+      "final_bits": 85.91598564013839,
+      "bits_per_occurrence": 17.18319712802768,
+      "max_occurrence_bits": 20.16023063659668
+    },
+    {
+      "word": "brick",
+      "occurrences": 7,
+      "final_bits": 120.21212929487228,
+      "bits_per_occurrence": 17.173161327838898,
+      "max_occurrence_bits": 21.60287618637085
+    },
+    {
+      "word": "footsteps",
+      "occurrences": 6,
+      "final_bits": 102.85522330924869,
+      "bits_per_occurrence": 17.142537218208115,
+      "max_occurrence_bits": 20.825525403022766
+    },
+    {
+      "word": "spice",
+      "occurrences": 6,
+      "final_bits": 102.65666804462671,
+      "bits_per_occurrence": 17.109444674104452,
+      "max_occurrence_bits": 26.558760166168213
+    },
+    {
+      "word": "demodulator",
+      "occurrences": 5,
+      "final_bits": 85.49565543234348,
+      "bits_per_occurrence": 17.099131086468695,
+      "max_occurrence_bits": 22.935834765434265
+    },
+    {
+      "word": "spare",
+      "occurrences": 10,
+      "final_bits": 170.58274105098099,
+      "bits_per_occurrence": 17.0582741050981,
+      "max_occurrence_bits": 29.17583283688873
+    },
+    {
+      "word": "strongest",
+      "occurrences": 5,
+      "final_bits": 85.26771020889282,
+      "bits_per_occurrence": 17.053542041778563,
+      "max_occurrence_bits": 20.89248037338257
+    },
+    {
+      "word": "miniature",
+      "occurrences": 6,
+      "final_bits": 102.31366419792175,
+      "bits_per_occurrence": 17.052277366320293,
+      "max_occurrence_bits": 23.812969207763672
+    },
+    {
+      "word": "weatheradio",
+      "occurrences": 9,
+      "final_bits": 152.69143532868475,
+      "bits_per_occurrence": 16.96571503652053,
+      "max_occurrence_bits": 32.74088501930237
+    },
+    {
+      "word": "predictor",
+      "occurrences": 6,
+      "final_bits": 101.31786727905273,
+      "bits_per_occurrence": 16.886311213175457,
+      "max_occurrence_bits": 19.622313022613525
+    },
+    {
+      "word": "abruptly",
+      "occurrences": 5,
+      "final_bits": 84.38213765621185,
+      "bits_per_occurrence": 16.87642753124237,
+      "max_occurrence_bits": 21.265970706939697
+    },
+    {
+      "word": "centers",
+      "occurrences": 5,
+      "final_bits": 84.26444268226624,
+      "bits_per_occurrence": 16.852888536453246,
+      "max_occurrence_bits": 19.81904172897339
+    },
+    {
+      "word": "realtime",
+      "occurrences": 5,
+      "final_bits": 84.12003123760223,
+      "bits_per_occurrence": 16.824006247520447,
+      "max_occurrence_bits": 21.286855697631836
+    },
+    {
+      "word": "ibiquity",
+      "occurrences": 8,
+      "final_bits": 134.47033149003983,
+      "bits_per_occurrence": 16.808791436254978,
+      "max_occurrence_bits": 36.56453815102577
+    },
+    {
+      "word": "guiding",
+      "occurrences": 5,
+      "final_bits": 83.86475419998169,
+      "bits_per_occurrence": 16.772950839996337,
+      "max_occurrence_bits": 20.691791534423828
+    },
+    {
+      "word": "losslessly",
+      "occurrences": 6,
+      "final_bits": 100.55740923527628,
+      "bits_per_occurrence": 16.75956820587938,
+      "max_occurrence_bits": 20.614689707756042
+    },
+    {
+      "word": "energized",
+      "occurrences": 6,
+      "final_bits": 100.38804721832275,
+      "bits_per_occurrence": 16.73134120305379,
+      "max_occurrence_bits": 20.65207004547119
+    },
+    {
+      "word": "seal",
+      "occurrences": 6,
+      "final_bits": 100.37034845352173,
+      "bits_per_occurrence": 16.728391408920288,
+      "max_occurrence_bits": 20.573345184326172
+    },
+    {
+      "word": "unrelated",
+      "occurrences": 7,
+      "final_bits": 116.90401411056519,
+      "bits_per_occurrence": 16.700573444366455,
+      "max_occurrence_bits": 25.432392597198486
+    },
+    {
+      "word": "fans",
+      "occurrences": 7,
+      "final_bits": 116.4124573841691,
+      "bits_per_occurrence": 16.6303510548813,
+      "max_occurrence_bits": 23.47903759777546
+    },
+    {
+      "word": "strings",
+      "occurrences": 8,
+      "final_bits": 132.90871810913086,
+      "bits_per_occurrence": 16.613589763641357,
+      "max_occurrence_bits": 21.77500343322754
+    },
+    {
+      "word": "equalisation",
+      "occurrences": 7,
+      "final_bits": 116.27471616421826,
+      "bits_per_occurrence": 16.610673737745465,
+      "max_occurrence_bits": 21.20928471442312
+    },
+    {
+      "word": "plotting",
+      "occurrences": 6,
+      "final_bits": 99.43721890449524,
+      "bits_per_occurrence": 16.572869817415874,
+      "max_occurrence_bits": 20.25967025756836
+    },
+    {
+      "word": "kit",
+      "occurrences": 6,
+      "final_bits": 99.2795672416687,
+      "bits_per_occurrence": 16.546594540278118,
+      "max_occurrence_bits": 26.22071146965027
+    },
+    {
+      "word": "telefutura",
+      "occurrences": 5,
+      "final_bits": 82.70566539373249,
+      "bits_per_occurrence": 16.541133078746498,
+      "max_occurrence_bits": 36.07921224832535
+    },
+    {
+      "word": "compromising",
+      "occurrences": 6,
+      "final_bits": 99.09967398643494,
+      "bits_per_occurrence": 16.51661233107249,
+      "max_occurrence_bits": 22.679007053375244
+    },
+    {
+      "word": "convergence",
+      "occurrences": 5,
+      "final_bits": 82.5042672753334,
+      "bits_per_occurrence": 16.500853455066682,
+      "max_occurrence_bits": 18.51207685470581
+    },
+    {
+      "word": "moderately",
+      "occurrences": 5,
+      "final_bits": 82.42794752120972,
+      "bits_per_occurrence": 16.485589504241943,
+      "max_occurrence_bits": 22.19941997528076
+    },
+    {
+      "word": "emf",
+      "occurrences": 5,
+      "final_bits": 82.4110342785716,
+      "bits_per_occurrence": 16.48220685571432,
+      "max_occurrence_bits": 25.901408195495605
+    },
+    {
+      "word": "receipt",
+      "occurrences": 5,
+      "final_bits": 82.14776504784822,
+      "bits_per_occurrence": 16.429553009569645,
+      "max_occurrence_bits": 19.018187046051025
+    },
+    {
+      "word": "backhaul",
+      "occurrences": 6,
+      "final_bits": 98.52468612557277,
+      "bits_per_occurrence": 16.420781020928796,
+      "max_occurrence_bits": 29.198920676484704
+    },
+    {
+      "word": "feeding",
+      "occurrences": 11,
+      "final_bits": 180.59248292446136,
+      "bits_per_occurrence": 16.417498447678305,
+      "max_occurrence_bits": 23.112688541412354
+    },
+    {
+      "word": "multiplexes",
+      "occurrences": 6,
+      "final_bits": 98.15820493130013,
+      "bits_per_occurrence": 16.359700821883354,
+      "max_occurrence_bits": 22.741485834121704
+    },
+    {
+      "word": "outgoing",
+      "occurrences": 5,
+      "final_bits": 81.67468798160553,
+      "bits_per_occurrence": 16.334937596321105,
+      "max_occurrence_bits": 18.70128333568573
+    },
+    {
+      "word": "distress",
+      "occurrences": 5,
+      "final_bits": 81.59999120235443,
+      "bits_per_occurrence": 16.319998240470888,
+      "max_occurrence_bits": 18.02257776260376
+    },
+    {
+      "word": "boresight",
+      "occurrences": 5,
+      "final_bits": 81.59420884400606,
+      "bits_per_occurrence": 16.318841768801214,
+      "max_occurrence_bits": 26.151939559727907
+    },
+    {
+      "word": "predominantly",
+      "occurrences": 7,
+      "final_bits": 114.19370412826538,
+      "bits_per_occurrence": 16.313386304037913,
+      "max_occurrence_bits": 21.718280792236328
+    },
+    {
+      "word": "helix",
+      "occurrences": 5,
+      "final_bits": 81.47366547584534,
+      "bits_per_occurrence": 16.294733095169068,
+      "max_occurrence_bits": 18.672014951705933
+    },
+    {
+      "word": "settling",
+      "occurrences": 5,
+      "final_bits": 81.44747202470899,
+      "bits_per_occurrence": 16.2894944049418,
+      "max_occurrence_bits": 22.585970878601074
+    },
+    {
+      "word": "iconoscope",
+      "occurrences": 5,
+      "final_bits": 81.43287549959496,
+      "bits_per_occurrence": 16.28657509991899,
+      "max_occurrence_bits": 29.683274380862713
+    }
+  ],
+  "top_occurrences": [
+    {
+      "word": "Opamptransistorlevelcoloredlabeled",
+      "encoded_start": 838470,
+      "final_bits": 98.148438250646,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "put impedance], current limiting and short circuit protection circuitry\n\n[Image:Opamptransistorlevelcoloredlabeled.png|thumb|right|450px|A component level diagram of the common 741 op-amp]\n\n=== "
+    },
+    {
+      "word": "xfdtdexampleDetailUpdated",
+      "encoded_start": 1259989,
+      "final_bits": 88.7770025730133,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "== External links, references, resources ==\n\n* [[http://www.remcom.com/examples/xfdtdexampleDetailUpdated.php?exampleID=41&&thisProduct=XFDTD60 Biconical Antenna Example]]\n* [[http://ww"
+    },
+    {
+      "word": "newcommsforroyalnavy",
+      "encoded_start": 1786740,
+      "final_bits": 84.53428283333778,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "receivers, such as those produced by  [[http://www.detica.com/indexed/CaseStudy_newcommsforroyalnavy.htm Detica]], use sophisticated digital signal processing ([DSP]) techniques to"
+    },
+    {
+      "word": "bledisondiscphpgraph",
+      "encoded_start": 224382,
+      "final_bits": 79.57560646533966,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tivists' assessment of quality.  [[http://inventors.about.com/library/inventors/bledisondiscphpgraph2.htm]]\n* Similarly, repeatability is poor for evaluation of components between "
+    },
+    {
+      "word": "streetsandtripskicksass",
+      "encoded_start": 1662106,
+      "final_bits": 79.02541455626488,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "edal of Technology for work on GPS\n\n===Wearable GPS solutions===\n* [[http://www.streetsandtripskicksass.com/site-streetsandtripskicksass/howtos/1700-backpack/ How to build a GPS backp"
+    },
+    {
+      "word": "THXcertifiedhometheater",
+      "encoded_start": 199475,
+      "final_bits": 75.82760712038726,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "w.thx.com THX Official Website]]\n* [[http://www.audioholics.com/cedia/cedia2004/THXcertifiedhometheater.php Home Theatre Program launch]]\n\n[Category:Film sound production]\n\n    </revi"
+    },
+    {
+      "word": "mnresponsiblerec",
+      "encoded_start": 745474,
+      "final_bits": 74.24463380873203,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "hington)]]\n* [[http://www.noboomers.com/ Kentucky (Louisville)]]\n* [[http://www.mnresponsiblerec.org/ Minnesota (statewide)]]\n* [[http://www.nonoise.org/quietnet/cqe/cqe.htm Ne"
+    },
+    {
+      "word": "BiophotonicsClearingUpDeconvolution",
+      "encoded_start": 353260,
+      "final_bits": 74.03448602743447,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "*[Independent Component Analysis]\n\n==External links==\n*[[http://www.aqi.com/PDF/BiophotonicsClearingUpDeconvolution%20Reprint.pdf An Article on Deconvolution by AutoQuant's David Biggs and Bob Ko"
+    },
+    {
+      "word": "Daybrokenroses",
+      "encoded_start": 1834738,
+      "final_bits": 73.3403217792511,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "[Pat Metheny], [Aphex Twin], [Boards of Canada], [Rush], [Meat Beat Manifesto], Daybrokenroses, and [Wilco] have also used or been inspired by broadcasts.\n\n==See also==\n* [Li"
+    },
+    {
+      "word": "OjaPlumbley",
+      "encoded_start": 969478,
+      "final_bits": 72.66440904140472,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "chine]\n\n== External links ==\n*[[http://www.elec.qmul.ac.uk/staffinfo/markp/2003/OjaPlumbley03-ica2003.pdf A mathematical application of noise whitening of pictures - pdf]]"
+    },
+    {
+      "word": "cablessciencereligion",
+      "encoded_start": 227608,
+      "final_bits": 70.08444535732269,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "f jewelry.  [[http://www.audioholics.com/techtips/audioprinciples/interconnects/cablessciencereligion.php]]\n* Some subjectivists' claims, while superficially based on accepted physi"
+    },
+    {
+      "word": "pocketcalculatorshow",
+      "encoded_start": 160228,
+      "final_bits": 68.53871938586235,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "0s] and few models are currently manufactured. \n\n==External links==\n*http://www.pocketcalculatorshow.com\n\n[category: consumer electronics]\n\n    </revision>\n  </page>\n  <page>\n    <"
+    },
+    {
+      "word": "superheterodyne",
+      "encoded_start": 407625,
+      "final_bits": 68.01341117545962,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "io signal could be picked up at two different positions on the radio dial in a [superheterodyne] radio: one where the local oscillator was above the radio frequency, and one w"
+    },
+    {
+      "word": "Lerdworatawee",
+      "encoded_start": 1782608,
+      "final_bits": 67.64668942242861,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "pers/lna.pdf \"Low noise amplifier design for ultra-wideband radio\"]] by Jongrit Lerdworatawee, Won Namgoong, 2003\n* [[http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470"
+    },
+    {
+      "word": "UsersGuidetoTimeSeries",
+      "encoded_start": 675086,
+      "final_bits": 67.58780919015408,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "]\n\n==External links==\n\n* [[http://documents.wolfram.com/applications/timeseries/UsersGuidetoTimeSeries/1.8.1.html Power Spectral Density Function]] - from [Wolfram Research]'s \"Time "
+    },
+    {
+      "word": "highfidelityreview",
+      "encoded_start": 169641,
+      "final_bits": 66.55697047710419,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "overcome in [2005]<ref>Robinson, Stuart M. Robinson. June 7, 2005. [[http://www.highfidelityreview.com/news/news.asp?newsnumber=14550899 DVD-Audio Copy Protection Defeated via Wi"
+    },
+    {
+      "word": "Kontogeorgakis",
+      "encoded_start": 1139700,
+      "final_bits": 66.32044678926468,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "signals]. <!-- should that page be merged with this one ? -->\n\n==References==\n* Kontogeorgakis, Christos; Millimeter Through Visible Frequency Waves Through Aerosols-Particle"
+    },
+    {
+      "word": "loudpseakers",
+      "encoded_start": 391390,
+      "final_bits": 66.11878430843353,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ion ratio over the entire audible frequency range.\n\nAdvantages of electrostatic loudpseakers include very fast transient response due to the extremely light weight of the d"
+    },
+    {
+      "word": "kanjeghoeredab",
+      "encoded_start": 1851198,
+      "final_bits": 65.90595126152039,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "an be obtained from http://www.dabradio.dk including a [[http://www.dabradio.dk/kanjeghoeredab/ current coverage map]].\n\n==== Finland ====\n\nFinland switched off their DAB tra"
+    },
+    {
+      "word": "silentmajorityny",
+      "encoded_start": 745631,
+      "final_bits": 65.29270625114441,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "http://www.geocities.com/scarsdale_noise/ New York (Scarsdale)]]\n* [[http://www.silentmajorityny.org/ New York (New York City)]]\n* [[http://members.aol.com/mpwright9/noise.html"
+    },
+    {
+      "word": "whatchagonnado",
+      "encoded_start": 573607,
+      "final_bits": 64.4103826880455,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "e the sentence \"what are you going to do?\", which when spoken might sound like \"whatchagonnado?\", which has a phonetic signal which is very different from the expected phonet"
+    },
+    {
+      "word": "magnetoencephalography",
+      "encoded_start": 589685,
+      "final_bits": 64.34457328170538,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "pplications being researched in this area is medical imaging of the brain with [magnetoencephalography]. This kind of imaging involves careful measurements of magnetic fields outside"
+    },
+    {
+      "word": "TavFalcoInterview",
+      "encoded_start": 1838873,
+      "final_bits": 64.21928334236145,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " 2005.\n* Turner, Jeremy (December [2003]). [[http://www.openspace.ca/outerspace/TavFalcoInterview2003.html \"07: Interview With Tav Falco About Early Telematic Art at Televista i"
+    },
+    {
+      "word": "HowToOpenFScall",
+      "encoded_start": 183720,
+      "final_bits": 64.10707423090935,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s, amplifiers, and playback equipment\n*[[http://www.koss.com/koss/kossweb.nsf/02HowToOpenFScall?readform&&Types Types of Headphones]]\n*[[http://www.head-fi.org/forums/ Head-Fi"
+    },
+    {
+      "word": "Fulldiskvisible",
+      "encoded_start": 1490888,
+      "final_bits": 63.476245760917664,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ver] and provides most of the U.S. weather information. \n\n<gallery>\nImage:GOES12Fulldiskvisible.png|GOES-12 visible light image.\nImage:GOES12Fulldiskwatervapor.png|GOES-12 wat"
+    },
+    {
+      "word": "databasesystemscorp",
+      "encoded_start": 529320,
+      "final_bits": 63.354963302612305,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "om/ Cepstral]] for English, Italian, German, French and Spanish.\n* [[http://www.databasesystemscorp.com/psivrtts.htm DSC Text To Speech Software]] Applications and demonstration o"
+    },
+    {
+      "word": "femtosecond",
+      "encoded_start": 779363,
+      "final_bits": 63.332767844200134,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "', the input [sequence] undergoes a [delay] of ''n'' time units, such as ''n'' [femtosecond]s, [nanosecond]s, or [microsecond]s.  (The delay line may have additional taps "
+    },
+    {
+      "word": "spazioscuola",
+      "encoded_start": 562344,
+      "final_bits": 62.03190231323242,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ations]] Interactive simulation of the effects of inadequate sampling\n*[[http://spazioscuola.altervista.org/UndersamplingAR/UndersamplingARnv.htm Undersampling and an appli"
+    },
+    {
+      "word": "moonblinkwifi",
+      "encoded_start": 1057843,
+      "final_bits": 61.90737581253052,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "culator-volt.htm Conversion: Voltage V to dB, dBu, dBV, and dBm]]\n*[[http://www.moonblinkwifi.com/dbm_to_watt_conversion.cfm Only Power: dBm to mW conversion]]\n\n== Reference"
+    },
+    {
+      "word": "Otolaryngology",
+      "encoded_start": 660669,
+      "final_bits": 61.54728955030441,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": ". Rosen and P. Olin, ''[Hearing loss] and [coronary heart disease], Archives of Otolaryngology'', 82:236 (1965)\n\n==See also==\n\n*[Hush kit]\n*[Helicopter noise reduction]\n*[Noi"
+    },
+    {
+      "word": "CHartographY",
+      "encoded_start": 1508825,
+      "final_bits": 61.54043697938323,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rometer]\n* SCIAMACHY (SCanning Imaging Absorption  SpectroMeter for Atmospheric CHartographY) compares light coming from the sun to light reflected by the Earth, which prov"
+    },
+    {
+      "word": "thevalueleader",
+      "encoded_start": 664192,
+      "final_bits": 61.34368562698364,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "sh] plugs are [BS1363#Fusing|fused]).\n\n== External links ==\n\n* [[http://www.tpi-thevalueleader.com/rms.html RMS values and measurement]]\n* [[http://www.hifi-writer.com/he/mis"
+    },
+    {
+      "word": "ETRelaysFull",
+      "encoded_start": 1570852,
+      "final_bits": 60.764076948165894,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rke published an article titled \u201c[[http://www.lsi.usp.br/~rbianchi/clarke/ACC.ETRelaysFull.html Extra-terrestrial Relays]]\u201d in the British magazine ''[Wireless World]''"
+    },
+    {
+      "word": "AmpSpekerInterface",
+      "encoded_start": 224996,
+      "final_bits": 60.27143335342407,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "m that works well together.  [[http://www.soundandvisionmag.com/assets/download/AmpSpekerInterface.pdf]]\n* Minute differences in loudness have been demonstrated to be perceived a"
+    },
+    {
+      "word": "SpkFrontCutawayView",
+      "encoded_start": 484236,
+      "final_bits": 60.22699378430843,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "px|Cross-section of a dynamic cone loudspeaker. ''Image not to scale.'']\n[Image:SpkFrontCutawayView.png|thumb|330px|Cut-away view of a dynamic loudspeaker. ''The lead wires as sho"
+    },
+    {
+      "word": "Muntjewerff",
+      "encoded_start": 1723527,
+      "final_bits": 59.83974426984787,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ra high frequency|UHF] band).\n\n===Notable tropospheric DX receptions===\n\n[Image:Muntjewerff-TV-antennas-8.jpg|thumb|250px|An elaborate band 3 / UHF TV DX aerial system use"
+    },
+    {
+      "word": "Investigaciones",
+      "encoded_start": 1166775,
+      "final_bits": 59.76796942949295,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "eneration, Transmission and Distribution, IEE Proceedings. Vol. 142.1, Inst. de Investigaciones Electr., Morelos, Jan 1995. ISSN 1350-2360\n* [[http://cktse.eie.polyu.edu.hk/ei"
+    },
+    {
+      "word": "rDmAHxrB",
+      "encoded_start": 1754015,
+      "final_bits": 59.604313015937805,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "mericanscientist.org/template/BookReviewTypeDetail/assetid/15171;jsessionid=aaa7rDmAHxrB0-  American Scientist On-Line]]\n* [[http://www.siam.org/siamnews/12-02/scientis"
+    },
+    {
+      "word": "heteroscedastic",
+      "encoded_start": 572608,
+      "final_bits": 59.58227090537548,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "d delta-delta coefficients to capture speech dynamics and in addition might use heteroscedastic linear discriminant analysis (HLDA); or might skip the delta and delta-delta co"
+    },
+    {
+      "word": "nordquistsyr",
+      "encoded_start": 1724225,
+      "final_bits": 59.54611027240753,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": ", [Mexico], at a distance of 2,536 miles (4,080 km). [[http://home.twcny.rr.com/nordquistsyr/FMRECDIS.htm]]\n*Throughout the [1990s], Fernando Garcia, located at what could "
+    },
+    {
+      "word": "Joeblakesley",
+      "encoded_start": 63052,
+      "final_bits": 58.91954827308655,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "er.com\n\n== See also ==\n<!-- {wikibookspar||Useless Information} removed by User:Joeblakesley as it has no content ATM -->\n{col-begin}\n{col-break}\n* [Information entropy]\n* "
+    },
+    {
+      "word": "Kanalmodeller",
+      "encoded_start": 1310033,
+      "final_bits": 58.69390061125159,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ero cross-correlation \u2014 except in special circumstances.<ref>{cite book|title=Kanalmodeller f\u00f6r radiotransmission (Channel models for radio transmission)|format=Master's "
+    },
+    {
+      "word": "Vaidyanathan",
+      "encoded_start": 282999,
+      "final_bits": 58.220933616161346,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "imes referred to as Daubechies biorthogonal, bior44=CDF9/7)\n* [Haar wavelet]\n* [Vaidyanathan filter] (24)\n* [Symmlet]\n* [Complex wavelet transform]\n\n=== [Continuous wavelet"
+    },
+    {
+      "word": "funkkontakt",
+      "encoded_start": 1825541,
+      "final_bits": 58.131694078445435,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " special platforms. For the program passing on of television satellites and the funkkontakt to space vehicles large parabolic antennas with diameters of 3 to 100 meters ar"
+    },
+    {
+      "word": "medieforvaltning",
+      "encoded_start": 1854897,
+      "final_bits": 58.111264837905765,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "DAB, and [Digital Radio Mondiale|DRM] for smaller local radio channels.[[http://medieforvaltning-no.inforce.dk/graphics/SMF/Rapporter/Kringkasting/DABDelrapport_03.pdf]]\n\n==== "
+    },
+    {
+      "word": "glockenspiel",
+      "encoded_start": 25530,
+      "final_bits": 58.08306574821472,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ression format during playbacks. Some more serious and critical audio excerpts (glockenspiel, triangle, accordion, ...) were taken from the EBU V3/SQAM  reference compact d"
+    },
+    {
+      "word": "biteXpress",
+      "encoded_start": 1691534,
+      "final_bits": 57.829750061035156,
+      "recurrence": "article_repeat",
+      "context": "ers view of the future]]\n\n===DRM radio stations===\n*[[http://www.bitexpress.de/ biteXpress, a German experimental radio station broadcasting in DRM.]] (Available also as "
+    },
+    {
+      "word": "yamahaproaudio",
+      "encoded_start": 175346,
+      "final_bits": 57.816475450992584,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "tstone] [[http://www.wheatstone.com]]\n*[Yamaha Corporation|Yamaha] [[http://www.yamahaproaudio.com]]\n\n==See also==\n*[Electronic mixer]\n\n== External links ==\n*[[http://www.uks"
+    },
+    {
+      "word": "JahnATpages",
+      "encoded_start": 63875,
+      "final_bits": 57.780088663101196,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " Uncertainty in Remote Perception Research]]\n* [[http://www.princeton.edu/~pear/JahnATpages.pdf Information, Consciousness && Health]]\n\n[Category:Information| ]\n[Category:"
+    },
+    {
+      "word": "nondimensionalization",
+      "encoded_start": 938818,
+      "final_bits": 57.75569436419755,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "y of recovering the circuit properties of an RLC circuit is through the use of [nondimensionalization].\n\n{{| class=\"toccolours\" align=\"center\" style=\"float:center; margin: 1em 1em 0"
+    },
+    {
+      "word": "Lautsprechergeh",
+      "encoded_start": 490454,
+      "final_bits": 57.504683285951614,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "\n=== Closed-box enclosures ===\n\n==== Infinite baffle ====\n\n[Image:Geschlossenes_Lautsprechergeh\u00e4use_(enclosure).png|thumb|100px|Closed box enclosure]\nA variation on the 'open"
+    },
+    {
+      "word": "AlphaEtcPun",
+      "encoded_start": 1383030,
+      "final_bits": 57.101327300071716,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "* Channel 796 Vectone Tamil\n* Channel 797 South For You (premium)\n* Channel 798 AlphaEtcPun (premium)\n* Channel 799 [Al Jazeera] (FTA)\n* Channel 800 Vectone Bangla\n* Chann"
+    },
+    {
+      "word": "longdistancemw",
+      "encoded_start": 1805944,
+      "final_bits": 57.05945664644241,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "-1700 kHz MW (AM) band]]\n* [[http://www2.rnw.nl/rnw/en/features/media/practical/longdistancemw.html?view=Standard Introduction to Long Distance Medium Wave Listening]]\n* [[ht"
+    },
+    {
+      "word": "picoamperes",
+      "encoded_start": 833151,
+      "final_bits": 56.912365436553955,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rent] \u2014 a small amount of current (typically ~10 nA for [bipolar] op-amps, or picoamperes for [CMOS] designs) flows into the inputs.  This current is mismatched slightly"
+    },
+    {
+      "word": "afficianados",
+      "encoded_start": 1501726,
+      "final_bits": 56.878149658441544,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "catering to the emerging market of [high-definition television|HDTV] owners and afficianados, but folded in April 2005, with the service\u2019s \u201cexclusive\u201d high-definition"
+    },
+    {
+      "word": "xreferplus",
+      "encoded_start": 386320,
+      "final_bits": 56.76700580120087,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nfrasound''. Collins English Dictionary (2000). Retrieved 25 October 2005, from xreferplus. http://www.xreferplus.com/entry/2657949 \n* Gundersen, P. Erik. The Handy Physi"
+    },
+    {
+      "word": "Rikskringkasting",
+      "encoded_start": 1853908,
+      "final_bits": 56.75092551112175,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "=== Norway ====\n\nSeveral channels are available on DAB, including all of [Norsk Rikskringkasting|NRK]s broadcast channels and [P4 Radio Hele Norge|P4]. There is also a private "
+    },
+    {
+      "word": "Grimetonmasterna",
+      "encoded_start": 1785199,
+      "final_bits": 56.217736065387726,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ment>minor word choice change</comment>\n      <text xml:space=\"preserve\">[Image:Grimetonmasterna.jpg|thumb|right|Part of the [antenna (radio)|aerial] of Transmitter Grimeton]\n'"
+    },
+    {
+      "word": "coppercloudmusic",
+      "encoded_start": 653816,
+      "final_bits": 55.581159330904484,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "e/rasmuse/Coagula.htm Coagula]] for [Microsoft Windows|Windows];\n* [[http://www.coppercloudmusic.com/enscribe/ Enscribe]] for [Linux|Linux];\n* [[http://faculty.washington.edu/d"
+    },
+    {
+      "word": "theabsolutesound",
+      "encoded_start": 231865,
+      "final_bits": 55.52780109550804,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rnal links to audio companies.\n*[Videophile].\n\n==External links==\n*[[http://www.theabsolutesound.com  ''The Absolute Sound''.]]  Second oldest and second most prestigious subje"
+    },
+    {
+      "word": "jmtsgibbs",
+      "encoded_start": 83438,
+      "final_bits": 55.33291983604431,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "al links==\n\n* Gibbs, M., \"Quantum Information Theory\", [[http://members.aol.com/jmtsgibbs/infothry.htm Eprint]]\n\n* Schneider, T., \"Information Theory Primer\", [[http://w"
+    },
+    {
+      "word": "hollywoodlostandfound",
+      "encoded_start": 204298,
+      "final_bits": 54.74213942885399,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ldning.nu/wilhelm.wav The Wilhelm Scream in .wav sound format]] \n* [[http://www.hollywoodlostandfound.net/wilhelm.html A Wilhelm Scream filmography]] ([[http://web.archive.org/web/2"
+    },
+    {
+      "word": "Longleftrightarrow",
+      "encoded_start": 555265,
+      "final_bits": 54.63306379318237,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "another comb''':'''\n:<math>\\sum_{{n=-\\infty}}^{{\\infty}} \\delta(t - n T) \\quad \\Longleftrightarrow \\quad {{1\\over T}}\\sum_{{k=-\\infty}}^{{\\infty}} \\delta \\left( f - {{k\\over T}} "
+    },
+    {
+      "word": "fluorochromes",
+      "encoded_start": 353025,
+      "final_bits": 54.462913155555725,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "nd in fluorescence spectral imaging for spectral separation of multiple unknown fluorochromes. The most usual algorithm for the purpose is the [Richardson-Lucy deconvolution"
+    },
+    {
+      "word": "Kopfhoerer",
+      "encoded_start": 175946,
+      "final_bits": 54.404452443122864,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "e=\"preserve\">[Image:Audio-Technica ATH-A500.jpg|thumb|Closed Headphones]\n[Image:Kopfhoerer in-ear.jpg|thumb|Earbuds or Earphones]\n<!-- Image with unknown copyright status"
+    },
+    {
+      "word": "erythropoiesis",
+      "encoded_start": 669652,
+      "final_bits": 54.27237164974213,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " negative feedback such as the [baroreflex] in [blood pressure] regulation and [erythropoiesis].\n\n===Advantages===\n*Reduced sensitivity to changes system parameters\n*Can incr"
+    },
+    {
+      "word": "svaradarajan",
+      "encoded_start": 1635798,
+      "final_bits": 54.205607652664185,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": ".stm EU-US strike sat-navigation deal]] - BBC News, [26 June] [2004]\n* [[http://svaradarajan.blogspot.com/2004/11/galileo-fusion-energy-propel-india-eu.html Galileo, fusion"
+    },
+    {
+      "word": "keithgemmell",
+      "encoded_start": 175702,
+      "final_bits": 54.154584646224976,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " Learning to DJ]]\n*[[http://www.proaudioguide.com ProAudioGuide]]\n*[[http://www.keithgemmell.com/music-technology.htm 101 Recording Tips]] Keith Gemmell's Music Technology "
+    },
+    {
+      "word": "Phalaenopsis",
+      "encoded_start": 262394,
+      "final_bits": 54.109449088573456,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "rm</title>\n      <comment>+ja</comment>\n      <text xml:space=\"preserve\">[Image:Phalaenopsis_fft_dct.png|thumb|200px|right|2-D DCT compared to the [discrete fourier transfo"
+    },
+    {
+      "word": "loscrittoio",
+      "encoded_start": 1462947,
+      "final_bits": 53.8451771736145,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "=See also==\n\n* [Dawn chorus (electromagnetic)]\n\n==External link==\n\n[[http://www.loscrittoio.it/Pages/MM-0700.html A beginner's guide to natural VLF radio phenomena - secon"
+    },
+    {
+      "word": "Alexandrowitsch",
+      "encoded_start": 546425,
+      "final_bits": 53.663701713085175,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": ", it is also attributed to Kotelnikov<!-- http://de.wikipedia.org/wiki/Wladimir_Alexandrowitsch_Kotelnikow -->, and sometimes referred to as, simply, the ''sampling theorem''."
+    },
+    {
+      "word": "unemcumbered",
+      "encoded_start": 310067,
+      "final_bits": 53.591215543448925,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "s.\n\nThe [Speex] project is an attempt to create a [free software] speech coder, unemcumbered by patent restrictions.\n\nMajor subfields:\n* [Wide-band speech coding]\n** [AMR-W"
+    },
+    {
+      "word": "eavesdropped",
+      "encoded_start": 1775055,
+      "final_bits": 53.53511229157448,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "highly sophisticated attack available only to governments; van Eck successfully eavesdropped on a real system, at a  range of hundreds of [metre]s, using just $15 worth of "
+    },
+    {
+      "word": "ultrawidebandplanet",
+      "encoded_start": 1781757,
+      "final_bits": 53.52702375501394,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "[[http://www.techworld.com/networking/news/index.cfm?NewsID=5197]] [[http://www.ultrawidebandplanet.com/resources/article.php/3578521]] [[http://www.commsdesign.com/news/tech_beat"
+    },
+    {
+      "word": "thedigitalartist",
+      "encoded_start": 475383,
+      "final_bits": 53.51802974939346,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "links ==\n\n[Category:Digital media|*]\n[Category:Digital Revolution]\n[[http://www.thedigitalartist.com/ The Digital Artist]]</text>\n    </revision>\n  </page>\n  <page>\n    <title>"
+    },
+    {
+      "word": "Postlethwaite",
+      "encoded_start": 627670,
+      "final_bits": 53.40379422530532,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ratic gaussian] control (''LQG'')\n\n== References ==\n\n* Sigurd Skogestad and Ian Postlethwaite: ''Multivariable Feedback Control - Analysis and Design'', Wiley (1996), ISBN  "
+    },
+    {
+      "word": "sengpielaudio",
+      "encoded_start": 422990,
+      "final_bits": 53.191481962800026,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": " these.\n\nHere it is the case that v = f\u03bb\n\n== External links ==\n\n* [[http://www.sengpielaudio.com/calculator-speedsound.htm  Calculation: Speed of sound in air and the tempe"
+    },
+    {
+      "word": "includegraphics",
+      "encoded_start": 52226,
+      "final_bits": 53.075162172317505,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "ure.\n<!-- Figure: Discretizing the function $ f$ into bins of width $ \\Delta$\n \\includegraphics[[width=\\textwidth]]{{function-with-bins.eps}} -->\nAs the figure indicates, by t"
+    },
+    {
+      "word": "cdmasteringservices",
+      "encoded_start": 123508,
+      "final_bits": 52.88285166025162,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "om/Effects/Articles/Compression Compression/Limiting Explained]]\n* [[http://www.cdmasteringservices.com/dynamicrange.htm Audio level compression and loss of dynamic range in today"
+    },
+    {
+      "word": "tdkrfsolutions",
+      "encoded_start": 332774,
+      "final_bits": 52.85700464248657,
+      "recurrence": "first_in_diagnosed_slice",
+      "context": "hambers.\n\nIn electromagnetics, anechoic chambers are equipped with [[http://www.tdkrfsolutions.com/absorbers.htm absorber material]] to dampen the reflection of [electromagne"
+    }
+  ]
+}

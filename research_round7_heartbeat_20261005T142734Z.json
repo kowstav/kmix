@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-05T14:27:34.111Z",
+  "goal_status": "usageLimited",
+  "jobs": [
+    {
+      "job": "lex_finalbit_2m_v1",
+      "status": "PASS",
+      "source_sha256": null,
+      "binary_sha256": "d906d0f2e98c1f5d0d3c1f3ca893b2190750b4bd708b9e001382c7330381c76e",
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": []
+    },
+    {
+      "job": "constructor_split_v1",
+      "status": "COMPLETE",
+      "source_sha256": "febe0b1271371ff8af3297729820c820b8ec37a8b065c0a3968ff7988d2d3c9e",
+      "binary_sha256": null,
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": []
+    },
+    {
+      "job": "constructor_skeleton_v1",
+      "status": "COMPLETE",
+      "source_sha256": "d278aafba81168f16e8ea17dd06ca56e6d307736d97e45a6165417a44691ebcf",
+      "binary_sha256": null,
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": []
+    },
+    {
+      "job": "constructor_skeleton_v2",
+      "status": "COMPLETE",
+      "source_sha256": "fae24da2f92926ef836e96c7ad68a15d365faf4a21c38dabfaee4c6ebf1d3d34",
+      "binary_sha256": null,
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": []
+    }
+  ],
+  "interpretation": "Read-only heartbeat. Completion states match the latest preserved human-turn results; no new measured result or action request. Existing Goal limit respected and not bypassed.",
+  "launches": [],
+  "goal_mutation": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

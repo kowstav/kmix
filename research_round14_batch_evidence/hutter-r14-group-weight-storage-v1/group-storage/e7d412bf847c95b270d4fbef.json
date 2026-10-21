@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.3.attention.key_projection.weight.q",
+  "names": [
+    "blocks.3.attention.key_projection.weight.q"
+  ],
+  "label": "e7d412bf847c95b270d4fbef",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 20568
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 18150
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 19248
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 20568
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 18150
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 19248
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 20569
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 18075
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 19244
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 17754
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 17839
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 17702
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 20782
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 18690
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 19408
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 20941
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 18680
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 19463
+    }
+  ],
+  "selected": [
+    17702,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "b56529939e3fb97decc2db9fa658d49a1be87b6756f173dbdb527e523317cd02",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.09668399999999946,
+  "wall_seconds": 0.09944789099998275
+}

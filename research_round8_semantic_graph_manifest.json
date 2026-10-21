@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE_GRAPH_NOT_COMPRESSION_RESULT",
+  "pid": 247,
+  "started": "2026-10-06T07:39:05.903127+00:00",
+  "session": 355655943,
+  "sources_url": "https://nlp.stanford.edu/data/wordvecs/glove.2024.wikigiga.50d.zip",
+  "vector_license": "PDDL 1.0",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_retraining": false,
+  "download_headers": {
+    "Content-Length": "301036094",
+    "ETag": "\"687aa130-11f1723e\"",
+    "Last-Modified": "Fri, 18 Jul 2025 19:32:00 GMT"
+  },
+  "download_seconds": 69.36558565099949,
+  "download": {
+    "bytes": 301036094,
+    "sha256": "afa5e258ee38272db6394547c4b075ecbb7b2164e98542c8d1237b6029b35a65"
+  },
+  "zip_members": [
+    {
+      "name": "wiki_giga_2024_50_MFT20_vectors_seed_123_alpha_0.75_eta_0.075_combined.txt",
+      "bytes": 842192707
+    }
+  ],
+  "vectors": {
+    "bytes": 8903128,
+    "sha256": "0fbd7df8c49eaf12100d65aaea954390a9e76c0893fe60072cb750777e3f214c"
+  },
+  "matched_words": 43939,
+  "dictionary_words": 44515,
+  "vector_lines": 1291147,
+  "graph": {
+    "bytes": 712240,
+    "sha256": "8772cbedc0c9d4c92485fa9360323d965ae73cc988c2e686dc1634d28a93a1e0",
+    "shape": [
+      44515,
+      8
+    ],
+    "zlib9_bytes": 652866,
+    "lzma6_bytes": 613724,
+    "construction_seconds": 0.9297710130003907,
+    "device": "cuda:0",
+    "allowed_neighbors": 43760,
+    "missing_vector_self_fallback": 576,
+    "torch_version": "2.10.0+cu128"
+  },
+  "selftests": {
+    "shape_bounds": "PASS",
+    "self_exclusion_for_present_vectors": true,
+    "source_sha_recorded": true
+  },
+  "wall_seconds": 87.7923215640003,
+  "finished": "2026-10-06T07:40:33.695662+00:00"
+}

@@ -1,0 +1,137 @@
+{
+  "status": "COMPLETE",
+  "pid": 1193,
+  "utc": "2026-10-05T18:54:30.841304+00:00",
+  "scope": "exact native PPMD float16 block-storage feasibility, early262144WRT bytes only; not full priors or GPU parity",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "native_user_seconds": 4.043254,
+  "native_max_rss_kbytes": 1136116,
+  "rows": 262144,
+  "prior_bytes": 107479040,
+  "prior_sha256": "6ef64e717ec04f76b74508a52a912a75fa4f56522e5a0344baf07bd6d3532cf3",
+  "zero_fraction": 0.026235198974609374,
+  "blocks": [
+    {
+      "start": 0,
+      "rows": 65536,
+      "raw_bytes": 26869760,
+      "sha256": "055a9f40ad457f9cd2a0ffeed58bf8a15a14a6b64eae9cc0d5884c04421d4971",
+      "codecs": {
+        "zlib3": {
+          "compressed_bytes": 14622001,
+          "ratio": 0.5441805583674734,
+          "compress_seconds": 1.7674145929995575,
+          "decompress_seconds": 0.36112670700003946,
+          "exact_roundtrip": true
+        },
+        "zlib9": {
+          "compressed_bytes": 14274240,
+          "ratio": 0.5312380907012195,
+          "compress_seconds": 3.360618295000677,
+          "decompress_seconds": 0.27338459600014176,
+          "exact_roundtrip": true
+        },
+        "lzma3": {
+          "compressed_bytes": 10666156,
+          "ratio": 0.3969576207602896,
+          "compress_seconds": 10.04021565399944,
+          "decompress_seconds": 1.479257948999475,
+          "exact_roundtrip": true
+        }
+      }
+    },
+    {
+      "start": 65536,
+      "rows": 65536,
+      "raw_bytes": 26869760,
+      "sha256": "1447e801eea408e370dc2bcf0b661e15cc4622cd0dba5e7fc9f504988523ff77",
+      "codecs": {
+        "zlib3": {
+          "compressed_bytes": 15438415,
+          "ratio": 0.5745646779130145,
+          "compress_seconds": 1.5199651369994172,
+          "decompress_seconds": 0.28015510800014454,
+          "exact_roundtrip": true
+        },
+        "zlib9": {
+          "compressed_bytes": 14950980,
+          "ratio": 0.5564240246284299,
+          "compress_seconds": 4.35659088400007,
+          "decompress_seconds": 0.36763848699956725,
+          "exact_roundtrip": true
+        },
+        "lzma3": {
+          "compressed_bytes": 9889784,
+          "ratio": 0.36806372665777437,
+          "compress_seconds": 10.2168107159996,
+          "decompress_seconds": 1.7843064329999834,
+          "exact_roundtrip": true
+        }
+      }
+    },
+    {
+      "start": 131072,
+      "rows": 65536,
+      "raw_bytes": 26869760,
+      "sha256": "b14e2bbf1c0e3e2a2675ba049e3a8532840c20245020c6ffb72461f0fc3c3f88",
+      "codecs": {
+        "zlib3": {
+          "compressed_bytes": 15512497,
+          "ratio": 0.5773217550138148,
+          "compress_seconds": 1.8973404139997,
+          "decompress_seconds": 0.34941305099982856,
+          "exact_roundtrip": true
+        },
+        "zlib9": {
+          "compressed_bytes": 14987254,
+          "ratio": 0.5577740180783155,
+          "compress_seconds": 4.87850951099972,
+          "decompress_seconds": 0.2646641949995683,
+          "exact_roundtrip": true
+        },
+        "lzma3": {
+          "compressed_bytes": 9223748,
+          "ratio": 0.34327615877477136,
+          "compress_seconds": 10.630158104000657,
+          "decompress_seconds": 1.3193300889997772,
+          "exact_roundtrip": true
+        }
+      }
+    },
+    {
+      "start": 196608,
+      "rows": 65536,
+      "raw_bytes": 26869760,
+      "sha256": "c9a388fc357509f4903a16585cbe2477dd26e772a8bfa14f53ea0f88b7aa018a",
+      "codecs": {
+        "zlib3": {
+          "compressed_bytes": 16010309,
+          "ratio": 0.5958486045279154,
+          "compress_seconds": 1.8747027770004934,
+          "decompress_seconds": 0.3286012219996337,
+          "exact_roundtrip": true
+        },
+        "zlib9": {
+          "compressed_bytes": 15509375,
+          "ratio": 0.5772055649175877,
+          "compress_seconds": 4.966928471999381,
+          "decompress_seconds": 0.35756427500018617,
+          "exact_roundtrip": true
+        },
+        "lzma3": {
+          "compressed_bytes": 9588000,
+          "ratio": 0.35683236471036583,
+          "compress_seconds": 11.411449809999795,
+          "decompress_seconds": 1.6715736709993507,
+          "exact_roundtrip": true
+        }
+      }
+    }
+  ],
+  "projected_full_bytes_not_guaranteed": {
+    "zlib3": 137771743860.48294,
+    "zlib9": 133607547901.64177,
+    "lzma3": 88071959396.91833
+  }
+}

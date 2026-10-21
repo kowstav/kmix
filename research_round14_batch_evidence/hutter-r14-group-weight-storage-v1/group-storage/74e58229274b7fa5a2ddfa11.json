@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.6.attention.output_gate_projection.down.weight.codebook",
+  "names": [
+    "blocks.6.attention.output_gate_projection.down.weight.codebook"
+  ],
+  "label": "74e58229274b7fa5a2ddfa11",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 223
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 175
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 223
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 175
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 186
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 172
+    }
+  ],
+  "selected": [
+    172,
+    "xor",
+    "zstd"
+  ],
+  "archive_sha256": "355e03b70dd225d3417a375d02dbd018edb884f3a3e7499ae38db2b9f5ebaf4e",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.0069440000000020735,
+  "wall_seconds": 0.006999422000006916
+}

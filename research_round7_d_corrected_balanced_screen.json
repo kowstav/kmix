@@ -1,0 +1,442 @@
+{
+  "mode": "balanced",
+  "raw_bytes": 2000000,
+  "decoded_bytes": 3276962,
+  "unscored_prefix_bytes": 1239,
+  "baseline_ideal_bytes": 413327.09347311815,
+  "contract": {
+    "measurement": "ideal likelihood only; package and CPU not included",
+    "donors": "decoded prefix only, bounded keyed value memory",
+    "expert": "normalized probabilistic edit channel with frozen base fallback",
+    "selection": "Bayesian sequence mixture, neutral model included",
+    "oracle": "diagnostic only; free best-model choices are NOT coded gains"
+  },
+  "parser_counts": {
+    "article_title_openers": 497,
+    "titles_captured": 497,
+    "prefix_gated_title_repeat_starts": 7534,
+    "link_openers": 28417,
+    "piped_link_labels": 6243,
+    "template_openers": 1407,
+    "positional_fields_skipped": 1319,
+    "named_field_starts": 2949,
+    "balanced_named_fields_completed": 2810
+  },
+  "screen_counts": {
+    "combined_overlap_skipped": 4205,
+    "schema_value_no_candidate": 480,
+    "title_repeat_overlap_skipped": 142
+  },
+  "memory": {
+    "keys": 335,
+    "payload_bytes": 18643
+  },
+  "scores": {
+    "title_selflink": {
+      "name": "title_selflink",
+      "events": 28417,
+      "matched_events": 89,
+      "coded_bytes_covered": 302816,
+      "baseline_bits_covered": 352917.08948446054,
+      "neutral_total_bits": 3306616.747784945,
+      "prequential_total_bits": 3306625.929266516,
+      "prequential_gain_bits": -9.181481570826026,
+      "prequential_saving_bytes": -1.1476851963532533,
+      "context_count": 5,
+      "fixed_priors": [
+        {
+          "alpha": 0.0,
+          "gain_bits": 0.0,
+          "saving_bytes": 0.0,
+          "total_bits": 3306616.747784945
+        },
+        {
+          "alpha": 0.001,
+          "gain_bits": -28.658407096774063,
+          "saving_bytes": -3.582300887096758,
+          "total_bits": 3306645.406192042
+        },
+        {
+          "alpha": 0.003,
+          "gain_bits": -102.78112727263404,
+          "saving_bytes": -12.847640909079255,
+          "total_bits": 3306719.528912218
+        },
+        {
+          "alpha": 0.01,
+          "gain_bits": -376.9180505654241,
+          "saving_bytes": -47.11475632067801,
+          "total_bits": 3306993.6658355105
+        },
+        {
+          "alpha": 0.03,
+          "gain_bits": -1191.5990211650217,
+          "saving_bytes": -148.9498776456277,
+          "total_bits": 3307808.3468061103
+        },
+        {
+          "alpha": 0.1,
+          "gain_bits": -4222.125776047997,
+          "saving_bytes": -527.7657220059996,
+          "total_bits": 3310838.873560993
+        },
+        {
+          "alpha": 0.3,
+          "gain_bits": -14459.379649472885,
+          "saving_bytes": -1807.4224561841106,
+          "total_bits": 3321076.127434418
+        },
+        {
+          "alpha": 0.7,
+          "gain_bits": -49074.3394518393,
+          "saving_bytes": -6134.292431479913,
+          "total_bits": 3355691.0872367844
+        },
+        {
+          "alpha": 0.9,
+          "gain_bits": -93987.13009322407,
+          "saving_bytes": -11748.391261653009,
+          "total_bits": 3400603.877878169
+        }
+      ],
+      "by_branch": {
+        "title_selflink": {
+          "events": 28417,
+          "matched": 89,
+          "coded_bytes": 302816,
+          "baseline_bits": 352917.08948446054,
+          "prequential_gain_bits": -9.181481570826026
+        }
+      }
+    },
+    "title_repeat": {
+      "name": "title_repeat",
+      "events": 7392,
+      "matched_events": 2319,
+      "coded_bytes_covered": 82966,
+      "baseline_bits_covered": 80610.43527903466,
+      "neutral_total_bits": 3306616.747784945,
+      "prequential_total_bits": 3306609.9234474683,
+      "prequential_gain_bits": 6.82433747693541,
+      "prequential_saving_bytes": 0.8530421846169263,
+      "context_count": 5,
+      "fixed_priors": [
+        {
+          "alpha": 0.0,
+          "gain_bits": 0.0,
+          "saving_bytes": 0.0,
+          "total_bits": 3306616.747784945
+        },
+        {
+          "alpha": 0.001,
+          "gain_bits": 9.163833875102748,
+          "saving_bytes": 1.1454792343878435,
+          "total_bits": 3306607.58395107
+        },
+        {
+          "alpha": 0.003,
+          "gain_bits": 14.692837183695296,
+          "saving_bytes": 1.836604647961912,
+          "total_bits": 3306602.0549477614
+        },
+        {
+          "alpha": 0.01,
+          "gain_bits": 9.641845864451492,
+          "saving_bytes": 1.2052307330564365,
+          "total_bits": 3306607.105939081
+        },
+        {
+          "alpha": 0.03,
+          "gain_bits": -56.130984084862405,
+          "saving_bytes": -7.016373010607801,
+          "total_bits": 3306672.87876903
+        },
+        {
+          "alpha": 0.1,
+          "gain_bits": -427.4900882388797,
+          "saving_bytes": -53.43626102985996,
+          "total_bits": 3307044.237873184
+        },
+        {
+          "alpha": 0.3,
+          "gain_bits": -1965.0723992139058,
+          "saving_bytes": -245.63404990173822,
+          "total_bits": 3308581.820184159
+        },
+        {
+          "alpha": 0.7,
+          "gain_bits": -7785.180808793807,
+          "saving_bytes": -973.1476010992259,
+          "total_bits": 3314401.928593739
+        },
+        {
+          "alpha": 0.9,
+          "gain_bits": -15679.24011842026,
+          "saving_bytes": -1959.9050148025326,
+          "total_bits": 3322295.9879033654
+        }
+      ],
+      "by_branch": {
+        "title_repeat": {
+          "events": 7392,
+          "matched": 2319,
+          "coded_bytes": 82966,
+          "baseline_bits": 80610.43527903466,
+          "prequential_gain_bits": 6.82433747693541
+        }
+      }
+    },
+    "link_label": {
+      "name": "link_label",
+      "events": 6243,
+      "matched_events": 10,
+      "coded_bytes_covered": 54137,
+      "baseline_bits_covered": 22508.58032565069,
+      "neutral_total_bits": 3306616.747784945,
+      "prequential_total_bits": 3306630.077689996,
+      "prequential_gain_bits": -13.329905050934265,
+      "prequential_saving_bytes": -1.6662381313667831,
+      "context_count": 8,
+      "fixed_priors": [
+        {
+          "alpha": 0.0,
+          "gain_bits": 0.0,
+          "saving_bytes": 0.0,
+          "total_bits": 3306616.747784945
+        },
+        {
+          "alpha": 0.001,
+          "gain_bits": -6.21824311146989,
+          "saving_bytes": -0.7772803889337363,
+          "total_bits": 3306622.9660280566
+        },
+        {
+          "alpha": 0.003,
+          "gain_bits": -22.486169363633028,
+          "saving_bytes": -2.8107711704541285,
+          "total_bits": 3306639.233954309
+        },
+        {
+          "alpha": 0.01,
+          "gain_bits": -83.1337036386663,
+          "saving_bytes": -10.391712954833288,
+          "total_bits": 3306699.881488584
+        },
+        {
+          "alpha": 0.03,
+          "gain_bits": -262.7982858012181,
+          "saving_bytes": -32.849785725152266,
+          "total_bits": 3306879.5460707466
+        },
+        {
+          "alpha": 0.1,
+          "gain_bits": -929.5113761704836,
+          "saving_bytes": -116.18892202131045,
+          "total_bits": 3307546.2591611156
+        },
+        {
+          "alpha": 0.3,
+          "gain_bits": -3180.0874511600973,
+          "saving_bytes": -397.51093139501216,
+          "total_bits": 3309796.835236105
+        },
+        {
+          "alpha": 0.7,
+          "gain_bits": -10790.06578111816,
+          "saving_bytes": -1348.75822263977,
+          "total_bits": 3317406.8135660635
+        },
+        {
+          "alpha": 0.9,
+          "gain_bits": -20666.129808670266,
+          "saving_bytes": -2583.2662260837833,
+          "total_bits": 3327282.8775936156
+        }
+      ],
+      "by_branch": {
+        "link_label": {
+          "events": 6243,
+          "matched": 10,
+          "coded_bytes": 54137,
+          "baseline_bits": 22508.58032565069,
+          "prequential_gain_bits": -13.329905050934265
+        }
+      }
+    },
+    "schema_value": {
+      "name": "schema_value",
+      "events": 2469,
+      "matched_events": 729,
+      "coded_bytes_covered": 45500,
+      "baseline_bits_covered": 37424.76157319662,
+      "neutral_total_bits": 3306616.747784945,
+      "prequential_total_bits": 3306618.0676100054,
+      "prequential_gain_bits": -1.3198250602770196,
+      "prequential_saving_bytes": -0.16497813253462745,
+      "context_count": 2,
+      "fixed_priors": [
+        {
+          "alpha": 0.0,
+          "gain_bits": 0.0,
+          "saving_bytes": 0.0,
+          "total_bits": 3306616.747784945
+        },
+        {
+          "alpha": 0.001,
+          "gain_bits": 1.6573970306909094,
+          "saving_bytes": 0.20717462883636367,
+          "total_bits": 3306615.0903879143
+        },
+        {
+          "alpha": 0.003,
+          "gain_bits": 1.8113806093220908,
+          "saving_bytes": 0.22642257616526135,
+          "total_bits": 3306614.936404336
+        },
+        {
+          "alpha": 0.01,
+          "gain_bits": -4.238062994265414,
+          "saving_bytes": -0.5297578742831768,
+          "total_bits": 3306620.9858479393
+        },
+        {
+          "alpha": 0.03,
+          "gain_bits": -35.24109559176455,
+          "saving_bytes": -4.4051369489705685,
+          "total_bits": 3306651.988880537
+        },
+        {
+          "alpha": 0.1,
+          "gain_bits": -188.02024097045876,
+          "saving_bytes": -23.502530121307345,
+          "total_bits": 3306804.7680259156
+        },
+        {
+          "alpha": 0.3,
+          "gain_bits": -790.7540475910145,
+          "saving_bytes": -98.8442559488768,
+          "total_bits": 3307407.5018325364
+        },
+        {
+          "alpha": 0.7,
+          "gain_bits": -2969.48226202268,
+          "saving_bytes": -371.185282752835,
+          "total_bits": 3309586.230046968
+        },
+        {
+          "alpha": 0.9,
+          "gain_bits": -5800.125752470226,
+          "saving_bytes": -725.0157190587782,
+          "total_bits": 3312416.8735374156
+        }
+      ],
+      "by_branch": {
+        "schema_value": {
+          "events": 2469,
+          "matched": 729,
+          "coded_bytes": 45500,
+          "baseline_bits": 37424.76157319662,
+          "prequential_gain_bits": -1.3198250602770196
+        }
+      }
+    },
+    "combined": {
+      "name": "combined",
+      "events": 40458,
+      "matched_events": 2540,
+      "coded_bytes_covered": 436020,
+      "baseline_bits_covered": 462997.3505669705,
+      "neutral_total_bits": 3306616.747784945,
+      "prequential_total_bits": 3306632.0258032833,
+      "prequential_gain_bits": -15.278018338201473,
+      "prequential_saving_bytes": -1.9097522922751842,
+      "context_count": 20,
+      "fixed_priors": [
+        {
+          "alpha": 0.0,
+          "gain_bits": 0.0,
+          "saving_bytes": 0.0,
+          "total_bits": 3306616.747784945
+        },
+        {
+          "alpha": 0.001,
+          "gain_bits": -22.32622442283,
+          "saving_bytes": -2.79077805285375,
+          "total_bits": 3306639.074009368
+        },
+        {
+          "alpha": 0.003,
+          "gain_bits": -102.31764221085768,
+          "saving_bytes": -12.78970527635721,
+          "total_bits": 3306719.065427156
+        },
+        {
+          "alpha": 0.01,
+          "gain_bits": -426.27934064363177,
+          "saving_bytes": -53.28491758045397,
+          "total_bits": 3307043.0271255886
+        },
+        {
+          "alpha": 0.03,
+          "gain_bits": -1440.0256864644307,
+          "saving_bytes": -180.00321080805384,
+          "total_bits": 3308056.7734714095
+        },
+        {
+          "alpha": 0.1,
+          "gain_bits": -5339.340287413861,
+          "saving_bytes": -667.4175359267326,
+          "total_bits": 3311956.088072359
+        },
+        {
+          "alpha": 0.3,
+          "gain_bits": -18800.912286197043,
+          "saving_bytes": -2350.1140357746303,
+          "total_bits": 3325417.660071142
+        },
+        {
+          "alpha": 0.7,
+          "gain_bits": -64908.159576502505,
+          "saving_bytes": -8113.519947062813,
+          "total_bits": 3371524.907361448
+        },
+        {
+          "alpha": 0.9,
+          "gain_bits": -124985.45076453763,
+          "saving_bytes": -15623.181345567204,
+          "total_bits": 3431602.198549483
+        }
+      ],
+      "by_branch": {
+        "title_repeat": {
+          "events": 5147,
+          "matched": 1731,
+          "coded_bytes": 56062,
+          "baseline_bits": 67589.47489715833,
+          "prequential_gain_bits": 8.088319948671842
+        },
+        "title_selflink": {
+          "events": 26866,
+          "matched": 70,
+          "coded_bytes": 283192,
+          "baseline_bits": 336513.95392954536,
+          "prequential_gain_bits": -8.891609275682477
+        },
+        "link_label": {
+          "events": 5976,
+          "matched": 10,
+          "coded_bytes": 51266,
+          "baseline_bits": 21469.160167070164,
+          "prequential_gain_bits": -13.154903950913985
+        },
+        "schema_value": {
+          "events": 2469,
+          "matched": 729,
+          "coded_bytes": 45500,
+          "baseline_bits": 37424.76157319662,
+          "prequential_gain_bits": -1.3198250602770196
+        }
+      }
+    }
+  }
+}

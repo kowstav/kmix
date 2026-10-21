@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "experiment": "I11c one-byte constructor marker layout",
+  "fixed_before_run": [
+    "same176-word lexicon",
+    "fixed08 one-byte marker with00 escape of raw00/08",
+    "direct/paid categorical constructor dictionary",
+    "zlib9/lzma6",
+    "ABCD2M"
+  ],
+  "source_sha256": "fae24da2f92926ef836e96c7ad68a15d365faf4a21c38dabfaee4c6ebf1d3d34",
+  "split_dependency_sha256": "febe0b1271371ff8af3297729820c820b8ec37a8b065c0a3968ff7988d2d3c9e",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

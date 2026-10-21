@@ -1,0 +1,1361 @@
+{
+  "status": "COMPLETE_CPU_BF16_REPAIR_PYTHON_PRICE_AND_NEUTRAL_IDENTITY",
+  "started": 1791329539.4992669,
+  "models": [
+    {
+      "old_model_bytes": 3063961,
+      "new_model_bytes": 2978077,
+      "growth_per_copy": 38,
+      "new_sha256": "5248e3759a6292ca43f6a4a90121ae86dfb7a4780885822597c690b03aeef3b4",
+      "original_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+      "rounded_fields": [
+        {
+          "name": "skip_connection_weights.value",
+          "elements": 6,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.0.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 28
+        },
+        {
+          "name": "blocks.0.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 705
+        },
+        {
+          "name": "blocks.0.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 668
+        },
+        {
+          "name": "blocks.0.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 619
+        },
+        {
+          "name": "blocks.0.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 384
+        },
+        {
+          "name": "blocks.0.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 28
+        },
+        {
+          "name": "blocks.1.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.1.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 31
+        },
+        {
+          "name": "blocks.1.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 692
+        },
+        {
+          "name": "blocks.1.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 587
+        },
+        {
+          "name": "blocks.1.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 528
+        },
+        {
+          "name": "blocks.1.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 337
+        },
+        {
+          "name": "blocks.1.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 18
+        },
+        {
+          "name": "blocks.2.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.2.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 26
+        },
+        {
+          "name": "blocks.2.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 694
+        },
+        {
+          "name": "blocks.2.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 629
+        },
+        {
+          "name": "blocks.2.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 499
+        },
+        {
+          "name": "blocks.2.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 425
+        },
+        {
+          "name": "blocks.2.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 13
+        },
+        {
+          "name": "blocks.3.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.3.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.4.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 27
+        },
+        {
+          "name": "blocks.4.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 639
+        },
+        {
+          "name": "blocks.4.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 561
+        },
+        {
+          "name": "blocks.4.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 401
+        },
+        {
+          "name": "blocks.4.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 417
+        },
+        {
+          "name": "blocks.4.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 7
+        },
+        {
+          "name": "blocks.5.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.5.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 19
+        },
+        {
+          "name": "blocks.5.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 718
+        },
+        {
+          "name": "blocks.5.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 521
+        },
+        {
+          "name": "blocks.5.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 463
+        },
+        {
+          "name": "blocks.5.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 403
+        },
+        {
+          "name": "blocks.5.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 7
+        },
+        {
+          "name": "blocks.6.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.6.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 24
+        },
+        {
+          "name": "blocks.6.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 685
+        },
+        {
+          "name": "blocks.6.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 710
+        },
+        {
+          "name": "blocks.6.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 543
+        },
+        {
+          "name": "blocks.6.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 390
+        },
+        {
+          "name": "blocks.6.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 5
+        },
+        {
+          "name": "blocks.7.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.7.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 26
+        },
+        {
+          "name": "blocks.8.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 694
+        },
+        {
+          "name": "blocks.8.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 615
+        },
+        {
+          "name": "blocks.8.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 501
+        },
+        {
+          "name": "blocks.8.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 444
+        },
+        {
+          "name": "blocks.8.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 2
+        },
+        {
+          "name": "blocks.9.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.9.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.9.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.9.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 28
+        },
+        {
+          "name": "blocks.9.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 734
+        },
+        {
+          "name": "blocks.9.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 651
+        },
+        {
+          "name": "blocks.9.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 575
+        },
+        {
+          "name": "blocks.9.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 467
+        },
+        {
+          "name": "blocks.9.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 2
+        },
+        {
+          "name": "blocks.10.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.10.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 24
+        },
+        {
+          "name": "blocks.10.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 683
+        },
+        {
+          "name": "blocks.10.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 552
+        },
+        {
+          "name": "blocks.10.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 550
+        },
+        {
+          "name": "blocks.10.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 430
+        },
+        {
+          "name": "blocks.10.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        }
+      ],
+      "native_reader_and_archive_gate": "PENDING; Python codec roundtrip does not substitute for native reader/independent decode",
+      "name": "unweighted"
+    },
+    {
+      "old_model_bytes": 3063979,
+      "new_model_bytes": 2978081,
+      "growth_per_copy": 42,
+      "new_sha256": "8b41a4af2bfa26e201fb231a1e9cae8567866d5b9979d002a58cd14bc0deac96",
+      "original_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+      "rounded_fields": [
+        {
+          "name": "skip_connection_weights.value",
+          "elements": 6,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 30
+        },
+        {
+          "name": "blocks.0.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 702
+        },
+        {
+          "name": "blocks.0.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 679
+        },
+        {
+          "name": "blocks.0.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 621
+        },
+        {
+          "name": "blocks.0.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 367
+        },
+        {
+          "name": "blocks.0.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 29
+        },
+        {
+          "name": "blocks.1.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.1.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 32
+        },
+        {
+          "name": "blocks.1.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 705
+        },
+        {
+          "name": "blocks.1.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 582
+        },
+        {
+          "name": "blocks.1.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 526
+        },
+        {
+          "name": "blocks.1.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 338
+        },
+        {
+          "name": "blocks.1.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 19
+        },
+        {
+          "name": "blocks.2.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.2.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 24
+        },
+        {
+          "name": "blocks.2.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 695
+        },
+        {
+          "name": "blocks.2.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 638
+        },
+        {
+          "name": "blocks.2.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 503
+        },
+        {
+          "name": "blocks.2.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 425
+        },
+        {
+          "name": "blocks.2.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 14
+        },
+        {
+          "name": "blocks.3.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.3.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.4.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 23
+        },
+        {
+          "name": "blocks.4.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 640
+        },
+        {
+          "name": "blocks.4.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 540
+        },
+        {
+          "name": "blocks.4.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 390
+        },
+        {
+          "name": "blocks.4.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 425
+        },
+        {
+          "name": "blocks.4.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 6
+        },
+        {
+          "name": "blocks.5.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.5.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 19
+        },
+        {
+          "name": "blocks.5.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 715
+        },
+        {
+          "name": "blocks.5.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 526
+        },
+        {
+          "name": "blocks.5.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 476
+        },
+        {
+          "name": "blocks.5.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 409
+        },
+        {
+          "name": "blocks.5.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 4
+        },
+        {
+          "name": "blocks.6.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.6.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 21
+        },
+        {
+          "name": "blocks.6.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 675
+        },
+        {
+          "name": "blocks.6.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 712
+        },
+        {
+          "name": "blocks.6.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 544
+        },
+        {
+          "name": "blocks.6.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 400
+        },
+        {
+          "name": "blocks.6.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 5
+        },
+        {
+          "name": "blocks.7.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.7.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 31
+        },
+        {
+          "name": "blocks.8.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 701
+        },
+        {
+          "name": "blocks.8.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 624
+        },
+        {
+          "name": "blocks.8.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 508
+        },
+        {
+          "name": "blocks.8.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 439
+        },
+        {
+          "name": "blocks.8.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 2
+        },
+        {
+          "name": "blocks.9.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.9.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.9.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.9.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 25
+        },
+        {
+          "name": "blocks.9.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 731
+        },
+        {
+          "name": "blocks.9.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 667
+        },
+        {
+          "name": "blocks.9.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 582
+        },
+        {
+          "name": "blocks.9.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 481
+        },
+        {
+          "name": "blocks.9.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 2
+        },
+        {
+          "name": "blocks.10.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.10.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 23
+        },
+        {
+          "name": "blocks.10.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 693
+        },
+        {
+          "name": "blocks.10.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 558
+        },
+        {
+          "name": "blocks.10.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 553
+        },
+        {
+          "name": "blocks.10.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 445
+        },
+        {
+          "name": "blocks.10.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        }
+      ],
+      "native_reader_and_archive_gate": "PENDING; Python codec roundtrip does not substitute for native reader/independent decode",
+      "name": "cut107_half"
+    },
+    {
+      "old_model_bytes": 3063966,
+      "new_model_bytes": 2978099,
+      "growth_per_copy": 60,
+      "new_sha256": "2c7fee5ebe2f294c23fa8c4401ece0c7464a54b1da2cb6beca2ad7c48f1590fe",
+      "original_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+      "rounded_fields": [
+        {
+          "name": "skip_connection_weights.value",
+          "elements": 6,
+          "changed_from_original": 2
+        },
+        {
+          "name": "blocks.0.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.0.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 27
+        },
+        {
+          "name": "blocks.0.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 710
+        },
+        {
+          "name": "blocks.0.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 678
+        },
+        {
+          "name": "blocks.0.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 617
+        },
+        {
+          "name": "blocks.0.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 378
+        },
+        {
+          "name": "blocks.0.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 26
+        },
+        {
+          "name": "blocks.1.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.1.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.1.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 30
+        },
+        {
+          "name": "blocks.1.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 705
+        },
+        {
+          "name": "blocks.1.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 583
+        },
+        {
+          "name": "blocks.1.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 533
+        },
+        {
+          "name": "blocks.1.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 352
+        },
+        {
+          "name": "blocks.1.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 16
+        },
+        {
+          "name": "blocks.2.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.2.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.2.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 23
+        },
+        {
+          "name": "blocks.2.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 694
+        },
+        {
+          "name": "blocks.2.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 619
+        },
+        {
+          "name": "blocks.2.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 497
+        },
+        {
+          "name": "blocks.2.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 427
+        },
+        {
+          "name": "blocks.2.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 11
+        },
+        {
+          "name": "blocks.3.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.3.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.4.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.4.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.4.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 19
+        },
+        {
+          "name": "blocks.4.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 636
+        },
+        {
+          "name": "blocks.4.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 545
+        },
+        {
+          "name": "blocks.4.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 402
+        },
+        {
+          "name": "blocks.4.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 412
+        },
+        {
+          "name": "blocks.4.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 7
+        },
+        {
+          "name": "blocks.5.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.5.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.5.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 17
+        },
+        {
+          "name": "blocks.5.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 715
+        },
+        {
+          "name": "blocks.5.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 517
+        },
+        {
+          "name": "blocks.5.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 481
+        },
+        {
+          "name": "blocks.5.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 411
+        },
+        {
+          "name": "blocks.5.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 6
+        },
+        {
+          "name": "blocks.6.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.6.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.6.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 25
+        },
+        {
+          "name": "blocks.6.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 683
+        },
+        {
+          "name": "blocks.6.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 686
+        },
+        {
+          "name": "blocks.6.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 551
+        },
+        {
+          "name": "blocks.6.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 396
+        },
+        {
+          "name": "blocks.6.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 5
+        },
+        {
+          "name": "blocks.7.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.7.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.8.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.8.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 31
+        },
+        {
+          "name": "blocks.8.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 694
+        },
+        {
+          "name": "blocks.8.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 613
+        },
+        {
+          "name": "blocks.8.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 521
+        },
+        {
+          "name": "blocks.8.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 433
+        },
+        {
+          "name": "blocks.8.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 5
+        },
+        {
+          "name": "blocks.9.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.9.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.9.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.9.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 25
+        },
+        {
+          "name": "blocks.9.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 725
+        },
+        {
+          "name": "blocks.9.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 664
+        },
+        {
+          "name": "blocks.9.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 575
+        },
+        {
+          "name": "blocks.9.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 480
+        },
+        {
+          "name": "blocks.9.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 3
+        },
+        {
+          "name": "blocks.10.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.10.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.log_baseline_decay_rate",
+          "elements": 3,
+          "changed_from_original": 1
+        },
+        {
+          "name": "blocks.10.attention.dt_bias",
+          "elements": 192,
+          "changed_from_original": 30
+        },
+        {
+          "name": "blocks.10.attention.query_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 694
+        },
+        {
+          "name": "blocks.10.attention.key_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 572
+        },
+        {
+          "name": "blocks.10.attention.value_convolution.weight",
+          "elements": 768,
+          "changed_from_original": 557
+        },
+        {
+          "name": "blocks.10.attention.beta_projection.weight",
+          "elements": 576,
+          "changed_from_original": 449
+        },
+        {
+          "name": "blocks.10.attention.output_fused_norm_gate.weight",
+          "elements": 64,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.residual_stream_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 0
+        },
+        {
+          "name": "blocks.11.token_embedding_coefficient.value",
+          "elements": 1,
+          "changed_from_original": 1
+        }
+      ],
+      "native_reader_and_archive_gate": "PENDING; Python codec roundtrip does not substitute for native reader/independent decode",
+      "name": "cut1392_zero"
+    }
+  ],
+  "zero_update_byte_identity": true,
+  "finished": 1791329756.1332848
+}

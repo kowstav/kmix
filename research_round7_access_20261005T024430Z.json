@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-10-05T02:44:30Z",
+  "session_number": 355276406,
+  "last_known_kernel": "f70bdaaf-d319-4409-89a9-97861cbac0d4",
+  "scope": "Read-only inspection and preservation of previously authorized jobs; no new experiments",
+  "checks": [
+    {"operation": "Existing-job status via kernel WebSocket", "outcome": "Kernel WebSocket connection failed", "remote_execution_confirmed": false},
+    {"operation": "GET /api/kernels", "outcome": "HTTP 404"},
+    {"operation": "GET saved lex_native_2m_controller.log via contents API", "outcome": "HTTP 404", "local_download_written": false}
+  ],
+  "interpretation": "Supplied session proxy is inaccessible. Job completion, process state and file retention are unknown; do not infer failure or success.",
+  "managed_goal": {
+    "status": "usageLimited",
+    "tokens_used": 467314,
+    "time_used_seconds": 780,
+    "automatic_resume_or_replacement": false
+  },
+  "earlier_approval_failure": {
+    "approximate_time_utc": "2026-10-04T22:35:00Z",
+    "reason": "Account usage limit prevented automatic approval review",
+    "reported_reset_ist": "2026-10-05T07:58:00+05:30",
+    "action_executed": false,
+    "not_an_unsafe_action_determination": true,
+    "subsequent_read_only_checks_passed_review": true
+  },
+  "new_results_retrieved": 0,
+  "larger_2m_validation_status": "Unknown; launched controllers and queued decodes must be inspected on restored access",
+  "new_experiments_launched": 0,
+  "deletions_this_heartbeat": [],
+  "paid_spending_usd_this_heartbeat": 0,
+  "user_action": "Fresh live Kaggle proxy URL with hp_round7 preserved requested once; autonomous Goal resume remains user-controlled"
+}

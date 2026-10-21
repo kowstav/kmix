@@ -1,0 +1,46 @@
+{
+ "id": "R12-warm-fallback",
+ "status": "RUNNING",
+ "started": 1791375756.4034147,
+ "deletions": [],
+ "paid_usd": 0,
+ "consumer_v2_sha256": "ed02359ed2e2fe8ed2a5566af8d0c370931de44f4a66266bf1c333c2dd44b5ee",
+ "cases": [
+  {
+   "label": "fallback_A_0",
+   "abs_offset": 0,
+   "bytes_requested": 25165824,
+   "input_sha256": "c007d2c5e3d733c7244a7cb1f48d3ecec0b050d993a663b3514fdcca6ae5e8d5",
+   "window_bytes": 524288,
+   "cpu_encoder": 1,
+   "cpu_consumer": 3,
+   "status": "RUNNING",
+   "encoder_pid": 368,
+   "consumer_pid": 366,
+   "stage": "encode running",
+   "progress": {
+    "elapsed_s": 1890,
+    "bytes_encoded_approx": 1936384,
+    "free_gb": 1145.2
+   }
+  },
+  {
+   "label": "fallback_C_450000000",
+   "abs_offset": 450000000,
+   "bytes_requested": 25165824,
+   "input_sha256": "d8ca7b7efcd77dd9b0c30f33d885f5f72893d954daa79ee002755e3a3e4a34b2",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 2,
+   "status": "RUNNING",
+   "encoder_pid": 369,
+   "consumer_pid": 367,
+   "stage": "encode running",
+   "progress": {
+    "elapsed_s": 1890,
+    "bytes_encoded_approx": 2125824,
+    "free_gb": 1145.2
+   }
+  }
+ ]
+}

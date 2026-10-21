@@ -1,0 +1,131 @@
+{
+  "partition": "layer",
+  "key": "block_11",
+  "names": [
+    "blocks.11.attention.key_projection.weight.codebook",
+    "blocks.11.attention.key_projection.weight.q",
+    "blocks.11.attention.key_projection.weight.scale",
+    "blocks.11.attention.output_projection.weight.codebook",
+    "blocks.11.attention.output_projection.weight.q",
+    "blocks.11.attention.output_projection.weight.scale",
+    "blocks.11.attention.quantize_keys.scale",
+    "blocks.11.attention.quantize_queries.scale",
+    "blocks.11.attention.quantize_values.scale",
+    "blocks.11.attention.query_projection.weight.codebook",
+    "blocks.11.attention.query_projection.weight.q",
+    "blocks.11.attention.query_projection.weight.scale",
+    "blocks.11.attention.value_projection.weight.codebook",
+    "blocks.11.attention.value_projection.weight.q",
+    "blocks.11.attention.value_projection.weight.scale",
+    "blocks.11.mlp.down.weight.codebook",
+    "blocks.11.mlp.down.weight.q",
+    "blocks.11.mlp.down.weight.scale",
+    "blocks.11.mlp.up.weight.codebook",
+    "blocks.11.mlp.up.weight.q",
+    "blocks.11.mlp.up.weight.scale",
+    "blocks.11.residual_stream_coefficient.value",
+    "blocks.11.token_embedding_coefficient.value"
+  ],
+  "label": "9cb1421331868643c327bd80",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 248864
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 229001
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 235727
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 248364
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 228463
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 234523
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 248884
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 228169
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 236324
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 219776
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 220767
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 220567
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 248766
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 229112
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 235765
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 257585
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 235977
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 241682
+    }
+  ],
+  "selected": [
+    219776,
+    "nibble",
+    "gzip"
+  ],
+  "archive_sha256": "4c99949d0e704f7c7bf30107e4cf7564176d07749a5714b24c1ca5b70c5621b5",
+  "CPU_lane": 2,
+  "CPU_seconds": 1.6630669999999994,
+  "wall_seconds": 1.6783894989999908
+}

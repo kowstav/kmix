@@ -1,0 +1,924 @@
+{
+  "index": 6,
+  "scored_interval": [
+    418097152,
+    419145728
+  ],
+  "native_bits": 1611624.6594145396,
+  "categories": {
+    "body_constructor": {
+      "events": 75908,
+      "coded_bytes": 85825,
+      "native_bits": 216983.0234001805
+    },
+    "body_dictionary_other": {
+      "events": 148188,
+      "coded_bytes": 385094,
+      "native_bits": 886243.8315124288
+    },
+    "body_literal_or_oov": {
+      "events": 18716,
+      "coded_bytes": 99730,
+      "native_bits": 213486.68338220846
+    },
+    "metadata_word": {
+      "events": 15015,
+      "coded_bytes": 30731,
+      "native_bits": 12246.777299798094
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 447196,
+      "native_bits": 282664.3438199237
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 1044,
+      "coded_bytes": 8977,
+      "native_bits": 30358.979690317996
+    },
+    "16": {
+      "events": 4209,
+      "coded_bytes": 32065,
+      "native_bits": 86521.27649719082
+    },
+    "64": {
+      "events": 7378,
+      "coded_bytes": 52305,
+      "native_bits": 131190.8978013699
+    },
+    "107": {
+      "events": 9339,
+      "coded_bytes": 63106,
+      "native_bits": 153243.05572057283
+    },
+    "128": {
+      "events": 10034,
+      "coded_bytes": 66831,
+      "native_bits": 161425.70401894068
+    },
+    "1024": {
+      "events": 28678,
+      "coded_bytes": 137212,
+      "native_bits": 334978.3293151581
+    },
+    "1392": {
+      "events": 32625,
+      "coded_bytes": 151041,
+      "native_bits": 371044.7326452187
+    },
+    "8372": {
+      "events": 74103,
+      "coded_bytes": 269226,
+      "native_bits": 672888.4302833779
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 15687,
+      "coded_bytes": 18621,
+      "native_bits": 29576.614332998637,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "and",
+      "events": 7260,
+      "coded_bytes": 7274,
+      "native_bits": 16597.844256146345,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "in",
+      "events": 5711,
+      "coded_bytes": 6378,
+      "native_bits": 14459.769765756093,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "a",
+      "events": 3602,
+      "coded_bytes": 3957,
+      "native_bits": 12203.433734055609,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "university",
+      "events": 3686,
+      "coded_bytes": 10189,
+      "native_bits": 8726.749332206324,
+      "corpus_count": 81742
+    },
+    {
+      "word": "of",
+      "events": 9702,
+      "coded_bytes": 9731,
+      "native_bits": 8450.288708897773,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "to",
+      "events": 3432,
+      "coded_bytes": 3459,
+      "native_bits": 6784.988781650551,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "for",
+      "events": 1846,
+      "coded_bytes": 1933,
+      "native_bits": 6324.393059482798,
+      "corpus_count": 989460
+    },
+    {
+      "word": "on",
+      "events": 1327,
+      "coded_bytes": 1410,
+      "native_bits": 5885.193152061664,
+      "corpus_count": 629335
+    },
+    {
+      "word": "at",
+      "events": 1135,
+      "coded_bytes": 1184,
+      "native_bits": 5409.921687819064,
+      "corpus_count": 445611
+    },
+    {
+      "word": "campus",
+      "events": 1541,
+      "coded_bytes": 3432,
+      "native_bits": 5313.85121035995,
+      "corpus_count": 8376
+    },
+    {
+      "word": "college",
+      "events": 1754,
+      "coded_bytes": 4779,
+      "native_bits": 5305.79158329498,
+      "corpus_count": 37351
+    },
+    {
+      "word": "as",
+      "events": 1718,
+      "coded_bytes": 1815,
+      "native_bits": 5179.934215568472,
+      "corpus_count": 859588
+    },
+    {
+      "word": "student",
+      "events": 824,
+      "coded_bytes": 1909,
+      "native_bits": 5024.980096374638,
+      "corpus_count": 10318
+    },
+    {
+      "word": "is",
+      "events": 2411,
+      "coded_bytes": 2416,
+      "native_bits": 4753.122835154645,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "school",
+      "events": 1563,
+      "coded_bytes": 3997,
+      "native_bits": 4752.151569367852,
+      "corpus_count": 63267
+    },
+    {
+      "word": "students",
+      "events": 1112,
+      "coded_bytes": 2364,
+      "native_bits": 4323.032438221388,
+      "corpus_count": 19130
+    },
+    {
+      "word": "with",
+      "events": 1054,
+      "coded_bytes": 1095,
+      "native_bits": 4134.371719745919,
+      "corpus_count": 722262
+    },
+    {
+      "word": "an",
+      "events": 687,
+      "coded_bytes": 718,
+      "native_bits": 3721.774881426245,
+      "corpus_count": 411017
+    },
+    {
+      "word": "was",
+      "events": 1348,
+      "coded_bytes": 1349,
+      "native_bits": 3694.4261610945687,
+      "corpus_count": 816835
+    },
+    {
+      "word": "its",
+      "events": 838,
+      "coded_bytes": 892,
+      "native_bits": 3488.264716874808,
+      "corpus_count": 180846
+    },
+    {
+      "word": "one",
+      "events": 611,
+      "coded_bytes": 678,
+      "native_bits": 3398.6567489504814,
+      "corpus_count": 227098
+    },
+    {
+      "word": "by",
+      "events": 1143,
+      "coded_bytes": 1176,
+      "native_bits": 3311.6823237696663,
+      "corpus_count": 722251
+    },
+    {
+      "word": "that",
+      "events": 729,
+      "coded_bytes": 747,
+      "native_bits": 3128.9163460694253,
+      "corpus_count": 614666
+    },
+    {
+      "word": "from",
+      "events": 771,
+      "coded_bytes": 793,
+      "native_bits": 2948.298594355583,
+      "corpus_count": 660615
+    },
+    {
+      "word": "it",
+      "events": 747,
+      "coded_bytes": 1070,
+      "native_bits": 2923.649338820018,
+      "corpus_count": 549509
+    },
+    {
+      "word": "national",
+      "events": 451,
+      "coded_bytes": 1163,
+      "native_bits": 2723.475469686091,
+      "corpus_count": 76544
+    },
+    {
+      "word": "all",
+      "events": 406,
+      "coded_bytes": 492,
+      "native_bits": 2717.5510239517316,
+      "corpus_count": 202073
+    },
+    {
+      "word": "has",
+      "events": 831,
+      "coded_bytes": 831,
+      "native_bits": 2691.5393586885184,
+      "corpus_count": 260413
+    },
+    {
+      "word": "also",
+      "events": 604,
+      "coded_bytes": 646,
+      "native_bits": 2663.399097165093,
+      "corpus_count": 283761
+    },
+    {
+      "word": "first",
+      "events": 563,
+      "coded_bytes": 1176,
+      "native_bits": 2589.5058099161834,
+      "corpus_count": 191198
+    },
+    {
+      "word": "state",
+      "events": 921,
+      "coded_bytes": 2458,
+      "native_bits": 2498.2526099295355,
+      "corpus_count": 105355
+    },
+    {
+      "word": "academic",
+      "events": 334,
+      "coded_bytes": 723,
+      "native_bits": 2357.5852673458867,
+      "corpus_count": 6242
+    },
+    {
+      "word": "research",
+      "events": 379,
+      "coded_bytes": 900,
+      "native_bits": 2233.3396820044145,
+      "corpus_count": 23286
+    },
+    {
+      "word": "public",
+      "events": 454,
+      "coded_bytes": 1133,
+      "native_bits": 2226.601159126032,
+      "corpus_count": 53032
+    },
+    {
+      "word": "football",
+      "events": 490,
+      "coded_bytes": 1064,
+      "native_bits": 2168.7574599352665,
+      "corpus_count": 29594
+    },
+    {
+      "word": "new",
+      "events": 363,
+      "coded_bytes": 862,
+      "native_bits": 2162.6957778362557,
+      "corpus_count": 238019
+    },
+    {
+      "word": "this",
+      "events": 380,
+      "coded_bytes": 542,
+      "native_bits": 2160.343829538673,
+      "corpus_count": 346843
+    },
+    {
+      "word": "which",
+      "events": 517,
+      "coded_bytes": 519,
+      "native_bits": 2142.357665359974,
+      "corpus_count": 357281
+    },
+    {
+      "word": "two",
+      "events": 323,
+      "coded_bytes": 351,
+      "native_bits": 2101.2456944696605,
+      "corpus_count": 174865
+    },
+    {
+      "word": "graduate",
+      "events": 367,
+      "coded_bytes": 1238,
+      "native_bits": 2061.562363111414,
+      "corpus_count": 3685
+    },
+    {
+      "word": "center",
+      "events": 568,
+      "coded_bytes": 1566,
+      "native_bits": 1979.643106254749,
+      "corpus_count": 122487
+    },
+    {
+      "word": "faculty",
+      "events": 369,
+      "coded_bytes": 1179,
+      "native_bits": 1967.3338929545134,
+      "corpus_count": 4569
+    },
+    {
+      "word": "other",
+      "events": 389,
+      "coded_bytes": 448,
+      "native_bits": 1954.1036571627483,
+      "corpus_count": 220546
+    },
+    {
+      "word": "are",
+      "events": 943,
+      "coded_bytes": 943,
+      "native_bits": 1942.648683884181,
+      "corpus_count": 854954
+    },
+    {
+      "word": "president",
+      "events": 471,
+      "coded_bytes": 1210,
+      "native_bits": 1938.3667610110715,
+      "corpus_count": 46268
+    },
+    {
+      "word": "most",
+      "events": 327,
+      "coded_bytes": 374,
+      "native_bits": 1893.6303188987076,
+      "corpus_count": 143210
+    },
+    {
+      "word": "program",
+      "events": 395,
+      "coded_bytes": 867,
+      "native_bits": 1858.22799101891,
+      "corpus_count": 21819
+    },
+    {
+      "word": "or",
+      "events": 410,
+      "coded_bytes": 414,
+      "native_bits": 1851.0005212263204,
+      "corpus_count": 534276
+    },
+    {
+      "word": "u",
+      "events": 338,
+      "coded_bytes": 675,
+      "native_bits": 1813.085252830293,
+      "corpus_count": 389968
+    },
+    {
+      "word": "programs",
+      "events": 413,
+      "coded_bytes": 864,
+      "native_bits": 1809.1333756502718,
+      "corpus_count": 10632
+    },
+    {
+      "word": "more",
+      "events": 276,
+      "coded_bytes": 287,
+      "native_bits": 1780.4659504331648,
+      "corpus_count": 183919
+    },
+    {
+      "word": "their",
+      "events": 323,
+      "coded_bytes": 334,
+      "native_bits": 1720.7890422418714,
+      "corpus_count": 191581
+    },
+    {
+      "word": "undergraduate",
+      "events": 247,
+      "coded_bytes": 779,
+      "native_bits": 1712.5325141446665,
+      "corpus_count": 1877
+    },
+    {
+      "word": "only",
+      "events": 258,
+      "coded_bytes": 273,
+      "native_bits": 1696.378392510116,
+      "corpus_count": 118965
+    },
+    {
+      "word": "education",
+      "events": 502,
+      "coded_bytes": 1301,
+      "native_bits": 1683.614758844953,
+      "corpus_count": 21918
+    },
+    {
+      "word": "many",
+      "events": 261,
+      "coded_bytes": 305,
+      "native_bits": 1682.1509838476777,
+      "corpus_count": 133670
+    },
+    {
+      "word": "former",
+      "events": 357,
+      "coded_bytes": 750,
+      "native_bits": 1598.707551177591,
+      "corpus_count": 31346
+    },
+    {
+      "word": "library",
+      "events": 335,
+      "coded_bytes": 867,
+      "native_bits": 1595.7336380076595,
+      "corpus_count": 18304
+    },
+    {
+      "word": "west",
+      "events": 257,
+      "coded_bytes": 716,
+      "native_bits": 1564.4402215806767,
+      "corpus_count": 82521
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "alums",
+      "events": 9,
+      "coded_bytes": 46,
+      "native_bits": 167.61630014143884,
+      "corpus_count": 26
+    },
+    {
+      "word": "sponsoring",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 121.94249039888382,
+      "corpus_count": 176
+    },
+    {
+      "word": "goaztecs",
+      "events": 9,
+      "coded_bytes": 71,
+      "native_bits": 134.60402609873563,
+      "corpus_count": 9
+    },
+    {
+      "word": "crimson",
+      "events": 13,
+      "coded_bytes": 49,
+      "native_bits": 192.74141032248735,
+      "corpus_count": 946
+    },
+    {
+      "word": "convocation",
+      "events": 12,
+      "coded_bytes": 45,
+      "native_bits": 172.02779304236174,
+      "corpus_count": 196
+    },
+    {
+      "word": "sec",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 113.96842781640589,
+      "corpus_count": 2200
+    },
+    {
+      "word": "hotel",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 128.01670835912228,
+      "corpus_count": 5226
+    },
+    {
+      "word": "ship",
+      "events": 9,
+      "coded_bytes": 23,
+      "native_bits": 126.99060712382197,
+      "corpus_count": 16845
+    },
+    {
+      "word": "founders",
+      "events": 10,
+      "coded_bytes": 34,
+      "native_bits": 140.6913226414472,
+      "corpus_count": 1571
+    },
+    {
+      "word": "modeled",
+      "events": 9,
+      "coded_bytes": 30,
+      "native_bits": 126.60525085031986,
+      "corpus_count": 810
+    },
+    {
+      "word": "allied",
+      "events": 16,
+      "coded_bytes": 45,
+      "native_bits": 220.19189513009042,
+      "corpus_count": 4870
+    },
+    {
+      "word": "immediately",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 122.77364626526833,
+      "corpus_count": 8460
+    },
+    {
+      "word": "interim",
+      "events": 16,
+      "coded_bytes": 54,
+      "native_bits": 215.90668400656432,
+      "corpus_count": 1412
+    },
+    {
+      "word": "publicly",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 107.60795831680298,
+      "corpus_count": 2974
+    },
+    {
+      "word": "exercise",
+      "events": 8,
+      "coded_bytes": 28,
+      "native_bits": 107.19287122786045,
+      "corpus_count": 3144
+    },
+    {
+      "word": "redhawks",
+      "events": 9,
+      "coded_bytes": 71,
+      "native_bits": 120.5824870346114,
+      "corpus_count": 34
+    },
+    {
+      "word": "extended",
+      "events": 20,
+      "coded_bytes": 46,
+      "native_bits": 266.93529469519854,
+      "corpus_count": 7650
+    },
+    {
+      "word": "centennial",
+      "events": 9,
+      "coded_bytes": 33,
+      "native_bits": 119.32994908839464,
+      "corpus_count": 782
+    },
+    {
+      "word": "labor",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 119.29652409628034,
+      "corpus_count": 7449
+    },
+    {
+      "word": "eventual",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 105.14235678315163,
+      "corpus_count": 1513
+    },
+    {
+      "word": "autumn",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 105.05469141341746,
+      "corpus_count": 2179
+    },
+    {
+      "word": "temple",
+      "events": 10,
+      "coded_bytes": 27,
+      "native_bits": 130.51580415293574,
+      "corpus_count": 9417
+    },
+    {
+      "word": "occasional",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.9690545797348,
+      "corpus_count": 1940
+    },
+    {
+      "word": "entering",
+      "events": 13,
+      "coded_bytes": 40,
+      "native_bits": 168.85740598011762,
+      "corpus_count": 2704
+    },
+    {
+      "word": "ward",
+      "events": 10,
+      "coded_bytes": 40,
+      "native_bits": 129.79634651821107,
+      "corpus_count": 3642
+    },
+    {
+      "word": "medieval",
+      "events": 11,
+      "coded_bytes": 29,
+      "native_bits": 141.95779423043132,
+      "corpus_count": 6146
+    },
+    {
+      "word": "coastal",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 103.03756385855377,
+      "corpus_count": 4027
+    },
+    {
+      "word": "cheer",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 128.6416901499033,
+      "corpus_count": 329
+    },
+    {
+      "word": "meeting",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 115.60777401924133,
+      "corpus_count": 7051
+    },
+    {
+      "word": "effective",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 128.16373375058174,
+      "corpus_count": 6869
+    },
+    {
+      "word": "claimed",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 140.7403643131256,
+      "corpus_count": 10658
+    },
+    {
+      "word": "charlottesville",
+      "events": 13,
+      "coded_bytes": 130,
+      "native_bits": 165.85149119002745,
+      "corpus_count": 201
+    },
+    {
+      "word": "uva",
+      "events": 14,
+      "coded_bytes": 66,
+      "native_bits": 178.37195702828467,
+      "corpus_count": 162
+    },
+    {
+      "word": "elite",
+      "events": 12,
+      "coded_bytes": 40,
+      "native_bits": 152.44707078207284,
+      "corpus_count": 2318
+    },
+    {
+      "word": "registration",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 101.63100564479828,
+      "corpus_count": 1347
+    },
+    {
+      "word": "choral",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 114.16776898130774,
+      "corpus_count": 578
+    },
+    {
+      "word": "chancellors",
+      "events": 9,
+      "coded_bytes": 34,
+      "native_bits": 114.10257341340184,
+      "corpus_count": 375
+    },
+    {
+      "word": "enrolls",
+      "events": 14,
+      "coded_bytes": 98,
+      "native_bits": 177.47658639401197,
+      "corpus_count": 82
+    },
+    {
+      "word": "dates",
+      "events": 16,
+      "coded_bytes": 34,
+      "native_bits": 202.49004200845957,
+      "corpus_count": 6366
+    },
+    {
+      "word": "supporting",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 126.37500393390656,
+      "corpus_count": 6381
+    },
+    {
+      "word": "usage",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 126.34565557679161,
+      "corpus_count": 6503
+    },
+    {
+      "word": "children's",
+      "events": 10,
+      "coded_bytes": 46,
+      "native_bits": 126.036373923067,
+      "corpus_count": 4344
+    },
+    {
+      "word": "fitness",
+      "events": 8,
+      "coded_bytes": 29,
+      "native_bits": 100.72463807277381,
+      "corpus_count": 812
+    },
+    {
+      "word": "statewide",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 100.4788326472044,
+      "corpus_count": 363
+    },
+    {
+      "word": "fifteen",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 100.38499516248703,
+      "corpus_count": 2102
+    },
+    {
+      "word": "gifts",
+      "events": 15,
+      "coded_bytes": 47,
+      "native_bits": 188.22172618703917,
+      "corpus_count": 1143
+    },
+    {
+      "word": "posted",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 99.9370676279068,
+      "corpus_count": 1372
+    },
+    {
+      "word": "holiday",
+      "events": 8,
+      "coded_bytes": 21,
+      "native_bits": 99.82315471768379,
+      "corpus_count": 3763
+    },
+    {
+      "word": "holding",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 124.71828436851501,
+      "corpus_count": 4913
+    },
+    {
+      "word": "participation",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 111.93644421175122,
+      "corpus_count": 2217
+    },
+    {
+      "word": "pulled",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 99.38894355297089,
+      "corpus_count": 1660
+    },
+    {
+      "word": "starting",
+      "events": 10,
+      "coded_bytes": 24,
+      "native_bits": 124.11055146157742,
+      "corpus_count": 10288
+    },
+    {
+      "word": "progress",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 99.27502664923668,
+      "corpus_count": 4782
+    },
+    {
+      "word": "max",
+      "events": 9,
+      "coded_bytes": 26,
+      "native_bits": 111.36414768686518,
+      "corpus_count": 5966
+    },
+    {
+      "word": "sister",
+      "events": 10,
+      "coded_bytes": 23,
+      "native_bits": 123.63112586736679,
+      "corpus_count": 8057
+    },
+    {
+      "word": "fast",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 111.03662869334221,
+      "corpus_count": 7399
+    },
+    {
+      "word": "pga",
+      "events": 9,
+      "coded_bytes": 36,
+      "native_bits": 110.6806395961903,
+      "corpus_count": 772
+    },
+    {
+      "word": "gym",
+      "events": 9,
+      "coded_bytes": 34,
+      "native_bits": 110.56968025304377,
+      "corpus_count": 487
+    },
+    {
+      "word": "ninth",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 98.26566570997238,
+      "corpus_count": 1934
+    },
+    {
+      "word": "shares",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 98.19863453507423,
+      "corpus_count": 2759
+    }
+  ],
+  "words_file_sha256": "3ae51a0ac5c5e4455d83e870ebbce77b3b9fcab49388f87fb210c1b8c7f80415",
+  "CPU_lane": 3,
+  "exact_WRT_character_crosscheck": true
+}

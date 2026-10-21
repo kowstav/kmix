@@ -1,0 +1,13 @@
+{
+  "status": "FAIL",
+  "pid": 1150,
+  "utc": "2026-10-05T18:44:05.268751+00:00",
+  "repair": "Reuse successful v1 build; replace missing /usr/bin/time with Linux wait4. No repeated build or overwritten outputs.",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "binary_sha256": "89e0d18855f5fdaf0f0bc0f60a56d0cdd8ac364c944bf05db9d547e485a1f600",
+  "binary_bytes": 497336,
+  "table_sha256": "65480e1569d6f40c93d4cb3f355661006c861ab2af54d2031ddeb963eb1b8578",
+  "error": "PermissionError(13, 'Permission denied')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_calibration_native_v2_worker.py\", line 20, in <module>\n    runs[mode]=timed([str(program),'-n','--transformer',str(weights),str(inp),'out.cmx'],d,e,n+'_'+mode)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round7/research_round7_calibration_native_v2_worker.py\", line 8, in timed\n    start=time.monotonic();log=(D/(label+'.log')).open('x');p=subprocess.Popen(cmd,cwd=d,env=env,stdout=log,stderr=subprocess.STDOUT);_,status,u=os.wait4(p.pid,0);rc=os.waitstatus_to_exitcode(status);log.close();assert rc==0,(label,rc)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nPermissionError: [Errno 13] Permission denied: '/kaggle/working/hp_round7/lex_finalbit_trace_v1/cmix_trace'\n"
+}

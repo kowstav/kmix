@@ -1,0 +1,924 @@
+{
+  "index": 11,
+  "scored_interval": [
+    258097152,
+    259145728
+  ],
+  "native_bits": 1665424.9337313632,
+  "categories": {
+    "body_constructor": {
+      "events": 104249,
+      "coded_bytes": 121267,
+      "native_bits": 310349.2851506714
+    },
+    "body_dictionary_other": {
+      "events": 122740,
+      "coded_bytes": 319515,
+      "native_bits": 829770.3462215285
+    },
+    "body_literal_or_oov": {
+      "events": 22090,
+      "coded_bytes": 147874,
+      "native_bits": 236663.70065738168
+    },
+    "metadata_word": {
+      "events": 10796,
+      "coded_bytes": 26518,
+      "native_bits": 26779.868295963388
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 433402,
+      "native_bits": 261861.73340581823
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 1224,
+      "coded_bytes": 10983,
+      "native_bits": 32885.528765825555
+    },
+    "16": {
+      "events": 6630,
+      "coded_bytes": 55954,
+      "native_bits": 109545.40228177793
+    },
+    "64": {
+      "events": 15006,
+      "coded_bytes": 115639,
+      "native_bits": 188368.016231664
+    },
+    "107": {
+      "events": 18854,
+      "coded_bytes": 136890,
+      "native_bits": 222836.53294726415
+    },
+    "128": {
+      "events": 20105,
+      "coded_bytes": 142292,
+      "native_bits": 234476.04791633599
+    },
+    "1024": {
+      "events": 45522,
+      "coded_bytes": 235549,
+      "native_bits": 440847.3009134419
+    },
+    "1392": {
+      "events": 50311,
+      "coded_bytes": 251511,
+      "native_bits": 477944.85968667455
+    },
+    "8372": {
+      "events": 84985,
+      "coded_bytes": 341335,
+      "native_bits": 747188.0150784883
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 18401,
+      "coded_bytes": 20567,
+      "native_bits": 36349.7756527639,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "in",
+      "events": 5537,
+      "coded_bytes": 6586,
+      "native_bits": 16877.59936451493,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "and",
+      "events": 7341,
+      "coded_bytes": 7381,
+      "native_bits": 16501.808753299993,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "a",
+      "events": 5100,
+      "coded_bytes": 5422,
+      "native_bits": 16214.88930177316,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "of",
+      "events": 10879,
+      "coded_bytes": 10917,
+      "native_bits": 11183.383169644978,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "to",
+      "events": 5681,
+      "coded_bytes": 5748,
+      "native_bits": 10093.67339060828,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "his",
+      "events": 2760,
+      "coded_bytes": 2953,
+      "native_bits": 9027.112869856413,
+      "corpus_count": 414734
+    },
+    {
+      "word": "was",
+      "events": 3524,
+      "coded_bytes": 3525,
+      "native_bits": 6923.951891931705,
+      "corpus_count": 816835
+    },
+    {
+      "word": "as",
+      "events": 1887,
+      "coded_bytes": 2006,
+      "native_bits": 6531.982895666268,
+      "corpus_count": 859588
+    },
+    {
+      "word": "that",
+      "events": 1891,
+      "coded_bytes": 1927,
+      "native_bits": 6051.044893099461,
+      "corpus_count": 614666
+    },
+    {
+      "word": "by",
+      "events": 2323,
+      "coded_bytes": 2366,
+      "native_bits": 5987.488891931251,
+      "corpus_count": 722251
+    },
+    {
+      "word": "he",
+      "events": 2330,
+      "coded_bytes": 3087,
+      "native_bits": 5830.708104052581,
+      "corpus_count": 407951
+    },
+    {
+      "word": "on",
+      "events": 1264,
+      "coded_bytes": 1361,
+      "native_bits": 5758.275474810507,
+      "corpus_count": 629335
+    },
+    {
+      "word": "with",
+      "events": 1614,
+      "coded_bytes": 1664,
+      "native_bits": 5689.650207925588,
+      "corpus_count": 722262
+    },
+    {
+      "word": "for",
+      "events": 1472,
+      "coded_bytes": 1595,
+      "native_bits": 5458.411662094295,
+      "corpus_count": 989460
+    },
+    {
+      "word": "is",
+      "events": 2095,
+      "coded_bytes": 2098,
+      "native_bits": 5109.9236536226235,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "at",
+      "events": 929,
+      "coded_bytes": 1006,
+      "native_bits": 4956.061245934572,
+      "corpus_count": 445611
+    },
+    {
+      "word": "an",
+      "events": 864,
+      "coded_bytes": 918,
+      "native_bits": 4754.095010493882,
+      "corpus_count": 411017
+    },
+    {
+      "word": "greek",
+      "events": 2085,
+      "coded_bytes": 6203,
+      "native_bits": 4746.203694843687,
+      "corpus_count": 25657
+    },
+    {
+      "word": "from",
+      "events": 1217,
+      "coded_bytes": 1261,
+      "native_bits": 4538.150859528687,
+      "corpus_count": 660615
+    },
+    {
+      "word": "it",
+      "events": 1050,
+      "coded_bytes": 1316,
+      "native_bits": 4479.608477899339,
+      "corpus_count": 549509
+    },
+    {
+      "word": "one",
+      "events": 741,
+      "coded_bytes": 821,
+      "native_bits": 4459.106603134889,
+      "corpus_count": 227098
+    },
+    {
+      "word": "this",
+      "events": 826,
+      "coded_bytes": 1113,
+      "native_bits": 4033.01484363107,
+      "corpus_count": 346843
+    },
+    {
+      "word": "king",
+      "events": 724,
+      "coded_bytes": 1868,
+      "native_bits": 3796.4089391785674,
+      "corpus_count": 56144
+    },
+    {
+      "word": "or",
+      "events": 874,
+      "coded_bytes": 880,
+      "native_bits": 3631.169264816679,
+      "corpus_count": 534276
+    },
+    {
+      "word": "which",
+      "events": 781,
+      "coded_bytes": 785,
+      "native_bits": 3365.674246852752,
+      "corpus_count": 357281
+    },
+    {
+      "word": "also",
+      "events": 673,
+      "coded_bytes": 701,
+      "native_bits": 3163.594656290021,
+      "corpus_count": 283761
+    },
+    {
+      "word": "had",
+      "events": 867,
+      "coded_bytes": 867,
+      "native_bits": 3110.861583838705,
+      "corpus_count": 215442
+    },
+    {
+      "word": "but",
+      "events": 770,
+      "coded_bytes": 847,
+      "native_bits": 3065.653490755707,
+      "corpus_count": 213851
+    },
+    {
+      "word": "who",
+      "events": 975,
+      "coded_bytes": 1953,
+      "native_bits": 2907.6589551139623,
+      "corpus_count": 233489
+    },
+    {
+      "word": "their",
+      "events": 653,
+      "coded_bytes": 675,
+      "native_bits": 2865.454229963012,
+      "corpus_count": 191581
+    },
+    {
+      "word": "they",
+      "events": 730,
+      "coded_bytes": 936,
+      "native_bits": 2834.481454621535,
+      "corpus_count": 175439
+    },
+    {
+      "word": "ancient",
+      "events": 505,
+      "coded_bytes": 1270,
+      "native_bits": 2752.6860995865427,
+      "corpus_count": 21385
+    },
+    {
+      "word": "when",
+      "events": 493,
+      "coded_bytes": 713,
+      "native_bits": 2733.545934055466,
+      "corpus_count": 135170
+    },
+    {
+      "word": "after",
+      "events": 494,
+      "coded_bytes": 639,
+      "native_bits": 2668.0328010320663,
+      "corpus_count": 155295
+    },
+    {
+      "word": "son",
+      "events": 857,
+      "coded_bytes": 1737,
+      "native_bits": 2549.9710380663164,
+      "corpus_count": 30230
+    },
+    {
+      "word": "some",
+      "events": 358,
+      "coded_bytes": 433,
+      "native_bits": 2411.773777941242,
+      "corpus_count": 152592
+    },
+    {
+      "word": "not",
+      "events": 585,
+      "coded_bytes": 593,
+      "native_bits": 2361.6426397617906,
+      "corpus_count": 250788
+    },
+    {
+      "word": "her",
+      "events": 706,
+      "coded_bytes": 1434,
+      "native_bits": 2250.9287230474874,
+      "corpus_count": 103215
+    },
+    {
+      "word": "all",
+      "events": 335,
+      "coded_bytes": 365,
+      "native_bits": 2215.2099202033132,
+      "corpus_count": 202073
+    },
+    {
+      "word": "were",
+      "events": 884,
+      "coded_bytes": 884,
+      "native_bits": 2194.328801452648,
+      "corpus_count": 244197
+    },
+    {
+      "word": "two",
+      "events": 322,
+      "coded_bytes": 341,
+      "native_bits": 2093.1907522473484,
+      "corpus_count": 174865
+    },
+    {
+      "word": "first",
+      "events": 345,
+      "coded_bytes": 711,
+      "native_bits": 2092.4425208540633,
+      "corpus_count": 191198
+    },
+    {
+      "word": "him",
+      "events": 938,
+      "coded_bytes": 1877,
+      "native_bits": 2090.4502315362915,
+      "corpus_count": 75157
+    },
+    {
+      "word": "later",
+      "events": 290,
+      "coded_bytes": 631,
+      "native_bits": 2031.175387663301,
+      "corpus_count": 73753
+    },
+    {
+      "word": "there",
+      "events": 301,
+      "coded_bytes": 427,
+      "native_bits": 1986.6279905019328,
+      "corpus_count": 311572
+    },
+    {
+      "word": "other",
+      "events": 377,
+      "coded_bytes": 434,
+      "native_bits": 1948.5785312163644,
+      "corpus_count": 220546
+    },
+    {
+      "word": "many",
+      "events": 266,
+      "coded_bytes": 296,
+      "native_bits": 1876.980346239172,
+      "corpus_count": 133670
+    },
+    {
+      "word": "only",
+      "events": 256,
+      "coded_bytes": 268,
+      "native_bits": 1868.810222931672,
+      "corpus_count": 118965
+    },
+    {
+      "word": "has",
+      "events": 367,
+      "coded_bytes": 367,
+      "native_bits": 1812.8198743676767,
+      "corpus_count": 260413
+    },
+    {
+      "word": "zeus",
+      "events": 367,
+      "coded_bytes": 1467,
+      "native_bits": 1812.0584564660676,
+      "corpus_count": 1618
+    },
+    {
+      "word": "so",
+      "events": 290,
+      "coded_bytes": 305,
+      "native_bits": 1740.7615478686057,
+      "corpus_count": 76492
+    },
+    {
+      "word": "most",
+      "events": 260,
+      "coded_bytes": 278,
+      "native_bits": 1730.7545576505363,
+      "corpus_count": 143210
+    },
+    {
+      "word": "odysseus",
+      "events": 410,
+      "coded_bytes": 1639,
+      "native_bits": 1717.9288768600672,
+      "corpus_count": 642
+    },
+    {
+      "word": "are",
+      "events": 545,
+      "coded_bytes": 547,
+      "native_bits": 1693.0223974063993,
+      "corpus_count": 854954
+    },
+    {
+      "word": "would",
+      "events": 403,
+      "coded_bytes": 405,
+      "native_bits": 1659.0437197475694,
+      "corpus_count": 102634
+    },
+    {
+      "word": "roman",
+      "events": 336,
+      "coded_bytes": 1008,
+      "native_bits": 1624.332763933111,
+      "corpus_count": 36180
+    },
+    {
+      "word": "during",
+      "events": 231,
+      "coded_bytes": 292,
+      "native_bits": 1618.146746698767,
+      "corpus_count": 96460
+    },
+    {
+      "word": "city",
+      "events": 344,
+      "coded_bytes": 708,
+      "native_bits": 1614.5438319239765,
+      "corpus_count": 199574
+    },
+    {
+      "word": "father",
+      "events": 435,
+      "coded_bytes": 879,
+      "native_bits": 1588.8471155455336,
+      "corpus_count": 23414
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "pose",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 140.4979795217514,
+      "corpus_count": 738
+    },
+    {
+      "word": "loeb",
+      "events": 8,
+      "coded_bytes": 40,
+      "native_bits": 122.86355018243194,
+      "corpus_count": 256
+    },
+    {
+      "word": "eighth",
+      "events": 11,
+      "coded_bytes": 38,
+      "native_bits": 165.07398681342602,
+      "corpus_count": 2229
+    },
+    {
+      "word": "wonder",
+      "events": 8,
+      "coded_bytes": 29,
+      "native_bits": 113.95538654178381,
+      "corpus_count": 2102
+    },
+    {
+      "word": "twice",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 113.70961213111877,
+      "corpus_count": 5407
+    },
+    {
+      "word": "guided",
+      "events": 12,
+      "coded_bytes": 36,
+      "native_bits": 168.6145544052124,
+      "corpus_count": 1855
+    },
+    {
+      "word": "votive",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 124.84869521856308,
+      "corpus_count": 104
+    },
+    {
+      "word": "current",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 123.01584672927856,
+      "corpus_count": 26115
+    },
+    {
+      "word": "fluted",
+      "events": 9,
+      "coded_bytes": 54,
+      "native_bits": 122.22093789372593,
+      "corpus_count": 33
+    },
+    {
+      "word": "colossal",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 121.7179886829108,
+      "corpus_count": 346
+    },
+    {
+      "word": "violent",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 148.71669578552246,
+      "corpus_count": 3818
+    },
+    {
+      "word": "remarkable",
+      "events": 12,
+      "coded_bytes": 36,
+      "native_bits": 161.811255723238,
+      "corpus_count": 2265
+    },
+    {
+      "word": "killer",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 107.72411235701293,
+      "corpus_count": 2328
+    },
+    {
+      "word": "collected",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 107.18718099594116,
+      "corpus_count": 3905
+    },
+    {
+      "word": "tenth",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 133.5503430366516,
+      "corpus_count": 1494
+    },
+    {
+      "word": "looks",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 106.6834721416235,
+      "corpus_count": 3018
+    },
+    {
+      "word": "herald",
+      "events": 17,
+      "coded_bytes": 54,
+      "native_bits": 225.87685810308903,
+      "corpus_count": 1461
+    },
+    {
+      "word": "platonic",
+      "events": 9,
+      "coded_bytes": 36,
+      "native_bits": 119.22762347571552,
+      "corpus_count": 460
+    },
+    {
+      "word": "purely",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 105.86010658740997,
+      "corpus_count": 1931
+    },
+    {
+      "word": "brief",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 119.07646030373871,
+      "corpus_count": 6053
+    },
+    {
+      "word": "presence",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 119.00522281229496,
+      "corpus_count": 6936
+    },
+    {
+      "word": "ruin",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 131.5475149974227,
+      "corpus_count": 685
+    },
+    {
+      "word": "supporting",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 131.49624037742615,
+      "corpus_count": 6381
+    },
+    {
+      "word": "basic",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 118.09576654434204,
+      "corpus_count": 12928
+    },
+    {
+      "word": "contrary",
+      "events": 10,
+      "coded_bytes": 23,
+      "native_bits": 130.88083089143038,
+      "corpus_count": 2386
+    },
+    {
+      "word": "secretly",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 143.9395409822464,
+      "corpus_count": 1231
+    },
+    {
+      "word": "mighty",
+      "events": 9,
+      "coded_bytes": 30,
+      "native_bits": 117.72652505198494,
+      "corpus_count": 1498
+    },
+    {
+      "word": "freedom",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 116.95780324935913,
+      "corpus_count": 9767
+    },
+    {
+      "word": "autochthonous",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.95004372298717,
+      "corpus_count": 68
+    },
+    {
+      "word": "normal",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 129.87344938516617,
+      "corpus_count": 10303
+    },
+    {
+      "word": "hard",
+      "events": 12,
+      "coded_bytes": 24,
+      "native_bits": 155.77507948875427,
+      "corpus_count": 11784
+    },
+    {
+      "word": "egg",
+      "events": 8,
+      "coded_bytes": 25,
+      "native_bits": 103.77278189919889,
+      "corpus_count": 3014
+    },
+    {
+      "word": "eponymous",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.60381668806076,
+      "corpus_count": 792
+    },
+    {
+      "word": "neighboring",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 142.21427405253053,
+      "corpus_count": 2589
+    },
+    {
+      "word": "creating",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 103.19106930494308,
+      "corpus_count": 6193
+    },
+    {
+      "word": "admired",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.13653767108917,
+      "corpus_count": 851
+    },
+    {
+      "word": "grand",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 103.06713340058923,
+      "corpus_count": 17036
+    },
+    {
+      "word": "prehistoric",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 128.49781582318246,
+      "corpus_count": 1061
+    },
+    {
+      "word": "grace",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 115.35556978359818,
+      "corpus_count": 3869
+    },
+    {
+      "word": "thirty",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 115.23664174973965,
+      "corpus_count": 4097
+    },
+    {
+      "word": "elsewhere",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 102.35779038071632,
+      "corpus_count": 3489
+    },
+    {
+      "word": "direct",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 127.88202500343323,
+      "corpus_count": 11553
+    },
+    {
+      "word": "strike",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 102.17454724013805,
+      "corpus_count": 5956
+    },
+    {
+      "word": "elderly",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 102.0551426410675,
+      "corpus_count": 1035
+    },
+    {
+      "word": "proper",
+      "events": 12,
+      "coded_bytes": 24,
+      "native_bits": 152.68608736991882,
+      "corpus_count": 6241
+    },
+    {
+      "word": "fast",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 139.7699191570282,
+      "corpus_count": 7399
+    },
+    {
+      "word": "thereby",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 101.4542217105627,
+      "corpus_count": 2385
+    },
+    {
+      "word": "linked",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 101.32056713104248,
+      "corpus_count": 4650
+    },
+    {
+      "word": "identification",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 113.96123983338475,
+      "corpus_count": 2193
+    },
+    {
+      "word": "guardian",
+      "events": 10,
+      "coded_bytes": 23,
+      "native_bits": 126.40722846984863,
+      "corpus_count": 4970
+    },
+    {
+      "word": "instances",
+      "events": 8,
+      "coded_bytes": 27,
+      "native_bits": 100.82493002340198,
+      "corpus_count": 1881
+    },
+    {
+      "word": "vain",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 113.17442661896348,
+      "corpus_count": 661
+    },
+    {
+      "word": "previous",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 113.09078460931778,
+      "corpus_count": 11272
+    },
+    {
+      "word": "broad",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 100.39103245735168,
+      "corpus_count": 4511
+    },
+    {
+      "word": "erechtheion",
+      "events": 8,
+      "coded_bytes": 93,
+      "native_bits": 100.24268091376871,
+      "corpus_count": 11
+    },
+    {
+      "word": "mystery",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 99.94668371975422,
+      "corpus_count": 3397
+    },
+    {
+      "word": "reaching",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 112.09482707083225,
+      "corpus_count": 3340
+    },
+    {
+      "word": "architrave",
+      "events": 14,
+      "coded_bytes": 140,
+      "native_bits": 173.86946311593056,
+      "corpus_count": 21
+    },
+    {
+      "word": "critical",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 99.2895559668541,
+      "corpus_count": 8684
+    },
+    {
+      "word": "alongside",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 124.11003040149808,
+      "corpus_count": 3116
+    }
+  ],
+  "words_file_sha256": "a0fb7eebd5613091a7fb446405e6167dc123094bbcf24fd67582f45e80dcba98",
+  "CPU_lane": 1,
+  "exact_WRT_character_crosscheck": true
+}

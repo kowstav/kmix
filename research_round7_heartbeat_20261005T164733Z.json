@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-05T16:47:33.025Z",
+  "goal_status": "usageLimited",
+  "last_successful_remote_verification_utc": "2026-10-05T14:27:34.111Z",
+  "remote_status": "NOT_VERIFIED",
+  "manifest_checks": "Four tool calls rejected without returned diagnostic text",
+  "restricted_network_check": {
+    "endpoint": "/api/kernels",
+    "exit_code": 1,
+    "output": "fetch failed"
+  },
+  "session_expiry": "NOT_ESTABLISHED",
+  "local_results": "Completed experiment evidence already preserved; no new result retrieved",
+  "launches": [],
+  "goal_mutation": false,
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "user_action": "Existing Goal-resume request remains pending; not repeated"
+}

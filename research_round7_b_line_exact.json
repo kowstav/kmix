@@ -1,0 +1,89 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 427095.00904594886,
+  "mask_observed_prefix_digits": false,
+  "edit_channel": false,
+  "contract": "first four bytes paid; only past completed donors; target end is decoded stop; oracle diagnostic is unpaid",
+  "lines": 40933,
+  "completed_stored_sources": 29542,
+  "proposed_events": 24635,
+  "memory_keys": 5012,
+  "accounted_memory_payload_bytes": 637211,
+  "score": {
+    "name": "combined",
+    "events": 24634,
+    "matched_events": 3694,
+    "coded_bytes_covered": 1425211,
+    "baseline_bits_covered": 2416526.7846886483,
+    "neutral_total_bits": 3416760.072367591,
+    "prequential_total_bits": 3416751.837667236,
+    "prequential_gain_bits": 8.234700354801848,
+    "prequential_saving_bytes": 1.029337544350231,
+    "context_count": 6,
+    "fixed_priors": [
+      {
+        "alpha": 0.0,
+        "gain_bits": 0.0,
+        "saving_bytes": 0.0,
+        "total_bits": 3416760.072367591
+      },
+      {
+        "alpha": 0.001,
+        "gain_bits": 20.827876891809215,
+        "saving_bytes": 2.603484611476152,
+        "total_bits": 3416739.244490699
+      },
+      {
+        "alpha": 0.003,
+        "gain_bits": -2.7597661225346273,
+        "saving_bytes": -0.3449707653168284,
+        "total_bits": 3416762.832133713
+      },
+      {
+        "alpha": 0.01,
+        "gain_bits": -150.0302953648975,
+        "saving_bytes": -18.75378692061219,
+        "total_bits": 3416910.102662956
+      },
+      {
+        "alpha": 0.03,
+        "gain_bits": -676.864568550917,
+        "saving_bytes": -84.60807106886463,
+        "total_bits": 3417436.936936142
+      },
+      {
+        "alpha": 0.1,
+        "gain_bits": -2812.928921691514,
+        "saving_bytes": -351.61611521143925,
+        "total_bits": 3419573.0012892825
+      },
+      {
+        "alpha": 0.3,
+        "gain_bits": -10335.230241307188,
+        "saving_bytes": -1291.9037801633986,
+        "total_bits": 3427095.302608898
+      },
+      {
+        "alpha": 0.7,
+        "gain_bits": -36125.51905261747,
+        "saving_bytes": -4515.689881577184,
+        "total_bits": 3452885.591420208
+      },
+      {
+        "alpha": 0.9,
+        "gain_bits": -69501.43658181482,
+        "saving_bytes": -8687.679572726853,
+        "total_bits": 3486261.5089494055
+      }
+    ],
+    "by_branch": {
+      "line_copy": {
+        "events": 24634,
+        "matched": 3694,
+        "coded_bytes": 1425211,
+        "baseline_bits": 2416526.7846886483,
+        "prequential_gain_bits": 8.234700354801848
+      }
+    }
+  }
+}

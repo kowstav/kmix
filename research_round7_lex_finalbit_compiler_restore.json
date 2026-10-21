@@ -1,0 +1,11 @@
+{
+  "source": "https://apt.llvm.org/",
+  "public_key_sha256": "8b2a587ffd672c4687e7581dad4b2f6c1bb2ad6b480cd9771ba2ff48e0b8c75d",
+  "fingerprint": "pub:-:4096:1:15CF4D18AF4F7421:1362990124:::-:::scESC::::::23::0:\nfpr:::::::::6084F3CF814B57C1CF12EFD515CF4D18AF4F7421:\nuid:-::::1771538747::B0240068F6E136ED81937D940459B5B2B7DCABD9::Sylvestre Ledru - Debian LLVM packages <sylvestre@debian.org>::::::::::0:\nsub:-:4096:1:5B3D8846AF9463CE:1362990124::::::e::::::23:\nfpr:::::::::56E1477F57BAB5ECF37818045B3D8846AF9463CE:\n",
+  "packages": [
+    "clang-17",
+    "lld-17"
+  ],
+  "removals_disabled": true,
+  "project_deletions": []
+}

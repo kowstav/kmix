@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.query_convolution.weight",
+  "names": [
+    "blocks.8.attention.query_convolution.weight"
+  ],
+  "label": "788f8a7dda2f293824efc899",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1452
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1437
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1409
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1426
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1452
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1483
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1576
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1452
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1484
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1560
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1457
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1670
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1409,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "6a2d459f26b7c67f8e3c90849e6cf8d651576177ea451fd89e719932d39ddd89",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.009846999999998565,
+  "wall_seconds": 0.010093683000008014
+}

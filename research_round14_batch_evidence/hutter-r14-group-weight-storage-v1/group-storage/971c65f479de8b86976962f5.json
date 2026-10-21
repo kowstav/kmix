@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.query_convolution.weight",
+  "names": [
+    "blocks.2.attention.query_convolution.weight"
+  ],
+  "label": "971c65f479de8b86976962f5",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1480
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1443
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1452
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1449
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1435
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1480
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1443
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1480
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1572
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1443
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1478
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1552
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1449
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1698
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1435,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "f417ded84b0695f2af17b40693f6c189321e24c8dc69e82bb149f11e63dbe188",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.017385999999998722,
+  "wall_seconds": 0.032278649000005544
+}

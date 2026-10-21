@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.5.attention.output_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.5.attention.output_gate_projection.up.weight.scale"
+  ],
+  "label": "7b831cb91092d2196bf38283",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 262
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 254
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 242
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 288
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 237
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 262
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 254
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 262
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 254
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 262
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 254
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 276
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 311
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 269
+    }
+  ],
+  "selected": [
+    237,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "07d6ee4a52b882d973bcf56abcd72e475d1088d71b2fb7567e49de8cc97deb0a",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.009002999999998387,
+  "wall_seconds": 0.01491835400000241
+}

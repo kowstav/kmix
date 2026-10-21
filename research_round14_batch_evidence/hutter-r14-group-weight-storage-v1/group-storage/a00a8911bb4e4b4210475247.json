@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.forget_gate_projection.up.weight.codebook",
+  "names": [
+    "blocks.10.attention.forget_gate_projection.up.weight.codebook"
+  ],
+  "label": "a00a8911bb4e4b4210475247",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 185
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 222
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 174
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 172
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 220
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 172
+    }
+  ],
+  "selected": [
+    172,
+    "plain",
+    "zstd"
+  ],
+  "archive_sha256": "3a0197447affbb97f3ae4f3373ee3448a5d736b5580e03e412400861514374f7",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.007923000000000208,
+  "wall_seconds": 0.007971243000014283
+}

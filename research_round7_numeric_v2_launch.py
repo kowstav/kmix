@@ -1,0 +1,4 @@
+import pathlib,subprocess,json
+r=pathlib.Path('/kaggle/working/hp_round7');assert json.loads((r/'numeric_programs_v1/manifest.json').read_text())['status']=='FAIL';assert not (r/'numeric_programs_v2').exists()
+src=(r/'research_round7_numeric_worker.py').read_text().replace("D=R/'numeric_programs_v1'","D=R/'numeric_programs_v2'").replace("research_round7_numeric_programs.cpp","research_round7_numeric_programs_v2.cpp")
+(r/'research_round7_numeric_worker_v2.py').write_text(src);log=(r/'numeric_programs_v2_controller.log').open('x');p=subprocess.Popen(['python',str(r/'research_round7_numeric_worker_v2.py')],stdout=log,stderr=subprocess.STDOUT,start_new_session=True);print(json.dumps({'numeric_v2_pid':p.pid,'v1_failure_preserved':True,'repair':'array/vector compile mismatch and bounded integer overflow handling'}))

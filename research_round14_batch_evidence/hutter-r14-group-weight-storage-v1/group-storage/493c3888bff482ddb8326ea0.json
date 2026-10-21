@@ -1,0 +1,147 @@
+{
+  "partition": "layer",
+  "key": "block_10",
+  "names": [
+    "blocks.10.attention.beta_projection.weight",
+    "blocks.10.attention.dt_bias",
+    "blocks.10.attention.forget_gate_projection.down.weight.codebook",
+    "blocks.10.attention.forget_gate_projection.down.weight.q",
+    "blocks.10.attention.forget_gate_projection.down.weight.scale",
+    "blocks.10.attention.forget_gate_projection.up.weight.codebook",
+    "blocks.10.attention.forget_gate_projection.up.weight.q",
+    "blocks.10.attention.forget_gate_projection.up.weight.scale",
+    "blocks.10.attention.key_convolution.weight",
+    "blocks.10.attention.key_projection.weight.codebook",
+    "blocks.10.attention.key_projection.weight.q",
+    "blocks.10.attention.key_projection.weight.scale",
+    "blocks.10.attention.log_baseline_decay_rate",
+    "blocks.10.attention.output_fused_norm_gate.weight",
+    "blocks.10.attention.output_gate_projection.down.weight.codebook",
+    "blocks.10.attention.output_gate_projection.down.weight.q",
+    "blocks.10.attention.output_gate_projection.down.weight.scale",
+    "blocks.10.attention.output_gate_projection.up.weight.codebook",
+    "blocks.10.attention.output_gate_projection.up.weight.q",
+    "blocks.10.attention.output_gate_projection.up.weight.scale",
+    "blocks.10.attention.output_projection.weight.codebook",
+    "blocks.10.attention.output_projection.weight.q",
+    "blocks.10.attention.output_projection.weight.scale",
+    "blocks.10.attention.query_convolution.weight",
+    "blocks.10.attention.query_projection.weight.codebook",
+    "blocks.10.attention.query_projection.weight.q",
+    "blocks.10.attention.query_projection.weight.scale",
+    "blocks.10.attention.value_convolution.weight",
+    "blocks.10.attention.value_projection.weight.codebook",
+    "blocks.10.attention.value_projection.weight.q",
+    "blocks.10.attention.value_projection.weight.scale",
+    "blocks.10.mlp.down.weight.codebook",
+    "blocks.10.mlp.down.weight.q",
+    "blocks.10.mlp.down.weight.scale",
+    "blocks.10.mlp.up.weight.codebook",
+    "blocks.10.mlp.up.weight.q",
+    "blocks.10.mlp.up.weight.scale",
+    "blocks.10.residual_stream_coefficient.value",
+    "blocks.10.token_embedding_coefficient.value"
+  ],
+  "label": "493c3888bff482ddb8326ea0",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 285630
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 266470
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 271689
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 284267
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 266396
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 270139
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 285618
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 266013
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 271692
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 251518
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 252274
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 252503
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 285763
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 266065
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 272126
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 296179
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 275173
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 280077
+    }
+  ],
+  "selected": [
+    251518,
+    "nibble",
+    "gzip"
+  ],
+  "archive_sha256": "fff86c793f671061afc614ecb2a75a844c6a216ed1cf674eb4241fee4bdc0304",
+  "CPU_lane": 3,
+  "CPU_seconds": 1.8614249999999999,
+  "wall_seconds": 1.8787743499999863
+}

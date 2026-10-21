@@ -1,0 +1,16 @@
+# Descendant of the canonical cluster screen: native-offset online residual
+
+Registered6October2026, after the fixed KT cluster diagnostic lost. Reuse canonical A/B512KiB native final probabilities; freeze choices before any C/D candidate calculation. No core training, external word graph, native export rerun or paid compute. This is a new finite experiment, not a redefinition of the completed KT result.
+
+For a prefix-known context Z maintain beta_Z and accumulated curvature H_Z. Start beta=0,H=lambda. Predict q=Q16(sigmoid(logit(p_native)+beta_Z)); after decoding y update H+=q_ideal*(1-q_ideal), beta=clip(beta+eta*(y-q_ideal)/H,-1,1). This is a declared online Newton-style algorithm; it is not the exact optimum over every past offset-logit loss. The ordinary unweighted target remains the native final bit. Its zero state must reproduce all65,535native integer probabilities exactly.
+
+Register lambda in {1,16,256}, eta in {.25,1,4}:nine policies for three feature families. Generic uses current byte bit position and native p1 bucket (256contexts). Actual uses those plus previous completed atom role and current known atom byte depth (3840contexts), as in the atlas. A same-capacity null uses the role of a fixed bijective permutation of the previous completed dictionary atom's code rank; literal/control roles are held fixed; it cannot use the unknown current word. The permutation is vocab-cardinality matched, not a claim of identical stream role frequencies. Cases of literals/escape/sync are explicitly coded and included. All biases update after the target. A selector among28(identity+27) policies costs5bits if chosen offline.
+
+Also register a global Bayesian mixture with half prior on identity and the rest uniformly over27policies. Keep **log weights**, normalized stably before each query. Updates use each component's actual integer prediction likelihood after decoding. Report its ideal mixture loss, Q16 tax and an independent final batch-normalizer identity. This preserves the complete component likelihood law, rather than incorrectly updating with an unquantized component while predicting its quantized value.
+
+The control/math tests are: all-integer identity; independent no-hidden constant role/toy update; vocabulary permutation bijection; target used only after query; stable global batch-normalizer/regret; every raw bit included; a future raw substitution leaves earlier predictions unchanged. Report all27policies and their generic/null comparisons. One production actual bank is3840*16=61,440nominal bytes before alignment, parser, code and counters; replaying all policies is research memory, not incremental production RAM. Production must disable the WRT parser for arbitrary side/tail data with legal framing.
+
+Preliminary advancement requires at least64A/B bytes after the five-bit variant selector, before loader/code. Conditional C/D uses the frozen A/B policy; no refit. Final promotion still requires an external-only native arithmetic implementation, exact independent decode, complete package and measured whole CPU/RAM. This gate is a finite screening rule, not a global amortization bound.
+
+Cumulative component and mixture losses use compensated summation; the independent batch check uses the component integer-likelihood laws. This numerical choice changes no policy or target.
+

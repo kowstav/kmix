@@ -1,0 +1,348 @@
+{
+  "status": "COMPLETE_RARITY_CENSUS_DIAGNOSTIC",
+  "pid": 1192,
+  "session": 355735431,
+  "started": "2026-10-06T13:10:07.641102+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "scope": "complete XML text pages, ASCII casefold lexical diagnostic; not all coded outcomes",
+  "stage": "complete frequency census; no inference gate or training claim",
+  "complete_pages_so_far": 240000,
+  "tokens_so_far": 126011146,
+  "finished": "2026-10-06T13:17:43.388570+00:00",
+  "original": {
+    "member": "enwik9",
+    "original_bytes": 1000000000,
+    "original_sha256": "159b85351e5f76e60cbe32e04c677847a9ecba3adc79addab6f4c6c7aa3744bc",
+    "complete_pages": 243425,
+    "incomplete_terminal_page_bytes": 9743
+  },
+  "total_tokens": 127049170,
+  "unique_types": 1208329,
+  "nonempty_pages": 243418,
+  "word_article_pairs": 48465260,
+  "corpus_thresholds": {
+    "2": {
+      "rule": "count < cutoff",
+      "removed_types": 612960,
+      "removed_occurrences": 612960,
+      "removed_occurrence_fraction": 0.004824588779289153
+    },
+    "4": {
+      "rule": "count < cutoff",
+      "removed_types": 873873,
+      "removed_occurrences": 1215237,
+      "removed_occurrence_fraction": 0.009565092003355867
+    },
+    "8": {
+      "rule": "count < cutoff",
+      "removed_types": 1000897,
+      "removed_occurrences": 1862468,
+      "removed_occurrence_fraction": 0.014659426740056625
+    },
+    "16": {
+      "rule": "count < cutoff",
+      "removed_types": 1073614,
+      "removed_occurrences": 2642181,
+      "removed_occurrence_fraction": 0.02079652310991091
+    },
+    "32": {
+      "rule": "count < cutoff",
+      "removed_types": 1119194,
+      "removed_occurrences": 3647216,
+      "removed_occurrence_fraction": 0.02870712181748216
+    },
+    "64": {
+      "rule": "count < cutoff",
+      "removed_types": 1149792,
+      "removed_occurrences": 5013163,
+      "removed_occurrence_fraction": 0.03945844746565444
+    },
+    "128": {
+      "rule": "count < cutoff",
+      "removed_types": 1170284,
+      "removed_occurrences": 6848940,
+      "removed_occurrence_fraction": 0.053907790188633266
+    },
+    "256": {
+      "rule": "count < cutoff",
+      "removed_types": 1184005,
+      "removed_occurrences": 9309018,
+      "removed_occurrence_fraction": 0.07327098634331888
+    },
+    "1024": {
+      "rule": "count < cutoff",
+      "removed_types": 1199020,
+      "removed_occurrences": 16856776,
+      "removed_occurrence_fraction": 0.13267915091456323
+    },
+    "1e-06": {
+      "rule": "corpus fraction < cutoff",
+      "removed_types": 1170284,
+      "removed_occurrences": 6848940,
+      "removed_occurrence_fraction": 0.053907790188633266
+    },
+    "1e-05": {
+      "rule": "corpus fraction < cutoff",
+      "removed_types": 1200340,
+      "removed_occurrences": 18359359,
+      "removed_occurrence_fraction": 0.1445059341985469
+    },
+    "0.0001": {
+      "rule": "corpus fraction < cutoff",
+      "removed_types": 1207236,
+      "removed_occurrences": 43797321,
+      "removed_occurrence_fraction": 0.3447273287971893
+    }
+  },
+  "article_thresholds": {
+    "2": {
+      "removed_occurrences": 31493403,
+      "removed_word_article_pairs": 31493403,
+      "empty_retained_articles": 74472,
+      "removed_occurrence_fraction": 0.2478835792473103,
+      "rule": "article count < cutoff"
+    },
+    "4": {
+      "removed_occurrences": 56089789,
+      "removed_word_article_pairs": 42290401,
+      "empty_retained_articles": 85381,
+      "removed_occurrence_fraction": 0.44148095575909707,
+      "rule": "article count < cutoff"
+    },
+    "8": {
+      "removed_occurrences": 74843673,
+      "removed_word_article_pairs": 46070019,
+      "empty_retained_articles": 100815,
+      "removed_occurrence_fraction": 0.5890921837584614,
+      "rule": "article count < cutoff"
+    },
+    "0.001": {
+      "removed_occurrences": 26597784,
+      "removed_word_article_pairs": 20575324,
+      "empty_retained_articles": 0,
+      "removed_occurrence_fraction": 0.20935031688912253,
+      "rule": "article fraction < cutoff"
+    },
+    "0.005": {
+      "removed_occurrences": 66963789,
+      "removed_word_article_pairs": 40525052,
+      "empty_retained_articles": 1,
+      "removed_occurrence_fraction": 0.5270698659424536,
+      "rule": "article fraction < cutoff"
+    },
+    "0.01": {
+      "removed_occurrences": 83079836,
+      "removed_word_article_pairs": 44752272,
+      "empty_retained_articles": 12,
+      "removed_occurrence_fraction": 0.6539187623185575,
+      "rule": "article fraction < cutoff"
+    },
+    "0.02": {
+      "removed_occurrences": 97248322,
+      "removed_word_article_pairs": 46722144,
+      "empty_retained_articles": 66,
+      "removed_occurrence_fraction": 0.7654384676420948,
+      "rule": "article fraction < cutoff"
+    }
+  },
+  "proposed_retention_cutoffs": [
+    {
+      "requested_retained_fraction": 0.7,
+      "count": 8372,
+      "types": 1,
+      "occurrences": 8372,
+      "retained_fraction_if_mask_count_below_this": 0.7000010547097631
+    },
+    {
+      "requested_retained_fraction": 0.85,
+      "count": 1392,
+      "types": 5,
+      "occurrences": 6960,
+      "retained_fraction_if_mask_count_below_this": 0.850025482260136
+    },
+    {
+      "requested_retained_fraction": 0.95,
+      "count": 107,
+      "types": 277,
+      "occurrences": 29639,
+      "retained_fraction_if_mask_count_below_this": 0.9501818311760715
+    }
+  ],
+  "top_words": [
+    {
+      "word": "the",
+      "count": 7777382,
+      "fraction": 0.06121552781493968
+    },
+    {
+      "word": "of",
+      "count": 4826920,
+      "fraction": 0.03799253470132863
+    },
+    {
+      "word": "and",
+      "count": 3048016,
+      "fraction": 0.02399083756312615
+    },
+    {
+      "word": "in",
+      "count": 2622948,
+      "fraction": 0.020645140775024346
+    },
+    {
+      "word": "a",
+      "count": 2359090,
+      "fraction": 0.01856832279974753
+    },
+    {
+      "word": "to",
+      "count": 2105892,
+      "fraction": 0.016575409347420373
+    },
+    {
+      "word": "is",
+      "count": 1635579,
+      "fraction": 0.01287359059488543
+    },
+    {
+      "word": "for",
+      "count": 989460,
+      "fraction": 0.007788008375025197
+    },
+    {
+      "word": "as",
+      "count": 859588,
+      "fraction": 0.006765789969348088
+    },
+    {
+      "word": "are",
+      "count": 854954,
+      "fraction": 0.0067293159018669705
+    },
+    {
+      "word": "s",
+      "count": 841101,
+      "fraction": 0.006620279376874323
+    },
+    {
+      "word": "was",
+      "count": 816835,
+      "fraction": 0.006429282458122316
+    },
+    {
+      "word": "with",
+      "count": 722262,
+      "fraction": 0.005684901365353272
+    },
+    {
+      "word": "by",
+      "count": 722251,
+      "fraction": 0.005684814784701073
+    },
+    {
+      "word": "from",
+      "count": 660615,
+      "fraction": 0.005199679777522356
+    },
+    {
+      "word": "on",
+      "count": 629335,
+      "fraction": 0.00495347588654062
+    },
+    {
+      "word": "that",
+      "count": 614666,
+      "fraction": 0.0048380166513484505
+    },
+    {
+      "word": "it",
+      "count": 549509,
+      "fraction": 0.004325167964497525
+    },
+    {
+      "word": "or",
+      "count": 534276,
+      "fraction": 0.004205269503138037
+    },
+    {
+      "word": "at",
+      "count": 445611,
+      "fraction": 0.003507390091568485
+    },
+    {
+      "word": "sup",
+      "count": 427130,
+      "fraction": 0.0033619267249050113
+    },
+    {
+      "word": "census",
+      "count": 425417,
+      "fraction": 0.003348443756067041
+    },
+    {
+      "word": "his",
+      "count": 414734,
+      "fraction": 0.003264358200844602
+    },
+    {
+      "word": "http",
+      "count": 413301,
+      "fraction": 0.0032530791031535273
+    },
+    {
+      "word": "category",
+      "count": 411207,
+      "fraction": 0.0032365972953621027
+    },
+    {
+      "word": "an",
+      "count": 411017,
+      "fraction": 0.003235101811369567
+    },
+    {
+      "word": "he",
+      "count": 407951,
+      "fraction": 0.0032109694223110626
+    },
+    {
+      "word": "u",
+      "count": 389968,
+      "fraction": 0.00306942579790171
+    },
+    {
+      "word": "have",
+      "count": 362396,
+      "fraction": 0.002852407457679574
+    },
+    {
+      "word": "which",
+      "count": 357281,
+      "fraction": 0.002812147454406825
+    }
+  ],
+  "frequency_file": {
+    "remote": "/kaggle/working/hp_round8/rarity_census_v1/word_article_frequencies.tsv.gz",
+    "bytes": 19981248,
+    "sha256": "a0e69465241c0bc8ac1cb255219b5f2ba76d957c6e1df8d1a0cc07ed00527f2a"
+  },
+  "source_hashes": [
+    {
+      "file": "research_round8_rarity_census_worker.py",
+      "sha256": "36d11fdb22bc2484e7eae35899ab33af881a02a442a53dc27f1f8982890cb3c3"
+    },
+    {
+      "file": "research_round8_rarity_mask_protocol.md",
+      "sha256": "544e5fcf7122f6b16c9fd1ddc7d9fd7c7794ab177e5a511e8744a047d29088b2"
+    }
+  ],
+  "accounting": {
+    "wall_seconds": 455.99441658900014,
+    "user_seconds": 453.950083,
+    "system_seconds": 0.87313,
+    "max_rss_kbytes": 760008
+  },
+  "training_evaluated": false,
+  "coded_bits_evaluated": false
+}

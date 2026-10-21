@@ -1,0 +1,144 @@
+{
+  "status": "COMPLETE_WIDER_SOURCE_FINITE_BOX",
+  "session": 355735431,
+  "pid": 1306,
+  "started": "2026-10-06T14:06:19.917819+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "new_confirmation_evaluated": false,
+  "narrow_fit_manifest_sha256": "d1a2b68eadf9753bad96ebe9f4eaea0f27524e8f3f688d9914b34e58d1135b64",
+  "source_hashes": [
+    {
+      "file": "research_round8_source_wide_box_worker.py",
+      "sha256": "3ef16fe29926504c56e3de17818f0b259520fbe56392b143a168095bb1550171"
+    },
+    {
+      "file": "research_round8_source_wide_box_protocol.md",
+      "sha256": "269df8f215d01c10c0a63adfc62a0c7db67111b4208e18222a685b7c43266816"
+    }
+  ],
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "feature_provenance": [
+    {
+      "slice": "a",
+      "native_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447",
+      "hidden_sha256": "0a7f4ad64af9f98b4e1275d63f2e6807a11d25ee0c8f153f8ae9ef77b0b1cf17",
+      "stage_sha256": "88f311c7dd843854b984bc645050c5ba306a8fc6abd1bcc6251df3df8b86980c",
+      "original_feature_sha256": "4fe20af3020d2edf3fbebc9cfd8a2be826db0c4533c534db667e87268fec58f5"
+    },
+    {
+      "slice": "b",
+      "native_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23",
+      "hidden_sha256": "a4d0415ab436c7725223083cd964b236549e1cdc04d800dff018baf00ca55aaf",
+      "stage_sha256": "cbfd805f961009352900da50fc7d6a42ccd670b207cee749b429d923b23815d9",
+      "original_feature_sha256": "eb92723242f3d3be1743e0d8561b4350d8e4a5e49d6d92b4bb8410ca9e3ea543"
+    }
+  ],
+  "stage": "wider finite optimum and Q16 scored; new E/F remains untouched",
+  "active_upper_bound_source_gradient_nats": -329.14101819887225,
+  "narrow_gradient": [
+    7.017751713078724e-09,
+    -1.00201127395394e-07,
+    -329.14101819887225
+  ],
+  "narrow_Hessian": [
+    [
+      272210.40562522784,
+      -2598.941054022172,
+      -26.997774014521283
+    ],
+    [
+      -2598.9410540221725,
+      758406.1044833949,
+      -462.40792228251513
+    ],
+    [
+      -26.997774014521312,
+      -462.40792228251513,
+      265.7677937672357
+    ]
+  ],
+  "coefficients": [
+    0.0016181118716570748,
+    -0.007454085408717222,
+    2.3818512619982752
+  ],
+  "bounds": {
+    "lower": [
+      -1.0,
+      -1.0,
+      -12.0
+    ],
+    "upper": [
+      1.0,
+      1.0,
+      12.0
+    ]
+  },
+  "certificate_bytes": 0.0001696899428606428,
+  "ideal_box_optimum_certified": true,
+  "history": [
+    {
+      "iteration": 0,
+      "gap_bytes": 652.9189077439012,
+      "coefficients": [
+        0.0015585303798630623,
+        -0.008865910048333772,
+        1.0
+      ]
+    },
+    {
+      "iteration": 1,
+      "gap_bytes": 120.04861672760701,
+      "coefficients": [
+        0.001688713093924724,
+        -0.008109555881633724,
+        2.239782564811272
+      ]
+    },
+    {
+      "iteration": 2,
+      "gap_bytes": 1.416930646152131,
+      "coefficients": [
+        0.0016189943293188336,
+        -0.00746218719341601,
+        2.380317097559391
+      ]
+    },
+    {
+      "iteration": 3,
+      "gap_bytes": 0.0001696899428606428,
+      "coefficients": [
+        0.0016181118716570748,
+        -0.007454085408717222,
+        2.3818512619982752
+      ]
+    }
+  ],
+  "ideal_increment_over_narrow_bytes": 39.540975066809246,
+  "evaluations": [
+    {
+      "slice": "a",
+      "Q16_saving_bytes": 48.20653537376001,
+      "ideal_saving_bytes": 48.17487150747809,
+      "prediction_sha256": "71a9e16915adcf77b65f84c209fda09c7253512253c01e67b00a3207221d3d1a",
+      "old_feature_and_Q16_identity": true
+    },
+    {
+      "slice": "b",
+      "Q16_saving_bytes": 82.27181533758426,
+      "ideal_saving_bytes": 81.79958260105789,
+      "prediction_sha256": "d8fdbb1eb2489217ad7bbb3417a38f5d22f41da68014f11f772f5ea3690e9a53",
+      "old_feature_and_Q16_identity": true
+    }
+  ],
+  "development_Q16_saving_bytes": 130.47835071134426,
+  "development_after_two_coefficient_copies_and_6bit_selector_bytes": 81.72835071134426,
+  "advance_gate_pass": true,
+  "fit_wall_seconds": 5.675754081999912,
+  "finished": "2026-10-06T14:06:29.000319+00:00"
+}

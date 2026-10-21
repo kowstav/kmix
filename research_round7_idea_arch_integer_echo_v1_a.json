@@ -1,0 +1,602 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 187363.08676118907,
+  "unscored_prefix_bytes": 43,
+  "dictionary_atoms": 296315,
+  "score": {
+    "events": 1737271,
+    "baseline_suffix_bits": 1498600.0942464874,
+    "prequential_saving_bytes": -2.4966186484338615,
+    "context_count": 20,
+    "model_count": 50,
+    "unpaid_best_model_per_event_oracle_bytes": 2946.1710089814746,
+    "fixed_models": [
+      {
+        "family": "neutral",
+        "alpha": 0.0,
+        "saving_bytes": 0.0
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.001,
+        "saving_bytes": -276.23283672498985
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.003,
+        "saving_bytes": -862.1506965893883
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.01,
+        "saving_bytes": -2973.86777940221
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.03,
+        "saving_bytes": -9190.135990550682
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.1,
+        "saving_bytes": -32246.434813450705
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.3,
+        "saving_bytes": -110080.29693041356
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.7,
+        "saving_bytes": -373005.6612091958
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.001,
+        "saving_bytes": -280.6530249208645
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.003,
+        "saving_bytes": -870.7074053753533
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.01,
+        "saving_bytes": -2983.65362831881
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.03,
+        "saving_bytes": -9180.250563878752
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.1,
+        "saving_bytes": -32121.068492337174
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.3,
+        "saving_bytes": -109477.27779125335
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.7,
+        "saving_bytes": -369990.56419583777
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -278.3014769060407
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -864.220406658874
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2969.9832816052785
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -9162.013846054864
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -32124.664489072646
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -109635.86480778258
+      },
+      {
+        "family": "exact_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -371102.479168889
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -279.88452597031016
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -870.4733366431019
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2991.686242582917
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -9224.244528538124
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -32317.063720470185
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -110229.9119927399
+      },
+      {
+        "family": "prefix_suffix_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -373363.2893407985
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -277.344535587063
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -865.5741522355054
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2983.374408806475
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -9212.183250582166
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -32299.22287414733
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -110201.3340531199
+      },
+      {
+        "family": "deletion_signature_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -373308.7230412584
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -281.94150729604024
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -873.6132528709086
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2998.4119028839164
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -9239.879910412583
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -32357.600642319867
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -110331.7250038529
+      },
+      {
+        "family": "letter_moment_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -373648.47590387444
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -283.42752653786664
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -876.8438072079579
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -3005.2233139878867
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -9252.253962690807
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -32379.71945327527
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -110367.65481087653
+      },
+      {
+        "family": "matched_random_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -373699.51516746095
+      }
+    ]
+  },
+  "by_class": {
+    "literal_syntax_or_case": {
+      "events": 1437800,
+      "baseline_bits": 698907.7402598758,
+      "saving_bytes": -2.419068912427221
+    },
+    "first_in_slice": {
+      "events": 9992,
+      "baseline_bits": 127900.78444489837,
+      "saving_bytes": 0.2581522234593856
+    },
+    "article_repeat": {
+      "events": 123468,
+      "baseline_bits": 124458.80519564572,
+      "saving_bytes": -0.013287140651173757
+    },
+    "known_first_in_article": {
+      "events": 162855,
+      "baseline_bits": 540033.0075077253,
+      "saving_bytes": -0.3210138148155568
+    },
+    "literal_escape": {
+      "events": 3156,
+      "baseline_bits": 7299.756838342175,
+      "saving_bytes": -0.001401003999295991
+    }
+  },
+  "graph": {
+    "dictionary_words": 44515,
+    "K": 8,
+    "posting_cap": 64,
+    "candidate_cap": 128,
+    "capped_source_words": 44317,
+    "startup_seconds": 94.44620255099971,
+    "feature_array_bytes": 13888680,
+    "graph_edges": 1144228,
+    "examples": {
+      "no": {
+        "prefix_suffix": [
+          "not",
+          "now",
+          "nor",
+          "non",
+          "note",
+          "nova",
+          "none",
+          "noun"
+        ],
+        "deletion_signature": [
+          "so",
+          "or",
+          "to",
+          "in",
+          "on",
+          "of",
+          "an",
+          "do"
+        ],
+        "integer_letter_moment": [
+          "noon",
+          "mono",
+          "monsoon",
+          "pontoon",
+          "crono",
+          "anno",
+          "soon",
+          "moon"
+        ],
+        "matched_random": [
+          "fuzes",
+          "macs",
+          "sleeves",
+          "scorupco",
+          "tipler",
+          "ccny",
+          "later",
+          "input"
+        ]
+      },
+      "know": {
+        "prefix_suffix": [
+          "known",
+          "knows",
+          "now",
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "kernow"
+        ],
+        "deletion_signature": [
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "known",
+          "now",
+          "knows"
+        ],
+        "integer_letter_moment": [
+          "now",
+          "kernow",
+          "known",
+          "snow",
+          "brownlow",
+          "downtown",
+          "yorktown",
+          "showdown"
+        ],
+        "matched_random": [
+          "well",
+          "logone",
+          "shows",
+          "codes",
+          "samhain",
+          "babylon",
+          "panavia",
+          "clippers"
+        ]
+      },
+      "now": {
+        "prefix_suffix": [
+          "know",
+          "snow",
+          "not",
+          "no",
+          "how",
+          "nor",
+          "row",
+          "non"
+        ],
+        "deletion_signature": [
+          "not",
+          "how",
+          "nor",
+          "own",
+          "new",
+          "row",
+          "non",
+          "low"
+        ],
+        "integer_letter_moment": [
+          "know",
+          "snow",
+          "brownlow",
+          "window",
+          "downtown",
+          "showdown",
+          "slowdown",
+          "own"
+        ],
+        "matched_random": [
+          "ended",
+          "block",
+          "copeland",
+          "fixed",
+          "portugal",
+          "heroics",
+          "applicant",
+          "hold"
+        ]
+      },
+      "diamond": {
+        "prefix_suffix": [
+          "divided",
+          "did",
+          "beyond",
+          "died",
+          "dialect",
+          "demand",
+          "second",
+          "diagram"
+        ],
+        "deletion_signature": [
+          "diamonds"
+        ],
+        "integer_letter_moment": [
+          "edmond",
+          "almond",
+          "monad",
+          "diamonds",
+          "hammond",
+          "redmond",
+          "midland",
+          "abaddon"
+        ],
+        "matched_random": [
+          "ahaziah",
+          "cassava",
+          "monads",
+          "bondage",
+          "bullock",
+          "sampson",
+          "oracle",
+          "restorer"
+        ]
+      },
+      "the": {
+        "prefix_suffix": [
+          "there",
+          "these",
+          "theme",
+          "tithe",
+          "they",
+          "them",
+          "then",
+          "he"
+        ],
+        "deletion_signature": [
+          "she",
+          "ten",
+          "her",
+          "he",
+          "they",
+          "th",
+          "them",
+          "then"
+        ],
+        "integer_letter_moment": [
+          "thee",
+          "tithe",
+          "teeth",
+          "goethe",
+          "he",
+          "three",
+          "berthe",
+          "athlete"
+        ],
+        "matched_random": [
+          "arian",
+          "bitch",
+          "thrust",
+          "kafka",
+          "is",
+          "soft",
+          "niebuhr",
+          "lictors"
+        ]
+      }
+    },
+    "note": "Bounded dictionary-derived neighbors; no exhaustive-search recall claim, corpus-fit edges or geometry input",
+    "variant": "I03b only moment graph and its matched-random control replaced by exhaustive integer Q1024 graph",
+    "integer_graph": {
+      "scope": "Exact integer-defined exhaustive dictionary graph, research construction; not achieved compression or qualifying CPU startup",
+      "dictionary_words": 44515,
+      "dictionary_sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a",
+      "Q": 1024,
+      "K": 8,
+      "blocks": 256,
+      "integer_score_upper_bound": 10485760,
+      "FP32_exact_integer_bound": 16777216,
+      "CPU_GPU_all_scores_equal_on_queries": 133,
+      "CPU_subset_score_seconds": 0.08383450700011963,
+      "mean_recall_at8_vs_original_float_score": 0.9924812030075187,
+      "full_recall_queries_vs_float_score": 125,
+      "examples": {
+        "no": [
+          "noon",
+          "mono",
+          "monsoon",
+          "pontoon",
+          "crono",
+          "anno",
+          "soon",
+          "moon"
+        ],
+        "know": [
+          "now",
+          "kernow",
+          "known",
+          "snow",
+          "brownlow",
+          "downtown",
+          "yorktown",
+          "showdown"
+        ],
+        "now": [
+          "know",
+          "snow",
+          "brownlow",
+          "window",
+          "downtown",
+          "showdown",
+          "slowdown",
+          "own"
+        ],
+        "diamond": [
+          "edmond",
+          "almond",
+          "monad",
+          "diamonds",
+          "hammond",
+          "redmond",
+          "midland",
+          "abaddon"
+        ],
+        "the": [
+          "thee",
+          "tithe",
+          "teeth",
+          "goethe",
+          "he",
+          "three",
+          "berthe",
+          "athlete"
+        ]
+      },
+      "raw_ID_bytes_per_copy": 712240,
+      "raw_score_bytes_per_copy": 1424480,
+      "stored_graph_npz_bytes": 2137224,
+      "scores_can_be_reconstructed_from_dictionary": true,
+      "neural_training": false,
+      "paid_rental_usd": 0,
+      "deletions": [],
+      "wall_seconds": 6.170316622999962,
+      "prototype_peak_rss_kbytes": 978332,
+      "gpu_peak_allocated_bytes": 267063296,
+      "source_sha256": "177b8d7b1cdd7292cf3fcee3cde7f06756b23672571bdeaa101f07d6fc45a3cd",
+      "graph_sha256": "a5463d821016d4361cbfc813e49241facae633e8c06401fc6d13c8483f95fcd9"
+    },
+    "unchanged_prefix_suffix_and_deletion_channels": true
+  },
+  "memory_slots_per_family": 128,
+  "decay_per_dictionary_atom": "127/128",
+  "coverage": [],
+  "trace_sha256": "9d96b65f970a9dcd79901d92d836cf1f734c0d9fcfbd3ff12cf25481178e72f4",
+  "wall_seconds": 309.53918917500005,
+  "prototype_peak_rss_kbytes": 832904,
+  "contract": "Prefix-only additive root expert, all outcomes and EOF prefixes charged; not global P0 tilt, native archive, full package or20% result",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "input_sha256": "e3cf8c63ac7bbc246587bd09729b89abf6bbebc718a1643013cfec57b1892292",
+  "cost_sha256": "f95d1f44ba57bc19bbb348a687d4f89a77ea9edf4b1b7ddf7f920abb2b420444",
+  "source_sha256": "c478da863572d8cf4547adf00486842f0568f320044d194d47c033ef4dadcbc1",
+  "core_scorer_sha256": "eba3af0bbed5cb8a409aadcb2d2a1473b28747a3e516076e9d3fc62482bd3373"
+}

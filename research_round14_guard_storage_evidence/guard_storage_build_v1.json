@@ -1,0 +1,8 @@
+{
+  "status": "FAIL_PRESERVED",
+  "started": 1791546331.8973527,
+  "builds": [],
+  "deletions": [],
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/research_round14_build_packed_guard_worker.py\", line 15, in <module>\n    packed=W/'probability_tables_packed.inc';assert sha(packed)=='6eb41d6bd3c78ffdaa83854e374eb7ef4167e97f27b305c4debbd8308114e059'\n                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

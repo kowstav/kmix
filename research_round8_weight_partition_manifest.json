@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE",
+  "pid": 136,
+  "started": "2026-10-06T06:34:06.579733+00:00",
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_training": false,
+  "input": {
+    "path": "/kaggle/working/hp_round7/lex_audit/lex_unpromoted_raw.bin",
+    "bytes": 39559303,
+    "sha256": "1197485a3460fabdec6f020c9f9188f4d1326ba5fc175914c2927c90f4a8b6fa",
+    "serialized_tensors": 435
+  },
+  "summary": {
+    "numel": 5870484,
+    "entropy_bits": 23242630.01482794,
+    "homogeneous_KT_bits": 23258445.849352345,
+    "best_priced_bits": 23253921.53281385,
+    "partition_gain_over_homogeneous_bits": 6714.316538494364
+  },
+  "int8_tensors": 219,
+  "wall_seconds": 0.43815657599998303,
+  "claim": "DIAGNOSTIC_UNIVERSAL_CODE_COST_NOT_COMPLETE_CONTAINER",
+  "finished": "2026-10-06T06:34:07.017873+00:00"
+}

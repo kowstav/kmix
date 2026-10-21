@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.0.attention.value_convolution.weight",
+  "names": [
+    "blocks.0.attention.value_convolution.weight"
+  ],
+  "label": "39c01bedebb8b203a2a717c7",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 1469
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 1436
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 1436
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 1409
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 1422
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 1469
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 1436
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 1469
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 1436
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 1470
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 1564
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 1441
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 1697
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 1698
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 1684
+    }
+  ],
+  "selected": [
+    1409,
+    "planes",
+    "lzma"
+  ],
+  "archive_sha256": "fad2dab471f213cb1a96149090ab8df0c2026c989bc18d39a2077556a3aef2bf",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.016526000000000617,
+  "wall_seconds": 0.018306245000019317
+}

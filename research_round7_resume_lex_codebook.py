@@ -1,0 +1,11 @@
+import pathlib,subprocess,json
+out=pathlib.Path('/kaggle/working/hp_round7')
+assert 'native compress failed' in (out/'lex_native_v2_controller.log').read_text()
+assert not (out/'lex_native_v3_controller.log').exists()
+source=(out/'lex_native_v2_controller.py').read_text()
+source=source.replace("out/'lex_native_v2'","out/'lex_native_v3'").replace("'/root/hp/lex_native_v2'","'/root/hp/lex_native_v3'")
+source=source.replace("subprocess.run(['apt-get','install','-y','--no-install-recommends','time'],check=True,timeout=300)","subprocess.run(['python','-u',str(out/'research_round7_lex_codebook_build_worker.py')],check=True)")
+source=source.replace("binary=out/'cmix_round7_lex_roundtrip'","binary=out/'cmix_round7_lex_codebook'")
+script=out/'lex_native_v3_controller.py';script.write_text(source)
+with (out/'lex_native_v3_controller.log').open('w') as f:p=subprocess.Popen(['python','-u',str(script)],stdout=f,stderr=subprocess.STDOUT,start_new_session=True)
+print(json.dumps({'lex_codebook_controller_pid':p.pid,'correct_macros':'QMAT_CODEBOOK=1 QMAT_WMAX=21 QMAT_SMALL_W8=1 TF_ACTQ_DYN=1 TF_AVX512=1','maximum_native_instances':2,'failed_configuration_preserved':True}))

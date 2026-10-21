@@ -1,0 +1,191 @@
+{
+  "status": "COMPLETE_NATIVE_INLINE_WIDE_COLD_CODING_DECODE",
+  "session": 355735431,
+  "pid": 1329,
+  "started": "2026-10-06T14:33:04.340297+00:00",
+  "core_retraining": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "controls": [
+    {
+      "slice": "a",
+      "input_bytes": 32768,
+      "archive_bytes": 3117,
+      "archive_sha256": "7936c453115c6ceb308e0ddc11bdf5d6682c3d8cc04f7859d7e2d1be3a082001",
+      "candidate_p_sha256": "3fd7ec0439f489dba3c9f7bd70f31ca7a900c43749e06968a8f1105ca8e73863",
+      "candidate_hidden_sha256": "01b746a1e54cfd0d1cd1a2dab1278b601617d22809da8a4420cb3aaf7acae626",
+      "encode_accounting": {
+        "wall_seconds": 64.42272347499966,
+        "user_seconds": 58.653593,
+        "system_seconds": 5.757076,
+        "max_rss_kbytes": 5651288,
+        "returncode": 0
+      },
+      "input_sha256": "4a474688691a1688db8e6e4f93e1bb1b627109632c98e64d08e1ec64db71dd4c",
+      "native_archive_identity": true,
+      "native_Q16_identity": true,
+      "independent_decode_exact": true,
+      "encode_decode_integer_trace_identical": true,
+      "encode_decode_hidden_trace_identical": true,
+      "decode_accounting": {
+        "wall_seconds": 63.97508527500031,
+        "user_seconds": 58.305688,
+        "system_seconds": 5.657096,
+        "max_rss_kbytes": 5651096,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "b",
+      "input_bytes": 32768,
+      "archive_bytes": 8856,
+      "archive_sha256": "87343f487d2baf853d72d9bddcc4583411fbb1f952c6f344b4197907bb30187f",
+      "candidate_p_sha256": "08d7806581651eb3e8997ee8b2fc068b9b5f4efb7d1e4dbbf631583bc2166f79",
+      "candidate_hidden_sha256": "f891f4b5aa7ed4271a220a9c00d55b06af8251c32293ffdf6fbee831e05473fc",
+      "encode_accounting": {
+        "wall_seconds": 66.51210365599945,
+        "user_seconds": 60.629292,
+        "system_seconds": 5.870156,
+        "max_rss_kbytes": 5801012,
+        "returncode": 0
+      },
+      "input_sha256": "5c9faaea965e148e094a6193c89a995eff72fa1d4438b62dd5c618d8b8679848",
+      "native_archive_identity": true,
+      "native_Q16_identity": true,
+      "independent_decode_exact": true,
+      "encode_decode_integer_trace_identical": true,
+      "encode_decode_hidden_trace_identical": true,
+      "decode_accounting": {
+        "wall_seconds": 65.19798892299877,
+        "user_seconds": 59.344816,
+        "system_seconds": 5.837998,
+        "max_rss_kbytes": 5800656,
+        "returncode": 0
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "slice": "e",
+      "input_bytes": 524288,
+      "archive_bytes": 107503,
+      "archive_sha256": "5683f0b0f265644cef767e0c51b58a9f966ca7360b6f3dc3898b998f90e3b292",
+      "candidate_p_sha256": "ff4d85dce60ca5e4f9ebd15789efb6b0a740fe3276a6ca2b97d9c9ecf0745ef7",
+      "candidate_hidden_sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "encode_accounting": {
+        "wall_seconds": 320.22808376600005,
+        "user_seconds": 313.301701,
+        "system_seconds": 6.776284,
+        "max_rss_kbytes": 6002420,
+        "returncode": 0
+      },
+      "input_sha256": "891954b722e0af0a027ff32e057b511ab47a60550f27af87d523ceeb16a7cd55",
+      "exact_frozen_replay_Q16_identity": true,
+      "core_hidden_state_identity": true,
+      "native_reference_archive_bytes": 107613,
+      "actual_archive_saving_bytes": 110,
+      "expected_Q16_likelihood_saving_bytes": 109.92671277106274,
+      "independent_decode_exact": true,
+      "encode_decode_integer_trace_identical": true,
+      "encode_decode_hidden_trace_identical": true,
+      "decode_accounting": {
+        "wall_seconds": 311.2948401369995,
+        "user_seconds": 304.470897,
+        "system_seconds": 6.764842,
+        "max_rss_kbytes": 6001612,
+        "returncode": 0
+      }
+    },
+    {
+      "slice": "f",
+      "input_bytes": 524288,
+      "archive_bytes": 77691,
+      "archive_sha256": "423614d00b5398504ba7c33e4fe0d1212ce40f35dc8f000f7fba6606e379eb2c",
+      "candidate_p_sha256": "7c9ba2763d9ad9e86d68f30d91e5fa9bc93c623fecb526b11a69cdd87d35b449",
+      "candidate_hidden_sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "encode_accounting": {
+        "wall_seconds": 306.85854275199927,
+        "user_seconds": 300.022257,
+        "system_seconds": 6.7819199999999995,
+        "max_rss_kbytes": 5999692,
+        "returncode": 0
+      },
+      "input_sha256": "2bfce9258f2950c3e9edfa1d4a60974a5eae565e7159e477bf5ef2376796a454",
+      "exact_frozen_replay_Q16_identity": true,
+      "core_hidden_state_identity": true,
+      "native_reference_archive_bytes": 77735,
+      "actual_archive_saving_bytes": 44,
+      "expected_Q16_likelihood_saving_bytes": 43.910941531581166,
+      "independent_decode_exact": true,
+      "encode_decode_integer_trace_identical": true,
+      "encode_decode_hidden_trace_identical": true,
+      "decode_accounting": {
+        "wall_seconds": 301.06960403999983,
+        "user_seconds": 294.388107,
+        "system_seconds": 6.624832,
+        "max_rss_kbytes": 5998996,
+        "returncode": 0
+      }
+    }
+  ],
+  "scope": "actual frozen wider inline source coding and independent decode on cold E/F; full package qualification open",
+  "full_qualifying_archive": false,
+  "free_disk_bytes_before": 1546272768,
+  "frozen_coefficients": [
+    0.0016181118716570748,
+    -0.007454085408717222,
+    2.3818512619982752
+  ],
+  "parent_manifest_sha256": "27f78f86597871d1563bc6eb559abcc8efa1b806dd78504968c04ca53901d0d1",
+  "confirmation_manifest_sha256": "b3bde2e5bc09da0798bc58cc854eb8bbe2e610ba4041d9a8d0c5efb70ac3d5a7",
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "parent_interfaces_sha256": {
+    "src/predictor.h": "d1d27a0935f7f731687ce31760c3acdcd9c012f6f944159b3df1580152aec352",
+    "src/predictor.cpp": "578ad6e8a00c900487b91b9fb84a6ad5dfc67cfbc93882398e99089c0b87f429",
+    "src/coder/encoder.cpp": "6d4e89810c9ababc081d97b97cb862cd9194d1b9b2a9fea727b5300bd7d00e17",
+    "src/coder/decoder.cpp": "8099b27bd93d74e73cf2acc90b89ae6726ae1d8be53ebe3739db4803a6c2962b"
+  },
+  "patched_interfaces_sha256": {
+    "src/predictor.h": "d1d27a0935f7f731687ce31760c3acdcd9c012f6f944159b3df1580152aec352",
+    "src/predictor.cpp": "016b3317c81497baaec90e94a95b4b25e777544632720efefe721c52298948fd",
+    "src/coder/encoder.cpp": "6d4e89810c9ababc081d97b97cb862cd9194d1b9b2a9fea727b5300bd7d00e17",
+    "src/coder/decoder.cpp": "8099b27bd93d74e73cf2acc90b89ae6726ae1d8be53ebe3739db4803a6c2962b"
+  },
+  "source_hashes": [
+    {
+      "file": "research_round8_native_inline_wide_worker.py",
+      "sha256": "04f6b23d3100384cc0c1cf0185f46b4dbff04c4afd74097ac0fc925f446a858f"
+    },
+    {
+      "file": "research_round8_native_inline_wide_protocol.md",
+      "sha256": "37aa5f2aa74d9079f10f008ba1486829ccf749dd98b279526292f8433f34aced"
+    }
+  ],
+  "stage": "actual wider cold archives and independent decodes complete; full package qualification open",
+  "compiler": "Ubuntu clang version 17.0.6 (++20231209124227+6009708b4367-1~exp1~20231209124336.77)",
+  "classical_flags": "-DSEED=923 -DUPDATE_LIMIT=3000 -DPPMD_MEM_MB=3500 -DCMIX_L0_LR_SCALE=0.6 -DCMIX_L1_LR_SCALE=0.25 -DCMIX_L0_MIXER_MASK=0x42e72du -DFXCM_CM_DIV=2",
+  "transformer_flags": "-DQMAT_CODEBOOK=1 -DQMAT_WMAX=21 -DQMAT_SMALL_W8=1 -DTF_ACTQ_DYN=1 -DTF_AVX512=1",
+  "compile_accounting": {
+    "wall_seconds": 20.266729053000745,
+    "user_seconds": 36.548594,
+    "system_seconds": 2.085666,
+    "max_rss_kbytes": 177280,
+    "returncode": 0
+  },
+  "binary": {
+    "bytes": 497888,
+    "sha256": "1c8ccbca3646aa8bb5579f21db9d43cb3fb90c56c9777ad3f049b3ec3a045496",
+    "matched_observer_binary_bytes": 497104,
+    "lab_binary_delta_bytes": 784
+  },
+  "coefficients_embedded_in_binary": true,
+  "not_submitted_binary_delta": true,
+  "actual_EF_archive_saving_bytes": 154,
+  "production_package_delta_measured": false,
+  "full_warm_archive_evaluated": false,
+  "free_disk_bytes_after": 1056514048,
+  "finished": "2026-10-06T14:58:26.850726+00:00"
+}

@@ -1,0 +1,123 @@
+{
+ "id": "R12-validation",
+ "status": "COMPLETE",
+ "started": 1791365890.2665381,
+ "deletions": [],
+ "paid_usd": 0,
+ "consumer_build": {
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "flags": "-O2 -std=c++17 -fno-fast-math -ffp-contract=off",
+  "exe_sha256": "925acc057285197b8b79efc249fa75368f70477e488679b43b1674d79f74aa3e"
+ },
+ "cases": [
+  {
+   "label": "V2_cold_G_65000000",
+   "abs_offset": 65000000,
+   "bytes_requested": 524288,
+   "input_sha256": "54869732009648a219a1d2dcc654d735842e0cce01bbf648a56e0b557931f227",
+   "window_bytes": 524288,
+   "cpu_encoder": 2,
+   "cpu_consumer": 3,
+   "status": "COMPLETE",
+   "encoder_pid": 185,
+   "consumer_pid": 184,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 720,
+    "bytes_encoded_approx": 522240,
+    "free_gb": 1148.3
+   },
+   "encode": {
+    "wall_seconds": 750.0401410449999,
+    "exit_code": 0,
+    "CPU_user_seconds": 685.698828,
+    "CPU_system_seconds": 35.885321,
+    "peak_RSS_KiB": 6002168
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 524288,
+    "input_bytes": 524288,
+    "baseline_bits": 803482.276528,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 608.8,
+    "totals": {
+     "mixer_identity": 803482.276528,
+     "mixer_full_250": 803230.9671,
+     "mixer_full_1000": 804139.433929,
+     "mixer_full_4000": 808815.640267,
+     "mixer_full_1000_decodedclass": 804141.659817,
+     "mixer_no_explicit_nn_1000": 803580.6225,
+     "mixer_global_1000": 802792.14516,
+     "mixer_memory_zero_1000": 803421.761891,
+     "mixer_long_memory_1000": 803429.351266,
+     "adaptive_law_r9": 802139.285935,
+     "wider_frozen_a1": 803082.708397
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 803482.2765265212,
+   "baseline_minus_cost_bits": 1.478823833167553e-06,
+   "archive_bytes": 100473,
+   "archive_sha256": "98eb2970dacd23a938f82f49ac33e8966eff2950a4f26d1eaae35d1d98377254"
+  },
+  {
+   "label": "V1_warm_0_2MiB",
+   "abs_offset": 0,
+   "bytes_requested": 2097152,
+   "input_sha256": "2422cdd8404e361a5629057aec9cc2f87677964d62e402aa96aefeec7ded7dbd",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "COMPLETE",
+   "encoder_pid": 187,
+   "consumer_pid": 186,
+   "stage": "case finished",
+   "progress": {
+    "elapsed_s": 1830,
+    "bytes_encoded_approx": 2076672,
+    "free_gb": 1147.7
+   },
+   "encode": {
+    "wall_seconds": 1860.0796330109997,
+    "exit_code": 0,
+    "CPU_user_seconds": 1788.807771,
+    "CPU_system_seconds": 51.149737,
+    "peak_RSS_KiB": 6045040
+   },
+   "consumer_exit": 0,
+   "consumer_output": "",
+   "summary": {
+    "type": "summary",
+    "bytes": 2097152,
+    "input_bytes": 2097152,
+    "baseline_bits": 1587010.80806,
+    "identity_mismatch_bits": 0,
+    "punch_failed": false,
+    "consumer_wall_seconds": 1732.2,
+    "totals": {
+     "mixer_identity": 1587010.80806,
+     "mixer_full_250": 1586009.995052,
+     "mixer_full_1000": 1587511.11908,
+     "mixer_full_4000": 1595993.57445,
+     "mixer_full_1000_decodedclass": 1587510.038271,
+     "mixer_no_explicit_nn_1000": 1586919.130196,
+     "mixer_global_1000": 1586632.911593,
+     "mixer_memory_zero_1000": 1586355.587568,
+     "mixer_long_memory_1000": 1586367.995567,
+     "adaptive_law_r9": 1585793.099149,
+     "wider_frozen_a1": 1588293.036286
+    }
+   },
+   "errors": [],
+   "cost_trace_bits_processed_bytes": 1587010.807974291,
+   "baseline_minus_cost_bits": 8.570891804993153e-05,
+   "archive_bytes": 198414,
+   "archive_sha256": "4ae49d4957cca3a3a61e1e5cbaeb289f57cee44d6046cea2c43b9a3d9775d803"
+  }
+ ],
+ "finished": 1791367753.0002403
+}

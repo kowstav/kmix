@@ -1,0 +1,133 @@
+{
+  "ascii_word_events": 1884022,
+  "word_counts": {
+    "and": 38649,
+    "diamond": 9,
+    "i": 4878,
+    "in": 32195,
+    "is": 25610,
+    "know": 232,
+    "no": 1465,
+    "now": 804,
+    "of": 62221,
+    "the": 101915,
+    "to": 35808,
+    "was": 6617,
+    "with": 9153
+  },
+  "now_know_selected_lags": [
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 1,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 2,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 3,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 4,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 1,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 2,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 3,
+      "count": 0
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 4,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 1,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 2,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 3,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "know",
+      "lag_ASCII_words": 4,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 1,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 2,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 3,
+      "count": 0
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "now",
+      "lag_ASCII_words": 4,
+      "count": 0
+    }
+  ],
+  "interpretation": "Full ASCII words including literal I/i and markup; previously inspected cold8M; descriptive, not codec gain or whole corpus"
+}

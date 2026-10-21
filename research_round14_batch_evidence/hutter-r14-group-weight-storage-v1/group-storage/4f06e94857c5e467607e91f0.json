@@ -1,0 +1,111 @@
+{
+  "partition": "layer",
+  "key": "other_0",
+  "names": [
+    "embedding.weight.q",
+    "prior_embedding.weight.q",
+    "unembedding.weight.q"
+  ],
+  "label": "4f06e94857c5e467607e91f0",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 112259
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 113126
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 111929
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 112259
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 113126
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 111929
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 112294
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 113203
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 111927
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 112294
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 113203
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 111927
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 112131
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 111506
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 111933
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 116769
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 116468
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 118236
+    }
+  ],
+  "selected": [
+    111506,
+    "transpose",
+    "lzma"
+  ],
+  "archive_sha256": "627834cfbc4f672c903984f07a874db6d4b6ac9cf1cab437649f396c6674d060",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.2877649999999981,
+  "wall_seconds": 0.28971107699999266
+}

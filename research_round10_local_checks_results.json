@@ -1,0 +1,53 @@
+{
+  "id": "R10-local-correctness",
+  "status": "COMPLETE_LOCAL_CORRECTNESS_CHECKS_PASS",
+  "started": 1791333306.80531,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\91707\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "return_code": 0,
+      "wall_seconds": 1.3589999999967404,
+      "output": "test_directed_swaps_never_increase_declared_proxy (test_article_order.Ordering.test_directed_swaps_never_increase_declared_proxy) ... ok\ntest_paid_permutation_reconstructs_exact_article_bytes (test_article_order.Ordering.test_paid_permutation_reconstructs_exact_article_bytes) ... ok\ntest_half_even_and_sign (test_bf16_repair.BF16.test_half_even_and_sign) ... ok\ntest_original_bf16_is_unchanged (test_bf16_repair.BF16.test_original_bf16_is_unchanged) ... ok\ntest_exact_source_allows_only_transport_line_ending_change (test_dispatch_contracts.Dispatch.test_exact_source_allows_only_transport_line_ending_change) ... ok\ntest_wrong_privacy_resource_inputs_or_missing_settings_block_reuse (test_dispatch_contracts.Dispatch.test_wrong_privacy_resource_inputs_or_missing_settings_block_reuse) ... ok\ntest_active_replay_is_prefix_causal (test_integer_mixer_replay.ReplayContracts.test_active_replay_is_prefix_causal) ... ok\ntest_carried_memory_differs_from_short_reset_control (test_integer_mixer_replay.ReplayContracts.test_carried_memory_differs_from_short_reset_control) ... ok\ntest_context_relabeling_is_exact_and_not_a_null (test_integer_mixer_replay.ReplayContracts.test_context_relabeling_is_exact_and_not_a_null) ... ok\ntest_explicit_neural_ablation_removes_feature_and_confidence (test_integer_mixer_replay.ReplayContracts.test_explicit_neural_ablation_removes_feature_and_confidence) ... ok\ntest_global_context_is_a_real_ablation (test_integer_mixer_replay.ReplayContracts.test_global_context_is_a_real_ablation) ... ok\ntest_identity_matches_every_native_probability_and_cost (test_integer_mixer_replay.ReplayContracts.test_identity_matches_every_native_probability_and_cost) ... ok\ntest_long_memory_is_prefix_causal (test_integer_mixer_replay.ReplayContracts.test_long_memory_is_prefix_causal) ... ok\ntest_adjacent_single_cluster_cannot_fake_sample_size (test_research_contracts.Contracts.test_adjacent_single_cluster_cannot_fake_sample_size) ... ok\ntest_cost_amortizes_over_corpus_once (test_research_contracts.Contracts.test_cost_amortizes_over_corpus_once) ... ok\ntest_holm_stops_after_first_failed_rank (test_research_contracts.Contracts.test_holm_stops_after_first_failed_rank) ... ok\ntest_invalid_probability_or_normalization_is_rejected (test_research_contracts.Contracts.test_invalid_probability_or_normalization_is_rejected) ... ok\ntest_low_power_test_not_equivalence (test_research_contracts.Contracts.test_low_power_test_not_equivalence) ... ok\ntest_mdl_sum_and_mean_units (test_research_contracts.Contracts.test_mdl_sum_and_mean_units) ... ok\ntest_realized_path_entropy_is_not_before_symbol (test_research_contracts.Contracts.test_realized_path_entropy_is_not_before_symbol) ... ok\ntest_synergy_can_exceed_sum (test_research_contracts.Contracts.test_synergy_can_exceed_sum) ... ok\ntest_unbiased_piece_estimator_not_sample_ratio (test_research_contracts.Contracts.test_unbiased_piece_estimator_not_sample_ratio) ... ok\ntest_variable_cluster_lengths_cannot_silently_change_estimand (test_research_contracts.Contracts.test_variable_cluster_lengths_cannot_silently_change_estimand) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.963s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\91707\\Downloads\\compression_cmix\\hutter_research\\integer_mixer_selftest.exe"
+      ],
+      "return_code": 0,
+      "wall_seconds": 0.125,
+      "output": "PASS exhaustive neutral Q16, uint64 counters/sqrt, deterministic online state and analytic long retention; mixer_state=46160 memory_state=72 bytes\n"
+    }
+  ],
+  "source_hashes": {
+    "tests/test_article_order.py": "617d1167305fc782557d96a582fcb3425d51dee73ac46b1769d03df57d7a9d55",
+    "tests/test_bf16_repair.py": "66592090fb29f9852b75d77749bbff446eb7b09f58e81702c4c76803b274af45",
+    "tests/test_dispatch_contracts.py": "4bccc170827ec19ab9d68bbc47aa5e1121257216fc99fcb3283d4684c472e483",
+    "tests/test_integer_mixer_replay.py": "e9bdcd5e4707af01f996337bec60b33ed999e302f9493617842b90ad7c379a09",
+    "tests/test_research_contracts.py": "9ec8c72447be78bb23b8edf8863a3991a75890d4fc69a0e140802471e54e4b21",
+    "hutter_research/__init__.py": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3",
+    "hutter_research/article_order.py": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d",
+    "hutter_research/contracts.py": "c661a2077bb58561a9b4a497f5fae4ba22614e01a2017d3cf7aa4096c291213b",
+    "hutter_research/dispatch_contracts.py": "434659aa0e61a1ce51b4ff2ef3b6c22c74ba670638145ffb59b9d34b84c060cb",
+    "hutter_research/integer_mixer.h": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc",
+    "hutter_research/integer_mixer_replay.cpp": "3556da2ad3ba4c88e4c2649b7dfc664cc67a637412eb22d8eb94fce0215e46d3",
+    "hutter_research/integer_mixer_selftest.cpp": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860",
+    "hutter_research/legacy_weights.py": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e",
+    "hutter_research/long_memory.h": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d",
+    "hutter_research/native_weights.py": "fdcd777c662516cd4a425bb975569c3b3008e17f867223cfeebfe0334c8b83cc",
+    "hutter_research/probability_tables.bin": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc",
+    "hutter_research/probability_tables.inc": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc",
+    "hutter_research/tensor_io.py": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+  },
+  "finished": 1791333308.5076168,
+  "limits": "Property/unit checks and storage validation; no native warm quality or qualifying compression claim."
+}

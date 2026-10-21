@@ -1,0 +1,346 @@
+[
+  {
+    "name": "zlib",
+    "input_bytes": 16384,
+    "archive_bytes": 5825,
+    "bpb": 2.84423828125,
+    "roundtrip": true,
+    "seconds": 0.001024007797241211
+  },
+  {
+    "name": "lzma",
+    "input_bytes": 16384,
+    "archive_bytes": 5628,
+    "bpb": 2.748046875,
+    "roundtrip": true,
+    "seconds": 0.03423357009887695
+  },
+  {
+    "name": "bz2",
+    "input_bytes": 16384,
+    "archive_bytes": 5506,
+    "bpb": 2.6884765625,
+    "roundtrip": true,
+    "seconds": 0.0038099288940429688
+  },
+  {
+    "name": "dictionary_lex",
+    "input_bytes": 16384,
+    "archive_bytes": 8928,
+    "bpb": 4.359375,
+    "roundtrip": true,
+    "seconds": 0.02436041831970215
+  },
+  {
+    "name": "dictionary_suffix",
+    "input_bytes": 16384,
+    "archive_bytes": 8897,
+    "bpb": 4.34423828125,
+    "roundtrip": true,
+    "seconds": 0.023807048797607422
+  },
+  {
+    "name": "dictionary_frequency",
+    "input_bytes": 16384,
+    "archive_bytes": 9061,
+    "bpb": 4.42431640625,
+    "roundtrip": true,
+    "seconds": 0.044689178466796875
+  },
+  {
+    "name": "number_delta",
+    "input_bytes": 16384,
+    "archive_bytes": 6841,
+    "bpb": 3.34033203125,
+    "roundtrip": true,
+    "seconds": 0.008490562438964844
+  },
+  {
+    "name": "pixel_1_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 5895,
+    "bpb": 2.87841796875,
+    "roundtrip": true,
+    "seconds": 0.06689834594726562,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_1_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 5895,
+    "bpb": 2.87841796875,
+    "roundtrip": true,
+    "seconds": 0.05431723594665527,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_1_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 5895,
+    "bpb": 2.87841796875,
+    "roundtrip": true,
+    "seconds": 0.05172538757324219,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_1_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 5894,
+    "bpb": 2.8779296875,
+    "roundtrip": true,
+    "seconds": 0.04814457893371582,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_2_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 5942,
+    "bpb": 2.9013671875,
+    "roundtrip": true,
+    "seconds": 0.04508614540100098,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_2_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 5941,
+    "bpb": 2.90087890625,
+    "roundtrip": true,
+    "seconds": 0.04657578468322754,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_2_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 5940,
+    "bpb": 2.900390625,
+    "roundtrip": true,
+    "seconds": 0.04632449150085449,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_2_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 5939,
+    "bpb": 2.89990234375,
+    "roundtrip": true,
+    "seconds": 0.047858238220214844,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_3_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 6006,
+    "bpb": 2.9326171875,
+    "roundtrip": true,
+    "seconds": 0.05251121520996094,
+    "distinct_glyphs": 2,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_3_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 6006,
+    "bpb": 2.9326171875,
+    "roundtrip": true,
+    "seconds": 0.05733895301818848,
+    "distinct_glyphs": 2,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_3_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 6001,
+    "bpb": 2.93017578125,
+    "roundtrip": true,
+    "seconds": 0.05081009864807129,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_3_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 6000,
+    "bpb": 2.9296875,
+    "roundtrip": true,
+    "seconds": 0.05780196189880371,
+    "distinct_glyphs": 1,
+    "zero_information_image": true
+  },
+  {
+    "name": "pixel_4_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 8615,
+    "bpb": 4.20654296875,
+    "roundtrip": true,
+    "seconds": 0.08042502403259277,
+    "distinct_glyphs": 6,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_4_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 8464,
+    "bpb": 4.1328125,
+    "roundtrip": true,
+    "seconds": 0.06405425071716309,
+    "distinct_glyphs": 6,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_4_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 8414,
+    "bpb": 4.1083984375,
+    "roundtrip": true,
+    "seconds": 0.0798804759979248,
+    "distinct_glyphs": 5,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_4_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 8160,
+    "bpb": 3.984375,
+    "roundtrip": true,
+    "seconds": 0.06021547317504883,
+    "distinct_glyphs": 5,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_6_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 14434,
+    "bpb": 7.0478515625,
+    "roundtrip": true,
+    "seconds": 0.1128232479095459,
+    "distinct_glyphs": 43,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_6_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 18169,
+    "bpb": 8.87158203125,
+    "roundtrip": true,
+    "seconds": 0.08261585235595703,
+    "distinct_glyphs": 43,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_6_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 14218,
+    "bpb": 6.9423828125,
+    "roundtrip": true,
+    "seconds": 0.11801338195800781,
+    "distinct_glyphs": 27,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_6_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 16166,
+    "bpb": 7.8935546875,
+    "roundtrip": true,
+    "seconds": 0.07928466796875,
+    "distinct_glyphs": 27,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_8_fragment0_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 13239,
+    "bpb": 6.46435546875,
+    "roundtrip": true,
+    "seconds": 0.10948038101196289,
+    "distinct_glyphs": 75,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_8_fragment0_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 29297,
+    "bpb": 14.30517578125,
+    "roundtrip": true,
+    "seconds": 0.12533998489379883,
+    "distinct_glyphs": 75,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_8_fragment1_glyph",
+    "input_bytes": 16384,
+    "archive_bytes": 13372,
+    "bpb": 6.529296875,
+    "roundtrip": true,
+    "seconds": 0.12375855445861816,
+    "distinct_glyphs": 63,
+    "zero_information_image": false
+  },
+  {
+    "name": "pixel_8_fragment1_plane",
+    "input_bytes": 16384,
+    "archive_bytes": 22020,
+    "bpb": 10.751953125,
+    "roundtrip": true,
+    "seconds": 0.10370635986328125,
+    "distinct_glyphs": 63,
+    "zero_information_image": false
+  },
+  {
+    "name": "context_byte",
+    "input_bytes": 16384,
+    "archive_bytes": 12766,
+    "bpb": 6.2333984375,
+    "roundtrip": true,
+    "seconds": 5.375596284866333
+  },
+  {
+    "name": "context_shape",
+    "input_bytes": 16384,
+    "archive_bytes": 12334,
+    "bpb": 6.0224609375,
+    "roundtrip": true,
+    "seconds": 4.59098219871521
+  },
+  {
+    "name": "context_orth",
+    "input_bytes": 16384,
+    "archive_bytes": 11785,
+    "bpb": 5.75439453125,
+    "roundtrip": true,
+    "seconds": 4.500128507614136
+  },
+  {
+    "name": "context_byte_shape",
+    "input_bytes": 16384,
+    "archive_bytes": 12281,
+    "bpb": 5.99658203125,
+    "roundtrip": true,
+    "seconds": 4.907152414321899
+  },
+  {
+    "name": "context_byte_orth",
+    "input_bytes": 16384,
+    "archive_bytes": 11725,
+    "bpb": 5.72509765625,
+    "roundtrip": true,
+    "seconds": 4.907801389694214
+  },
+  {
+    "name": "context_byte_shape_orth",
+    "input_bytes": 16384,
+    "archive_bytes": 11699,
+    "bpb": 5.71240234375,
+    "roundtrip": true,
+    "seconds": 5.64942741394043
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_VERIFIED_PRIVATE_CPU_PUSH",
+  "arm": "prune_match",
+  "started": 1791590416.7267349,
+  "deletions": [],
+  "GPU": false,
+  "paid_usd": 0,
+  "push_exit": 0,
+  "job": {
+    "ref": "chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+    "folder": "hutter-r14-prune-match-timing-abba-v1",
+    "main_sha256": "8109df7ae6e1d5e2df0da726cb9f31704b9e2e16d6cbd5c48dc790db5cfb1409",
+    "workers": 4,
+    "arm": "prune_match",
+    "region_ids": [
+      8,
+      9
+    ],
+    "lane_tasks": [
+      [
+        8,
+        "AB"
+      ],
+      [
+        8,
+        "BA"
+      ],
+      [
+        9,
+        "AB"
+      ],
+      [
+        9,
+        "BA"
+      ]
+    ]
+  },
+  "verified_push": {
+    "actual_ref": "chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+    "url": "https://www.kaggle.com/code/chaoscpp/hutter-r14-prune-match-timing-abba-v1",
+    "version": 1
+  },
+  "finished": 1791590423.2532775
+}

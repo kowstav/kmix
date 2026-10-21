@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.forget_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.10.attention.forget_gate_projection.down.weight.scale"
+  ],
+  "label": "fe0df12e33275c53aedcde02",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 481
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 482
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 432
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 476
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 425
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 481
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 482
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 481
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 482
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 481
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 482
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 558
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 591
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 545
+    }
+  ],
+  "selected": [
+    425,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "c46d41c8ff8b292e0aa6619c842b7b001b651ed291c5ceaab3a4bd6e09e95918",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.011854999999998742,
+  "wall_seconds": 0.012184414000017796
+}

@@ -1,0 +1,44 @@
+{
+  "status": "FAIL",
+  "pid": 1475,
+  "start": 1791301037.4057639,
+  "deletions": [],
+  "spending_usd": 0,
+  "results": [
+    {
+      "label": "build_alignment",
+      "returncode": 0,
+      "seconds": 2.047197755000525
+    },
+    {
+      "label": "build_weight_import",
+      "returncode": 0,
+      "seconds": 2.351055721999728
+    },
+    {
+      "label": "export_actual_packed_lex_tensors",
+      "returncode": 0,
+      "seconds": 0.5122464679989207
+    },
+    {
+      "label": "annotated_vs_native_decode",
+      "returncode": 0,
+      "seconds": 1.0925587079982506
+    }
+  ],
+  "stage": "failure preserved",
+  "alignment": {
+    "supervision": "full decoded whole ASCII words in transformed XML text body; case markers, literal bytes and encoded substrings assigned together; no labels enter model input",
+    "word_events": 42525,
+    "body_word_events": 32921,
+    "labelled_bytes": 80052,
+    "non_dictionary_whole_word_bytes": 18484,
+    "metadata_control_whitespace_side": "unmasked default weight1",
+    "terminal_crossing_word": "unlabelled; decoded through270000 to cover262144 target prefix",
+    "frequency_source": "original decoded enwik9 text census; transformed spellings absent from census count0",
+    "raw_sha256": "800a69e415d962dd2e3d77a00893e5adf5a4fb668e4fb66324f53087ef3c6802",
+    "labels_sha256": "c0e2893361d28e8a001a21794cb0f576fa1c817894650639c854bf15bf1fd98c"
+  },
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round9/research_round9_prepare_core_worker.py\", line 34, in <module>\n    assert p.returncode==0;m['native_accounting']={'seconds':time.monotonic()-t,'CPU_user_seconds':u.ru_utime,'CPU_system_seconds':u.ru_stime,'peak_RSS_KiB':u.ru_maxrss}\n           ^^^^^^^^^^^^^^^\nAssertionError\n"
+}

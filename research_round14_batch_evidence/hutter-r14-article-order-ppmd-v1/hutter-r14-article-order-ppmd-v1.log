@@ -1,0 +1,39 @@
+[{"stream_name":"stderr","time":45.076900635,"data":"concurrent.futures.process._RemoteTraceback: \n"}
+,{"stream_name":"stderr","time":45.076950728,"data":"\"\"\"\n"}
+,{"stream_name":"stderr","time":45.076957601,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":45.076962521,"data":"  File \"/usr/lib/python3.13/concurrent/futures/process.py\", line 254, in _process_worker\n"}
+,{"stream_name":"stderr","time":45.076967629,"data":"    r = call_item.fn(*call_item.args, **call_item.kwargs)\n"}
+,{"stream_name":"stderr","time":45.076972296,"data":"  File \"/root/r14_code_v2/hutter_research/cpu_round14_order.py\", line 18, in region\n"}
+,{"stream_name":"stderr","time":45.076977171,"data":"    blob=order.compress(pages,permutation,max_order=level);assert order.decompress(blob)==pages\n"}
+,{"stream_name":"stderr","time":45.076981595,"data":"                                                                  ~~~~~~~~~~~~~~~~^^^^^^\n"}
+,{"stream_name":"stderr","time":45.076986153,"data":"  File \"/root/r14_code_v2/hutter_research/article_order_ppmd.py\", line 27, in decompress\n"}
+,{"stream_name":"stderr","time":45.076991223,"data":"    raw=pyppmd.decompress(blob[32+a+b:],max_order=o,mem_size=m,variant='I');pages=[None]*n;offset=0\n"}
+,{"stream_name":"stderr","time":45.076996013,"data":"  File \"/root/r14_pyppmd/pyppmd/__init__.py\", line 205, in decompress\n"}
+,{"stream_name":"stderr","time":45.077000803,"data":"    return _decompress8(data, max_order, mem_size)\n"}
+,{"stream_name":"stderr","time":45.077005316,"data":"  File \"/root/r14_pyppmd/pyppmd/__init__.py\", line 218, in _decompress8\n"}
+,{"stream_name":"stderr","time":45.077010148,"data":"    res = decomp.decode(data)\n"}
+,{"stream_name":"stderr","time":45.077014535,"data":"ValueError: L1595: Corrupted input data.\n"}
+,{"stream_name":"stderr","time":45.077018812,"data":"\"\"\"\n"}
+,{"stream_name":"stderr","time":45.077023009,"data":"\n"}
+,{"stream_name":"stderr","time":45.077027479,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":45.077031768,"data":"\n"}
+,{"stream_name":"stderr","time":45.077035638,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":45.077512266,"data":"  File \"/kaggle/src/script.py\", line 17, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":45.077537119,"data":"    if __name__=='__main__':main()\n"}
+,{"stream_name":"stderr","time":45.077543342,"data":"                            ~~~~^^\n"}
+,{"stream_name":"stderr","time":45.077547753,"data":"  File \"/root/r14_code_v2/hutter_research/cpu_round14_order.py\", line 53, in main\n"}
+,{"stream_name":"stderr","time":45.077552896,"data":"    for f in as_completed([pool.submit(region,i) for i in range(16)]):M['regions'].append(f.result());save()\n"}
+,{"stream_name":"stderr","time":45.077558032,"data":"                                                                                          ~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":45.077562903,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 453, in result\n"}
+,{"stream_name":"stderr","time":45.077567832,"data":"    return self.__get_result()\n"}
+,{"stream_name":"stderr","time":45.077572419,"data":"           ~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":45.077577041,"data":"  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 402, in __get_result\n"}
+,{"stream_name":"stderr","time":45.077581725,"data":"    raise self._exception\n"}
+,{"stream_name":"stderr","time":45.077586375,"data":"ValueError: L1595: Corrupted input data.\n"}
+,{"stream_name":"stderr","time":47.881102755,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":47.881159257,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":48.224015007,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":48.224055798,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":49.292425158,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":50.483318283,"data":"[NbConvertApp] Writing 446938 bytes to __results__.html\n"}
+]

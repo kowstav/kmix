@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.key_projection.weight.q",
+  "names": [
+    "blocks.2.attention.key_projection.weight.q"
+  ],
+  "label": "2a20aa7737d39b9ca03bb222",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 21212
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 18958
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 19724
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 21212
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 18958
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 19724
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 21212
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 18895
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 19716
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 18261
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 18555
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 18585
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 21236
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 18994
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 19729
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 21607
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 19448
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 19966
+    }
+  ],
+  "selected": [
+    18261,
+    "nibble",
+    "gzip"
+  ],
+  "archive_sha256": "f6e59acd778777201ebb46e438c7a3db6ffe5f7d719a3882e3758d454a1ddc84",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.0939889999999989,
+  "wall_seconds": 0.09706130000000712
+}

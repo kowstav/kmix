@@ -1,0 +1,924 @@
+{
+  "index": 15,
+  "scored_interval": [
+    546097152,
+    547145728
+  ],
+  "native_bits": 459334.7642738167,
+  "categories": {
+    "body_constructor": {
+      "events": 2629,
+      "coded_bytes": 2994,
+      "native_bits": 1972.243441740051
+    },
+    "body_dictionary_other": {
+      "events": 24954,
+      "coded_bytes": 74614,
+      "native_bits": 48702.771750742104
+    },
+    "body_literal_or_oov": {
+      "events": 2477,
+      "coded_bytes": 13248,
+      "native_bits": 12661.113946291618
+    },
+    "metadata_word": {
+      "events": 148196,
+      "coded_bytes": 340788,
+      "native_bits": 328705.7948405631
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 616932,
+      "native_bits": 67292.84029447986
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 3,
+      "coded_bytes": 37,
+      "native_bits": 160.83131152391434
+    },
+    "16": {
+      "events": 193,
+      "coded_bytes": 1702,
+      "native_bits": 2060.1622683033347
+    },
+    "64": {
+      "events": 862,
+      "coded_bytes": 6344,
+      "native_bits": 7365.158343574498
+    },
+    "107": {
+      "events": 1332,
+      "coded_bytes": 8871,
+      "native_bits": 9998.914834625553
+    },
+    "128": {
+      "events": 1508,
+      "coded_bytes": 9730,
+      "native_bits": 10970.653534948826
+    },
+    "1024": {
+      "events": 4894,
+      "coded_bytes": 23801,
+      "native_bits": 25120.367630135734
+    },
+    "1392": {
+      "events": 5561,
+      "coded_bytes": 26320,
+      "native_bits": 27199.744821574073
+    },
+    "8372": {
+      "events": 10826,
+      "coded_bytes": 42258,
+      "native_bits": 42468.50594696216
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "redirect",
+      "events": 8336,
+      "coded_bytes": 24423,
+      "native_bits": 2685.3850032947958,
+      "corpus_count": 73583
+    },
+    {
+      "word": "the",
+      "events": 456,
+      "coded_bytes": 611,
+      "native_bits": 562.1000783401541,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "list",
+      "events": 179,
+      "coded_bytes": 530,
+      "native_bits": 351.4028403535485,
+      "corpus_count": 80220
+    },
+    {
+      "word": "of",
+      "events": 1100,
+      "coded_bytes": 1101,
+      "native_bits": 339.93771779583767,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "wikipedia",
+      "events": 241,
+      "coded_bytes": 685,
+      "native_bits": 338.81677159294486,
+      "corpus_count": 29073
+    },
+    {
+      "word": "and",
+      "events": 284,
+      "coded_bytes": 285,
+      "native_bits": 217.12005983944982,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "united",
+      "events": 144,
+      "coded_bytes": 288,
+      "native_bits": 204.38735034689307,
+      "corpus_count": 202275
+    },
+    {
+      "word": "history",
+      "events": 120,
+      "coded_bytes": 344,
+      "native_bits": 163.1653607902117,
+      "corpus_count": 94306
+    },
+    {
+      "word": "language",
+      "events": 94,
+      "coded_bytes": 198,
+      "native_bits": 148.5948477042839,
+      "corpus_count": 93572
+    },
+    {
+      "word": "m",
+      "events": 58,
+      "coded_bytes": 78,
+      "native_bits": 129.0817706589587,
+      "corpus_count": 103688
+    },
+    {
+      "word": "international",
+      "events": 42,
+      "coded_bytes": 125,
+      "native_bits": 126.37404672242701,
+      "corpus_count": 48864
+    },
+    {
+      "word": "s",
+      "events": 98,
+      "coded_bytes": 138,
+      "native_bits": 123.2078503742814,
+      "corpus_count": 841101
+    },
+    {
+      "word": "computer",
+      "events": 48,
+      "coded_bytes": 111,
+      "native_bits": 114.81076410412788,
+      "corpus_count": 35995
+    },
+    {
+      "word": "in",
+      "events": 195,
+      "coded_bytes": 198,
+      "native_bits": 109.24658677587286,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "talk",
+      "events": 49,
+      "coded_bytes": 122,
+      "native_bits": 99.46410247171298,
+      "corpus_count": 22582
+    },
+    {
+      "word": "programming",
+      "events": 29,
+      "coded_bytes": 62,
+      "native_bits": 97.87084055552259,
+      "corpus_count": 14758
+    },
+    {
+      "word": "scattered",
+      "events": 33,
+      "coded_bytes": 132,
+      "native_bits": 97.04867116827518,
+      "corpus_count": 1581
+    },
+    {
+      "word": "firewire",
+      "events": 7,
+      "coded_bytes": 42,
+      "native_bits": 91.71166474418715,
+      "corpus_count": 283
+    },
+    {
+      "word": "world",
+      "events": 43,
+      "coded_bytes": 125,
+      "native_bits": 89.0050930371508,
+      "corpus_count": 113402
+    },
+    {
+      "word": "game",
+      "events": 58,
+      "coded_bytes": 128,
+      "native_bits": 86.87753942096606,
+      "corpus_count": 55267
+    },
+    {
+      "word": "system",
+      "events": 53,
+      "coded_bytes": 126,
+      "native_bits": 86.33305337792262,
+      "corpus_count": 74754
+    },
+    {
+      "word": "non",
+      "events": 17,
+      "coded_bytes": 48,
+      "native_bits": 86.10579042835161,
+      "corpus_count": 70651
+    },
+    {
+      "word": "i",
+      "events": 58,
+      "coded_bytes": 115,
+      "native_bits": 86.04778797039762,
+      "corpus_count": 172259
+    },
+    {
+      "word": "for",
+      "events": 92,
+      "coded_bytes": 94,
+      "native_bits": 85.3555015064776,
+      "corpus_count": 989460
+    },
+    {
+      "word": "group",
+      "events": 16,
+      "coded_bytes": 37,
+      "native_bits": 84.2243321146816,
+      "corpus_count": 54703
+    },
+    {
+      "word": "science",
+      "events": 60,
+      "coded_bytes": 135,
+      "native_bits": 82.72059707390144,
+      "corpus_count": 33337
+    },
+    {
+      "word": "national",
+      "events": 29,
+      "coded_bytes": 86,
+      "native_bits": 80.86680723447353,
+      "corpus_count": 76544
+    },
+    {
+      "word": "ii",
+      "events": 41,
+      "coded_bytes": 123,
+      "native_bits": 80.80638444656506,
+      "corpus_count": 59654
+    },
+    {
+      "word": "dolchstosslegende",
+      "events": 1,
+      "coded_bytes": 14,
+      "native_bits": 79.44628532230854,
+      "corpus_count": 10
+    },
+    {
+      "word": "languages",
+      "events": 32,
+      "coded_bytes": 66,
+      "native_bits": 79.05297253327444,
+      "corpus_count": 23818
+    },
+    {
+      "word": "qur'an",
+      "events": 5,
+      "coded_bytes": 30,
+      "native_bits": 78.93196806218475,
+      "corpus_count": 1240
+    },
+    {
+      "word": "st",
+      "events": 24,
+      "coded_bytes": 63,
+      "native_bits": 77.86419805046171,
+      "corpus_count": 64249
+    },
+    {
+      "word": "java",
+      "events": 20,
+      "coded_bytes": 59,
+      "native_bits": 76.10617053555325,
+      "corpus_count": 5366
+    },
+    {
+      "word": "august",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 76.10373567743227,
+      "corpus_count": 34861
+    },
+    {
+      "word": "statistical",
+      "events": 42,
+      "coded_bytes": 118,
+      "native_bits": 75.80427009938285,
+      "corpus_count": 3823
+    },
+    {
+      "word": "american",
+      "events": 27,
+      "coded_bytes": 81,
+      "native_bits": 75.05765419686213,
+      "corpus_count": 249128
+    },
+    {
+      "word": "sep",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 74.65919672092423,
+      "corpus_count": 2420
+    },
+    {
+      "word": "f",
+      "events": 18,
+      "coded_bytes": 36,
+      "native_bits": 73.52797222649679,
+      "corpus_count": 82121
+    },
+    {
+      "word": "nuclear",
+      "events": 21,
+      "coded_bytes": 58,
+      "native_bits": 73.45836743852124,
+      "corpus_count": 12921
+    },
+    {
+      "word": "rock",
+      "events": 14,
+      "coded_bytes": 38,
+      "native_bits": 70.88506326312199,
+      "corpus_count": 32585
+    },
+    {
+      "word": "time",
+      "events": 25,
+      "coded_bytes": 65,
+      "native_bits": 70.29117688303813,
+      "corpus_count": 135220
+    },
+    {
+      "word": "network",
+      "events": 20,
+      "coded_bytes": 49,
+      "native_bits": 68.19659681385383,
+      "corpus_count": 21117
+    },
+    {
+      "word": "film",
+      "events": 56,
+      "coded_bytes": 133,
+      "native_bits": 67.64578001527116,
+      "corpus_count": 86742
+    },
+    {
+      "word": "first",
+      "events": 16,
+      "coded_bytes": 46,
+      "native_bits": 67.04888589680195,
+      "corpus_count": 191198
+    },
+    {
+      "word": "r",
+      "events": 99,
+      "coded_bytes": 193,
+      "native_bits": 66.43475813651457,
+      "corpus_count": 66427
+    },
+    {
+      "word": "on",
+      "events": 30,
+      "coded_bytes": 35,
+      "native_bits": 65.96567010227591,
+      "corpus_count": 629335
+    },
+    {
+      "word": "a",
+      "events": 42,
+      "coded_bytes": 61,
+      "native_bits": 65.96204991126433,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "to",
+      "events": 80,
+      "coded_bytes": 80,
+      "native_bits": 64.6851218198426,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "industry",
+      "events": 10,
+      "coded_bytes": 25,
+      "native_bits": 64.65680003166199,
+      "corpus_count": 16010
+    },
+    {
+      "word": "consonant",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 64.53515379875898,
+      "corpus_count": 2848
+    },
+    {
+      "word": "symbionese",
+      "events": 2,
+      "coded_bytes": 22,
+      "native_bits": 63.74910400621593,
+      "corpus_count": 50
+    },
+    {
+      "word": "book",
+      "events": 14,
+      "coded_bytes": 34,
+      "native_bits": 63.22581143537536,
+      "corpus_count": 50073
+    },
+    {
+      "word": "high",
+      "events": 19,
+      "coded_bytes": 56,
+      "native_bits": 63.198126459959894,
+      "corpus_count": 61976
+    },
+    {
+      "word": "single",
+      "events": 11,
+      "coded_bytes": 32,
+      "native_bits": 63.1272226087749,
+      "corpus_count": 31789
+    },
+    {
+      "word": "pope",
+      "events": 16,
+      "coded_bytes": 47,
+      "native_bits": 61.627723132725805,
+      "corpus_count": 15074
+    },
+    {
+      "word": "gnu",
+      "events": 23,
+      "coded_bytes": 69,
+      "native_bits": 61.5639180727303,
+      "corpus_count": 3711
+    },
+    {
+      "word": "number",
+      "events": 25,
+      "coded_bytes": 54,
+      "native_bits": 61.059998602140695,
+      "corpus_count": 75965
+    },
+    {
+      "word": "music",
+      "events": 34,
+      "coded_bytes": 73,
+      "native_bits": 60.63333831448108,
+      "corpus_count": 85438
+    },
+    {
+      "word": "defenestrations",
+      "events": 1,
+      "coded_bytes": 12,
+      "native_bits": 60.56981672346592,
+      "corpus_count": 20
+    },
+    {
+      "word": "internet",
+      "events": 15,
+      "coded_bytes": 44,
+      "native_bits": 60.50790419150144,
+      "corpus_count": 14301
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "sep",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 74.65919672092423,
+      "corpus_count": 2420
+    },
+    {
+      "word": "august",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 76.10373567743227,
+      "corpus_count": 34861
+    },
+    {
+      "word": "consonant",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 64.53515379875898,
+      "corpus_count": 2848
+    },
+    {
+      "word": "industry",
+      "events": 10,
+      "coded_bytes": 25,
+      "native_bits": 64.65680003166199,
+      "corpus_count": 16010
+    },
+    {
+      "word": "single",
+      "events": 11,
+      "coded_bytes": 32,
+      "native_bits": 63.1272226087749,
+      "corpus_count": 31789
+    },
+    {
+      "word": "religious",
+      "events": 8,
+      "coded_bytes": 23,
+      "native_bits": 45.60364515753463,
+      "corpus_count": 18174
+    },
+    {
+      "word": "policies",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 47.840436103288084,
+      "corpus_count": 4964
+    },
+    {
+      "word": "people's",
+      "events": 9,
+      "coded_bytes": 45,
+      "native_bits": 47.5198642113246,
+      "corpus_count": 8106
+    },
+    {
+      "word": "group",
+      "events": 16,
+      "coded_bytes": 37,
+      "native_bits": 84.2243321146816,
+      "corpus_count": 54703
+    },
+    {
+      "word": "joseph",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 42.1116393674165,
+      "corpus_count": 15718
+    },
+    {
+      "word": "hitchhiker's",
+      "events": 10,
+      "coded_bytes": 60,
+      "native_bits": 51.92453729454428,
+      "corpus_count": 927
+    },
+    {
+      "word": "special",
+      "events": 11,
+      "coded_bytes": 27,
+      "native_bits": 56.59116693073884,
+      "corpus_count": 26239
+    },
+    {
+      "word": "access",
+      "events": 11,
+      "coded_bytes": 27,
+      "native_bits": 56.26047541666776,
+      "corpus_count": 12149
+    },
+    {
+      "word": "category",
+      "events": 9,
+      "coded_bytes": 17,
+      "native_bits": 45.5881314817816,
+      "corpus_count": 411207
+    },
+    {
+      "word": "non",
+      "events": 17,
+      "coded_bytes": 48,
+      "native_bits": 86.10579042835161,
+      "corpus_count": 70651
+    },
+    {
+      "word": "rock",
+      "events": 14,
+      "coded_bytes": 38,
+      "native_bits": 70.88506326312199,
+      "corpus_count": 32585
+    },
+    {
+      "word": "vladimir",
+      "events": 10,
+      "coded_bytes": 40,
+      "native_bits": 48.35810735123232,
+      "corpus_count": 2405
+    },
+    {
+      "word": "order",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 42.69507174100727,
+      "corpus_count": 44610
+    },
+    {
+      "word": "nintendo",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 37.71704406198114,
+      "corpus_count": 4073
+    },
+    {
+      "word": "bug",
+      "events": 8,
+      "coded_bytes": 31,
+      "native_bits": 37.22663353988901,
+      "corpus_count": 1785
+    },
+    {
+      "word": "prince",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 41.10577192064375,
+      "corpus_count": 20005
+    },
+    {
+      "word": "book",
+      "events": 14,
+      "coded_bytes": 34,
+      "native_bits": 63.22581143537536,
+      "corpus_count": 50073
+    },
+    {
+      "word": "second",
+      "events": 11,
+      "coded_bytes": 31,
+      "native_bits": 48.9148681932129,
+      "corpus_count": 54885
+    },
+    {
+      "word": "form",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 34.88099467288703,
+      "corpus_count": 48561
+    },
+    {
+      "word": "king",
+      "events": 13,
+      "coded_bytes": 39,
+      "native_bits": 55.60728039080277,
+      "corpus_count": 56144
+    },
+    {
+      "word": "file",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 34.14921600185335,
+      "corpus_count": 10194
+    },
+    {
+      "word": "control",
+      "events": 8,
+      "coded_bytes": 20,
+      "native_bits": 33.91030013607815,
+      "corpus_count": 29673
+    },
+    {
+      "word": "massachusetts",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 37.936959273181856,
+      "corpus_count": 13472
+    },
+    {
+      "word": "charles",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 46.14673820557073,
+      "corpus_count": 33844
+    },
+    {
+      "word": "first",
+      "events": 16,
+      "coded_bytes": 46,
+      "native_bits": 67.04888589680195,
+      "corpus_count": 191198
+    },
+    {
+      "word": "education",
+      "events": 11,
+      "coded_bytes": 26,
+      "native_bits": 45.98715880187228,
+      "corpus_count": 21918
+    },
+    {
+      "word": "house",
+      "events": 10,
+      "coded_bytes": 28,
+      "native_bits": 41.42366600362584,
+      "corpus_count": 45394
+    },
+    {
+      "word": "f",
+      "events": 18,
+      "coded_bytes": 36,
+      "native_bits": 73.52797222649679,
+      "corpus_count": 82121
+    },
+    {
+      "word": "gun",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 44.883536926005036,
+      "corpus_count": 8399
+    },
+    {
+      "word": "internet",
+      "events": 15,
+      "coded_bytes": 44,
+      "native_bits": 60.50790419150144,
+      "corpus_count": 14301
+    },
+    {
+      "word": "islam",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 36.28508628625423,
+      "corpus_count": 6069
+    },
+    {
+      "word": "german",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 44.2543427515775,
+      "corpus_count": 47471
+    },
+    {
+      "word": "friedrich",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 42.7163691399619,
+      "corpus_count": 5032
+    },
+    {
+      "word": "society",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 30.9608657178469,
+      "corpus_count": 25268
+    },
+    {
+      "word": "program",
+      "events": 12,
+      "coded_bytes": 24,
+      "native_bits": 46.43465899117291,
+      "corpus_count": 21819
+    },
+    {
+      "word": "pope",
+      "events": 16,
+      "coded_bytes": 47,
+      "native_bits": 61.627723132725805,
+      "corpus_count": 15074
+    },
+    {
+      "word": "questions",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 42.01635621068999,
+      "corpus_count": 5324
+    },
+    {
+      "word": "java",
+      "events": 20,
+      "coded_bytes": 59,
+      "native_bits": 76.10617053555325,
+      "corpus_count": 5366
+    },
+    {
+      "word": "liberation",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 41.85005435766652,
+      "corpus_count": 3154
+    },
+    {
+      "word": "green",
+      "events": 13,
+      "coded_bytes": 35,
+      "native_bits": 48.6257932302542,
+      "corpus_count": 21245
+    },
+    {
+      "word": "johann",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 33.563444449566305,
+      "corpus_count": 4931
+    },
+    {
+      "word": "eigenvalue",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 29.038053959608078,
+      "corpus_count": 179
+    },
+    {
+      "word": "natural",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 36.265890029259026,
+      "corpus_count": 21046
+    },
+    {
+      "word": "al",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 39.47005495149642,
+      "corpus_count": 25988
+    },
+    {
+      "word": "people",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 32.18163603171706,
+      "corpus_count": 132830
+    },
+    {
+      "word": "republic",
+      "events": 16,
+      "coded_bytes": 48,
+      "native_bits": 56.53442382393405,
+      "corpus_count": 28503
+    },
+    {
+      "word": "n",
+      "events": 9,
+      "coded_bytes": 13,
+      "native_bits": 31.759614448063076,
+      "corpus_count": 103759
+    },
+    {
+      "word": "project",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 28.07233007857576,
+      "corpus_count": 20147
+    },
+    {
+      "word": "telecommunications",
+      "events": 9,
+      "coded_bytes": 32,
+      "native_bits": 31.540403961669654,
+      "corpus_count": 2524
+    },
+    {
+      "word": "nuclear",
+      "events": 21,
+      "coded_bytes": 58,
+      "native_bits": 73.45836743852124,
+      "corpus_count": 12921
+    },
+    {
+      "word": "mediawiki",
+      "events": 9,
+      "coded_bytes": 54,
+      "native_bits": 31.21297750575468,
+      "corpus_count": 468
+    },
+    {
+      "word": "magazine",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 27.54132109321654,
+      "corpus_count": 15968
+    },
+    {
+      "word": "network",
+      "events": 20,
+      "coded_bytes": 49,
+      "native_bits": 68.19659681385383,
+      "corpus_count": 21117
+    },
+    {
+      "word": "dictionary",
+      "events": 8,
+      "coded_bytes": 21,
+      "native_bits": 27.149690269492567,
+      "corpus_count": 6516
+    },
+    {
+      "word": "programming",
+      "events": 29,
+      "coded_bytes": 62,
+      "native_bits": 97.87084055552259,
+      "corpus_count": 14758
+    }
+  ],
+  "words_file_sha256": "e0afc73350fda3820db9940db57cc90f5535c317ce9fb7f20b0c4f9ac24e54ab",
+  "CPU_lane": 3,
+  "exact_WRT_character_crosscheck": true
+}

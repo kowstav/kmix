@@ -1,0 +1,106 @@
+{
+  "status": "PLANNED_NOT_EXECUTED",
+  "budget_usd": 70,
+  "spent_usd": 0,
+  "caps_usd": {
+    "compatibility": 4,
+    "matched_screens": 12,
+    "winner": 36,
+    "export": 8,
+    "reserve": 10
+  },
+  "starting_checkpoint": {
+    "file": "lex_h1_run11.tfwc2",
+    "sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "bytes": 2978039,
+    "full_training_checkpoint_and_optimizer": "NOT_YET_VERIFIED",
+    "original_transformer_gpu_parity": "FAILED_EXISTING_GATE"
+  },
+  "native_macros": {
+    "QMAT_CODEBOOK": 1,
+    "QMAT_WMAX": 21,
+    "QMAT_SMALL_W8": 1,
+    "TF_ACTQ_DYN": 1,
+    "TF_AVX512": 1,
+    "PPMD_MEM_MB": 3500,
+    "CMIX_L0_LR_SCALE": 0.6,
+    "CMIX_L1_LR_SCALE": 0.25,
+    "CMIX_L0_MIXER_MASK": "0x42e72du",
+    "FXCM_CM_DIV": 2
+  },
+  "data_contract": {
+    "production_lexical_stream": "NOT_YET_REGENERATED_AND_VERIFIED",
+    "older_fx2_transformed_bytes": 586459020,
+    "older_fx2_transformed_sha256": "a5cef5dfb651f7a12d3c6fec27dbe1e6290bde05ef1b893b24989081857fbead",
+    "full_exact_training_priors": "NOT_REGENERATED",
+    "vocabulary_size": 205,
+    "dense_float16_prior_bytes": 240448198200,
+    "shard_rows": 65536,
+    "uncompressed_prior_block_bytes": 26869760,
+    "piece_max_tokens": 131072,
+    "target_alignment": "input token g and prior row g predict token g+1; mask/reset/fallback verified against native",
+    "sampling": "whole legal pieces, all positions, token weighted; no article-prefix truncation",
+    "fresh_confirm_regions": {
+      "e": 220000000,
+      "f": 480000000
+    },
+    "fresh_region_scope": "older FX2 stream, cold native tests; not a warm full-stream comparison",
+    "older_fx2_inverse": "PASS_FULL_1B_SHA256",
+    "exact_prior_probe": {
+      "rows": 262144,
+      "raw_bytes": 107479040,
+      "raw_zstd9_bytes": 50901611,
+      "all_48_exact_roundtrips": true,
+      "whole_stream_ratio_not_guaranteed": true
+    }
+  },
+  "fidelity_gates": {
+    "mean_absolute_target_bits_max": 0.005,
+    "max_absolute_target_bits_max": 0.1,
+    "mean_native_to_gpu_KL_bits_max": 1e-05,
+    "max_probability_difference_max": 0.001,
+    "zero_update_native_archive_and_cost": "BIT_EXACT_REQUIRED",
+    "native_candidate_independent_decode": "BIT_EXACT_REQUIRED"
+  },
+  "control_training": {
+    "effective_global_useful_targets_per_update": 1048576,
+    "microbatch": "whole-piece packing; set by measured VRAM; weight actual masks",
+    "learning_rate_candidates": [
+      2.5e-06,
+      5e-06
+    ],
+    "warmup_updates": 8,
+    "control_total_updates": 32,
+    "export_updates": [
+      0,
+      8,
+      16,
+      32
+    ],
+    "codebook": "freeze",
+    "scale_updates": "freeze initial control, then separate tested factor",
+    "optimizer": "compatible original matrix/vector partition; restore moments if available, otherwise documented conservative fresh-state control",
+    "gradient_norm_clip_new_registered_choice": 1.0,
+    "lambda_candidates_conditional": [
+      0,
+      0.3,
+      1
+    ],
+    "rate_units": "bits; actual production-container copy count2; multiply by ln2 if CE is nats",
+    "winner_schedule": "N=floor(3600*affordable_hours*measured_useful_targets_per_second/2^20); screened LR first80%, cosine to0.1LR final20%; checkpoint<=32updates/30min"
+  },
+  "candidate_selection": "actual paired native payload plus duplicated container plus program/assets; GPU loss alone insufficient",
+  "rental": "NO_ACCOUNT_OR_PAID_INSTANCE_USED",
+  "live_offer": "NOT_QUOTED",
+  "stop_conditions": [
+    "F0 identity failure",
+    "F1 representative continuation drifts",
+    "native confirmation loses",
+    "package or CPU/RAM gate fails",
+    "next interval exceeds approved cap"
+  ],
+  "goal": "managed Goal usageLimited; not resumed or mutated; this work follows explicit human continuation",
+  "guaranteed_20_percent_improvement": false,
+  "completed_no_retraining_batch": "research_round7_final_batch_summary.json",
+  "native_calibration_confirmation": "NO_PROMOTION"
+}

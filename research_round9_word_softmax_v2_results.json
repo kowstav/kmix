@@ -1,0 +1,390 @@
+{
+  "status": "COMPLETE_LEARNED_LITERAL_WORD_COMPOSER_DESCENDANT_SCREEN",
+  "pid": 2512,
+  "started": 1791311923.153003,
+  "spending_usd": 0,
+  "deletions": [],
+  "scope": "learned literal distribution, dictionary/literal gate, .5 mixture cap and learned word scale with byte-head control",
+  "rungs": [
+    {
+      "key": "byte_control_seed6906",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -106.39056078582318,
+        "gain_vs_native_bytes": 255.06918496358523,
+        "Q16_sha256": "390a3eb2d5681cf342d07d020f537c1396289a99ed2c6591ed7aaeabfae4389a",
+        "wall_seconds": 22.61688283100011
+      },
+      "training_seconds_this_rung": 23.93504459399992,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141198,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/byte_control_seed6906_step128.pt",
+      "checkpoint_sha256": "d708e9f151ebd50d69ea039a4518b9c9e39b44373a132bbf56c96a4e4903d455"
+    },
+    {
+      "key": "static_rank_seed6906",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -110.81830501508149,
+        "gain_vs_native_bytes": 250.64144073432422,
+        "Q16_sha256": "bda2dca26a83445658bf8e57be5ff191e3940bd58043510ae014cef92de7b23a",
+        "wall_seconds": 38.11390895099976
+      },
+      "training_seconds_this_rung": 39.47840690800149,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141277,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/static_rank_seed6906_step128.pt",
+      "checkpoint_sha256": "c41cffb19f439ee64b1dce242a5c83c82ff94db5444fa45a53ef5b2c97238909"
+    },
+    {
+      "key": "spelling_seed6906",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -110.45309793615512,
+        "gain_vs_native_bytes": 251.0066478132532,
+        "Q16_sha256": "970f29904f10859ed7ed0f1f1f45e4f9befc2973f308b9d4b912049a5ecbe18f",
+        "wall_seconds": 48.83189441899958
+      },
+      "training_seconds_this_rung": 50.41138153299835,
+      "parameters": 20656,
+      "zlib9_state_bytes": 163279,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/spelling_seed6906_step128.pt",
+      "checkpoint_sha256": "42facd3ac032bd4f9c111ca45baeab12828a3f0758cee6510f10e9dddd47f38f"
+    },
+    {
+      "key": "word_embedding_seed6906",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -115.4193468479017,
+        "gain_vs_native_bytes": 246.04039890150588,
+        "Q16_sha256": "a1775623094ce150acc31175bf6f5027abd16d03f5ad83797d713e16b10b2f3d",
+        "wall_seconds": 40.26271940299921
+      },
+      "training_seconds_this_rung": 41.48587889999908,
+      "parameters": 1439172,
+      "zlib9_state_bytes": 5419100,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/word_embedding_seed6906_step128.pt",
+      "checkpoint_sha256": "8895acfee2805822eed1e940c5106378c96211acc45c0e015efa390f3630c22a"
+    },
+    {
+      "key": "random_basis_seed6906",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -110.15523320892494,
+        "gain_vs_native_bytes": 251.30451254048336,
+        "Q16_sha256": "293d24469048f4f547b359fdb1431252690834a944a84ce59452347ee1bb2b85",
+        "wall_seconds": 38.34603661499932
+      },
+      "training_seconds_this_rung": 39.64679797400095,
+      "parameters": 14692,
+      "zlib9_state_bytes": 5422432,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/random_basis_seed6906_step128.pt",
+      "checkpoint_sha256": "ba8572d17b70f1f93ee039876fcbf37293202402560a6f9932c4b060d72a34e6"
+    },
+    {
+      "key": "byte_control_seed6907",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -113.33439822835588,
+        "gain_vs_native_bytes": 248.12534752105253,
+        "Q16_sha256": "d1499875f3eab62d9705d78cc7cb397e865abe61383296964da4d525a1a43dd1",
+        "wall_seconds": 22.020183653999993
+      },
+      "training_seconds_this_rung": 23.0881997280012,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141182,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/byte_control_seed6907_step128.pt",
+      "checkpoint_sha256": "5bdd641153d9f602c7502c497ccb7adc054deb3c3c6135348f5ce78e9c55c22d"
+    },
+    {
+      "key": "static_rank_seed6907",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -101.65247734413127,
+        "gain_vs_native_bytes": 259.80726840527547,
+        "Q16_sha256": "86ffc024a4045cdf9dda335c45bbb88b383c1beecb4625266534d38a97eb47b0",
+        "wall_seconds": 42.55602831599754
+      },
+      "training_seconds_this_rung": 43.73498219099929,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141336,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/static_rank_seed6907_step128.pt",
+      "checkpoint_sha256": "c519090f5f8c16a6c5daf54b624b661acfb400166c89ea1916497abc1458b94f"
+    },
+    {
+      "key": "spelling_seed6907",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -101.67699893343008,
+        "gain_vs_native_bytes": 259.78274681597617,
+        "Q16_sha256": "01cc9f9dae0ef8e2a826c0f2e68bb2d460f4a947fd9a90657e3d5f557a9bd261",
+        "wall_seconds": 51.083561384999484
+      },
+      "training_seconds_this_rung": 52.7517313319986,
+      "parameters": 20656,
+      "zlib9_state_bytes": 163287,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/spelling_seed6907_step128.pt",
+      "checkpoint_sha256": "75aebf0e20df7fa212fea07346d21f88bc7729e394161e8ed0ffcb66647618ef"
+    },
+    {
+      "key": "word_embedding_seed6907",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -106.7331696623255,
+        "gain_vs_native_bytes": 254.72657608708198,
+        "Q16_sha256": "2936e07bfab7c2de71dc875f4ba514b3bd08ff3408b38d32f6138f9d3a375eaa",
+        "wall_seconds": 43.78862768399995
+      },
+      "training_seconds_this_rung": 46.12278730300022,
+      "parameters": 1439172,
+      "zlib9_state_bytes": 5418752,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/word_embedding_seed6907_step128.pt",
+      "checkpoint_sha256": "6edfab4ebdec536e3a6a48335718e969379fe8129525664bb2691a8fd7eb0a09"
+    },
+    {
+      "key": "random_basis_seed6907",
+      "step": 128,
+      "development": {
+        "gain_vs_adaptive_bytes": -102.62085485098812,
+        "gain_vs_native_bytes": 258.8388908984205,
+        "Q16_sha256": "924a7783b7ff4600e5078d7d1da99dfcee15c81b277a63aa5da44382538a36cc",
+        "wall_seconds": 45.25833128300292
+      },
+      "training_seconds_this_rung": 47.54284777100111,
+      "parameters": 14692,
+      "zlib9_state_bytes": 5422410,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/random_basis_seed6907_step128.pt",
+      "checkpoint_sha256": "c7e723dc55db6fea6f7739a6db343b3f63d35290fce6dd719897f42c02b88d46"
+    },
+    {
+      "key": "byte_control_seed6906",
+      "step": 384,
+      "development": {
+        "gain_vs_adaptive_bytes": -25.613818225522312,
+        "gain_vs_native_bytes": 335.84592752388215,
+        "Q16_sha256": "86c53c6a998e0bdd43eeeb5e0ff43831f32c955213b62b97c846c0162b3088d6",
+        "wall_seconds": 29.3926386359999
+      },
+      "training_seconds_this_rung": 31.848143227998662,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141215,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/byte_control_seed6906_step384.pt",
+      "checkpoint_sha256": "36dde05913559ee252f7d773956a3714381fd4376a697916861cdad2d32e922b"
+    },
+    {
+      "key": "random_basis_seed6906",
+      "step": 384,
+      "development": {
+        "gain_vs_adaptive_bytes": -27.422594793942288,
+        "gain_vs_native_bytes": 334.0371509554628,
+        "Q16_sha256": "263acfbf56596b3afa7b16062f60625457346f299cacf1cf94d689d4f8ee5541",
+        "wall_seconds": 42.9423537219991
+      },
+      "training_seconds_this_rung": 46.74426945899904,
+      "parameters": 14692,
+      "zlib9_state_bytes": 5422461,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/random_basis_seed6906_step384.pt",
+      "checkpoint_sha256": "8a4d92f8b000f94f8862b1f5fdff344b1c5da4436c6e42f713c7fe9006d25fe7"
+    },
+    {
+      "key": "static_rank_seed6907",
+      "step": 384,
+      "development": {
+        "gain_vs_adaptive_bytes": -23.55148240215689,
+        "gain_vs_native_bytes": 337.9082633472481,
+        "Q16_sha256": "4a6cd19ba99e9ae9d8f35dca7a26f0ae02b39cafc8851fae9a2356716d989ce6",
+        "wall_seconds": 44.481481340000755
+      },
+      "training_seconds_this_rung": 46.8771604829999,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141330,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/static_rank_seed6907_step384.pt",
+      "checkpoint_sha256": "bf762d3e3b2af908ef6f17854ec80718100b3d2b9e31ba590c5b9d32eae51456"
+    },
+    {
+      "key": "spelling_seed6907",
+      "step": 384,
+      "development": {
+        "gain_vs_adaptive_bytes": -23.57580089739837,
+        "gain_vs_native_bytes": 337.88394485200587,
+        "Q16_sha256": "51e569d256f659719c4d293b40edf8231ff59bb17a1efa540c8c364ecb1ba2d8",
+        "wall_seconds": 52.146642466999765
+      },
+      "training_seconds_this_rung": 55.233382848000474,
+      "parameters": 20656,
+      "zlib9_state_bytes": 163355,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/spelling_seed6907_step384.pt",
+      "checkpoint_sha256": "5e4b65d83a1737271aa0206203e62a720de5919c24ff64c1fd72cd4430650c70"
+    },
+    {
+      "key": "byte_control_seed6906",
+      "step": 1152,
+      "development": {
+        "gain_vs_adaptive_bytes": -8.542377720587744,
+        "gain_vs_native_bytes": 352.9173680288194,
+        "Q16_sha256": "0bc1a65d56ae9497e796536462a94b01875a8528aeeffba5a6f97616d3d686fd",
+        "wall_seconds": 30.940064061000157
+      },
+      "training_seconds_this_rung": 41.70955846599827,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141254,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/byte_control_seed6906_step1152.pt",
+      "checkpoint_sha256": "e15855671b60622c8939623539a70b60ede0648c7a2fb9b8bae25effb0a32d8d"
+    },
+    {
+      "key": "static_rank_seed6907",
+      "step": 1152,
+      "development": {
+        "gain_vs_adaptive_bytes": -9.19975077809299,
+        "gain_vs_native_bytes": 352.25999497131784,
+        "Q16_sha256": "dd60cfe2edba2fc5ed1f3577dff50df082d1848d04c48028b974c5a3cce640b1",
+        "wall_seconds": 42.67079958999966
+      },
+      "training_seconds_this_rung": 54.56672914799856,
+      "parameters": 14692,
+      "zlib9_state_bytes": 141370,
+      "checkpoint_path": "/root/hp_round9/word_softmax_v2/static_rank_seed6907_step1152.pt",
+      "checkpoint_sha256": "519d6cc458e9bb56dd49c481f6e2368fcbcefbe9f797bd2820c6f86db2296815"
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "e",
+      "key": "byte_control_seed6906",
+      "result": {
+        "gain_vs_adaptive_bytes": -1.2988563783599958,
+        "gain_vs_native_bytes": 169.8782373550324,
+        "Q16_sha256": "a464f74fc4203d52b3a39702e730fcc4711f8f7dd37a1dfbb9a1a74f1ee21691",
+        "wall_seconds": 20.083095867001248
+      }
+    },
+    {
+      "slice": "e",
+      "key": "static_rank_seed6907",
+      "result": {
+        "gain_vs_adaptive_bytes": -0.8229162014602486,
+        "gain_vs_native_bytes": 170.35417753193147,
+        "Q16_sha256": "4a46196cf186243ad91193f05a3f3d68fb9287f49e58f69cb6c546d13563632b",
+        "wall_seconds": 25.875701603999914
+      }
+    },
+    {
+      "slice": "f",
+      "key": "byte_control_seed6906",
+      "result": {
+        "gain_vs_adaptive_bytes": -3.833101559053372,
+        "gain_vs_native_bytes": 159.61150305180672,
+        "Q16_sha256": "b9c8a587ef3252f57eb9dc91f647fa75c895be9caaa09bd0b700e28f0e5a6c28",
+        "wall_seconds": 20.46760207600164
+      }
+    },
+    {
+      "slice": "f",
+      "key": "static_rank_seed6907",
+      "result": {
+        "gain_vs_adaptive_bytes": -2.4889332203548387,
+        "gain_vs_native_bytes": 160.95567139050505,
+        "Q16_sha256": "e4abe7718af99a171df0b1e8d118a27eb29671c8cc1948ea96290609e0b0f962",
+        "wall_seconds": 25.62884768799995
+      }
+    }
+  ],
+  "scratch": "/root/hp_round9/word_softmax_v2",
+  "gpu": "Tesla T4",
+  "worker_sha256": "9bbe8985078fa34307f184edea3b53c61d1b4501695186533e968322906ba5f9",
+  "inputs": [
+    {
+      "slice": "a",
+      "raw_sha256": "7fdead751cb7dd55ccd22e259cfcdade30444dbf7cc032ee9d3d1f2ee94d3e12",
+      "native_p_sha256": "5ea6fdef8f398ce8bb0b4faae41757e6abc6b7204c35139808510abc807e9447",
+      "hidden_sha256": "0a7f4ad64af9f98b4e1275d63f2e6807a11d25ee0c8f153f8ae9ef77b0b1cf17",
+      "adaptive_Q16_sha256": "f87dde208a9f782b5c17daf693985824759baa79f67553dfca240935bd65ee9d"
+    },
+    {
+      "slice": "b",
+      "raw_sha256": "3bf4691e7e2cda667a7d6cfb24f6667ef4dc2d4e4fc1d78e7466a5752e0ab56e",
+      "native_p_sha256": "8fd6034460f15dbf629464429e327efd0f1bcb82fb60e3cc2f8c964bddb0de23",
+      "hidden_sha256": "a4d0415ab436c7725223083cd964b236549e1cdc04d800dff018baf00ca55aaf",
+      "adaptive_Q16_sha256": "545d902a8e99ec4cca21f758785be45a114dcc20b3e3718dd63f482040060a86"
+    },
+    {
+      "slice": "c",
+      "raw_sha256": "36466e2514082e359e4d5beee43d7fa5da37e9a19bc97713a3c03172238b76bc",
+      "native_p_sha256": "dd3ecc3645b6fd0ec12d85a141788a7203059729305a40ee29d1e88f88c5d106",
+      "hidden_sha256": "cf9e66f8943add363c6c3721a95613f5b7e12c2767f9fde250796ee000f8f92b",
+      "adaptive_Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83"
+    },
+    {
+      "slice": "d",
+      "raw_sha256": "ddf4bd678c17c48a7346658c4e4fa62ec8628956f977a54b44f1efb1e02dc149",
+      "native_p_sha256": "09f8f6c4b9a63ec992d2611189d1910bab1f60c394818b67cdadc046977c4716",
+      "hidden_sha256": "3a8e8a102c1a47b0fdcb6211ef77f8f3462b7ad360c9d6f9d7d070e6808198fa",
+      "adaptive_Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365"
+    },
+    {
+      "slice": "e",
+      "raw_sha256": "891954b722e0af0a027ff32e057b511ab47a60550f27af87d523ceeb16a7cd55",
+      "native_p_sha256": "08a21d2a695b26b9b3107fb8c062d911db478335fdaa421205857a17f4b39bef",
+      "hidden_sha256": "737d90877a96eaf10f6a000d915eb8528278d109f0e45c72cc20aab759b4475d",
+      "adaptive_Q16_sha256": "851a74ed4f0244c5610c024a2427c8fbb896ec6ddb4cb2866848359096d36c1c"
+    },
+    {
+      "slice": "f",
+      "raw_sha256": "2bfce9258f2950c3e9edfa1d4a60974a5eae565e7159e477bf5ef2376796a454",
+      "native_p_sha256": "044b286a4f1671c6f157a36197408f36ab16f8676ff2b7707e88f355bfa01495",
+      "hidden_sha256": "ae67524a2976c927ce22cc2ed97007854c7130d69b290d2a892b622e87414cb8",
+      "adaptive_Q16_sha256": "60c2ca31bb9e53acdd7ad768fb666f4a6959c79d0d9d084dfd5557c323ebdbe3"
+    }
+  ],
+  "contract": {
+    "arms": [
+      "byte_control",
+      "static_rank",
+      "spelling",
+      "word_embedding",
+      "random_basis"
+    ],
+    "seeds": [
+      6906,
+      6907
+    ],
+    "rungs": [
+      128,
+      384,
+      1152
+    ],
+    "selection": "CD only; best2/seed after128, best1/seed after384; EF fit-held-out confirmation",
+    "batch_bytes": 128,
+    "objective": "ordinary full bit loss; frozen causal adaptive native Q16 reference",
+    "literal": "learned normalized256byte softmax, positive support",
+    "word": "exact44515normalized code-tree word distribution; learned bounded temperature and Zipf exponent",
+    "gate": "learned dictionary/literal gate and .5cap native/expert gate, before-target hidden only",
+    "unimplemented": "native CPU integration, production framing, fullwarm/package, exhaustive architectures"
+  },
+  "nonzero_future_prefix_and_zero_identity": "PASS",
+  "stage": "stronger finite descendant complete",
+  "selections": [
+    {
+      "rung": 128,
+      "survivors": [
+        "byte_control_seed6906",
+        "random_basis_seed6906",
+        "static_rank_seed6907",
+        "spelling_seed6907"
+      ]
+    },
+    {
+      "rung": 384,
+      "survivors": [
+        "byte_control_seed6906",
+        "static_rank_seed6907"
+      ]
+    }
+  ],
+  "frozen_finalists": [
+    "byte_control_seed6906",
+    "static_rank_seed6907"
+  ],
+  "finished": 1791312744.7300622,
+  "native_or_full_package_qualified": false
+}

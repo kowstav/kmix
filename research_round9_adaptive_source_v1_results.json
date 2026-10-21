@@ -1,0 +1,412 @@
+{
+  "status": "COMPLETE_CAUSAL_SOURCE_ADAPTIVE_REPLAY",
+  "pid": 1711,
+  "started": 1791301668.2314475,
+  "scope": "causal Bayesian experts over actual native integer laws, no neural retraining",
+  "spending_usd": 0,
+  "deletions": [],
+  "development": [
+    {
+      "slice": "a",
+      "policy": {
+        "family": "two",
+        "H_bits": null,
+        "eps": 0.0
+      },
+      "result": {
+        "gain_vs_native_bytes": 48.08154724524502,
+        "gain_vs_wide_bytes": -0.12498812844569329,
+        "rounding_tax_bits": -9.606842650100589e-05,
+        "ideal_regret_vs_best_expert_bits": 1.0,
+        "zero_forgetting_marginal_identity_error_bits": 5.820766091346741e-11,
+        "probability_sha256": "932b3dfa56d76109a2f515e2b3c735ec204b23bac5a8686dfecbec5f1afa5443",
+        "CPU_wall_seconds": 0.4278512260007119
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "two",
+        "H_bits": 1024,
+        "eps": 0.0006766724973492622
+      },
+      "result": {
+        "gain_vs_native_bytes": 83.66812501005188,
+        "gain_vs_wide_bytes": 35.46158963636117,
+        "rounding_tax_bits": 0.31064640369731933,
+        "ideal_regret_vs_best_expert_bits": -284.0033645905787,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "05e0c618815f1ce59de49695f2fac962a95bdb616ef1fdf6c2fac93122e6de07",
+        "CPU_wall_seconds": 0.4269652210005006
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "two",
+        "H_bits": 16384,
+        "eps": 4.230545156891363e-05
+      },
+      "result": {
+        "gain_vs_native_bytes": 97.86600786913914,
+        "gain_vs_wide_bytes": 49.659472495448426,
+        "rounding_tax_bits": 1.3160443006199785,
+        "ideal_regret_vs_best_expert_bits": -398.59182536019944,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "e651237c614595b129de9da883221cba179c99ee9ad6b47f150ce2c88435de82",
+        "CPU_wall_seconds": 0.41540037100094196
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "two",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 104.443257793464,
+        "gain_vs_wide_bytes": 56.23672241977329,
+        "rounding_tax_bits": 1.4152753812959418,
+        "ideal_regret_vs_best_expert_bits": -451.3090558354743,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "a00f13901d686cc43c55665b26f62beb6fc39f9ff42b52e7916dbbf5d2a046ed",
+        "CPU_wall_seconds": 0.42316192100042826
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": null,
+        "eps": 0.0
+      },
+      "result": {
+        "gain_vs_native_bytes": 47.905095050504315,
+        "gain_vs_wide_bytes": -0.301440323186398,
+        "rounding_tax_bits": 0.089596203120891,
+        "ideal_regret_vs_best_expert_bits": 2.321925286378246,
+        "zero_forgetting_marginal_identity_error_bits": 2.8085196390748024e-06,
+        "probability_sha256": "2a2b816e120034e421d195bd3ae78aaf7a8a523d4e966789f6a05cc4155ee02f",
+        "CPU_wall_seconds": 0.5941114620000008
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 1024,
+        "eps": 0.0006766724973492622
+      },
+      "result": {
+        "gain_vs_native_bytes": 106.71014013267268,
+        "gain_vs_wide_bytes": 58.503604758981965,
+        "rounding_tax_bits": 1.5305573908262886,
+        "ideal_regret_vs_best_expert_bits": -469.55939655867405,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "7ab235f522e7b4b0af7c009cf459f392fd598efc058f9ca3fe9a5026a729d747",
+        "CPU_wall_seconds": 0.5921981320007035
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 16384,
+        "eps": 4.230545156891363e-05
+      },
+      "result": {
+        "gain_vs_native_bytes": 142.21820856164413,
+        "gain_vs_wide_bytes": 94.01167318795342,
+        "rounding_tax_bits": -0.11482019192771986,
+        "ideal_regret_vs_best_expert_bits": -751.9785664076917,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "7e8802fd18db84dffcf4cdd19aa7283a223246393ad7f98e4c32f423a4536f72",
+        "CPU_wall_seconds": 0.5825424820013723
+      }
+    },
+    {
+      "slice": "a",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 154.48320529909688,
+        "gain_vs_wide_bytes": 106.27666992540617,
+        "rounding_tax_bits": 2.0764283513417467,
+        "ideal_regret_vs_best_expert_bits": -852.2897888505831,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "f87dde208a9f782b5c17daf693985824759baa79f67553dfca240935bd65ee9d",
+        "CPU_wall_seconds": 0.589140703999874
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "two",
+        "H_bits": null,
+        "eps": 0.0
+      },
+      "result": {
+        "gain_vs_native_bytes": 82.14681515270786,
+        "gain_vs_wide_bytes": -0.12500018502760213,
+        "rounding_tax_bits": -5.438923835754395e-07,
+        "ideal_regret_vs_best_expert_bits": 1.0000000002328306,
+        "zero_forgetting_marginal_identity_error_bits": 2.3283064365386963e-10,
+        "probability_sha256": "57ff5cf6d5eae23d85e9e834c5ef044b7ae79992878002f37c8bda3b62cbc426",
+        "CPU_wall_seconds": 0.43058153099991614
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "two",
+        "H_bits": 1024,
+        "eps": 0.0006766724973492622
+      },
+      "result": {
+        "gain_vs_native_bytes": 104.11391111894045,
+        "gain_vs_wide_bytes": 21.84209578120499,
+        "rounding_tax_bits": -0.4196545399026945,
+        "ideal_regret_vs_best_expert_bits": -174.3171137336176,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "2ab391da6ed79f8a4a32d004bef2f00c29d4eaca2a4dc50fc1ce03033d53a663",
+        "CPU_wall_seconds": 0.44105995499921846
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "two",
+        "H_bits": 16384,
+        "eps": 4.230545156891363e-05
+      },
+      "result": {
+        "gain_vs_native_bytes": 117.44823066670506,
+        "gain_vs_wide_bytes": 35.1764153289696,
+        "rounding_tax_bits": -0.16777328320313245,
+        "ideal_regret_vs_best_expert_bits": -281.243551372434,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "798d9d513a62fadcda879bf6cc11320b6003a439a69af4c37e5db913d9534e9c",
+        "CPU_wall_seconds": 0.443865174000166
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "two",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 117.49915580736706,
+        "gain_vs_wide_bytes": 35.2273404696316,
+        "rounding_tax_bits": -0.27357965405099094,
+        "ideal_regret_vs_best_expert_bits": -281.5451461268822,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "91a0b8d871a19318b184e8e7709363f561317e36d4577d411f2df1966c0ff15b",
+        "CPU_wall_seconds": 0.4429815019993839
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": null,
+        "eps": 0.0
+      },
+      "result": {
+        "gain_vs_native_bytes": 81.97758130551665,
+        "gain_vs_wide_bytes": -0.29423403221881017,
+        "rounding_tax_bits": 0.03194120107218623,
+        "ideal_regret_vs_best_expert_bits": 2.321929032797925,
+        "zero_forgetting_marginal_identity_error_bits": 9.379582479596138e-07,
+        "probability_sha256": "99c9d8a90fa234efa642dbf91adfd69ed9f6953fb5e09c2592d2bbec9ad8bbb9",
+        "CPU_wall_seconds": 0.628310080999654
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 1024,
+        "eps": 0.0006766724973492622
+      },
+      "result": {
+        "gain_vs_native_bytes": 147.2514841666998,
+        "gain_vs_wide_bytes": 64.97966882896435,
+        "rounding_tax_bits": -0.45103593659587204,
+        "ideal_regret_vs_best_expert_bits": -519.3863167189993,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "3f0a92d61c4e72e4e88c5803cda65e2089fafd62e368acfded041e8bac19bc18",
+        "CPU_wall_seconds": 0.6338190309998026
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 16384,
+        "eps": 4.230545156891363e-05
+      },
+      "result": {
+        "gain_vs_native_bytes": 171.67668069219508,
+        "gain_vs_wide_bytes": 89.40486535445962,
+        "rounding_tax_bits": 0.2150246654637158,
+        "ideal_regret_vs_best_expert_bits": -715.453949525021,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "efa05c934cf700df7288176035cbe0cfab9b4e1c5745195829ee0d08222b5469",
+        "CPU_wall_seconds": 0.6830794340003195
+      }
+    },
+    {
+      "slice": "b",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 173.88193630549358,
+        "gain_vs_wide_bytes": 91.61012096775812,
+        "rounding_tax_bits": 0.22651462571229786,
+        "ideal_regret_vs_best_expert_bits": -733.1074843916576,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "545d902a8e99ec4cca21f758785be45a114dcc20b3e3718dd63f482040060a86",
+        "CPU_wall_seconds": 0.6349009090008622
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "c",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 174.80338522637612,
+        "gain_vs_wide_bytes": 66.6150561455579,
+        "rounding_tax_bits": 0.1331654986133799,
+        "ideal_regret_vs_best_expert_bits": -429.55974662152585,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "CPU_wall_seconds": 0.6055638769994403
+      }
+    },
+    {
+      "slice": "d",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 186.65635988544454,
+        "gain_vs_wide_bytes": 59.76739229045597,
+        "rounding_tax_bits": -5.494773702899693,
+        "ideal_regret_vs_best_expert_bits": 1.8278021325968439,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "CPU_wall_seconds": 0.5264143429994874
+      }
+    },
+    {
+      "slice": "e",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 171.17709341965383,
+        "gain_vs_wide_bytes": 61.25038064850378,
+        "rounding_tax_bits": -0.5633854574989527,
+        "ideal_regret_vs_best_expert_bits": -363.39471393451095,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "851a74ed4f0244c5610c024a2427c8fbb896ec6ddb4cb2866848359096d36c1c",
+        "CPU_wall_seconds": 0.6004548580003757
+      }
+    },
+    {
+      "slice": "f",
+      "policy": {
+        "family": "scaled5",
+        "H_bits": 262144,
+        "eps": 2.6441431586476938e-06
+      },
+      "result": {
+        "gain_vs_native_bytes": 163.44460414683272,
+        "gain_vs_wide_bytes": 119.53366261530027,
+        "rounding_tax_bits": 1.1978944750735536,
+        "ideal_regret_vs_best_expert_bits": -957.4671956417151,
+        "zero_forgetting_marginal_identity_error_bits": null,
+        "probability_sha256": "60c2ca31bb9e53acdd7ad768fb666f4a6959c79d0d9d084dfd5557c323ebdbe3",
+        "CPU_wall_seconds": 0.5583742689996143
+      }
+    }
+  ],
+  "worker_sha256": "eb3403206676897c6c4f56084fee6352345ef2fbc86e75eee298d057ddd1319c",
+  "policy_definitions": [
+    {
+      "family": "two",
+      "H_bits": null,
+      "eps": 0.0
+    },
+    {
+      "family": "two",
+      "H_bits": 1024,
+      "eps": 0.0006766724973492622
+    },
+    {
+      "family": "two",
+      "H_bits": 16384,
+      "eps": 4.230545156891363e-05
+    },
+    {
+      "family": "two",
+      "H_bits": 262144,
+      "eps": 2.6441431586476938e-06
+    },
+    {
+      "family": "scaled5",
+      "H_bits": null,
+      "eps": 0.0
+    },
+    {
+      "family": "scaled5",
+      "H_bits": 1024,
+      "eps": 0.0006766724973492622
+    },
+    {
+      "family": "scaled5",
+      "H_bits": 16384,
+      "eps": 4.230545156891363e-05
+    },
+    {
+      "family": "scaled5",
+      "H_bits": 262144,
+      "eps": 2.6441431586476938e-06
+    }
+  ],
+  "contract": {
+    "expert_update": "after observed bit using integer expert outcome probabilities, fixed-order FP64 posterior then fixed-share",
+    "state_reset": "only start of cold slice; no future boundary/oracle routing",
+    "price": "policy selector3bits, coefficients24B/copy for scaled5 law; native executable delta unmeasured",
+    "development": "A/B, confirmation C/D/E/F viewed by other branches; fit-held-out only",
+    "finite_family": "8 policies; not an optimum for all memory/TTL laws"
+  },
+  "stage": "adaptive replay complete; actual native coder qualification remains open",
+  "future_target_and_expert_prefix_noninterference": "PASS",
+  "frozen_policy_before_confirmation": {
+    "family": "scaled5",
+    "H_bits": 262144,
+    "eps": 2.6441431586476938e-06
+  },
+  "finished": 1791301685.6185477,
+  "native_integration": false,
+  "all96_exhausted": false
+}

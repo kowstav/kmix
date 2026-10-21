@@ -1,0 +1,265 @@
+{
+  "status": "TERMINAL_WAVE_SNAPSHOT",
+  "wave": "joint-b",
+  "started": 1791607609.6486576,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-guard-match-confirm-b-v1",
+      "state": "COMPLETE",
+      "observed": 1791607610.9262187,
+      "files": [
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/manifest.json",
+          "bytes": 12820,
+          "sha256": "749eb71e804261c06a6ba735f04e74befdce00e23a1f66c0b8f41871a0687eef"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_base.json",
+          "bytes": 1158,
+          "sha256": "fa224820919f0405663911f27b935470d05e2f02e1f75d2517eb2e88eada06c0"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_base_archive.cmx",
+          "bytes": 676329,
+          "sha256": "64bda5137a0e44b29ec929b6947c906bdae43e71ad3cb15f8abc4480e83da41b"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_base_decode.log",
+          "bytes": 774508,
+          "sha256": "e8bffd24d77d02f4313b60734a2176fe549ce7a0b3ed87695ee3bddcb6bf0747"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_base_encode.log",
+          "bytes": 774548,
+          "sha256": "6fabc1ce346b374f9be806622db4dbc90bef2a7658e444246c90ee80c97de888"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_match.json",
+          "bytes": 1165,
+          "sha256": "770ebfb9fd4a1ecbd5aefce8742b89ac4c34c54bb8a6df21e4809e493417896d"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_match_archive.cmx",
+          "bytes": 676346,
+          "sha256": "4da2d16bde5f1d06c313ca74ef37c0fd56c4b888511d7fc473d414d94eaab1a8"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_match_decode.log",
+          "bytes": 774508,
+          "sha256": "e0692d0c29b5eccc6cc56efd18a986b623b5c8aa76fa04373b55a02aba29945f"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_09_guard_match_encode.log",
+          "bytes": 774548,
+          "sha256": "1d58ab491a1e5a04491a1a10952e6f3f120fa9427f4d941109b39478d35eb293"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_base.json",
+          "bytes": 1161,
+          "sha256": "f00014fbec341945b41cd0da831c1bc50a5c5e282a360b538ff3ed13d763ec0e"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_base_archive.cmx",
+          "bytes": 644359,
+          "sha256": "878af05fb138ef7b84c42a143f81fc37e382a3dcb2767ec5a2d229f70c2af972"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_base_decode.log",
+          "bytes": 774508,
+          "sha256": "6bda3908e1a0329b3fcbac60f07da592e9ba71046e3b98b8b4482cd01a728ec0"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_base_encode.log",
+          "bytes": 774548,
+          "sha256": "f4931dc874c7edf55cc826d4c14b9f590697b40c5b569ab0a022dbeb6b9aaa76"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_match.json",
+          "bytes": 1168,
+          "sha256": "e13884787aa46536cd70b800227512d2839dd5c7cb500b9e39d5df9abc5eec3f"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_match_archive.cmx",
+          "bytes": 644374,
+          "sha256": "c8bf5c072f5e40f0331821d857a9da60bf5f63c138bf1d8d7dcc2724261ecc6e"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_match_decode.log",
+          "bytes": 774508,
+          "sha256": "f175dd59eb6a57f80a816b80e5d874cbfe405fb0d2b84ff764cd11091266723e"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_11_guard_match_encode.log",
+          "bytes": 774548,
+          "sha256": "41b5dc6e6f4c56923e90675325493bc05d56bd009b2b0989e66671a943aaee0f"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_base.json",
+          "bytes": 1159,
+          "sha256": "5674b461d7f3719ae0c317a4174681f1880da2e2c41528f2ef564e3630c2061e"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_base_archive.cmx",
+          "bytes": 556374,
+          "sha256": "2cae30e505f0156da4986ef3b9b7904a7bb6c9b8fa3451818e5a638b7b0bfd06"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_base_decode.log",
+          "bytes": 774508,
+          "sha256": "17f29b33d30ab61d8b0f8a439f4e9346a292718bae5df97fca3618b2146c9519"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_base_encode.log",
+          "bytes": 774548,
+          "sha256": "c884f301e1154a0dbcf47f8a771aefddfbf42ea07133014b9dee8ce0354a0141"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_match.json",
+          "bytes": 1165,
+          "sha256": "95d9f7a87c8913ad9819fde23186d7d843ae44fa8b5f2d71af69c19ea808a7cc"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_match_archive.cmx",
+          "bytes": 556383,
+          "sha256": "fda9b643718829de9b2003bd90a6badcfd359e8e6d1ff4bb636575294fe3f9cc"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_match_decode.log",
+          "bytes": 774508,
+          "sha256": "fa1c62a0cbbcdd539f8138b94e5c95c13303162b9bc6ca39f36c9f6c992e0e67"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_13_guard_match_encode.log",
+          "bytes": 774548,
+          "sha256": "2b43009f1cc69704d0bfd761ead483fc692d897bd1c7063fd1a0fb752e2ff36c"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_base.json",
+          "bytes": 1167,
+          "sha256": "7e90ec473ffd40cec5017397a17c8621359fbb2282dd44e22cbde906b0fb4c29"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_base_archive.cmx",
+          "bytes": 344232,
+          "sha256": "814d4ae4132910514bd858b793f8b66bbd979afbe4792528494630dfc5ec7bb4"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_base_decode.log",
+          "bytes": 774508,
+          "sha256": "702febc24ded576cac8de85b5b730d9577bd696d72a5981f8ef051f306d21d12"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_base_encode.log",
+          "bytes": 774548,
+          "sha256": "c8f42cbf4edd20247bdcb51337f1aefbe4c33fa4cb48463b3a61c7b86aca6e55"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_match.json",
+          "bytes": 1168,
+          "sha256": "de5972191762bf4c1bbc98227902590b847c782363101c2a8703f2d754924f54"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_match_archive.cmx",
+          "bytes": 344237,
+          "sha256": "d49513146d0b78f3af0e56d3bbfc909b6f99e2b0dc336842e998700e916e4b9b"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_match_decode.log",
+          "bytes": 774508,
+          "sha256": "a90bdc9cdb37f5933bc566a94bf0b28a4f72a9e5434b16842a5d59c1864abe8f"
+        },
+        {
+          "path": "hutter-r14-guard-match-confirm-b-v1/guard-match/native_15_guard_match_encode.log",
+          "bytes": 774548,
+          "sha256": "907047d4cd05711344a9a7039eed5ee0b2aaace8056c9ddd1c7e4be0c7ce1f02"
+        }
+      ],
+      "listed_files": 41,
+      "pages": 1,
+      "omitted_noncompact_files": 8,
+      "experiment_status": "COMPLETE_FOUR_NATIVE_GUARD_MATCH_PAIRS",
+      "manifest_sha256": "749eb71e804261c06a6ba735f04e74befdce00e23a1f66c0b8f41871a0687eef",
+      "verified_cases": [
+        {
+          "region": 15,
+          "mode": "guard_match",
+          "sha256": "d49513146d0b78f3af0e56d3bbfc909b6f99e2b0dc336842e998700e916e4b9b",
+          "matched_files": [
+            "guard-match/native_15_guard_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 15,
+          "mode": "guard_base",
+          "sha256": "814d4ae4132910514bd858b793f8b66bbd979afbe4792528494630dfc5ec7bb4",
+          "matched_files": [
+            "guard-match/native_15_guard_base_archive.cmx"
+          ]
+        },
+        {
+          "region": 11,
+          "mode": "guard_match",
+          "sha256": "c8bf5c072f5e40f0331821d857a9da60bf5f63c138bf1d8d7dcc2724261ecc6e",
+          "matched_files": [
+            "guard-match/native_11_guard_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 11,
+          "mode": "guard_base",
+          "sha256": "878af05fb138ef7b84c42a143f81fc37e382a3dcb2767ec5a2d229f70c2af972",
+          "matched_files": [
+            "guard-match/native_11_guard_base_archive.cmx"
+          ]
+        },
+        {
+          "region": 13,
+          "mode": "guard_base",
+          "sha256": "2cae30e505f0156da4986ef3b9b7904a7bb6c9b8fa3451818e5a638b7b0bfd06",
+          "matched_files": [
+            "guard-match/native_13_guard_base_archive.cmx"
+          ]
+        },
+        {
+          "region": 13,
+          "mode": "guard_match",
+          "sha256": "fda9b643718829de9b2003bd90a6badcfd359e8e6d1ff4bb636575294fe3f9cc",
+          "matched_files": [
+            "guard-match/native_13_guard_match_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "guard_base",
+          "sha256": "64bda5137a0e44b29ec929b6947c906bdae43e71ad3cb15f8abc4480e83da41b",
+          "matched_files": [
+            "guard-match/native_09_guard_base_archive.cmx"
+          ]
+        },
+        {
+          "region": 9,
+          "mode": "guard_match",
+          "sha256": "4da2d16bde5f1d06c313ca74ef37c0fd56c4b888511d7fc473d414d94eaab1a8",
+          "matched_files": [
+            "guard-match/native_09_guard_match_archive.cmx"
+          ]
+        }
+      ],
+      "collection": "COLLECTED_TERMINAL_OUTPUT"
+    }
+  ],
+  "deletions": [],
+  "launches": 0,
+  "archive_verification": "hash and recorded inverse, not a new decode",
+  "collector_version": "v2-explicit-joint-confirmation-selector",
+  "selected_refs": [
+    "chaoscpp/hutter-r14-guard-match-confirm-b-v1"
+  ],
+  "compact": {
+    "path": "/kaggle/working/hp_round14/confirmation_compact_joint-b-20261010-0446.zip",
+    "bytes": 5971114,
+    "sha256": "a61e7beadeef0b6ff9382c91357265f79a58579fbea2daa3edef721b8877b181",
+    "entries": 33
+  },
+  "finished": 1791607617.4412048
+}

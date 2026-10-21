@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.0.attention.output_gate_projection.up.weight.codebook",
+  "names": [
+    "blocks.0.attention.output_gate_projection.up.weight.codebook"
+  ],
+  "label": "55469539a6367f714a3ad7fa",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 184
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 221
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 173
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 183
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 171
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 181
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 219
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 171
+    }
+  ],
+  "selected": [
+    171,
+    "plain",
+    "zstd"
+  ],
+  "archive_sha256": "c826595891ba4efbf6ea67e23cab3343cfb6938046f3949363a35a932d4300a3",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.008757000000001916,
+  "wall_seconds": 0.015331755000005387
+}

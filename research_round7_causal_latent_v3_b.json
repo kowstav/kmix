@@ -1,0 +1,367 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 437041.140536671,
+  "unscored_prefix_bytes": 782,
+  "dictionary_atoms": 473860,
+  "contract": {
+    "activation": "prefix-only previous event category and article age, BEFORE first byte",
+    "sources": "completed dictionary atoms and prefix-recognized markers",
+    "coverage": "root dictionary choice plus charged literal/syntax/case/escape fallback",
+    "normalization": "prefix-free word tree; uniform/global/causal count distributions normalize; neutral carries other outcomes",
+    "measurement": "ideal final-coder likelihood only; code/runtime/RSS/full-history not priced",
+    "neural_retraining": false,
+    "families": [
+      "rank_prior",
+      "global_rank64",
+      "topic8_fixed64_article",
+      "topic8_fixed64_decay128",
+      "topic16_fixed64_article",
+      "topic16_fixed64_decay256"
+    ],
+    "prior": "Per-topic fixed64 decoded-word-equivalent pseudocount; its normalized rank/global/hash distribution uses only prefix counts",
+    "change_from_v2": "Topic prior strength no longer grows in proportion to all global word occurrences",
+    "baseline": "Actual lexical checkpoint cold2M final native costs",
+    "all_root_choices_charged": true,
+    "decay": "127/128 or255/256 per completed dictionary atom; exponential, not hard expiry",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": []
+  },
+  "by_occurrence_class": {
+    "literal_syntax_or_case": {
+      "events": 1152690,
+      "baseline_bits": 1035744.1415959932,
+      "prequential_saving_bytes": -3.208987255799296
+    },
+    "first_in_slice": {
+      "events": 13041,
+      "baseline_bits": 179195.1035558398,
+      "prequential_saving_bytes": -0.4344611470537786
+    },
+    "article_repeat": {
+      "events": 289442,
+      "baseline_bits": 1028490.5429887986,
+      "prequential_saving_bytes": -0.6582468844284576
+    },
+    "known_first_in_article": {
+      "events": 171377,
+      "baseline_bits": 1246667.2245217576,
+      "prequential_saving_bytes": 2.763405866480152
+    },
+    "literal_escape": {
+      "events": 1226,
+      "baseline_bits": 3344.970253171865,
+      "prequential_saving_bytes": -0.0009936202381028991
+    }
+  },
+  "score": {
+    "events": 1627776,
+    "baseline_suffix_bits": 3493441.982915561,
+    "prequential_saving_bytes": -1.5392830410397043,
+    "context_count": 20,
+    "model_count": 43,
+    "unpaid_best_model_per_event_oracle_bytes": 11566.44590548753,
+    "fixed_models": [
+      {
+        "family": "neutral",
+        "alpha": 0.0,
+        "saving_bytes": 0.0
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.001,
+        "saving_bytes": -193.63495151690472
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.003,
+        "saving_bytes": -648.289400032707
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.01,
+        "saving_bytes": -2376.539326931206
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.03,
+        "saving_bytes": -7672.704872019336
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.1,
+        "saving_bytes": -27928.048096533897
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.3,
+        "saving_bytes": -97671.77110485113
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.7,
+        "saving_bytes": -334755.8974694352
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.001,
+        "saving_bytes": -181.92719218158797
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.003,
+        "saving_bytes": -607.6534734700805
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.01,
+        "saving_bytes": -2229.3885462309763
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.03,
+        "saving_bytes": -7231.082069137458
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.1,
+        "saving_bytes": -26539.195687630454
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.3,
+        "saving_bytes": -93590.5589263458
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.7,
+        "saving_bytes": -321920.352742843
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.001,
+        "saving_bytes": -178.83630328111045
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.003,
+        "saving_bytes": -599.7974185569813
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.01,
+        "saving_bytes": -2208.4868406186915
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.03,
+        "saving_bytes": -7182.750848832219
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.1,
+        "saving_bytes": -26424.974668321203
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.3,
+        "saving_bytes": -93339.47163508162
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.7,
+        "saving_bytes": -321351.95592550363
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -177.38503004429657
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -597.055792603271
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2203.149539041728
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7172.719368658161
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -26402.705896328804
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -93286.46527720474
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -321212.0974915547
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.001,
+        "saving_bytes": -176.7343948012595
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.003,
+        "saving_bytes": -594.8661117738183
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.01,
+        "saving_bytes": -2195.86947040806
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.03,
+        "saving_bytes": -7153.583151099799
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.1,
+        "saving_bytes": -26354.18268396952
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.3,
+        "saving_bytes": -93177.6516587154
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.7,
+        "saving_bytes": -320960.23686234106
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.001,
+        "saving_bytes": -175.69864709271863
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.003,
+        "saving_bytes": -592.7114130184569
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.01,
+        "saving_bytes": -2191.1288745093975
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.03,
+        "saving_bytes": -7144.026141972453
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.1,
+        "saving_bytes": -26333.663282871577
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.3,
+        "saving_bytes": -93133.68519594478
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.7,
+        "saving_bytes": -320855.63318286405
+      }
+    ]
+  },
+  "memory": {
+    "followers": {
+      "rows": 0,
+      "edges": 0
+    },
+    "associations": {
+      "rows": 0,
+      "edges": 0
+    },
+    "rows_max_per_graph": 4096,
+    "edges_max_per_graph": 262144
+  },
+  "probability_trace_sha256": "fdb750ff689aa0c9ef44eb7dcb98dbf9a2dc5459fceeae4848d4bd003d248f7b",
+  "wall_seconds": 356.84249596299924,
+  "prototype_array_bytes": 34901296,
+  "topic_learned_mass_fractions": [
+    {
+      "family": "topic8_fixed64_article",
+      "fractions": [
+        0.9977918969701067,
+        0.9987275111697733,
+        0.9981185826473168,
+        0.9992148847599505,
+        0.9991809935363462,
+        0.9991248956222611,
+        0.9984298507378295,
+        0.9992687473862316
+      ]
+    },
+    {
+      "family": "topic8_fixed64_decay128",
+      "fractions": [
+        0.9976743233674219,
+        0.9989643501692381,
+        0.9981145754186302,
+        0.9992864652379206,
+        0.9984871594932291,
+        0.9994260504102475,
+        0.9981032529381422,
+        0.9991335276485988
+      ]
+    },
+    {
+      "family": "topic16_fixed64_article",
+      "fractions": [
+        0.9974334161359099,
+        0.9972199960235966,
+        0.9974516418903201,
+        0.9951041582195977,
+        0.9982267939134679,
+        0.9954602857783906,
+        0.9960307060644447,
+        0.9986111478001122,
+        0.9983919339351223,
+        0.9988096580332394,
+        0.9984258965572456,
+        0.9980622628596935,
+        0.99785754403757,
+        0.99805781094525,
+        0.9975589121134796,
+        0.9968080045753428
+      ]
+    },
+    {
+      "family": "topic16_fixed64_decay256",
+      "fractions": [
+        0.9966921647317711,
+        0.9972867927372812,
+        0.9976366157943672,
+        0.9977724385135408,
+        0.9984375611109971,
+        0.9957160160393808,
+        0.9960080167376276,
+        0.9979634809873061,
+        0.9968556933775201,
+        0.9989836689009894,
+        0.9989537907554772,
+        0.9981455630829645,
+        0.9978044247528194,
+        0.9976895899636488,
+        0.9974415365771534,
+        0.9946225069369504
+      ]
+    }
+  ]
+}

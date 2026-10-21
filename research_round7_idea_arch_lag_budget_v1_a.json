@@ -1,0 +1,755 @@
+{
+  "raw_bytes": 2000000,
+  "unscored_prefix_bytes": 43,
+  "dictionary_atoms": 296315,
+  "baseline_suffix_bits": 1498600.0942464874,
+  "cut_tail_bytes": 0,
+  "scope": "Hypothetical perfect prediction of covered complete dictionary-code spans only; excludes selection/fallback/code and may exceed128-slot support",
+  "channels": [
+    "prefix_suffix",
+    "deletion_signature",
+    "letter_moment",
+    "matched_random",
+    "exact_word"
+  ],
+  "lag_bins": [
+    "1-4",
+    "5-16",
+    "17-64",
+    "65-256"
+  ],
+  "clock": "completed dictionary atoms",
+  "reset": "after complete decoded page marker",
+  "union_no_double_count_by_channel": [
+    {
+      "channel": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 24248,
+      "baseline_bits": 33757.64846555644
+    },
+    {
+      "channel": 0,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 402,
+      "baseline_bits": 4128.034343904816
+    },
+    {
+      "channel": 0,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 15780,
+      "baseline_bits": 52632.80871387827
+    },
+    {
+      "channel": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 31328,
+      "baseline_bits": 42785.914079324226
+    },
+    {
+      "channel": 1,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 242,
+      "baseline_bits": 2588.4461814891547
+    },
+    {
+      "channel": 1,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 13069,
+      "baseline_bits": 41008.70998825575
+    },
+    {
+      "channel": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 15311,
+      "baseline_bits": 26577.369489524048
+    },
+    {
+      "channel": 2,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 282,
+      "baseline_bits": 2877.99315674603
+    },
+    {
+      "channel": 2,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 15093,
+      "baseline_bits": 47721.81946616148
+    },
+    {
+      "channel": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 22246,
+      "baseline_bits": 23737.1702675611
+    },
+    {
+      "channel": 3,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 284,
+      "baseline_bits": 2911.4667351171374
+    },
+    {
+      "channel": 3,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 15361,
+      "baseline_bits": 45471.93650385659
+    },
+    {
+      "channel": 4,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 121244,
+      "baseline_bits": 120180.3788777465
+    }
+  ],
+  "lag_categories_overlap": [
+    {
+      "channel": 0,
+      "lag_bin": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 1211,
+      "baseline_bits": 1470.7829353865818
+    },
+    {
+      "channel": 0,
+      "lag_bin": 0,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 84,
+      "baseline_bits": 801.1295454017818
+    },
+    {
+      "channel": 0,
+      "lag_bin": 0,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 3399,
+      "baseline_bits": 5268.427365320211
+    },
+    {
+      "channel": 0,
+      "lag_bin": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 6585,
+      "baseline_bits": 5243.038586101262
+    },
+    {
+      "channel": 0,
+      "lag_bin": 1,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 86,
+      "baseline_bits": 843.088993226178
+    },
+    {
+      "channel": 0,
+      "lag_bin": 1,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 5237,
+      "baseline_bits": 12686.477444802702
+    },
+    {
+      "channel": 0,
+      "lag_bin": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 13353,
+      "baseline_bits": 16979.196329637663
+    },
+    {
+      "channel": 0,
+      "lag_bin": 2,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 167,
+      "baseline_bits": 1727.7273506801575
+    },
+    {
+      "channel": 0,
+      "lag_bin": 2,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 7879,
+      "baseline_bits": 23488.663331863005
+    },
+    {
+      "channel": 0,
+      "lag_bin": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 12080,
+      "baseline_bits": 19339.05323971293
+    },
+    {
+      "channel": 0,
+      "lag_bin": 3,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 133,
+      "baseline_bits": 1424.3660536501557
+    },
+    {
+      "channel": 0,
+      "lag_bin": 3,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 5421,
+      "baseline_bits": 23025.592571697605
+    },
+    {
+      "channel": 1,
+      "lag_bin": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 2024,
+      "baseline_bits": 3117.919449065812
+    },
+    {
+      "channel": 1,
+      "lag_bin": 0,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 62,
+      "baseline_bits": 613.5182683821768
+    },
+    {
+      "channel": 1,
+      "lag_bin": 0,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 1872,
+      "baseline_bits": 5832.267543236492
+    },
+    {
+      "channel": 1,
+      "lag_bin": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 6628,
+      "baseline_bits": 9340.236113252176
+    },
+    {
+      "channel": 1,
+      "lag_bin": 1,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 63,
+      "baseline_bits": 596.6946293003857
+    },
+    {
+      "channel": 1,
+      "lag_bin": 1,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 4855,
+      "baseline_bits": 14354.917073317163
+    },
+    {
+      "channel": 1,
+      "lag_bin": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 18304,
+      "baseline_bits": 25132.321779162565
+    },
+    {
+      "channel": 1,
+      "lag_bin": 2,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 87,
+      "baseline_bits": 904.3452287688851
+    },
+    {
+      "channel": 1,
+      "lag_bin": 2,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 8535,
+      "baseline_bits": 25840.573390660516
+    },
+    {
+      "channel": 1,
+      "lag_bin": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 19669,
+      "baseline_bits": 28037.708321807906
+    },
+    {
+      "channel": 1,
+      "lag_bin": 3,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 69,
+      "baseline_bits": 820.3483844548464
+    },
+    {
+      "channel": 1,
+      "lag_bin": 3,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 4243,
+      "baseline_bits": 15913.253511329356
+    },
+    {
+      "channel": 2,
+      "lag_bin": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 838,
+      "baseline_bits": 1840.5498086244916
+    },
+    {
+      "channel": 2,
+      "lag_bin": 0,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 25,
+      "baseline_bits": 216.29854834079742
+    },
+    {
+      "channel": 2,
+      "lag_bin": 0,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 1774,
+      "baseline_bits": 3673.152922675654
+    },
+    {
+      "channel": 2,
+      "lag_bin": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 2499,
+      "baseline_bits": 4830.960463629861
+    },
+    {
+      "channel": 2,
+      "lag_bin": 1,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 57,
+      "baseline_bits": 623.8677986338735
+    },
+    {
+      "channel": 2,
+      "lag_bin": 1,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 3523,
+      "baseline_bits": 10663.950791816402
+    },
+    {
+      "channel": 2,
+      "lag_bin": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 7231,
+      "baseline_bits": 13667.31774901494
+    },
+    {
+      "channel": 2,
+      "lag_bin": 2,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 144,
+      "baseline_bits": 1438.519239000976
+    },
+    {
+      "channel": 2,
+      "lag_bin": 2,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 7888,
+      "baseline_bits": 26629.122403840418
+    },
+    {
+      "channel": 2,
+      "lag_bin": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 10204,
+      "baseline_bits": 16997.509475468367
+    },
+    {
+      "channel": 2,
+      "lag_bin": 3,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 136,
+      "baseline_bits": 1424.6639818400145
+    },
+    {
+      "channel": 2,
+      "lag_bin": 3,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 6312,
+      "baseline_bits": 23023.276803152403
+    },
+    {
+      "channel": 3,
+      "lag_bin": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 2249,
+      "baseline_bits": 1338.8784033590928
+    },
+    {
+      "channel": 3,
+      "lag_bin": 0,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 26,
+      "baseline_bits": 263.2652721107006
+    },
+    {
+      "channel": 3,
+      "lag_bin": 0,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 2477,
+      "baseline_bits": 3572.0025119843194
+    },
+    {
+      "channel": 3,
+      "lag_bin": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 5423,
+      "baseline_bits": 4078.107968330267
+    },
+    {
+      "channel": 3,
+      "lag_bin": 1,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 64,
+      "baseline_bits": 680.6980058476329
+    },
+    {
+      "channel": 3,
+      "lag_bin": 1,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 5246,
+      "baseline_bits": 8805.885453815514
+    },
+    {
+      "channel": 3,
+      "lag_bin": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 12849,
+      "baseline_bits": 10016.326095700148
+    },
+    {
+      "channel": 3,
+      "lag_bin": 2,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 130,
+      "baseline_bits": 1350.5688198655844
+    },
+    {
+      "channel": 3,
+      "lag_bin": 2,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 7073,
+      "baseline_bits": 21427.16394774159
+    },
+    {
+      "channel": 3,
+      "lag_bin": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 10563,
+      "baseline_bits": 15797.334393949131
+    },
+    {
+      "channel": 3,
+      "lag_bin": 3,
+      "class": "first_in_slice",
+      "phase": "body",
+      "events": 131,
+      "baseline_bits": 1333.2990563511848
+    },
+    {
+      "channel": 3,
+      "lag_bin": 3,
+      "class": "known_first_in_article",
+      "phase": "body",
+      "events": 6230,
+      "baseline_bits": 23714.315624701732
+    },
+    {
+      "channel": 4,
+      "lag_bin": 0,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 42639,
+      "baseline_bits": 15065.849881345755
+    },
+    {
+      "channel": 4,
+      "lag_bin": 1,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 61762,
+      "baseline_bits": 43972.862098572135
+    },
+    {
+      "channel": 4,
+      "lag_bin": 2,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 55906,
+      "baseline_bits": 64137.9830353954
+    },
+    {
+      "channel": 4,
+      "lag_bin": 3,
+      "class": "article_repeat",
+      "phase": "body",
+      "events": 33459,
+      "baseline_bits": 49420.40053192066
+    }
+  ],
+  "graph": {
+    "dictionary_words": 44515,
+    "K": 8,
+    "posting_cap": 64,
+    "candidate_cap": 128,
+    "capped_source_words": 44317,
+    "startup_seconds": 93.74867530300025,
+    "feature_array_bytes": 13888680,
+    "graph_edges": 1144190,
+    "examples": {
+      "no": {
+        "prefix_suffix": [
+          "not",
+          "now",
+          "nor",
+          "non",
+          "note",
+          "nova",
+          "none",
+          "noun"
+        ],
+        "deletion_signature": [
+          "so",
+          "or",
+          "to",
+          "in",
+          "on",
+          "of",
+          "an",
+          "do"
+        ],
+        "letter_moments": [
+          "mono",
+          "chrono",
+          "notion",
+          "neo",
+          "on",
+          "non",
+          "finno",
+          "domino"
+        ],
+        "matched_random": [
+          "macs",
+          "waldo",
+          "copies",
+          "dhcp",
+          "but",
+          "few",
+          "aren",
+          "ordeal"
+        ]
+      },
+      "know": {
+        "prefix_suffix": [
+          "known",
+          "knows",
+          "now",
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "kernow"
+        ],
+        "deletion_signature": [
+          "knew",
+          "snow",
+          "knot",
+          "knox",
+          "known",
+          "now",
+          "knows"
+        ],
+        "letter_moments": [
+          "now",
+          "known",
+          "snow",
+          "downtown",
+          "window",
+          "own",
+          "unknown",
+          "down"
+        ],
+        "matched_random": [
+          "well",
+          "shows",
+          "codes",
+          "babylon",
+          "simple",
+          "lang",
+          "exists",
+          "draw"
+        ]
+      },
+      "now": {
+        "prefix_suffix": [
+          "know",
+          "snow",
+          "not",
+          "no",
+          "how",
+          "nor",
+          "row",
+          "non"
+        ],
+        "deletion_signature": [
+          "not",
+          "how",
+          "nor",
+          "own",
+          "new",
+          "row",
+          "non",
+          "low"
+        ],
+        "letter_moments": [
+          "know",
+          "snow",
+          "window",
+          "downtown",
+          "own",
+          "how",
+          "row",
+          "low"
+        ],
+        "matched_random": [
+          "ended",
+          "block",
+          "fixed",
+          "portugal",
+          "hold",
+          "not",
+          "ban",
+          "true"
+        ]
+      },
+      "diamond": {
+        "prefix_suffix": [
+          "divided",
+          "did",
+          "beyond",
+          "died",
+          "dialect",
+          "demand",
+          "second",
+          "diagram"
+        ],
+        "deletion_signature": [
+          "diamonds"
+        ],
+        "letter_moments": [
+          "abandoned",
+          "didn",
+          "and",
+          "addition",
+          "around",
+          "find",
+          "contained",
+          "named"
+        ],
+        "matched_random": [
+          "believed",
+          "etc",
+          "an",
+          "reference",
+          "create",
+          "pos",
+          "officially",
+          "thus"
+        ]
+      },
+      "the": {
+        "prefix_suffix": [
+          "there",
+          "these",
+          "theme",
+          "tithe",
+          "they",
+          "them",
+          "then",
+          "he"
+        ],
+        "deletion_signature": [
+          "she",
+          "ten",
+          "her",
+          "he",
+          "they",
+          "th",
+          "them",
+          "then"
+        ],
+        "letter_moments": [
+          "he",
+          "three",
+          "there",
+          "these",
+          "theme",
+          "whether",
+          "theatre",
+          "together"
+        ],
+        "matched_random": [
+          "is",
+          "soft",
+          "moving",
+          "unless",
+          "profit",
+          "return",
+          "guitar",
+          "survive"
+        ]
+      }
+    },
+    "note": "Bounded dictionary-derived neighbors; no exhaustive-search recall claim, corpus-fit edges or geometry input"
+  },
+  "wall_seconds": 152.3238556250003,
+  "prototype_peak_rss_kbytes": 303452,
+  "achieved_compression_gain": null,
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

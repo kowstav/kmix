@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-word-v1",
+      "folder": "hutter-r14-native-prune-word-v1",
+      "arm": "prune_word",
+      "main_sha256": "f1f44bbeba193b8c397d2837969bfc79ef5bc0665765d43bebe188d55529970a",
+      "workers": 4
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-match-v1",
+      "folder": "hutter-r14-native-prune-match-v1",
+      "arm": "prune_match",
+      "main_sha256": "1d39e7d93fe12e2ef8bee91fc7035aad9012ebf8dff8c45f782d18f1649d7733",
+      "workers": 4
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-prune-indirect-v1",
+      "folder": "hutter-r14-native-prune-indirect-v1",
+      "arm": "prune_indirect",
+      "main_sha256": "8902886aa36ff3434a42600853bdd37c19132c1a7481c758afd156fc3e763d18",
+      "workers": 4
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-native-output-fp32-v1",
+      "folder": "hutter-r14-native-output-fp32-v1",
+      "arm": "output_fp32",
+      "main_sha256": "01d711f492110bcaf539a5884bac2104d5b0c8319f9647175e72451c0580170d",
+      "workers": 4
+    }
+  ],
+  "source_sha256": "e110931611c3c55ab004cb92207715d22002f37b63337e6da1ba4bc8b9c6b58a"
+}

@@ -1,0 +1,105 @@
+{
+  "slice": "b",
+  "frozen_checkpoint": true,
+  "symbols": 1999999,
+  "baseline_ideal_bytes": 435607.37498503254,
+  "baseline_bits_per_symbol": 1.7424303711553157,
+  "contract": "standalone NN likelihood only, float32 GPU normalization; native final coder and package unmeasured",
+  "fixed_temperatures": [
+    {
+      "tau": 0.6,
+      "saving_bytes": -70610.36432625371,
+      "relative_gain": -0.16209634726381728
+    },
+    {
+      "tau": 0.7,
+      "saving_bytes": -32925.18895845552,
+      "relative_gain": -0.07558455354339863
+    },
+    {
+      "tau": 0.8,
+      "saving_bytes": -12733.850674671703,
+      "relative_gain": -0.02923240377899763
+    },
+    {
+      "tau": 0.9,
+      "saving_bytes": -2931.1996986326412,
+      "relative_gain": -0.006728994656560526
+    },
+    {
+      "tau": 1.0,
+      "saving_bytes": 2.1420419216156006e-08,
+      "relative_gain": 4.917368356514169e-14
+    },
+    {
+      "tau": 1.1,
+      "saving_bytes": -1962.027296724089,
+      "relative_gain": -0.004504118638467735
+    },
+    {
+      "tau": 1.2,
+      "saving_bytes": -7574.104783266375,
+      "relative_gain": -0.01738745764698456
+    },
+    {
+      "tau": 1.3,
+      "saving_bytes": -15991.615079318755,
+      "relative_gain": -0.03671107515080117
+    },
+    {
+      "tau": 1.5,
+      "saving_bytes": -39001.35211088194,
+      "relative_gain": -0.08953326860506443
+    }
+  ],
+  "prequential_mixtures": [
+    {
+      "entropy_contexts": false,
+      "saving_bytes": -0.39624060376081616,
+      "ideal_bits_per_symbol": 1.7424319561185233,
+      "neutral_regret_bound_bits": 3.169925001442312,
+      "counts": [
+        {
+          "context": 0,
+          "symbols": 1999999
+        }
+      ]
+    },
+    {
+      "entropy_contexts": true,
+      "saving_bytes": -2.548812845896464,
+      "ideal_bits_per_symbol": 1.742440566411797,
+      "neutral_regret_bound_bits": 22.189475010096185,
+      "counts": [
+        {
+          "context": 0,
+          "symbols": 972375
+        },
+        {
+          "context": 1,
+          "symbols": 274920
+        },
+        {
+          "context": 2,
+          "symbols": 163402
+        },
+        {
+          "context": 3,
+          "symbols": 228655
+        },
+        {
+          "context": 4,
+          "symbols": 287151
+        },
+        {
+          "context": 5,
+          "symbols": 73089
+        },
+        {
+          "context": 6,
+          "symbols": 407
+        }
+      ]
+    }
+  ]
+}

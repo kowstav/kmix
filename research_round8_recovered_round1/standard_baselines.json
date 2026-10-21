@@ -1,0 +1,38 @@
+[
+  {
+    "name": "zlib",
+    "input_bytes": 4096,
+    "archive_bytes": 778,
+    "bpb": 1.51953125
+  },
+  {
+    "name": "lzma",
+    "input_bytes": 4096,
+    "archive_bytes": 824,
+    "bpb": 1.609375
+  },
+  {
+    "name": "bz2",
+    "input_bytes": 4096,
+    "archive_bytes": 895,
+    "bpb": 1.748046875
+  },
+  {
+    "name": "zlib",
+    "input_bytes": 16384,
+    "archive_bytes": 5825,
+    "bpb": 2.84423828125
+  },
+  {
+    "name": "lzma",
+    "input_bytes": 16384,
+    "archive_bytes": 5628,
+    "bpb": 2.748046875
+  },
+  {
+    "name": "bz2",
+    "input_bytes": 16384,
+    "archive_bytes": 5506,
+    "bpb": 2.6884765625
+  }
+]

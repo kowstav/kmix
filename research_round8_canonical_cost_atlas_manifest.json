@@ -1,0 +1,21 @@
+{
+  "status": "FAIL",
+  "session": 355735431,
+  "started": "2026-10-06T11:54:53.729529+00:00",
+  "pid": 163,
+  "scope": "canonical cold A/B dictionary-code cost attribution and fixed causal cluster KT diagnostic; no linguistic/POS claim",
+  "confirmation_used": false,
+  "core_retraining": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "production_stream": {
+    "bytes": 587138826,
+    "sha256": "7826ff63dedd526c119dda08e6e044be8fa8f6e89a55f3d6b1f3447cdfc5c1ce"
+  },
+  "dictionary_sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a",
+  "source_sha256": "6f86961da6f7f629ee19a6a3816eb0ca70ef24a9fda4d03e2bc9bfdedf471449",
+  "slices": [],
+  "cluster_definition": "(previous_completed_atom_class in 0..4, atom_depth in 0..2, byte_bit_position in 0..7, native p1 bucket in 0..31); all assigned before current bit target",
+  "cluster_prior": ".5/.5 Krichevsky-Trofimov per cluster; global half-prior mixture of identity and this complete cluster expert",
+  "error": "AssertionError()"
+}

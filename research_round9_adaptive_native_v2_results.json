@@ -1,0 +1,123 @@
+{
+  "status": "COMPLETE_FRESH_ADAPTIVE_NATIVE_COLD_ARCHIVES",
+  "pid": 2181,
+  "started": 1791306355.2691035,
+  "scope": "correct registered float64 reference, reused G native encode, fresh H encode and exact independent decoding",
+  "spending_usd": 0,
+  "deletions": [],
+  "controls": [
+    {
+      "neutral_archive_CDF_hidden_identity": true,
+      "independent_decode_exact": true,
+      "encode_accounting": {
+        "wall_seconds": 68.63295486599964,
+        "CPU_user_seconds": 62.8473,
+        "CPU_system_seconds": 5.768926,
+        "whole_peak_RSS_KiB": 5651840,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 68.05969213299977,
+        "CPU_user_seconds": 62.296737,
+        "CPU_system_seconds": 5.744961,
+        "whole_peak_RSS_KiB": 5651864,
+        "returncode": 0
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "slice": "g",
+      "offset": 65000000,
+      "input_sha256": "54869732009648a219a1d2dcc654d735842e0cce01bbf648a56e0b557931f227",
+      "teacher_archive_bytes": 100473,
+      "candidate_archive_bytes": 100305,
+      "actual_archive_saving_bytes": 168,
+      "candidate_archive_sha256": "64428d89590528ac7aa7a7150512d5e1b71d917427572224616c565591828c8d",
+      "native_Q16_matches_frozen_replay": true,
+      "core_hidden_identity": true,
+      "independent_decode_exact": true,
+      "encode_decode_Q16_hidden_identity": true,
+      "teacher_accounting": {
+        "reused_existing_completed_native_run": true,
+        "accounting_logs": "/kaggle/working/hp_round9/adaptive_native_v1"
+      },
+      "candidate_encode_accounting": {
+        "reused_existing_completed_native_run": true,
+        "accounting_logs": "/kaggle/working/hp_round9/adaptive_native_v1"
+      },
+      "candidate_decode_accounting": {
+        "wall_seconds": 411.1462624679989,
+        "CPU_user_seconds": 401.129911,
+        "CPU_system_seconds": 8.234622,
+        "whole_peak_RSS_KiB": 6002068,
+        "returncode": 0
+      },
+      "rounding_tax_bits": 1.3207755987532437,
+      "candidate_Q16_sha256": "f2f4dc9f5f5726225518cd9a6bbedc3248cbe85eafb5101f0be9f924efa5e9bb"
+    },
+    {
+      "slice": "h",
+      "offset": 375000000,
+      "input_sha256": "431c7330c59b40506be52b5319cb101831258b1d0982f6b89d6cc7e9197fa9d6",
+      "teacher_archive_bytes": 112266,
+      "candidate_archive_bytes": 112094,
+      "actual_archive_saving_bytes": 172,
+      "candidate_archive_sha256": "673afd5e5ccacadd50278b5c9e7dc20bd68bc37a225f7eaed694f9227b9782cc",
+      "native_Q16_matches_frozen_replay": true,
+      "core_hidden_identity": true,
+      "independent_decode_exact": true,
+      "encode_decode_Q16_hidden_identity": true,
+      "teacher_accounting": {
+        "wall_seconds": 416.2029007689998,
+        "CPU_user_seconds": 404.820737,
+        "CPU_system_seconds": 10.055957,
+        "whole_peak_RSS_KiB": 5999376,
+        "returncode": 0
+      },
+      "candidate_encode_accounting": {
+        "wall_seconds": 472.26459625200005,
+        "CPU_user_seconds": 461.782341,
+        "CPU_system_seconds": 8.773784,
+        "whole_peak_RSS_KiB": 6000452,
+        "returncode": 0
+      },
+      "candidate_decode_accounting": {
+        "wall_seconds": 563.8537365859993,
+        "CPU_user_seconds": 498.831926,
+        "CPU_system_seconds": 11.214506,
+        "whole_peak_RSS_KiB": 5999432,
+        "returncode": 0
+      },
+      "rounding_tax_bits": -0.6563724135048687,
+      "candidate_Q16_sha256": "9268724e7cc9e94960dab28b46aec00bc3ffa212db54f7e9c49b1a7405ed028b"
+    }
+  ],
+  "scratch": "/root/hp_round9/adaptive_native_v2",
+  "offsets": {
+    "g": 65000000,
+    "h": 375000000
+  },
+  "full_package_qualified": false,
+  "frozen_policy": {
+    "family": "scaled5",
+    "H_bits": 262144,
+    "eps": 2.6441431586476938e-06
+  },
+  "binary": {
+    "bytes": 499008,
+    "sha256": "e04aba27434c41e9a9130496937f32b77e6cbfcd02a730a15ede00122dc6e52f",
+    "lab_delta_vs_teacher": 1904
+  },
+  "reference_repair": {
+    "dtype": "explicit FP64 multiplication of the stored FP32 feature; restores original source worker NumPy-FP64 coefficient law",
+    "previous_reference_failure_preserved": "adaptive_native_v1",
+    "native_binary_unchanged": true,
+    "G_teacher_and_candidate_reused": true,
+    "refit": false,
+    "worker_sha256": "3eeb7217d6dac9bf1d59952257b1dc7f82b74b4740e151063fbca4905db1a779"
+  },
+  "stage": "actual G/H adaptive archives verified; full/warm/package qualification remains open",
+  "finished": 1791308225.9156628,
+  "actual_GH_saving_bytes": 340
+}

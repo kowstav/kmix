@@ -1,0 +1,924 @@
+{
+  "index": 4,
+  "scored_interval": [
+    290097152,
+    291145728
+  ],
+  "native_bits": 1325213.9349778527,
+  "categories": {
+    "body_constructor": {
+      "events": 65589,
+      "coded_bytes": 75650,
+      "native_bits": 191356.56565248966
+    },
+    "body_dictionary_other": {
+      "events": 138450,
+      "coded_bytes": 366865,
+      "native_bits": 711888.5735065732
+    },
+    "body_literal_or_oov": {
+      "events": 19796,
+      "coded_bytes": 102899,
+      "native_bits": 165774.652878467
+    },
+    "metadata_word": {
+      "events": 8085,
+      "coded_bytes": 18203,
+      "native_bits": 13415.339702440426
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 484959,
+      "native_bits": 242778.80323788244
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 560,
+      "coded_bytes": 4948,
+      "native_bits": 15366.564399668947
+    },
+    "16": {
+      "events": 2796,
+      "coded_bytes": 22843,
+      "native_bits": 54961.97555881832
+    },
+    "64": {
+      "events": 6301,
+      "coded_bytes": 48277,
+      "native_bits": 96749.07817057334
+    },
+    "107": {
+      "events": 8152,
+      "coded_bytes": 59886,
+      "native_bits": 115010.22501682071
+    },
+    "128": {
+      "events": 8906,
+      "coded_bytes": 63934,
+      "native_bits": 122689.04647267424
+    },
+    "1024": {
+      "events": 25084,
+      "coded_bytes": 129450,
+      "native_bits": 263219.0448792223
+    },
+    "1392": {
+      "events": 28763,
+      "coded_bytes": 142329,
+      "native_bits": 293878.81453809235
+    },
+    "8372": {
+      "events": 66670,
+      "coded_bytes": 255902,
+      "native_bits": 543891.1707088547
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 10098,
+      "coded_bytes": 10898,
+      "native_bits": 20341.780183980707,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "in",
+      "events": 4834,
+      "coded_bytes": 5519,
+      "native_bits": 12646.79559771251,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "a",
+      "events": 3818,
+      "coded_bytes": 4170,
+      "native_bits": 12215.9516675435,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "and",
+      "events": 4075,
+      "coded_bytes": 4095,
+      "native_bits": 10602.31652707886,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "to",
+      "events": 3911,
+      "coded_bytes": 3935,
+      "native_bits": 7087.935904180165,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "of",
+      "events": 7065,
+      "coded_bytes": 7083,
+      "native_bits": 6072.142043652479,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "his",
+      "events": 1609,
+      "coded_bytes": 1765,
+      "native_bits": 5618.699150968343,
+      "corpus_count": 414734
+    },
+    {
+      "word": "on",
+      "events": 1465,
+      "coded_bytes": 1656,
+      "native_bits": 5561.525312779937,
+      "corpus_count": 629335
+    },
+    {
+      "word": "for",
+      "events": 1893,
+      "coded_bytes": 1940,
+      "native_bits": 5507.021296218969,
+      "corpus_count": 989460
+    },
+    {
+      "word": "he",
+      "events": 2236,
+      "coded_bytes": 3197,
+      "native_bits": 4888.368513026275,
+      "corpus_count": 407951
+    },
+    {
+      "word": "was",
+      "events": 2268,
+      "coded_bytes": 2273,
+      "native_bits": 4861.125348838046,
+      "corpus_count": 816835
+    },
+    {
+      "word": "as",
+      "events": 1518,
+      "coded_bytes": 1657,
+      "native_bits": 4697.70520740794,
+      "corpus_count": 859588
+    },
+    {
+      "word": "that",
+      "events": 1136,
+      "coded_bytes": 1153,
+      "native_bits": 3584.825929408893,
+      "corpus_count": 614666
+    },
+    {
+      "word": "from",
+      "events": 1725,
+      "coded_bytes": 1774,
+      "native_bits": 3570.517566499766,
+      "corpus_count": 660615
+    },
+    {
+      "word": "with",
+      "events": 852,
+      "coded_bytes": 886,
+      "native_bits": 3471.034764509648,
+      "corpus_count": 722262
+    },
+    {
+      "word": "by",
+      "events": 1026,
+      "coded_bytes": 1061,
+      "native_bits": 3429.785456243437,
+      "corpus_count": 722251
+    },
+    {
+      "word": "republican",
+      "events": 1806,
+      "coded_bytes": 5417,
+      "native_bits": 3423.642038114369,
+      "corpus_count": 15489
+    },
+    {
+      "word": "new",
+      "events": 949,
+      "coded_bytes": 2750,
+      "native_bits": 3413.9971561431885,
+      "corpus_count": 238019
+    },
+    {
+      "word": "state",
+      "events": 852,
+      "coded_bytes": 2109,
+      "native_bits": 3318.3239271640778,
+      "corpus_count": 105355
+    },
+    {
+      "word": "at",
+      "events": 630,
+      "coded_bytes": 684,
+      "native_bits": 3293.0287176230922,
+      "corpus_count": 445611
+    },
+    {
+      "word": "an",
+      "events": 603,
+      "coded_bytes": 625,
+      "native_bits": 3246.3022389113903,
+      "corpus_count": 411017
+    },
+    {
+      "word": "u",
+      "events": 998,
+      "coded_bytes": 1993,
+      "native_bits": 2827.825505547691,
+      "corpus_count": 389968
+    },
+    {
+      "word": "democratic",
+      "events": 1315,
+      "coded_bytes": 3938,
+      "native_bits": 2765.3785353899,
+      "corpus_count": 19877
+    },
+    {
+      "word": "united",
+      "events": 3126,
+      "coded_bytes": 6250,
+      "native_bits": 2612.164291897323,
+      "corpus_count": 202275
+    },
+    {
+      "word": "governor",
+      "events": 909,
+      "coded_bytes": 2428,
+      "native_bits": 2607.7786628236063,
+      "corpus_count": 18002
+    },
+    {
+      "word": "is",
+      "events": 861,
+      "coded_bytes": 869,
+      "native_bits": 2391.0818239971995,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "john",
+      "events": 771,
+      "coded_bytes": 2313,
+      "native_bits": 2370.3524198434316,
+      "corpus_count": 88421
+    },
+    {
+      "word": "senate",
+      "events": 919,
+      "coded_bytes": 2680,
+      "native_bits": 2329.5670422483236,
+      "corpus_count": 10835
+    },
+    {
+      "word": "senator",
+      "events": 615,
+      "coded_bytes": 2406,
+      "native_bits": 2091.744782359805,
+      "corpus_count": 6708
+    },
+    {
+      "word": "after",
+      "events": 625,
+      "coded_bytes": 765,
+      "native_bits": 2082.789472266566,
+      "corpus_count": 155295
+    },
+    {
+      "word": "city",
+      "events": 491,
+      "coded_bytes": 1276,
+      "native_bits": 2037.543732977938,
+      "corpus_count": 199574
+    },
+    {
+      "word": "political",
+      "events": 314,
+      "coded_bytes": 690,
+      "native_bits": 2008.3383865524083,
+      "corpus_count": 41009
+    },
+    {
+      "word": "mayor",
+      "events": 459,
+      "coded_bytes": 1132,
+      "native_bits": 1999.075973493047,
+      "corpus_count": 9531
+    },
+    {
+      "word": "president",
+      "events": 416,
+      "coded_bytes": 1171,
+      "native_bits": 1950.1482426179573,
+      "corpus_count": 46268
+    },
+    {
+      "word": "had",
+      "events": 476,
+      "coded_bytes": 477,
+      "native_bits": 1934.0615173671395,
+      "corpus_count": 215442
+    },
+    {
+      "word": "this",
+      "events": 339,
+      "coded_bytes": 463,
+      "native_bits": 1931.8069670647383,
+      "corpus_count": 346843
+    },
+    {
+      "word": "it",
+      "events": 350,
+      "coded_bytes": 431,
+      "native_bits": 1819.9353056470864,
+      "corpus_count": 549509
+    },
+    {
+      "word": "one",
+      "events": 266,
+      "coded_bytes": 294,
+      "native_bits": 1818.745428480208,
+      "corpus_count": 227098
+    },
+    {
+      "word": "during",
+      "events": 274,
+      "coded_bytes": 370,
+      "native_bits": 1798.107087790966,
+      "corpus_count": 96460
+    },
+    {
+      "word": "first",
+      "events": 344,
+      "coded_bytes": 719,
+      "native_bits": 1758.8846774678677,
+      "corpus_count": 191198
+    },
+    {
+      "word": "also",
+      "events": 401,
+      "coded_bytes": 410,
+      "native_bits": 1724.0745269912295,
+      "corpus_count": 283761
+    },
+    {
+      "word": "william",
+      "events": 446,
+      "coded_bytes": 1337,
+      "native_bits": 1704.0161291495897,
+      "corpus_count": 43269
+    },
+    {
+      "word": "campaign",
+      "events": 304,
+      "coded_bytes": 650,
+      "native_bits": 1647.7185116144828,
+      "corpus_count": 11784
+    },
+    {
+      "word": "house",
+      "events": 686,
+      "coded_bytes": 2034,
+      "native_bits": 1600.9483931702562,
+      "corpus_count": 45394
+    },
+    {
+      "word": "election",
+      "events": 677,
+      "coded_bytes": 1406,
+      "native_bits": 1565.1707676541992,
+      "corpus_count": 23523
+    },
+    {
+      "word": "which",
+      "events": 371,
+      "coded_bytes": 371,
+      "native_bits": 1556.1524001997896,
+      "corpus_count": 357281
+    },
+    {
+      "word": "when",
+      "events": 266,
+      "coded_bytes": 323,
+      "native_bits": 1549.254443217069,
+      "corpus_count": 135170
+    },
+    {
+      "word": "law",
+      "events": 313,
+      "coded_bytes": 697,
+      "native_bits": 1533.7894696276635,
+      "corpus_count": 46931
+    },
+    {
+      "word": "not",
+      "events": 401,
+      "coded_bytes": 404,
+      "native_bits": 1527.1386955622584,
+      "corpus_count": 250788
+    },
+    {
+      "word": "has",
+      "events": 426,
+      "coded_bytes": 427,
+      "native_bits": 1489.229139573872,
+      "corpus_count": 260413
+    },
+    {
+      "word": "california",
+      "events": 550,
+      "coded_bytes": 1648,
+      "native_bits": 1473.2789960876107,
+      "corpus_count": 39734
+    },
+    {
+      "word": "american",
+      "events": 434,
+      "coded_bytes": 1273,
+      "native_bits": 1465.0800543413498,
+      "corpus_count": 249128
+    },
+    {
+      "word": "two",
+      "events": 206,
+      "coded_bytes": 221,
+      "native_bits": 1370.2018086835742,
+      "corpus_count": 174865
+    },
+    {
+      "word": "democrat",
+      "events": 1023,
+      "coded_bytes": 4091,
+      "native_bits": 1348.7490007649176,
+      "corpus_count": 4708
+    },
+    {
+      "word": "national",
+      "events": 240,
+      "coded_bytes": 641,
+      "native_bits": 1322.8518421016634,
+      "corpus_count": 76544
+    },
+    {
+      "word": "who",
+      "events": 353,
+      "coded_bytes": 712,
+      "native_bits": 1306.796368391253,
+      "corpus_count": 233489
+    },
+    {
+      "word": "public",
+      "events": 191,
+      "coded_bytes": 433,
+      "native_bits": 1302.853828519117,
+      "corpus_count": 53032
+    },
+    {
+      "word": "george",
+      "events": 327,
+      "coded_bytes": 981,
+      "native_bits": 1292.7716580885462,
+      "corpus_count": 39320
+    },
+    {
+      "word": "james",
+      "events": 279,
+      "coded_bytes": 836,
+      "native_bits": 1239.5160884237848,
+      "corpus_count": 39103
+    },
+    {
+      "word": "but",
+      "events": 294,
+      "coded_bytes": 313,
+      "native_bits": 1237.7934689223766,
+      "corpus_count": 213851
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "mayoralty",
+      "events": 11,
+      "coded_bytes": 58,
+      "native_bits": 171.3035489777103,
+      "corpus_count": 48
+    },
+    {
+      "word": "taxpayer",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 153.60391056910157,
+      "corpus_count": 157
+    },
+    {
+      "word": "trmpac",
+      "events": 8,
+      "coded_bytes": 53,
+      "native_bits": 122.66483372822404,
+      "corpus_count": 8
+    },
+    {
+      "word": "fundraising",
+      "events": 11,
+      "coded_bytes": 34,
+      "native_bits": 161.5298963263631,
+      "corpus_count": 309
+    },
+    {
+      "word": "sen",
+      "events": 26,
+      "coded_bytes": 102,
+      "native_bits": 376.7672764225863,
+      "corpus_count": 1075
+    },
+    {
+      "word": "bipartisan",
+      "events": 12,
+      "coded_bytes": 38,
+      "native_bits": 169.63165505230427,
+      "corpus_count": 102
+    },
+    {
+      "word": "earliest",
+      "events": 8,
+      "coded_bytes": 19,
+      "native_bits": 112.57085583359003,
+      "corpus_count": 5697
+    },
+    {
+      "word": "nationally",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 125.57332995906472,
+      "corpus_count": 999
+    },
+    {
+      "word": "competition",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 125.46138751506805,
+      "corpus_count": 6616
+    },
+    {
+      "word": "governing",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 125.39438440650702,
+      "corpus_count": 2506
+    },
+    {
+      "word": "balanced",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 124.2892509996891,
+      "corpus_count": 1246
+    },
+    {
+      "word": "openly",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 136.42569136619568,
+      "corpus_count": 1488
+    },
+    {
+      "word": "clean",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 119.74468625709414,
+      "corpus_count": 2510
+    },
+    {
+      "word": "gop",
+      "events": 23,
+      "coded_bytes": 92,
+      "native_bits": 303.4915808807127,
+      "corpus_count": 214
+    },
+    {
+      "word": "whites",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 118.55020723119378,
+      "corpus_count": 1396
+    },
+    {
+      "word": "winston",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 104.93352597672492,
+      "corpus_count": 1879
+    },
+    {
+      "word": "push",
+      "events": 9,
+      "coded_bytes": 32,
+      "native_bits": 117.64640259603038,
+      "corpus_count": 2091
+    },
+    {
+      "word": "minor",
+      "events": 11,
+      "coded_bytes": 25,
+      "native_bits": 143.55464356718585,
+      "corpus_count": 11705
+    },
+    {
+      "word": "rotary",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 103.93534649489447,
+      "corpus_count": 698
+    },
+    {
+      "word": "london",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 103.79734615795314,
+      "corpus_count": 39813
+    },
+    {
+      "word": "hearing",
+      "events": 8,
+      "coded_bytes": 27,
+      "native_bits": 103.73011177778244,
+      "corpus_count": 2736
+    },
+    {
+      "word": "portions",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 128.78373507782817,
+      "corpus_count": 2384
+    },
+    {
+      "word": "continuing",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 128.73286221921444,
+      "corpus_count": 3299
+    },
+    {
+      "word": "congressmen",
+      "events": 8,
+      "coded_bytes": 28,
+      "native_bits": 102.40894375741482,
+      "corpus_count": 249
+    },
+    {
+      "word": "charging",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 115.1565220952034,
+      "corpus_count": 684
+    },
+    {
+      "word": "quality",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 102.24899220466614,
+      "corpus_count": 9913
+    },
+    {
+      "word": "lt",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 140.2696663532406,
+      "corpus_count": 9063
+    },
+    {
+      "word": "pre",
+      "events": 13,
+      "coded_bytes": 30,
+      "native_bits": 165.17951778322458,
+      "corpus_count": 11340
+    },
+    {
+      "word": "gang",
+      "events": 9,
+      "coded_bytes": 34,
+      "native_bits": 113.53470319136977,
+      "corpus_count": 2822
+    },
+    {
+      "word": "immediate",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 100.82374262809753,
+      "corpus_count": 3279
+    },
+    {
+      "word": "reverend",
+      "events": 10,
+      "coded_bytes": 39,
+      "native_bits": 125.75365891307592,
+      "corpus_count": 885
+    },
+    {
+      "word": "onto",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 100.5602126121521,
+      "corpus_count": 4813
+    },
+    {
+      "word": "deukmejian",
+      "events": 8,
+      "coded_bytes": 88,
+      "native_bits": 100.51685106707737,
+      "corpus_count": 16
+    },
+    {
+      "word": "rising",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 113.03529724478722,
+      "corpus_count": 4059
+    },
+    {
+      "word": "planned",
+      "events": 16,
+      "coded_bytes": 34,
+      "native_bits": 200.56316941976547,
+      "corpus_count": 5940
+    },
+    {
+      "word": "joint",
+      "events": 9,
+      "coded_bytes": 25,
+      "native_bits": 112.58858312666416,
+      "corpus_count": 5632
+    },
+    {
+      "word": "share",
+      "events": 11,
+      "coded_bytes": 26,
+      "native_bits": 136.84937879815698,
+      "corpus_count": 7005
+    },
+    {
+      "word": "aldermen",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 111.88315184414387,
+      "corpus_count": 117
+    },
+    {
+      "word": "civic",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 123.9363190997392,
+      "corpus_count": 1493
+    },
+    {
+      "word": "twelve",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 98.86534791439772,
+      "corpus_count": 5124
+    },
+    {
+      "word": "basic",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 111.21287642419338,
+      "corpus_count": 12928
+    },
+    {
+      "word": "deep",
+      "events": 10,
+      "coded_bytes": 22,
+      "native_bits": 123.16945846378803,
+      "corpus_count": 9331
+    },
+    {
+      "word": "pac",
+      "events": 12,
+      "coded_bytes": 48,
+      "native_bits": 147.11311692092568,
+      "corpus_count": 926
+    },
+    {
+      "word": "centrist",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 110.33203800022602,
+      "corpus_count": 288
+    },
+    {
+      "word": "permanent",
+      "events": 13,
+      "coded_bytes": 32,
+      "native_bits": 159.3087299503386,
+      "corpus_count": 5719
+    },
+    {
+      "word": "condoleezza",
+      "events": 8,
+      "coded_bytes": 32,
+      "native_bits": 97.98538618255407,
+      "corpus_count": 210
+    },
+    {
+      "word": "multiple",
+      "events": 9,
+      "coded_bytes": 18,
+      "native_bits": 109.68069389462471,
+      "corpus_count": 10041
+    },
+    {
+      "word": "coming",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 97.28278416395187,
+      "corpus_count": 6797
+    },
+    {
+      "word": "track",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 121.55162475258112,
+      "corpus_count": 11180
+    },
+    {
+      "word": "administrator",
+      "events": 9,
+      "coded_bytes": 32,
+      "native_bits": 108.71938272332773,
+      "corpus_count": 1525
+    },
+    {
+      "word": "confirmation",
+      "events": 15,
+      "coded_bytes": 48,
+      "native_bits": 181.1888132612221,
+      "corpus_count": 884
+    },
+    {
+      "word": "chamber",
+      "events": 8,
+      "coded_bytes": 17,
+      "native_bits": 96.60824182257056,
+      "corpus_count": 6083
+    },
+    {
+      "word": "retiring",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 108.61226476402953,
+      "corpus_count": 622
+    },
+    {
+      "word": "sitting",
+      "events": 14,
+      "coded_bytes": 43,
+      "native_bits": 168.77921424619853,
+      "corpus_count": 2033
+    },
+    {
+      "word": "decline",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 96.3949226513505,
+      "corpus_count": 4272
+    },
+    {
+      "word": "travel",
+      "events": 11,
+      "coded_bytes": 22,
+      "native_bits": 132.4455063343048,
+      "corpus_count": 8406
+    },
+    {
+      "word": "regularly",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 120.00040864944458,
+      "corpus_count": 3270
+    },
+    {
+      "word": "heavily",
+      "events": 21,
+      "coded_bytes": 42,
+      "native_bits": 251.7632713317871,
+      "corpus_count": 6093
+    },
+    {
+      "word": "progressivism",
+      "events": 12,
+      "coded_bytes": 41,
+      "native_bits": 143.70954059064388,
+      "corpus_count": 170
+    },
+    {
+      "word": "unusual",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 95.68870687484741,
+      "corpus_count": 4374
+    }
+  ],
+  "words_file_sha256": "94ad5f0835cbba93875c05f7be19766d7b8048645a3a0dc1b2b2a85537473476",
+  "CPU_lane": 2,
+  "exact_WRT_character_crosscheck": true
+}

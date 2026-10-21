@@ -1,0 +1,298 @@
+[
+  {
+    "raw_bytes": 2000000,
+    "scored_bits": 16000000,
+    "mixture_saving_bytes": -0.12463262962068875,
+    "baseline_bytes": 187363.0867663323,
+    "candidate_activations": 3884473,
+    "models": [
+      {
+        "program": "last_number",
+        "copy_weight": 0.01,
+        "saving_bytes": -997.1515267308745
+      },
+      {
+        "program": "last_number",
+        "copy_weight": 0.1,
+        "saving_bytes": -12249.793761418046
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -997.976003566353
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12259.411685813284
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -993.6540528263124
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12197.882500711301
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.01,
+        "saving_bytes": -772.2781701467179
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.1,
+        "saving_bytes": -9487.294928197969
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.01,
+        "saving_bytes": -721.7581764803989
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.1,
+        "saving_bytes": -8987.442101160063
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.01,
+        "saving_bytes": -576.4436329835718
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.1,
+        "saving_bytes": -7260.888907782175
+      }
+    ],
+    "wall_seconds": 6.013225415,
+    "contract": "all final integer bits; candidate selected using known prefix; finite literal integer programs; not native archive",
+    "slice": "a",
+    "user_seconds": 5.9465699999999995,
+    "max_rss_kbytes": 66952
+  },
+  {
+    "raw_bytes": 2000000,
+    "scored_bits": 16000000,
+    "mixture_saving_bytes": -0.12504842988915618,
+    "baseline_bytes": 437041.14054459037,
+    "candidate_activations": 4781271,
+    "models": [
+      {
+        "program": "last_number",
+        "copy_weight": 0.01,
+        "saving_bytes": -862.3003362400513
+      },
+      {
+        "program": "last_number",
+        "copy_weight": 0.1,
+        "saving_bytes": -12581.353022521365
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -862.3961446869419
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12590.132145444304
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -835.5892038539623
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12193.644276231644
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.01,
+        "saving_bytes": -603.8988260114709
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.1,
+        "saving_bytes": -8845.333351953275
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.01,
+        "saving_bytes": -587.5147176036313
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.1,
+        "saving_bytes": -8739.732128274827
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.01,
+        "saving_bytes": -522.8514177307543
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.1,
+        "saving_bytes": -7711.2417187609635
+      }
+    ],
+    "wall_seconds": 5.990138199,
+    "contract": "all final integer bits; candidate selected using known prefix; finite literal integer programs; not native archive",
+    "slice": "b",
+    "user_seconds": 5.925184,
+    "max_rss_kbytes": 66904
+  },
+  {
+    "raw_bytes": 2000000,
+    "scored_bits": 16000000,
+    "mixture_saving_bytes": -0.12490370173945568,
+    "baseline_bytes": 447023.93238661205,
+    "candidate_activations": 4695841,
+    "models": [
+      {
+        "program": "last_number",
+        "copy_weight": 0.01,
+        "saving_bytes": -832.4406388093632
+      },
+      {
+        "program": "last_number",
+        "copy_weight": 0.1,
+        "saving_bytes": -12378.013572030903
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -832.7239625098159
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12381.598718425294
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -798.6064503553272
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -11880.565743424058
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.01,
+        "saving_bytes": -584.7473911898759
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.1,
+        "saving_bytes": -8767.148384883538
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.01,
+        "saving_bytes": -568.4543778486595
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.1,
+        "saving_bytes": -8567.325400036114
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.01,
+        "saving_bytes": -490.76108202269467
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.1,
+        "saving_bytes": -7282.792220540993
+      }
+    ],
+    "wall_seconds": 6.22153807,
+    "contract": "all final integer bits; candidate selected using known prefix; finite literal integer programs; not native archive",
+    "slice": "c",
+    "user_seconds": 6.154248,
+    "max_rss_kbytes": 66860
+  },
+  {
+    "raw_bytes": 2000000,
+    "scored_bits": 16000000,
+    "mixture_saving_bytes": -0.1243026262311412,
+    "baseline_bytes": 439343.31336331787,
+    "candidate_activations": 4996883,
+    "models": [
+      {
+        "program": "last_number",
+        "copy_weight": 0.01,
+        "saving_bytes": -887.6971157812409
+      },
+      {
+        "program": "last_number",
+        "copy_weight": 0.1,
+        "saving_bytes": -12933.052445469533
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -887.3685349893545
+      },
+      {
+        "program": "plus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12934.113159692037
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.01,
+        "saving_bytes": -849.1922522705994
+      },
+      {
+        "program": "minus_one",
+        "copy_weight": 0.1,
+        "saving_bytes": -12391.803740847967
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.01,
+        "saving_bytes": -668.5899159743678
+      },
+      {
+        "program": "linear_difference",
+        "copy_weight": 0.1,
+        "saving_bytes": -9766.793047871053
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.01,
+        "saving_bytes": -545.9037034007199
+      },
+      {
+        "program": "same_field_last",
+        "copy_weight": 0.1,
+        "saving_bytes": -8025.299411539424
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.01,
+        "saving_bytes": -687.6484927051175
+      },
+      {
+        "program": "page_year",
+        "copy_weight": 0.1,
+        "saving_bytes": -10116.45944518435
+      }
+    ],
+    "wall_seconds": 6.242595359,
+    "contract": "all final integer bits; candidate selected using known prefix; finite literal integer programs; not native archive",
+    "slice": "d",
+    "user_seconds": 6.167614,
+    "max_rss_kbytes": 66864
+  }
+]

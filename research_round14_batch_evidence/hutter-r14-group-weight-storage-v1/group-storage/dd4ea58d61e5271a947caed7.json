@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.output_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.8.attention.output_gate_projection.down.weight.scale"
+  ],
+  "label": "dd4ea58d61e5271a947caed7",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 460
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 462
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 438
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 467
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 430
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 460
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 462
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 460
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 462
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 460
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 519
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 462
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 549
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 574
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 544
+    }
+  ],
+  "selected": [
+    430,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "bd1b262903b15ab67262062ad152dc99208ff98a294b4786e2c1b830d17058e3",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.010744000000002751,
+  "wall_seconds": 0.010999994000002289
+}

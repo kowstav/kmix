@@ -1,0 +1,50 @@
+{
+ "id": "R12-warm-stream-A",
+ "status": "RUNNING",
+ "started_unix": 1791366841.5592785,
+ "paid_usd": 0,
+ "GPU": false,
+ "deletions": [],
+ "replay_only": true,
+ "asset_manifest_sha256": "3c29c7ddc17e633773d139329dfe91d4188c6ff3a1f51addfe35330c52a505c9",
+ "assets_verified": true,
+ "affinity": [
+  0,
+  1,
+  2,
+  3
+ ],
+ "cpu_count": 4,
+ "topology": [
+  "0,2",
+  "1,3",
+  "0,2",
+  "1,3"
+ ],
+ "consumer_build": {
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "flags": "-O2 -std=c++17 -fno-fast-math -ffp-contract=off",
+  "exe_sha256": "c23becd9d760fcd256a06d414839a2de3ae6fc401ee9cbb1713ff39063cb9f91"
+ },
+ "budget_seconds": 38156.669397076,
+ "cases": [
+  {
+   "label": "R12_warm_A",
+   "abs_offset": 0,
+   "bytes_requested": 67108864,
+   "input_sha256": "ae78bc469aebfd4d2ee3cbec074b3de4a4e1b03dea058aaa52c6fca002a94363",
+   "window_bytes": 524288,
+   "cpu_encoder": 0,
+   "cpu_consumer": 1,
+   "status": "RUNNING",
+   "encoder_pid": 16,
+   "consumer_pid": 15,
+   "stage": "encode running",
+   "progress": {
+    "elapsed_s": 10620,
+    "bytes_encoded_approx": 23961600,
+    "free_gb": 1148.3
+   }
+  }
+ ]
+}

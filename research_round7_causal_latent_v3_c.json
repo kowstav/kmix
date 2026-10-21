@@ -1,0 +1,367 @@
+{
+  "raw_bytes": 2000000,
+  "baseline_ideal_bytes": 447023.9324041789,
+  "unscored_prefix_bytes": 8173,
+  "dictionary_atoms": 483544,
+  "contract": {
+    "activation": "prefix-only previous event category and article age, BEFORE first byte",
+    "sources": "completed dictionary atoms and prefix-recognized markers",
+    "coverage": "root dictionary choice plus charged literal/syntax/case/escape fallback",
+    "normalization": "prefix-free word tree; uniform/global/causal count distributions normalize; neutral carries other outcomes",
+    "measurement": "ideal final-coder likelihood only; code/runtime/RSS/full-history not priced",
+    "neural_retraining": false,
+    "families": [
+      "rank_prior",
+      "global_rank64",
+      "topic8_fixed64_article",
+      "topic8_fixed64_decay128",
+      "topic16_fixed64_article",
+      "topic16_fixed64_decay256"
+    ],
+    "prior": "Per-topic fixed64 decoded-word-equivalent pseudocount; its normalized rank/global/hash distribution uses only prefix counts",
+    "change_from_v2": "Topic prior strength no longer grows in proportion to all global word occurrences",
+    "baseline": "Actual lexical checkpoint cold2M final native costs",
+    "all_root_choices_charged": true,
+    "decay": "127/128 or255/256 per completed dictionary atom; exponential, not hard expiry",
+    "neural_training": false,
+    "paid_rental_usd": 0,
+    "deletions": []
+  },
+  "by_occurrence_class": {
+    "literal_syntax_or_case": {
+      "events": 1126278,
+      "baseline_bits": 1026569.5825619122,
+      "prequential_saving_bytes": -6.259678980520965
+    },
+    "first_in_slice": {
+      "events": 14103,
+      "baseline_bits": 191817.04901512852,
+      "prequential_saving_bytes": -0.14110217880053505
+    },
+    "article_repeat": {
+      "events": 307786,
+      "baseline_bits": 1107621.670631031,
+      "prequential_saving_bytes": 1.569413741477932
+    },
+    "known_first_in_article": {
+      "events": 161655,
+      "baseline_bits": 1222169.7029150403,
+      "prequential_saving_bytes": 2.379490689663744
+    },
+    "literal_escape": {
+      "events": 2763,
+      "baseline_bits": 7125.76968068548,
+      "prequential_saving_bytes": -0.005167229917254046
+    }
+  },
+  "score": {
+    "events": 1612585,
+    "baseline_suffix_bits": 3555303.7748037972,
+    "prequential_saving_bytes": -2.4570439580991024,
+    "context_count": 20,
+    "model_count": 43,
+    "unpaid_best_model_per_event_oracle_bytes": 11385.5794205505,
+    "fixed_models": [
+      {
+        "family": "neutral",
+        "alpha": 0.0,
+        "saving_bytes": 0.0
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.001,
+        "saving_bytes": -190.69507429604164
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.003,
+        "saving_bytes": -642.455204059282
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.01,
+        "saving_bytes": -2358.963211376236
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.03,
+        "saving_bytes": -7610.53841482718
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.1,
+        "saving_bytes": -27673.01536835771
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.3,
+        "saving_bytes": -96724.41879338787
+      },
+      {
+        "family": "rank_prior",
+        "alpha": 0.7,
+        "saving_bytes": -331402.94795456214
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.001,
+        "saving_bytes": -179.05196507888803
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.003,
+        "saving_bytes": -600.278626595028
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.01,
+        "saving_bytes": -2209.5827114298786
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.03,
+        "saving_bytes": -7173.185867226526
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.1,
+        "saving_bytes": -26318.48362747324
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.3,
+        "saving_bytes": -92748.03106354662
+      },
+      {
+        "family": "global_rank64",
+        "alpha": 0.7,
+        "saving_bytes": -318740.62162040675
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.001,
+        "saving_bytes": -174.48664635608995
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.003,
+        "saving_bytes": -589.293764031205
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.01,
+        "saving_bytes": -2182.3008569300305
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.03,
+        "saving_bytes": -7112.053098215402
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.1,
+        "saving_bytes": -26172.401541248342
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.3,
+        "saving_bytes": -92412.46240757202
+      },
+      {
+        "family": "topic8_fixed64_article",
+        "alpha": 0.7,
+        "saving_bytes": -317923.4269974621
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.001,
+        "saving_bytes": -174.69629713828166
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.003,
+        "saving_bytes": -588.8204948361125
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.01,
+        "saving_bytes": -2178.565006965857
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.03,
+        "saving_bytes": -7099.52137077148
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.1,
+        "saving_bytes": -26135.31011558238
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.3,
+        "saving_bytes": -92318.73768314405
+      },
+      {
+        "family": "topic8_fixed64_decay128",
+        "alpha": 0.7,
+        "saving_bytes": -317682.44483798457
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.001,
+        "saving_bytes": -173.1848557609048
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.003,
+        "saving_bytes": -586.1066239229198
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.01,
+        "saving_bytes": -2173.594267370655
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.03,
+        "saving_bytes": -7090.987383788524
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.1,
+        "saving_bytes": -26118.932743224217
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.3,
+        "saving_bytes": -92282.70107829115
+      },
+      {
+        "family": "topic16_fixed64_article",
+        "alpha": 0.7,
+        "saving_bytes": -317586.7641816424
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.001,
+        "saving_bytes": -172.03965810779735
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.003,
+        "saving_bytes": -583.682357348594
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.01,
+        "saving_bytes": -2167.2379193068186
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.03,
+        "saving_bytes": -7075.291096034063
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.1,
+        "saving_bytes": -26079.392790424197
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.3,
+        "saving_bytes": -92192.67561568516
+      },
+      {
+        "family": "topic16_fixed64_decay256",
+        "alpha": 0.7,
+        "saving_bytes": -317368.7561576635
+      }
+    ]
+  },
+  "memory": {
+    "followers": {
+      "rows": 0,
+      "edges": 0
+    },
+    "associations": {
+      "rows": 0,
+      "edges": 0
+    },
+    "rows_max_per_graph": 4096,
+    "edges_max_per_graph": 262144
+  },
+  "probability_trace_sha256": "4be568eb4c301b8914cce4c247bdc3aeb4e5256f8c582e8b001a27912a7e0ee8",
+  "wall_seconds": 360.49494488300024,
+  "prototype_array_bytes": 34901296,
+  "topic_learned_mass_fractions": [
+    {
+      "family": "topic8_fixed64_article",
+      "fractions": [
+        0.9989741153296396,
+        0.9985162592642457,
+        0.998859759366791,
+        0.999170283575079,
+        0.998979047527179,
+        0.9991919158664516,
+        0.9991114620376897,
+        0.997959094967178
+      ]
+    },
+    {
+      "family": "topic8_fixed64_decay128",
+      "fractions": [
+        0.9988489690904662,
+        0.9988006229345159,
+        0.9984997281535618,
+        0.9993283698055536,
+        0.997951871079885,
+        0.9990331074999679,
+        0.9990316762157003,
+        0.9991305541684032
+      ]
+    },
+    {
+      "family": "topic16_fixed64_article",
+      "fractions": [
+        0.9973367707369882,
+        0.9970867952301562,
+        0.9981772018547922,
+        0.9974698494755211,
+        0.998313282512227,
+        0.9960585186923184,
+        0.9979354026047617,
+        0.9963492329467466,
+        0.9988554048315754,
+        0.9975648976141647,
+        0.9966153277014919,
+        0.9982828524504889,
+        0.9979507592968221,
+        0.998010636806508,
+        0.9983196887634692,
+        0.9982014596043384
+      ]
+    },
+    {
+      "family": "topic16_fixed64_decay256",
+      "fractions": [
+        0.9991444033684835,
+        0.9967493181317066,
+        0.9969780163787307,
+        0.997077768974531,
+        0.9982549638859789,
+        0.9960092982206665,
+        0.9984275915927567,
+        0.9972719112351282,
+        0.9976416020519963,
+        0.9979032037676103,
+        0.9974683886588942,
+        0.9980207215378453,
+        0.9981413927074834,
+        0.9975061808935161,
+        0.9976191250349896,
+        0.9977036927637906
+      ]
+    }
+  ]
+}

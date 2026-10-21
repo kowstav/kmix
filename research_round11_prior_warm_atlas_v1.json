@@ -1,0 +1,43 @@
+{
+  "id": "R10-E0-early-warm-atlas",
+  "status": "FAIL",
+  "pid": 122,
+  "started": 1791325448.4688723,
+  "scratch": "/root/hp_round10/warm_atlas_v1",
+  "protocol": {
+    "bytes": 9437184,
+    "start": 0,
+    "warmup": 1048576,
+    "windows": 16,
+    "window_bytes": 524288,
+    "window_offsets": [
+      1048576,
+      1572864,
+      2097152,
+      2621440,
+      3145728,
+      3670016,
+      4194304,
+      4718592,
+      5242880,
+      5767168,
+      6291456,
+      6815744,
+      7340032,
+      7864320,
+      8388608,
+      8912896
+    ],
+    "selection": "frozen before native trace observation",
+    "regime": "early-stream sequential warm; all before-target native state advanced from canonical offset zero",
+    "limits": "single early region, not independent corpus strata; lab observer build without PGO/LTO; Kaggle timing is diagnostic; no full-file saving estimate accepted",
+    "replay": "same native baseline warmth for every source; online candidate state must advance from zero through warmup",
+    "GPU": false,
+    "deletions": []
+  },
+  "paid_usd": 0,
+  "accounting": {},
+  "error": "RuntimeError('AssertionError()')",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round10/research_round10_warm_atlas_worker.py\", line 42, in <module>\n    if readiness['status']=='FAIL':raise RuntimeError(readiness['error'])\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: AssertionError()\n",
+  "stage": "failure preserved"
+}

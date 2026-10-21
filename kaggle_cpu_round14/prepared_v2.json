@@ -1,0 +1,206 @@
+{
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-group-weight-storage-v1",
+      "folder": "group-weight-storage",
+      "worker_count": 4,
+      "main_sha256": "1f6f439fad03652a822f05e3dc05516655c557ca1dce71e831c9bb5711918cba",
+      "internet": false
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-article-order-ppmd-v1",
+      "folder": "article-order-ppmd",
+      "worker_count": 4,
+      "main_sha256": "5de1e93bd838405f38e0936ca210d09b37e4655246c749a9aea11038b921ea06",
+      "internet": true
+    }
+  ],
+  "sources_sha256": "d0a4c8503cb10b975c4feb3eb4d9b2c2d8cafa8774d7ef8e77fd4c34c3a06511",
+  "entries": [
+    {
+      "path": "hutter_research/__init__.py",
+      "bytes": 55,
+      "sha256": "988273c8ddd71aee26b37d16f850c4e173d0d3099ab1ee6b49645875b75598c3"
+    },
+    {
+      "path": "hutter_research/article_order.py",
+      "bytes": 5781,
+      "sha256": "2c6ca8e8fbfdb09e9eccf0ee23972abb372990eba9ba50380c0aec8e70d9519d"
+    },
+    {
+      "path": "hutter_research/article_order_ppmd.py",
+      "bytes": 4049,
+      "sha256": "6605bc13abf69d5acd8c2f2489a17f2dd91f23775d373708299c398d9e5ec9d8"
+    },
+    {
+      "path": "hutter_research/constructor_codec.py",
+      "bytes": 13513,
+      "sha256": "e8466dbf0a52a64f6f67c85ea88809799378ed10a174cd861d182bbb13fc3692"
+    },
+    {
+      "path": "hutter_research/contracts.py",
+      "bytes": 5735,
+      "sha256": "0847ce33a3c557d7e60ab8746d0e0bc1c44caf77e96fb0cbf26b4edbc5ee275a"
+    },
+    {
+      "path": "hutter_research/cpu_round13_jobs.py",
+      "bytes": 15521,
+      "sha256": "f52be901d4db9513d00ea74eb4604d9539674499beeb0458e0b8808eb7572602"
+    },
+    {
+      "path": "hutter_research/cpu_round13_native.py",
+      "bytes": 7702,
+      "sha256": "ae66eb2b8f2121f81efa88874aa16d747da34593df44dbc16c16e89db6e89149"
+    },
+    {
+      "path": "hutter_research/cpu_round13_storage_regen.py",
+      "bytes": 4395,
+      "sha256": "8ee93cc18848221f96c288e5797b55e1a27a7010143c88a3a6c6b3d8f4ca7794"
+    },
+    {
+      "path": "hutter_research/cpu_round14_constructor.py",
+      "bytes": 3811,
+      "sha256": "d4608e2b7aa46936cb26d5b5736b3d1d3b2d433de6568163e521ab569315429f"
+    },
+    {
+      "path": "hutter_research/cpu_round14_group_storage.py",
+      "bytes": 5379,
+      "sha256": "ff20137347ec36cc3a67a6dbd389eb20d28090bb1b05c7070800cd172e60ecfa"
+    },
+    {
+      "path": "hutter_research/cpu_round14_native_confirmation.py",
+      "bytes": 3083,
+      "sha256": "bea0676c264e55307159622b41d894b3b1d14154c49967d7e41473d50a4ff01f"
+    },
+    {
+      "path": "hutter_research/cpu_round14_order.py",
+      "bytes": 3971,
+      "sha256": "11f7d7f7562a428ec3bf63980fc2144ec50f96db2f147e7435b7043a57809b3d"
+    },
+    {
+      "path": "hutter_research/dispatch_contracts.py",
+      "bytes": 3227,
+      "sha256": "47bd805012a3e52ad89c2614da56090c2b9b0293bcf7c4abf3035ebdde709cfe"
+    },
+    {
+      "path": "hutter_research/fixed_share_integer.h",
+      "bytes": 1531,
+      "sha256": "3ba6faef502a5830ab7bf786536c93b321e0f3258cfd6f20b446fc7729822e6b"
+    },
+    {
+      "path": "hutter_research/full_container.py",
+      "bytes": 1599,
+      "sha256": "d22a15a31f52996a768a9f5d36c65710aec4656d7e4a7a8a0b4d7a8d5deeac17"
+    },
+    {
+      "path": "hutter_research/group_weight_storage.py",
+      "bytes": 1711,
+      "sha256": "93705bf03469f9f8fe004bc15275e15c109a150f14181a583cb6000f851839d9"
+    },
+    {
+      "path": "hutter_research/integer_mixer.h",
+      "bytes": 4922,
+      "sha256": "843b3bb2cf10ab3f6830402a70b008149991e4974a72d95d10289c68b11146d0"
+    },
+    {
+      "path": "hutter_research/integer_mixer_replay.cpp",
+      "bytes": 4110,
+      "sha256": "f2b23397a6aa0fda0c402949fedcd4e0774c433f1c686a1ae11df19c16337044"
+    },
+    {
+      "path": "hutter_research/integer_mixer_selftest.cpp",
+      "bytes": 1792,
+      "sha256": "f2f105e3c7c8acdaaf19ddcf3f74731026f93200e03f85da4169776708121860"
+    },
+    {
+      "path": "hutter_research/legacy_weights.py",
+      "bytes": 27253,
+      "sha256": "153f72a560bfa1e9ebf9159f3f9740874383695ba368a5fe331fabeaa54b4a2e"
+    },
+    {
+      "path": "hutter_research/long_memory.h",
+      "bytes": 1326,
+      "sha256": "4c881bb3fcb29b67ef702cdccf6fb55116743c8c4804a5e38870e8d2ec0b6a48"
+    },
+    {
+      "path": "hutter_research/native_final_head.h",
+      "bytes": 2868,
+      "sha256": "1b36e1b15d4b01da1c391b2c7081dd3a3d7cc7ac35ec4501ef370ab44fde56d3"
+    },
+    {
+      "path": "hutter_research/native_reader/dump.cpp",
+      "bytes": 1064,
+      "sha256": "026339cdf937e974c6051ebd8415e7a038841ee2241de5fd9896ad4277e3f1a1"
+    },
+    {
+      "path": "hutter_research/native_reader/weights_io.cpp",
+      "bytes": 3990,
+      "sha256": "4524e0f38f84af3f72c5448e0262fc219f71b16c55ca1301d0f9c4f6102a5047"
+    },
+    {
+      "path": "hutter_research/native_reader/weights_io.h",
+      "bytes": 2157,
+      "sha256": "0e0be4625b368bc37f04d87bdb849a21c5aea2782f32c00dfcde7d268d7a076c"
+    },
+    {
+      "path": "hutter_research/native_reader/weights_io_compressed.cpp",
+      "bytes": 17624,
+      "sha256": "b3067b41ebbbaad625ad5d93523415eff869cae9260bd3fe9342742814e6e8fd"
+    },
+    {
+      "path": "hutter_research/native_weights.py",
+      "bytes": 30934,
+      "sha256": "f737a13b147133030d42145c588d88e245e41320fb5f1095b72d39f6af77b04c"
+    },
+    {
+      "path": "hutter_research/probability_tables.inc",
+      "bytes": 357747,
+      "sha256": "c47a3fb7744fe5d669b86bb8a7e88c8b8572ac4fff87502b6c13f63cc85874fc"
+    },
+    {
+      "path": "hutter_research/round13_contract_selftest.cpp",
+      "bytes": 1849,
+      "sha256": "bac6b0390f186f49f4af38cc728f5d8d97cb68c292e3204e9dd0b78a5171fbfd"
+    },
+    {
+      "path": "hutter_research/stream_mixer_v3.cpp",
+      "bytes": 5173,
+      "sha256": "1ce7a35089e11dd2be074b6ea6f9e3cf97baf101ab97f5698190d759dd4c3dd5"
+    },
+    {
+      "path": "hutter_research/stream_reader.h",
+      "bytes": 1792,
+      "sha256": "d2505aab2c93d1086d9a902661abe3371d3375385e0f795d29ca388f4d3a6c7a"
+    },
+    {
+      "path": "hutter_research/tensor_io.py",
+      "bytes": 1846,
+      "sha256": "28dc44c0819734fd1e1ee350ae82cab8ab404d2245d8955eba61a5f49edda1d0"
+    },
+    {
+      "path": "hutter_research/weight_storage.py",
+      "bytes": 5607,
+      "sha256": "6c97b9faf3a2ecd30feeff2077c1b57c8d828faae47390445a2feb550d6df92c"
+    },
+    {
+      "path": "hutter_research/weights_io_compressed_v4.cpp",
+      "bytes": 18109,
+      "sha256": "5fdd09c6bea1f05d17c2432d5be4ff695862f01905fb56f7d9f7c59fe75388ef"
+    },
+    {
+      "path": "hutter_research/wrt_classes.h",
+      "bytes": 664,
+      "sha256": "0766f572d2657d2053955eb1e8dc5fc892084f09350636e0508998e9b966c877"
+    },
+    {
+      "path": "tests/test_article_order_ppmd.py",
+      "bytes": 910,
+      "sha256": "9a2d451553902ef3718c35e966d60bf4f5a38e0471b22d2321b2612700170c24"
+    },
+    {
+      "path": "tests/test_group_weight_storage.py",
+      "bytes": 1270,
+      "sha256": "3112e6fea0a328d752eb28ef34e66bf7c0857458c580a5ea73e953a2c3b53301"
+    }
+  ]
+}

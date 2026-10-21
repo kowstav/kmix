@@ -1,0 +1,816 @@
+{
+  "status": "COMPLETE_DISTRIBUTED_INPUT_MASK_AND_ACTUAL_ADAM_PROJECTION_PILOT",
+  "pid": 2602,
+  "started": 1791312193.435276,
+  "scope": "six distributed native-aligned fragment datasets; actual selected5.897M core, genuine redacted-input and projected-Adam-update controls",
+  "spending_usd": 0,
+  "deletions": [],
+  "rungs": [
+    {
+      "arm": "raw_unweighted",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 170.10550097099986,
+      "development": {
+        "all_bits_per_symbol": 0.5648564241833239,
+        "common_or_unlabelled_bits_per_symbol": 0.4964535241389517,
+        "rare_or_redacted_bits_per_symbol": 2.1533522051647576,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw_unweighted_seed7006_step128.pt",
+      "checkpoint_sha256": "b0d84248376c071725430d11d27b19f6d22886591f3d09368f8c2bd91e172fe7"
+    },
+    {
+      "arm": "raw_unweighted",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 310.4800273439978,
+      "development": {
+        "all_bits_per_symbol": 0.5640024745109011,
+        "common_or_unlabelled_bits_per_symbol": 0.4955857570747923,
+        "rare_or_redacted_bits_per_symbol": 2.1528191451369283,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw_unweighted_seed7006_step384.pt",
+      "checkpoint_sha256": "3dc5759546a37d9d7e40ab9b17c875396659adb6404b07c4faec86835fa55a6f"
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 112.66128473999925,
+      "development": {
+        "all_bits_per_symbol": 0.5647340668711455,
+        "common_or_unlabelled_bits_per_symbol": 0.4962702581168069,
+        "rare_or_redacted_bits_per_symbol": 2.1546442670242194,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_half_seed7006_step128.pt",
+      "checkpoint_sha256": "63f9b63a9e4add27149e5cdf51d241290533a23dc9165aa9e6fc148f40426a8a"
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 218.330479586999,
+      "development": {
+        "all_bits_per_symbol": 0.5639381380703368,
+        "common_or_unlabelled_bits_per_symbol": 0.4953122127309201,
+        "rare_or_redacted_bits_per_symbol": 2.1576131645554555,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_half_seed7006_step384.pt",
+      "checkpoint_sha256": "99a62b8ac423f664d4074b08ba867088f33bb70ea139002597f001e21b0b8aa4"
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 79.9625510650003,
+      "development": {
+        "all_bits_per_symbol": 0.5651051468397988,
+        "common_or_unlabelled_bits_per_symbol": 0.4965008355228143,
+        "rare_or_redacted_bits_per_symbol": 2.1582782061214183,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_zero_seed7006_step128.pt",
+      "checkpoint_sha256": "4df61e914a0338ed4028449f5abb7e11a5cd78ab27ec719cbeff696813c15b1b"
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 207.04797108999992,
+      "development": {
+        "all_bits_per_symbol": 0.5644391409257246,
+        "common_or_unlabelled_bits_per_symbol": 0.49505698713826374,
+        "rare_or_redacted_bits_per_symbol": 2.175675806147922,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_zero_seed7006_step384.pt",
+      "checkpoint_sha256": "832bd0e807e684037b6a48136e5aa9de07406003dfd2df5de17c2492e3afe23f"
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 100.57752504199743,
+      "development": {
+        "all_bits_per_symbol": 0.600161726831366,
+        "common_or_unlabelled_bits_per_symbol": 0.5703793519243054,
+        "rare_or_redacted_bits_per_symbol": 1.2917869355948426,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_full_seed7006_step128.pt",
+      "checkpoint_sha256": "fadcfd421cc6cde985e85f3ff868127f729658f99d5f09c1948b77a011974bdd"
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 251.05123507999815,
+      "development": {
+        "all_bits_per_symbol": 0.5780938755977112,
+        "common_or_unlabelled_bits_per_symbol": 0.5656548546137233,
+        "rare_or_redacted_bits_per_symbol": 0.866960669711525,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_full_seed7006_step384.pt",
+      "checkpoint_sha256": "8f68fc3833ddabb0a62ba6cf783cae988f6696d0188d25ab887d9e479a204935"
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 103.93427664200135,
+      "development": {
+        "all_bits_per_symbol": 0.6043937043474613,
+        "common_or_unlabelled_bits_per_symbol": 0.5662252788313745,
+        "rare_or_redacted_bits_per_symbol": 1.4907652106259923,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_common_seed7006_step128.pt",
+      "checkpoint_sha256": "509dc485ecd23e3881547c887e5c56b56ece12a86158871d17b9ace859eef507"
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 247.55225964900092,
+      "development": {
+        "all_bits_per_symbol": 0.6285888945849823,
+        "common_or_unlabelled_bits_per_symbol": 0.5466263126925677,
+        "rare_or_redacted_bits_per_symbol": 2.531976198230879,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_common_seed7006_step384.pt",
+      "checkpoint_sha256": "b5f891d9827654e999ef17d945dd657355e6bb8cb3c4f117b4ae4198e413acec"
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7006,
+      "step": 128,
+      "processed_targets": 29068,
+      "training_seconds": 125.27603637500215,
+      "development": {
+        "all_bits_per_symbol": 0.5648603608232983,
+        "common_or_unlabelled_bits_per_symbol": 0.4964600585695338,
+        "rare_or_redacted_bits_per_symbol": 2.153295817593952,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/project_actual1392_seed7006_step128.pt",
+      "checkpoint_sha256": "6e1c3535de32ec8a9720212bf76e2a0c80fea46e0e89c47a3b219f6045a0bb11"
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7006,
+      "step": 384,
+      "processed_targets": 87560,
+      "training_seconds": 255.5791223640008,
+      "development": {
+        "all_bits_per_symbol": 0.563948497702609,
+        "common_or_unlabelled_bits_per_symbol": 0.4956044359138091,
+        "rare_or_redacted_bits_per_symbol": 2.1510778640701465,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/project_actual1392_seed7006_step384.pt",
+      "checkpoint_sha256": "4932329b1ee6bfb279e50ef824354ed1e580418bf8dcf9ea0ce21c68c5ff47ff"
+    },
+    {
+      "arm": "raw_unweighted",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 77.85720014099934,
+      "development": {
+        "all_bits_per_symbol": 0.5644362039025685,
+        "common_or_unlabelled_bits_per_symbol": 0.49590179113674115,
+        "rare_or_redacted_bits_per_symbol": 2.1559859788855555,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw_unweighted_seed7007_step128.pt",
+      "checkpoint_sha256": "09a55328c36c3e2c38d57baa10e9458cb3e261d3efedf8c76a5cfaffea77995e"
+    },
+    {
+      "arm": "raw_unweighted",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 184.68724965099682,
+      "development": {
+        "all_bits_per_symbol": 0.5649026398087454,
+        "common_or_unlabelled_bits_per_symbol": 0.49643263400144816,
+        "rare_or_redacted_bits_per_symbol": 2.154956797317918,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw_unweighted_seed7007_step384.pt",
+      "checkpoint_sha256": "f8306e48fbfc7a6d96dac156e0813fee0e6f7f57e46078a3133557b3f120860f"
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 78.02285791899703,
+      "development": {
+        "all_bits_per_symbol": 0.5644909398298106,
+        "common_or_unlabelled_bits_per_symbol": 0.4958804172416744,
+        "rare_or_redacted_bits_per_symbol": 2.1578081907946167,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_half_seed7007_step128.pt",
+      "checkpoint_sha256": "9b550b268eaba0d9cca5171291c5cac85f9239717703899ae97c6f7b37d0e9ca"
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 184.96913606199814,
+      "development": {
+        "all_bits_per_symbol": 0.5647669843013438,
+        "common_or_unlabelled_bits_per_symbol": 0.49599241858699344,
+        "rare_or_redacted_bits_per_symbol": 2.1618937548467576,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_half_seed7007_step384.pt",
+      "checkpoint_sha256": "984e8f8f8dd7607fdcf9a22c22e91e70fab14fdbc2185f7fce2bb572709ee092"
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 78.51409561100081,
+      "development": {
+        "all_bits_per_symbol": 0.5646776186012535,
+        "common_or_unlabelled_bits_per_symbol": 0.49600145258281425,
+        "rare_or_redacted_bits_per_symbol": 2.1595193235534222,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_zero_seed7007_step128.pt",
+      "checkpoint_sha256": "941405d528e2220ec183064f435fcadf02abb7b2f37b360e59dce4f8de83fbf3"
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 183.13977496699954,
+      "development": {
+        "all_bits_per_symbol": 0.5653491121817786,
+        "common_or_unlabelled_bits_per_symbol": 0.4959197187740675,
+        "rare_or_redacted_bits_per_symbol": 2.177682650022626,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/raw1392_zero_seed7007_step384.pt",
+      "checkpoint_sha256": "4bc4b3faf6a09271d0bfdf839d639b43649e5d8e4f9d06f6c9b055676c6354d8"
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 77.02559906299939,
+      "development": {
+        "all_bits_per_symbol": 0.5987189760604604,
+        "common_or_unlabelled_bits_per_symbol": 0.5696066665381101,
+        "rare_or_redacted_bits_per_symbol": 1.27478357449705,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_full_seed7007_step128.pt",
+      "checkpoint_sha256": "0d9a80f02a03e30e5195f2adf43b8592bbc8d68886449961e080524166b7407c"
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 181.6595490590007,
+      "development": {
+        "all_bits_per_symbol": 0.580277861559374,
+        "common_or_unlabelled_bits_per_symbol": 0.56428545708878,
+        "rare_or_redacted_bits_per_symbol": 0.9516636646768771,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_full_seed7007_step384.pt",
+      "checkpoint_sha256": "487235ed4d84501151e8f910cbf4044aa0da2ce882393c3e2a7df60e725d9441"
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 78.19857933499952,
+      "development": {
+        "all_bits_per_symbol": 0.6050121669886085,
+        "common_or_unlabelled_bits_per_symbol": 0.5670972811266769,
+        "rare_or_redacted_bits_per_symbol": 1.4854957899305303,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_common_seed7007_step128.pt",
+      "checkpoint_sha256": "b44bb7ceebdebb0dd518ffc73e48b9162a5903ddd575d0c1fa5c821cbbf5fd3b"
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 185.47230228300032,
+      "development": {
+        "all_bits_per_symbol": 0.6291713428333598,
+        "common_or_unlabelled_bits_per_symbol": 0.5475638871710522,
+        "rare_or_redacted_bits_per_symbol": 2.5243116966823944,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "redacted1392",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/redacted1392_common_seed7007_step384.pt",
+      "checkpoint_sha256": "e1393092ffc917e98f10a217ba36bd56185849992166d2f685df421b6ea1e0ad"
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7007,
+      "step": 128,
+      "processed_targets": 29360,
+      "training_seconds": 115.54447152300054,
+      "development": {
+        "all_bits_per_symbol": 0.564506977030549,
+        "common_or_unlabelled_bits_per_symbol": 0.49601368829335607,
+        "rare_or_redacted_bits_per_symbol": 2.1551017038169733,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/project_actual1392_seed7007_step128.pt",
+      "checkpoint_sha256": "d1b46cafb4e109b7afe89cc50e7e074debf68ada4a87a81f3ef0e6716a9d5c6b"
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7007,
+      "step": 384,
+      "processed_targets": 86086,
+      "training_seconds": 244.58214362100261,
+      "development": {
+        "all_bits_per_symbol": 0.5647300278619745,
+        "common_or_unlabelled_bits_per_symbol": 0.4962571901248267,
+        "rare_or_redacted_bits_per_symbol": 2.1548499332883906,
+        "targets": 421159,
+        "common_targets": 403772,
+        "rare_targets": 17387,
+        "mode": "raw",
+        "slices": "cd"
+      },
+      "checkpoint_path": "/root/hp_round9/core_distributed_v2/project_actual1392_seed7007_step384.pt",
+      "checkpoint_sha256": "d8dc9e853fc8675268d0dd973796725af4dfe77a65b371deeef2068674d5eed5"
+    }
+  ],
+  "gpu": "Tesla T4",
+  "actual_core_import": {
+    "loaded_parameters": 199,
+    "parameter_count": 5897145,
+    "packed_source_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+    "imported_tensors_sha256": "0e3ee73140eadd68fa5e28758be06c5d68204d057b5d138f413a79223bbc7f44",
+    "weight_laws": "learned15level codebooks on0.25grid plus8bit small tables; fixed native BF16 row scales, STE nearest native code levels",
+    "activation_laws": "dynamic per-token amax/127, static per-head QKV scales",
+    "state": "FLa parallel KDA and T4 sliding-window SDPA; native equivalence measured below, not presumed"
+  },
+  "projection_geometry": [
+    {
+      "seed": 7006,
+      "step": 1,
+      "common_gradient_dot_actual_displacement_before": 0.06728383898735046,
+      "after": 0.06728383898735046,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7006,
+      "step": 32,
+      "common_gradient_dot_actual_displacement_before": 0.030184943228960037,
+      "after": 0.030184943228960037,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7006,
+      "step": 128,
+      "common_gradient_dot_actual_displacement_before": 0.03889128938317299,
+      "after": 0.03889128938317299,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7006,
+      "step": 384,
+      "common_gradient_dot_actual_displacement_before": 0.01960325799882412,
+      "after": 0.01960325799882412,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7007,
+      "step": 1,
+      "common_gradient_dot_actual_displacement_before": 0.03755471110343933,
+      "after": 0.03755471110343933,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7007,
+      "step": 32,
+      "common_gradient_dot_actual_displacement_before": 0.0021745460107922554,
+      "after": 0.0021745460107922554,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7007,
+      "step": 128,
+      "common_gradient_dot_actual_displacement_before": 0.016512857750058174,
+      "after": 0.016512857750058174,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    },
+    {
+      "seed": 7007,
+      "step": 384,
+      "common_gradient_dot_actual_displacement_before": 0.04712864011526108,
+      "after": 0.04712864011526108,
+      "projected": false,
+      "rounding_tolerance": "shadow float32, projection changes can round; finite-step/native quantized loss is not guaranteed"
+    }
+  ],
+  "confirmation": [
+    {
+      "arm": "raw_unweighted",
+      "seed": 7006,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.4992670710346057,
+        "common_or_unlabelled_bits_per_symbol": 1.379708291871728,
+        "rare_or_redacted_bits_per_symbol": 2.358864259124059,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7006,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.4993923351255491,
+        "common_or_unlabelled_bits_per_symbol": 1.378962603754572,
+        "rare_or_redacted_bits_per_symbol": 2.365251548369349,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7006,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.5006503070264485,
+        "common_or_unlabelled_bits_per_symbol": 1.3774490045552765,
+        "rare_or_redacted_bits_per_symbol": 2.3864363402860116,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7006,
+      "step": 384,
+      "mode": "redacted1392",
+      "result": {
+        "all_bits_per_symbol": 1.5052868245098066,
+        "common_or_unlabelled_bits_per_symbol": 1.596302507541946,
+        "rare_or_redacted_bits_per_symbol": 0.8509071620051998,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "redacted1392",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7006,
+      "step": 384,
+      "mode": "redacted1392",
+      "result": {
+        "all_bits_per_symbol": 1.6463506566196557,
+        "common_or_unlabelled_bits_per_symbol": 1.5371073178971706,
+        "rare_or_redacted_bits_per_symbol": 2.4317824815275957,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "redacted1392",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7006,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.498737012664441,
+        "common_or_unlabelled_bits_per_symbol": 1.3791388347490448,
+        "rare_or_redacted_bits_per_symbol": 2.3586174346516224,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "raw_unweighted",
+      "seed": 7007,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.5005119130109759,
+        "common_or_unlabelled_bits_per_symbol": 1.3806479352417527,
+        "rare_or_redacted_bits_per_symbol": 2.362303496085072,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "raw1392_half",
+      "seed": 7007,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.500323412813263,
+        "common_or_unlabelled_bits_per_symbol": 1.3795858413559314,
+        "rare_or_redacted_bits_per_symbol": 2.368395826642958,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "raw1392_zero",
+      "seed": 7007,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.5017196848894148,
+        "common_or_unlabelled_bits_per_symbol": 1.37850766563875,
+        "rare_or_redacted_bits_per_symbol": 2.387582701272566,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "redacted1392_full",
+      "seed": 7007,
+      "step": 384,
+      "mode": "redacted1392",
+      "result": {
+        "all_bits_per_symbol": 1.511244120535326,
+        "common_or_unlabelled_bits_per_symbol": 1.5936950235908482,
+        "rare_or_redacted_bits_per_symbol": 0.9184430483547278,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "redacted1392",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "redacted1392_common",
+      "seed": 7007,
+      "step": 384,
+      "mode": "redacted1392",
+      "result": {
+        "all_bits_per_symbol": 1.6485882306730593,
+        "common_or_unlabelled_bits_per_symbol": 1.540253435346546,
+        "rare_or_redacted_bits_per_symbol": 2.427487820399727,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "redacted1392",
+        "slices": "ef"
+      }
+    },
+    {
+      "arm": "project_actual1392",
+      "seed": 7007,
+      "step": 384,
+      "mode": "raw",
+      "result": {
+        "all_bits_per_symbol": 1.5004000493676943,
+        "common_or_unlabelled_bits_per_symbol": 1.3805761316820802,
+        "rare_or_redacted_bits_per_symbol": 2.3619035212144106,
+        "targets": 190084,
+        "common_targets": 166874,
+        "rare_targets": 23210,
+        "mode": "raw",
+        "slices": "ef"
+      }
+    }
+  ],
+  "setup_source_sha256": "c560622e89d1e198f7097c5d83943c9a6abfd5a6774cbcbce226972729cab6a2",
+  "worker_sha256": "c871d10a7f9433e44ff4d4805af927de5886a3999803de3d981b3a999ab5d94b",
+  "scratch": "/root/hp_round9/core_distributed_v2",
+  "native_likelihood_parity_resolved": false,
+  "contract": {
+    "arms": [
+      {
+        "name": "raw_unweighted",
+        "mode": "raw",
+        "lambda": 1.0
+      },
+      {
+        "name": "raw1392_half",
+        "mode": "raw",
+        "lambda": 0.5
+      },
+      {
+        "name": "raw1392_zero",
+        "mode": "raw",
+        "lambda": 0.0
+      },
+      {
+        "name": "redacted1392_full",
+        "mode": "redacted1392",
+        "lambda": 1.0
+      },
+      {
+        "name": "redacted1392_common",
+        "mode": "redacted1392",
+        "lambda": 0.0
+      },
+      {
+        "name": "project_actual1392",
+        "mode": "raw",
+        "lambda": 1.0,
+        "project_actual": true
+      }
+    ],
+    "seeds": [
+      7006,
+      7007
+    ],
+    "rungs": [
+      128,
+      384
+    ],
+    "train": "A/B complete reset article prefixes through4096; last256targets; identical sample plan across modes/arms per seed",
+    "development": "C/D article prefixes through1024; full, common and rare/redacted costs",
+    "confirmation": "E/F core-fit-held-out, previously seen by other branches; all arms evaluated, no untouched discovery claim",
+    "optimizer": "AdamW1e-5,wd0,gradientnormclip1; actual-update arm projects the complete Adam proposal onto g_common dot update>=0 halfspace",
+    "mask": "1392globalword-frequency; literal/OOV/case body word spans; labels only supervision; redacted known spaces require paid side mask",
+    "neural_fidelity": "original native/GPU mismatch remains; actual tensor export and final CM test needed",
+    "package": "zero rare loss is not free rare coding; constants, positions, decoder and models charged"
+  },
+  "baselines": {
+    "raw": {
+      "all_bits_per_symbol": 0.5647532240589199,
+      "common_or_unlabelled_bits_per_symbol": 0.4963050100002049,
+      "rare_or_redacted_bits_per_symbol": 2.154301247629921,
+      "targets": 421159,
+      "common_targets": 403772,
+      "rare_targets": 17387,
+      "mode": "raw",
+      "slices": "cd"
+    },
+    "redacted1392": {
+      "all_bits_per_symbol": 0.6051716427265934,
+      "common_or_unlabelled_bits_per_symbol": 0.5710175942398219,
+      "rare_or_redacted_bits_per_symbol": 1.3983187400053774,
+      "targets": 421159,
+      "common_targets": 403772,
+      "rare_targets": 17387,
+      "mode": "redacted1392",
+      "slices": "cd"
+    }
+  },
+  "stage": "distributed six-arm two-seed pilot complete; native qualification required",
+  "finished": 1791315317.8611708,
+  "native_or_full_package_qualified": false,
+  "peak_cuda_bytes": 1452989440
+}

@@ -1,0 +1,87 @@
+{
+  "disks": {
+    "/root": {
+      "total": 8758385086464,
+      "used": 7609897390080,
+      "free": 1148470919168
+    },
+    "/kaggle/working": {
+      "total": 20957446144,
+      "used": 14420992000,
+      "free": 6519676928
+    }
+  },
+  "assets": {
+    "old_order": {
+      "bytes": 1094862,
+      "sha256": "4d0fa5313c753c1ecf71e91a83e285894cdde20049711456e6514c07eb85c581"
+    },
+    "lex_order": {
+      "bytes": 1094862,
+      "sha256": "eecd462c29319bab185b48229c4d09ab52f16ca9c582e8e32eff9a7c2a7de39e"
+    },
+    "lex_dict": {
+      "bytes": 411996,
+      "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+    },
+    "old_dict": {
+      "bytes": 411996,
+      "sha256": "4c8568cca9343b9a6212477880f56f8efd162f8784224a25edd043097d36215a"
+    }
+  },
+  "phase_delete_lines": {
+    "src/readalike_prepr/misc.h": [
+      {
+        "line": 9,
+        "text": ""
+      },
+      {
+        "line": 10,
+        "text": "void split4Comp(char const *enwik9_filename) {"
+      },
+      {
+        "line": 11,
+        "text": "  FILE* ifile = fopen(enwik9_filename, \"rb\");"
+      },
+      {
+        "line": 12,
+        "text": "  FILE* ofile1 = fopen(\".intro\", \"wb\");"
+      },
+      {
+        "line": 13,
+        "text": "  FILE* ofile2 = fopen(\".main\", \"wb\");"
+      },
+      {
+        "line": 14,
+        "text": "  FILE* ofile3 = fopen(\".coda\", \"wb\");  "
+      }
+    ],
+    "src/readalike_prepr/article_reorder.h": [],
+    "src/readalike_prepr/phda9_preprocess.h": [
+      {
+        "line": 82,
+        "text": "    f=fopen(filename,\"w+bTD\");"
+      },
+      {
+        "line": 83,
+        "text": "    if (f==NULL) unlink(filename);"
+      },
+      {
+        "line": 84,
+        "text": "    return f;"
+      },
+      {
+        "line": 85,
+        "text": "#else"
+      },
+      {
+        "line": 86,
+        "text": "    f=tmpfile();  // temporary file"
+      },
+      {
+        "line": 87,
+        "text": "    if (!f) return NULL;"
+      }
+    ]
+  }
+}

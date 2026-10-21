@@ -1,0 +1,186 @@
+{
+  "status": "COMPLETE_PILOT_NO_PROMOTION",
+  "pid": 205,
+  "session": 355655943,
+  "started": "2026-10-06T07:11:49.550162+00:00",
+  "results": [
+    {
+      "raw_bytes": 131072,
+      "unscored_prefix_bytes": 43,
+      "scored_bits": 1048232,
+      "lexical_events": 14706,
+      "past_bank": 14,
+      "donor_selections": 2367,
+      "entity_EOF": false,
+      "arms": [
+        {
+          "name": "generic",
+          "saving_bytes": -0.19225315088225445,
+          "q16_tax_bytes": 0.0033814013523295605,
+          "tree_nodes": 4641,
+          "prediction_hash": "2858859947352388028"
+        },
+        {
+          "name": "persistent_title",
+          "saving_bytes": 0.7382352796473383,
+          "q16_tax_bytes": -0.015234314573890462,
+          "tree_nodes": 4641,
+          "prediction_hash": "5257949953679130659"
+        },
+        {
+          "name": "random_title",
+          "saving_bytes": -0.229397369501734,
+          "q16_tax_bytes": 0.010709476358017639,
+          "tree_nodes": 4641,
+          "prediction_hash": "7970117112112025736"
+        },
+        {
+          "name": "title_geometry",
+          "saving_bytes": -0.24358361950755628,
+          "q16_tax_bytes": -0.005025910673263079,
+          "tree_nodes": 4641,
+          "prediction_hash": "17178684062886376079"
+        },
+        {
+          "name": "past_title_retrieval",
+          "saving_bytes": -0.24919352152378407,
+          "q16_tax_bytes": 0.004801676280370926,
+          "tree_nodes": 4641,
+          "prediction_hash": "16560428538013081632"
+        },
+        {
+          "name": "random_past_retrieval",
+          "saving_bytes": -0.18514035528680603,
+          "q16_tax_bytes": 0.002845168910239365,
+          "tree_nodes": 4641,
+          "prediction_hash": "1091145667643757187"
+        }
+      ],
+      "wall_seconds": 12.508318028,
+      "status": "CLEAN_TITLE_REPLAY_NOT_ARCHIVE",
+      "core_training": false,
+      "deletions": [],
+      "accounting": {
+        "wall_seconds_controller": 12.547566087000178,
+        "user_seconds": 12.454389,
+        "system_seconds": 0.088974,
+        "max_rss_kbytes": 96588
+      },
+      "slice": "a_128k"
+    },
+    {
+      "raw_bytes": 131072,
+      "unscored_prefix_bytes": 782,
+      "scored_bits": 1042320,
+      "lexical_events": 24943,
+      "past_bank": 49,
+      "donor_selections": 40214,
+      "entity_EOF": false,
+      "arms": [
+        {
+          "name": "generic",
+          "saving_bytes": -0.2573108969398514,
+          "q16_tax_bytes": 0.007319024965987964,
+          "tree_nodes": 6307,
+          "prediction_hash": "5436154061816977240"
+        },
+        {
+          "name": "persistent_title",
+          "saving_bytes": -0.24601975381557678,
+          "q16_tax_bytes": -0.003726313899528738,
+          "tree_nodes": 6307,
+          "prediction_hash": "7692746084904576539"
+        },
+        {
+          "name": "random_title",
+          "saving_bytes": -0.24539369181554124,
+          "q16_tax_bytes": -0.004569658431983592,
+          "tree_nodes": 6307,
+          "prediction_hash": "8443563346082604770"
+        },
+        {
+          "name": "title_geometry",
+          "saving_bytes": -0.2437260645397019,
+          "q16_tax_bytes": -0.006083403614582872,
+          "tree_nodes": 6307,
+          "prediction_hash": "975644328453675223"
+        },
+        {
+          "name": "past_title_retrieval",
+          "saving_bytes": -0.24429475707066597,
+          "q16_tax_bytes": -0.005680307197728746,
+          "tree_nodes": 6307,
+          "prediction_hash": "4486243508640324128"
+        },
+        {
+          "name": "random_past_retrieval",
+          "saving_bytes": -0.2432249822497433,
+          "q16_tax_bytes": -0.006737390157911166,
+          "tree_nodes": 6307,
+          "prediction_hash": "13420102829418034417"
+        }
+      ],
+      "wall_seconds": 16.366438282,
+      "status": "CLEAN_TITLE_REPLAY_NOT_ARCHIVE",
+      "core_training": false,
+      "deletions": [],
+      "accounting": {
+        "wall_seconds_controller": 16.40715210899998,
+        "user_seconds": 16.319382,
+        "system_seconds": 0.083991,
+        "max_rss_kbytes": 96688
+      },
+      "slice": "b_128k"
+    }
+  ],
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_retraining": false,
+  "repair": "v1 fixture-count repair preserved; v2 failed on a >4096-byte tag/comment. v3 keeps a bounded 129-byte tag prefix and 3-byte closing tail, and tracks quotes independently; adds a 6000-byte comment test. No probability-family or promotion threshold change.",
+  "compile": {
+    "wall_seconds_controller": 8.77688738300003,
+    "user_seconds": 8.464417,
+    "system_seconds": 0.309149,
+    "max_rss_kbytes": 320020
+  },
+  "binary": {
+    "bytes": 314000,
+    "sha256": "78d74b0a88e11c35316258a2b46638e30f267211cdcba3bf95df6eebb5e8ab39"
+  },
+  "sources": [
+    {
+      "file": "research_round8_clean_title_v3.cpp",
+      "sha256": "6bf4551670c39926e0c5ba7c65fc01fee5c8709a3f12e63e6d8c866d9023aad8"
+    },
+    {
+      "file": "research_round8_conditional_library.h",
+      "sha256": "8a20476f8d4af82ea0d8dd8055d60880b95526fd538a2f6ea4421197d98761bc"
+    },
+    {
+      "file": "research_round7_remaining_experts.cpp",
+      "sha256": "b54c35169529eae8cc4269c40585f94bfa77121b25e4d1a0aa51982a5b962d17"
+    },
+    {
+      "file": "research_round8_clean_title_protocol.md",
+      "sha256": "278973cde7b0f1047677b6c387a0bed7e421556f182be8a9662d9cb2737bc756"
+    }
+  ],
+  "selftest": {
+    "status": "PASS",
+    "old_title_tag_contamination_reproduced": true,
+    "tag_and_metadata_words_excluded": true,
+    "quote_aware_tag_close": true,
+    "entities_delayed_until_complete": true,
+    "completed_past_bank_only": true,
+    "incomplete_EOF_unflushed": true,
+    "max_mass_normalization_error": 1.099120794378905e-14
+  },
+  "a_predictions_match_completed_v2": true,
+  "pilot_gate": {
+    "threshold_bytes": 64,
+    "combined_bytes": 262144,
+    "requires_positive_each_slice": true,
+    "passing": []
+  },
+  "finished": "2026-10-06T07:12:27.644372+00:00"
+}

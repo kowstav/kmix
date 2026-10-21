@@ -1,0 +1,20 @@
+{
+  "scope": "65536-symbol cold A-prefix neural diagnostic; full native probabilities and true float16 PPMD priors; not a full package, model optimum or20% claim",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": [],
+  "models": [],
+  "native_control": {
+    "returncode": 1,
+    "user_seconds": 0.0023439999999999997,
+    "system_seconds": 0.0023439999999999997,
+    "max_rss_kbytes": 37020,
+    "wall_seconds": 0.0065173550001418334,
+    "binary_sha256": "515760d7a8aa99fa5ca130c3a85474c6c0334b8ddd158e42034e1cf5323885c3",
+    "weights_sha256": "00d79bec67769d636c951bd05130aaed89986a87cd16c95597492df31955cae7",
+    "input_sha256": "9fbddcfcb1973957b92e2d5d1fe3c0d3f59fa11d1fbcc788224b166a141b000d"
+  },
+  "failed": true,
+  "error": "Native probability/prior generation failed",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round7/research_round7_frozen_logits_pilot_worker.py\", line 37, in <module>\n    save();assert p.returncode==0,'Native probability/prior generation failed'\n                  ^^^^^^^^^^^^^^^\nAssertionError: Native probability/prior generation failed\n"
+}

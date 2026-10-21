@@ -1,0 +1,894 @@
+{
+  "id": "R13-warm-development",
+  "status": "COMPLETE_FOUR_LANE_FINITE_CPU_JOB",
+  "started": 1791378699.97838,
+  "GPU": false,
+  "paid_usd": 0,
+  "deletions": [],
+  "worker_count": 4,
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cases": [
+    {
+      "region": {
+        "id": 3,
+        "file": "region_03.bin",
+        "offset": 224000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 3,
+      "worker_pid": 21,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 4754.442954319,
+        "CPU_user_seconds": 4298.058786,
+        "CPU_system_seconds": 64.366721,
+        "peak_RSS_KiB": 6070120,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": -0.00020069442689418793,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 4572.061078482,
+        "CPU_user_seconds": 4446.053215,
+        "CPU_system_seconds": 30.215016,
+        "peak_RSS_KiB": 6067252,
+        "stop_reason": null
+      },
+      "archive_bytes": 709740,
+      "archive_sha256": "6cadde773f76081c8cf6e4d6fbf9fe48f291a1702050607b03e8502d0c08e980",
+      "input_sha256": "22c5e34d254c1f44ee6a7e88e9a7dd4449d31b8847e731f97ea9a2e8cec1e700",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 5677622.90994458,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 5677622.90994458,
+          "full_250": 5676407.363650591,
+          "full_1000": 5679767.861791503,
+          "full_4000": 5697522.375297999,
+          "global_250": 5678453.562413537,
+          "no_explicit_nn_250": 5677122.534969991,
+          "reduced_250": 5675950.851811667,
+          "add_memory_250": 5676398.209652737,
+          "memory_zero_250": 5676407.363650591,
+          "short_memory_250": 5676406.957567826,
+          "guard_4_fixedshare": 5674998.316313637,
+          "guard_memory_pair": 5676399.356527841
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 226097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 1006392.28402155,
+          "arms": {
+            "identity": 1006392.28402155,
+            "full_250": 1006244.570136043,
+            "full_1000": 1006663.005294957,
+            "full_4000": 1008934.355738995,
+            "global_250": 1006488.567702237,
+            "no_explicit_nn_250": 1006358.027833724,
+            "reduced_250": 1006171.858876179,
+            "add_memory_250": 1006244.118922014,
+            "memory_zero_250": 1006244.570136043,
+            "short_memory_250": 1006244.563586513,
+            "guard_4_fixedshare": 1006174.695605959,
+            "guard_memory_pair": 1006243.830934289
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 226621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 964946.714131567,
+          "arms": {
+            "identity": 964946.714131567,
+            "full_250": 964818.689944095,
+            "full_1000": 965149.5497068,
+            "full_4000": 967104.160240331,
+            "global_250": 965042.88839524,
+            "no_explicit_nn_250": 964915.706212608,
+            "reduced_250": 964760.935194874,
+            "add_memory_250": 964818.320165468,
+            "memory_zero_250": 964818.689944095,
+            "short_memory_250": 964819.526353235,
+            "guard_4_fixedshare": 964760.53372707,
+            "guard_memory_pair": 964818.289605492
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 1,
+        "file": "region_01.bin",
+        "offset": 96000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 1,
+      "worker_pid": 19,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 4834.491822837,
+        "CPU_user_seconds": 4314.981722,
+        "CPU_system_seconds": 75.216956,
+        "peak_RSS_KiB": 6071244,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 0.00010638311505317688,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 4600.08084177,
+        "CPU_user_seconds": 4425.403249,
+        "CPU_system_seconds": 40.557296,
+        "peak_RSS_KiB": 6068740,
+        "stop_reason": null
+      },
+      "archive_bytes": 700964,
+      "archive_sha256": "538adc9909cd23bde70b8d390543cefc5cc0f4308908dcea68457e1dcb0db057",
+      "input_sha256": "88ef955d7fc16fa41a898bd7f6be98f5e11b8936169ce86e7c4c459b07e7ebe7",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 5607410.258861312,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 5607410.258861312,
+          "full_250": 5606344.104005666,
+          "full_1000": 5609906.576691624,
+          "full_4000": 5628100.891414271,
+          "global_250": 5608416.473118217,
+          "no_explicit_nn_250": 5607133.944804025,
+          "reduced_250": 5605886.356828865,
+          "add_memory_250": 5606332.545643644,
+          "memory_zero_250": 5606344.104005666,
+          "short_memory_250": 5606333.49089289,
+          "guard_4_fixedshare": 5604868.157343952,
+          "guard_memory_pair": 5606332.702721157
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 98097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 979218.387035252,
+          "arms": {
+            "identity": 979218.387035252,
+            "full_250": 979042.556020318,
+            "full_1000": 979423.872941392,
+            "full_4000": 981625.526424151,
+            "global_250": 979380.115593773,
+            "no_explicit_nn_250": 979190.725625831,
+            "reduced_250": 978985.415361238,
+            "add_memory_250": 979037.897015475,
+            "memory_zero_250": 979042.556020318,
+            "short_memory_250": 979038.165014804,
+            "guard_4_fixedshare": 978987.446728808,
+            "guard_memory_pair": 979039.326718004
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 98621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 969513.807471566,
+          "arms": {
+            "identity": 969513.807471566,
+            "full_250": 969383.48103748,
+            "full_1000": 969813.541856666,
+            "full_4000": 972010.327899055,
+            "global_250": 969614.255228973,
+            "no_explicit_nn_250": 969478.622663739,
+            "reduced_250": 969304.132562374,
+            "add_memory_250": 969375.421251724,
+            "memory_zero_250": 969383.48103748,
+            "short_memory_250": 969375.731486029,
+            "guard_4_fixedshare": 969307.059892784,
+            "guard_memory_pair": 969377.149624047
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 2,
+        "file": "region_02.bin",
+        "offset": 160000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 2,
+      "worker_pid": 20,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 4678.433094444999,
+        "CPU_user_seconds": 4216.250559,
+        "CPU_system_seconds": 65.199592,
+        "peak_RSS_KiB": 6078348,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 0.00013554003089666367,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 4828.22171861,
+        "CPU_user_seconds": 4615.532404,
+        "CPU_system_seconds": 58.914916,
+        "peak_RSS_KiB": 6075784,
+        "stop_reason": null
+      },
+      "archive_bytes": 535232,
+      "archive_sha256": "fdb9813c796651df11ad3d1151c16f5606b4d866233357313fece4af4d24ff7e",
+      "input_sha256": "5c092cd720d79a67f9af9c0be918f7d334b2307e67a91ecdb30b230c7c196048",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 4281554.378312793,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 4281554.378312793,
+          "full_250": 4280331.861960057,
+          "full_1000": 4283346.870790297,
+          "full_4000": 4298786.229794346,
+          "global_250": 4282724.428527803,
+          "no_explicit_nn_250": 4281330.319327444,
+          "reduced_250": 4280009.780811127,
+          "add_memory_250": 4280321.788645818,
+          "memory_zero_250": 4280331.861960057,
+          "short_memory_250": 4280331.494869605,
+          "guard_4_fixedshare": 4279038.294530897,
+          "guard_memory_pair": 4280324.309412726
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 162097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 710377.197909132,
+          "arms": {
+            "identity": 710377.197909132,
+            "full_250": 710083.627916065,
+            "full_1000": 710391.784788448,
+            "full_4000": 712281.956704349,
+            "global_250": 710700.903592473,
+            "no_explicit_nn_250": 710364.157545996,
+            "reduced_250": 710075.686290801,
+            "add_memory_250": 710080.427123484,
+            "memory_zero_250": 710083.627916065,
+            "short_memory_250": 710079.007155241,
+            "guard_4_fixedshare": 710076.128992227,
+            "guard_memory_pair": 710081.535711626
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 162621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 679755.514753097,
+          "arms": {
+            "identity": 679755.514753097,
+            "full_250": 679581.91856766,
+            "full_1000": 679922.67139499,
+            "full_4000": 681704.206326346,
+            "global_250": 679939.755837107,
+            "no_explicit_nn_250": 679728.187466453,
+            "reduced_250": 679545.29666176,
+            "add_memory_250": 679580.101993098,
+            "memory_zero_250": 679581.91856766,
+            "short_memory_250": 679580.687577712,
+            "guard_4_fixedshare": 679547.604894895,
+            "guard_memory_pair": 679580.514283578
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 0,
+        "file": "region_00.bin",
+        "offset": 32000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 0,
+      "worker_pid": 18,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 4833.485490749001,
+        "CPU_user_seconds": 4322.502158,
+        "CPU_system_seconds": 73.395047,
+        "peak_RSS_KiB": 6070632,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 2.4611130356788635e-05,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 4751.185235534,
+        "CPU_user_seconds": 4533.455088,
+        "CPU_system_seconds": 50.762764,
+        "peak_RSS_KiB": 6068084,
+        "stop_reason": null
+      },
+      "archive_bytes": 688403,
+      "archive_sha256": "87be2bc559a553d04677a069ce3e9164a449714c6c5b283f042aeb416c1a35c6",
+      "input_sha256": "6117455b93c1361b4289e3bd6f41ea98775f3b954e033fef91d6663cabacb0c6",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 5506922.336064751,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 5506922.336064751,
+          "full_250": 5505850.945080938,
+          "full_1000": 5509400.087905458,
+          "full_4000": 5527362.010921703,
+          "global_250": 5508398.317088243,
+          "no_explicit_nn_250": 5506568.34819306,
+          "reduced_250": 5505358.301802772,
+          "add_memory_250": 5505826.478760119,
+          "memory_zero_250": 5505850.945080938,
+          "short_memory_250": 5505837.647104505,
+          "guard_4_fixedshare": 5504367.815250499,
+          "guard_memory_pair": 5505831.327143023
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 34097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 843713.320814841,
+          "arms": {
+            "identity": 843713.320814841,
+            "full_250": 843448.739556878,
+            "full_1000": 843804.011778778,
+            "full_4000": 845899.153290405,
+            "global_250": 844006.022374877,
+            "no_explicit_nn_250": 843658.101742339,
+            "reduced_250": 843398.438944094,
+            "add_memory_250": 843443.910842162,
+            "memory_zero_250": 843448.739556878,
+            "short_memory_250": 843445.646143286,
+            "guard_4_fixedshare": 843401.928745819,
+            "guard_memory_pair": 843445.285353202
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 34621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 846351.781460174,
+          "arms": {
+            "identity": 846351.781460174,
+            "full_250": 846182.003065503,
+            "full_1000": 846547.517192545,
+            "full_4000": 848533.670762933,
+            "global_250": 846594.899379656,
+            "no_explicit_nn_250": 846317.076572272,
+            "reduced_250": 846136.593287354,
+            "add_memory_250": 846181.736095688,
+            "memory_zero_250": 846182.003065503,
+            "short_memory_250": 846179.044099401,
+            "guard_4_fixedshare": 846134.652570457,
+            "guard_memory_pair": 846181.64102704
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 7,
+        "file": "region_07.bin",
+        "offset": 480000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 0,
+      "worker_pid": 18,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 5266.826496553,
+        "CPU_user_seconds": 4700.247007,
+        "CPU_system_seconds": 86.877412,
+        "peak_RSS_KiB": 6054584,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": -2.284604124724865e-05,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 4967.365473341,
+        "CPU_user_seconds": 4712.91257,
+        "CPU_system_seconds": 56.751074,
+        "peak_RSS_KiB": 6053124,
+        "stop_reason": null
+      },
+      "archive_bytes": 196806,
+      "archive_sha256": "1308032acee2e97e66921206f50edf62ee88a650f54c8ebc7e7884f9e3efd9f2",
+      "input_sha256": "fa32fbc90d56b0a2457d3c8e2f727a4fff8ddf6f51593b97ee4874d35d3fe843",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 1574142.699834904,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 1574142.699834904,
+          "full_250": 1572630.436896562,
+          "full_1000": 1573896.485073084,
+          "full_4000": 1581054.170870869,
+          "global_250": 1574678.575614215,
+          "no_explicit_nn_250": 1573802.780291914,
+          "reduced_250": 1572662.576472061,
+          "add_memory_250": 1572632.680982721,
+          "memory_zero_250": 1572630.436896562,
+          "short_memory_250": 1572636.167547498,
+          "guard_4_fixedshare": 1571524.695849248,
+          "guard_memory_pair": 1572630.559813885
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 482097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 180264.554691729,
+          "arms": {
+            "identity": 180264.554691729,
+            "full_250": 180031.64194964,
+            "full_1000": 180118.375522703,
+            "full_4000": 180732.320036517,
+            "global_250": 180378.297184609,
+            "no_explicit_nn_250": 180239.009076346,
+            "reduced_250": 180042.677629513,
+            "add_memory_250": 180030.598201423,
+            "memory_zero_250": 180031.64194964,
+            "short_memory_250": 180030.714212208,
+            "guard_4_fixedshare": 180032.691474989,
+            "guard_memory_pair": 180031.033557904
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 482621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 172552.3870162,
+          "arms": {
+            "identity": 172552.3870162,
+            "full_250": 172330.416387454,
+            "full_1000": 172388.532005938,
+            "full_4000": 172932.992705095,
+            "global_250": 172685.686191001,
+            "no_explicit_nn_250": 172522.244754959,
+            "reduced_250": 172339.937776483,
+            "add_memory_250": 172329.994029053,
+            "memory_zero_250": 172330.416387454,
+            "short_memory_250": 172329.860129048,
+            "guard_4_fixedshare": 172325.732499741,
+            "guard_memory_pair": 172330.256547226
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 4,
+        "file": "region_04.bin",
+        "offset": 288000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 3,
+      "worker_pid": 21,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 5489.84034368,
+        "CPU_user_seconds": 4955.394428,
+        "CPU_system_seconds": 93.195318,
+        "peak_RSS_KiB": 6078508,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 0.000276422593742609,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 5137.415556581,
+        "CPU_user_seconds": 4945.138659,
+        "CPU_system_seconds": 46.603704,
+        "peak_RSS_KiB": 6076716,
+        "stop_reason": null
+      },
+      "archive_bytes": 447553,
+      "archive_sha256": "e545a8af798f671c5ecae64f7a9e618b24904079b86fa72b87c33b091b0ee63f",
+      "input_sha256": "9c8f7e50578d04a03dc852774043a80e6def52f60bc043b62b37b39b3cb1b935",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 3580126.823846355,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 3580126.823846355,
+          "full_250": 3578880.942018929,
+          "full_1000": 3581701.528492811,
+          "full_4000": 3595644.467062076,
+          "global_250": 3581309.188092634,
+          "no_explicit_nn_250": 3579809.25255917,
+          "reduced_250": 3578609.001304634,
+          "add_memory_250": 3578876.605485611,
+          "memory_zero_250": 3578880.942018929,
+          "short_memory_250": 3578891.93060238,
+          "guard_4_fixedshare": 3577436.44532469,
+          "guard_memory_pair": 3578875.908575909
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 290097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 596928.235109711,
+          "arms": {
+            "identity": 596928.235109711,
+            "full_250": 596748.716057413,
+            "full_1000": 597154.631260441,
+            "full_4000": 598968.924827402,
+            "global_250": 597015.017022573,
+            "no_explicit_nn_250": 596897.718011983,
+            "reduced_250": 596697.015085314,
+            "add_memory_250": 596750.494513042,
+            "memory_zero_250": 596748.716057413,
+            "short_memory_250": 596752.612098106,
+            "guard_4_fixedshare": 596702.244637945,
+            "guard_memory_pair": 596749.261940587
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 290621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 728285.700110976,
+          "arms": {
+            "identity": 728285.700110976,
+            "full_250": 728075.153068363,
+            "full_1000": 728477.344911379,
+            "full_4000": 730470.122583621,
+            "global_250": 728388.573272372,
+            "no_explicit_nn_250": 728269.697261603,
+            "reduced_250": 728020.645318246,
+            "add_memory_250": 728075.827917824,
+            "memory_zero_250": 728075.153068363,
+            "short_memory_250": 728080.435150701,
+            "guard_4_fixedshare": 728023.336499366,
+            "guard_memory_pair": 728075.189745411
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 5,
+        "file": "region_05.bin",
+        "offset": 352000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 1,
+      "worker_pid": 19,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 5571.960217477999,
+        "CPU_user_seconds": 4953.141638,
+        "CPU_system_seconds": 94.479395,
+        "peak_RSS_KiB": 6075076,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 3.876630216836929e-05,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 5156.397347782,
+        "CPU_user_seconds": 4930.522802,
+        "CPU_system_seconds": 47.792194,
+        "peak_RSS_KiB": 6072684,
+        "stop_reason": null
+      },
+      "archive_bytes": 654549,
+      "archive_sha256": "84ca230d577dd96a394899710dfdf1a0113860a87b418aad0734a087f3b50fd5",
+      "input_sha256": "77775a842f3b95cd41867c11925b47382274b2675a5a29903f14dc5e2b3a88aa",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 5236099.986421084,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 5236099.986421084,
+          "full_250": 5234742.330599739,
+          "full_1000": 5238170.513527498,
+          "full_4000": 5256317.099162587,
+          "global_250": 5237255.821511361,
+          "no_explicit_nn_250": 5235312.881461421,
+          "reduced_250": 5234306.15747694,
+          "add_memory_250": 5234729.979747617,
+          "memory_zero_250": 5234742.330599739,
+          "short_memory_250": 5234749.554118777,
+          "guard_4_fixedshare": 5233348.983486277,
+          "guard_memory_pair": 5234730.92845908
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 354097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 869341.593690861,
+          "arms": {
+            "identity": 869341.593690861,
+            "full_250": 869130.7145655,
+            "full_1000": 869549.55381898,
+            "full_4000": 871876.376740002,
+            "global_250": 869579.652564398,
+            "no_explicit_nn_250": 869234.126400309,
+            "reduced_250": 869066.178031585,
+            "add_memory_250": 869126.843610686,
+            "memory_zero_250": 869130.7145655,
+            "short_memory_250": 869131.485677878,
+            "guard_4_fixedshare": 869069.852387219,
+            "guard_memory_pair": 869127.732365268
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 354621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 873078.237262862,
+          "arms": {
+            "identity": 873078.237262862,
+            "full_250": 872894.599864142,
+            "full_1000": 873276.845631061,
+            "full_4000": 875379.496494514,
+            "global_250": 873176.691461871,
+            "no_explicit_nn_250": 873018.025497157,
+            "reduced_250": 872846.240250783,
+            "add_memory_250": 872893.076925271,
+            "memory_zero_250": 872894.599864142,
+            "short_memory_250": 872894.265091303,
+            "guard_4_fixedshare": 872816.566898823,
+            "guard_memory_pair": 872893.469989859
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    },
+    {
+      "region": {
+        "id": 6,
+        "file": "region_06.bin",
+        "offset": 416000000,
+        "bytes": 3145728,
+        "role": "development",
+        "warmup_bytes": 2097152,
+        "state_regime": "native and candidate reset at regional start, both then advance through 2 MiB; not exact full-file state"
+      },
+      "cpu": 2,
+      "worker_pid": 20,
+      "status": "COMPLETE_NATIVE_BASELINE_AND_CORRECTED_REPLAY",
+      "deletions": [],
+      "encode": {
+        "exit": 0,
+        "wall_seconds": 5597.933957665,
+        "CPU_user_seconds": 5042.199662,
+        "CPU_system_seconds": 84.687523,
+        "peak_RSS_KiB": 6070956,
+        "stop_reason": null
+      },
+      "consumer_exit": 0,
+      "baseline_minus_cost_bits": 9.501166641712189e-05,
+      "decode": {
+        "exit": 0,
+        "wall_seconds": 5087.356520649999,
+        "CPU_user_seconds": 4864.6363,
+        "CPU_system_seconds": 47.864236,
+        "peak_RSS_KiB": 6068280,
+        "stop_reason": null
+      },
+      "archive_bytes": 606071,
+      "archive_sha256": "4ab0f4875d974b204f6ed36273fe9bb02312cbe5aff37572182b0e34c2afe4fc",
+      "input_sha256": "97e5d34e5de6a136a928e1b2de857ed6ff22a62ef771ca76581774150f2938be",
+      "independent_decode_exact": true,
+      "replay_only": true,
+      "summary": {
+        "type": "summary",
+        "bytes": 3145728,
+        "input_bytes": 3145728,
+        "baseline_bits": 4848270.901780726,
+        "identity_mismatch_bits": 0,
+        "memory_zero_mismatch_bits": 0,
+        "totals": {
+          "identity": 4848270.901780726,
+          "full_250": 4847334.918158702,
+          "full_1000": 4850891.593125405,
+          "full_4000": 4868540.486003849,
+          "global_250": 4849032.449249366,
+          "no_explicit_nn_250": 4848007.125648941,
+          "reduced_250": 4846861.746666713,
+          "add_memory_250": 4847310.754051443,
+          "memory_zero_250": 4847334.918158702,
+          "short_memory_250": 4847322.859928071,
+          "guard_4_fixedshare": 4845980.935996191,
+          "guard_memory_pair": 4847316.360558113
+        }
+      },
+      "warm_windows": [
+        {
+          "type": "window",
+          "abs_offset": 418097152,
+          "history_bytes": 2097152,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 789279.845540944,
+          "arms": {
+            "identity": 789279.845540944,
+            "full_250": 789171.935077367,
+            "full_1000": 789553.307284152,
+            "full_4000": 791661.743767066,
+            "global_250": 789469.471215046,
+            "no_explicit_nn_250": 789262.064298748,
+            "reduced_250": 789123.874865998,
+            "add_memory_250": 789166.322487899,
+            "memory_zero_250": 789171.935077367,
+            "short_memory_250": 789166.112390309,
+            "guard_4_fixedshare": 789125.575063048,
+            "guard_memory_pair": 789167.779486237
+          }
+        },
+        {
+          "type": "window",
+          "abs_offset": 418621440,
+          "history_bytes": 2621440,
+          "bytes": 524288,
+          "partial": false,
+          "baseline_bits": 822344.813848421,
+          "arms": {
+            "identity": 822344.813848421,
+            "full_250": 822172.692900481,
+            "full_1000": 822588.557273655,
+            "full_4000": 824697.473330328,
+            "global_250": 822504.831898385,
+            "no_explicit_nn_250": 822325.47561076,
+            "reduced_250": 822101.807789443,
+            "add_memory_250": 822173.830414194,
+            "memory_zero_250": 822172.692900481,
+            "short_memory_250": 822174.025537125,
+            "guard_4_fixedshare": 822104.072811442,
+            "guard_memory_pair": 822172.831953822
+          }
+        }
+      ],
+      "no_full_file_state_claim": true
+    }
+  ],
+  "limits": "Finite experiments; no complete native full-file state or production qualification is claimed.",
+  "all_assets_SHA_verified": true,
+  "protocol": {
+    "regions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "warmup_bytes_per_region": 2097152,
+    "native_bytes_per_region": 3145728,
+    "arms": 12,
+    "confirmation_embargo": "choose a candidate from development before opening confirmation outcomes",
+    "regime": "matched regional warm states; these are not true global-history checkpoints"
+  },
+  "task_count": 8,
+  "finished": 1791398902.5176847
+}

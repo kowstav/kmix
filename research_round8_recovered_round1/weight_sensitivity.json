@@ -1,0 +1,50 @@
+[
+  {
+    "name": "prune_0.0",
+    "test_bpb": 2.572016776953127,
+    "stored_bytes": 1586131,
+    "note": "dense execution; no speedup claimed; no retraining"
+  },
+  {
+    "name": "prune_0.1",
+    "test_bpb": 2.5745296954906514,
+    "stored_bytes": 1515571,
+    "note": "dense execution; no speedup claimed; no retraining"
+  },
+  {
+    "name": "prune_0.3",
+    "test_bpb": 2.684601236676235,
+    "stored_bytes": 1333321,
+    "note": "dense execution; no speedup claimed; no retraining"
+  },
+  {
+    "name": "prune_0.5",
+    "test_bpb": 3.3159725418703236,
+    "stored_bytes": 1136121,
+    "note": "dense execution; no speedup claimed; no retraining"
+  },
+  {
+    "name": "prune_0.7",
+    "test_bpb": 4.619957106428341,
+    "stored_bytes": 917988,
+    "note": "dense execution; no speedup claimed; no retraining"
+  },
+  {
+    "name": "lowrank_16",
+    "test_bpb": 5.104192170572504,
+    "stored_bytes": 728741,
+    "note": "factor storage, reconstructed dense execution; no retraining"
+  },
+  {
+    "name": "lowrank_32",
+    "test_bpb": 4.465518692708802,
+    "stored_bytes": 990360,
+    "note": "factor storage, reconstructed dense execution; no retraining"
+  },
+  {
+    "name": "lowrank_64",
+    "test_bpb": 3.0770488236556868,
+    "stored_bytes": 1510865,
+    "note": "factor storage, reconstructed dense execution; no retraining"
+  }
+]

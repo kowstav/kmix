@@ -1,0 +1,40 @@
+{
+  "updated": "2026-10-09",
+  "native_confirmation_actual_gain_bytes": 2587,
+  "native_confirmation_baseline_bytes": 4491669,
+  "native_confirmation_warm_gain_ideal_bytes": 415.5580056183462,
+  "constructor_confirmation_gain_vs_markov": 9441,
+  "constructor_confirmation_gain_vs_gzip": -472180,
+  "conditional_bag_gain_vs_uniform_bag": -11143,
+  "grouped_model_best_bytes": 2999272,
+  "word_categories": {
+    "body_constructor": {
+      "events": 1324437,
+      "coded_bytes": 1536396,
+      "native_bits": 3651684.6927615902
+    },
+    "body_dictionary_other": {
+      "events": 2022684,
+      "coded_bytes": 5135662,
+      "native_bits": 11800977.906872377
+    },
+    "body_literal_or_oov": {
+      "events": 324777,
+      "coded_bytes": 1774154,
+      "native_bits": 3153851.633911792
+    },
+    "metadata_word": {
+      "events": 278457,
+      "coded_bytes": 638460,
+      "native_bits": 607562.6298278857
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 7692544,
+      "native_bits": 4262212.094202174
+    }
+  },
+  "all96_thoroughly_tested": false,
+  "complete_package_gain_established": false,
+  "paid_usd": 0
+}

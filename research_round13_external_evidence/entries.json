@@ -1,0 +1,367 @@
+[
+  {
+    "name": "r12/cleanup_candidates.json",
+    "bytes": 2890,
+    "sha256": "75d950398556f9df51707ba1229ca5351cd79d66bfc0fccc04f7335c346b3e8f"
+  },
+  {
+    "name": "r12/cleanup_verified.py",
+    "bytes": 1859,
+    "sha256": "6f225e8a2f5dab8b35576a67a0fdce1ae3b402397d566407936130760b4261f4"
+  },
+  {
+    "name": "r12/code/analyze.py",
+    "bytes": 5305,
+    "sha256": "f142207224d70b6fa4ab6ae7d6acfd1051f95ee027fbb4e91ab6ab779e9be42a"
+  },
+  {
+    "name": "r12/code/cold.py",
+    "bytes": 2714,
+    "sha256": "730431b765cc101547b73b0ed5349133a69503db8671c952fafef67e498b4476"
+  },
+  {
+    "name": "r12/code/component.py",
+    "bytes": 3144,
+    "sha256": "59695a7bcf7dc19b189a38f03395f558d6b0e3a0443cb411154fa3885ccbc95a"
+  },
+  {
+    "name": "r12/code/integer_mixer.h",
+    "bytes": 4507,
+    "sha256": "72564fdadad3068368386912bb76695d65e771b34550d6149cd164cbee9824dc"
+  },
+  {
+    "name": "r12/code/long_memory.h",
+    "bytes": 1352,
+    "sha256": "47d631efe344e8e42d397f4840cc6cd6ca7a584ec85a2749a116ef2657bc3d3d"
+  },
+  {
+    "name": "r12/code/r12_driver.py",
+    "bytes": 6536,
+    "sha256": "1f92bd19905470def9066b6d05d1100a0d694a72f582e7f9260ac4e4ef46fffa"
+  },
+  {
+    "name": "r12/code/r_build_assets.py",
+    "bytes": 1889,
+    "sha256": "39166effd88512b8d53a94ebd9ee2eb12470bc043c80a5e8bdffeb73337698a4"
+  },
+  {
+    "name": "r12/code/stream_replay.cpp",
+    "bytes": 12959,
+    "sha256": "cdd495213228e43319dfea38fc1133af8a147ab8c151ccc6aae2e84b5ea93081"
+  },
+  {
+    "name": "r12/code/stream_replay_v2.cpp",
+    "bytes": 14833,
+    "sha256": "68c5a2520794ea23d759a9da13fa2867fe85e2e304aade4f16e0a57b821fd4b0"
+  },
+  {
+    "name": "r12/code/validate.py",
+    "bytes": 1731,
+    "sha256": "0c85362f1eb3f6db3c87b8bcc5ba27cf81ee84348741d94f4046949423791f59"
+  },
+  {
+    "name": "r12/code/warm_fallback.py",
+    "bytes": 2229,
+    "sha256": "a2fc6e4ea88efc1a1d65520a32a7c6a3b94b596e1b17b0033ed3659abc33be77"
+  },
+  {
+    "name": "r12/cold/cold_A_12582912.jsonl",
+    "bytes": 1080,
+    "sha256": "94490d348401358c0f4dc86ccddd2f354b6b30e806c39f6cfc122b8107d9b931"
+  },
+  {
+    "name": "r12/cold/cold_A_25165824.jsonl",
+    "bytes": 1080,
+    "sha256": "b914bf15a6db95ebd12e5348068d873d86bd9f542d45f43c1b2be591a499495d"
+  },
+  {
+    "name": "r12/cold/cold_A_37748736.jsonl",
+    "bytes": 1080,
+    "sha256": "7f7d091c72867cd8fd8dfcc2a06c0d1cd376c4bc967f69a8db9c1b9abadfddcc"
+  },
+  {
+    "name": "r12/cold/cold_A_4194304.jsonl",
+    "bytes": 1079,
+    "sha256": "e2fd46ffe1069f3a73f433703349b3d565e510ade467e1142f375919a5bd51dd"
+  },
+  {
+    "name": "r12/cold/cold_A_50331648.jsonl",
+    "bytes": 1080,
+    "sha256": "cd402f31886005d097955da78c96ff1ccabf1cca11e647a9723d5cf80d7690c8"
+  },
+  {
+    "name": "r12/cold/cold_A_62914560.jsonl",
+    "bytes": 1080,
+    "sha256": "4cc20e0186df72ab3191b87a3252f9f51ce61c82ba3138b5afebb6fbd30fa38f"
+  },
+  {
+    "name": "r12/cold/cold_B_312582912.jsonl",
+    "bytes": 1081,
+    "sha256": "72b9c264e44c5a6c8d5151588ed8e823e328f6195c0e68c4a6b671b679900fdd"
+  },
+  {
+    "name": "r12/cold/cold_B_325165824.jsonl",
+    "bytes": 1081,
+    "sha256": "05da5991330b2f7055043f6444635e6c2dcceda0aa7c86247945ee2edf25c48d"
+  },
+  {
+    "name": "r12/cold/cold_B_337748736.jsonl",
+    "bytes": 1081,
+    "sha256": "4ff522204d346f4293cb85c3f4042ea96d683a95efdcf3eaaa8c621d0e7a412c"
+  },
+  {
+    "name": "r12/cold/cold_B_350331648.jsonl",
+    "bytes": 1081,
+    "sha256": "920e67d725bfcb32ddd43424305fa3a9ac6672363d9a8d3513a6fd42689ccf59"
+  },
+  {
+    "name": "r12/cold/cold_B_362914560.jsonl",
+    "bytes": 1081,
+    "sha256": "3d6e7b2e3ae5afe3d20d221b92523eb4f457946a09cfba5ee85677c1b33c931f"
+  },
+  {
+    "name": "r12/cold/cold_H_375000000.jsonl",
+    "bytes": 1081,
+    "sha256": "433a3994bb0e6cd8336dce7500e118bb8008fa36f017c8f4d30d2e84cc89fefe"
+  },
+  {
+    "name": "r12/cold/manifest.json",
+    "bytes": 20260,
+    "sha256": "6c336f440a42e448c917ed9515e8812ef38fe51368717cf69ddc3364797fb326"
+  },
+  {
+    "name": "r12/component/manifest.json",
+    "bytes": 1669,
+    "sha256": "8da91f2f81432fbcce6af1f2f232eea65efc71184e7f43e711d7db1b3d03c700"
+  },
+  {
+    "name": "r12/dataset_create.json",
+    "bytes": 535,
+    "sha256": "ec1426a47741a70aa18ba37b94ef0c4d3657e845c092aa9c4d8688d5bc2e5ac6"
+  },
+  {
+    "name": "r12/kernel_push.json",
+    "bytes": 601,
+    "sha256": "439f16a424f19d4a0b6bcefe4821d1dd9c6112b34c3c679ef56acac6f7c7e263"
+  },
+  {
+    "name": "r12/kernels/a/kernel-metadata.json",
+    "bytes": 378,
+    "sha256": "7cecd8030f64edaa77db8343e8a00e1fc5a19fc5853d23993bca01c104f27a4d"
+  },
+  {
+    "name": "r12/kernels/a/main.py",
+    "bytes": 3453,
+    "sha256": "7caef4f6c25ffc56aa990c2d3ac2d35a4b0d104683897dc17c99a3f87dac77e1"
+  },
+  {
+    "name": "r12/kernels/b/kernel-metadata.json",
+    "bytes": 378,
+    "sha256": "4a0278d269e4c6b1acfddfe29e3edbf1b60da1f03574661b61d78607ff60e552"
+  },
+  {
+    "name": "r12/kernels/b/main.py",
+    "bytes": 3453,
+    "sha256": "d732226f58a05ea13272d16eae6d438e343527db32edd06c14c95942370e7191"
+  },
+  {
+    "name": "r12/kernels/c/kernel-metadata.json",
+    "bytes": 380,
+    "sha256": "6878063b0b2a7e15b5d8fd21b5cbe9c7a01cddf11c88047e17f33e0896fff92b"
+  },
+  {
+    "name": "r12/kernels/c/main.py",
+    "bytes": 3453,
+    "sha256": "febea4af16a3df5ceea1e4eb97aa9e21d2112299759c75683bdbf1e725843d0c"
+  },
+  {
+    "name": "r12/test_v2/T_v2_64k.jsonl",
+    "bytes": 1253,
+    "sha256": "e18d8313afdfd9ddf4f337b2753f0f07c179dd5a43db9823c5dbab1d2409ba74"
+  },
+  {
+    "name": "r12/validation/V1_warm_0_2MiB.jsonl",
+    "bytes": 2652,
+    "sha256": "c3e7d4df4b62e990766c3f316f41958cc860be477052372392d5357b8f2c14ce"
+  },
+  {
+    "name": "r12/validation/V2_cold_G_65000000.jsonl",
+    "bytes": 1080,
+    "sha256": "b630fafc4fe9a8d30cd730f663f883802bc740826a5fc7ac0c57e9e2bdfba1d0"
+  },
+  {
+    "name": "r12/validation/manifest.json",
+    "bytes": 3689,
+    "sha256": "5f2b15e57457f18a8f6eab9201c6d550c1300100376680a5932cedfb0ca62bd7"
+  },
+  {
+    "name": "r12/warm_fallback/fallback_A_0.jsonl",
+    "bytes": 1861,
+    "sha256": "cf8a976e51a1f65e44a272347892c9978ee5fcb56e5ce44b2a82950dd2ca5f78"
+  },
+  {
+    "name": "r12/warm_fallback/fallback_C_450000000.jsonl",
+    "bytes": 2501,
+    "sha256": "7ab4e1cafe8b4fd9357a75df146258bf29c8e881de0dc38eb3aa528f3c49251d"
+  },
+  {
+    "name": "r12/warm_fallback/manifest.json",
+    "bytes": 1142,
+    "sha256": "8e2fc8835caa4d5adab6ad268d4b792eed14be2c1def13142d164cb8002dfbaf"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline.cmx",
+    "bytes": 310050,
+    "sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline_decode.log",
+    "bytes": 774508,
+    "sha256": "13625fb1afe855c252c261b2b240120cf39f9f31ecb93bc04fdb7cf7a3e0abd5"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/baseline_encode.log",
+    "bytes": 774548,
+    "sha256": "ae03a3b47c190e3c5f3041769acd92967f183dab06d54629f1932a31517a0756"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate.cmx",
+    "bytes": 311081,
+    "sha256": "7e92e74fb86aa1bded2b464fe5e99b8e0ca166667cf6b7eb9a8efd72fd32bca9"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate_decode.log",
+    "bytes": 774508,
+    "sha256": "a0f208be38a63884680e4bab91a9de6365b57bedbabda4d1d6b5212188546652"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/candidate_encode.log",
+    "bytes": 774548,
+    "sha256": "fa308f0543c8919b77f1543b2f4eb123710a4628a4b097e7d480109941a72bec"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/bf16-cut107_half/manifest.json",
+    "bytes": 8216,
+    "sha256": "2f12fc68b0c9428aad37d2b1369320ef345f1b74cb8de4ab11419125fd7134ff"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut107-half/hutter-r10-cpu-bf16-cut107-half.log",
+    "bytes": 1911,
+    "sha256": "16c3e41c8025de53613912c0dbe3c3ebbed9019adf5fa96afaa91e2f54d093c1"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline.cmx",
+    "bytes": 310050,
+    "sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline_decode.log",
+    "bytes": 774508,
+    "sha256": "b3dd9c4c71eac42d3f4c132a74b7054f09b0237c170a4a864a6cd770ca08f661"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/baseline_encode.log",
+    "bytes": 774548,
+    "sha256": "c67cd993c472fdc9ddb8ff38a3da782a8ad9578f7285fdb00525b7ff7b2ff881"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate.cmx",
+    "bytes": 314261,
+    "sha256": "b8ee96686b5e6b2d4b5126e4966eb5b56e0805cb9c3c638bc7cd5d7a94f5d244"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate_decode.log",
+    "bytes": 774508,
+    "sha256": "ef07844234950e142ccb1affbf4e0126f895b515cce5401bae9860eabed28012"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/candidate_encode.log",
+    "bytes": 774548,
+    "sha256": "5a73df9c69468a8473ac17cbf2e825f10ef18808f5b98ac53fedebea8179d41d"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/bf16-cut1392_zero/manifest.json",
+    "bytes": 8218,
+    "sha256": "3dd69d3aa2092133ec70683e82c195a5f31cdf8a7a2697d43054c928706d5468"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-cut1392-zero/hutter-r10-cpu-bf16-cut1392-zero.log",
+    "bytes": 1902,
+    "sha256": "8983c9d112a8375ea9eb8d5c096e0fd07939dd6e95768f7f010c5b8e4d5c3cf8"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline.cmx",
+    "bytes": 310050,
+    "sha256": "6c4fe1cf18f60fce617d301bffd6bae90aa2cdfe77c7b2f32799c3037c8ce940"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline_decode.log",
+    "bytes": 774507,
+    "sha256": "440f6f27f5dc8e7e895a2d6d3b14830fd7a24b2705b37dbf79f3b97890263df2"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/baseline_encode.log",
+    "bytes": 774547,
+    "sha256": "699d022e581a2a2d6a761fbacd22a4100177d37ebd4eb8b883fe98e34dd65537"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate.cmx",
+    "bytes": 311047,
+    "sha256": "43d2b3354b4d0f7afc4df7dffe55950553646133bb1fa31fc551d149da1e135a"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate_decode.log",
+    "bytes": 774507,
+    "sha256": "52bd0bc839be1f22507359cc83d75be334c0889ad62796348bf2324a2b4d3d03"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/candidate_encode.log",
+    "bytes": 774548,
+    "sha256": "d9b48e82ca531b7c968e7cbaed339fe7c51dbe896bdf8424e0f89f48c4a59187"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/bf16-unweighted/manifest.json",
+    "bytes": 8208,
+    "sha256": "01966ead1ed64e013599f0df4d16a42449a17d9bc0efba69860b3120ac56ce98"
+  },
+  {
+    "name": "pulls/r10-cpu-bf16-unweighted/hutter-r10-cpu-bf16-unweighted.log",
+    "bytes": 1904,
+    "sha256": "6a61eb537d7c1a878f35d23f7bf2e6f709e76f7e15f89b19fe3b8c12b988473a"
+  },
+  {
+    "name": "pulls/r12-warm-stream-a/hutter-r12-warm-stream-a.log",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "name": "pulls/r12-warm-stream-a/r12/R12_warm_A.jsonl",
+    "bytes": 23526,
+    "sha256": "46fd1952e95b2091e3dbfb11e454e0a861f0e28e37746de269c14ed53877cab1"
+  },
+  {
+    "name": "pulls/r12-warm-stream-a/r12/manifest.json",
+    "bytes": 1120,
+    "sha256": "98cd5ce1f27928df674013b2974ea735e1d4e0e997df8efc62e529d686361453"
+  },
+  {
+    "name": "pulls/r12-warm-stream-b/hutter-r12-warm-stream-b.log",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "name": "pulls/r12-warm-stream-b/r12/R12_warm_B.jsonl",
+    "bytes": 28323,
+    "sha256": "54f0198ec0286e17efc7e27dbca7ade0fa013f724c27900fd76b7c665f972290"
+  },
+  {
+    "name": "pulls/r12-warm-stream-b/r12/manifest.json",
+    "bytes": 1127,
+    "sha256": "f4947d1b60652ad3615ce021490ee288a13de142b3dfa153267e06a0ce7c15c4"
+  },
+  {
+    "name": "pulls/r12-warm-stream-c/hutter-r12-warm-stream-c.log",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+]

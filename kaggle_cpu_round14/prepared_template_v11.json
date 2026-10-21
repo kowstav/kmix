@@ -1,0 +1,20 @@
+{
+  "frozen": 1791608683.712796,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-template-development-v1",
+      "folder": "hutter-r14-template-development-v1",
+      "main_sha256": "5dee3f8919aee8a134ebee3312a8bef926c2c07dec9515f980df21f971733965",
+      "workers": 4,
+      "role": "development",
+      "arms": 39,
+      "regions": 16
+    }
+  ],
+  "source_sha256": "b80255f7b6965dfb79c6b76837613ebe8d3890aa5e3b508d68674c2eb0999374",
+  "protocol_sha256": "28bc568361ce97afe719a6c5bd57880102b81af27d2e21ef8c3bffff1b97ead9",
+  "kernels_zip_sha256": "1ae211a61f07c0236bec91c1aea14cebade0d712baee0f7744c17f7124608228",
+  "gpu": false,
+  "workers_per_job": 4,
+  "deadline_hours": 10.3
+}

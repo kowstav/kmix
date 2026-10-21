@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE_PRIVATE_CPU_SUBMISSION_DISPATCH",
+  "started": 1791358222.1744561,
+  "pid": 150,
+  "private": true,
+  "GPU": false,
+  "paid_usd": 0,
+  "jobs": [
+    {
+      "id": "chaoscpp/hutter-r10-article-order-proxy-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    },
+    {
+      "id": "chaoscpp/hutter-r10-bf16-cut107-half-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    },
+    {
+      "id": "chaoscpp/hutter-r10-bf16-cut1392-zero-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    },
+    {
+      "id": "chaoscpp/hutter-r10-bf16-unweighted-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    },
+    {
+      "id": "chaoscpp/hutter-r10-component-ppmd-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    },
+    {
+      "id": "chaoscpp/hutter-r10-integer-mixer-v1",
+      "action": "SUBMITTED",
+      "CLI_exit_code": 0
+    }
+  ],
+  "dataset": "chaoscpp/hutter-round10-private-cpu-assets-v1",
+  "deletions": [],
+  "dataset_action": "REUSED_EXISTING",
+  "delivered_assets_all_entry_SHA_verified": true,
+  "downloaded_wrapper_preserved": "/root/hp_round11_private_assets_v2/private_cpu_submission_v4_manifest_dataset_verification/hutter-round10-private-cpu-assets-v1.zip",
+  "finished": 1791358259.453797
+}

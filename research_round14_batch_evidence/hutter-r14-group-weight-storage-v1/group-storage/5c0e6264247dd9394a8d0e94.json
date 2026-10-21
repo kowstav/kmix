@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.forget_gate_projection.down.weight.q",
+  "names": [
+    "blocks.10.attention.forget_gate_projection.down.weight.q"
+  ],
+  "label": "5c0e6264247dd9394a8d0e94",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 7130
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 6489
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 6510
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 7130
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 6489
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 6510
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 7132
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 6415
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 6503
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 6172
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 6324
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 6163
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 7125
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 6463
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 6518
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 7252
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 6680
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 6603
+    }
+  ],
+  "selected": [
+    6163,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "d9723f27f2b7089c59c339a4c1cd4d9e5931683f71432078bccac1f7b3b0bfa4",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.03856200000000044,
+  "wall_seconds": 0.04585268400001041
+}

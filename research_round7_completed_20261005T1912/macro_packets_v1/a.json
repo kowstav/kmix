@@ -1,0 +1,31 @@
+{
+  "slice": "a",
+  "raw_bytes": 2000000,
+  "templates": 256,
+  "covered_lines": 10467,
+  "covered_native_bits": 21226.952738370106,
+  "all_native_bits": 1498904.6940895126,
+  "raw_packet_bytes": 1706141,
+  "packet_sha256": "2e04e0caa7a354080c732fd3096ef259e0c98b2b24fb894992ed7f535310f3fb",
+  "raw_roundtrip": "PASS",
+  "model_pool_raw_bytes": 10192,
+  "model_pool_zlib_bytes": 3734,
+  "relaxed_native_ceiling_bytes_two_copy_pool": -4814.630907703737,
+  "ceiling_relaxation": "Selected-line framing, IDs, variables, misses, code and runtime all free; this is an optimistic diagnostic for this frozen template pool, not an attainable gain.",
+  "codecs": {
+    "zlib9": {
+      "baseline_bytes": 578411,
+      "candidate_bytes_one_pool_in_packet": 602124,
+      "delta_bytes": 23713,
+      "delta_percent": 4.099679985339155,
+      "extra_second_pool_if_hardcoded": 3734
+    },
+    "lzma6": {
+      "baseline_bytes": 412880,
+      "candidate_bytes_one_pool_in_packet": 436632,
+      "delta_bytes": 23752,
+      "delta_percent": 5.752761092811465,
+      "extra_second_pool_if_hardcoded": 3576
+    }
+  }
+}

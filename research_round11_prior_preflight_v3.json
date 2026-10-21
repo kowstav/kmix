@@ -1,0 +1,20 @@
+{
+  "status": "FAIL",
+  "pid": 121,
+  "started": 1791325448.2059999,
+  "scratch": "/root/hp_round10/preflight_v3",
+  "cases": [
+    {
+      "name": "encode",
+      "exit_code": 0,
+      "wall_seconds": 86.00591471500002
+    },
+    {
+      "name": "decode",
+      "exit_code": 0,
+      "wall_seconds": 70.34676810499991
+    }
+  ],
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round10/research_round10_preflight_worker.py\", line 17, in <module>\n    assert (S/'decoded.bin').read_bytes()==raw\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE_NATIVE_PREFLIGHT_PASS_SERIALIZED_VOCABULARY",
+  "pid": 107,
+  "started": 1791357485.3137274,
+  "cases": [
+    {
+      "name": "encode",
+      "exit_code": 0,
+      "wall_seconds": 88.521154464,
+      "CPU_user_seconds": 73.350819,
+      "CPU_system_seconds": 14.942646,
+      "peak_RSS_KiB": 5546916
+    },
+    {
+      "name": "decode",
+      "exit_code": 0,
+      "wall_seconds": 78.6082290889999,
+      "CPU_user_seconds": 71.593976,
+      "CPU_system_seconds": 6.8367,
+      "peak_RSS_KiB": 5546804
+    }
+  ],
+  "scratch": "/root/hp_round11/preflight_v4",
+  "input_bytes": 16384,
+  "deletions": [],
+  "paid_usd": 0,
+  "repair": "Forced vocabulary must be serialized: original header omits the bitmap for length <10000; corrected preflight uses 16384 bytes.",
+  "prior_failed_job": "/kaggle/working/hp_round10/preflight_v3/manifest.json",
+  "child_pid": 111,
+  "stage": "decode",
+  "serialized_vocabulary_exact": true,
+  "input_sha256": "ba8d522bf20c7ea33710ad05610dc47d2af78d4f205b994e5c8cf375f48b3193",
+  "archive_sha256": "ea4f788f800ab123c3ed21efd19f5a741703582761cc4164e2e15e07c077517b",
+  "archive_bytes": 1740,
+  "independent_decode_exact": true,
+  "finished": 1791357652.4496877
+}

@@ -1,0 +1,10 @@
+{
+  "fixed_asset_bytes": 163846,
+  "sha256": "f6e7775975218ab1411dc51b9f73fdd0f95ec3fdbf5c03606592827de5502abc",
+  "source_sha256": "0ed9d7e5953ce5774652c79cee31c36bd1c310873c7c90754d540d31184bfc08",
+  "tables_are_assets_not_free": true,
+  "rounding": "frozen offline RNE stretch Q8, nearest Q16 squash, nearest Q20 exp on [-8,8]; runtime integer odds update preserves native Q16 exactly at zero correction",
+  "runtime_model_state_bytes_measured": 46160,
+  "long_memory_state_bytes_measured": 72,
+  "deployment_status": "C++ replay and native/cross-platform qualification required"
+}

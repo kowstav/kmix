@@ -1,0 +1,924 @@
+{
+  "index": 12,
+  "scored_interval": [
+    322097152,
+    323145728
+  ],
+  "native_bits": 1758035.7227278794,
+  "categories": {
+    "body_constructor": {
+      "events": 98724,
+      "coded_bytes": 114071,
+      "native_bits": 304413.87759183533
+    },
+    "body_dictionary_other": {
+      "events": 154886,
+      "coded_bytes": 400898,
+      "native_bits": 995327.7856406611
+    },
+    "body_literal_or_oov": {
+      "events": 14561,
+      "coded_bytes": 78222,
+      "native_bits": 166222.40026642568
+    },
+    "metadata_word": {
+      "events": 5353,
+      "coded_bytes": 12078,
+      "native_bits": 12967.140948553104
+    },
+    "nonword_or_unlabelled": {
+      "events": 0,
+      "coded_bytes": 443307,
+      "native_bits": 279104.51828040415
+    }
+  },
+  "rarity_thresholds": {
+    "2": {
+      "events": 660,
+      "coded_bytes": 5776,
+      "native_bits": 18866.734532765113
+    },
+    "16": {
+      "events": 3038,
+      "coded_bytes": 23870,
+      "native_bits": 61536.451338828076
+    },
+    "64": {
+      "events": 6241,
+      "coded_bytes": 44457,
+      "native_bits": 106269.12265364919
+    },
+    "107": {
+      "events": 8184,
+      "coded_bytes": 54423,
+      "native_bits": 130894.9976260378
+    },
+    "128": {
+      "events": 9036,
+      "coded_bytes": 58483,
+      "native_bits": 139715.12154158903
+    },
+    "1024": {
+      "events": 27457,
+      "coded_bytes": 125856,
+      "native_bits": 319451.1922765253
+    },
+    "1392": {
+      "events": 32619,
+      "coded_bytes": 143045,
+      "native_bits": 362964.45358003676
+    },
+    "8372": {
+      "events": 80030,
+      "coded_bytes": 273077,
+      "native_bits": 708552.4720698791
+    }
+  },
+  "top_aggregate_bit_words": [
+    {
+      "word": "the",
+      "events": 19224,
+      "coded_bytes": 21797,
+      "native_bits": 35200.45636139251,
+      "corpus_count": 7777382
+    },
+    {
+      "word": "in",
+      "events": 6105,
+      "coded_bytes": 6950,
+      "native_bits": 18696.928754922003,
+      "corpus_count": 2622948
+    },
+    {
+      "word": "and",
+      "events": 6995,
+      "coded_bytes": 7007,
+      "native_bits": 18048.597309473436,
+      "corpus_count": 3048016
+    },
+    {
+      "word": "a",
+      "events": 4920,
+      "coded_bytes": 5435,
+      "native_bits": 16274.526388688013,
+      "corpus_count": 2359091
+    },
+    {
+      "word": "of",
+      "events": 10579,
+      "coded_bytes": 10614,
+      "native_bits": 10945.438058158383,
+      "corpus_count": 4826920
+    },
+    {
+      "word": "to",
+      "events": 5496,
+      "coded_bytes": 5552,
+      "native_bits": 10371.593855716288,
+      "corpus_count": 2105892
+    },
+    {
+      "word": "on",
+      "events": 1801,
+      "coded_bytes": 2001,
+      "native_bits": 7210.0304983770475,
+      "corpus_count": 629335
+    },
+    {
+      "word": "as",
+      "events": 2154,
+      "coded_bytes": 2317,
+      "native_bits": 6859.141738982871,
+      "corpus_count": 859588
+    },
+    {
+      "word": "for",
+      "events": 1923,
+      "coded_bytes": 2054,
+      "native_bits": 6856.11618686188,
+      "corpus_count": 989460
+    },
+    {
+      "word": "at",
+      "events": 1156,
+      "coded_bytes": 1230,
+      "native_bits": 5969.465968406759,
+      "corpus_count": 445611
+    },
+    {
+      "word": "military",
+      "events": 1537,
+      "coded_bytes": 3538,
+      "native_bits": 5922.668796373066,
+      "corpus_count": 37807
+    },
+    {
+      "word": "with",
+      "events": 1375,
+      "coded_bytes": 1431,
+      "native_bits": 5821.716381436214,
+      "corpus_count": 722262
+    },
+    {
+      "word": "an",
+      "events": 1007,
+      "coded_bytes": 1107,
+      "native_bits": 5542.062732897699,
+      "corpus_count": 411017
+    },
+    {
+      "word": "or",
+      "events": 1358,
+      "coded_bytes": 1394,
+      "native_bits": 5431.7004020428285,
+      "corpus_count": 534276
+    },
+    {
+      "word": "was",
+      "events": 2338,
+      "coded_bytes": 2339,
+      "native_bits": 5420.014048111625,
+      "corpus_count": 816835
+    },
+    {
+      "word": "by",
+      "events": 1746,
+      "coded_bytes": 1832,
+      "native_bits": 5239.516377645545,
+      "corpus_count": 722251
+    },
+    {
+      "word": "from",
+      "events": 1150,
+      "coded_bytes": 1203,
+      "native_bits": 4746.531983720139,
+      "corpus_count": 660615
+    },
+    {
+      "word": "british",
+      "events": 1141,
+      "coded_bytes": 3422,
+      "native_bits": 4616.623678027652,
+      "corpus_count": 68316
+    },
+    {
+      "word": "army",
+      "events": 1618,
+      "coded_bytes": 4349,
+      "native_bits": 4604.973283749074,
+      "corpus_count": 33656
+    },
+    {
+      "word": "that",
+      "events": 1117,
+      "coded_bytes": 1142,
+      "native_bits": 4494.262255919166,
+      "corpus_count": 614666
+    },
+    {
+      "word": "general",
+      "events": 981,
+      "coded_bytes": 2774,
+      "native_bits": 4011.1262621292844,
+      "corpus_count": 64124
+    },
+    {
+      "word": "this",
+      "events": 773,
+      "coded_bytes": 1112,
+      "native_bits": 3971.3605959881097,
+      "corpus_count": 346843
+    },
+    {
+      "word": "american",
+      "events": 857,
+      "coded_bytes": 2568,
+      "native_bits": 3826.7425229032524,
+      "corpus_count": 249128
+    },
+    {
+      "word": "his",
+      "events": 951,
+      "coded_bytes": 1043,
+      "native_bits": 3814.9158699428663,
+      "corpus_count": 414734
+    },
+    {
+      "word": "is",
+      "events": 1874,
+      "coded_bytes": 1879,
+      "native_bits": 3656.9245956670493,
+      "corpus_count": 1635579
+    },
+    {
+      "word": "their",
+      "events": 751,
+      "coded_bytes": 781,
+      "native_bits": 3609.465126232244,
+      "corpus_count": 191581
+    },
+    {
+      "word": "united",
+      "events": 1303,
+      "coded_bytes": 2601,
+      "native_bits": 3588.86687042797,
+      "corpus_count": 202275
+    },
+    {
+      "word": "war",
+      "events": 1557,
+      "coded_bytes": 4121,
+      "native_bits": 3403.25788992038,
+      "corpus_count": 103343
+    },
+    {
+      "word": "it",
+      "events": 736,
+      "coded_bytes": 966,
+      "native_bits": 3386.692309068516,
+      "corpus_count": 549509
+    },
+    {
+      "word": "new",
+      "events": 760,
+      "coded_bytes": 2115,
+      "native_bits": 3311.5823960625567,
+      "corpus_count": 238019
+    },
+    {
+      "word": "also",
+      "events": 718,
+      "coded_bytes": 765,
+      "native_bits": 2978.3667483576573,
+      "corpus_count": 283761
+    },
+    {
+      "word": "during",
+      "events": 498,
+      "coded_bytes": 600,
+      "native_bits": 2936.1749537270516,
+      "corpus_count": 96460
+    },
+    {
+      "word": "u",
+      "events": 609,
+      "coded_bytes": 1213,
+      "native_bits": 2812.487679429818,
+      "corpus_count": 389968
+    },
+    {
+      "word": "which",
+      "events": 614,
+      "coded_bytes": 615,
+      "native_bits": 2811.758463365026,
+      "corpus_count": 357281
+    },
+    {
+      "word": "first",
+      "events": 479,
+      "coded_bytes": 1126,
+      "native_bits": 2742.61072348943,
+      "corpus_count": 191198
+    },
+    {
+      "word": "he",
+      "events": 930,
+      "coded_bytes": 1278,
+      "native_bits": 2727.9239488244057,
+      "corpus_count": 407951
+    },
+    {
+      "word": "one",
+      "events": 409,
+      "coded_bytes": 462,
+      "native_bits": 2725.110907210037,
+      "corpus_count": 227098
+    },
+    {
+      "word": "had",
+      "events": 692,
+      "coded_bytes": 693,
+      "native_bits": 2707.1793342782184,
+      "corpus_count": 215442
+    },
+    {
+      "word": "were",
+      "events": 1085,
+      "coded_bytes": 1086,
+      "native_bits": 2706.7981388820335,
+      "corpus_count": 244197
+    },
+    {
+      "word": "rank",
+      "events": 884,
+      "coded_bytes": 1820,
+      "native_bits": 2675.48656713916,
+      "corpus_count": 8284
+    },
+    {
+      "word": "all",
+      "events": 390,
+      "coded_bytes": 432,
+      "native_bits": 2674.0172077137977,
+      "corpus_count": 202073
+    },
+    {
+      "word": "but",
+      "events": 647,
+      "coded_bytes": 682,
+      "native_bits": 2668.8752092560753,
+      "corpus_count": 213851
+    },
+    {
+      "word": "battle",
+      "events": 937,
+      "coded_bytes": 2501,
+      "native_bits": 2632.809553247411,
+      "corpus_count": 38216
+    },
+    {
+      "word": "air",
+      "events": 590,
+      "coded_bytes": 1647,
+      "native_bits": 2502.9194423463196,
+      "corpus_count": 39497
+    },
+    {
+      "word": "they",
+      "events": 599,
+      "coded_bytes": 737,
+      "native_bits": 2498.0653032688424,
+      "corpus_count": 175439
+    },
+    {
+      "word": "after",
+      "events": 444,
+      "coded_bytes": 600,
+      "native_bits": 2427.362889238633,
+      "corpus_count": 155295
+    },
+    {
+      "word": "not",
+      "events": 617,
+      "coded_bytes": 635,
+      "native_bits": 2391.3636402292177,
+      "corpus_count": 250788
+    },
+    {
+      "word": "forces",
+      "events": 747,
+      "coded_bytes": 1668,
+      "native_bits": 2371.5315298927017,
+      "corpus_count": 24276
+    },
+    {
+      "word": "most",
+      "events": 362,
+      "coded_bytes": 420,
+      "native_bits": 2308.3703100420535,
+      "corpus_count": 143210
+    },
+    {
+      "word": "some",
+      "events": 341,
+      "coded_bytes": 417,
+      "native_bits": 2298.4053142890334,
+      "corpus_count": 152592
+    },
+    {
+      "word": "other",
+      "events": 399,
+      "coded_bytes": 433,
+      "native_bits": 2256.882535226643,
+      "corpus_count": 220546
+    },
+    {
+      "word": "two",
+      "events": 341,
+      "coded_bytes": 368,
+      "native_bits": 2226.8244972862303,
+      "corpus_count": 174865
+    },
+    {
+      "word": "when",
+      "events": 370,
+      "coded_bytes": 473,
+      "native_bits": 2215.0062489025295,
+      "corpus_count": 135170
+    },
+    {
+      "word": "under",
+      "events": 340,
+      "coded_bytes": 700,
+      "native_bits": 2190.9677240634337,
+      "corpus_count": 183978
+    },
+    {
+      "word": "more",
+      "events": 368,
+      "coded_bytes": 381,
+      "native_bits": 2179.1500664679334,
+      "corpus_count": 183919
+    },
+    {
+      "word": "officer",
+      "events": 731,
+      "coded_bytes": 1793,
+      "native_bits": 2158.156395428814,
+      "corpus_count": 8627
+    },
+    {
+      "word": "us",
+      "events": 689,
+      "coded_bytes": 2049,
+      "native_bits": 2127.2036219225265,
+      "corpus_count": 86924
+    },
+    {
+      "word": "service",
+      "events": 490,
+      "coded_bytes": 1121,
+      "native_bits": 2094.506308002863,
+      "corpus_count": 33505
+    },
+    {
+      "word": "only",
+      "events": 304,
+      "coded_bytes": 318,
+      "native_bits": 2050.220468887128,
+      "corpus_count": 118965
+    },
+    {
+      "word": "major",
+      "events": 494,
+      "coded_bytes": 1358,
+      "native_bits": 2041.777216152288,
+      "corpus_count": 46376
+    }
+  ],
+  "top_mean_bit_words_min8": [
+    {
+      "word": "impressment",
+      "events": 10,
+      "coded_bytes": 72,
+      "native_bits": 182.84851716086268,
+      "corpus_count": 28
+    },
+    {
+      "word": "privates",
+      "events": 14,
+      "coded_bytes": 47,
+      "native_bits": 214.70403679693118,
+      "corpus_count": 70
+    },
+    {
+      "word": "inter",
+      "events": 8,
+      "coded_bytes": 18,
+      "native_bits": 122.3405579328537,
+      "corpus_count": 2100
+    },
+    {
+      "word": "airman",
+      "events": 8,
+      "coded_bytes": 54,
+      "native_bits": 119.67403512075543,
+      "corpus_count": 108
+    },
+    {
+      "word": "unarmed",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 134.60539360903203,
+      "corpus_count": 367
+    },
+    {
+      "word": "whites",
+      "events": 9,
+      "coded_bytes": 28,
+      "native_bits": 132.16856033727527,
+      "corpus_count": 1396
+    },
+    {
+      "word": "augmented",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 116.5786988735199,
+      "corpus_count": 629
+    },
+    {
+      "word": "trust",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 130.93598794937134,
+      "corpus_count": 4803
+    },
+    {
+      "word": "motivation",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 116.0575184263289,
+      "corpus_count": 1040
+    },
+    {
+      "word": "banastre",
+      "events": 8,
+      "coded_bytes": 72,
+      "native_bits": 115.99882548581809,
+      "corpus_count": 18
+    },
+    {
+      "word": "getting",
+      "events": 8,
+      "coded_bytes": 19,
+      "native_bits": 115.18750885128975,
+      "corpus_count": 4288
+    },
+    {
+      "word": "striking",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 157.2423530817032,
+      "corpus_count": 2046
+    },
+    {
+      "word": "doctrines",
+      "events": 11,
+      "coded_bytes": 33,
+      "native_bits": 153.877051809337,
+      "corpus_count": 1164
+    },
+    {
+      "word": "logistical",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 111.80649417638779,
+      "corpus_count": 240
+    },
+    {
+      "word": "auxiliaries",
+      "events": 10,
+      "coded_bytes": 32,
+      "native_bits": 139.57934069633484,
+      "corpus_count": 171
+    },
+    {
+      "word": "opposing",
+      "events": 14,
+      "coded_bytes": 47,
+      "native_bits": 194.52020371705294,
+      "corpus_count": 2002
+    },
+    {
+      "word": "enlistment",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 137.74019122123718,
+      "corpus_count": 80
+    },
+    {
+      "word": "colonels",
+      "events": 10,
+      "coded_bytes": 35,
+      "native_bits": 136.6484757810831,
+      "corpus_count": 119
+    },
+    {
+      "word": "absence",
+      "events": 10,
+      "coded_bytes": 21,
+      "native_bits": 135.9500206708908,
+      "corpus_count": 2974
+    },
+    {
+      "word": "facing",
+      "events": 14,
+      "coded_bytes": 45,
+      "native_bits": 190.04005332291126,
+      "corpus_count": 2618
+    },
+    {
+      "word": "overlooking",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 122.00320851802826,
+      "corpus_count": 635
+    },
+    {
+      "word": "rigid",
+      "events": 9,
+      "coded_bytes": 30,
+      "native_bits": 121.49616114608943,
+      "corpus_count": 1156
+    },
+    {
+      "word": "cadre",
+      "events": 12,
+      "coded_bytes": 36,
+      "native_bits": 161.07055071741343,
+      "corpus_count": 179
+    },
+    {
+      "word": "centered",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 120.76068729162216,
+      "corpus_count": 2295
+    },
+    {
+      "word": "rearguard",
+      "events": 9,
+      "coded_bytes": 81,
+      "native_bits": 120.60405850503594,
+      "corpus_count": 81
+    },
+    {
+      "word": "coordinated",
+      "events": 10,
+      "coded_bytes": 30,
+      "native_bits": 133.55966206267476,
+      "corpus_count": 1053
+    },
+    {
+      "word": "reduction",
+      "events": 9,
+      "coded_bytes": 21,
+      "native_bits": 120.1480644037947,
+      "corpus_count": 2818
+    },
+    {
+      "word": "recruiting",
+      "events": 13,
+      "coded_bytes": 41,
+      "native_bits": 172.53437285870314,
+      "corpus_count": 459
+    },
+    {
+      "word": "losing",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 118.8497790209949,
+      "corpus_count": 3721
+    },
+    {
+      "word": "constantly",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 105.57952058315277,
+      "corpus_count": 2197
+    },
+    {
+      "word": "grenadier",
+      "events": 14,
+      "coded_bytes": 134,
+      "native_bits": 184.15419368399307,
+      "corpus_count": 161
+    },
+    {
+      "word": "fortress",
+      "events": 8,
+      "coded_bytes": 29,
+      "native_bits": 104.95207534078509,
+      "corpus_count": 2217
+    },
+    {
+      "word": "riflemen",
+      "events": 12,
+      "coded_bytes": 96,
+      "native_bits": 156.41127564990893,
+      "corpus_count": 57
+    },
+    {
+      "word": "sailing",
+      "events": 9,
+      "coded_bytes": 29,
+      "native_bits": 116.97045946121216,
+      "corpus_count": 2080
+    },
+    {
+      "word": "athletic",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 103.93621218204498,
+      "corpus_count": 2620
+    },
+    {
+      "word": "virtually",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 129.57173585891724,
+      "corpus_count": 3369
+    },
+    {
+      "word": "lieutenants",
+      "events": 14,
+      "coded_bytes": 45,
+      "native_bits": 181.16573032457381,
+      "corpus_count": 162
+    },
+    {
+      "word": "multi",
+      "events": 12,
+      "coded_bytes": 26,
+      "native_bits": 154.9970024228096,
+      "corpus_count": 6136
+    },
+    {
+      "word": "aka",
+      "events": 9,
+      "coded_bytes": 27,
+      "native_bits": 116.06184060126543,
+      "corpus_count": 3539
+    },
+    {
+      "word": "reserves",
+      "events": 11,
+      "coded_bytes": 34,
+      "native_bits": 141.22800531610847,
+      "corpus_count": 1889
+    },
+    {
+      "word": "crushing",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 102.57511478662491,
+      "corpus_count": 531
+    },
+    {
+      "word": "demonstrated",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 102.5557906627655,
+      "corpus_count": 2439
+    },
+    {
+      "word": "rates",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 115.19993221759796,
+      "corpus_count": 4352
+    },
+    {
+      "word": "renewed",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 102.21086698770523,
+      "corpus_count": 1431
+    },
+    {
+      "word": "mercenary",
+      "events": 8,
+      "coded_bytes": 26,
+      "native_bits": 102.20566998422146,
+      "corpus_count": 577
+    },
+    {
+      "word": "tested",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 101.98588049411774,
+      "corpus_count": 1878
+    },
+    {
+      "word": "charges",
+      "events": 10,
+      "coded_bytes": 20,
+      "native_bits": 127.47302865982056,
+      "corpus_count": 3757
+    },
+    {
+      "word": "proper",
+      "events": 15,
+      "coded_bytes": 31,
+      "native_bits": 191.0649681687355,
+      "corpus_count": 6241
+    },
+    {
+      "word": "reservists",
+      "events": 10,
+      "coded_bytes": 31,
+      "native_bits": 127.13971307873726,
+      "corpus_count": 83
+    },
+    {
+      "word": "recruitment",
+      "events": 11,
+      "coded_bytes": 35,
+      "native_bits": 139.78639427386224,
+      "corpus_count": 440
+    },
+    {
+      "word": "negative",
+      "events": 9,
+      "coded_bytes": 20,
+      "native_bits": 114.34515533596277,
+      "corpus_count": 6587
+    },
+    {
+      "word": "seeking",
+      "events": 10,
+      "coded_bytes": 32,
+      "native_bits": 126.75038276612759,
+      "corpus_count": 2850
+    },
+    {
+      "word": "internal",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 114.06725549697876,
+      "corpus_count": 7806
+    },
+    {
+      "word": "calls",
+      "events": 8,
+      "coded_bytes": 16,
+      "native_bits": 101.33659633994102,
+      "corpus_count": 4757
+    },
+    {
+      "word": "weak",
+      "events": 9,
+      "coded_bytes": 19,
+      "native_bits": 113.92647242546082,
+      "corpus_count": 3490
+    },
+    {
+      "word": "friendly",
+      "events": 16,
+      "coded_bytes": 48,
+      "native_bits": 202.51570666581392,
+      "corpus_count": 2908
+    },
+    {
+      "word": "surface",
+      "events": 13,
+      "coded_bytes": 31,
+      "native_bits": 164.508578248322,
+      "corpus_count": 14091
+    },
+    {
+      "word": "blamed",
+      "events": 8,
+      "coded_bytes": 24,
+      "native_bits": 101.20152438804507,
+      "corpus_count": 1044
+    },
+    {
+      "word": "badly",
+      "events": 16,
+      "coded_bytes": 50,
+      "native_bits": 201.9890627861023,
+      "corpus_count": 1487
+    },
+    {
+      "word": "mohawks",
+      "events": 9,
+      "coded_bytes": 72,
+      "native_bits": 113.60237877629697,
+      "corpus_count": 69
+    }
+  ],
+  "words_file_sha256": "e601a4482418657470e4d8c3ac40d44897687348d0643139af32341bf01163b9",
+  "CPU_lane": 2,
+  "exact_WRT_character_crosscheck": true
+}

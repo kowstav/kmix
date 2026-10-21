@@ -1,0 +1,19 @@
+{
+  "status": "PASS_LOCAL_HANDOFF_PROVENANCE",
+  "date": "2026-10-07T00:37:33.830777+00:00",
+  "checks": {
+    "original_audits_and_all_53_findings": true,
+    "96_distinct_protocols_without_false_completion": true,
+    "23_checks_match_current_source_hashes": true,
+    "four_models_and_native_reader_dumps_preserved": true,
+    "six_private_CPU_payloads_CRC_entry_and_physical_source_hashes": true,
+    "all_round10_python_sources_parse": true,
+    "historical_status_sources_preserved_exactly": true,
+    "registry_all_evidence_hashes_match": true,
+    "current_report_local_links_exist": true
+  },
+  "private_jobs_submitted": 0,
+  "paid_usd": 0,
+  "deletions": [],
+  "limits": "No remote terminal status, rounded-model native archive quality or whole-package improvement is established."
+}

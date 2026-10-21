@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.2.attention.forget_gate_projection.up.weight.q",
+  "names": [
+    "blocks.2.attention.forget_gate_projection.up.weight.q"
+  ],
+  "label": "c15a0e2b9b2fed63e10535d1",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 7123
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 6494
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 6510
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 7123
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 6494
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 6510
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 7125
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 6432
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 6503
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 6167
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 6314
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 6159
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 7115
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 6489
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 6521
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 7247
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 6698
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 6606
+    }
+  ],
+  "selected": [
+    6159,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "6cd72e49528b7ea30ab09ca497941e95becaa51c77349375f2ce9e1121c34dcb",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.036936000000001745,
+  "wall_seconds": 0.03777626100000475
+}

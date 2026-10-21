@@ -1,0 +1,11 @@
+# Exact-weight descendant: priced dyadic partitions
+
+Registered 6 October 2026 before its results. Read preserved C3 raw exported tensors; do not change, round, omit or retrain any tensor. This diagnostic tests whether fixed row/column grouping missed useful heterogeneity. The prior C5 column codec grew for this checkpoint; that result does not exhaust all partitions.
+
+For a block of symbols in an explicitly transmitted alphabet of K=2*qmax+1 values, use the proper Dirichlet(1/2) marginal:
+
+L_KT(c) = log2 Gamma(n+K/2) - log2 Gamma(K/2) - sum_j [log2 Gamma(c_j+1/2) - log2 Gamma(1/2)].
+
+This charges estimation uncertainty and normalization, including unobserved symbols. It differs from an unpriced fitted entropy nH. At a dyadic node with deterministic split axis, C(v)=min(1+L_KT(c_v),1+C(left)+C(right)); leaves with fewer than 4096 symbols or a single row/column use L_KT with no split flag. Counts aggregate bottom-up. Induction proves the minimum over this finite binary partition grammar; it is not the optimum over arbitrary tensor codecs. Compare both row and column trees; charge 2 selector bits and an 8-bit qmax. All partition flags are paid. No histogram is stored for KT; the decoder would update counts from preceding symbols in each block.
+
+Record all tensor sizes, shaped matrix names, homogeneous KT, empirical entropy, best-axis costs, chosen split counts and counterfactual unpriced heterogeneity. The difference from entropy diagnoses local structure after its complexity cost. Neither this calculation nor total entropy plus KT penalty is an actual C3 container: C3 has shared seeding, raw/scalar/rope metadata, framing and a different range codec. If aggregate margin is credible, implement deterministic integer counts and exact range coding, measure the whole container, add all packed loader and required duplication bytes, and independently compare all 435 serialized arrays. If the margin is absent, move to scale-conditioned priors, index-codebook relabeling, matrix predictive deltas, tensor-family shared priors or bit-plane conditional models as distinct descendants, with priced selection. Do not repeatedly implement a larger loader for a sub-byte diagnostic gain.

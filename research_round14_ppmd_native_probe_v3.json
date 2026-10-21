@@ -1,0 +1,48 @@
+{
+  "status": "PASS_FOUR_NATIVE_PPMDH_REAL_DATA_INVERSES",
+  "time": 1791525038.401915,
+  "cases": [
+    {
+      "input": "region_0_8_False.raw",
+      "order": 8,
+      "raw_bytes": 954811,
+      "archive_bytes": 254770,
+      "raw_sha256": "e0a7787b5e44fa69ae76f04b01225ff3903688b52833340b2a2cfadd2b967e11",
+      "archive_sha256": "6149884b43d910d0f4f63731a273c369b349f435eaf4479d18fa4071486f8cec",
+      "exact": true,
+      "method": "PPMD:o8:mem26"
+    },
+    {
+      "input": "region_2_16_True.raw",
+      "order": 16,
+      "raw_bytes": 790847,
+      "archive_bytes": 204518,
+      "raw_sha256": "9d5599aef38051519f1351415914d0791527b2c5bed75b608ac07ca54e444f3b",
+      "archive_sha256": "37faa3eb0137132df797362e54865ca162ba73b62e8cedda441e9f905eaeb6aa",
+      "exact": true,
+      "method": "PPMD:o16:mem26"
+    },
+    {
+      "input": "region_3_8_False.raw",
+      "order": 8,
+      "raw_bytes": 683615,
+      "archive_bytes": 178520,
+      "raw_sha256": "ce8b2e334b2e5a9ca4e8e349b0a594d1f8b2d1ca4ee90bb2ee9212698de18984",
+      "archive_sha256": "81d482c32c938efee6b35d429856ffca5bb7b8e462c17e1e88475dd44b4e7fc0",
+      "exact": true,
+      "method": "PPMD:o8:mem26"
+    },
+    {
+      "input": "region_0_8_False.raw",
+      "order": 16,
+      "raw_bytes": 954811,
+      "archive_bytes": 254037,
+      "raw_sha256": "e0a7787b5e44fa69ae76f04b01225ff3903688b52833340b2a2cfadd2b967e11",
+      "archive_sha256": "84a4d7c51046b355fe82ec814422f9570ab3ce0937c8481be3ba09e1c78f2e5f",
+      "exact": true,
+      "method": "PPMD:o16:mem26"
+    }
+  ],
+  "source": "independently re-decode all four v2 streams, preserve v1 path and v2 case-sensitive method-check failures",
+  "deletions": []
+}

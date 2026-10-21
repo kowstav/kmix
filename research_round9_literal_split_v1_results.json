@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE_REVERSIBLE_LITERAL_INPUT_MASK_SPLIT_NATIVE_SCREEN",
+  "pid": 2281,
+  "started": 1791308715.5857742,
+  "scope": "literal/OOV and dictionary rare-word input redaction, constants stream paid, actual final CM encode/decode",
+  "spending_usd": 0,
+  "deletions": [],
+  "candidates": [
+    {
+      "cutoff": 107,
+      "redacted_bytes": 2972,
+      "side_spans": 404,
+      "literal_side_bytes": 2505,
+      "native_main_archive_bytes": 5274,
+      "container_bytes": 7791,
+      "gain_vs_baseline_bytes_before_extra_executable": -2106,
+      "restored_original_encoded_input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "exact_restore_and_independent_native_decode": true,
+      "encode_accounting": {
+        "wall_seconds": 114.28907928600165,
+        "CPU_seconds": 113.809829,
+        "peak_RSS_KiB": 5747964,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 111.9962380500001,
+        "CPU_seconds": 111.690288,
+        "peak_RSS_KiB": 5747608,
+        "returncode": 0
+      }
+    },
+    {
+      "cutoff": 1392,
+      "redacted_bytes": 5648,
+      "side_spans": 1065,
+      "literal_side_bytes": 5027,
+      "native_main_archive_bytes": 5097,
+      "container_bytes": 10136,
+      "gain_vs_baseline_bytes_before_extra_executable": -4451,
+      "restored_original_encoded_input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "exact_restore_and_independent_native_decode": true,
+      "encode_accounting": {
+        "wall_seconds": 94.33723550099967,
+        "CPU_seconds": 94.15846300000001,
+        "peak_RSS_KiB": 5719532,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 91.54091700700155,
+        "CPU_seconds": 91.410053,
+        "peak_RSS_KiB": 5719472,
+        "returncode": 0
+      }
+    },
+    {
+      "cutoff": 8372,
+      "redacted_bytes": 8527,
+      "side_spans": 2014,
+      "literal_side_bytes": 7633,
+      "native_main_archive_bytes": 4854,
+      "container_bytes": 12499,
+      "gain_vs_baseline_bytes_before_extra_executable": -6814,
+      "restored_original_encoded_input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+      "exact_restore_and_independent_native_decode": true,
+      "encode_accounting": {
+        "wall_seconds": 99.85986878800031,
+        "CPU_seconds": 99.562348,
+        "peak_RSS_KiB": 5675956,
+        "returncode": 0
+      },
+      "decode_accounting": {
+        "wall_seconds": 83.64556015400012,
+        "CPU_seconds": 83.61050900000001,
+        "peak_RSS_KiB": 5675792,
+        "returncode": 0
+      }
+    }
+  ],
+  "scratch": "/root/hp_round9/literal_split_v1",
+  "worker_sha256": "dfe43764095982e33a78e435eeb3364600088e4c412ccd5d71b6ca0d5bd7b0fd",
+  "contract": {
+    "target_bytes": 65536,
+    "thresholds": [
+      107,
+      1392,
+      8372
+    ],
+    "rare_policy": "global-frequency supervision controls encoder-side split; decoder receives all positions/lengths/bytes and needs no frequency table",
+    "main_mask": "same encoded length, rare byte spans replaced by existing literal-space vocabulary symbol",
+    "literal_scope": "all whole body-word dictionary/literal/OOV/case spans in the exact prefix alignment",
+    "side_model": "zlib9, not assumed optimal; explicit bitstream",
+    "core": "actual selected lexical transformer unchanged",
+    "learned_masked-stream_finetuning": "not yet implemented",
+    "container_price": "12B framing plus compressed literal stream plus actual native main archive; extra eligible executable decoder code not yet measured",
+    "corpus_scope": "65KiB from previously viewed early prefix; diagnostic, not independent corpus confirmation",
+    "native_codec": "combined CM final coder, not transformer-only"
+  },
+  "stage": "input-redaction constants split actually tested; masked-stream training and final executable/full corpus remain open",
+  "baseline": {
+    "archive_bytes": 5685,
+    "input_sha256": "d09a2c16fc36c3c8abfe13db9c2007d4239d5a9417b2aff5875bc17ba37077e5",
+    "independent_decode_exact": true,
+    "encode_accounting": {
+      "wall_seconds": 120.83087807899938,
+      "CPU_seconds": 119.936107,
+      "peak_RSS_KiB": 5760872,
+      "returncode": 0
+    },
+    "decode_accounting": {
+      "wall_seconds": 113.38206441999864,
+      "CPU_seconds": 112.816209,
+      "peak_RSS_KiB": 5760720,
+      "returncode": 0
+    }
+  },
+  "finished": 1791309545.520643,
+  "full_package_qualified": false
+}

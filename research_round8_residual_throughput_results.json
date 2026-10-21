@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_FREE_T4_RESIDUAL_THROUGHPUT_ONLY",
+  "pid": 1218,
+  "session": 355735431,
+  "started": "2026-10-06T13:30:10.812463+00:00",
+  "scope": "single free T4 resident-batch forward/backward/zero-lr optimizer timing only",
+  "production_training": false,
+  "model_update": false,
+  "paid_spending_usd": 0,
+  "deletions": [],
+  "results": [
+    {
+      "name": "MLP24_32_1",
+      "parameter_count": 833,
+      "warm_steps": 4,
+      "timed_steps": 12,
+      "median_step_seconds": 0.0019614144998740812,
+      "p90_step_seconds": 0.002126156699614512,
+      "useful_bit_targets_per_GPU_second": 16706310.676353028,
+      "peak_device_allocated_bytes": 35143168,
+      "peak_device_reserved_bytes": 46137344,
+      "before_after_parameter_sha256": "60c6114ee8f8d77359bd8003a6792ce37aa01d75823f404838bd56afe716ad7a",
+      "parameters_unchanged": true,
+      "optimizer_lr": 0.0,
+      "resident_repeated_batch_not_training_coverage": true
+    },
+    {
+      "name": "GRU24_16_1_seq128",
+      "parameter_count": 2033,
+      "warm_steps": 4,
+      "timed_steps": 12,
+      "median_step_seconds": 0.0028520975001811166,
+      "p90_step_seconds": 0.003126064500247594,
+      "useful_bit_targets_per_GPU_second": 11489088.293061206,
+      "peak_device_allocated_bytes": 101408256,
+      "peak_device_reserved_bytes": 115343360,
+      "before_after_parameter_sha256": "70719657bc7c2ed96c6f2469096775bd1b675608f6ab4c3e5205f50b88e3f26f",
+      "parameters_unchanged": true,
+      "optimizer_lr": 0.0,
+      "resident_repeated_batch_not_training_coverage": true
+    }
+  ],
+  "stage": "timing complete; no model updates, no5090extrapolation",
+  "gpu": "Tesla T4",
+  "capability": [
+    7,
+    5
+  ],
+  "torch_version": "2.10.0+cu128",
+  "native_bf16_supported": false,
+  "dtype": "float32",
+  "batch_useful_bit_targets": 32768,
+  "preload_wall_seconds": 0.24065666999922541,
+  "source_hashes": [
+    {
+      "file": "research_round8_residual_throughput_worker.py",
+      "sha256": "99ee8e37b3d74c5c2866993c0d5f541ae74ca3a5eaa55940432cc192252ecc4a"
+    },
+    {
+      "file": "research_round8_residual_throughput_protocol.md",
+      "sha256": "59339ba6f4a3b945e1834beabb43279906616b9535d6234a876968f7720dc93a"
+    }
+  ],
+  "finished": "2026-10-06T13:30:16.002184+00:00"
+}

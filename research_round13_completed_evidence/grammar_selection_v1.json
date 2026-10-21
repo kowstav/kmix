@@ -1,0 +1,66 @@
+{
+  "selected_at": 1791379492.1696858,
+  "policy": "minimum paid aggregate development archive bytes; deterministic lexical tie break",
+  "development_indices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "chosen_arm": [
+    "coarse_right",
+    4
+  ],
+  "development_totals": [
+    {
+      "mode": "bag",
+      "alpha": 0,
+      "bytes": 3153110
+    },
+    {
+      "mode": "coarse_left",
+      "alpha": 1,
+      "bytes": 3016693
+    },
+    {
+      "mode": "coarse_left",
+      "alpha": 4,
+      "bytes": 3015913
+    },
+    {
+      "mode": "coarse_right",
+      "alpha": 1,
+      "bytes": 3016416
+    },
+    {
+      "mode": "coarse_right",
+      "alpha": 4,
+      "bytes": 3014495
+    },
+    {
+      "mode": "coarse_wrong",
+      "alpha": 1,
+      "bytes": 3019252
+    },
+    {
+      "mode": "coarse_wrong",
+      "alpha": 4,
+      "bytes": 3023182
+    },
+    {
+      "mode": "markov",
+      "alpha": 4,
+      "bytes": 3018441
+    },
+    {
+      "mode": "unigram",
+      "alpha": 0,
+      "bytes": 3036651
+    }
+  ],
+  "selection_is_proxy_only": true
+}

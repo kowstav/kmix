@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.4.attention.output_gate_projection.down.weight.q",
+  "names": [
+    "blocks.4.attention.output_gate_projection.down.weight.q"
+  ],
+  "label": "50e7fa1903c832f0fda4ec0d",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 7139
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 6528
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 6511
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 7139
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 6528
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 6511
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 7140
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 6470
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 6504
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 6208
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 6359
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 6190
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 7147
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 6470
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 6516
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 7268
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 6675
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 6608
+    }
+  ],
+  "selected": [
+    6190,
+    "nibble",
+    "zstd"
+  ],
+  "archive_sha256": "bf67d886120791e97df58da9defef98b1cba0b2dadb5227afcb0b6c870e71995",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.03885500000000068,
+  "wall_seconds": 0.0488197550000109
+}

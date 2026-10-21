@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.1.attention.output_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.1.attention.output_gate_projection.up.weight.scale"
+  ],
+  "label": "5463b4a9cd023abc996aa100",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 295
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 235
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 280
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 225
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 295
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 295
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 260
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 295
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 241
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 267
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 307
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 264
+    }
+  ],
+  "selected": [
+    225,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "d22c77b71bb629ebe325e6f60c041bb645157b51204f9df7e509d8f43ad4b660",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.008274000000003418,
+  "wall_seconds": 0.008767953000017314
+}

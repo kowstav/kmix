@@ -1,0 +1,68 @@
+{
+  "slice": "a",
+  "input_bytes": 2000000,
+  "constructor_spans": 58266,
+  "screen_rows": [
+    {
+      "representation": "direct",
+      "codec": "zlib9",
+      "candidate_archive_bytes": 598249,
+      "matched_original_archive_bytes": 578411,
+      "bytes_saved_before_incremental_decoder": -19838,
+      "skeleton_raw_bytes": 2050621,
+      "constructor_channel_raw_bytes": 124184,
+      "raw_constructor_type_count": 0,
+      "raw_table_bytes": 0,
+      "packet_sha256": "a6b616b117ac1a586ea21de43ff2a9cc806c273295acc317b4a2fe5e79b473d9",
+      "roundtrip": "PASS"
+    },
+    {
+      "representation": "direct",
+      "codec": "lzma6",
+      "candidate_archive_bytes": 435843,
+      "matched_original_archive_bytes": 412880,
+      "bytes_saved_before_incremental_decoder": -22963,
+      "skeleton_raw_bytes": 2050621,
+      "constructor_channel_raw_bytes": 124184,
+      "raw_constructor_type_count": 0,
+      "raw_table_bytes": 0,
+      "packet_sha256": "aab5050b8e3d145cad554e2ca6f6e26c16ae901dbe79697366f9783f7f23b394",
+      "roundtrip": "PASS"
+    },
+    {
+      "representation": "constructor_word_table",
+      "codec": "zlib9",
+      "candidate_archive_bytes": 592270,
+      "matched_original_archive_bytes": 578411,
+      "bytes_saved_before_incremental_decoder": -13859,
+      "skeleton_raw_bytes": 2050621,
+      "constructor_channel_raw_bytes": 59316,
+      "raw_constructor_type_count": 234,
+      "raw_table_bytes": 680,
+      "packet_sha256": "668efd7c4eb8c42ab1aa5741e5714b4f2b401c169715dbac1627701ff24725a6",
+      "roundtrip": "PASS"
+    },
+    {
+      "representation": "constructor_word_table",
+      "codec": "lzma6",
+      "candidate_archive_bytes": 430635,
+      "matched_original_archive_bytes": 412880,
+      "bytes_saved_before_incremental_decoder": -17755,
+      "skeleton_raw_bytes": 2050621,
+      "constructor_channel_raw_bytes": 59316,
+      "raw_constructor_type_count": 234,
+      "raw_table_bytes": 680,
+      "packet_sha256": "b2943ee5962731a7a6a7e92f82f904d317d3dfc4d56f6b86de43b7bce1ff8d04",
+      "roundtrip": "PASS"
+    }
+  ],
+  "input_sha256": "e3cf8c63ac7bbc246587bd09729b89abf6bbebc718a1643013cfec57b1892292",
+  "cost_sha256": "f95d1f44ba57bc19bbb348a687d4f89a77ea9edf4b1b7ddf7f920abb2b420444",
+  "wall_seconds": 8.23801061300037,
+  "cpu_seconds": 8.236634792,
+  "prototype_peak_RSS_KiB_process_to_date": 593696,
+  "interpretation": "Matched-codec exact raw skeleton screen; no cmix or qualifying package improvement implied.",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

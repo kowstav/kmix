@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_NATIVE_CORE_LAYER_OBSERVATION",
+  "pid": 1997,
+  "started": 1791304819.4497833,
+  "deletions": [],
+  "spending_usd": 0,
+  "scope": "observation-only native FP32 layer and prior capture; no neural/model update change",
+  "observer_source_sha256": "81770302e73d046e8b13280ea0cc4e3e7a12a1ebbaf644898798a513a0e1809a",
+  "stage": "native FP32 layer observations ready; GPU differential comparison pending",
+  "build_seconds": 26.708040223998978,
+  "native_input_sha256": "35217931bdc8c0331b4099a722e8a32650d83ae8667c636a0d4849a9dce26ce8",
+  "native_neural_observer_identity": "PASS",
+  "rows": 4096,
+  "row_bytes": 11625,
+  "layer_file_sha256": "1c1d89758b30a02ece7cda3c5f7aeb671ea5265882d5761c0148044f02ee9392",
+  "finished": 1791304850.55565,
+  "scratch": "/root/hp_round9/core_layer_probe_v1"
+}

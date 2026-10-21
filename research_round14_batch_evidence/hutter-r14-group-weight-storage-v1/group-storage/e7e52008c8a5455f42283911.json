@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.10.attention.output_gate_projection.down.weight.scale",
+  "names": [
+    "blocks.10.attention.output_gate_projection.down.weight.scale"
+  ],
+  "label": "e7e52008c8a5455f42283911",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 482
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 432
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 468
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 424
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 482
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 482
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 482
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 543
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 471
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 558
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 591
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 545
+    }
+  ],
+  "selected": [
+    424,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "7aca5132555805211956af616046f558c3b8f571644b26dc41d0187e7fe07847",
+  "CPU_lane": 3,
+  "CPU_seconds": 0.009260000000002835,
+  "wall_seconds": 0.009737772999983463
+}

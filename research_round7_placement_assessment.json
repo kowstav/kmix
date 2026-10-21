@@ -1,0 +1,426 @@
+{
+  "utc": "2026-10-05T13:26:35.793330+00:00",
+  "native_identity_gate_status": "PASS",
+  "native_controls": [
+    {
+      "slice": "a",
+      "input_bytes": 32768,
+      "input_sha256": "abf949c54359ee758b795cd282f44c9543864729b514bd0919a428fe3632ba8b",
+      "archive_bytes": 3109,
+      "archive_sha256": "b61c7eec4f2f25e443a5f4033d8c6ccd63b241b23665eeeec4b619e4363f35bc",
+      "bit_trace_sha256": "3e09f3b1ce47da6006c58aa91d02f852b6597d49dd4fbba75b0ca32f85e54cbf",
+      "bit_count": 262144,
+      "max_bit_reconstruction_vs_float32_byte_cost_diff": 4.7653559676064106e-07,
+      "archive_bit_exact_reference": true,
+      "costs_bit_exact_older2M_prefix": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "wall_seconds": 68.01591398899996,
+          "user_seconds": 61.724667,
+          "system_seconds": 5.622967,
+          "max_rss_kbytes": 5651728,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "trace": {
+          "wall_seconds": 73.0102213749999,
+          "user_seconds": 66.851989,
+          "system_seconds": 5.8736809999999995,
+          "max_rss_kbytes": 5651732,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "decode": {
+          "wall_seconds": 77.01220534699996,
+          "user_seconds": 70.233372,
+          "system_seconds": 6.1159,
+          "max_rss_kbytes": 5651568,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        }
+      }
+    },
+    {
+      "slice": "b",
+      "input_bytes": 32768,
+      "input_sha256": "4dcc59b719cf635dfc72d2d96123d0344bab68df0d3f5805f46978f4674a7b24",
+      "archive_bytes": 8222,
+      "archive_sha256": "a82bea6aa9e16dc23ce1cd870c1d56b8600d46d61c9144edf33c86e0becd55c6",
+      "bit_trace_sha256": "be585cc6def93f795090efc71a72a7a2c74681d92272ee38fded8f84618621dd",
+      "bit_count": 262144,
+      "max_bit_reconstruction_vs_float32_byte_cost_diff": 7.704663538277146e-07,
+      "archive_bit_exact_reference": true,
+      "costs_bit_exact_older2M_prefix": true,
+      "independent_raw_decode_exact": true,
+      "runtime": {
+        "reference": {
+          "wall_seconds": 73.010080474,
+          "user_seconds": 66.089233,
+          "system_seconds": 6.099729,
+          "max_rss_kbytes": 5798620,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "trace": {
+          "wall_seconds": 73.01011613800028,
+          "user_seconds": 66.09836,
+          "system_seconds": 6.06284,
+          "max_rss_kbytes": 5798496,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        },
+        "decode": {
+          "wall_seconds": 72.01039024200008,
+          "user_seconds": 65.383998,
+          "system_seconds": 5.900736,
+          "max_rss_kbytes": 5798316,
+          "measurement": "Linux wait4, individual child, sequential controls",
+          "returncode": 0
+        }
+      }
+    }
+  ],
+  "collector_status_at_download": "RUNNING",
+  "directed_ideal_saving_bytes": -7.847331710107538,
+  "matched_full_native_ideal_bytes": 1510771.4730457834,
+  "complete_dictionary_atoms": 1729699,
+  "word_budgets": {
+    "is": {
+      "count": 25614,
+      "native_complete_code_bits": 49072.85823924234,
+      "mean_native_code_bits": 1.9158607886016374,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.4060248283308299
+    },
+    "was": {
+      "count": 6617,
+      "native_complete_code_bits": 19126.626466888003,
+      "mean_native_code_bits": 2.8905284066628387,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.1582521480592285
+    },
+    "and": {
+      "count": 38665,
+      "native_complete_code_bits": 103098.07064596587,
+      "mean_native_code_bits": 2.666444346203695,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.8530250312950666
+    },
+    "to": {
+      "count": 35817,
+      "native_complete_code_bits": 68560.27207329986,
+      "mean_native_code_bits": 1.9141824293854834,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.5672621016522709
+    },
+    "no": {
+      "count": 1467,
+      "native_complete_code_bits": 8823.15768735297,
+      "mean_native_code_bits": 6.014422418100184,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.07300208738358263
+    },
+    "in": {
+      "count": 32412,
+      "native_complete_code_bits": 102717.79237683315,
+      "mean_native_code_bits": 3.169128482563037,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.8498786398990366
+    },
+    "with": {
+      "count": 9153,
+      "native_complete_code_bits": 38269.804790913826,
+      "mean_native_code_bits": 4.181121467378327,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.31664124483499956
+    },
+    "of": {
+      "count": 62222,
+      "native_complete_code_bits": 68099.60872146464,
+      "mean_native_code_bits": 1.0944619061017749,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.5634506106354785
+    },
+    "the": {
+      "count": 101938,
+      "native_complete_code_bits": 194408.4521768,
+      "mean_native_code_bits": 1.907124449928388,
+      "restricted_oracle_budget_percent_of_full_native_bits": 1.6085196838611187
+    },
+    "know": {
+      "count": 232,
+      "native_complete_code_bits": 1487.9235000796616,
+      "mean_native_code_bits": 6.413463362412335,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.01231095773439464
+    },
+    "now": {
+      "count": 805,
+      "native_complete_code_bits": 5615.537830230547,
+      "mean_native_code_bits": 6.975823391590742,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.04646250219192127
+    },
+    "diamond": {
+      "count": 10,
+      "native_complete_code_bits": 103.4440284408629,
+      "mean_native_code_bits": 10.34440284408629,
+      "restricted_oracle_budget_percent_of_full_native_bits": 0.0008558874578853004
+    }
+  },
+  "example_pairs": [
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 2,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 3,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "no",
+      "target": "know",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "no",
+      "target": "now",
+      "lag_DICT_events": 2,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "know",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 1,
+      "pair_count": 2
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 2,
+      "pair_count": 2
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 3,
+      "pair_count": 2
+    },
+    {
+      "scope": "article",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 2,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 3,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "know",
+      "target": "no",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "no",
+      "target": "know",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "no",
+      "target": "now",
+      "lag_DICT_events": 2,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "know",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 1,
+      "pair_count": 1
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 2,
+      "pair_count": 2
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 3,
+      "pair_count": 2
+    },
+    {
+      "scope": "raw_punctuation_segment",
+      "source": "now",
+      "target": "no",
+      "lag_DICT_events": 4,
+      "pair_count": 1
+    }
+  ],
+  "directed_resources": [
+    {
+      "slice": "a",
+      "peak_rss_kbytes": 592928,
+      "wall_seconds": 181.09398975299996,
+      "memory": {
+        "active_rows": 8192,
+        "active_edges": 48879,
+        "row_cap_total_across_lags": 8192,
+        "edge_cap_per_row": 32,
+        "maximum_edge_payload_bytes_u16_id_u32_count": 1572864,
+        "maximum_row_key_payload_bytes_u8_lag_u16_source_u32_total": 57344,
+        "excluded_from_payload_estimate": "row LRU/free slots/hash index/global counts/queue/alignment/code",
+        "stats": {
+          "observed_pairs": [
+            294464,
+            292613,
+            288911,
+            281507,
+            266699,
+            179780
+          ],
+          "row_evictions": 157589,
+          "discarded_row_counts": 490026,
+          "edge_evictions": 469619,
+          "discarded_edge_counts": 473319,
+          "row_rescales": 0
+        }
+      }
+    },
+    {
+      "slice": "b",
+      "peak_rss_kbytes": 592928,
+      "wall_seconds": 196.95098261700014,
+      "memory": {
+        "active_rows": 8192,
+        "active_edges": 45474,
+        "row_cap_total_across_lags": 8192,
+        "edge_cap_per_row": 32,
+        "maximum_edge_payload_bytes_u16_id_u32_count": 1572864,
+        "maximum_row_key_payload_bytes_u8_lag_u16_source_u32_total": 57344,
+        "excluded_from_payload_estimate": "row LRU/free slots/hash index/global counts/queue/alignment/code",
+        "stats": {
+          "observed_pairs": [
+            472926,
+            471992,
+            470124,
+            466388,
+            458916,
+            414587
+          ],
+          "row_evictions": 426565,
+          "discarded_row_counts": 1396952,
+          "edge_evictions": 1039935,
+          "discarded_edge_counts": 1050619,
+          "row_rescales": 0
+        }
+      }
+    },
+    {
+      "slice": "c",
+      "peak_rss_kbytes": 592928,
+      "wall_seconds": 184.14921199800006,
+      "memory": {
+        "active_rows": 8192,
+        "active_edges": 44336,
+        "row_cap_total_across_lags": 8192,
+        "edge_cap_per_row": 32,
+        "maximum_edge_payload_bytes_u16_id_u32_count": 1572864,
+        "maximum_row_key_payload_bytes_u8_lag_u16_source_u32_total": 57344,
+        "excluded_from_payload_estimate": "row LRU/free slots/hash index/global counts/queue/alignment/code",
+        "stats": {
+          "observed_pairs": [
+            482826,
+            482108,
+            480672,
+            477800,
+            472056,
+            437785
+          ],
+          "row_evictions": 464768,
+          "discarded_row_counts": 1519221,
+          "edge_evictions": 1016867,
+          "discarded_edge_counts": 1027385,
+          "row_rescales": 0
+        }
+      }
+    },
+    {
+      "slice": "d",
+      "peak_rss_kbytes": 592928,
+      "wall_seconds": 180.81152336100013,
+      "memory": {
+        "active_rows": 8192,
+        "active_edges": 35448,
+        "row_cap_total_across_lags": 8192,
+        "edge_cap_per_row": 32,
+        "maximum_edge_payload_bytes_u16_id_u32_count": 1572864,
+        "maximum_row_key_payload_bytes_u8_lag_u16_source_u32_total": 57344,
+        "excluded_from_payload_estimate": "row LRU/free slots/hash index/global counts/queue/alignment/code",
+        "stats": {
+          "observed_pairs": [
+            475483,
+            474986,
+            473992,
+            472004,
+            468028,
+            444215
+          ],
+          "row_evictions": 598724,
+          "discarded_row_counts": 1548498,
+          "edge_evictions": 936462,
+          "discarded_edge_counts": 945252,
+          "row_rescales": 0
+        }
+      }
+    }
+  ],
+  "interpretation": "Cold previously examined slices, complete dictionary-code bits only; descriptive pair frequencies/oracle budgets are not achieved compression or a global upper bound",
+  "neural_training": false,
+  "paid_rental_usd": 0,
+  "deletions": []
+}

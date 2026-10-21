@@ -1,0 +1,40 @@
+{
+  "status": "FAIL",
+  "pid": 175,
+  "session": 355655943,
+  "started": "2026-10-06T07:02:27.008798+00:00",
+  "results": [],
+  "deletions": [],
+  "paid_rental_usd": 0,
+  "core_retraining": false,
+  "compile": {
+    "wall_seconds_controller": 9.043329322000318,
+    "user_seconds": 8.749262,
+    "system_seconds": 0.290095,
+    "max_rss_kbytes": 320144
+  },
+  "binary": {
+    "bytes": 313976,
+    "sha256": "efa06f37e9d8e192cabc4858ee704f261a38315d3075116401168f50f93a4387"
+  },
+  "sources": [
+    {
+      "file": "research_round8_clean_title.cpp",
+      "sha256": "356c24e48f7a1cc779b2b273a783b0d7b26892d1cfe287ff7f7aae98486c39c5"
+    },
+    {
+      "file": "research_round8_conditional_library.h",
+      "sha256": "8a20476f8d4af82ea0d8dd8055d60880b95526fd538a2f6ea4421197d98761bc"
+    },
+    {
+      "file": "research_round7_remaining_experts.cpp",
+      "sha256": "b54c35169529eae8cc4269c40585f94bfa77121b25e4d1a0aa51982a5b962d17"
+    },
+    {
+      "file": "research_round8_clean_title_protocol.md",
+      "sha256": "278973cde7b0f1047677b6c387a0bed7e421556f182be8a9662d9cb2737bc756"
+    }
+  ],
+  "error": "RuntimeError((['/kaggle/working/hp_round8/clean_title_v1/replay', 'selftest', '/kaggle/working/hp_round7/preserved/gen/.dict', '/kaggle/working/hp_round7/research_round7_remaining_graph.txt', '/kaggle/working/hp_round7/research_round7_remaining_constructors.txt'], 1, '/kaggle/working/hp_round8/clean_title_v1/selftest.log'))",
+  "traceback": "Traceback (most recent call last):\n  File \"/kaggle/working/hp_round8/research_round8_clean_title_worker.py\", line 15, in <module>\n    run([str(binary),'selftest',*args],D/'selftest.log');m['selftest']=json.loads((D/'selftest.log').read_text());save()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/kaggle/working/hp_round8/research_round8_clean_title_worker.py\", line 8, in run\n    if p.returncode:raise RuntimeError((cmd,p.returncode,str(log)))\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: (['/kaggle/working/hp_round8/clean_title_v1/replay', 'selftest', '/kaggle/working/hp_round7/preserved/gen/.dict', '/kaggle/working/hp_round7/research_round7_remaining_graph.txt', '/kaggle/working/hp_round7/research_round7_remaining_constructors.txt'], 1, '/kaggle/working/hp_round8/clean_title_v1/selftest.log')\n"
+}

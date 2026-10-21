@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/kaggle/working/hp_round8/research_round8_canonical_cost_atlas_v2.py", line 56, in <module>
+    total=float(cost.sum());assert abs(sum(classbits.values())-total)<1e-5;assert total-ideal_mix_bits>=-1.000001
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

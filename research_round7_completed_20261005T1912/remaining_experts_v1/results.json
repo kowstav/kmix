@@ -1,0 +1,1946 @@
+[
+  {
+    "raw_bytes": 32768,
+    "unscored_prefix_bytes": 43,
+    "scored_bits": 261800,
+    "baseline_scored_bytes": 3034.0997982499484,
+    "mixture_saving_bytes": -1.0556578112992614,
+    "complete_ascii_dictionary_words": 4596,
+    "literal_ascii_words": 497,
+    "complete_pages": 47,
+    "article_bank": 46,
+    "donor_selections": 109889,
+    "bounded_rows": 160,
+    "contexts": 224,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -1.9188565396736934
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -4.032731417475769
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -47.68252654279616
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -164.64609693999364
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -2.6047300907408997
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -4.968991101492965
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -59.92047536950918
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -206.78697957712717
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -2.960028321017693
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -3.9899942936935457
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -59.07545487144446
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -241.33624396708328
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -3.4172470738226224
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -1.4172694730488695
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -34.058371734570116
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -132.1906845357811
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": 0.11027168060479905
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -0.2109203381233868
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -1.484485972821658
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -4.614026776888008
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -3.5585153558956435
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -2.0964152859230194
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -42.0359692296842
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -162.81676117780853
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -10.217723436340364
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -6.78536422383015
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -118.0950532551515
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -435.5446434896065
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -7.724981282836794
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -4.315124772210484
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -81.15064297711733
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -302.57635927012655
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -6.719420766612486
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -6.310190321006939
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -92.95028695404469
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -329.3309137330583
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -3.4613894298271624
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -5.520489961557888
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -75.15652091437758
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -280.61281555425956
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -3.6833496842750857
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -7.7593470517685565
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -94.00950919972213
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -327.58812729424903
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -1.4862035198637005
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -3.767666402661718
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -43.13579957018401
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -148.70782041910994
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -2.3053020557448094
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -5.037101401613344
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -58.809172525500166
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -201.1258298159218
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -8.186425216943984
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -3.7893540352509865
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -115.91479355994132
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -745.541758762362
+      }
+    ],
+    "wall_seconds": 8.007410342,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "a_32k",
+    "user_seconds": 7.955334,
+    "system_seconds": 0.080983,
+    "max_rss_kbytes": 96680,
+    "wall_controller": 8.044501465999929
+  },
+  {
+    "raw_bytes": 32768,
+    "unscored_prefix_bytes": 782,
+    "scored_bits": 255888,
+    "baseline_scored_bytes": 7824.123316445122,
+    "mixture_saving_bytes": -1.2975349182544562,
+    "complete_ascii_dictionary_words": 7239,
+    "literal_ascii_words": 561,
+    "complete_pages": 11,
+    "article_bank": 10,
+    "donor_selections": 91445,
+    "bounded_rows": 196,
+    "contexts": 208,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -3.9504822573628653
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -12.524214355844522
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -136.7754746651138
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -466.6819244979194
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -3.5027478626846444
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -32.32330348790747
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -311.1788721093231
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -1003.7554103651036
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -5.005569518523187
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -10.970331120017766
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -142.84128038250725
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -560.4339652170753
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -4.7963582271005585
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -4.990498323350598
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -77.41989818652127
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -299.32145663656337
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": 0.3050887664708308
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -0.529863635984925
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -3.5379967065683102
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -11.045121076130377
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -5.150519202901477
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -10.103024948828963
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -129.98928188198678
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -489.9055134769753
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -21.07293199526464
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -30.8489821059025
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -392.173607742966
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -1355.3835063653225
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -15.70486125299173
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -22.274000843201527
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -292.2039101983131
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -1027.8745977515034
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -17.437722461268507
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -21.285145689876934
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -293.6336978497974
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -1044.707680342984
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -19.308493874979025
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -38.2403459558636
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -448.59784525014175
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -1518.9795538672984
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -21.429870737289516
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -35.22013960117431
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -435.95378785807225
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -1502.1783766363728
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -1.9949317248295106
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -14.046900088118521
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -139.44688075029444
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -462.14721357693037
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -3.86285469824832
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -25.033237573628487
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -246.4735773908888
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -800.6389018554318
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -65.91589796351779
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -55.97974619330679
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -1109.558514968258
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -5054.443487268828
+      }
+    ],
+    "wall_seconds": 11.159197356,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "b_32k",
+    "user_seconds": 11.101116,
+    "system_seconds": 0.08796899999999999,
+    "max_rss_kbytes": 96588,
+    "wall_controller": 11.193816117000097
+  },
+  {
+    "raw_bytes": 2000000,
+    "unscored_prefix_bytes": 43,
+    "scored_bits": 15999656,
+    "baseline_scored_bytes": 187325.0117859147,
+    "mixture_saving_bytes": -1.0196946976810912,
+    "complete_ascii_dictionary_words": 294882,
+    "literal_ascii_words": 37540,
+    "complete_pages": 1851,
+    "article_bank": 1024,
+    "donor_selections": 6885889,
+    "bounded_rows": 242,
+    "contexts": 224,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -196.17445571682555
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -304.52309675842207
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -3823.7612047897283
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -13320.767925823235
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -303.54734953894234
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -446.64781965374806
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -5613.557061819196
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -19368.047809085452
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -198.62148622838976
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -207.16672546123772
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -3279.1374524957723
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -13249.575177233744
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -122.45567873087715
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -118.66531205427114
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -1913.9684471100022
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -7477.305597711881
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": -2.2194653008522467
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -4.078015725480204
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -55.22872446706362
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -213.98566916284025
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -200.85681815160905
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -151.93601003396648
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -2664.958541895112
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -10407.053417238869
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -1643.4409571859214
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -1862.0210519972056
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -25803.751439167234
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -91180.19548187687
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -1275.3447473258316
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -1492.8833200778358
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -20417.50896911918
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -71968.65658607293
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -1383.193766444
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -1556.2268764533158
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -21337.986277282595
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -74944.83304890007
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -377.8450886260334
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -366.19826536997834
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -5787.87020391762
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -22205.544016135307
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -363.03710392353213
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -446.29839275063534
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -6357.5004696462
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -23520.6016991534
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -196.63657007893872
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -310.1057028919683
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -3859.5437907920236
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -13398.649912445455
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -293.5488664810437
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -424.4845203836357
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -5354.429919822341
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -18442.60413490951
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -380.2955795156679
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -386.0392201282598
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -7631.49240986498
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -40312.195625397544
+      }
+    ],
+    "wall_seconds": 681.321171163,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "a_2m",
+    "user_seconds": 681.080127,
+    "system_seconds": 0.147979,
+    "max_rss_kbytes": 96648,
+    "wall_controller": 681.3603856819998
+  },
+  {
+    "raw_bytes": 2000000,
+    "unscored_prefix_bytes": 782,
+    "scored_bits": 15993744,
+    "baseline_scored_bytes": 436680.6514547932,
+    "mixture_saving_bytes": 0.009156911578664328,
+    "complete_ascii_dictionary_words": 468987,
+    "literal_ascii_words": 44051,
+    "complete_pages": 934,
+    "article_bank": 933,
+    "donor_selections": 6466613,
+    "bounded_rows": 270,
+    "contexts": 208,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -462.7656660669731
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -717.2730526282534
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -8801.865254420234
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -30309.46717542443
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -1009.4154827631975
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -1578.7492722583745
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -18796.99319030665
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -62710.346793411256
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -485.69499612865116
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -502.4585923512499
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -7849.364331083998
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -31005.384505628917
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -282.97478084829004
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -269.36604781103176
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -4383.89301680613
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -17265.705678374987
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": -5.579607139650099
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -13.076918177008329
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -164.3528034471038
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -621.4443578881553
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -447.9496887712114
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -444.96397596377
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -7060.650723191322
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -27423.991737425604
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -5418.477936906179
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -5395.865266211502
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -71942.95934294137
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -239357.3738603818
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -4022.235531698124
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -4244.647143230291
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -56570.33996905676
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -189450.15306637253
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -4374.623542027874
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -4512.630561537319
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -61240.08135434857
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -205573.12519583802
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -2279.652112130997
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -2338.0638114810517
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -32707.100146925186
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -113361.8481386346
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -1820.390271905792
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -2185.2902201293714
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -29863.713660515936
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -105055.17617151068
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -483.0379476302556
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -765.5730531163877
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -9201.859981747693
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -31242.80621861203
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -827.670285442924
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -1285.6769728246004
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -15363.482215945787
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -51468.56608652174
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -2423.2131697201353
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -2733.5859151784725
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -47575.224226843726
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -206916.21809827027
+      }
+    ],
+    "wall_seconds": 913.365778925,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "b_2m",
+    "user_seconds": 911.805598,
+    "system_seconds": 0.35386599999999996,
+    "max_rss_kbytes": 96520,
+    "wall_controller": 913.4023608880002
+  },
+  {
+    "raw_bytes": 2000000,
+    "unscored_prefix_bytes": 8173,
+    "scored_bits": 15934616,
+    "baseline_scored_bytes": 444412.9718334976,
+    "mixture_saving_bytes": 0.14154172682455987,
+    "complete_ascii_dictionary_words": 480139,
+    "literal_ascii_words": 45824,
+    "complete_pages": 718,
+    "article_bank": 717,
+    "donor_selections": 6373882,
+    "bounded_rows": 254,
+    "contexts": 224,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -488.88798812565454
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -736.4498826430004
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -9093.80269019278
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -31350.903053805003
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -1089.491478811054
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -1671.4449037888353
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -19857.570034681357
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -65951.19028606774
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -509.24851277022464
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -505.18632159302575
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -8017.05050964999
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -31759.195132427994
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -278.31445485408693
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -289.26106323559077
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -4545.214470050921
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -17679.50384910897
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": -6.498893849993939
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -11.959177636851411
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -159.63945781965143
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -607.3006134008035
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -509.1997942113371
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -417.98903626023935
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -7121.62825547751
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -27770.176240693338
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -5406.004826945179
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -5516.042904029274
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -75241.45227234306
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -252798.17957168623
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -3851.7049600150876
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -4022.9866655546307
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -55173.019852217345
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -188899.24624942045
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -4150.162948377684
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -4325.222860573746
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -59342.04158914568
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -203190.66159157958
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -2926.0657847640755
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -3129.331986428457
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -43054.665804108336
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -147333.1594928376
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -2374.511007924267
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -2879.425936275423
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -38492.446168009126
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -132762.93424906966
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -501.7123426979384
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -804.9689957903109
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -9607.180165838492
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -32505.279909917605
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -878.1884319321841
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -1351.4307734223435
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -16107.731648568015
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -53761.923626179974
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -2542.982502083128
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -2998.068230536296
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -51866.53749767989
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -225685.8482433431
+      }
+    ],
+    "wall_seconds": 848.271367628,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "c_2m",
+    "user_seconds": 846.387843,
+    "system_seconds": 0.375783,
+    "max_rss_kbytes": 96384,
+    "wall_controller": 848.3150023200001
+  },
+  {
+    "raw_bytes": 2000000,
+    "unscored_prefix_bytes": 1254,
+    "scored_bits": 15989968,
+    "baseline_scored_bytes": 438807.1229026697,
+    "mixture_saving_bytes": 2.6002908817967807,
+    "complete_ascii_dictionary_words": 472790,
+    "literal_ascii_words": 39808,
+    "complete_pages": 497,
+    "article_bank": 496,
+    "donor_selections": 6466742,
+    "bounded_rows": 266,
+    "contexts": 200,
+    "identity_neutral": true,
+    "models": [
+      {
+        "family": "echo16",
+        "strength": -0.125,
+        "saving_bytes": -420.28558885914873
+      },
+      {
+        "family": "echo16",
+        "strength": 0.125,
+        "saving_bytes": -699.5958461892739
+      },
+      {
+        "family": "echo16",
+        "strength": 0.5,
+        "saving_bytes": -8548.264339663765
+      },
+      {
+        "family": "echo16",
+        "strength": 1,
+        "saving_bytes": -29565.578488132225
+      },
+      {
+        "family": "echo128",
+        "strength": -0.125,
+        "saving_bytes": -963.0408651531526
+      },
+      {
+        "family": "echo128",
+        "strength": 0.125,
+        "saving_bytes": -1567.2490696717455
+      },
+      {
+        "family": "echo128",
+        "strength": 0.5,
+        "saving_bytes": -18692.321585198
+      },
+      {
+        "family": "echo128",
+        "strength": 1,
+        "saving_bytes": -62467.175924763964
+      },
+      {
+        "family": "empty",
+        "strength": -0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.125,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 0.5,
+        "saving_bytes": 0
+      },
+      {
+        "family": "empty",
+        "strength": 1,
+        "saving_bytes": 0
+      },
+      {
+        "family": "rank_length_random",
+        "strength": -0.125,
+        "saving_bytes": -456.67384915738256
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.125,
+        "saving_bytes": -525.0784981060413
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 0.5,
+        "saving_bytes": -7827.962736196211
+      },
+      {
+        "family": "rank_length_random",
+        "strength": 1,
+        "saving_bytes": -30012.853152606254
+      },
+      {
+        "family": "integer_geometry",
+        "strength": -0.125,
+        "saving_bytes": -302.0277326048181
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.125,
+        "saving_bytes": -280.3108187494538
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 0.5,
+        "saving_bytes": -4522.351030938361
+      },
+      {
+        "family": "integer_geometry",
+        "strength": 1,
+        "saving_bytes": -17336.145130468794
+      },
+      {
+        "family": "anagram",
+        "strength": -0.125,
+        "saving_bytes": -8.560047194618631
+      },
+      {
+        "family": "anagram",
+        "strength": 0.125,
+        "saving_bytes": -11.599637453905805
+      },
+      {
+        "family": "anagram",
+        "strength": 0.5,
+        "saving_bytes": -168.43748417565217
+      },
+      {
+        "family": "anagram",
+        "strength": 1,
+        "saving_bytes": -646.8042184173726
+      },
+      {
+        "family": "phonetic",
+        "strength": -0.125,
+        "saving_bytes": -502.36884672020597
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.125,
+        "saving_bytes": -409.4627403444456
+      },
+      {
+        "family": "phonetic",
+        "strength": 0.5,
+        "saving_bytes": -6917.159018885069
+      },
+      {
+        "family": "phonetic",
+        "strength": 1,
+        "saving_bytes": -26511.13444521056
+      },
+      {
+        "family": "syntax",
+        "strength": -0.125,
+        "saving_bytes": -5263.128324491718
+      },
+      {
+        "family": "syntax",
+        "strength": 0.125,
+        "saving_bytes": -5058.37876115666
+      },
+      {
+        "family": "syntax",
+        "strength": 0.5,
+        "saving_bytes": -70932.44990804642
+      },
+      {
+        "family": "syntax",
+        "strength": 1,
+        "saving_bytes": -240635.4839704911
+      },
+      {
+        "family": "constructor_run",
+        "strength": -0.125,
+        "saving_bytes": -3785.1947939215615
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.125,
+        "saving_bytes": -3699.409826855699
+      },
+      {
+        "family": "constructor_run",
+        "strength": 0.5,
+        "saving_bytes": -50965.93392765399
+      },
+      {
+        "family": "constructor_run",
+        "strength": 1,
+        "saving_bytes": -172875.99125547142
+      },
+      {
+        "family": "source_surprise",
+        "strength": -0.125,
+        "saving_bytes": -4111.682077439497
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.125,
+        "saving_bytes": -4079.3727270270133
+      },
+      {
+        "family": "source_surprise",
+        "strength": 0.5,
+        "saving_bytes": -56349.55975203434
+      },
+      {
+        "family": "source_surprise",
+        "strength": 1,
+        "saving_bytes": -191789.98974245036
+      },
+      {
+        "family": "article_retrieval",
+        "strength": -0.125,
+        "saving_bytes": -2299.8416861828946
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.125,
+        "saving_bytes": -2318.069024154617
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 0.5,
+        "saving_bytes": -33269.96033748816
+      },
+      {
+        "family": "article_retrieval",
+        "strength": 1,
+        "saving_bytes": -116952.96459857447
+      },
+      {
+        "family": "article_random",
+        "strength": -0.125,
+        "saving_bytes": -2456.5775626787286
+      },
+      {
+        "family": "article_random",
+        "strength": 0.125,
+        "saving_bytes": -2642.387663213909
+      },
+      {
+        "family": "article_random",
+        "strength": 0.5,
+        "saving_bytes": -36820.196824953986
+      },
+      {
+        "family": "article_random",
+        "strength": 1,
+        "saving_bytes": -127972.62926875561
+      },
+      {
+        "family": "hazard16",
+        "strength": -0.125,
+        "saving_bytes": -430.3425160613024
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.125,
+        "saving_bytes": -763.0429643496878
+      },
+      {
+        "family": "hazard16",
+        "strength": 0.5,
+        "saving_bytes": -9053.01128892563
+      },
+      {
+        "family": "hazard16",
+        "strength": 1,
+        "saving_bytes": -30815.338395836927
+      },
+      {
+        "family": "hazard128",
+        "strength": -0.125,
+        "saving_bytes": -762.9000262612174
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.125,
+        "saving_bytes": -1227.7869620441181
+      },
+      {
+        "family": "hazard128",
+        "strength": 0.5,
+        "saving_bytes": -14785.373027366735
+      },
+      {
+        "family": "hazard128",
+        "strength": 1,
+        "saving_bytes": -49943.44628489972
+      },
+      {
+        "family": "newmention",
+        "strength": -0.125,
+        "saving_bytes": -2482.754106650027
+      },
+      {
+        "family": "newmention",
+        "strength": 0.125,
+        "saving_bytes": -2927.6458025573
+      },
+      {
+        "family": "newmention",
+        "strength": 0.5,
+        "saving_bytes": -51228.07950304659
+      },
+      {
+        "family": "newmention",
+        "strength": 1,
+        "saving_bytes": -215662.22067337608
+      }
+    ],
+    "wall_seconds": 982.384644539,
+    "contract": "final uint16 replay, all post-sync bits including partial EOF, prefix ASCII completion, cold bank, bounded causal controls; not a native archive",
+    "slice": "d_2m",
+    "user_seconds": 953.757639,
+    "system_seconds": 1.384511,
+    "max_rss_kbytes": 96700,
+    "wall_controller": 982.4246415240004
+  }
+]

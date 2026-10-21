@@ -1,0 +1,17 @@
+{
+  "scope": "Previously completed cold2M controls recovered after session restart; no neural retraining, no qualifying full package",
+  "binary_sha256": "bedd480e36fc3a2ff3bf2150f0eded74f6d4eb4014fb3e35c6be3b5aeeda20c1",
+  "weights_sha256": "948847d9649251796f100d5353bd42859767ed5614e5e316e2c3a1c35a62ef71",
+  "maximum_native_processes": 2,
+  "reuse": [
+    "C archive",
+    "D archive",
+    "all four input/cost files"
+  ],
+  "regenerate_reason": "A/B archives were in lost ephemeral /root/hp; persistent compression results and costs survived",
+  "cpu_info": [
+    "model name\t: Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "flags\t\t: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves arat md_clear arch_capabilities"
+  ],
+  "deletions": []
+}

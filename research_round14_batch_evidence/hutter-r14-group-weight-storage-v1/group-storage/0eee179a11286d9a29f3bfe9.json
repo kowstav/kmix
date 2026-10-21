@@ -1,0 +1,109 @@
+{
+  "partition": "tensor",
+  "key": "blocks.8.attention.forget_gate_projection.up.weight.scale",
+  "names": [
+    "blocks.8.attention.forget_gate_projection.up.weight.scale"
+  ],
+  "label": "0eee179a11286d9a29f3bfe9",
+  "alternatives": [
+    {
+      "layout": "plain",
+      "codec": "gzip",
+      "bytes": 263
+    },
+    {
+      "layout": "plain",
+      "codec": "lzma",
+      "bytes": 303
+    },
+    {
+      "layout": "plain",
+      "codec": "zstd",
+      "bytes": 249
+    },
+    {
+      "layout": "planes",
+      "codec": "gzip",
+      "bytes": 235
+    },
+    {
+      "layout": "planes",
+      "codec": "lzma",
+      "bytes": 284
+    },
+    {
+      "layout": "planes",
+      "codec": "zstd",
+      "bytes": 230
+    },
+    {
+      "layout": "zigzag",
+      "codec": "gzip",
+      "bytes": 263
+    },
+    {
+      "layout": "zigzag",
+      "codec": "lzma",
+      "bytes": 303
+    },
+    {
+      "layout": "zigzag",
+      "codec": "zstd",
+      "bytes": 249
+    },
+    {
+      "layout": "nibble",
+      "codec": "gzip",
+      "bytes": 263
+    },
+    {
+      "layout": "nibble",
+      "codec": "lzma",
+      "bytes": 303
+    },
+    {
+      "layout": "nibble",
+      "codec": "zstd",
+      "bytes": 249
+    },
+    {
+      "layout": "transpose",
+      "codec": "gzip",
+      "bytes": 263
+    },
+    {
+      "layout": "transpose",
+      "codec": "lzma",
+      "bytes": 303
+    },
+    {
+      "layout": "transpose",
+      "codec": "zstd",
+      "bytes": 249
+    },
+    {
+      "layout": "xor",
+      "codec": "gzip",
+      "bytes": 283
+    },
+    {
+      "layout": "xor",
+      "codec": "lzma",
+      "bytes": 299
+    },
+    {
+      "layout": "xor",
+      "codec": "zstd",
+      "bytes": 278
+    }
+  ],
+  "selected": [
+    230,
+    "planes",
+    "zstd"
+  ],
+  "archive_sha256": "e417498d4b4862a25f4a85533dd7c01e4850872a89e109ebf13f29a8c1639860",
+  "CPU_lane": 2,
+  "CPU_seconds": 0.006886000000000669,
+  "wall_seconds": 0.006929192000001194
+}

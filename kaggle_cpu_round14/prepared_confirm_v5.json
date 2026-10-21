@@ -1,0 +1,119 @@
+{
+  "frozen": 1791546487.3539917,
+  "jobs": [
+    {
+      "ref": "chaoscpp/hutter-r14-prune-word-confirm-a-v1",
+      "folder": "hutter-r14-prune-word-confirm-a-v1",
+      "main_sha256": "cb8e25d8fa20eb1407750487ac3a5dd48c4e31c6abb72a901d66cd120d370a37",
+      "workers": 4,
+      "arm": "prune_word",
+      "role": "a",
+      "region_ids": [
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-match-confirm-a-v1",
+      "folder": "hutter-r14-prune-match-confirm-a-v1",
+      "main_sha256": "07257b886bec5f6782713611257e08d7c5065f958a2413f8ed4e874398c50287",
+      "workers": 4,
+      "arm": "prune_match",
+      "role": "a",
+      "region_ids": [
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-indirect-confirm-a-v1",
+      "folder": "hutter-r14-prune-indirect-confirm-a-v1",
+      "main_sha256": "5e9697933ffe8e5c0111cb3ade26a1d52b5674eaf225d0ce4176c2fe525c7a23",
+      "workers": 4,
+      "arm": "prune_indirect",
+      "role": "a",
+      "region_ids": [
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-output-fp32-confirm-a-v1",
+      "folder": "hutter-r14-output-fp32-confirm-a-v1",
+      "main_sha256": "1274ec5d55ebbd392683f9f10bb72d28499faaec8811b3b851917438662a8c8b",
+      "workers": 4,
+      "arm": "output_fp32",
+      "role": "a",
+      "region_ids": [
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-word-confirm-b-v1",
+      "folder": "hutter-r14-prune-word-confirm-b-v1",
+      "main_sha256": "c248bb33e4c56dd71ec731c5b8ba506a3f51be2849ab3a6c5207240eda33249b",
+      "workers": 4,
+      "arm": "prune_word",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-match-confirm-b-v1",
+      "folder": "hutter-r14-prune-match-confirm-b-v1",
+      "main_sha256": "2a5574eebc0e1dbe2611ca17e2560914f11f0654764aeb03c3ed2592a33f6789",
+      "workers": 4,
+      "arm": "prune_match",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-prune-indirect-confirm-b-v1",
+      "folder": "hutter-r14-prune-indirect-confirm-b-v1",
+      "main_sha256": "3f2b4bfd29fa5ed1e690b794a693e903714662d2194ba7164edac4eaec0e27c4",
+      "workers": 4,
+      "arm": "prune_indirect",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "ref": "chaoscpp/hutter-r14-output-fp32-confirm-b-v1",
+      "folder": "hutter-r14-output-fp32-confirm-b-v1",
+      "main_sha256": "1de9df32b5ea7fec182408dd037bae1bd45998831d07f52bd6d0127543d6339f",
+      "workers": 4,
+      "arm": "output_fp32",
+      "role": "b",
+      "region_ids": [
+        9,
+        11,
+        13,
+        15
+      ]
+    }
+  ],
+  "source_sha256": "4b17b53dc08664d64007fdd5768d4fd3ffd567f0928fc2ad54d4b7c937358ac8",
+  "protocol_sha256": "84aae1cabe01049a43ea28fe17ca06b2b5f73b486a41ba0886d5c40fb9c3538c"
+}

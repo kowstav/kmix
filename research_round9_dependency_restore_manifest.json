@@ -1,0 +1,981 @@
+{
+  "archive": "/kaggle/working/hp_round7/preserved/research_sources_and_candidates.tar.gz",
+  "members": [
+    {
+      "name": "tools/bf16check.py",
+      "bytes": 747
+    },
+    {
+      "name": "tools/cache_eval.py",
+      "bytes": 3637
+    },
+    {
+      "name": "tools/ctx_eval.py",
+      "bytes": 2210
+    },
+    {
+      "name": "tools/dump_deep.py",
+      "bytes": 3146
+    },
+    {
+      "name": "tools/dump_h.py",
+      "bytes": 2730
+    },
+    {
+      "name": "tools/dyn1.py",
+      "bytes": 4493
+    },
+    {
+      "name": "tools/fieldcost.py",
+      "bytes": 1208
+    },
+    {
+      "name": "tools/fieldcost_wrt.py",
+      "bytes": 1376
+    },
+    {
+      "name": "tools/finalmix.py",
+      "bytes": 2688
+    },
+    {
+      "name": "tools/fp_round.py",
+      "bytes": 1634
+    },
+    {
+      "name": "tools/genprobs.py",
+      "bytes": 3480
+    },
+    {
+      "name": "tools/headpatch.py",
+      "bytes": 3966
+    },
+    {
+      "name": "tools/iw_stats.py",
+      "bytes": 1827
+    },
+    {
+      "name": "tools/iwtx.py",
+      "bytes": 1731
+    },
+    {
+      "name": "tools/labpatch.py",
+      "bytes": 5877
+    },
+    {
+      "name": "tools/lexpatch.py",
+      "bytes": 2840
+    },
+    {
+      "name": "tools/lt_eval.py",
+      "bytes": 4229
+    },
+    {
+      "name": "tools/make_wc3.py",
+      "bytes": 1461
+    },
+    {
+      "name": "tools/mergeprobs.py",
+      "bytes": 1016
+    },
+    {
+      "name": "tools/mk_mini.py",
+      "bytes": 1407
+    },
+    {
+      "name": "tools/pid_eval.py",
+      "bytes": 4737
+    },
+    {
+      "name": "tools/qat_pkg.py",
+      "bytes": 1723
+    },
+    {
+      "name": "tools/qat_rate.py",
+      "bytes": 6267
+    },
+    {
+      "name": "tools/rd1.py",
+      "bytes": 2113
+    },
+    {
+      "name": "tools/revan.py",
+      "bytes": 4128
+    },
+    {
+      "name": "tools/revtx.py",
+      "bytes": 2734
+    },
+    {
+      "name": "tools/rid2.py",
+      "bytes": 4202
+    },
+    {
+      "name": "tools/rid_eval.py",
+      "bytes": 4111
+    },
+    {
+      "name": "tools/rtpatch.py",
+      "bytes": 789
+    },
+    {
+      "name": "tools/slicepipe.py",
+      "bytes": 1650
+    },
+    {
+      "name": "tools/sxpatch.py",
+      "bytes": 3192
+    },
+    {
+      "name": "tools/tfh.py",
+      "bytes": 8392
+    },
+    {
+      "name": "tools/ts_pid.py",
+      "bytes": 2391
+    },
+    {
+      "name": "tools/vocab_sat.py",
+      "bytes": 1254
+    },
+    {
+      "name": "tools/wc3patch.py",
+      "bytes": 4095
+    },
+    {
+      "name": "tools/wctx.py",
+      "bytes": 3788
+    },
+    {
+      "name": "tools/wstats.py",
+      "bytes": 1906
+    },
+    {
+      "name": "tools/xart.py",
+      "bytes": 2878
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/10m.tch",
+      "bytes": 40965053
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/6m-q4-fp32.tch",
+      "bytes": 23868862
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/6m-q4-fp32.tfwc2",
+      "bytes": 2930652
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/6m-q4.tch",
+      "bytes": 23849151
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/6m-warmed-up.tch",
+      "bytes": 23668786
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/6m.tch",
+      "bytes": 23655344
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/models/8m.tch",
+      "bytes": 31388649
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pyproject.toml",
+      "bytes": 560
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/__pycache__/attention_function.cpython-312.pyc",
+      "bytes": 18799
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/__pycache__/model.cpython-312.pyc",
+      "bytes": 61971
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/__pycache__/quantization.cpython-312.pyc",
+      "bytes": 14602
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/__pycache__/weights_compress.cpython-312.pyc",
+      "bytes": 42891
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/attention_function.py",
+      "bytes": 15635
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/data.py",
+      "bytes": 15543
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/export_testdata.py",
+      "bytes": 27219
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/export_weights.py",
+      "bytes": 14858
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/kda_reference.py",
+      "bytes": 13422
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/logger.py",
+      "bytes": 7861
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/model.py",
+      "bytes": 52474
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/optimizer.py",
+      "bytes": 5127
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/quantization.py",
+      "bytes": 11263
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/save_outputs.py",
+      "bytes": 11824
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/train.py",
+      "bytes": 5408
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/pysrc/weights_compress.py",
+      "bytes": 26553
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/cooldown.py",
+      "bytes": 7296
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/quantize.py",
+      "bytes": 7405
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/quantize_sweep.py",
+      "bytes": 7526
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/save_outputs.py",
+      "bytes": 4966
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/train_6m.py",
+      "bytes": 6438
+    },
+    {
+      "name": "src/fx2-cmix-transformer-v1/training_recipes/train_6m_v2.py",
+      "bytes": 6178
+    },
+    {
+      "name": "src/cmix-lex-transformer/evidence/lexth11c/lex_build_lexth11c.json",
+      "bytes": 1404
+    },
+    {
+      "name": "src/cmix-lex-transformer/evidence/lexth11c/lex_smoke3mb_lexth11c.json",
+      "bytes": 2983
+    },
+    {
+      "name": "src/cmix-lex-transformer/evidence/lexth11c/lexth11c_enwik9.json",
+      "bytes": 2184
+    },
+    {
+      "name": "src/cmix-lex-transformer/evidence/lexth11c/speed_seq_lexth11c_budget.json",
+      "bytes": 774
+    },
+    {
+      "name": "src/cmix-lex-transformer/models/lex_h1_run11.tfwc2",
+      "bytes": 2978039
+    },
+    {
+      "name": "results/lam0.json",
+      "bytes": 332
+    },
+    {
+      "name": "results/lam30.json",
+      "bytes": 509
+    }
+  ],
+  "restored": [
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/.gitignore",
+      "bytes": 26
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/COMPRESSION.md",
+      "bytes": 4199
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/KIMI_SEMANTICS.md",
+      "bytes": 11438
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/MACHINE.md",
+      "bytes": 9386
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/Makefile",
+      "bytes": 4443
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/OPTLOG.md",
+      "bytes": 5381
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/REPORT.md",
+      "bytes": 10801
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/SPEC.md",
+      "bytes": 24330
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/THEORY_DRAFT.md",
+      "bytes": 4737
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/Makefile",
+      "bytes": 517
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/alu_peaks",
+      "bytes": 26920
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/alu_peaks.cpp",
+      "bytes": 15797
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/bench_common.h",
+      "bytes": 6393
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/gemv",
+      "bytes": 57024
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/gemv.cpp",
+      "bytes": 23332
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/gemv_clang",
+      "bytes": 63888
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/l3_thrasher",
+      "bytes": 16544
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/l3_thrasher.cpp",
+      "bytes": 2778
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/membw",
+      "bytes": 31176
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/membw.cpp",
+      "bytes": 8431
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/misc",
+      "bytes": 40112
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/misc.cpp",
+      "bytes": 13164
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/results/alu.txt",
+      "bytes": 1453
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/results/gemv_clang.txt",
+      "bytes": 5446
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/results/gemv_gcc.txt",
+      "bytes": 5446
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/results/membw.txt",
+      "bytes": 2220
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/bench/results/misc.txt",
+      "bytes": 1157
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/bench.cpp",
+      "bytes": 1983
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/kernels.cpp",
+      "bytes": 9004
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/kernels.h",
+      "bytes": 4047
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/model.cpp",
+      "bytes": 19539
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/model.h",
+      "bytes": 2322
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/npy.h",
+      "bytes": 3063
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/Makefile",
+      "bytes": 1290
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/Makefile.attn",
+      "bytes": 1858
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/Makefile.glue",
+      "bytes": 1112
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/Makefile.kda",
+      "bytes": 1710
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/OPTLOG.md",
+      "bytes": 4404
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/arena_build.cpp",
+      "bytes": 8642
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/arena_build.h",
+      "bytes": 3526
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/attn.cpp",
+      "bytes": 24937
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/attn.h",
+      "bytes": 7778
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/bench_attn.cpp",
+      "bytes": 10065
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/bench_glue.cpp",
+      "bytes": 11622
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/bench_kda.cpp",
+      "bytes": 13560
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/bench_opt.cpp",
+      "bytes": 4551
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/bench_qmat.cpp",
+      "bytes": 26598
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/capture_qkv.cpp",
+      "bytes": 4732
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/glue.cpp",
+      "bytes": 15704
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/glue.h",
+      "bytes": 6840
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/kda.cpp",
+      "bytes": 18835
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/kda.h",
+      "bytes": 5814
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/kda_math.h",
+      "bytes": 4067
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/model_opt.cpp",
+      "bytes": 18026
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/model_opt.h",
+      "bytes": 2672
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/pipe_probe.cpp",
+      "bytes": 6804
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qkv_capture.h",
+      "bytes": 2730
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qmat.h",
+      "bytes": 9354
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qmat_dense.cpp",
+      "bytes": 22477
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qmat_dense.h",
+      "bytes": 2850
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qmat_sparse.cpp",
+      "bytes": 22931
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/qmat_sparse.h",
+      "bytes": 3031
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/sparse_acts.h",
+      "bytes": 1521
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_attn.cpp",
+      "bytes": 13144
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_e2e_opt.cpp",
+      "bytes": 6250
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_glue.cpp",
+      "bytes": 25846
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_kda.cpp",
+      "bytes": 28585
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_qmat.cpp",
+      "bytes": 19747
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/test_xcheck.cpp",
+      "bytes": 5089
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/opt/vec_math.h",
+      "bytes": 15952
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/test_components.cpp",
+      "bytes": 13858
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/test_e2e.cpp",
+      "bytes": 6369
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/test_weights_compressed.cpp",
+      "bytes": 1369
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/testdata.h",
+      "bytes": 4431
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/weights_io.cpp",
+      "bytes": 3445
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/weights_io.h",
+      "bytes": 1800
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/cpp_infer/src/weights_io_compressed.cpp",
+      "bytes": 13740
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/10m.tch",
+      "bytes": 40965053
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/6m-q4-fp32.tch",
+      "bytes": 23868862
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/6m-q4.tch",
+      "bytes": 23849151
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/6m-warmed-up.tch",
+      "bytes": 23668786
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/6m.tch",
+      "bytes": 23655344
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/models/8m.tch",
+      "bytes": 31388649
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pyproject.toml",
+      "bytes": 560
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/__pycache__/attention_function.cpython-312.pyc",
+      "bytes": 18799
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/__pycache__/model.cpython-312.pyc",
+      "bytes": 61971
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/__pycache__/quantization.cpython-312.pyc",
+      "bytes": 14602
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/__pycache__/weights_compress.cpython-312.pyc",
+      "bytes": 42891
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/attention_function.py",
+      "bytes": 15635
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/data.py",
+      "bytes": 15543
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/export_testdata.py",
+      "bytes": 27219
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/export_weights.py",
+      "bytes": 14858
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/kda_reference.py",
+      "bytes": 13422
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/logger.py",
+      "bytes": 7861
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/model.py",
+      "bytes": 52474
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/optimizer.py",
+      "bytes": 5127
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/quantization.py",
+      "bytes": 11263
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/save_outputs.py",
+      "bytes": 11824
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/train.py",
+      "bytes": 5408
+    },
+    {
+      "path": "/root/hp_round9/restored/src/fx2-cmix-transformer-v1/pysrc/weights_compress.py",
+      "bytes": 26553
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/COMPRESSION.md",
+      "bytes": 7227
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/KIMI_SEMANTICS.md",
+      "bytes": 11438
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/MACHINE.md",
+      "bytes": 9386
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/Makefile",
+      "bytes": 5449
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/OPTLOG.md",
+      "bytes": 5381
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/REPORT.md",
+      "bytes": 10801
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/SPEC.md",
+      "bytes": 32868
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/THEORY_DRAFT.md",
+      "bytes": 4737
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/attn_window.h",
+      "bytes": 3895
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/bench.cpp",
+      "bytes": 1983
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/kernels.cpp",
+      "bytes": 9580
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/kernels.h",
+      "bytes": 4948
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/model.cpp",
+      "bytes": 22944
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/model.h",
+      "bytes": 2322
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/npy.h",
+      "bytes": 3063
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/Makefile",
+      "bytes": 2422
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/Makefile.attn",
+      "bytes": 1987
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/Makefile.glue",
+      "bytes": 1112
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/Makefile.kda",
+      "bytes": 1710
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/OPTLOG.md",
+      "bytes": 6687
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/arena_build.cpp",
+      "bytes": 15904
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/arena_build.h",
+      "bytes": 4284
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/attn.cpp",
+      "bytes": 31583
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/attn.h",
+      "bytes": 10757
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_attn.cpp",
+      "bytes": 10206
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_glue.cpp",
+      "bytes": 11622
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_kda.cpp",
+      "bytes": 13560
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_opt.cpp",
+      "bytes": 4551
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_qmat.cpp",
+      "bytes": 26598
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/bench_qw8.cpp",
+      "bytes": 2912
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/capture_qkv.cpp",
+      "bytes": 4732
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/glue.cpp",
+      "bytes": 19565
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/glue.h",
+      "bytes": 8550
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/kda.cpp",
+      "bytes": 18835
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/kda.h",
+      "bytes": 5814
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/kda_math.h",
+      "bytes": 4067
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/model_opt.cpp",
+      "bytes": 26807
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/model_opt.h",
+      "bytes": 2672
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/pipe_probe.cpp",
+      "bytes": 6804
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qkv_capture.h",
+      "bytes": 2791
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat.h",
+      "bytes": 16093
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_avx512.h",
+      "bytes": 4611
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_cpu.cpp",
+      "bytes": 1061
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_cpu.h",
+      "bytes": 799
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_dense.cpp",
+      "bytes": 36275
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_dense.h",
+      "bytes": 4460
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_dense_avx512.cpp",
+      "bytes": 32574
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_sparse.cpp",
+      "bytes": 27919
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_sparse.h",
+      "bytes": 3714
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/qmat_sparse_avx512.cpp",
+      "bytes": 16441
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/sparse_acts.h",
+      "bytes": 1521
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_attn.cpp",
+      "bytes": 17202
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_avx512.cpp",
+      "bytes": 21797
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_e2e_opt.cpp",
+      "bytes": 7729
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_glue.cpp",
+      "bytes": 32084
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_kda.cpp",
+      "bytes": 28585
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_qmat.cpp",
+      "bytes": 29223
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/test_xcheck.cpp",
+      "bytes": 5089
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/tf_arch.h",
+      "bytes": 2334
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/opt/vec_math.h",
+      "bytes": 15952
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/test_components.cpp",
+      "bytes": 13850
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/test_e2e.cpp",
+      "bytes": 6369
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/test_weights_compressed.cpp",
+      "bytes": 1369
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/testdata.h",
+      "bytes": 4431
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/weights_io.cpp",
+      "bytes": 3990
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/weights_io.h",
+      "bytes": 2157
+    },
+    {
+      "path": "/root/hp_round9/restored/src/cmix-lex-transformer/cpp_infer/src/weights_io_compressed.cpp",
+      "bytes": 17624
+    }
+  ],
+  "source_bundle": {
+    "path": "/kaggle/working/hp_round9/native_build_dependencies_v1.zip",
+    "bytes": 1106710,
+    "sha256": "7ae01f60e7f7e4813f1c14c5869af94349c755eff370cfb7b7a3434bbbba0eb3",
+    "entries": 155
+  }
+}

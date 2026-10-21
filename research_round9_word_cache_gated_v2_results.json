@@ -1,0 +1,2271 @@
+{
+  "status": "COMPLETE_CONTEXT_GATED_WORD_DONOR_CACHE_REPLAY",
+  "pid": 3013,
+  "started": 1791317761.7547853,
+  "spending_usd": 0,
+  "deletions": [],
+  "development": [
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "all",
+        true
+      ],
+      "alpha": 6.568241143777706e-05,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.014774678439393467,
+        "Q16_sha256": "acbba3e6eda149f723937849a8f91b0416f6349f91eb064a9ba9fb5cb45d1e24",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.011921095921724618,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.3327534728312826,
+        "Q16_sha256": "ed864e053b64377e57e67d974712a604c43da0ea48433802b45ab876a3aa5281",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        0,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "all",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0014582114927769385,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.030417848695204155,
+        "Q16_sha256": "51ca60d416e1673306bbea4d20ae6414aa46d6a9f3e4ee104aefde76f425de4a",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.00906537001450473,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.4576942027956846,
+        "Q16_sha256": "6982f7369290b19186b70fbd3715ba903f2eecb129b5500b6f5a8bf4c8a5cf57",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        1,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "all",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.011106174498954643,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.1385274498289338,
+        "Q16_sha256": "f561b851d8ae0e9165512bebe4cdfa368245414eaef96a057c7ebe74835b4238",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        2,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "all",
+        true
+      ],
+      "alpha": 2.5729764809653177e-05,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.0007028208932017511,
+        "Q16_sha256": "c072101894a89d2f96b0f4e985fecd080ee25b919740abefd511fc71bd22aeff",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01165790970829968,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.2977051348017418,
+        "Q16_sha256": "0b52b05cca8df1445ca1a0eefabfa2d0ecf261c915a0517e40065d9ed9ace912",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        3,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "all",
+        true
+      ],
+      "alpha": 0.0003125682104042948,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.027702990140008214,
+        "Q16_sha256": "30e82b7208558b6316bb5c6fa126aa9ae24c04f1b729d0e4ff85538d4f1b3d3f",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.012127822671899933,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.17948233784437423,
+        "Q16_sha256": "bdff12ef952647bf235830f9225f15102dc099a15e4ba1826ef60c4849bc6d31",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        4,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "all",
+        true
+      ],
+      "alpha": 0.0004360768068494588,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.05347691421845617,
+        "Q16_sha256": "b0954477d4177ada2e4acbd90596a53b86038ae5af576246f80a6efdaaf9fab0",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01339453294676894,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.09260687998279611,
+        "Q16_sha256": "5db7b29c09a25c86a5f9f35c1752bc8080a6b85883b3abef136421c09bb151c5",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        5,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "all",
+        true
+      ],
+      "alpha": 0.0015583560106167467,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.05371898360983922,
+        "Q16_sha256": "d51a89c55db1e7ffc68665aabd06ed9aaa76c2d89ed57e31adac015c67f7d8ba",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.013969981473188805,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.14141538324123498,
+        "Q16_sha256": "2c3123e3f3ef10201a705a5eeb4b9c483588cf7fc27a131070774de5fa0634d5",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        6,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "all",
+        true
+      ],
+      "alpha": 0.0016579285254852874,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.2996479296057354,
+        "Q16_sha256": "853f88a71f988ae86d4b2d4bfea8240ffa54154ceac14570b611cbe62f746ec8",
+        "active_bits": 899835
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 753936
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0033952649708696744,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.2938908396652768,
+        "Q16_sha256": "c6a9b2695fdcffbb31c50f952d684c91409deb6194896fe56bd0ff3faeddab7b",
+        "active_bits": 232131
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 415056
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01644917876004391,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.13278231106922606,
+        "Q16_sha256": "882c1187296849edd6ca8db0b3c0e7a2495f98b63b45c4968c5ede5cd8d7d944",
+        "active_bits": 70510
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 1238152
+      }
+    },
+    {
+      "slice": "c",
+      "key": [
+        7,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "5131637d455fe610788a0cbb3e796167d2cdf50a5b40bbc5907eb58392540a83",
+        "active_bits": 387150
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "all",
+        true
+      ],
+      "alpha": 6.568241143777706e-05,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.008781388280116043,
+        "Q16_sha256": "946eaf05deaa02a1ca8ec5114c67d3bca3fdf35e304500cb171cfe4c4e679a12",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.011921095921724618,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.2825429438930899,
+        "Q16_sha256": "8c11d73c9d5d923d3615607f95c662a572f9cb43c4928dde480c0d05bd6fef38",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        0,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "all",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0014582114927769385,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.04056370298391131,
+        "Q16_sha256": "7a6ba514019118dc262f7b1e08e3488cf5f15c3db644a9951a1d875fc6dd1a6f",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.00906537001450473,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.3438262471366565,
+        "Q16_sha256": "2b48218b7c0d32697ed6a2b1bb5da2653eaca39f947a79d191abefa9a871310f",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        1,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "all",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.011106174498954643,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.3157559067501143,
+        "Q16_sha256": "3d190a511de8ff354d2214dfd4b101147d42c3fff9771766e1a7cc83710938f9",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        2,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "all",
+        true
+      ],
+      "alpha": 2.5729764809653177e-05,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.0016434035254310547,
+        "Q16_sha256": "5c037a3e94194f83cfdb2fb21193faf29800d6e3724eb1b83a3468e2ebeb51b6",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01165790970829968,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.2839252588382017,
+        "Q16_sha256": "3cb7fbe170c4e1daff7e3b1c269804186b335b76bda91b4529c31d26343ae777",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        3,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "all",
+        true
+      ],
+      "alpha": 0.0003125682104042948,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.029805347796456685,
+        "Q16_sha256": "eccb3d72586875a731dfa5253db7c78cb57033c0e10bdac06dcf93f2c9e39318",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.012127822671899933,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.38041510795920497,
+        "Q16_sha256": "db9eb78c0435525bd15d601b6da01fa874e560a900cc647ce1d2537f5084b81e",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        4,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "all",
+        true
+      ],
+      "alpha": 0.0004360768068494588,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.03620090395902471,
+        "Q16_sha256": "226c3ae1d5aaf745bc36dafa41c116c15408526329d9ebf35793afe9192162dc",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01339453294676894,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.4434149645291443,
+        "Q16_sha256": "ac802f80583ab5b2e5951c268f485529cfd078076cf32f704abb5dd0b5430bd0",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        5,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "all",
+        true
+      ],
+      "alpha": 0.0015583560106167467,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.13333517088726746,
+        "Q16_sha256": "b880b5c5383be07dc3cd4dd7ddaa938c95a6075e472d780d120fffd6d6107712",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.013969981473188805,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.47351950503455714,
+        "Q16_sha256": "6f2aa2dfe4ee2746aa2083d86a1d2d7eed4651c82bf57735db658cc564b21f4c",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        6,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "all",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 4194176
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "all",
+        true
+      ],
+      "alpha": 0.0016579285254852874,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.14290606012649537,
+        "Q16_sha256": "ecccd44d51d799eea1f6ea14547f5efda47d624c79802bb20b41058b6f81fc44",
+        "active_bits": 121929
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "dictionary_continuation",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 598104
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "dictionary_continuation",
+        true
+      ],
+      "alpha": 0.0033952649708696744,
+      "result": {
+        "gain_vs_adaptive_bytes": -0.07093439450845769,
+        "Q16_sha256": "583072f83bf44386ba46b5d005e15d19909ceb11603931e1ea40a98b56ed91f6",
+        "active_bits": 8046
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "literal_letters",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 113128
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01644917876004391,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.6369380529324463,
+        "Q16_sha256": "7549a73a0754381b362863a3f2f5215ae25a370dfaf3c3f39e86fd9404ed53e6",
+        "active_bits": 3908
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "separators",
+        false
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 1410016
+      }
+    },
+    {
+      "slice": "d",
+      "key": [
+        7,
+        "separators",
+        true
+      ],
+      "alpha": 0.0,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.0,
+        "Q16_sha256": "cb0ab2acad75f86f8a9de8eb8e93ef0bc79de107a9adb001b6881a0309197365",
+        "active_bits": 56286
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "slice": "e",
+      "key": [
+        1,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.00906537001450473,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.9072175075020227,
+        "Q16_sha256": "ead63b86c36f653fc91b7685ca63093bcd7a82626f53e0645f064f3ff1979233",
+        "active_bits": 90252
+      }
+    },
+    {
+      "slice": "e",
+      "key": [
+        7,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01644917876004391,
+      "result": {
+        "gain_vs_adaptive_bytes": 0.9372006462913576,
+        "Q16_sha256": "73103f0ed3387a127a2ca57f6fc88446c32477bde8e9741f0c37086d92eb22f0",
+        "active_bits": 90252
+      }
+    },
+    {
+      "slice": "f",
+      "key": [
+        1,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.00906537001450473,
+      "result": {
+        "gain_vs_adaptive_bytes": 1.054685032308276,
+        "Q16_sha256": "befcfbf26224d0dbf0767384d2abba753462dac497c1a5cfa893dee49212510e",
+        "active_bits": 52103
+      }
+    },
+    {
+      "slice": "f",
+      "key": [
+        7,
+        "literal_letters",
+        true
+      ],
+      "alpha": 0.01644917876004391,
+      "result": {
+        "gain_vs_adaptive_bytes": 1.6813973252595797,
+        "Q16_sha256": "1f549e9ad46555d105fda6d27af00db757edb6f31c18626a3e779b945d6264cf",
+        "active_bits": 52103
+      }
+    }
+  ],
+  "contract": {
+    "laws": [
+      [
+        0,
+        "all",
+        false
+      ],
+      [
+        0,
+        "all",
+        true
+      ],
+      [
+        0,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        0,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        0,
+        "literal_letters",
+        false
+      ],
+      [
+        0,
+        "literal_letters",
+        true
+      ],
+      [
+        0,
+        "separators",
+        false
+      ],
+      [
+        0,
+        "separators",
+        true
+      ],
+      [
+        1,
+        "all",
+        false
+      ],
+      [
+        1,
+        "all",
+        true
+      ],
+      [
+        1,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        1,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        1,
+        "literal_letters",
+        false
+      ],
+      [
+        1,
+        "literal_letters",
+        true
+      ],
+      [
+        1,
+        "separators",
+        false
+      ],
+      [
+        1,
+        "separators",
+        true
+      ],
+      [
+        2,
+        "all",
+        false
+      ],
+      [
+        2,
+        "all",
+        true
+      ],
+      [
+        2,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        2,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        2,
+        "literal_letters",
+        false
+      ],
+      [
+        2,
+        "literal_letters",
+        true
+      ],
+      [
+        2,
+        "separators",
+        false
+      ],
+      [
+        2,
+        "separators",
+        true
+      ],
+      [
+        3,
+        "all",
+        false
+      ],
+      [
+        3,
+        "all",
+        true
+      ],
+      [
+        3,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        3,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        3,
+        "literal_letters",
+        false
+      ],
+      [
+        3,
+        "literal_letters",
+        true
+      ],
+      [
+        3,
+        "separators",
+        false
+      ],
+      [
+        3,
+        "separators",
+        true
+      ],
+      [
+        4,
+        "all",
+        false
+      ],
+      [
+        4,
+        "all",
+        true
+      ],
+      [
+        4,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        4,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        4,
+        "literal_letters",
+        false
+      ],
+      [
+        4,
+        "literal_letters",
+        true
+      ],
+      [
+        4,
+        "separators",
+        false
+      ],
+      [
+        4,
+        "separators",
+        true
+      ],
+      [
+        5,
+        "all",
+        false
+      ],
+      [
+        5,
+        "all",
+        true
+      ],
+      [
+        5,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        5,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        5,
+        "literal_letters",
+        false
+      ],
+      [
+        5,
+        "literal_letters",
+        true
+      ],
+      [
+        5,
+        "separators",
+        false
+      ],
+      [
+        5,
+        "separators",
+        true
+      ],
+      [
+        6,
+        "all",
+        false
+      ],
+      [
+        6,
+        "all",
+        true
+      ],
+      [
+        6,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        6,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        6,
+        "literal_letters",
+        false
+      ],
+      [
+        6,
+        "literal_letters",
+        true
+      ],
+      [
+        6,
+        "separators",
+        false
+      ],
+      [
+        6,
+        "separators",
+        true
+      ],
+      [
+        7,
+        "all",
+        false
+      ],
+      [
+        7,
+        "all",
+        true
+      ],
+      [
+        7,
+        "dictionary_continuation",
+        false
+      ],
+      [
+        7,
+        "dictionary_continuation",
+        true
+      ],
+      [
+        7,
+        "literal_letters",
+        false
+      ],
+      [
+        7,
+        "literal_letters",
+        true
+      ],
+      [
+        7,
+        "separators",
+        false
+      ],
+      [
+        7,
+        "separators",
+        true
+      ]
+    ],
+    "fit": "64scalar convex MLEs,ABfit,CDselect including identity,freeze before EF",
+    "gates": "before-byte inverse-permuted previous symbol; dictionary ongoing lead208..255,literal ASCII letters/apostrophe,separators; optional before-bit adaptive p in[.1,.9]; every gate available before target",
+    "nuance": "dictionary gate is a causal lexical heuristic; exact native parser required for promotion; no future difficulty labels",
+    "inheritance": "existing cache experts and zero identity/nonzero prefix controls reused; gated mapping adds its own future-prefix proof",
+    "price": "selected scalar8B per copy plus parser/rule code and bounded cache; no native/package result inferred"
+  },
+  "inverse_permutation_exhaustive_involution": "PASS",
+  "gated_future_prefix": "PASS",
+  "frozen_coefficients_before_CD": {
+    "(0, 'all', False)": 0.0,
+    "(0, 'all', True)": 6.568241143777706e-05,
+    "(0, 'dictionary_continuation', False)": 0.0,
+    "(0, 'dictionary_continuation', True)": 0.0,
+    "(0, 'literal_letters', False)": 0.0,
+    "(0, 'literal_letters', True)": 0.011921095921724618,
+    "(0, 'separators', False)": 0.0,
+    "(0, 'separators', True)": 0.0,
+    "(1, 'all', False)": 0.0,
+    "(1, 'all', True)": 0.0,
+    "(1, 'dictionary_continuation', False)": 0.0,
+    "(1, 'dictionary_continuation', True)": 0.0014582114927769385,
+    "(1, 'literal_letters', False)": 0.0,
+    "(1, 'literal_letters', True)": 0.00906537001450473,
+    "(1, 'separators', False)": 0.0,
+    "(1, 'separators', True)": 0.0,
+    "(2, 'all', False)": 0.0,
+    "(2, 'all', True)": 0.0,
+    "(2, 'dictionary_continuation', False)": 0.0,
+    "(2, 'dictionary_continuation', True)": 0.0,
+    "(2, 'literal_letters', False)": 0.0,
+    "(2, 'literal_letters', True)": 0.011106174498954643,
+    "(2, 'separators', False)": 0.0,
+    "(2, 'separators', True)": 0.0,
+    "(3, 'all', False)": 0.0,
+    "(3, 'all', True)": 2.5729764809653177e-05,
+    "(3, 'dictionary_continuation', False)": 0.0,
+    "(3, 'dictionary_continuation', True)": 0.0,
+    "(3, 'literal_letters', False)": 0.0,
+    "(3, 'literal_letters', True)": 0.01165790970829968,
+    "(3, 'separators', False)": 0.0,
+    "(3, 'separators', True)": 0.0,
+    "(4, 'all', False)": 0.0,
+    "(4, 'all', True)": 0.0003125682104042948,
+    "(4, 'dictionary_continuation', False)": 0.0,
+    "(4, 'dictionary_continuation', True)": 0.0,
+    "(4, 'literal_letters', False)": 0.0,
+    "(4, 'literal_letters', True)": 0.012127822671899933,
+    "(4, 'separators', False)": 0.0,
+    "(4, 'separators', True)": 0.0,
+    "(5, 'all', False)": 0.0,
+    "(5, 'all', True)": 0.0004360768068494588,
+    "(5, 'dictionary_continuation', False)": 0.0,
+    "(5, 'dictionary_continuation', True)": 0.0,
+    "(5, 'literal_letters', False)": 0.0,
+    "(5, 'literal_letters', True)": 0.01339453294676894,
+    "(5, 'separators', False)": 0.0,
+    "(5, 'separators', True)": 0.0,
+    "(6, 'all', False)": 0.0,
+    "(6, 'all', True)": 0.0015583560106167467,
+    "(6, 'dictionary_continuation', False)": 0.0,
+    "(6, 'dictionary_continuation', True)": 0.0,
+    "(6, 'literal_letters', False)": 0.0,
+    "(6, 'literal_letters', True)": 0.013969981473188805,
+    "(6, 'separators', False)": 0.0,
+    "(6, 'separators', True)": 0.0,
+    "(7, 'all', False)": 0.0,
+    "(7, 'all', True)": 0.0016579285254852874,
+    "(7, 'dictionary_continuation', False)": 0.0,
+    "(7, 'dictionary_continuation', True)": 0.0033952649708696744,
+    "(7, 'literal_letters', False)": 0.0,
+    "(7, 'literal_letters', True)": 0.01644917876004391,
+    "(7, 'separators', False)": 0.0,
+    "(7, 'separators', True)": 0.0
+  },
+  "stage": "stronger no-retraining context-gated descendant complete",
+  "frozen_finalists_before_EF": [
+    [
+      1,
+      "literal_letters",
+      true
+    ],
+    [
+      7,
+      "literal_letters",
+      true
+    ]
+  ],
+  "finished": 1791317811.6525295,
+  "native_or_full_package_qualified": false
+}
