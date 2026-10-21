@@ -1,0 +1,204 @@
+"""Every recoverable family gets its own descendant and falsifiable next test."""
+
+# Resolve local assets after the repository directory reorganization.
+try:
+    if __package__ == "scripts":
+        from ._workspace_layout import project_root, project_path, project_glob, project_iterdir
+    else:
+        from _workspace_layout import project_root, project_path, project_glob, project_iterdir
+except ModuleNotFoundError as _layout_error:
+    if _layout_error.name != "_workspace_layout":
+        raise
+    # Standalone workers retain their original layout on remote machines.
+    from pathlib import Path as _LayoutPath
+    def project_root(filename):
+        return _LayoutPath(filename).resolve().parent
+    def project_path(name="", *, base=None):
+        return (base if base is not None else project_root(__file__)) / name
+    def project_glob(pattern, *, base=None):
+        return (base if base is not None else project_root(__file__)).glob(pattern)
+    def project_iterdir(*, base=None):
+        return (base if base is not None else project_root(__file__)).iterdir()
+
+import collections,hashlib,json
+from pathlib import Path
+R=project_root(__file__)
+audit=json.loads((project_path('research_round1_to_round7_idea_audit.json', base=R)).read_text(encoding='utf-8'))
+# id | route | priority | combination partners | formal contracts | stronger descendant | discriminating experiment
+spec='''
+A01|N>T|3|A05,A84|R,C,N|Use a symbolic glyph-equivalence predictor on decoded history before funding image reconstruction; require measured conditional benefit over byte classes.|Separate representation codelength from prediction gain; compare render features with the same-size random and symbolic channels.
+A02|C|3|A05,A85|R,I|Choose collision classes by paid minimum-description-length partitioning; encode ambiguity with a calibrated conditional residual rather than hope OCR recovers it.|Optimize class alphabet and collision correction jointly; count renderer/font, case, Unicode and every escape.
+A03|T|3|A06,A83|R,C,S|Distill a causal spatial-history expert into a tiny symbolic residual if useful; preserve an ordinary character-CNN capacity control.|Train identical compute/parameter budgets with glyph versus shuffled geometry; test native cost and an actually smaller distilled export.
+A04|N>T|3|A16,A68|R,I|Treat glyph features as a low-rank parameter-sharing basis, then learn a small residual for directions outside that basis.|Separate table/model-byte savings from fixed-feature prediction; compare equal-rank random and learned factors.
+A05|N|2|A06,A89|U,D|Optimize a character-class hierarchy using paid partition decisions and conditional residual counts; do not freeze handmade shape classes.|Enumerate a small finite class family with charged selectors; evaluate all literals and matched Markov/CTW controls.
+A06|N>T|1|A79,A82,A84|C,N,F|Replace unconditional geometry boosts with an uncertainty-and-parser-conditioned hierarchical gate, then learned residual features if the fixed signals fail.|Current conditional_gate_v1 tests the gate; next isolate relation-only, grammar-only and interaction increments over generic calibration.
+A07|N>T|1|A42,A84|C,P|Reuse native classical channels in an external residual first; a later neural input adapter must be initialized to exact identity.|Collect pre-update classical probabilities; distinguish extra channel information from equal-size extra residual capacity.
+A08|C>T|2|A29,A44|R,C,I|Search reversible symbolic alignments with explicit placement/order residuals; preserve the old representation as a selectable component.|Count row/column ordering and boundary metadata; a dictionary-only saving is not a text-stream saving.
+A09|C>T|2|A13,A14|R,N|Replace repeated proposal feedback with a normalized multi-proposal prefix code and a paid stopping rule.|Charge every wrong guess and feedback symbol; verify coder versus cross entropy and compare optimal direct symbol coding.
+A10|C>T|2|A56,A88|R,C,N|Use paid blockwise ordering with a prefix-reconstructible mask, or a proper latent-variable marginal; never choose confidence order for free.|Expose exact decode states and order bits; compare endpoint infill with a separately optimized causal model, including positions.
+A11|C>T|1|A85,A88|R,D|Let grammar choose between original sequential coding and skeleton/content factorization per block, with an explicit selector.|Use total skeleton, length, case, literal and content costs; optimize block granularity under actual headers and decoder size.
+A12|N>T|2|A67,A70|N,I|Model word-ending hazards in the existing prefix tree instead of inserting an unpriced word-length channel.|Compare charged length-first coding with tree stopping probabilities; include unseen words, all escapes and partial EOF.
+A13|N>T|1|A67,A70|C,N|Use a bounded decoder-built candidate list plus exact spelling fallback; rank probabilities and fallback probability must normalize together.|Measure actual cumulative rank/fallback bits, list reconstruction time and tail coverage against the final coder.
+A14|T|1|A10,A93|C,P|Generate the training distribution from the actual decoder policy, with a teacher-forced identity bridge and gradual exposure to changed states.|Audit position/mask/reachable-state frequencies; validate old loss before optimizing a new order.
+A15|N>T|1|A64,A91|R,I|Allocate specialist capacity by cumulative excess final-bit cost and reuse frequency, with a paid selector and generic control.|Use predeclared cost strata, not just rare-word counts; report false activations and conditional gain per stored byte.
+A16|T|2|A43,A90|R,P,S|Optimize the measured rate-versus-payload frontier over codebook size, scale precision and architecture width, using actual containers.|A larger lower-bit model must beat equal-byte controls after CPU/RAM and duplicated assets, not merely neural perplexity.
+A17|N|1|A40,A41,A43|R,U,D|Search universal tensor partitions, scale-conditioned priors, causal bit planes and predictive index deltas with priced mode selection.|Current weight_partition_v1 tests the best dyadic row/column partition; only a complete exact container can be promoted.
+A18|N>T|1|A25,A71|C,S,I|Make long context a sparse persistent summary with a measured value per CPU/RAM byte; frozen native summaries precede new attention training.|Compare equal-memory recency, random retrieval and content summaries; include construction/search cost and warmed-history behavior.
+A19|N>T|2|A20,A21|C,R,S|Constrain online adaptation to a deterministic trust region around frozen identity; test statistical residual updates before full neural updates.|Verify decoder reproducibility, catastrophic drift, update-time overhead and true full-history amortization.
+A20|N>T|1|A84,A92|R,C,P|Prefer a low-dimensional final-bit adapter with fixed core features; merge or serialize only an adapter that passes the native objective.|Use neutral and equal-capacity generic controls, and measure both offline fitted bytes and zero-shipped-parameter online adaptation.
+A21|N>T|1|A25,A66|C,R|Learn when an article-specific correction should decay or reset, with a global backoff and paid reset policy.|Compare abrupt reset, learned hazard and two-timescale updates under actual final-bit loss; no future article length.
+A22|N>T|1|A42,A82|N,C|Model residual evidence relative to the final native mixture, with jointly learned gates instead of adding standalone model gains.|Compare classical-only, neural-only, external gate and joint mixture; keep identical core update order.
+A23|N|2|A27,A95|C,S|Use bounded cross-article state with deterministic selective reset based only on decoded markup and earlier titles.|Test a warmed native stream, reordered exact inverse and reset controls; cold slices cannot settle full-history memory.
+A24|T|3|A80,A83|C,S|Convert scratch registers into compressed persistent latent memory with a null-write gate and an explicit compute budget.|Compare empty slots, matched ordinary state capacity and random writes before interpreting any learned memory gain.
+A25|N>T|1|A81,A82|C,I,S|Choose retention by expected future conditional log-loss reduction per memory byte, using survival hazards and a neutral rejection state.|Test lag-conditioned value versus simple decay and equal-memory recency; charge selection messages if encoder uses future knowledge.
+A26|C>T|2|A25,A65|R,N|Code keep/drop and context IDs with the selector's own normalized probabilities; optimize benefit minus side bits.|Measure total hint plus payload cost, including unsuccessful searched hints and ordering; report any oracle only as an upper bound.
+A27|N>T|1|A55,A71|C,S|Build a bounded title/link graph from decoded articles and preserve compact relation summaries rather than a huge hidden-state bank.|Compare exact title overlap, sampled donors, compressed summaries and a same-memory random bank on warmed data.
+A28|N>T|2|A12,A25,A80|C,N,R|Use one shared memory controller with stopping, retention and word-ending heads so correlated objectives pay one representation cost.|Ablate each head and its interactions with identical memory and total parameter bytes.
+A29|C>T|2|A08,A68|R,D,P|Jointly optimize reversible word-code assignments and a composer, charging the permutation and preserving original ordering as a fallback.|Compare model storage plus all transformed text bits, including out-of-dictionary tails; code remapping normally needs a matched predictor.
+A30|N>T|2|A72,A74|I,P|Use independent positional/multiset bases, then a residual for semantic relations that spelling cannot express.|Compare covariance-matched random bases and tied learned codes; remove linearly dependent moment channels before capacity claims.
+A31|N|1|A42,A67|N,C,S|Expose token and bit classical distributions to a compact hierarchical residual, with per-source normalization and shared backoff.|Keep target event definitions identical; evaluate token-level gains against the actual final bit coder.
+A32|N|2|A71,A80|C,S|Keep compressed prototypes or code-tree continuation summaries, updating only on decoded events, rather than every hidden vector.|Measure hit-rate and incremental final-bit information at fixed RAM and search CPU, with recency and random controls.
+A33|N>T|1|A27,A71,A95|C,S,R|Replace the 14.86-GB key bank with quantized prototypes, inverted title/link keys and bounded causal deduplication.|Include key/value storage, search and startup; compare a warmed bank to cold and random controls without external knowledge.
+A34|N>T|1|A17,A67,A82|R,N,S|Jointly train or adapt only the residual components whose conditional benefits survive the final mixture; share relation and parser state.|Use a factorial interaction study and actual total bytes; summing independent component percentages is forbidden.
+A35|N>T|2|A92,A41|R,N,S|Distill a geometric mixture into one small decoder, or entropy-code snapshot deltas and share retrieval compute.|Price all snapshots, logits normalization and per-token forwards; compare one equal-total-byte model.
+A36|C>T|1|A61,A65,A90|R,D|Treat corpus-specific neural weights, programs and discrete latents as interchangeable descriptions in a total-cost search.|Fit exact corpus if beneficial, but store every corpus-dependent choice; statistical holdouts diagnose unstable search rather than define prize eligibility.
+A37|N|1|A42,A93|C,P|Transfer specific lexical contexts behind a disabled-by-default residual interface before merging entire pipeline state.|Validate source feature availability and pointwise native identity; reproduce full production preprocessing and code cost.
+A38|C|2|A47,A56|R,C|Optimize field ordering and revision residuals jointly with the order descriptor and a reversible record parser.|Use a full record inverse and native matched coder; later metadata is paid or unavailable in original order.
+A39|C|2|A50,A55|R,C|Build owner-title references from earlier decoded pages, with a short self/copy/escape hierarchy instead of a fixed external title list.|Price references, unmatched labels and language exceptions; test original and altered stream order separately.
+A40|N|2|A17,A43|R,P|Use lossless exponent/mantissa prediction first; only then assess selected BF16 conversions with final-bit sensitivity.|An exact mantissa codec preserves core predictions; any truncation requires measured native loss and serialization accounting.
+A41|N|1|A17,A95|R,S|Minimize actual packed source/executable and loader size using dead-code elimination and measured build variants.|Choose source versus executable packaging according to official multiplicity; include compile/runtime options and all required assets.
+A42|N|1|A31,A63,A82|C,N,F|Introduce a normalized post-mixer residual with a true neutral branch and conditional Bayesian context backoff.|Current conditional_gate_v1 is one finite branch; compare calibration, random relation, grammar and joint relation at equal gate complexity.
+A43|N>T|1|A16,A17,A90|R,P|Optimize per-tensor precision/codebook/scale choices by total native loss plus exact stored bytes, with a paid choice grammar.|Measure mixed-precision interactions; baseline parity and lambda-zero stability precede any QAT interpretation.
+A44|C|2|A08,A95|R,C,D|Search article permutations with an entropy-coded permutation and decoder-built dictionary regeneration, not a free sorted corpus.|Verify dictionary order/hash, inverse article order and initialization; minimize permutation plus actual coder cost.
+A45|N|2|A63,A70|N,P|Audit probability rounding and coder interval precision as a shared contract, then change only the interface with identical neutral outputs.|Compare exact integer archive bytes and independent decoding; larger softmax precision need not improve a already quantized coder.
+A46|T|1|A90,A93|R,P|Repair representative continuation, loss weighting and optimizer state before measuring the MDL rate frontier.|Require frozen and lambda-zero controls first, then modest rate penalties with actual tensor containers.
+A47|N|1|A51,A58|C,N|Use a conditional mixture of timestamp offsets, field schema and preceding-record deltas with hierarchical backoff.|All centers must be prefix-visible; assess full digit sequence, false centers and native binary/decimal interface.
+A48|N|2|A49,A58|C,N|Use a dictionary of observed username-to-ID mappings with an uncertainty-aware edit/fallback model for changes and collisions.|Normalize unseen names and changed IDs; include lookup memory and decoder-built mapping cost.
+A49|N|2|A48,A51|C,S|Use time-local contributor transitions keyed by causal schema and article state, rather than only the nearest timestamp.|Compare temporal-only and schema-only controls and all mismatches; approximate lookup must not use future records.
+A50|N|1|A39,A55|C,S|Use a normalized title-copy trie with language morphology and literal edit alternatives, reconstructed from decoded source fields.|Charge root escape, capitalization and nonmatching language forms; measure all interlanguage outcomes.
+A51|N|1|A47,A60|C,N|Replace a fixed two-center prior with a priced mixture of several prefix-known timestamp mechanisms and a null center.|Learn causal conditional gating rather than select the best center after seeing the target; native code/digit loss is decisive.
+A52|N|2|A55,A58|C,N|Use a hierarchical posterior over title-neighbor rank, redirect status and earlier IDs, with literal fallback.|Test monotonic-neighbor and random-title controls; include all page IDs, not only high-bit diagnostics.
+A53|N|2|A47,A52|C,N|Fit a piecewise conditional date model from preceding IDs/titles, using charged segmentation or universal backoff.|Compare it against decoded revision-ID prediction at the final coder; neither fitted slopes nor table breaks are free.
+A54|N|2|A51,A60|C,N|Use causal numeric features only when their source fields have been decoded; marginalize unavailable features.|Audit stream order and independent held blocks; high-bit entropy is not additive to existing low-digit modeling.
+A55|N|1|A27,A57,A71|C,N,S|Share a title/link trie between entity copies, retrieval keys and new-mention priors, with one bounded memory allocation.|Compare cold/warmed states and random keys; price every stored alias if it is not reconstructed from the prefix.
+A56|C|2|A38,A88|R,C|Build a reversible record-local dependency schedule and code the schedule only when it beats sequential original order.|Check acyclic availability and block boundaries; later fields cannot be injected without first decoding their paid representation.
+A57|N|1|A55,A58|C,N|Use article-conditioned exact and edited entity copies with a gate that rejects unrelated spelling neighbors.|Define normalized literal/copy/edit probabilities and compare title-only, schema-only and generic memory controls.
+A58|N|1|A59,A60|N,C|Use a proper pair-HMM over decoded field donors with insertion/deletion/substitution/escape mass, selected before the target.|Score complete edit paths through forward marginalization; soft edit energy is not automatically a probability or metric.
+A59|N|1|A58,A61|C,S|Detect repeat line schemas with bounded prefix keys, then model numeric/text edits rather than matching whole literal lines.|Use decoded line starts only; compare masked keys and same-budget random donors with every nonmatch charged.
+A60|N|1|A47,A58,A61|C,N|Combine unit-aware recurrence, copy and formatting hypotheses as normalized latent programs with a fallback.|Score wrong programs as well as successes; include leading zeros, signs, Unicode units and all decimal boundaries.
+A61|C|1|A36,A59,A65|R,D|Use corpus program synthesis with a two-part code: rule definitions, occurrence dispatch, residual literals and exact inverse.|Choose shared main-text/schema rules by joint net saving, not numeric templates alone; price overlaps, ordering and dead rules.
+A62|N|1|A42,A63|C,N,F|Adapt temperature only in prefix-visible uncertainty/slot contexts with an exact neutral branch and universal gate.|Current generic arm is a finite test; require integer archive gains beyond packaged code, not standalone neural loss.
+A63|N|1|A42,A45|C,N,P|Use learned hierarchical integer odds with quantization tax tracked separately and a cheap production implementation.|Compare replay and actual range-coded bytes; existing E/F have already been examined and are not fresh holdouts.
+A64|N|1|A55,A79,A82|C,N|Make first-mention, repeated-mention and suffix priors conditional on article state and grammar instead of unconditional suppression.|Include unknown upcoming word identity, literal paths and partial EOF correctly; inspect remaining cost strata after the gate.
+A65|C>T|1|A26,A61,A88|R,N|Search paid discrete article latents and rule dictionaries that explain several expensive events, rather than only unigram topics.|Optimize latent bits plus all payload and decoder bytes; use a marginal/escape model for wrong or missing topic information.
+A66|N>T|1|A21,A55,A71|C,I|Build an untransmitted causal article latent from title/link/schema evidence and compress it into predictive summaries.|Compare causal versus paid right-context information at equal resource budgets; keep external knowledge in the package if used.
+A67|N>T|1|A13,A70,A84|C,N,P|Attach normalized residuals to the existing dictionary-code tree, preserving literal paths and exact word-ending state.|Current gate reuses this interface; a new word head must score all paths, not only observed target-word losses.
+A68|T|1|A30,A70,A92|R,N|Factor spelling and semantic code embeddings with tied input/output residuals and actual entropy-coded quantization.|Compare composer, pure low-rank and equal-byte untied heads; unseen spellings and tail IDs remain losslessly expressible.
+A69|N>T|2|A18,A67,A70|S,C|Trigger expensive reasoning only at decoder-known word events and allocate extra iterations by expected net value.|Count full softmax/search/startup, rather than calling the proposal stage O(K); measure exact CPU per word and total.
+A70|N>T|1|A45,A67,A68|N,S,P|Use an exact conditional tree or tiled full softmax, with integer normalizers and optional bounded candidate/fallback acceleration.|Verify normalization, integer parity and all-tail coverage; approximate top-K cannot discard unpriced probability mass.
+A71|N|1|A27,A33,A55|C,S|Use compact title/link keyed summaries with deterministic incremental indexing and an explicit top-donor null gate.|A cold 2-MB bank is not a full-history test; warmed native probabilities and source reconstruction time are required.
+A72|N>T|2|A30,A74,A82|I,N|Use only independent letter moments, and add a learned contextual relevance component rather than a higher-degree redundant basis.|Geometry arm tests a fixed graph; independent-basis, random covariance and learned relation tests are distinct follow-ups.
+A73|N>T|3|A04,A72|I,R|Use glyph similarity as one shared feature of a relational residual, with spelling and semantic exceptions explicitly separated.|A same-capacity random-glyph control determines attributable gain; pixel similarity cannot establish semantic association.
+A74|N>T|1|A58,A72,A80|N,C|Combine edit, affix, phonetic and word-class channels in a proper probabilistic relation model with a context-dependent rejection option.|Current fixed neighbors are only initialization; test no/know and unrelated lookalikes without hand-picked target hindsight.
+A75|N|2|A27,A71,A74|S,P|Use deterministic multistage candidate generation with exact score verification, sharing one index across channels.|Measure full build/search memory and recall by actual predictive benefit, not nearest-neighbor score recall alone.
+A76|N|2|A25,A81|I,C|Turn lag coverage into an opportunity ledger that accounts for false positives and conditional benefit, not a free-memory oracle.|Measure all candidate activations and context availability; a restricted donor ceiling does not bound all architectures.
+A77|N|1|A25,A79,A82|C,N,F|Use signed echoes behind a conditional backoff gate and compare strength/decay priors that charge online selection.|Current gate tests geometry/grammar interaction; exact-echo and hazard channels are a registered extension, not already completed.
+A78|N>T|1|A79,A81|C,N|Use a causal low-rank distance-conditioned placement kernel, with within-sentence slot state and a null transition.|Compare class-only versus full-word pairs and random lag kernels; never substitute a known future endpoint for prefix data.
+A79|N>T|1|A64,A82,A89|C,N,F|Infer a coarse slot posterior from the prefix, then refine variable-order constructor histories and lexical class transitions.|Current grammar_joint tests coarse syntax/run; true POS and rich syntactic state require separate supervision or priced grammar.
+A80|N>T|1|A25,A74,A81|C,N,I|Store signed latent activation with learned rejection and a value-based survival rule, sharing persistent state across relation channels.|Compare fixed echoes, random activation and learned content-conditioned survival under final-bit supervision and fixed RAM.
+A81|N>T|1|A25,A76,A80|C,I,R|Optimize causal expected future log-loss benefit minus state and compute cost; use risk-aware eviction when estimates are uncertain.|Next-event hazard and 256-event recurrence are different targets; counterfactual benefit needs normalized full predictions.
+A82|N>T|1|A06,A79,A84|N,F|Model relation and placement jointly with calibrated interactions rather than multiply marginal boosts as independent evidence.|Current conditional_gate_v1 gives a finite Bayesian joint family; interpret its increment only after generic/random controls.
+A83|T|1|A28,A80,A84|R,N,S|Share one compact residual representation with specialist heads and a sparse gate; avoid multiple full transformers for placement.|Factorial ablations must separate shared capacity savings, specialization and gate effects under total package bytes.
+A84|N>T|1|A42,A67,A93|C,N,P|Train or adapt an independent residual directly against immutable native final bits, avoiding the unfaithful core GPU port.|Causal features and exact neutral export first; continuous learned residuals remain separate from the current finite online gate.
+A85|C|1|A11,A87,A88|R,C|Allow original order or constructor/content split per block, with a paid selector and exact skeleton/constant/literal reconstruction.|Repeated sets do not remove placement entropy; measure all streams together against the same final coder.
+A86|C|2|A85,A87|R,D|Encode multiset identity and a multinomial/permutation residual, sharing only where the net code actually falls.|Charge count vectors, repeated constructors and order; optimize subsets with explicit dictionary and membership costs.
+A87|C|1|A61,A85,A89|R,D|Use an ordered shared grammar with rule expansion, substitution and literal fallback, jointly selecting profitable rules.|A paid MDL grammar must beat total symbol/payload costs; numeric-only frozen packets do not exhaust textual templates.
+A88|C>T|1|A10,A56,A65|R,C,N|Decode paid content/endpoints before constructor gaps, then use a normalized endpoint-conditioned gap model; neural infill comes later.|Begin with a strong exact classical gap codec and a causal control; positions, tense alternatives, punctuation and rare constants are charged.
+A89|N|1|A79,A82,A87|C,N,F|Combine prefix constructor-run evidence with native uncertainty and relation context; strengthen to variable-order histories if coarse gates fail.|Current random/grammar/geometry plus-run arms are controls; success needs an increment above generic calibration and native package cost.
+A90|T|1|A43,A46,A91|R,P|Fit the rate-distortion frontier using correct representative sampling, native validation and actual weight entropy, staged within 70 USD.|Repair lambda-zero continuation and frozen parity before spending on regularized winners; hold cost cap and export gate.
+A91|T|1|A15,A84,A90|R,C|Sample by residual cost with explicit importance weights preserving the global objective; model mixer response instead of neural-only targets.|Compare unbiased importance weighting with uniform/token-weighted controls; report full-corpus rate, not selected difficult examples.
+A92|T|2|A20,A35,A68|R,P,S|Use a larger teacher only in training, distill code-tree/final-bit probabilities, and merge/export a small low-rank adapter.|Include teacher calibration and random/identity student controls; price inference student bytes and any retained teacher assets.
+A93|V|1|A43,A84,A95|P,C|Lock checkpoint/configuration, preprocessing and exact native probability contracts before core retraining or representation changes.|Pointwise integer tests, carry/reset/quantization boundaries and neutral archive identity; aggregate GPU loss is insufficient.
+A94|N>T|1|A17,A90,A93|R,S,P|Reconstruct or compress native priors and cached inputs with exact index/order checks and bounded throughput buffers.|Do not ship training-only caches; compute rented hours from measured throughput and mandatory export/verification reserve.
+A95|V|1|A41,A71,A93|R,C,S,P|Test warmed production history and actual self-contained compressor/archive with every loader, model, dictionary and option counted.|Native independent decode of all one billion bytes, CPU Geekbench-normalized limits, peak RAM/disk and unchanged roundtrip hashes.
+'''.strip()
+lookup={a['id']:a for a in audit['audit_entries']}
+entries=[]
+current=set('A06 A17 A42 A62 A63 A64 A67 A72 A75 A79 A82 A84 A89'.split())
+memory=set('A18 A23 A25 A27 A32 A33 A55 A66 A71 A76 A80 A81'.split())
+semantic=set('A30 A72 A74 A75 A80 A82'.split())
+for line in spec.splitlines():
+    id,route,priority,partners,formal,variant,test=line.split('|')
+    assert id in lookup
+    old=lookup[id]
+    tested=id in current or id in memory or id in semantic or id in {'A26','A36','A65'}
+    row={'id':id,'title':old['title'],'route':route,'priority':int(priority),'combination_partners':partners.split(','),'formal_contracts':formal.split(','),'stronger_descendant':variant,'discriminating_test':test,'historical_evidence':old,'status':'PARTIAL_DIAGNOSTICS_COMPLETE_FULL_FAMILY_OPEN' if tested else 'DESCENDANT_DESIGN_ONLY_NOT_EXECUTED','fully_explored':False,'thinking_hours':'NOT_A_CLAIM_OR_COMPLETION_METRIC','round8_evidence':[]}
+    row['prerequisites']=['actual native final-bit trace','prefix-only feature contract','normalized complete outcome support','paired controls','packed-code/model cost and CPU/RAM'] if 'N' in route else ['exact inverse / reachability contract' if 'C' in route else 'frozen native/export parity','correct complete-corpus weighted objective','actual asset-size accounting','matched capacity and compute controls']
+    if id=='A17':row['round8_evidence'].append('weight_partition_v1: finite dyadic optimum, diagnostic cost only, not C3 container')
+    elif id in current:row['round8_evidence'].append('conditional_gate_v1: full ABCD 2M; relation/grammar increment does not beat generic')
+    if id in memory:row['round8_evidence'].append('clean_title_v4 + warm_source_v1: XML/key repairs; genuine prefix-memory, CORE STILL COLD; no gain')
+    if id in semantic:row['round8_evidence'].append('semantic_graph_v1 + semantic_replay_v1: frozen GloVe graph with shuffled/spelling controls; AB128K no promotion')
+    if id in {'A25','A26','A36','A65','A81','A82'}:row['round8_evidence'].append('paid_schedule_v1: exact finite policy-duration program; generic beats added relations')
+    continuous=project_path('research_round8_continuous_manifest.json', base=R)
+    if continuous.exists() and id in semantic|{'A42','A62','A63','A67','A79','A84','A89'}:
+        cm=json.loads(continuous.read_text(encoding='utf-8'));row['round8_evidence'].append('continuous_strength_v2: '+cm['status']+'; bounded linear statistical head, no core retraining')
+    fixed=project_path('research_round8_fixed_semantic_manifest.json', base=R)
+    if fixed.exists() and id in semantic|{'A26','A36','A67','A84'}:
+        fm=json.loads(fixed.read_text(encoding='utf-8'));row['round8_evidence'].append('fixed_semantic_v1: '+fm['status']+'; independent q16 parity, full ABCD2M, exact priced source-row subset')
+    directed=project_path('research_round8_directed_memory_manifest.json', base=R)
+    if directed.exists() and id in memory|{'A19','A20','A31','A74','A77','A78','A79','A82','A84','A89'}:
+        dm=json.loads(directed.read_text(encoding='utf-8'));row['round8_evidence'].append('directed_memory_v1: '+dm['status']+'; decoder-built bounded associations, warm source/cold core, no semantic graph asset')
+        row['status']='PARTIAL_DIAGNOSTICS_COMPLETE_FULL_FAMILY_OPEN'
+    entries.append(row)
+assert len(entries)==95 and len({r['id'] for r in entries})==95
+assert set(lookup)=={r['id'] for r in entries}
+body={'date':'2026-10-06','session':355655943,'status':'ONGOING_NOT_COMPLETE','core_retraining_this_turn':False,'paid_rental_usd':0,'deletions':[],'entry_count':95,'entries':entries}
+(project_path('research_round8_idea_program.json', base=R)).write_text(json.dumps(body,indent=2,ensure_ascii=False),encoding='utf-8')
+preface='''# Round 8: per-idea research program and stronger descendants
+
+This continues the 95-family audit with an explicit stronger descendant and discriminating test for every family. It does not mark any family fully explored or certify equivalence to years of LLM research. All entries remain open. A failed finite prototype identifies a failed member, not a failed research field. The target is actual qualifying package bytes, rather than rhetorical sophistication or unrecorded thinking hours.
+
+## Formal contracts shared by the experiments
+
+**R — total description:** Minimize the selected official package formula, not payload alone. For self-extracting form, S=|compressor|+|archive|; for separate compressor/decompressor form the official multiplicities apply. Every weight, grammar, rule, alias table, ordering, flag, side message and codec loader belongs to a counted artifact. A larger model is beneficial only if its actual payload reduction exceeds its total extra package bytes. The official site still lists 100,424,672 bytes; a strict >20% improvement needs at most 80,339,737 bytes. Rechecked 6 October 2026: [official prize page](https://www.hutter1.net/prize/index.htm) and [detailed rules](https://www.hutter1.net/prize/hrules.htm).
+
+**C — causal availability:** Let F_t be the sigma-field generated by the decoded prefix, stored package assets and declared decoder state before event t. A signal and its gate must be F_t-measurable. For a paid reordering, prove the inverse schedule and expose the newly decoded earlier content in F_t; it cannot appear by oracle. Native core updates follow their original decoded-symbol trajectory when an external residual is tested on an unchanged stream.
+
+**N — normalization and conditional evidence:** Define a complete q_t over the same event as p_t. A residual tilt q(y) proportional to p(y)exp(score(y)) pays its normalizer. At a bit event, logistic tilting gives a normalized Bernoulli directly. Target-word observed loss does not expose all counterfactual probabilities. Correlated relation, syntax and memory channels require joint calibration or interactions. Multiplying marginal odds as if independent can double count evidence already in p.
+
+**U — universal estimation:** Finite-class priors or Dirichlet marginals charge estimation, even for decoder-built statistical models. Prefix-reconstructed state has no transmitted state bytes, but its model-selection regret, code, update compute and RAM remain costs. An empirically fitted histogram entropy without its prior/header is not a container size.
+
+**F — finite-search guarantee:** A declared Bayesian mixture has L_mix <= L_candidate - log2 prior(candidate) in ideal arithmetic. The tree gate extends this to declared prunings and leaf choices. Actual Q16 rounding, numerical implementation and coder framing are measured separately. The guarantee says nothing about unsearched architectures or an absolute optimum.
+
+**D — finite optimization:** For an explicit acyclic grammar, optimize shared-rule/partition choices with exact dynamic programming when separable. The weight partition branch proves a minimum within its dyadic grammar. If choices overlap (text macro cover, ordering, shared compute), model the interactions and solve a stated integer program/beam search with upper/lower bounds; do not call a heuristic global search optimal.
+
+**I — conditional information and opportunity:** Decoded history contains information even if a short-window core forgot it; retrieval can make it usable. A deterministic glyph or spelling embedding adds no information to an unlimited predictor, but may improve a constrained predictor's inductive bias. Count all false activations. Distinguish next-event hazard from recurrence within a future horizon. Raw entropy, restricted donor oracles and tested-pool ceilings are diagnostics, not universal lower bounds.
+
+**S — resources:** Price search/index construction, normalization, code-tree work, hidden-vector storage, sparse state and neural forwards. Top-K output is not automatically O(K) if its retrieval or full normalizer is expensive. Official executable limits are individually 70,000/T hours, at most 10 GB RAM and 100 GB temporary disk, with no GPU at execution. Preserve training-only GPU experiments separately from an eligible decoder.
+
+**P — reproducibility:** Hash input and assets, preserve source/build/flags, require pointwise native identity at the neutral setting and an independent-process inverse. Compare exact archived bytes after freezing a configuration. A/B are development; C/D are examined confirmation. E/F are also examined now. New G/H regions need preregistered offsets, not a best-region search.
+
+## Search and combination policy
+
+N means an unchanged-core statistical/predictor or exact-storage branch; C means a reversible representation/order branch; T needs a newly trained neural component; V is qualification. N>T denotes a frozen or classical precursor followed by a genuinely learned descendant. No T family is labeled executed by a weak N substitute. Priority 1 is a current prerequisite or promising large-ceiling mechanism, 2 is secondary, 3 is an alternative that needs stronger pilot evidence.
+
+The current first combination is native-final-bit calibration × spelling relation × constructor placement, behind an adaptive context-tree gate. Its 25 candidates include separate, joint and interaction terms with identical priors. The second is a globally optimized, complexity-priced finite family of exact weight partitions. Next combinations should share parser/relation/memory state rather than merely append modules: title/link state × first-mention residual × retention; schema/pair-HMM × numeric recurrence × shared program dictionaries; and paid content/latent decoding × constructor gap grammar. A component's incremental gain is evaluated conditional on the combined baseline and contrasted with same-capacity random/generic controls.
+
+Every branch begins with a specification and mathematical contract, then independent implementation checks, an informative pilot, optimized variants, ablations and boundary cases, resource-aware native integration, and wider/full production verification. Failure generates an altered mechanism and a specific new test; it does not guarantee that altered mechanism will win. Promotion requires evidence. We cannot honestly terminate an open-ended idea by saying it is optimal in every conceivable way.
+
+## Per-family continuation
+
+Each entry links its original evidence and states the new work separately. The historical audit is at [research_round1_to_round7_idea_audit.md](research_round1_to_round7_idea_audit.md). Some early-source gaps in that audit have now been partly closed by the recovered 18-configuration/54-checkpoint lab ledger; its exact chronology relative to the reported 400-step first screen is not yet certified.
+
+'''
+parts=[preface]
+for r in entries:
+    parts += [f"### {r['id']}: {r['title']}\n\n",
+              f"Route **{r['route']}**, priority {r['priority']}; status **{r['status']}**. Contracts: {', '.join(r['formal_contracts'])}. Combine with {', '.join(r['combination_partners'])}.\n\n",
+              f"**Stronger mechanism:** {r['stronger_descendant']}\n\n",
+              f"**Discriminating test:** {r['discriminating_test']}\n\n",
+              f"**New evidence:** {'; '.join(r['round8_evidence']) or 'No round8 descendant experiment executed for this family.'}\n\n",
+              f"**Historical limitation and required depth:** {r['historical_evidence']['actual_testing_and_needed_testing']}\n\n",
+              "**Completion gate:** Exact outcome support, independent controls, optimized resource/description costs and native/full verification are still required. No private thinking-hour or absolute-potential claim is made.\n\n"]
+(project_path('research_round8_idea_program.md', base=R)).write_text(''.join(parts),encoding='utf-8')
+print(json.dumps({'families':len(entries),'all_open':all(not r['fully_explored'] for r in entries),'routes':dict(collections.Counter(r['route'] for r in entries)),'priority':dict(collections.Counter(r['priority'] for r in entries)),'markdown_bytes':(project_path('research_round8_idea_program.md', base=R)).stat().st_size}))

@@ -1,0 +1,46 @@
+
+# Resolve local assets after the repository directory reorganization.
+try:
+    if __package__ == "scripts":
+        from ._workspace_layout import project_root, project_path, project_glob, project_iterdir
+    else:
+        from _workspace_layout import project_root, project_path, project_glob, project_iterdir
+except ModuleNotFoundError as _layout_error:
+    if _layout_error.name != "_workspace_layout":
+        raise
+    # Standalone workers retain their original layout on remote machines.
+    from pathlib import Path as _LayoutPath
+    def project_root(filename):
+        return _LayoutPath(filename).resolve().parent
+    def project_path(name="", *, base=None):
+        return (base if base is not None else project_root(__file__)) / name
+    def project_glob(pattern, *, base=None):
+        return (base if base is not None else project_root(__file__)).glob(pattern)
+    def project_iterdir(*, base=None):
+        return (base if base is not None else project_root(__file__)).iterdir()
+
+from pathlib import Path
+r=project_root(__file__)
+s=(project_path('research_round8_hidden_cache_replay.cpp', base=r)).read_text(encoding='utf-8')
+s=s.replace('constexpr int ARMS=5', 'constexpr int ARMS=7')
+s=s.replace('int cap,dim,used=0,pos=0;std::vector<Row> rows;', 'int cap,dim,used=0,pos=0;bool reservoir=false;uint64_t seen=0,randomstate=918741;std::vector<Row> rows;')
+s=s.replace('Cache(int n,int d,bool shuffled=false):cap(n),dim(d),rows(n)', 'Cache(int n,int d,bool shuffled=false,bool keep_old=false):cap(n),dim(d),reservoir(keep_old),rows(n)')
+old='void update(const Key&k,uint8_t y){double n=norm(k,dim);if(n==0)return;rows[pos]={k,n,y};pos=(pos+1)%cap;used=std::min(used+1,cap);}'
+new='''void update(const Key&k,uint8_t y){double n=norm(k,dim);if(n==0)return;seen++;if(reservoir){if(used<cap){rows[used++]={k,n,y};return;}uint64_t pick=rngstep(randomstate)%seen;if(pick<uint64_t(cap))rows[pick]={k,n,y};return;}rows[pos]={k,n,y};pos=(pos+1)%cap;used=std::min(used+1,cap);}'''
+assert s.count(old)==1;s=s.replace(old,new)
+s=s.replace('Cache small(128,FULL),large(512,FULL,true),proj(512,PROJ);', 'Cache small(128,FULL),large(512,FULL,true),proj(512,PROJ),longterm(512,FULL,true,true);')
+s=s.replace('qs[3]=large.query(current,prior,true);valid++;', 'qs[3]=large.query(current,prior,true);qs[5]=longterm.query(current,prior);qs[6]=longterm.query(current,prior,true);valid++;')
+s=s.replace('for(int i=0;i<4;i++)qs[i]=prior;', 'for(int i:{0,1,2,3,5,6})qs[i]=prior;')
+s=s.replace('proj.update(project(current),ybyte);}', 'proj.update(project(current),ybyte);longterm.update(current,ybyte);}')
+s=s.replace('feature_record_bytes\\\":23', 'feature_record_bytes\\\":31').replace('sizeof(Row)*(128+512+512)', 'sizeof(Row)*(128+512+512+512)')
+s=s.replace('auto p=project(a);', 'Cache rs(2,FULL,false,true),rs2(2,FULL,false,true);for(int i=0;i<100;i++){rs.update(a,uint8_t(i));rs2.update(a,uint8_t(i));}assert(rs.seen==100&&rs.used==2&&rs.rows[0].target==rs2.rows[0].target&&rs.rows[1].target==rs2.rows[1].target);auto p=project(a);')
+s=s.replace('projection determinism\\\"]', 'projection determinism\\\",\\\"long-term reservoir deterministic and bounded\\\"]')
+(project_path('research_round8_hidden_cache_replay_v2.cpp', base=r)).write_text(s,encoding='utf-8')
+f=(project_path('research_round8_hidden_cache_fit_worker.py', base=r)).read_text(encoding='utf-8')
+f=f.replace("D=R/'hidden_cache_v1'", "D=R/'hidden_cache_v2'").replace('research_round8_hidden_cache_replay.cpp','research_round8_hidden_cache_replay_v2.cpp')
+f=f.replace("('signals','<f4',(5,))", "('signals','<f4',(7,))").replace('dtype.itemsize==23','dtype.itemsize==31').replace('4096*8*23','4096*8*31')
+f=f.replace("'plain_recency_fifo512','joint_hidden_and_recency'", "'plain_recency_fifo512','hidden192_reservoir512','shuffled_targets_reservoir512','joint_hidden_and_recency'")
+f=f.replace('if arm==6:', 'if arm==8:').replace('for j in [0,1,2,4]', 'for j in [0,1,2,4,5]')
+f=f.replace('-.375', '-.5')
+(project_path('research_round8_hidden_cache_v2_fit_worker.py', base=r)).write_text(f,encoding='utf-8')
+print('Prepared preregistered longer-lived cache and matched controls; nine heads')

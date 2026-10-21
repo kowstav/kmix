@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from research_round10_bf16_repair import bf16_bits,promoted_bf16
+from scripts.research_round10_bf16_repair import bf16_bits,promoted_bf16
 class BF16(unittest.TestCase):
  def test_half_even_and_sign(self):
   # Exact midpoint between adjacent BF16 values; lower significand odd/even.

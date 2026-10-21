@@ -1,2 +1,0 @@
-import json,pathlib,subprocess
-r=pathlib.Path('/kaggle/working/hp_round7');assert not (r/'exact_prior_transforms_v1').exists();assert json.loads((r/'exact_prior_storage_v1/manifest.json').read_text())['status']=='COMPLETE';log=(r/'exact_prior_transforms_v1_controller.log').open('x');p=subprocess.Popen(['python',str(r/'research_round7_prior_transforms_worker.py')],stdout=log,stderr=subprocess.STDOUT,start_new_session=True);print(json.dumps({'prior_transform_pid':p.pid,'neural_training':False}))

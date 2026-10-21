@@ -1,2 +1,0 @@
-import json,pathlib,subprocess
-r=pathlib.Path('/kaggle/working/hp_round7');assert not (r/'calibration_native_v2').exists();assert json.loads((r/'calibration_native_v1/manifest.json').read_text())['status']=='FAIL';log=(r/'calibration_native_v2_controller.log').open('x');p=subprocess.Popen(['python',str(r/'research_round7_calibration_native_v2_worker.py')],stdout=log,stderr=subprocess.STDOUT,start_new_session=True);print(json.dumps({'native_v2_pid':p.pid,'reused_build':True}))
